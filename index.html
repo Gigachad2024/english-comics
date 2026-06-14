@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>English Vault — Tokyo Debug Chronicles</title>
+  <meta name="description" content="Học tiếng Anh qua truyện tranh: debug code, du lịch Nhật, sống ở Tokyo. 5 arc, 57 tập, có lộ trình học.">
+  <meta property="og:title" content="English Vault: Tokyo Debug Chronicles">
+  <meta property="og:description" content="Software engineer life. English battles. Tokyo nights.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#070b14">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗼</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20250614-v3">
+</head>
+<body>
+
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <div id="loader" class="loader">
+    <div class="loader-shield">🗼</div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+    <p>Đang tải truyện...</p>
+  </div>
+
+  <div id="search-modal" class="modal hidden" role="dialog" aria-label="Tìm kiếm">
+    <div class="modal-backdrop" onclick="App.closeSearch()"></div>
+    <div class="modal-panel search-panel">
+      <div class="search-input-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input id="search-input" type="search" placeholder="Tìm tập, cụm từ (deploy, apartment…)…" autocomplete="off">
+        <kbd class="search-kbd">Esc</kbd>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </div>
+
+  <div id="shortcuts-modal" class="modal hidden" role="dialog" aria-label="Phím tắt">
+    <div class="modal-backdrop" onclick="App.closeShortcuts()"></div>
+    <div class="modal-panel shortcuts-panel">
+      <h3>⌨️ Phím tắt</h3>
+      <div class="shortcut-grid">
+        <div><kbd>←</kbd><kbd>→</kbd><span>Chuyển tập</span></div>
+        <div><kbd>F</kbd><span>Toàn màn hình</span></div>
+        <div><kbd>Z</kbd><span>Phóng to ảnh</span></div>
+        <div><kbd>S</kbd><span>Chia sẻ link</span></div>
+        <div><kbd>?</kbd><span>Phím tắt</span></div>
+        <div><kbd>/</kbd><span>Tìm kiếm</span></div>
+        <div><kbd>Esc</kbd><span>Đóng / Về danh sách</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="zoom-overlay" class="zoom-overlay hidden" onclick="App.closeZoom()">
+    <img id="zoom-img" src="" alt="">
+    <button class="zoom-close" onclick="App.closeZoom()">✕</button>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#/" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">English Vault</span>
+          <span class="logo-sub">Tokyo Debug</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <button class="icon-btn" onclick="App.openSearch()" title="Tìm kiếm (/)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="icon-btn" id="theme-toggle" onclick="App.toggleTheme()" title="Đổi theme">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#/" class="nav-pill active" id="nav-home">Trang chủ</a>
+        <a href="#/roadmap" class="nav-pill" id="nav-roadmap">Lộ trình</a>
+        <a href="#/patterns" class="nav-pill" id="nav-patterns">Patterns</a>
+        <a href="#/bookmarks" class="nav-pill" id="nav-bookmarks">Đã lưu</a>
+      </div>
+    </div>
+  </header>
+
+  <div id="continue-banner" class="continue-banner hidden">
+    <div class="continue-inner">
+      <div class="continue-info">
+        <span class="continue-label">📖 Tiếp tục đọc</span>
+        <span id="continue-text"></span>
+      </div>
+      <button class="btn btn-primary btn-sm" id="continue-btn">Đọc tiếp →</button>
+      <button class="icon-btn icon-btn-sm" onclick="App.dismissContinue()" title="Đóng">✕</button>
+    </div>
+  </div>
+
+  <main id="app">
+
+    <section id="page-home" class="page">
+      <div class="hero">
+        <div class="hero-badge">🗼 Tokyo Debug Chronicles</div>
+        <h1>Học tiếng Anh qua<br><span class="hero-gradient">truyện tranh dev</span></h1>
+        <p class="hero-desc" id="hero-desc">Debug production · Du lịch Nhật · Sống ở Tokyo</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-lg" id="hero-primary-btn" onclick="App.startLearning()">🗺️ Bắt đầu học</button>
+          <button class="btn btn-ghost btn-lg" onclick="App.startReading()">📖 Đọc tiếp</button>
+          <button class="btn btn-ghost btn-lg" onclick="App.navigate('#/patterns')">🧠 Patterns</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-num" id="stat-series" data-count="6">0</div>
+            <div class="stat-label">Arc truyện</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" id="stat-episodes" data-count="67">0</div>
+            <div class="stat-label">Tập truyện</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" id="stat-read">0</div>
+            <div class="stat-label">Đã đọc</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="roadmap-teaser" id="roadmap-teaser"></div>
+      <div class="spotlight" id="spotlight"></div>
+
+      <div class="section-header">
+        <h2 class="section-title">📚 Tất cả arc truyện</h2>
+        <div class="filter-pills" id="filter-pills"></div>
+      </div>
+      <div class="series-grid" id="series-grid"></div>
+    </section>
+
+    <section id="page-series" class="page hidden">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#/">Trang chủ</a>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        <span id="series-breadcrumb"></span>
+      </nav>
+
+      <div class="series-hero" id="series-hero">
+        <div class="series-cover-wrap">
+          <img id="series-cover" src="" alt="" class="series-cover">
+          <div class="series-cover-overlay"></div>
+        </div>
+        <div class="series-hero-content">
+          <span class="series-tag" id="series-tag"></span>
+          <div class="series-hero-top">
+            <span class="series-hero-icon" id="series-hero-icon"></span>
+            <h1 id="series-hero-title"></h1>
+          </div>
+          <p id="series-hero-desc"></p>
+          <div class="series-meta">
+            <span id="series-ep-count"></span>
+            <span class="meta-dot">·</span>
+            <span id="series-progress-text"></span>
+          </div>
+          <div class="series-progress-bar">
+            <div class="series-progress-fill" id="series-progress-fill"></div>
+          </div>
+          <button class="btn btn-primary" id="series-start-btn">Đọc từ đầu →</button>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <h2 class="section-title">Danh sách tập</h2>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="list" onclick="App.setEpisodeView('list')" title="Danh sách">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+          </button>
+          <button class="view-btn" data-view="grid" onclick="App.setEpisodeView('grid')" title="Lưới">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="episode-list" id="episode-list"></div>
+    </section>
+
+    <section id="page-reader" class="page hidden">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="#/">Trang chủ</a>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        <a href="#" id="reader-breadcrumb-series"></a>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        <span id="reader-breadcrumb-ep"></span>
+      </nav>
+
+      <div class="reader" id="reader-container">
+        <div class="reader-toolbar">
+          <div class="reader-info">
+            <span class="reader-ep-badge" id="reader-ep-badge"></span>
+            <h2 id="reader-title"></h2>
+            <p id="reader-series"></p>
+          </div>
+          <div class="reader-actions">
+            <button class="icon-btn" id="btn-bookmark" onclick="App.toggleBookmark()" title="Đánh dấu">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            </button>
+            <button class="icon-btn" onclick="App.shareEpisode()" title="Chia sẻ (S)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
+            </button>
+            <button class="icon-btn" onclick="App.toggleFullscreen()" title="Toàn màn hình (F)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+            </button>
+            <button class="icon-btn" onclick="App.openShortcuts()" title="Phím tắt (?)">?</button>
+          </div>
+        </div>
+
+        <div class="comic-viewer" id="comic-viewer">
+          <button class="nav-zone nav-zone-left" id="nav-zone-left" aria-label="Tập trước"></button>
+          <div class="comic-frame" id="comic-frame">
+            <div class="comic-skeleton" id="comic-skeleton"></div>
+            <img id="comic-img" src="" alt="" decoding="async" onclick="App.openZoom()">
+          </div>
+          <button class="nav-zone nav-zone-right" id="nav-zone-right" aria-label="Tập sau"></button>
+        </div>
+
+        <div class="takeaway-panel" id="takeaway-panel">
+          <h3 class="takeaway-title">🗣️ English Focus</h3>
+          <p class="takeaway-glossary-hint">Cụm từ quan trọng trong tập này — luyện đọc to và áp dụng vào công việc &amp; đời sống.</p>
+          <p class="takeaway-summary hidden" id="takeaway-summary"></p>
+          <ul class="takeaway-list" id="takeaway-list"></ul>
+          <p class="takeaway-twist hidden" id="takeaway-twist"></p>
+          <p class="takeaway-slogan hidden" id="takeaway-slogan"></p>
+          <div id="takeaway-extra" class="takeaway-extra"></div>
+        </div>
+
+        <div class="reader-controls">
+          <button class="btn" id="btn-prev">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+            Trước
+          </button>
+          <div class="progress-wrap">
+            <div class="progress-bar">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span class="progress-text" id="progress-text"></span>
+          </div>
+          <button class="btn btn-primary" id="btn-next">
+            Tiếp
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+
+        <p class="keyboard-hint">
+          <kbd>←</kbd><kbd>→</kbd> chuyển tập · <kbd>Z</kbd> phóng to · <kbd>F</kbd> fullscreen · <kbd>S</kbd> chia sẻ
+        </p>
+
+        <div class="episodes-carousel">
+          <h3 class="carousel-title">Tất cả tập trong arc</h3>
+          <div class="thumb-scroll" id="thumb-scroll"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-roadmap" class="page hidden">
+      <div id="roadmap-root" class="roadmap-root"></div>
+    </section>
+
+    <section id="page-patterns" class="page hidden">
+      <div id="patterns-root" class="patterns-root"></div>
+    </section>
+
+    <section id="page-bookmarks" class="page hidden">
+      <div class="page-header">
+        <h1>📚 Thư viện của bạn</h1>
+        <p class="page-desc">Tập đã đánh dấu và lịch sử đọc gần đây</p>
+      </div>
+
+      <div class="library-section">
+        <h2 class="section-title">⭐ Đã đánh dấu</h2>
+        <div id="bookmarks-list" class="library-list"></div>
+      </div>
+
+      <div class="library-section">
+        <h2 class="section-title">🕐 Đọc gần đây</h2>
+        <div id="history-list" class="library-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="review-modal" class="modal hidden" role="dialog" aria-label="Review Mode">
+    <div class="modal-backdrop" onclick="App.closeReviewMode()"></div>
+    <div class="modal-panel review-panel">
+      <h3>🔄 English Vault Review Mode</h3>
+      <p class="review-desc">Copy prompt này vào ChatGPT/Claude — luyện nói theo pattern vừa học.</p>
+      <textarea id="review-prompt-text" rows="10" readonly></textarea>
+      <div class="review-actions">
+        <button class="btn btn-primary" type="button" onclick="App.copyReviewPrompt()">📋 Copy prompt</button>
+        <button class="btn btn-ghost" type="button" onclick="App.closeReviewMode()">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="#/" class="mobile-nav-item active" data-nav="home">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+      <span>Trang chủ</span>
+    </a>
+    <a href="#/roadmap" class="mobile-nav-item" data-nav="roadmap">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h12M3 18h6"/><circle cx="19" cy="12" r="3"/></svg>
+      <span>Lộ trình</span>
+    </a>
+    <a href="#/patterns" class="mobile-nav-item" data-nav="patterns">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <span>Patterns</span>
+    </a>
+    <button class="mobile-nav-item" onclick="App.openSearch()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <span>Tìm</span>
+    </button>
+    <button class="mobile-nav-item" id="mobile-continue" onclick="App.continueReading()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      <span>Đọc tiếp</span>
+    </button>
+    <a href="#/bookmarks" class="mobile-nav-item" data-nav="bookmarks">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+      <span>Đã lưu</span>
+    </a>
+  </nav>
+
+  <button class="scroll-top hidden" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Lên đầu trang">↑</button>
+
+  <script src="js/learn.js?v=20250614-v3"></script>
+  <script src="js/app.js?v=20250614-v3"></script>
+</body>
+</html>

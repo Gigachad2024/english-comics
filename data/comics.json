@@ -1,0 +1,2538 @@
+{
+  "version": 1,
+  "count": 82,
+  "series": [
+    {
+      "id": "bug-arc-1",
+      "title": "Debug & Release",
+      "desc": "Patch vs refactor, deploy, Redis, rollback — học tiếng Anh khi debug production cùng team Tokyo",
+      "color": "#EF4444",
+      "icon": "🐛",
+      "tag": "Công việc",
+      "count": 10,
+      "cover": "images/comics/bug-arc-1/tập-01/bug-arc-1-tap01-quick-patch-or-full-refactor.png",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "Quick Patch or Full Refactor?",
+          "slug": "quick-patch-or-full-refactor",
+          "image": "images/comics/bug-arc-1/tập-01/bug-arc-1-tap01-quick-patch-or-full-refactor.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm leaning toward A.",
+              "meaning": "Tôi đang nghiêng về A."
+            },
+            {
+              "phrase": "go with",
+              "meaning": "chọn (một phương án)"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [
+            "software-engineering",
+            "work-meeting",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm leaning toward A.",
+            "go with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Quick Patch or Full Refactor?.",
+            "Dùng câu 「I'm leaning toward A.」 để nói về tình huống: Quick Patch or Full Refactor?.",
+            "Dùng câu 「go with」 để nói về tình huống: Quick Patch or Full Refactor?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: Deploy Today or Wait for QA?"
+        },
+        {
+          "num": 2,
+          "title": "Deploy Today or Wait for QA?",
+          "slug": "deploy-today-or-wait-for-qa",
+          "image": "images/comics/bug-arc-1/tập-02/bug-arc-1-tap02-deploy-today-or-wait-for-qa.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [
+            "software-engineering",
+            "QA",
+            "decision"
+          ],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Deploy Today or Wait for QA?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Redis or Database Only?"
+        },
+        {
+          "num": 3,
+          "title": "Redis or Database Only?",
+          "slug": "redis-or-database-only",
+          "image": "images/comics/bug-arc-1/tập-03/bug-arc-1-tap03-redis-or-database-only.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Redis or Database Only?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Rollback or Hotfix?"
+        },
+        {
+          "num": 4,
+          "title": "Rollback or Hotfix?",
+          "slug": "rollback-or-hotfix",
+          "image": "images/comics/bug-arc-1/tập-04/bug-arc-1-tap04-rollback-or-hotfix.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Rollback or Hotfix?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go or Frontend?"
+        },
+        {
+          "num": 5,
+          "title": "Go or Frontend?",
+          "slug": "go-or-frontend",
+          "image": "images/comics/bug-arc-1/tập-05/bug-arc-1-tap05-go-or-frontend.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Go or Frontend?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Tokyo Café, Late Thoughts"
+        },
+        {
+          "num": 6,
+          "title": "Tokyo Café, Late Thoughts",
+          "slug": "tokyo-cafe-late-thoughts",
+          "image": "images/comics/bug-arc-1/tập-06/bug-arc-1-tap06-tokyo-cafe-late-thoughts.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Tokyo Café, Late Thoughts.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Settling on a Plan"
+        },
+        {
+          "num": 7,
+          "title": "Settling on a Plan",
+          "slug": "settling-on-a-plan",
+          "image": "images/comics/bug-arc-1/tập-07/bug-arc-1-tap07-settling-on-a-plan.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Settling on a Plan.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Team Dinner in Tokyo"
+        },
+        {
+          "num": 8,
+          "title": "Team Dinner in Tokyo",
+          "slug": "team-dinner-in-tokyo",
+          "image": "images/comics/bug-arc-1/tập-08/bug-arc-1-tap08-team-dinner-in-tokyo.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Team Dinner in Tokyo.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Tokyo or Osaka?"
+        },
+        {
+          "num": 9,
+          "title": "Tokyo or Osaka?",
+          "slug": "tokyo-or-osaka",
+          "image": "images/comics/bug-arc-1/tập-09/bug-arc-1-tap09-tokyo-or-osaka.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm leaning toward A.",
+              "meaning": "Tôi đang nghiêng về A."
+            },
+            {
+              "phrase": "A makes more sense to me.",
+              "meaning": "A hợp lý hơn với tôi."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [
+            "travel",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm leaning toward A.",
+            "A makes more sense to me."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Tokyo or Osaka?.",
+            "Dùng câu 「I'm leaning toward A.」 để nói về tình huống: Tokyo or Osaka?.",
+            "Dùng câu 「A makes more sense to me.」 để nói về tình huống: Tokyo or Osaka?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: The Safer Choice"
+        },
+        {
+          "num": 10,
+          "title": "The Safer Choice",
+          "slug": "the-safer-choice",
+          "image": "images/comics/bug-arc-1/tập-10/bug-arc-1-tap10-the-safer-choice.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: The Safer Choice.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "bug-arc-2",
+      "title": "Payment & Demo Crisis",
+      "desc": "Payment page panic, API logs, QA gate, cache — tiếng Anh khi sửa lỗi trước demo",
+      "color": "#F97316",
+      "icon": "⚡",
+      "tag": "Công việc",
+      "count": 10,
+      "cover": "images/comics/bug-arc-2/tập-01/bug-arc-2-tap01-payment-page-panic.png",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "Payment Page Panic",
+          "slug": "payment-page-panic",
+          "image": "images/comics/bug-arc-2/tập-01/bug-arc-2-tap01-payment-page-panic.png",
+          "englishFocus": [
+            {
+              "phrase": "The issue is that...",
+              "meaning": "Vấn đề là..."
+            },
+            {
+              "phrase": "The API is returning...",
+              "meaning": "API đang trả về..."
+            },
+            {
+              "phrase": "The bug affects...",
+              "meaning": "Lỗi ảnh hưởng đến..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [
+            "The issue is that...",
+            "The API is returning...",
+            "The bug affects..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「The issue is that...」 để nói về tình huống: Payment Page Panic.",
+            "Dùng câu 「The API is returning...」 để nói về tình huống: Payment Page Panic.",
+            "Dùng câu 「The bug affects...」 để nói về tình huống: Payment Page Panic.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "The API is return incorrect data.",
+              "correct": "The API is returning incorrect data.",
+              "why": "dùng present continuous cho lỗi đang xảy ra",
+              "patterns": [
+                "The API is returning",
+                "is returning"
+              ]
+            }
+          ],
+          "hook": "Next: Frontend Relies on the API"
+        },
+        {
+          "num": 2,
+          "title": "Frontend Relies on the API",
+          "slug": "frontend-relies-on-the-api",
+          "image": "images/comics/bug-arc-2/tập-02/bug-arc-2-tap02-frontend-relies-on-the-api.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Frontend Relies on the API.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Through the Logs"
+        },
+        {
+          "num": 3,
+          "title": "Go Through the Logs",
+          "slug": "go-through-the-logs",
+          "image": "images/comics/bug-arc-2/tập-03/bug-arc-2-tap03-go-through-the-logs.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Go Through the Logs.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: QA Checklist Showdown"
+        },
+        {
+          "num": 4,
+          "title": "QA Checklist Showdown",
+          "slug": "qa-checklist-showdown",
+          "image": "images/comics/bug-arc-2/tập-04/bug-arc-2-tap04-qa-checklist-showdown.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: QA Checklist Showdown.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Demo Flow Drill"
+        },
+        {
+          "num": 5,
+          "title": "Demo Flow Drill",
+          "slug": "demo-flow-drill",
+          "image": "images/comics/bug-arc-2/tập-05/bug-arc-2-tap05-demo-flow-drill.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Demo Flow Drill.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: When Plans Fall Through"
+        },
+        {
+          "num": 6,
+          "title": "When Plans Fall Through",
+          "slug": "when-plans-fall-through",
+          "image": "images/comics/bug-arc-2/tập-06/bug-arc-2-tap06-when-plans-fall-through.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: When Plans Fall Through.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Follow Through the Fix"
+        },
+        {
+          "num": 7,
+          "title": "Follow Through the Fix",
+          "slug": "follow-through-the-fix",
+          "image": "images/comics/bug-arc-2/tập-07/bug-arc-2-tap07-follow-through-the-fix.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Follow Through the Fix.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Cache Culprit"
+        },
+        {
+          "num": 8,
+          "title": "Cache Culprit",
+          "slug": "cache-culprit",
+          "image": "images/comics/bug-arc-2/tập-08/bug-arc-2-tap08-cache-culprit.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Cache Culprit.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Final Risk Meeting"
+        },
+        {
+          "num": 9,
+          "title": "Final Risk Meeting",
+          "slug": "final-risk-meeting",
+          "image": "images/comics/bug-arc-2/tập-09/bug-arc-2-tap09-final-risk-meeting.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Final Risk Meeting.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Safe Release Finale"
+        },
+        {
+          "num": 10,
+          "title": "Safe Release Finale",
+          "slug": "safe-release-finale",
+          "image": "images/comics/bug-arc-2/tập-10/bug-arc-2-tap10-safe-release-finale.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Safe Release Finale.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "bug-arc-3",
+      "title": "Investor Demo Nightmare",
+      "desc": "Demo nhà đầu tư, rollback, QA gate — quyết định khó dưới áp lực thời gian",
+      "color": "#A855F7",
+      "icon": "👻",
+      "tag": "Công việc",
+      "count": 8,
+      "cover": "images/comics/bug-arc-3/tập-01/bug-arc-3-tap01-investor-demo-nightmare.png",
+      "episodes": [
+        {
+          "num": 1,
+          "title": "Investor Demo Nightmare",
+          "slug": "investor-demo-nightmare",
+          "image": "images/comics/bug-arc-3/tập-01/bug-arc-3-tap01-investor-demo-nightmare.png",
+          "englishFocus": [
+            {
+              "phrase": "The issue is that...",
+              "meaning": "Vấn đề là..."
+            },
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "We need to weigh up the trade-offs.",
+              "meaning": "Chúng ta cần cân nhắc đánh đổi."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [
+            "The issue is that...",
+            "I'm torn between A and B.",
+            "We need to weigh up the trade-offs."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「The issue is that...」 để nói về tình huống: Investor Demo Nightmare.",
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Investor Demo Nightmare.",
+            "Dùng câu 「We need to weigh up the trade-offs.」 để nói về tình huống: Investor Demo Nightmare.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: Quick Patch or Rollback?"
+        },
+        {
+          "num": 2,
+          "title": "Quick Patch or Rollback?",
+          "slug": "quick-patch-or-rollback",
+          "image": "images/comics/bug-arc-3/tập-02/bug-arc-3-tap02-quick-patch-or-rollback.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Quick Patch or Rollback?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Cache Suspect"
+        },
+        {
+          "num": 4,
+          "title": "Cache Suspect",
+          "slug": "cache-suspect",
+          "image": "images/comics/bug-arc-3/tập-04/bug-arc-3-tap04-cache-suspect.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Cache Suspect.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: QA Gate"
+        },
+        {
+          "num": 5,
+          "title": "QA Gate",
+          "slug": "qa-gate",
+          "image": "images/comics/bug-arc-3/tập-05/bug-arc-3-tap05-qa-gate.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: QA Gate.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Safer Choice"
+        },
+        {
+          "num": 6,
+          "title": "The Safer Choice",
+          "slug": "the-safer-choice",
+          "image": "images/comics/bug-arc-3/tập-06/bug-arc-3-tap06-the-safer-choice.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: The Safer Choice.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Demo Rehearsal"
+        },
+        {
+          "num": 7,
+          "title": "Demo Rehearsal",
+          "slug": "demo-rehearsal",
+          "image": "images/comics/bug-arc-3/tập-07/bug-arc-3-tap07-demo-rehearsal.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Demo Rehearsal.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Release Plan at Risk"
+        },
+        {
+          "num": 8,
+          "title": "Release Plan at Risk",
+          "slug": "release-plan-at-risk",
+          "image": "images/comics/bug-arc-3/tập-08/bug-arc-3-tap08-release-plan-at-risk.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Release Plan at Risk.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Nam Levels Up"
+        },
+        {
+          "num": 9,
+          "title": "Nam Levels Up",
+          "slug": "nam-levels-up",
+          "image": "images/comics/bug-arc-3/tập-09/bug-arc-3-tap09-nam-levels-up.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Nam Levels Up.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "traveling",
+      "title": "English on the Road",
+      "desc": "Tokyo, Osaka, Kyoto, Fuji — học tiếng Anh khi du lịch Nhật cùng team",
+      "color": "#06B6D4",
+      "icon": "✈️",
+      "tag": "Du lịch",
+      "count": 15,
+      "cover": "images/comics/traveling/tập-11/traveling-tap11-tokyo-or-osaka.png",
+      "episodes": [
+        {
+          "num": 11,
+          "title": "Tokyo or Osaka?",
+          "slug": "tokyo-or-osaka",
+          "image": "images/comics/traveling/tập-11/traveling-tap11-tokyo-or-osaka.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm leaning toward A.",
+              "meaning": "Tôi đang nghiêng về A."
+            },
+            {
+              "phrase": "A makes more sense to me.",
+              "meaning": "A hợp lý hơn với tôi."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm leaning toward A.",
+            "A makes more sense to me."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Tokyo or Osaka?.",
+            "Dùng câu 「I'm leaning toward A.」 để nói về tình huống: Tokyo or Osaka?.",
+            "Dùng câu 「A makes more sense to me.」 để nói về tình huống: Tokyo or Osaka?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: Train or Taxi?"
+        },
+        {
+          "num": 12,
+          "title": "Train or Taxi?",
+          "slug": "train-or-taxi",
+          "image": "images/comics/traveling/tập-12/traveling-tap12-train-or-taxi.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Train or Taxi?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Hotel Problem"
+        },
+        {
+          "num": 13,
+          "title": "The Hotel Problem",
+          "slug": "the-hotel-problem",
+          "image": "images/comics/traveling/tập-13/traveling-tap13-the-hotel-problem.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: The Hotel Problem.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Sleep on the Itinerary"
+        },
+        {
+          "num": 14,
+          "title": "Sleep on the Itinerary",
+          "slug": "sleep-on-the-itinerary",
+          "image": "images/comics/traveling/tập-14/traveling-tap14-sleep-on-the-itinerary.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Sleep on the Itinerary.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Settling on Osaka"
+        },
+        {
+          "num": 15,
+          "title": "Settling on Osaka",
+          "slug": "settling-on-osaka",
+          "image": "images/comics/traveling/tập-15/traveling-tap15-settling-on-osaka.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Settling on Osaka.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: What Should I Order?"
+        },
+        {
+          "num": 16,
+          "title": "What Should I Order?",
+          "slug": "what-should-i-order",
+          "image": "images/comics/traveling/tập-16/traveling-tap16-what-should-i-order.png",
+          "englishFocus": [
+            {
+              "phrase": "I don't know what to + verb.",
+              "meaning": "Tôi không biết phải + V."
+            },
+            {
+              "phrase": "I can't decide what to + verb.",
+              "meaning": "Tôi không thể quyết định phải + V."
+            },
+            {
+              "phrase": "I'm not really into A.",
+              "meaning": "Tôi không thực sự thích A."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "food",
+            "decision"
+          ],
+          "patterns": [
+            "I don't know what to + verb.",
+            "I can't decide what to + verb.",
+            "I'm not really into A."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I don't know what to + verb.」 để nói về tình huống: What Should I Order?.",
+            "Dùng câu 「I can't decide what to + verb.」 để nói về tình huống: What Should I Order?.",
+            "Dùng câu 「I'm not really into A.」 để nói về tình huống: What Should I Order?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Food Tour or Shopping?"
+        },
+        {
+          "num": 17,
+          "title": "Food Tour or Shopping?",
+          "slug": "food-tour-or-shopping",
+          "image": "images/comics/traveling/tập-17/traveling-tap17-food-tour-or-shopping.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Food Tour or Shopping?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Lost in Shinjuku Station"
+        },
+        {
+          "num": 18,
+          "title": "Lost in Shinjuku Station",
+          "slug": "lost-in-shinjuku-station",
+          "image": "images/comics/traveling/tập-18/traveling-tap18-lost-in-shinjuku-station.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Lost in Shinjuku Station.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Walk Me Through the Route"
+        },
+        {
+          "num": 19,
+          "title": "Walk Me Through the Route",
+          "slug": "walk-me-through-the-route",
+          "image": "images/comics/traveling/tập-19/traveling-tap19-walk-me-through-the-route.png",
+          "englishFocus": [
+            {
+              "phrase": "Walk me through...",
+              "meaning": "Giải thích từng bước cho tôi..."
+            },
+            {
+              "phrase": "Could you show me...?",
+              "meaning": "Bạn có thể chỉ tôi...?"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Walk me through...",
+            "Could you show me...?"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Walk me through...」 để nói về tình huống: Walk Me Through the Route.",
+            "Dùng câu 「Could you show me...?」 để nói về tình huống: Walk Me Through the Route.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Kyoto Before Sunset"
+        },
+        {
+          "num": 20,
+          "title": "Kyoto Before Sunset",
+          "slug": "kyoto-before-sunset",
+          "image": "images/comics/traveling/tập-20/traveling-tap20-kyoto-before-sunset.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Kyoto Before Sunset.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Fuji Question"
+        },
+        {
+          "num": 21,
+          "title": "The Fuji Question",
+          "slug": "the-fuji-question",
+          "image": "images/comics/traveling/tập-21/traveling-tap21-the-fuji-question.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: The Fuji Question.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Morning Train to Fuji"
+        },
+        {
+          "num": 22,
+          "title": "Morning Train to Fuji",
+          "slug": "morning-train-to-fuji",
+          "image": "images/comics/traveling/tập-22/traveling-tap22-morning-train-to-fuji.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Morning Train to Fuji.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Rainy Day Backup Plan"
+        },
+        {
+          "num": 23,
+          "title": "Rainy Day Backup Plan",
+          "slug": "rainy-day-backup-plan",
+          "image": "images/comics/traveling/tập-23/traveling-tap23-rainy-day-backup-plan.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Rainy Day Backup Plan.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Fuji Clears Up"
+        },
+        {
+          "num": 24,
+          "title": "Fuji Clears Up",
+          "slug": "fuji-clears-up",
+          "image": "images/comics/traveling/tập-24/traveling-tap24-fuji-clears-up.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Fuji Clears Up.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Travel Finale"
+        },
+        {
+          "num": 25,
+          "title": "Travel Finale",
+          "slug": "travel-finale",
+          "image": "images/comics/traveling/tập-25/traveling-tap25-travel-finale.png",
+          "englishFocus": [],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Travel Finale.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "title": "English for Real Life",
+      "desc": "Thuê nhà, hợp đồng, chuyển nhà, ngân hàng — tiếng Anh sống ở Tokyo",
+      "color": "#10B981",
+      "icon": "🏠",
+      "tag": "Cuộc sống",
+      "count": 14,
+      "cover": "images/comics/living/tập-26/living-tap26-new-apartment-in-tokyo.png",
+      "episodes": [
+        {
+          "num": 26,
+          "title": "New Apartment in Tokyo",
+          "slug": "new-apartment-in-tokyo",
+          "image": "images/comics/living/tập-26/living-tap26-new-apartment-in-tokyo.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "A makes more sense to me.",
+              "meaning": "A hợp lý hơn với tôi."
+            },
+            {
+              "phrase": "weigh up",
+              "meaning": "cân nhắc (ưu/nhược)"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "japan-life",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "A makes more sense to me.",
+            "weigh up"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: New Apartment in Tokyo.",
+            "Dùng câu 「A makes more sense to me.」 để nói về tình huống: New Apartment in Tokyo.",
+            "Dùng câu 「weigh up」 để nói về tình huống: New Apartment in Tokyo.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: Can You Walk Me Through the Contract?"
+        },
+        {
+          "num": 27,
+          "title": "Can You Walk Me Through the Contract?",
+          "slug": "can-you-walk-me-through-the-contract",
+          "image": "images/comics/living/tập-27/living-tap27-can-you-walk-me-through-the-contract.png",
+          "englishFocus": [
+            {
+              "phrase": "Walk me through the contract.",
+              "meaning": "Giải thích hợp đồng cho tôi."
+            },
+            {
+              "phrase": "What does this clause mean?",
+              "meaning": "Điều khoản này nghĩa là gì?"
+            }
+          ],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Walk me through the contract.",
+            "What does this clause mean?"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Walk me through the contract.」 để nói về tình huống: Can You Walk Me Through the Contract?.",
+            "Dùng câu 「What does this clause mean?」 để nói về tình huống: Can You Walk Me Through the Contract?."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Does Saturday Work for You?"
+        },
+        {
+          "num": 28,
+          "title": "Does Saturday Work for You?",
+          "slug": "does-saturday-work-for-you",
+          "image": "images/comics/living/tập-28/living-tap28-does-saturday-work-for-you.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Does Saturday Work for You?."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Running Late at Shinjuku Station"
+        },
+        {
+          "num": 29,
+          "title": "Running Late at Shinjuku Station",
+          "slug": "running-late-at-shinjuku-station",
+          "image": "images/comics/living/tập-29/living-tap29-running-late-at-shinjuku-station.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Running Late at Shinjuku Station."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Fill Out the Form"
+        },
+        {
+          "num": 30,
+          "title": "Fill Out the Form",
+          "slug": "fill-out-the-form",
+          "image": "images/comics/living/tập-30/living-tap30-fill-out-the-form.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Fill Out the Form."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Moving Day"
+        },
+        {
+          "num": 31,
+          "title": "Moving Day",
+          "slug": "moving-day",
+          "image": "images/comics/living/tập-31/living-tap31-moving-day.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm excited about...",
+              "meaning": "Tôi hào hứng về..."
+            },
+            {
+              "phrase": "I'm nervous about...",
+              "meaning": "Tôi lo lắng về..."
+            },
+            {
+              "phrase": "settle in",
+              "meaning": "ổn định, làm quen nơi mới"
+            }
+          ],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "japan-life",
+            "feeling"
+          ],
+          "patterns": [
+            "I'm excited about...",
+            "I'm nervous about...",
+            "settle in"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm excited about...」 để nói về tình huống: Moving Day.",
+            "Dùng câu 「I'm nervous about...」 để nói về tình huống: Moving Day.",
+            "Dùng câu 「settle in」 để nói về tình huống: Moving Day."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Opening a Bank Account"
+        },
+        {
+          "num": 33,
+          "title": "Opening a Bank Account",
+          "slug": "opening-a-bank-account",
+          "image": "images/comics/living/tập-33/living-tap33-opening-a-bank-account.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Opening a Bank Account."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Bug Alert After Work"
+        },
+        {
+          "num": 34,
+          "title": "Bug Alert After Work",
+          "slug": "bug-alert-after-work",
+          "image": "images/comics/living/tập-34/living-tap34-bug-alert-after-work.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Bug Alert After Work."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: First Remote Meeting from Tokyo Apartment"
+        },
+        {
+          "num": 35,
+          "title": "First Remote Meeting from Tokyo Apartment",
+          "slug": "first-remote-meeting-from-tokyo-apartment",
+          "image": "images/comics/living/tập-35/living-tap35-first-remote-meeting-from-tokyo-apartment.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: First Remote Meeting from Tokyo Apartment."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Follow Through on the Fix"
+        },
+        {
+          "num": 36,
+          "title": "Follow Through on the Fix",
+          "slug": "follow-through-on-the-fix",
+          "image": "images/comics/living/tập-36/living-tap36-follow-through-on-the-fix.png",
+          "englishFocus": [],
+          "packs": [
+            "bug_report_agreement_through",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Follow Through on the Fix.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Clinic Appointment"
+        },
+        {
+          "num": 37,
+          "title": "Clinic Appointment",
+          "slug": "clinic-appointment",
+          "image": "images/comics/living/tập-37/living-tap37-clinic-appointment.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Clinic Appointment."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Getting Used to Life in Japan"
+        },
+        {
+          "num": 38,
+          "title": "Getting Used to Life in Japan",
+          "slug": "getting-used-to-life-in-japan",
+          "image": "images/comics/living/tập-38/living-tap38-getting-used-to-life-in-japan.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Getting Used to Life in Japan."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Team Dinner After Release"
+        },
+        {
+          "num": 39,
+          "title": "Team Dinner After Release",
+          "slug": "team-dinner-after-release",
+          "image": "images/comics/living/tập-39/living-tap39-team-dinner-after-release.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Team Dinner After Release."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: English for Real Life Finale"
+        },
+        {
+          "num": 40,
+          "title": "English for Real Life Finale",
+          "slug": "english-for-real-life-finale",
+          "image": "images/comics/living/tập-40/living-tap40-english-for-real-life-finale.png",
+          "englishFocus": [],
+          "packs": [
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [],
+          "practicePrompts": [
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: English for Real Life Finale."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "career-growth",
+      "title": "Career Growth Arc",
+      "desc": "Code review, performance, architecture, demo, mentor — Nam dùng tiếng Anh để lead và tạo impact",
+      "color": "#6366F1",
+      "icon": "🚀",
+      "tag": "Công việc",
+      "count": 10,
+      "cover": "images/comics/career-growth/tập-41/career-growth-tap41-first-code-review-in-english.png",
+      "episodes": [
+        {
+          "num": 41,
+          "title": "First Code Review in English",
+          "slug": "first-code-review-in-english",
+          "image": "images/comics/career-growth/tập-41/career-growth-tap41-first-code-review-in-english.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm not sure I understand this part.",
+              "meaning": "Tôi không chắc mình hiểu phần này."
+            },
+            {
+              "phrase": "Can you walk me through this logic?",
+              "meaning": "Bạn giải thích logic này cho tôi được không?"
+            },
+            {
+              "phrase": "I think we should add a test before merging.",
+              "meaning": "Tôi nghĩ nên thêm test trước khi merge."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "asking-help"
+          ],
+          "patterns": [
+            "I'm not sure I understand this part.",
+            "Can you walk me through this logic?",
+            "I think we should add a test before merging."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm not sure I understand this part.」 để nói về tình huống: First Code Review in English.",
+            "Dùng câu 「Can you walk me through this logic?」 để nói về tình huống: First Code Review in English.",
+            "Dùng câu 「I think we should add a test before merging.」 để nói về tình huống: First Code Review in English.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Performance Problem"
+        },
+        {
+          "num": 42,
+          "title": "The Performance Problem",
+          "slug": "the-performance-problem",
+          "image": "images/comics/career-growth/tập-42/career-growth-tap42-the-performance-problem.png",
+          "englishFocus": [
+            {
+              "phrase": "The issue is that...",
+              "meaning": "Vấn đề là..."
+            },
+            {
+              "phrase": "It seems like...",
+              "meaning": "Có vẻ như..."
+            },
+            {
+              "phrase": "This might be caused by...",
+              "meaning": "Có thể do..."
+            },
+            {
+              "phrase": "go through the logs",
+              "meaning": "xem/xử lý log"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "The issue is that...",
+            "It seems like...",
+            "This might be caused by...",
+            "go through the logs"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「The issue is that...」 để nói về tình huống: The Performance Problem.",
+            "Dùng câu 「It seems like...」 để nói về tình huống: The Performance Problem.",
+            "Dùng câu 「This might be caused by...」 để nói về tình huống: The Performance Problem.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: I Have a Different Take"
+        },
+        {
+          "num": 43,
+          "title": "I Have a Different Take",
+          "slug": "i-have-a-different-take",
+          "image": "images/comics/career-growth/tập-43/career-growth-tap43-i-have-a-different-take.png",
+          "englishFocus": [
+            {
+              "phrase": "I see your point, but...",
+              "meaning": "Tôi hiểu ý bạn, nhưng..."
+            },
+            {
+              "phrase": "I have a different take.",
+              "meaning": "Tôi có góc nhìn khác."
+            },
+            {
+              "phrase": "rely on",
+              "meaning": "phụ thuộc vào"
+            },
+            {
+              "phrase": "think through the risks",
+              "meaning": "suy nghĩ kỹ về rủi ro"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I see your point, but...",
+            "I have a different take.",
+            "rely on",
+            "think through the risks"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I see your point, but...」 để nói về tình huống: I Have a Different Take.",
+            "Dùng câu 「I have a different take.」 để nói về tình huống: I Have a Different Take.",
+            "Dùng câu 「rely on」 để nói về tình huống: I Have a Different Take.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Walk Me Through the Architecture"
+        },
+        {
+          "num": 44,
+          "title": "Walk Me Through the Architecture",
+          "slug": "walk-me-through-the-architecture",
+          "image": "images/comics/career-growth/tập-44/career-growth-tap44-walk-me-through-the-architecture.png",
+          "englishFocus": [
+            {
+              "phrase": "walk me through",
+              "meaning": "giải thích từng bước"
+            },
+            {
+              "phrase": "act as a cache layer",
+              "meaning": "đóng vai trò lớp cache"
+            },
+            {
+              "phrase": "Let me make sure I got this right.",
+              "meaning": "Để tôi xác nhận lại xem tôi hiểu đúng chưa."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "walk me through",
+            "act as a cache layer",
+            "Let me make sure I got this right."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「walk me through」 để nói về tình huống: Walk Me Through the Architecture.",
+            "Dùng câu 「act as a cache layer」 để nói về tình huống: Walk Me Through the Architecture.",
+            "Dùng câu 「Let me make sure I got this right.」 để nói về tình huống: Walk Me Through the Architecture.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Quick Patch or Full Refactor?"
+        },
+        {
+          "num": 45,
+          "title": "Quick Patch or Full Refactor?",
+          "slug": "quick-patch-or-full-refactor",
+          "image": "images/comics/career-growth/tập-45/career-growth-tap45-quick-patch-or-full-refactor.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm leaning toward A.",
+              "meaning": "Tôi đang nghiêng về A."
+            },
+            {
+              "phrase": "go with",
+              "meaning": "chọn (một phương án)"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "work-meeting",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm leaning toward A.",
+            "go with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Quick Patch or Full Refactor?.",
+            "Dùng câu 「I'm leaning toward A.」 để nói về tình huống: Quick Patch or Full Refactor?.",
+            "Dùng câu 「go with」 để nói về tình huống: Quick Patch or Full Refactor?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: Demo Day Pressure"
+        },
+        {
+          "num": 46,
+          "title": "Demo Day Pressure",
+          "slug": "demo-day-pressure",
+          "image": "images/comics/career-growth/tập-46/career-growth-tap46-demo-day-pressure.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm nervous about the demo.",
+              "meaning": "Tôi lo về buổi demo."
+            },
+            {
+              "phrase": "run through the main flow",
+              "meaning": "đi lại flow chính"
+            },
+            {
+              "phrase": "work through it",
+              "meaning": "cùng giải quyết / vượt qua"
+            },
+            {
+              "phrase": "I'm ready to present.",
+              "meaning": "Tôi sẵn sàng trình bày."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm nervous about the demo.",
+            "run through the main flow",
+            "work through it",
+            "I'm ready to present."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm nervous about the demo.」 để nói về tình huống: Demo Day Pressure.",
+            "Dùng câu 「run through the main flow」 để nói về tình huống: Demo Day Pressure.",
+            "Dùng câu 「work through it」 để nói về tình huống: Demo Day Pressure.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Junior Asks for Help"
+        },
+        {
+          "num": 47,
+          "title": "The Junior Asks for Help",
+          "slug": "the-junior-asks-for-help",
+          "image": "images/comics/career-growth/tập-47/career-growth-tap47-the-junior-asks-for-help.png",
+          "englishFocus": [
+            {
+              "phrase": "Could you help me with this setup?",
+              "meaning": "Bạn giúp tôi setup cái này được không?"
+            },
+            {
+              "phrase": "I can walk you through it.",
+              "meaning": "Tôi có thể hướng dẫn bạn từng bước."
+            },
+            {
+              "phrase": "figure it out step by step",
+              "meaning": "giải quyết từng bước một"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Could you help me with this setup?",
+            "I can walk you through it.",
+            "figure it out step by step"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Could you help me with this setup?」 để nói về tình huống: The Junior Asks for Help.",
+            "Dùng câu 「I can walk you through it.」 để nói về tình huống: The Junior Asks for Help.",
+            "Dùng câu 「figure it out step by step」 để nói về tình huống: The Junior Asks for Help.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Could you help me this?",
+              "correct": "Could you help me with this?",
+              "why": "help me with + object",
+              "patterns": [
+                "Could you help me",
+                "help me with"
+              ]
+            }
+          ],
+          "hook": "Next: Incident Recap Meeting"
+        },
+        {
+          "num": 48,
+          "title": "Incident Recap Meeting",
+          "slug": "incident-recap-meeting",
+          "image": "images/comics/career-growth/tập-48/career-growth-tap48-incident-recap-meeting.png",
+          "englishFocus": [
+            {
+              "phrase": "Let me walk you through what happened.",
+              "meaning": "Để tôi trình bày diễn biến sự cố."
+            },
+            {
+              "phrase": "The issue was that...",
+              "meaning": "Vấn đề là..."
+            },
+            {
+              "phrase": "follow through on the fix",
+              "meaning": "theo sát đến khi fix xong"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Let me walk you through what happened.",
+            "The issue was that...",
+            "follow through on the fix"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Let me walk you through what happened.」 để nói về tình huống: Incident Recap Meeting.",
+            "Dùng câu 「The issue was that...」 để nói về tình huống: Incident Recap Meeting.",
+            "Dùng câu 「follow through on the fix」 để nói về tình huống: Incident Recap Meeting.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Speaking Up"
+        },
+        {
+          "num": 49,
+          "title": "Speaking Up",
+          "slug": "speaking-up",
+          "image": "images/comics/career-growth/tập-49/career-growth-tap49-speaking-up.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm debating whether to A or B.",
+              "meaning": "Tôi đang cân nhắc giữa A và B."
+            },
+            {
+              "phrase": "I have a different take.",
+              "meaning": "Tôi có góc nhìn khác."
+            },
+            {
+              "phrase": "I'd opt for...",
+              "meaning": "Tôi sẽ chọn..."
+            },
+            {
+              "phrase": "It comes down to...",
+              "meaning": "Vấn đề cốt lõi là..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "work-meeting",
+            "opinion"
+          ],
+          "patterns": [
+            "I'm debating whether to A or B.",
+            "I have a different take.",
+            "I'd opt for...",
+            "It comes down to..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm debating whether to A or B.」 để nói về tình huống: Speaking Up.",
+            "Dùng câu 「I have a different take.」 để nói về tình huống: Speaking Up.",
+            "Dùng câu 「I'd opt for...」 để nói về tình huống: Speaking Up.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Nam Becomes the Bridge"
+        },
+        {
+          "num": 50,
+          "title": "Nam Becomes the Bridge",
+          "slug": "nam-becomes-the-bridge",
+          "image": "images/comics/career-growth/tập-50/career-growth-tap50-nam-becomes-the-bridge.png",
+          "englishFocus": [
+            {
+              "phrase": "be the bridge between A and B",
+              "meaning": "là cầu nối giữa A và B"
+            },
+            {
+              "phrase": "walk people through...",
+              "meaning": "hướng dẫn mọi người từng bước"
+            },
+            {
+              "phrase": "disagree respectfully",
+              "meaning": "phản biện một cách tôn trọng"
+            },
+            {
+              "phrase": "look forward to + V-ing",
+              "meaning": "mong chờ / hướng tới việc..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "career-growth",
+            "work-meeting"
+          ],
+          "patterns": [
+            "be the bridge between A and B",
+            "walk people through...",
+            "disagree respectfully",
+            "look forward to + V-ing"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「be the bridge between A and B」 để nói về tình huống: Nam Becomes the Bridge.",
+            "Dùng câu 「walk people through...」 để nói về tình huống: Nam Becomes the Bridge.",
+            "Dùng câu 「disagree respectfully」 để nói về tình huống: Nam Becomes the Bridge.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design Arc",
+      "desc": "Architecture, cache, queue, scale, trade-offs — Nam học nói tiếng Anh khi thiết kế hệ thống",
+      "color": "#8B5CF6",
+      "icon": "🏗️",
+      "tag": "Công việc",
+      "count": 10,
+      "cover": "images/comics/system-design/tập-51/system-design-tap51-the-system-design-question.png",
+      "episodes": [
+        {
+          "num": 51,
+          "title": "The System Design Question",
+          "slug": "the-system-design-question",
+          "image": "images/comics/system-design/tập-51/system-design-tap51-the-system-design-question.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm wondering if...",
+              "meaning": "Tôi đang tự hỏi liệu..."
+            },
+            {
+              "phrase": "Could we start by...",
+              "meaning": "Chúng ta có thể bắt đầu bằng...?"
+            },
+            {
+              "phrase": "walk me through",
+              "meaning": "giải thích từng bước cho tôi"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm wondering if...",
+            "Could we start by...",
+            "walk me through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm wondering if...」 để nói về tình huống: The System Design Question.",
+            "Dùng câu 「Could we start by...」 để nói về tình huống: The System Design Question.",
+            "Dùng câu 「walk me through」 để nói về tình huống: The System Design Question.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Monolith or Microservices?"
+        },
+        {
+          "num": 52,
+          "title": "Monolith or Microservices?",
+          "slug": "monolith-or-microservices",
+          "image": "images/comics/system-design/tập-52/system-design-tap52-monolith-or-microservices.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm leaning toward A because...",
+              "meaning": "Tôi đang nghiêng về A vì..."
+            },
+            {
+              "phrase": "weigh up",
+              "meaning": "cân nhắc (ưu/nhược)"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm leaning toward A because...",
+            "weigh up"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Monolith or Microservices?.",
+            "Dùng câu 「I'm leaning toward A because...」 để nói về tình huống: Monolith or Microservices?.",
+            "Dùng câu 「weigh up」 để nói về tình huống: Monolith or Microservices?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: Cache or Database First?"
+        },
+        {
+          "num": 53,
+          "title": "Cache or Database First?",
+          "slug": "cache-or-database-first",
+          "image": "images/comics/system-design/tập-53/system-design-tap53-cache-or-database-first.png",
+          "englishFocus": [
+            {
+              "phrase": "The issue is that...",
+              "meaning": "Vấn đề là..."
+            },
+            {
+              "phrase": "It seems like...",
+              "meaning": "Có vẻ như..."
+            },
+            {
+              "phrase": "rely on",
+              "meaning": "phụ thuộc vào / dựa vào"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "The issue is that...",
+            "It seems like...",
+            "rely on"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「The issue is that...」 để nói về tình huống: Cache or Database First?.",
+            "Dùng câu 「It seems like...」 để nói về tình huống: Cache or Database First?.",
+            "Dùng câu 「rely on」 để nói về tình huống: Cache or Database First?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Queue Saves the Day"
+        },
+        {
+          "num": 54,
+          "title": "Queue Saves the Day",
+          "slug": "queue-saves-the-day",
+          "image": "images/comics/system-design/tập-54/system-design-tap54-queue-saves-the-day.png",
+          "englishFocus": [
+            {
+              "phrase": "This might be caused by...",
+              "meaning": "Có thể do..."
+            },
+            {
+              "phrase": "I think we should...",
+              "meaning": "Tôi nghĩ chúng ta nên..."
+            },
+            {
+              "phrase": "follow through",
+              "meaning": "theo sát đến khi hoàn thành"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "This might be caused by...",
+            "I think we should...",
+            "follow through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「This might be caused by...」 để nói về tình huống: Queue Saves the Day.",
+            "Dùng câu 「I think we should...」 để nói về tình huống: Queue Saves the Day.",
+            "Dùng câu 「follow through」 để nói về tình huống: Queue Saves the Day.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: API Gateway at Night"
+        },
+        {
+          "num": 55,
+          "title": "API Gateway at Night",
+          "slug": "api-gateway-at-night",
+          "image": "images/comics/system-design/tập-55/system-design-tap55-api-gateway-at-night.png",
+          "englishFocus": [
+            {
+              "phrase": "walk me through",
+              "meaning": "giải thích từng bước cho tôi"
+            },
+            {
+              "phrase": "act as",
+              "meaning": "đóng vai trò / hoạt động như"
+            },
+            {
+              "phrase": "make sure",
+              "meaning": "đảm bảo / chắc chắn rằng"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "walk me through",
+            "act as",
+            "make sure"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「walk me through」 để nói về tình huống: API Gateway at Night.",
+            "Dùng câu 「act as」 để nói về tình huống: API Gateway at Night.",
+            "Dùng câu 「make sure」 để nói về tình huống: API Gateway at Night.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Scale Under Pressure"
+        },
+        {
+          "num": 56,
+          "title": "Scale Under Pressure",
+          "slug": "scale-under-pressure",
+          "image": "images/comics/system-design/tập-56/system-design-tap56-scale-under-pressure.png",
+          "englishFocus": [
+            {
+              "phrase": "It comes down to...",
+              "meaning": "Vấn đề cốt lõi là..."
+            },
+            {
+              "phrase": "We need to weigh up...",
+              "meaning": "Chúng ta cần cân nhắc..."
+            },
+            {
+              "phrase": "I'd opt for...",
+              "meaning": "Tôi sẽ chọn..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "It comes down to...",
+            "We need to weigh up...",
+            "I'd opt for..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「It comes down to...」 để nói về tình huống: Scale Under Pressure.",
+            "Dùng câu 「We need to weigh up...」 để nói về tình huống: Scale Under Pressure.",
+            "Dùng câu 「I'd opt for...」 để nói về tình huống: Scale Under Pressure.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Cost of Overengineering"
+        },
+        {
+          "num": 57,
+          "title": "The Cost of Overengineering",
+          "slug": "the-cost-of-overengineering",
+          "image": "images/comics/system-design/tập-57/system-design-tap57-the-cost-of-overengineering.png",
+          "englishFocus": [
+            {
+              "phrase": "I have a different take.",
+              "meaning": "Tôi có góc nhìn khác."
+            },
+            {
+              "phrase": "I see your point, but...",
+              "meaning": "Tôi hiểu ý bạn, nhưng..."
+            },
+            {
+              "phrase": "rule out",
+              "meaning": "loại trừ (một phương án)"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I have a different take.",
+            "I see your point, but...",
+            "rule out"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I have a different take.」 để nói về tình huống: The Cost of Overengineering.",
+            "Dùng câu 「I see your point, but...」 để nói về tình huống: The Cost of Overengineering.",
+            "Dùng câu 「rule out」 để nói về tình huống: The Cost of Overengineering.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Explain It to Product"
+        },
+        {
+          "num": 58,
+          "title": "Explain It to Product",
+          "slug": "explain-it-to-product",
+          "image": "images/comics/system-design/tập-58/system-design-tap58-explain-it-to-product.png",
+          "englishFocus": [
+            {
+              "phrase": "Let me walk you through...",
+              "meaning": "Để tôi giải thích từng bước..."
+            },
+            {
+              "phrase": "In simple terms...",
+              "meaning": "Nói đơn giản thì..."
+            },
+            {
+              "phrase": "The main idea is...",
+              "meaning": "Ý chính là..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Let me walk you through...",
+            "In simple terms...",
+            "The main idea is..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Let me walk you through...」 để nói về tình huống: Explain It to Product.",
+            "Dùng câu 「In simple terms...」 để nói về tình huống: Explain It to Product.",
+            "Dùng câu 「The main idea is...」 để nói về tình huống: Explain It to Product.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Design Review Showdown"
+        },
+        {
+          "num": 59,
+          "title": "Design Review Showdown",
+          "slug": "design-review-showdown",
+          "image": "images/comics/system-design/tập-59/system-design-tap59-design-review-showdown.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm debating whether...",
+              "meaning": "Tôi đang cân nhắc liệu có nên..."
+            },
+            {
+              "phrase": "That makes sense.",
+              "meaning": "Điều đó hợp lý."
+            },
+            {
+              "phrase": "stick with",
+              "meaning": "giữ nguyên / theo phương án"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm debating whether...",
+            "That makes sense.",
+            "stick with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm debating whether...」 để nói về tình huống: Design Review Showdown.",
+            "Dùng câu 「That makes sense.」 để nói về tình huống: Design Review Showdown.",
+            "Dùng câu 「stick with」 để nói về tình huống: Design Review Showdown.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Thinking Bigger Finale"
+        },
+        {
+          "num": 60,
+          "title": "Thinking Bigger Finale",
+          "slug": "thinking-bigger-finale",
+          "image": "images/comics/system-design/tập-60/system-design-tap60-thinking-bigger-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ / hướng tới"
+            },
+            {
+              "phrase": "be the bridge",
+              "meaning": "là cầu nối (giữa các team)"
+            },
+            {
+              "phrase": "explain problems clearly",
+              "meaning": "giải thích vấn đề một cách rõ ràng"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "look forward to",
+            "be the bridge",
+            "explain problems clearly"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look forward to」 để nói về tình huống: Thinking Bigger Finale.",
+            "Dùng câu 「be the bridge」 để nói về tình huống: Thinking Bigger Finale.",
+            "Dùng câu 「explain problems clearly」 để nói về tình huống: Thinking Bigger Finale.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "email-async",
+      "title": "Email & Async Arc",
+      "desc": "Follow-up, loop in, get back to you, async standup — viết email & Slack chuyên nghiệp",
+      "color": "#3B82F6",
+      "icon": "✉️",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/email-async/tập-61/email-async-tap61-just-following-up-on-the-pr.png",
+      "episodes": [
+        {
+          "num": 61,
+          "title": "Just Following Up on the PR",
+          "slug": "just-following-up-on-the-pr",
+          "image": "images/comics/email-async/tập-61/email-async-tap61-just-following-up-on-the-pr.png",
+          "englishFocus": [
+            {
+              "phrase": "Just following up on...",
+              "meaning": "Nhắc lại / theo dõi về..."
+            },
+            {
+              "phrase": "I wanted to check in on...",
+              "meaning": "Tôi muốn hỏi thăm / cập nhật về..."
+            },
+            {
+              "phrase": "get back to",
+              "meaning": "phản hồi lại / trả lời sau"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Just following up on...",
+            "I wanted to check in on...",
+            "get back to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Just following up on...」 để nói về tình huống: Just Following Up on the PR.",
+            "Dùng câu 「I wanted to check in on...」 để nói về tình huống: Just Following Up on the PR.",
+            "Dùng câu 「get back to」 để nói về tình huống: Just Following Up on the PR.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Loop Me In on the Decision"
+        },
+        {
+          "num": 62,
+          "title": "Loop Me In on the Decision",
+          "slug": "loop-me-in-on-the-decision",
+          "image": "images/comics/email-async/tập-62/email-async-tap62-loop-me-in-on-the-decision.png",
+          "englishFocus": [
+            {
+              "phrase": "Could you loop me in on...?",
+              "meaning": "Bạn có thể cập nhật tôi về...?"
+            },
+            {
+              "phrase": "keep me posted on...",
+              "meaning": "nhắc tôi / cập nhật tôi về..."
+            },
+            {
+              "phrase": "reach out to",
+              "meaning": "liên hệ với ai đó"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Could you loop me in on...?",
+            "keep me posted on...",
+            "reach out to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Could you loop me in on...?」 để nói về tình huống: Loop Me In on the Decision.",
+            "Dùng câu 「keep me posted on...」 để nói về tình huống: Loop Me In on the Decision.",
+            "Dùng câu 「reach out to」 để nói về tình huống: Loop Me In on the Decision.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: I'll Get Back to You by EOD"
+        },
+        {
+          "num": 63,
+          "title": "I'll Get Back to You by EOD",
+          "slug": "ill-get-back-to-you-by-eod",
+          "image": "images/comics/email-async/tập-63/email-async-tap63-ill-get-back-to-you-by-eod.png",
+          "englishFocus": [
+            {
+              "phrase": "I'll get back to you by...",
+              "meaning": "Tôi sẽ phản hồi bạn trước..."
+            },
+            {
+              "phrase": "Let me look into this.",
+              "meaning": "Để tôi tìm hiểu thêm."
+            },
+            {
+              "phrase": "follow up on",
+              "meaning": "theo dõi / nhắc lại về"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'll get back to you by...",
+            "Let me look into this.",
+            "follow up on"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'll get back to you by...」 để nói về tình huống: I'll Get Back to You by EOD.",
+            "Dùng câu 「Let me look into this.」 để nói về tình huống: I'll Get Back to You by EOD.",
+            "Dùng câu 「follow up on」 để nói về tình huống: I'll Get Back to You by EOD.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Async Standup in English"
+        },
+        {
+          "num": 64,
+          "title": "Async Standup in English",
+          "slug": "async-standup-in-english",
+          "image": "images/comics/email-async/tập-64/email-async-tap64-async-standup-in-english.png",
+          "englishFocus": [
+            {
+              "phrase": "Here's what I worked on...",
+              "meaning": "Đây là những gì tôi đã làm..."
+            },
+            {
+              "phrase": "I'm blocked on...",
+              "meaning": "Tôi đang bị kẹt ở / không tiến được vì..."
+            },
+            {
+              "phrase": "I'll follow up with...",
+              "meaning": "Tôi sẽ liên hệ với..."
+            }
+          ],
+          "packs": [
+            "email_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Here's what I worked on...",
+            "I'm blocked on...",
+            "I'll follow up with..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Here's what I worked on...」 để nói về tình huống: Async Standup in English.",
+            "Dùng câu 「I'm blocked on...」 để nói về tình huống: Async Standup in English.",
+            "Dùng câu 「I'll follow up with...」 để nói về tình huống: Async Standup in English.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Email & Async Finale"
+        },
+        {
+          "num": 65,
+          "title": "Email & Async Finale",
+          "slug": "email-async-finale",
+          "image": "images/comics/email-async/tập-65/email-async-tap65-email-async-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "follow up on",
+              "meaning": "theo dõi / nhắc lại về"
+            },
+            {
+              "phrase": "loop in",
+              "meaning": "thêm ai vào cuộc trò chuyện / cập nhật"
+            },
+            {
+              "phrase": "get back to",
+              "meaning": "phản hồi lại"
+            },
+            {
+              "phrase": "reach out to",
+              "meaning": "chủ động liên hệ"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "follow up on",
+            "loop in",
+            "get back to",
+            "reach out to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「follow up on」 để nói về tình huống: Email & Async Finale.",
+            "Dùng câu 「loop in」 để nói về tình huống: Email & Async Finale.",
+            "Dùng câu 「get back to」 để nói về tình huống: Email & Async Finale.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    }
+  ],
+  "coreLoop": [
+    "Speak",
+    "Fix",
+    "Reuse",
+    "Review"
+  ]
+}

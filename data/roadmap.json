@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "title": "Lộ trình học tiếng Anh",
+    "subtitle": "6 arc · 67 tập · Từ debug code đến lead team ở Tokyo"
+  },
+  "methodology": [
+    {
+      "step": 1,
+      "icon": "📖",
+      "title": "Đọc truyện",
+      "desc": "Mỗi tập là một tình huống thật — đọc hội thoại và chú ý phần ENGLISH FOCUS trên ảnh."
+    },
+    {
+      "step": 2,
+      "icon": "✅",
+      "title": "Đánh dấu đã đọc",
+      "desc": "Hoàn thành tập → tiến độ tự cập nhật trên lộ trình."
+    },
+    {
+      "step": 3,
+      "icon": "🗣️",
+      "title": "Luyện nói",
+      "desc": "Đọc to các cụm từ trong panel ENGLISH FOCUS — áp dụng vào công việc và đời sống."
+    }
+  ],
+  "paths": [
+    {
+      "id": "full-journey",
+      "title": "Toàn bộ hành trình",
+      "subtitle": "Work → Travel → Life → Growth",
+      "icon": "🗼",
+      "color": "#3B82F6",
+      "duration": "6–10 tuần",
+      "desc": "Bắt đầu từ debug production, du lịch, sống ở Tokyo, rồi Nam trưởng thành thành mentor.",
+      "phases": [
+        {
+          "title": "Giai đoạn 1 — Công việc (Debug)",
+          "desc": "Tiếng Anh trong team dev: patch, deploy, QA, cache",
+          "steps": [
+            {
+              "seriesId": "bug-arc-1",
+              "tip": "Arc 1: Quyết định kỹ thuật dưới áp lực release"
+            },
+            {
+              "seriesId": "bug-arc-2",
+              "tip": "Arc 2: Sửa payment bug trước demo"
+            },
+            {
+              "seriesId": "bug-arc-3",
+              "tip": "Arc 3: Investor demo — quyết định khó nhất"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 2 — Du lịch",
+          "desc": "Reward trip sau release thành công",
+          "steps": [
+            {
+              "seriesId": "traveling",
+              "tip": "Tokyo, Osaka, Kyoto, Fuji — tiếng Anh trên đường"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 3 — Cuộc sống",
+          "desc": "Nam chuyển sang Tokyo — thuê nhà, ngân hàng, làm remote",
+          "steps": [
+            {
+              "seriesId": "living",
+              "tip": "English for Real Life — sống và làm việc ở Nhật"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 4 — Career Growth",
+          "desc": "Code review, architecture, demo, mentor — Nam speaks up",
+          "steps": [
+            {
+              "seriesId": "career-growth",
+              "tip": "Nam dùng tiếng Anh để lead, mentor và tạo impact"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 5 — System Design",
+          "desc": "Scale, cache, queue, trade-offs — Nam nghĩ theo hệ thống",
+          "steps": [
+            {
+              "seriesId": "system-design",
+              "tip": "Architecture review, monolith vs microservices, explain to PM"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 6 — Email & Async",
+          "desc": "Follow-up, loop in, async standup — viết như pro",
+          "steps": [
+            {
+              "seriesId": "email-async",
+              "tip": "Slack & email chuyên nghiệp cho remote team"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-only",
+      "title": "Chỉ công việc",
+      "subtitle": "3 arc debug — dành cho dev cần tiếng Anh tech",
+      "icon": "💻",
+      "color": "#EF4444",
+      "duration": "2–3 tuần",
+      "desc": "Tập trung patch, deploy, API, QA, cache — bỏ qua travel & life.",
+      "phases": [
+        {
+          "title": "Debug Chronicles",
+          "desc": "3 arc liên tiếp",
+          "steps": [
+            {
+              "seriesId": "bug-arc-1"
+            },
+            {
+              "seriesId": "bug-arc-2"
+            },
+            {
+              "seriesId": "bug-arc-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "career-growth",
+      "title": "Career Growth",
+      "subtitle": "Tập 41–50 — code review, demo, mentor, lead",
+      "icon": "🚀",
+      "color": "#6366F1",
+      "duration": "2 tuần",
+      "desc": "Tiếp nối Living Arc — Nam dùng tiếng Anh để nói lên ý kiến, mentor junior, và trở thành cầu nối team.",
+      "phases": [
+        {
+          "title": "Nam Speaks Up at Work",
+          "desc": "10 tập từ code review đến trở thành bridge",
+          "steps": [
+            {
+              "seriesId": "career-growth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design",
+      "subtitle": "Tập 51–60 — architecture, scale, trade-offs",
+      "icon": "🏗️",
+      "color": "#8B5CF6",
+      "duration": "2 tuần",
+      "desc": "Nam học nói tiếng Anh khi thiết kế hệ thống: cache, queue, gateway, và giải thích cho PM.",
+      "phases": [
+        {
+          "title": "Thinking Bigger",
+          "desc": "10 tập từ system design question đến design review",
+          "steps": [
+            {
+              "seriesId": "system-design"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "email-async",
+      "title": "Email & Async",
+      "subtitle": "Tập 61–65 — follow-up, loop in, standup",
+      "icon": "✉️",
+      "color": "#3B82F6",
+      "duration": "1 tuần",
+      "desc": "Pack 5 — viết email và Slack async chuyên nghiệp.",
+      "phases": [
+        {
+          "title": "Write Like a Pro",
+          "desc": "5 tập email & async communication",
+          "steps": [
+            {
+              "seriesId": "email-async"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-life",
+      "title": "Du lịch & Cuộc sống",
+      "subtitle": "Bỏ qua phần debug — vào thẳng travel + living",
+      "icon": "✈️",
+      "color": "#06B6D4",
+      "duration": "2–4 tuần",
+      "desc": "Phù hợp nếu bạn đã quen tiếng Anh công việc, muốn học giao tiếp thực tế.",
+      "phases": [
+        {
+          "title": "On the Road",
+          "desc": "Du lịch Nhật với team",
+          "steps": [
+            {
+              "seriesId": "traveling"
+            }
+          ]
+        },
+        {
+          "title": "Real Life",
+          "desc": "Sống ở Tokyo",
+          "steps": [
+            {
+              "seriesId": "living"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

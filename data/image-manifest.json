@@ -1,0 +1,408 @@
+[
+  {
+    "old_path": "ChatGPT Image Jun 14, 2026, 02_23_52 PM.png",
+    "arc": "series-bible",
+    "episode_num": 0,
+    "slug": "series-bible-master-style",
+    "image": "images/comics/series-bible/tokyo-debug-series-bible-master-style.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (1).png",
+    "arc": "bug-arc-1",
+    "episode_num": 1,
+    "slug": "quick-patch-or-full-refactor",
+    "image": "images/comics/bug-arc-1/tập-01/bug-arc-1-tap01-quick-patch-or-full-refactor.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (2).png",
+    "arc": "bug-arc-1",
+    "episode_num": 2,
+    "slug": "deploy-today-or-wait-for-qa",
+    "image": "images/comics/bug-arc-1/tập-02/bug-arc-1-tap02-deploy-today-or-wait-for-qa.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (3).png",
+    "arc": "bug-arc-1",
+    "episode_num": 3,
+    "slug": "redis-or-database-only",
+    "image": "images/comics/bug-arc-1/tập-03/bug-arc-1-tap03-redis-or-database-only.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (4).png",
+    "arc": "bug-arc-1",
+    "episode_num": 4,
+    "slug": "rollback-or-hotfix",
+    "image": "images/comics/bug-arc-1/tập-04/bug-arc-1-tap04-rollback-or-hotfix.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (5).png",
+    "arc": "bug-arc-1",
+    "episode_num": 5,
+    "slug": "go-or-frontend",
+    "image": "images/comics/bug-arc-1/tập-05/bug-arc-1-tap05-go-or-frontend.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (6).png",
+    "arc": "bug-arc-1",
+    "episode_num": 6,
+    "slug": "tokyo-cafe-late-thoughts",
+    "image": "images/comics/bug-arc-1/tập-06/bug-arc-1-tap06-tokyo-cafe-late-thoughts.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (7).png",
+    "arc": "bug-arc-1",
+    "episode_num": 7,
+    "slug": "settling-on-a-plan",
+    "image": "images/comics/bug-arc-1/tập-07/bug-arc-1-tap07-settling-on-a-plan.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (8).png",
+    "arc": "bug-arc-1",
+    "episode_num": 8,
+    "slug": "team-dinner-in-tokyo",
+    "image": "images/comics/bug-arc-1/tập-08/bug-arc-1-tap08-team-dinner-in-tokyo.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (9).png",
+    "arc": "bug-arc-1",
+    "episode_num": 9,
+    "slug": "tokyo-or-osaka",
+    "image": "images/comics/bug-arc-1/tập-09/bug-arc-1-tap09-tokyo-or-osaka.png"
+  },
+  {
+    "old_path": "Bug/Phần 1/ChatGPT Image Jun 14, 2026, 02_24_13 PM (10).png",
+    "arc": "bug-arc-1",
+    "episode_num": 10,
+    "slug": "the-safer-choice",
+    "image": "images/comics/bug-arc-1/tập-10/bug-arc-1-tap10-the-safer-choice.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_00 PM (1).png",
+    "arc": "bug-arc-2",
+    "episode_num": 1,
+    "slug": "payment-page-panic",
+    "image": "images/comics/bug-arc-2/tập-01/bug-arc-2-tap01-payment-page-panic.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_00 PM (2).png",
+    "arc": "bug-arc-2",
+    "episode_num": 2,
+    "slug": "frontend-relies-on-the-api",
+    "image": "images/comics/bug-arc-2/tập-02/bug-arc-2-tap02-frontend-relies-on-the-api.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_00 PM (3).png",
+    "arc": "bug-arc-2",
+    "episode_num": 3,
+    "slug": "go-through-the-logs",
+    "image": "images/comics/bug-arc-2/tập-03/bug-arc-2-tap03-go-through-the-logs.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_00 PM (4).png",
+    "arc": "bug-arc-2",
+    "episode_num": 4,
+    "slug": "qa-checklist-showdown",
+    "image": "images/comics/bug-arc-2/tập-04/bug-arc-2-tap04-qa-checklist-showdown.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_01 PM (5).png",
+    "arc": "bug-arc-2",
+    "episode_num": 5,
+    "slug": "demo-flow-drill",
+    "image": "images/comics/bug-arc-2/tập-05/bug-arc-2-tap05-demo-flow-drill.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_01 PM (6).png",
+    "arc": "bug-arc-2",
+    "episode_num": 6,
+    "slug": "when-plans-fall-through",
+    "image": "images/comics/bug-arc-2/tập-06/bug-arc-2-tap06-when-plans-fall-through.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_01 PM (7).png",
+    "arc": "bug-arc-2",
+    "episode_num": 7,
+    "slug": "follow-through-the-fix",
+    "image": "images/comics/bug-arc-2/tập-07/bug-arc-2-tap07-follow-through-the-fix.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_03 PM (8).png",
+    "arc": "bug-arc-2",
+    "episode_num": 8,
+    "slug": "cache-culprit",
+    "image": "images/comics/bug-arc-2/tập-08/bug-arc-2-tap08-cache-culprit.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_04 PM (9).png",
+    "arc": "bug-arc-2",
+    "episode_num": 9,
+    "slug": "final-risk-meeting",
+    "image": "images/comics/bug-arc-2/tập-09/bug-arc-2-tap09-final-risk-meeting.png"
+  },
+  {
+    "old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_06 PM (10).png",
+    "arc": "bug-arc-2",
+    "episode_num": 10,
+    "slug": "safe-release-finale",
+    "image": "images/comics/bug-arc-2/tập-10/bug-arc-2-tap10-safe-release-finale.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_16 PM (1).png",
+    "arc": "bug-arc-3",
+    "episode_num": 1,
+    "slug": "investor-demo-nightmare",
+    "image": "images/comics/bug-arc-3/tập-01/bug-arc-3-tap01-investor-demo-nightmare.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_16 PM (2).png",
+    "arc": "bug-arc-3",
+    "episode_num": 2,
+    "slug": "quick-patch-or-rollback",
+    "image": "images/comics/bug-arc-3/tập-02/bug-arc-3-tap02-quick-patch-or-rollback.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_17 PM (3).png",
+    "arc": "bug-arc-3",
+    "episode_num": 4,
+    "slug": "cache-suspect",
+    "image": "images/comics/bug-arc-3/tập-04/bug-arc-3-tap04-cache-suspect.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_19 PM (4).png",
+    "arc": "bug-arc-3",
+    "episode_num": 5,
+    "slug": "qa-gate",
+    "image": "images/comics/bug-arc-3/tập-05/bug-arc-3-tap05-qa-gate.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_20 PM (5).png",
+    "arc": "bug-arc-3",
+    "episode_num": 6,
+    "slug": "the-safer-choice",
+    "image": "images/comics/bug-arc-3/tập-06/bug-arc-3-tap06-the-safer-choice.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_21 PM (6).png",
+    "arc": "bug-arc-3",
+    "episode_num": 7,
+    "slug": "demo-rehearsal",
+    "image": "images/comics/bug-arc-3/tập-07/bug-arc-3-tap07-demo-rehearsal.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_23 PM (7).png",
+    "arc": "bug-arc-3",
+    "episode_num": 8,
+    "slug": "release-plan-at-risk",
+    "image": "images/comics/bug-arc-3/tập-08/bug-arc-3-tap08-release-plan-at-risk.png"
+  },
+  {
+    "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_24 PM (8).png",
+    "arc": "bug-arc-3",
+    "episode_num": 9,
+    "slug": "nam-levels-up",
+    "image": "images/comics/bug-arc-3/tập-09/bug-arc-3-tap09-nam-levels-up.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_53_58 PM (1).png",
+    "arc": "traveling",
+    "episode_num": 11,
+    "slug": "tokyo-or-osaka",
+    "image": "images/comics/traveling/tập-11/traveling-tap11-tokyo-or-osaka.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_53_58 PM (2).png",
+    "arc": "traveling",
+    "episode_num": 12,
+    "slug": "train-or-taxi",
+    "image": "images/comics/traveling/tập-12/traveling-tap12-train-or-taxi.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_53_58 PM (3).png",
+    "arc": "traveling",
+    "episode_num": 13,
+    "slug": "the-hotel-problem",
+    "image": "images/comics/traveling/tập-13/traveling-tap13-the-hotel-problem.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_53_58 PM (4).png",
+    "arc": "traveling",
+    "episode_num": 14,
+    "slug": "sleep-on-the-itinerary",
+    "image": "images/comics/traveling/tập-14/traveling-tap14-sleep-on-the-itinerary.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_53_58 PM (5).png",
+    "arc": "traveling",
+    "episode_num": 15,
+    "slug": "settling-on-osaka",
+    "image": "images/comics/traveling/tập-15/traveling-tap15-settling-on-osaka.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_03 PM (1).png",
+    "arc": "traveling",
+    "episode_num": 16,
+    "slug": "what-should-i-order",
+    "image": "images/comics/traveling/tập-16/traveling-tap16-what-should-i-order.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_03 PM (2).png",
+    "arc": "traveling",
+    "episode_num": 17,
+    "slug": "food-tour-or-shopping",
+    "image": "images/comics/traveling/tập-17/traveling-tap17-food-tour-or-shopping.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_03 PM (3).png",
+    "arc": "traveling",
+    "episode_num": 18,
+    "slug": "lost-in-shinjuku-station",
+    "image": "images/comics/traveling/tập-18/traveling-tap18-lost-in-shinjuku-station.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_03 PM (4).png",
+    "arc": "traveling",
+    "episode_num": 19,
+    "slug": "walk-me-through-the-route",
+    "image": "images/comics/traveling/tập-19/traveling-tap19-walk-me-through-the-route.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_03 PM (5).png",
+    "arc": "traveling",
+    "episode_num": 20,
+    "slug": "kyoto-before-sunset",
+    "image": "images/comics/traveling/tập-20/traveling-tap20-kyoto-before-sunset.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_08 PM (1).png",
+    "arc": "traveling",
+    "episode_num": 21,
+    "slug": "the-fuji-question",
+    "image": "images/comics/traveling/tập-21/traveling-tap21-the-fuji-question.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_08 PM (2).png",
+    "arc": "traveling",
+    "episode_num": 22,
+    "slug": "morning-train-to-fuji",
+    "image": "images/comics/traveling/tập-22/traveling-tap22-morning-train-to-fuji.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_08 PM (3).png",
+    "arc": "traveling",
+    "episode_num": 23,
+    "slug": "rainy-day-backup-plan",
+    "image": "images/comics/traveling/tập-23/traveling-tap23-rainy-day-backup-plan.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_08 PM (4).png",
+    "arc": "traveling",
+    "episode_num": 24,
+    "slug": "fuji-clears-up",
+    "image": "images/comics/traveling/tập-24/traveling-tap24-fuji-clears-up.png"
+  },
+  {
+    "old_path": "Traveling/ChatGPT Image Jun 14, 2026, 02_54_08 PM (5).png",
+    "arc": "traveling",
+    "episode_num": 25,
+    "slug": "travel-finale",
+    "image": "images/comics/traveling/tập-25/traveling-tap25-travel-finale.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_52_08 PM (1).png",
+    "arc": "living",
+    "episode_num": 26,
+    "slug": "new-apartment-in-tokyo",
+    "image": "images/comics/living/tập-26/living-tap26-new-apartment-in-tokyo.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_52_13 PM (5).png",
+    "arc": "living",
+    "episode_num": 27,
+    "slug": "can-you-walk-me-through-the-contract",
+    "image": "images/comics/living/tập-27/living-tap27-can-you-walk-me-through-the-contract.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_52_10 PM (3).png",
+    "arc": "living",
+    "episode_num": 28,
+    "slug": "does-saturday-work-for-you",
+    "image": "images/comics/living/tập-28/living-tap28-does-saturday-work-for-you.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_52_11 PM (4).png",
+    "arc": "living",
+    "episode_num": 29,
+    "slug": "running-late-at-shinjuku-station",
+    "image": "images/comics/living/tập-29/living-tap29-running-late-at-shinjuku-station.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_52_08 PM (2).png",
+    "arc": "living",
+    "episode_num": 30,
+    "slug": "fill-out-the-form",
+    "image": "images/comics/living/tập-30/living-tap30-fill-out-the-form.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_55_50 PM.png",
+    "arc": "living",
+    "episode_num": 31,
+    "slug": "moving-day",
+    "image": "images/comics/living/tập-31/living-tap31-moving-day.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_55_56 PM.png",
+    "arc": "living",
+    "episode_num": 33,
+    "slug": "opening-a-bank-account",
+    "image": "images/comics/living/tập-33/living-tap33-opening-a-bank-account.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_55_59 PM.png",
+    "arc": "living",
+    "episode_num": 34,
+    "slug": "bug-alert-after-work",
+    "image": "images/comics/living/tập-34/living-tap34-bug-alert-after-work.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_56_05 PM.png",
+    "arc": "living",
+    "episode_num": 35,
+    "slug": "first-remote-meeting-from-tokyo-apartment",
+    "image": "images/comics/living/tập-35/living-tap35-first-remote-meeting-from-tokyo-apartment.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_56_10 PM (1).png",
+    "arc": "living",
+    "episode_num": 36,
+    "slug": "follow-through-on-the-fix",
+    "image": "images/comics/living/tập-36/living-tap36-follow-through-on-the-fix.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_56_12 PM (2).png",
+    "arc": "living",
+    "episode_num": 37,
+    "slug": "clinic-appointment",
+    "image": "images/comics/living/tập-37/living-tap37-clinic-appointment.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_56_12 PM (3).png",
+    "arc": "living",
+    "episode_num": 38,
+    "slug": "getting-used-to-life-in-japan",
+    "image": "images/comics/living/tập-38/living-tap38-getting-used-to-life-in-japan.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_56_13 PM (4).png",
+    "arc": "living",
+    "episode_num": 39,
+    "slug": "team-dinner-after-release",
+    "image": "images/comics/living/tập-39/living-tap39-team-dinner-after-release.png"
+  },
+  {
+    "old_path": "Living/ChatGPT Image Jun 14, 2026, 05_56_14 PM (5).png",
+    "arc": "living",
+    "episode_num": 40,
+    "slug": "english-for-real-life-finale",
+    "image": "images/comics/living/tập-40/living-tap40-english-for-real-life-finale.png"
+  }
+]
