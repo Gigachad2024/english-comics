@@ -545,25 +545,40 @@ const App = (() => {
 
     const img = $("#comic-img");
     const skel = $("#comic-skeleton");
+    const zoomImg = $("#zoom-img");
     img.classList.remove("loaded");
     skel.classList.remove("hidden");
-    img.onload = () => { img.classList.add("loaded"); skel.classList.add("hidden"); };
+    delete img.dataset.fb;
+    delete zoomImg.dataset.fb;
+
+    const finishComicLoad = () => {
+      img.classList.add("loaded");
+      skel.classList.add("hidden");
+    };
+    const revealIfCached = (el) => {
+      if (el.complete && el.naturalWidth > 0) finishComicLoad();
+    };
+
+    img.onload = finishComicLoad;
     img.onerror = () => {
       if (!img.dataset.fb) {
         img.dataset.fb = "1";
         img.src = assetUrl(ep.image, "png");
-        $("#zoom-img").src = assetUrl(ep.image, "png");
+        zoomImg.src = assetUrl(ep.image, "png");
+        revealIfCached(img);
       }
     };
-    img.src = assetUrl(ep.image);
     img.alt = ep.title;
-    $("#zoom-img").src = assetUrl(ep.image);
-    $("#zoom-img").onerror = () => {
-      if (!$("#zoom-img").dataset.fb) {
-        $("#zoom-img").dataset.fb = "1";
-        $("#zoom-img").src = assetUrl(ep.image, "png");
+    img.src = assetUrl(ep.image);
+    revealIfCached(img);
+
+    zoomImg.onerror = () => {
+      if (!zoomImg.dataset.fb) {
+        zoomImg.dataset.fb = "1";
+        zoomImg.src = assetUrl(ep.image, "png");
       }
     };
+    zoomImg.src = assetUrl(ep.image);
 
     if (next) { const n = new Image(); n.src = assetUrl(next.image); }
     if (prev) { const p = new Image(); p.src = assetUrl(prev.image); }
