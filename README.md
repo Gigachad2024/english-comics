@@ -93,7 +93,7 @@ English-Comics/
 |-----|-----|-----|------------|
 | Debug & Release | `bug-arc-1` | 1–10 | 10 |
 | Payment & Demo | `bug-arc-2` | 1–10 | 10 |
-| Investor Demo | `bug-arc-3` | 1–9 | 9 (thiếu Ep 3) |
+| Investor Demo | `bug-arc-3` | 1–9 | 9 |
 | English on the Road | `traveling` | 11–25 | 15 |
 | English for Real Life | `living` | 26–40 | 13 (thiếu Ep 32) |
 | Career Growth | `career-growth` | 41–50 | 10 |

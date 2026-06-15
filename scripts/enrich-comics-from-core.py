@@ -27,6 +27,8 @@ ARC_PACKS = {
         "universal_communication_v2",
     ],
     "email-async": ["email_async", "universal_communication_v2"],
+    "japan-culture": ["decision_hesitation", "preference_opinion", "universal_communication_v2"],
+    "anime-manga": ["decision_hesitation", "preference_opinion", "universal_communication_v2"],
 }
 
 # Slug -> contexts tags
@@ -35,6 +37,12 @@ SLUG_CONTEXTS = {
     "deploy-today-or-wait-for-qa": ["software-engineering", "QA", "decision"],
     "tokyo-or-osaka": ["travel", "decision"],
     "what-should-i-order": ["travel", "food", "decision"],
+    "walk-me-through-shrine-etiquette": ["japan-culture", "travel", "asking-help"],
+    "the-onsen-question": ["japan-culture", "japan-life", "clarification"],
+    "cherry-blossom-dilemma": ["japan-culture", "travel", "decision"],
+    "akihabara-or-nakano-broadway": ["anime-manga", "travel", "decision"],
+    "anime-pilgrimage-day": ["anime-manga", "travel", "small-talk"],
+    "anime-talk-at-team-lunch": ["anime-manga", "software-engineering", "small-talk"],
     "new-apartment-in-tokyo": ["japan-life", "decision"],
     "moving-day": ["japan-life", "feeling"],
     "first-code-review-in-english": ["software-engineering", "asking-help"],
@@ -104,7 +112,7 @@ def match_packs(ep, series_id: str, all_patterns: list[str]) -> list[str]:
     for pack_id, keys in rules:
         if any(k in blob for k in keys):
             packs.add(pack_id)
-    if series_id in ("living", "traveling", "career-growth", "system-design", "email-async"):
+    if series_id in ("living", "traveling", "career-growth", "system-design", "email-async", "japan-culture", "anime-manga"):
         packs.add("universal_communication_v2")
     return sorted(packs)
 

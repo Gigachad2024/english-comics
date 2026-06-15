@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Lộ trình học tiếng Anh",
-    "subtitle": "6 arc · 67 tập · Từ debug code đến lead team ở Tokyo"
+    "subtitle": "10 arc · 96 tập · Từ debug code đến khám phá Nhật Bản"
   },
   "methodology": [
     {
@@ -100,6 +100,26 @@
               "tip": "Slack & email chuyên nghiệp cho remote team"
             }
           ]
+        },
+        {
+          "title": "Giai đoạn 7 — Văn hóa Nhật",
+          "desc": "Đền chùa, onsen, izakaya, hanami, matsuri — khám phá văn hóa sau giờ làm",
+          "steps": [
+            {
+              "seriesId": "japan-culture",
+              "tip": "Shrine etiquette, omotenashi, festival — English for culture trips"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 8 — Anime & Manga",
+          "desc": "Akihabara, manga cafe, anime pilgrimage — tiếng Anh trong thế giới otaku",
+          "steps": [
+            {
+              "seriesId": "anime-manga",
+              "tip": "Figure shop, manga cafe, team lunch anime talk"
+            }
+          ]
         }
       ]
     },
@@ -192,11 +212,11 @@
     {
       "id": "travel-life",
       "title": "Du lịch & Cuộc sống",
-      "subtitle": "Bỏ qua phần debug — vào thẳng travel + living",
+      "subtitle": "Bỏ qua phần debug — vào thẳng travel + living + culture",
       "icon": "✈️",
       "color": "#06B6D4",
-      "duration": "2–4 tuần",
-      "desc": "Phù hợp nếu bạn đã quen tiếng Anh công việc, muốn học giao tiếp thực tế.",
+      "duration": "3–5 tuần",
+      "desc": "Phù hợp nếu bạn đã quen tiếng Anh công việc, muốn học giao tiếp thực tế và khám phá Nhật.",
       "phases": [
         {
           "title": "On the Road",
@@ -213,6 +233,58 @@
           "steps": [
             {
               "seriesId": "living"
+            }
+          ]
+        },
+        {
+          "title": "Culture & Anime",
+          "desc": "Văn hóa Nhật + thế giới anime manga",
+          "steps": [
+            {
+              "seriesId": "japan-culture"
+            },
+            {
+              "seriesId": "anime-manga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan-culture",
+      "title": "Văn hóa Nhật Bản",
+      "subtitle": "Tập 66–72 — đền chùa, onsen, hanami, matsuri",
+      "icon": "⛩️",
+      "color": "#DC2626",
+      "duration": "1–2 tuần",
+      "desc": "Khám phá văn hóa Nhật sau giờ làm hoặc khi du lịch — tiếng Anh cho shrine, onsen, izakaya, festival.",
+      "phases": [
+        {
+          "title": "Explore Beyond the Guidebook",
+          "desc": "7 tập từ shrine etiquette đến matsuri night",
+          "steps": [
+            {
+              "seriesId": "japan-culture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anime-manga",
+      "title": "Anime & Manga",
+      "subtitle": "Tập 73–78 — Akihabara, manga cafe, pilgrimage",
+      "icon": "🎌",
+      "color": "#EC4899",
+      "duration": "1 tuần",
+      "desc": "Tiếng Anh khi khám phá thế giới anime manga ở Nhật — từ Akihabara đến nói chuyện anime với đồng nghiệp.",
+      "phases": [
+        {
+          "title": "Dive Into Otaku Japan",
+          "desc": "6 tập từ Akihabara đến anime talk at lunch",
+          "steps": [
+            {
+              "seriesId": "anime-manga"
             }
           ]
         }

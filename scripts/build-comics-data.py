@@ -61,6 +61,7 @@ SERIES = [
         "episodes": [
             (1, "investor-demo-nightmare", "Investor Demo Nightmare"),
             (2, "quick-patch-or-rollback", "Quick Patch or Rollback?"),
+            (3, "walk-me-through-the-payment-flow", "Walk Me Through the Payment Flow"),
             (4, "cache-suspect", "Cache Suspect"),
             (5, "qa-gate", "QA Gate"),
             (6, "the-safer-choice", "The Safer Choice"),
@@ -183,6 +184,43 @@ SERIES = [
             (65, "email-async-finale", "Email & Async Finale"),
         ],
     },
+    {
+        "id": "japan-culture",
+        "title": "Japan Culture Arc",
+        "desc": "Đền chùa, onsen, izakaya, hanami, matsuri — tiếng Anh khi khám phá văn hóa Nhật sau giờ làm hoặc khi du lịch",
+        "color": "#DC2626",
+        "icon": "⛩️",
+        "tag": "Văn hóa",
+        "arc": "japan-culture",
+        "global_num": True,
+        "episodes": [
+            (66, "walk-me-through-shrine-etiquette", "Walk Me Through Shrine Etiquette"),
+            (67, "the-onsen-question", "The Onsen Question"),
+            (68, "izakaya-after-work", "Izakaya After Work"),
+            (69, "cherry-blossom-dilemma", "Cherry Blossom Dilemma"),
+            (70, "what-is-omotenashi", "What Is Omotenashi?"),
+            (71, "summer-festival-night", "Summer Festival Night"),
+            (72, "japan-culture-finale", "Japan Culture Finale"),
+        ],
+    },
+    {
+        "id": "anime-manga",
+        "title": "Anime & Manga Arc",
+        "desc": "Akihabara, manga cafe, anime pilgrimage, figure shop — tiếng Anh khi khám phá thế giới anime manga ở Nhật",
+        "color": "#EC4899",
+        "icon": "🎌",
+        "tag": "Anime",
+        "arc": "anime-manga",
+        "global_num": True,
+        "episodes": [
+            (73, "akihabara-or-nakano-broadway", "Akihabara or Nakano Broadway?"),
+            (74, "my-first-manga-cafe", "My First Manga Cafe"),
+            (75, "anime-pilgrimage-day", "Anime Pilgrimage Day"),
+            (76, "figure-store-dilemma", "Figure Store Dilemma"),
+            (77, "anime-talk-at-team-lunch", "Anime Talk at Team Lunch"),
+            (78, "anime-manga-finale", "Anime & Manga Finale"),
+        ],
+    },
 ]
 
 FOCUS = {
@@ -200,6 +238,11 @@ FOCUS = {
         {"phrase": "The issue is that...", "meaning": "Vấn đề là..."},
         {"phrase": "I'm torn between A and B.", "meaning": "Tôi phân vân giữa A và B."},
         {"phrase": "We need to weigh up the trade-offs.", "meaning": "Chúng ta cần cân nhắc đánh đổi."},
+    ],
+    "walk-me-through-the-payment-flow": [
+        {"phrase": "Can you walk me through the payment flow?", "meaning": "Bạn giải thích flow thanh toán cho tôi được không?"},
+        {"phrase": "The bug affects the payment flow.", "meaning": "Lỗi ảnh hưởng đến luồng thanh toán."},
+        {"phrase": "Walk me through...", "meaning": "Giải thích từng bước cho tôi..."},
     ],
     "tokyo-or-osaka": [
         {"phrase": "I'm torn between A and B.", "meaning": "Tôi phân vân giữa A và B."},
@@ -357,6 +400,73 @@ FOCUS = {
         {"phrase": "get back to", "meaning": "phản hồi lại"},
         {"phrase": "reach out to", "meaning": "chủ động liên hệ"},
     ],
+    # Japan Culture Arc 66–72
+    "walk-me-through-shrine-etiquette": [
+        {"phrase": "Can you walk me through how to pray at a shrine?", "meaning": "Bạn hướng dẫn tôi cách cầu nguyện ở đền được không?"},
+        {"phrase": "Let me make sure I got this right.", "meaning": "Để tôi xác nhận lại xem tôi hiểu đúng chưa."},
+        {"phrase": "I'm not sure I understand this part.", "meaning": "Tôi không chắc mình hiểu phần này."},
+    ],
+    "the-onsen-question": [
+        {"phrase": "I'm not sure if I should...", "meaning": "Tôi không chắc liệu mình có nên..."},
+        {"phrase": "What do you mean by...?", "meaning": "... nghĩa là gì? / Ý bạn là gì khi nói...?"},
+        {"phrase": "Could you explain this part again?", "meaning": "Bạn giải thích lại phần này được không?"},
+    ],
+    "izakaya-after-work": [
+        {"phrase": "I'm excited about trying real izakaya food.", "meaning": "Tôi hào hứng được thử đồ ăn izakaya thật."},
+        {"phrase": "That sounds amazing.", "meaning": "Nghe hay / tuyệt quá."},
+        {"phrase": "I'm not really into raw fish, but...", "meaning": "Tôi không thích lắm món sống, nhưng..."},
+    ],
+    "cherry-blossom-dilemma": [
+        {"phrase": "I'm torn between A and B.", "meaning": "Tôi phân vân giữa A và B."},
+        {"phrase": "I'm leaning toward A because...", "meaning": "Tôi đang nghiêng về A vì..."},
+        {"phrase": "I think I'll go with A.", "meaning": "Tôi nghĩ mình sẽ chọn A."},
+    ],
+    "what-is-omotenashi": [
+        {"phrase": "I'm surprised that...", "meaning": "Tôi ngạc nhiên vì..."},
+        {"phrase": "That was worth it.", "meaning": "Đáng giá / xứng đáng."},
+        {"phrase": "I'm glad that we learned the custom first.", "meaning": "May mà chúng ta học phong tục trước."},
+    ],
+    "summer-festival-night": [
+        {"phrase": "I'm looking for...", "meaning": "Tôi đang tìm..."},
+        {"phrase": "How long does it take to get to...?", "meaning": "Mất bao lâu để đến...?"},
+        {"phrase": "That sounds amazing.", "meaning": "Nghe hay / tuyệt quá."},
+    ],
+    "japan-culture-finale": [
+        {"phrase": "It was worth it.", "meaning": "Đáng giá / xứng đáng."},
+        {"phrase": "I'm proud of myself.", "meaning": "Tôi tự hào về bản thân."},
+        {"phrase": "look forward to", "meaning": "mong chờ / hướng tới"},
+    ],
+    # Anime & Manga Arc 73–78
+    "akihabara-or-nakano-broadway": [
+        {"phrase": "I'm torn between A and B.", "meaning": "Tôi phân vân giữa A và B."},
+        {"phrase": "I'm more interested in A.", "meaning": "Tôi quan tâm đến A hơn."},
+        {"phrase": "A makes more sense to me.", "meaning": "A hợp lý hơn với tôi."},
+    ],
+    "my-first-manga-cafe": [
+        {"phrase": "Can you walk me through how a manga cafe works?", "meaning": "Bạn giải thích manga cafe hoạt động thế nào được không?"},
+        {"phrase": "Could you show me how to use the locker?", "meaning": "Bạn chỉ tôi cách dùng tủ khóa được không?"},
+        {"phrase": "I'm not sure I understand the time system.", "meaning": "Tôi không chắc mình hiểu hệ thống tính giờ."},
+    ],
+    "anime-pilgrimage-day": [
+        {"phrase": "I'm really into this anime.", "meaning": "Tôi rất mê anime này."},
+        {"phrase": "I'm excited about finding the café from the scene.", "meaning": "Tôi hào hứng tìm quán cà phê trong phim."},
+        {"phrase": "That sounds amazing.", "meaning": "Nghe hay / tuyệt quá."},
+    ],
+    "figure-store-dilemma": [
+        {"phrase": "I can't decide what to buy.", "meaning": "Tôi không thể quyết định mua gì."},
+        {"phrase": "I'd rather A than B.", "meaning": "Tôi thích A hơn B."},
+        {"phrase": "I think I'll go with A.", "meaning": "Tôi nghĩ mình sẽ chọn A."},
+    ],
+    "anime-talk-at-team-lunch": [
+        {"phrase": "I'm not really into A, but I love B.", "meaning": "Tôi không thích lắm A, nhưng rất thích B."},
+        {"phrase": "That sounds amazing.", "meaning": "Nghe hay / tuyệt quá."},
+        {"phrase": "We should hang out at... sometime.", "meaning": "Lần nào đi ... chơi cùng nhé."},
+    ],
+    "anime-manga-finale": [
+        {"phrase": "It was worth it.", "meaning": "Đáng giá / xứng đáng."},
+        {"phrase": "I'm glad that we shared our favorites.", "meaning": "May mà chúng ta chia sẻ anime yêu thích."},
+        {"phrase": "look forward to", "meaning": "mong chờ / hướng tới"},
+    ],
 }
 
 
@@ -399,7 +509,7 @@ def build_roadmap() -> dict:
     return {
         "meta": {
             "title": "Lộ trình học tiếng Anh",
-            "subtitle": "6 arc · 67 tập · Từ debug code đến lead team ở Tokyo",
+            "subtitle": "10 arc · 96 tập · Từ debug code đến khám phá Nhật Bản",
         },
         "methodology": [
             {"step": 1, "icon": "📖", "title": "Đọc truyện", "desc": "Mỗi tập là một tình huống thật — đọc hội thoại và chú ý phần ENGLISH FOCUS trên ảnh."},
@@ -458,6 +568,20 @@ def build_roadmap() -> dict:
                         "desc": "Follow-up, loop in, async standup — viết như pro",
                         "steps": [
                             {"seriesId": "email-async", "tip": "Slack & email chuyên nghiệp cho remote team"},
+                        ],
+                    },
+                    {
+                        "title": "Giai đoạn 7 — Văn hóa Nhật",
+                        "desc": "Đền chùa, onsen, izakaya, hanami, matsuri — khám phá văn hóa sau giờ làm",
+                        "steps": [
+                            {"seriesId": "japan-culture", "tip": "Shrine etiquette, omotenashi, festival — English for culture trips"},
+                        ],
+                    },
+                    {
+                        "title": "Giai đoạn 8 — Anime & Manga",
+                        "desc": "Akihabara, manga cafe, anime pilgrimage — tiếng Anh trong thế giới otaku",
+                        "steps": [
+                            {"seriesId": "anime-manga", "tip": "Figure shop, manga cafe, team lunch anime talk"},
                         ],
                     },
                 ],
@@ -533,11 +657,11 @@ def build_roadmap() -> dict:
             {
                 "id": "travel-life",
                 "title": "Du lịch & Cuộc sống",
-                "subtitle": "Bỏ qua phần debug — vào thẳng travel + living",
+                "subtitle": "Bỏ qua phần debug — vào thẳng travel + living + culture",
                 "icon": "✈️",
                 "color": "#06B6D4",
-                "duration": "2–4 tuần",
-                "desc": "Phù hợp nếu bạn đã quen tiếng Anh công việc, muốn học giao tiếp thực tế.",
+                "duration": "3–5 tuần",
+                "desc": "Phù hợp nếu bạn đã quen tiếng Anh công việc, muốn học giao tiếp thực tế và khám phá Nhật.",
                 "phases": [
                     {
                         "title": "On the Road",
@@ -548,6 +672,46 @@ def build_roadmap() -> dict:
                         "title": "Real Life",
                         "desc": "Sống ở Tokyo",
                         "steps": [{"seriesId": "living"}],
+                    },
+                    {
+                        "title": "Culture & Anime",
+                        "desc": "Văn hóa Nhật + thế giới anime manga",
+                        "steps": [
+                            {"seriesId": "japan-culture"},
+                            {"seriesId": "anime-manga"},
+                        ],
+                    },
+                ],
+            },
+            {
+                "id": "japan-culture",
+                "title": "Văn hóa Nhật Bản",
+                "subtitle": "Tập 66–72 — đền chùa, onsen, hanami, matsuri",
+                "icon": "⛩️",
+                "color": "#DC2626",
+                "duration": "1–2 tuần",
+                "desc": "Khám phá văn hóa Nhật sau giờ làm hoặc khi du lịch — tiếng Anh cho shrine, onsen, izakaya, festival.",
+                "phases": [
+                    {
+                        "title": "Explore Beyond the Guidebook",
+                        "desc": "7 tập từ shrine etiquette đến matsuri night",
+                        "steps": [{"seriesId": "japan-culture"}],
+                    },
+                ],
+            },
+            {
+                "id": "anime-manga",
+                "title": "Anime & Manga",
+                "subtitle": "Tập 73–78 — Akihabara, manga cafe, pilgrimage",
+                "icon": "🎌",
+                "color": "#EC4899",
+                "duration": "1 tuần",
+                "desc": "Tiếng Anh khi khám phá thế giới anime manga ở Nhật — từ Akihabara đến nói chuyện anime với đồng nghiệp.",
+                "phases": [
+                    {
+                        "title": "Dive Into Otaku Japan",
+                        "desc": "6 tập từ Akihabara đến anime talk at lunch",
+                        "steps": [{"seriesId": "anime-manga"}],
                     },
                 ],
             },

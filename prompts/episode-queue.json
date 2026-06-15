@@ -179,5 +179,317 @@
       "get back to",
       "reach out to"
     ]
+  },
+  {
+    "file": "japan-culture-t66-comic.md",
+    "arc_id": "japan-culture",
+    "num": 66,
+    "title": "Walk Me Through Shrine Etiquette",
+    "slug": "walk-me-through-shrine-etiquette",
+    "focus": [
+      "Can you walk me through how to pray at a shrine?",
+      "Let me make sure I got this right.",
+      "I'm not sure I understand this part."
+    ]
+  },
+  {
+    "file": "japan-culture-t67-comic.md",
+    "arc_id": "japan-culture",
+    "num": 67,
+    "title": "The Onsen Question",
+    "slug": "the-onsen-question",
+    "focus": [
+      "I'm not sure if I should...",
+      "What do you mean by...?",
+      "Could you explain this part again?"
+    ]
+  },
+  {
+    "file": "japan-culture-t68-comic.md",
+    "arc_id": "japan-culture",
+    "num": 68,
+    "title": "Izakaya After Work",
+    "slug": "izakaya-after-work",
+    "focus": [
+      "I'm excited about trying real izakaya food.",
+      "That sounds amazing.",
+      "I'm not really into raw fish, but..."
+    ]
+  },
+  {
+    "file": "japan-culture-t69-comic.md",
+    "arc_id": "japan-culture",
+    "num": 69,
+    "title": "Cherry Blossom Dilemma",
+    "slug": "cherry-blossom-dilemma",
+    "focus": [
+      "I'm torn between A and B.",
+      "I'm leaning toward A because...",
+      "I think I'll go with A."
+    ]
+  },
+  {
+    "file": "japan-culture-t70-comic.md",
+    "arc_id": "japan-culture",
+    "num": 70,
+    "title": "What Is Omotenashi?",
+    "slug": "what-is-omotenashi",
+    "focus": [
+      "I'm surprised that...",
+      "That was worth it.",
+      "I'm glad that we learned the custom first."
+    ]
+  },
+  {
+    "file": "japan-culture-t71-comic.md",
+    "arc_id": "japan-culture",
+    "num": 71,
+    "title": "Summer Festival Night",
+    "slug": "summer-festival-night",
+    "focus": [
+      "I'm looking for...",
+      "How long does it take to get to...?",
+      "That sounds amazing."
+    ]
+  },
+  {
+    "file": "japan-culture-t72-comic.md",
+    "arc_id": "japan-culture",
+    "num": 72,
+    "title": "Japan Culture Finale",
+    "slug": "japan-culture-finale",
+    "focus": [
+      "It was worth it.",
+      "I'm proud of myself.",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "anime-manga-t73-comic.md",
+    "arc_id": "anime-manga",
+    "num": 73,
+    "title": "Akihabara or Nakano Broadway?",
+    "slug": "akihabara-or-nakano-broadway",
+    "focus": [
+      "I'm torn between A and B.",
+      "I'm more interested in A.",
+      "A makes more sense to me."
+    ]
+  },
+  {
+    "file": "anime-manga-t74-comic.md",
+    "arc_id": "anime-manga",
+    "num": 74,
+    "title": "My First Manga Cafe",
+    "slug": "my-first-manga-cafe",
+    "focus": [
+      "Can you walk me through how a manga cafe works?",
+      "Could you show me how to use the locker?",
+      "I'm not sure I understand the time system."
+    ]
+  },
+  {
+    "file": "anime-manga-t75-comic.md",
+    "arc_id": "anime-manga",
+    "num": 75,
+    "title": "Anime Pilgrimage Day",
+    "slug": "anime-pilgrimage-day",
+    "focus": [
+      "I'm really into this anime.",
+      "I'm excited about finding the café from the scene.",
+      "That sounds amazing."
+    ]
+  },
+  {
+    "file": "anime-manga-t76-comic.md",
+    "arc_id": "anime-manga",
+    "num": 76,
+    "title": "Figure Store Dilemma",
+    "slug": "figure-store-dilemma",
+    "focus": [
+      "I can't decide what to buy.",
+      "I'd rather A than B.",
+      "I think I'll go with A."
+    ]
+  },
+  {
+    "file": "anime-manga-t77-comic.md",
+    "arc_id": "anime-manga",
+    "num": 77,
+    "title": "Anime Talk at Team Lunch",
+    "slug": "anime-talk-at-team-lunch",
+    "focus": [
+      "I'm not really into A, but I love B.",
+      "That sounds amazing.",
+      "We should hang out at... sometime."
+    ]
+  },
+  {
+    "file": "anime-manga-t78-comic.md",
+    "arc_id": "anime-manga",
+    "num": 78,
+    "title": "Anime & Manga Finale",
+    "slug": "anime-manga-finale",
+    "focus": [
+      "It was worth it.",
+      "I'm glad that we shared our favorites.",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "japan-culture-t66-comic.md",
+    "arc_id": "japan-culture",
+    "num": 66,
+    "title": "Walk Me Through Shrine Etiquette",
+    "slug": "walk-me-through-shrine-etiquette",
+    "focus": [
+      "Can you walk me through how to pray at a shrine?",
+      "Let me make sure I got this right.",
+      "I'm not sure I understand this part."
+    ]
+  },
+  {
+    "file": "japan-culture-t67-comic.md",
+    "arc_id": "japan-culture",
+    "num": 67,
+    "title": "The Onsen Question",
+    "slug": "the-onsen-question",
+    "focus": [
+      "I'm not sure if I should...",
+      "What do you mean by...?",
+      "Could you explain this part again?"
+    ]
+  },
+  {
+    "file": "japan-culture-t68-comic.md",
+    "arc_id": "japan-culture",
+    "num": 68,
+    "title": "Izakaya After Work",
+    "slug": "izakaya-after-work",
+    "focus": [
+      "I'm excited about trying real izakaya food.",
+      "That sounds amazing.",
+      "I'm not really into raw fish, but..."
+    ]
+  },
+  {
+    "file": "japan-culture-t69-comic.md",
+    "arc_id": "japan-culture",
+    "num": 69,
+    "title": "Cherry Blossom Dilemma",
+    "slug": "cherry-blossom-dilemma",
+    "focus": [
+      "I'm torn between A and B.",
+      "I'm leaning toward A because...",
+      "I think I'll go with A."
+    ]
+  },
+  {
+    "file": "japan-culture-t70-comic.md",
+    "arc_id": "japan-culture",
+    "num": 70,
+    "title": "What Is Omotenashi?",
+    "slug": "what-is-omotenashi",
+    "focus": [
+      "I'm surprised that...",
+      "That was worth it.",
+      "I'm glad that we learned the custom first."
+    ]
+  },
+  {
+    "file": "japan-culture-t71-comic.md",
+    "arc_id": "japan-culture",
+    "num": 71,
+    "title": "Summer Festival Night",
+    "slug": "summer-festival-night",
+    "focus": [
+      "I'm looking for...",
+      "How long does it take to get to...?",
+      "That sounds amazing."
+    ]
+  },
+  {
+    "file": "japan-culture-t72-comic.md",
+    "arc_id": "japan-culture",
+    "num": 72,
+    "title": "Japan Culture Finale",
+    "slug": "japan-culture-finale",
+    "focus": [
+      "It was worth it.",
+      "I'm proud of myself.",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "anime-manga-t73-comic.md",
+    "arc_id": "anime-manga",
+    "num": 73,
+    "title": "Akihabara or Nakano Broadway?",
+    "slug": "akihabara-or-nakano-broadway",
+    "focus": [
+      "I'm torn between A and B.",
+      "I'm more interested in A.",
+      "A makes more sense to me."
+    ]
+  },
+  {
+    "file": "anime-manga-t74-comic.md",
+    "arc_id": "anime-manga",
+    "num": 74,
+    "title": "My First Manga Cafe",
+    "slug": "my-first-manga-cafe",
+    "focus": [
+      "Can you walk me through how a manga cafe works?",
+      "Could you show me how to use the locker?",
+      "I'm not sure I understand the time system."
+    ]
+  },
+  {
+    "file": "anime-manga-t75-comic.md",
+    "arc_id": "anime-manga",
+    "num": 75,
+    "title": "Anime Pilgrimage Day",
+    "slug": "anime-pilgrimage-day",
+    "focus": [
+      "I'm really into this anime.",
+      "I'm excited about finding the café from the scene.",
+      "That sounds amazing."
+    ]
+  },
+  {
+    "file": "anime-manga-t76-comic.md",
+    "arc_id": "anime-manga",
+    "num": 76,
+    "title": "Figure Store Dilemma",
+    "slug": "figure-store-dilemma",
+    "focus": [
+      "I can't decide what to buy.",
+      "I'd rather A than B.",
+      "I think I'll go with A."
+    ]
+  },
+  {
+    "file": "anime-manga-t77-comic.md",
+    "arc_id": "anime-manga",
+    "num": 77,
+    "title": "Anime Talk at Team Lunch",
+    "slug": "anime-talk-at-team-lunch",
+    "focus": [
+      "I'm not really into A, but I love B.",
+      "That sounds amazing.",
+      "We should hang out at... sometime."
+    ]
+  },
+  {
+    "file": "anime-manga-t78-comic.md",
+    "arc_id": "anime-manga",
+    "num": 78,
+    "title": "Anime & Manga Finale",
+    "slug": "anime-manga-finale",
+    "focus": [
+      "It was worth it.",
+      "I'm glad that we shared our favorites.",
+      "look forward to"
+    ]
   }
 ]

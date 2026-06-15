@@ -161,6 +161,13 @@
     "image": "images/comics/bug-arc-3/tập-02/bug-arc-3-tap02-quick-patch-or-rollback.png"
   },
   {
+    "old_path": "(generated) bug-arc-3-tap03-walk-me-through-the-payment-flow.png",
+    "arc": "bug-arc-3",
+    "episode_num": 3,
+    "slug": "walk-me-through-the-payment-flow",
+    "image": "images/comics/bug-arc-3/tập-03/bug-arc-3-tap03-walk-me-through-the-payment-flow.png"
+  },
+  {
     "old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_17 PM (3).png",
     "arc": "bug-arc-3",
     "episode_num": 4,

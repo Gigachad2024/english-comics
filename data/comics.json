@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 82,
+  "count": 96,
   "series": [
     {
       "id": "bug-arc-1",
@@ -519,7 +519,7 @@
       "color": "#A855F7",
       "icon": "👻",
       "tag": "Công việc",
-      "count": 8,
+      "count": 9,
       "cover": "images/comics/bug-arc-3/tập-01/bug-arc-3-tap01-investor-demo-nightmare.png",
       "episodes": [
         {
@@ -585,6 +585,45 @@
           "patterns": [],
           "practicePrompts": [
             "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Quick Patch or Rollback?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Walk Me Through the Payment Flow"
+        },
+        {
+          "num": 3,
+          "title": "Walk Me Through the Payment Flow",
+          "slug": "walk-me-through-the-payment-flow",
+          "image": "images/comics/bug-arc-3/tập-03/bug-arc-3-tap03-walk-me-through-the-payment-flow.png",
+          "englishFocus": [
+            {
+              "phrase": "Can you walk me through the payment flow?",
+              "meaning": "Bạn giải thích flow thanh toán cho tôi được không?"
+            },
+            {
+              "phrase": "The bug affects the payment flow.",
+              "meaning": "Lỗi ảnh hưởng đến luồng thanh toán."
+            },
+            {
+              "phrase": "Walk me through...",
+              "meaning": "Giải thích từng bước cho tôi..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "decision_hesitation",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Can you walk me through the payment flow?",
+            "The bug affects the payment flow.",
+            "Walk me through..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Can you walk me through the payment flow?」 để nói về tình huống: Walk Me Through the Payment Flow.",
+            "Dùng câu 「The bug affects the payment flow.」 để nói về tình huống: Walk Me Through the Payment Flow.",
+            "Dùng câu 「Walk me through...」 để nói về tình huống: Walk Me Through the Payment Flow.",
             "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
           ],
           "commonMistakes": [],
@@ -2524,6 +2563,597 @@
             "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
           ],
           "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "japan-culture",
+      "title": "Japan Culture Arc",
+      "desc": "Đền chùa, onsen, izakaya, hanami, matsuri — tiếng Anh khi khám phá văn hóa Nhật sau giờ làm hoặc khi du lịch",
+      "color": "#DC2626",
+      "icon": "⛩️",
+      "tag": "Văn hóa",
+      "count": 7,
+      "cover": "images/comics/japan-culture/tập-66/japan-culture-tap66-walk-me-through-shrine-etiquette.png",
+      "episodes": [
+        {
+          "num": 66,
+          "title": "Walk Me Through Shrine Etiquette",
+          "slug": "walk-me-through-shrine-etiquette",
+          "image": "images/comics/japan-culture/tập-66/japan-culture-tap66-walk-me-through-shrine-etiquette.png",
+          "englishFocus": [
+            {
+              "phrase": "Can you walk me through how to pray at a shrine?",
+              "meaning": "Bạn hướng dẫn tôi cách cầu nguyện ở đền được không?"
+            },
+            {
+              "phrase": "Let me make sure I got this right.",
+              "meaning": "Để tôi xác nhận lại xem tôi hiểu đúng chưa."
+            },
+            {
+              "phrase": "I'm not sure I understand this part.",
+              "meaning": "Tôi không chắc mình hiểu phần này."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "japan-culture",
+            "travel",
+            "asking-help"
+          ],
+          "patterns": [
+            "Can you walk me through how to pray at a shrine?",
+            "Let me make sure I got this right.",
+            "I'm not sure I understand this part."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Can you walk me through how to pray at a shrine?」 để nói về tình huống: Walk Me Through Shrine Etiquette.",
+            "Dùng câu 「Let me make sure I got this right.」 để nói về tình huống: Walk Me Through Shrine Etiquette.",
+            "Dùng câu 「I'm not sure I understand this part.」 để nói về tình huống: Walk Me Through Shrine Etiquette.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Onsen Question"
+        },
+        {
+          "num": 67,
+          "title": "The Onsen Question",
+          "slug": "the-onsen-question",
+          "image": "images/comics/japan-culture/tập-67/japan-culture-tap67-the-onsen-question.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm not sure if I should...",
+              "meaning": "Tôi không chắc liệu mình có nên..."
+            },
+            {
+              "phrase": "What do you mean by...?",
+              "meaning": "... nghĩa là gì? / Ý bạn là gì khi nói...?"
+            },
+            {
+              "phrase": "Could you explain this part again?",
+              "meaning": "Bạn giải thích lại phần này được không?"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "japan-culture",
+            "japan-life",
+            "clarification"
+          ],
+          "patterns": [
+            "I'm not sure if I should...",
+            "What do you mean by...?",
+            "Could you explain this part again?"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm not sure if I should...」 để nói về tình huống: The Onsen Question.",
+            "Dùng câu 「What do you mean by...?」 để nói về tình huống: The Onsen Question.",
+            "Dùng câu 「Could you explain this part again?」 để nói về tình huống: The Onsen Question.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Izakaya After Work"
+        },
+        {
+          "num": 68,
+          "title": "Izakaya After Work",
+          "slug": "izakaya-after-work",
+          "image": "images/comics/japan-culture/tập-68/japan-culture-tap68-izakaya-after-work.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm excited about trying real izakaya food.",
+              "meaning": "Tôi hào hứng được thử đồ ăn izakaya thật."
+            },
+            {
+              "phrase": "That sounds amazing.",
+              "meaning": "Nghe hay / tuyệt quá."
+            },
+            {
+              "phrase": "I'm not really into raw fish, but...",
+              "meaning": "Tôi không thích lắm món sống, nhưng..."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm excited about trying real izakaya food.",
+            "That sounds amazing.",
+            "I'm not really into raw fish, but..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm excited about trying real izakaya food.」 để nói về tình huống: Izakaya After Work.",
+            "Dùng câu 「That sounds amazing.」 để nói về tình huống: Izakaya After Work.",
+            "Dùng câu 「I'm not really into raw fish, but...」 để nói về tình huống: Izakaya After Work.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Cherry Blossom Dilemma"
+        },
+        {
+          "num": 69,
+          "title": "Cherry Blossom Dilemma",
+          "slug": "cherry-blossom-dilemma",
+          "image": "images/comics/japan-culture/tập-69/japan-culture-tap69-cherry-blossom-dilemma.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm leaning toward A because...",
+              "meaning": "Tôi đang nghiêng về A vì..."
+            },
+            {
+              "phrase": "I think I'll go with A.",
+              "meaning": "Tôi nghĩ mình sẽ chọn A."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "japan-culture",
+            "travel",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm leaning toward A because...",
+            "I think I'll go with A."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Cherry Blossom Dilemma.",
+            "Dùng câu 「I'm leaning toward A because...」 để nói về tình huống: Cherry Blossom Dilemma.",
+            "Dùng câu 「I think I'll go with A.」 để nói về tình huống: Cherry Blossom Dilemma.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: What Is Omotenashi?"
+        },
+        {
+          "num": 70,
+          "title": "What Is Omotenashi?",
+          "slug": "what-is-omotenashi",
+          "image": "images/comics/japan-culture/tập-70/japan-culture-tap70-what-is-omotenashi.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm surprised that...",
+              "meaning": "Tôi ngạc nhiên vì..."
+            },
+            {
+              "phrase": "That was worth it.",
+              "meaning": "Đáng giá / xứng đáng."
+            },
+            {
+              "phrase": "I'm glad that we learned the custom first.",
+              "meaning": "May mà chúng ta học phong tục trước."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm surprised that...",
+            "That was worth it.",
+            "I'm glad that we learned the custom first."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm surprised that...」 để nói về tình huống: What Is Omotenashi?.",
+            "Dùng câu 「That was worth it.」 để nói về tình huống: What Is Omotenashi?.",
+            "Dùng câu 「I'm glad that we learned the custom first.」 để nói về tình huống: What Is Omotenashi?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Summer Festival Night"
+        },
+        {
+          "num": 71,
+          "title": "Summer Festival Night",
+          "slug": "summer-festival-night",
+          "image": "images/comics/japan-culture/tập-71/japan-culture-tap71-summer-festival-night.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm looking for...",
+              "meaning": "Tôi đang tìm..."
+            },
+            {
+              "phrase": "How long does it take to get to...?",
+              "meaning": "Mất bao lâu để đến...?"
+            },
+            {
+              "phrase": "That sounds amazing.",
+              "meaning": "Nghe hay / tuyệt quá."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'm looking for...",
+            "How long does it take to get to...?",
+            "That sounds amazing."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm looking for...」 để nói về tình huống: Summer Festival Night.",
+            "Dùng câu 「How long does it take to get to...?」 để nói về tình huống: Summer Festival Night.",
+            "Dùng câu 「That sounds amazing.」 để nói về tình huống: Summer Festival Night.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Japan Culture Finale"
+        },
+        {
+          "num": 72,
+          "title": "Japan Culture Finale",
+          "slug": "japan-culture-finale",
+          "image": "images/comics/japan-culture/tập-72/japan-culture-tap72-japan-culture-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "It was worth it.",
+              "meaning": "Đáng giá / xứng đáng."
+            },
+            {
+              "phrase": "I'm proud of myself.",
+              "meaning": "Tôi tự hào về bản thân."
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ / hướng tới"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "It was worth it.",
+            "I'm proud of myself.",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「It was worth it.」 để nói về tình huống: Japan Culture Finale.",
+            "Dùng câu 「I'm proud of myself.」 để nói về tình huống: Japan Culture Finale.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Japan Culture Finale.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "anime-manga",
+      "title": "Anime & Manga Arc",
+      "desc": "Akihabara, manga cafe, anime pilgrimage, figure shop — tiếng Anh khi khám phá thế giới anime manga ở Nhật",
+      "color": "#EC4899",
+      "icon": "🎌",
+      "tag": "Anime",
+      "count": 6,
+      "cover": "images/comics/anime-manga/tập-73/anime-manga-tap73-akihabara-or-nakano-broadway.png",
+      "episodes": [
+        {
+          "num": 73,
+          "title": "Akihabara or Nakano Broadway?",
+          "slug": "akihabara-or-nakano-broadway",
+          "image": "images/comics/anime-manga/tập-73/anime-manga-tap73-akihabara-or-nakano-broadway.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm torn between A and B.",
+              "meaning": "Tôi phân vân giữa A và B."
+            },
+            {
+              "phrase": "I'm more interested in A.",
+              "meaning": "Tôi quan tâm đến A hơn."
+            },
+            {
+              "phrase": "A makes more sense to me.",
+              "meaning": "A hợp lý hơn với tôi."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "anime-manga",
+            "travel",
+            "decision"
+          ],
+          "patterns": [
+            "I'm torn between A and B.",
+            "I'm more interested in A.",
+            "A makes more sense to me."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm torn between A and B.」 để nói về tình huống: Akihabara or Nakano Broadway?.",
+            "Dùng câu 「I'm more interested in A.」 để nói về tình huống: Akihabara or Nakano Broadway?.",
+            "Dùng câu 「A makes more sense to me.」 để nói về tình huống: Akihabara or Nakano Broadway?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm torn between deploy or wait.",
+              "correct": "I'm torn between deploying and waiting.",
+              "why": "torn between A and B — A/B cùng dạng từ",
+              "patterns": [
+                "I'm torn between"
+              ]
+            }
+          ],
+          "hook": "Next: My First Manga Cafe"
+        },
+        {
+          "num": 74,
+          "title": "My First Manga Cafe",
+          "slug": "my-first-manga-cafe",
+          "image": "images/comics/anime-manga/tập-74/anime-manga-tap74-my-first-manga-cafe.png",
+          "englishFocus": [
+            {
+              "phrase": "Can you walk me through how a manga cafe works?",
+              "meaning": "Bạn giải thích manga cafe hoạt động thế nào được không?"
+            },
+            {
+              "phrase": "Could you show me how to use the locker?",
+              "meaning": "Bạn chỉ tôi cách dùng tủ khóa được không?"
+            },
+            {
+              "phrase": "I'm not sure I understand the time system.",
+              "meaning": "Tôi không chắc mình hiểu hệ thống tính giờ."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Can you walk me through how a manga cafe works?",
+            "Could you show me how to use the locker?",
+            "I'm not sure I understand the time system."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Can you walk me through how a manga cafe works?」 để nói về tình huống: My First Manga Cafe.",
+            "Dùng câu 「Could you show me how to use the locker?」 để nói về tình huống: My First Manga Cafe.",
+            "Dùng câu 「I'm not sure I understand the time system.」 để nói về tình huống: My First Manga Cafe.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Anime Pilgrimage Day"
+        },
+        {
+          "num": 75,
+          "title": "Anime Pilgrimage Day",
+          "slug": "anime-pilgrimage-day",
+          "image": "images/comics/anime-manga/tập-75/anime-manga-tap75-anime-pilgrimage-day.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm really into this anime.",
+              "meaning": "Tôi rất mê anime này."
+            },
+            {
+              "phrase": "I'm excited about finding the café from the scene.",
+              "meaning": "Tôi hào hứng tìm quán cà phê trong phim."
+            },
+            {
+              "phrase": "That sounds amazing.",
+              "meaning": "Nghe hay / tuyệt quá."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "anime-manga",
+            "travel",
+            "small-talk"
+          ],
+          "patterns": [
+            "I'm really into this anime.",
+            "I'm excited about finding the café from the scene.",
+            "That sounds amazing."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm really into this anime.」 để nói về tình huống: Anime Pilgrimage Day.",
+            "Dùng câu 「I'm excited about finding the café from the scene.」 để nói về tình huống: Anime Pilgrimage Day.",
+            "Dùng câu 「That sounds amazing.」 để nói về tình huống: Anime Pilgrimage Day.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Figure Store Dilemma"
+        },
+        {
+          "num": 76,
+          "title": "Figure Store Dilemma",
+          "slug": "figure-store-dilemma",
+          "image": "images/comics/anime-manga/tập-76/anime-manga-tap76-figure-store-dilemma.png",
+          "englishFocus": [
+            {
+              "phrase": "I can't decide what to buy.",
+              "meaning": "Tôi không thể quyết định mua gì."
+            },
+            {
+              "phrase": "I'd rather A than B.",
+              "meaning": "Tôi thích A hơn B."
+            },
+            {
+              "phrase": "I think I'll go with A.",
+              "meaning": "Tôi nghĩ mình sẽ chọn A."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I can't decide what to buy.",
+            "I'd rather A than B.",
+            "I think I'll go with A."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I can't decide what to buy.」 để nói về tình huống: Figure Store Dilemma.",
+            "Dùng câu 「I'd rather A than B.」 để nói về tình huống: Figure Store Dilemma.",
+            "Dùng câu 「I think I'll go with A.」 để nói về tình huống: Figure Store Dilemma.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Anime Talk at Team Lunch"
+        },
+        {
+          "num": 77,
+          "title": "Anime Talk at Team Lunch",
+          "slug": "anime-talk-at-team-lunch",
+          "image": "images/comics/anime-manga/tập-77/anime-manga-tap77-anime-talk-at-team-lunch.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm not really into A, but I love B.",
+              "meaning": "Tôi không thích lắm A, nhưng rất thích B."
+            },
+            {
+              "phrase": "That sounds amazing.",
+              "meaning": "Nghe hay / tuyệt quá."
+            },
+            {
+              "phrase": "We should hang out at... sometime.",
+              "meaning": "Lần nào đi ... chơi cùng nhé."
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "anime-manga",
+            "software-engineering",
+            "small-talk"
+          ],
+          "patterns": [
+            "I'm not really into A, but I love B.",
+            "That sounds amazing.",
+            "We should hang out at... sometime."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm not really into A, but I love B.」 để nói về tình huống: Anime Talk at Team Lunch.",
+            "Dùng câu 「That sounds amazing.」 để nói về tình huống: Anime Talk at Team Lunch.",
+            "Dùng câu 「We should hang out at... sometime.」 để nói về tình huống: Anime Talk at Team Lunch.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Anime & Manga Finale"
+        },
+        {
+          "num": 78,
+          "title": "Anime & Manga Finale",
+          "slug": "anime-manga-finale",
+          "image": "images/comics/anime-manga/tập-78/anime-manga-tap78-anime-manga-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "It was worth it.",
+              "meaning": "Đáng giá / xứng đáng."
+            },
+            {
+              "phrase": "I'm glad that we shared our favorites.",
+              "meaning": "May mà chúng ta chia sẻ anime yêu thích."
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ / hướng tới"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "preference_opinion",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "It was worth it.",
+            "I'm glad that we shared our favorites.",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「It was worth it.」 để nói về tình huống: Anime & Manga Finale.",
+            "Dùng câu 「I'm glad that we shared our favorites.」 để nói về tình huống: Anime & Manga Finale.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Anime & Manga Finale.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
           "hook": ""
         }
       ]

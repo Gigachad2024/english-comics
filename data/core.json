@@ -95,7 +95,7 @@
     {
       "id": "universal_communication_v2",
       "title": "Universal Communication Pack V2",
-      "purpose": "Use across travel, software engineering, Japan life, daily life, work meetings, learning, and customer support.",
+      "purpose": "Use across travel, software engineering, Japan life, daily life, work meetings, learning, customer support, Japanese culture, and anime/manga exploration.",
       "groups": [
         {
           "id": "asking_help_clarification",
@@ -230,6 +230,18 @@
       "title": "Email & Async Arc — Write Like a Pro",
       "focus": ["email", "Slack", "follow-up", "async standup", "professional writing"],
       "episodeRange": "61-65"
+    },
+    {
+      "id": "japan_culture",
+      "title": "Japan Culture Arc — Explore Beyond the Guidebook",
+      "focus": ["shrine etiquette", "onsen", "izakaya", "hanami", "omotenashi", "matsuri", "cultural customs", "after-work exploration"],
+      "episodeRange": "66-72"
+    },
+    {
+      "id": "anime_manga",
+      "title": "Anime & Manga Arc — Dive Into Otaku Japan",
+      "focus": ["Akihabara", "manga cafe", "anime pilgrimage", "figure shop", "otaku culture", "anime small talk", "weekend exploration"],
+      "episodeRange": "73-78"
     }
   ],
   "episodeSchema": {
@@ -299,6 +311,10 @@
     "system-design",
     "email-async",
     "async-communication",
+    "japan-culture",
+    "anime-manga",
+    "culture",
+    "otaku",
     "phrasal-verbs",
     "mistake-map"
   ],

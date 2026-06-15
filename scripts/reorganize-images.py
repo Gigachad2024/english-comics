@@ -31,6 +31,7 @@ CATALOG = [
     {"old_path": "Bug/Phần 2/ChatGPT Image Jun 14, 2026, 02_28_06 PM (10).png", "arc": "bug-arc-2", "episode_num": 10, "slug": "safe-release-finale"},
     {"old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_16 PM (1).png", "arc": "bug-arc-3", "episode_num": 1, "slug": "investor-demo-nightmare"},
     {"old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_16 PM (2).png", "arc": "bug-arc-3", "episode_num": 2, "slug": "quick-patch-or-rollback"},
+    # Episode 3 image added separately — see prompts/bug-arc-3-t03-comic.md
     {"old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_17 PM (3).png", "arc": "bug-arc-3", "episode_num": 4, "slug": "cache-suspect"},
     {"old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_19 PM (4).png", "arc": "bug-arc-3", "episode_num": 5, "slug": "qa-gate"},
     {"old_path": "Bug/Phần 3/ChatGPT Image Jun 14, 2026, 02_29_20 PM (5).png", "arc": "bug-arc-3", "episode_num": 6, "slug": "the-safer-choice"},

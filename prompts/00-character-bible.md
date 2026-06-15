@@ -45,3 +45,5 @@
 | Career Growth | `#6366F1` |
 | System Design | `#8B5CF6` |
 | Email & Async | `#3B82F6` |
+| Japan Culture | `#DC2626` |
+| Anime & Manga | `#EC4899` |
