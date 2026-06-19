@@ -3,7 +3,7 @@ const App = (() => {
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => document.querySelectorAll(s);
 
-  const ASSET_VERSION = "20250614-english-vault-v4";
+  const ASSET_VERSION = "20250618-english-vault-v6";
 
   function toWebp(path) {
     if (!path || !/\.png$/i.test(path)) return path;
@@ -24,6 +24,7 @@ const App = (() => {
 
   let data = null;
   let roadmapData = null;
+  let episodeGuides = null;
   let episodeView = "list";
   let activeFilter = "all";
   let searchFocus = 0;
@@ -613,21 +614,22 @@ const App = (() => {
     const activeThumb = $("#thumb-scroll .thumb-item.active");
     if (activeThumb) activeThumb.scrollIntoView({ inline: "center", behavior: "smooth" });
 
-    renderTakeaway(ep);
+    renderTakeaway(ep, seriesId);
 
     readerState = { seriesId, epNum, prev, next, ep, s };
     document.title = `${epLabel(ep)}: ${ep.title} — English Vault`;
   }
 
   function showPage(name) {
-    ["home", "series", "reader", "bookmarks", "roadmap", "patterns"].forEach((p) => {
-      $(`#page-${p}`).classList.toggle("hidden", p !== name);
+    ["home", "series", "reader", "bookmarks", "roadmap", "patterns", "glossary"].forEach((p) => {
+      $(`#page-${p}`)?.classList.toggle("hidden", p !== name);
     });
     document.body.classList.toggle("reader-fullscreen", false);
 
     $("#nav-home")?.classList.toggle("active", name === "home");
     $("#nav-roadmap")?.classList.toggle("active", name === "roadmap");
     $("#nav-patterns")?.classList.toggle("active", name === "patterns");
+    $("#nav-glossary")?.classList.toggle("active", name === "glossary");
     $("#nav-bookmarks")?.classList.toggle("active", name === "bookmarks");
     $$(".mobile-nav-item[data-nav]").forEach((el) => {
       el.classList.toggle("active", el.dataset.nav === name);
@@ -637,6 +639,7 @@ const App = (() => {
       home: "English Vault — Tokyo Debug Chronicles",
       roadmap: "Lộ trình học — English Vault",
       patterns: "Pattern Library — English Vault",
+      glossary: "Từ điển Pattern — English Vault",
       bookmarks: "Thư viện — English Vault",
     };
     if (titles[name]) document.title = titles[name];
@@ -862,14 +865,18 @@ const App = (() => {
 
     const items = getAllEpisodes().filter((ep) => {
       if (!query) return true;
+      const focusMatch = (ep.englishFocus || []).some(
+        (f) => f.phrase?.toLowerCase().includes(query) || (f.meaning || "").toLowerCase().includes(query)
+      );
       return ep.title.toLowerCase().includes(query)
         || ep.seriesTitle.toLowerCase().includes(query)
         || `tập ${ep.num}`.includes(query)
-        || (ep.extra && `extra ${ep.extraNum}`.includes(query));
+        || (ep.extra && `extra ${ep.extraNum}`.includes(query))
+        || focusMatch;
     }).slice(0, query ? 14 : 20);
 
     if (items.length) {
-      if (html) html += `<div class="search-section-label">📚 Tập truyện</div>`;
+      html += `<div class="search-section-label">📚 Tập truyện</div>`;
       html += items
         .map((ep) => {
           const i = idx++;
@@ -884,6 +891,27 @@ const App = (() => {
           </div>`;
         })
         .join("");
+    }
+
+    if (typeof Glossary !== "undefined" && query) {
+      const terms = Glossary.searchTerms(query, 8);
+      if (terms.length) {
+        html += `<div class="search-section-label">📖 Từ điển</div>`;
+        html += terms
+          .map((t) => {
+            const i = idx++;
+            return `
+            <div class="search-item search-item-glossary ${i === searchFocus ? "focused" : ""}" data-idx="${i}"
+                 onclick="App.navigate('#/glossary/${t.id}');App.closeSearch()">
+              <span class="search-glossary-icon">📖</span>
+              <div class="search-item-info">
+                <div class="search-item-series">Từ điển Pattern</div>
+                <div class="search-item-title">${t.term}${t.vi ? ` — ${t.vi}` : ""}</div>
+              </div>
+            </div>`;
+          })
+          .join("");
+      }
     }
 
     if (!html) {
@@ -954,17 +982,29 @@ const App = (() => {
     renderBookmarks();
   }
 
-  function renderTakeaway(ep) {
+  function mdInline(text) {
+    if (!text) return "";
+    return String(text)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/「(.+?)」/g, "<em>$1</em>");
+  }
+
+  function getEpisodeGuide(seriesId, epNum) {
+    return episodeGuides?.guides?.[`${seriesId}/${epNum}`] || null;
+  }
+
+  function renderTakeaway(ep, seriesId) {
     const panel = $("#takeaway-panel");
     const list = $("#takeaway-list");
     const summary = $("#takeaway-summary");
     const twist = $("#takeaway-twist");
     const slogan = $("#takeaway-slogan");
     const quizBtn = $("#takeaway-quiz-btn");
+    const guide = seriesId ? getEpisodeGuide(seriesId, ep.num) : null;
     const focus = ep.englishFocus || [];
     const points = ep.takeaways || [];
     const quote = ep.slogan || "";
-    const recap = ep.summary || "";
+    const recap = guide?.storyRecap || ep.summary || "";
     const twistText = ep.twist || "";
 
     panel.classList.remove("hidden");
@@ -973,22 +1013,106 @@ const App = (() => {
     slogan.classList.add("hidden");
     if (quizBtn) quizBtn.classList.add("hidden");
 
-    if (focus.length) {
-      list.innerHTML = focus
-        .map(
-          (f) =>
-            `<li><strong>${f.phrase}</strong>${f.meaning ? ` <span class="focus-meaning">= ${f.meaning}</span>` : ""}</li>`
-        )
-        .join("");
+    if (guide) {
+      list.innerHTML = `
+        <div class="episode-guide">
+          <div class="episode-guide-hero">
+            <span class="episode-guide-badge">📘 Giải thích tập ${ep.num}</span>
+            <p class="episode-guide-summary">${mdInline(guide.summary)}</p>
+            <p class="episode-guide-goal"><span>Mục tiêu:</span> ${mdInline(guide.learningGoal)}</p>
+          </div>
+          ${recap ? `<div class="episode-guide-recap"><h4>📖 Tóm tắt câu chuyện</h4><p>${mdInline(recap)}</p></div>` : ""}
+          ${guide.phrases?.length ? `
+            <div class="episode-guide-phrases">
+              <h4>🗣️ Giải thích từng cụm ${guide.phrasesDerived ? "(Pattern gợi ý từ pack)" : "(English Focus)"}</h4>
+              ${guide.phrasesDerived ? `<p class="section-desc">Tập này chưa gắn English Focus cố định — đây là các pattern phù hợp nhất lấy từ pack của tập.</p>` : ""}
+              <div class="phrase-cards">
+                ${guide.phrases.map((p, i) => {
+                  const termBtn = typeof Glossary !== "undefined"
+                    ? Glossary.termButton(p.phrase)
+                    : `<strong>${p.phrase}</strong>`;
+                  return `
+                  <article class="phrase-card">
+                    <div class="phrase-card-num">${i + 1}</div>
+                    <div class="phrase-card-body">
+                      <div class="phrase-card-head">${termBtn}<span class="phrase-meaning">= ${p.meaning || ""}</span></div>
+                      <p class="phrase-explain">${mdInline(p.explain)}</p>
+                      <div class="phrase-meta-grid">
+                        <div class="phrase-meta"><span>Khi nào dùng</span><p>${p.whenToUse || ""}</p></div>
+                        <div class="phrase-meta"><span>Cấu trúc</span><p><code>${p.structure || p.phrase}</code></p></div>
+                      </div>
+                      <div class="phrase-example">
+                        <span>Ví dụ</span>
+                        <p class="phrase-example-en">"${p.exampleEn || p.phrase}"</p>
+                        <p class="phrase-example-tip">💡 ${p.speakTip || "Đọc to 3 lần rồi tự nói 1 câu."}</p>
+                      </div>
+                    </div>
+                  </article>`;
+                }).join("")}
+              </div>
+            </div>` : ""}
+          ${guide.extraVocab?.length ? `
+            <div class="episode-guide-vocab">
+              <h4>📚 Từ vựng thêm trong truyện</h4>
+              <p class="section-desc">Các từ/cụm trong hội thoại — không nằm trong pattern pack nhưng hay gặp khi đọc truyện.</p>
+              <div class="vocab-cards">
+                ${guide.extraVocab.map((v) => {
+                  const termBtn = typeof Glossary !== "undefined"
+                    ? Glossary.termButton(v.phrase)
+                    : `<strong>${v.phrase}</strong>`;
+                  return `
+                  <article class="vocab-card">
+                    <div class="vocab-card-head">${termBtn}<span class="phrase-meaning">= ${v.meaning || ""}</span></div>
+                    <p class="vocab-explain">${mdInline(v.explain)}</p>
+                  </article>`;
+                }).join("")}
+              </div>
+            </div>` : ""}
+          ${guide.grammar?.length ? `
+            <div class="episode-guide-grammar">
+              <h4>📐 Ngữ pháp cần nhớ</h4>
+              <p class="section-desc">Điểm ngữ pháp gắn với câu trong tập này — đọc trước khi luyện nói.</p>
+              <div class="grammar-cards">
+                ${guide.grammar.map((g) => `
+                  <article class="grammar-card">
+                    <h5 class="grammar-card-title">${g.title}</h5>
+                    <p class="grammar-rule">${mdInline(g.rule)}</p>
+                    <p class="grammar-explain">${mdInline(g.explain)}</p>
+                    <div class="grammar-examples">
+                      ${g.exampleGood ? `<div class="grammar-good"><span>✓</span> ${g.exampleGood}</div>` : ""}
+                      ${g.exampleBad ? `<div class="grammar-bad"><span>✗</span> ${g.exampleBad}</div>` : ""}
+                    </div>
+                  </article>`).join("")}
+              </div>
+            </div>` : ""}
+          ${guide.practiceSteps?.length ? `
+            <div class="episode-guide-practice">
+              <h4>✅ Cách luyện tập</h4>
+              <ol class="guide-steps">${guide.practiceSteps.map((s) => `<li>${s}</li>`).join("")}</ol>
+              <button class="btn btn-primary btn-sm" type="button" onclick="App.openReviewMode('${ep.title.replace(/'/g, "\\'")}')">🔄 Mở Review Mode</button>
+            </div>` : ""}
+          ${guide.realLifeTip ? `<p class="episode-guide-tip">💡 <strong>Mẹo thực chiến:</strong> ${guide.realLifeTip}</p>` : ""}
+          <p class="takeaway-glossary-link">Tra thêm: <a href="#/glossary" onclick="App.navigate('#/glossary')">📖 Từ điển đầy đủ</a> (pattern · phrasal · từ vựng · ngữ pháp)</p>
+        </div>`;
+      list.classList.remove("hidden");
+    } else if (focus.length) {
+      list.innerHTML = `<ul class="takeaway-simple-list">${focus
+        .map((f) => {
+          const term = typeof Glossary !== "undefined" ? Glossary.termButton(f.phrase) : `<strong>${f.phrase}</strong>`;
+          return `<li>${term}${f.meaning ? ` <span class="focus-meaning">= ${f.meaning}</span>` : ""}</li>`;
+        })
+        .join("")}</ul>`;
+      list.classList.remove("hidden");
     } else if (points.length) {
-      list.innerHTML = points.map((t) => `<li>${t}</li>`).join("");
+      list.innerHTML = `<ul class="takeaway-simple-list">${points.map((t) => `<li>${t}</li>`).join("")}</ul>`;
+      list.classList.remove("hidden");
     } else {
       list.innerHTML = `<li class="focus-hint">💡 Xem phần <strong>ENGLISH FOCUS</strong> ở cuối ảnh truyện để học cụm từ hôm nay.</li>`;
+      list.classList.remove("hidden");
     }
-    list.classList.remove("hidden");
 
-    if (recap) {
-      summary.textContent = recap;
+    if (recap && !guide) {
+      summary.innerHTML = mdInline(recap);
       summary.classList.remove("hidden");
     }
     if (twistText) {
@@ -1016,15 +1140,15 @@ const App = (() => {
         .join("")}</div></div>`;
     }
 
-    if (prompts.length) {
+    if (prompts.length && !guide) {
       html += `<div class="learn-section"><h4>✍️ Try it yourself</h4><ul class="practice-list">${prompts
         .map((p) => `<li>${p}</li>`)
         .join("")}</ul>
         <button class="btn btn-ghost btn-sm" type="button" onclick="App.openReviewMode('${ep.title.replace(/'/g, "\\'")}')">🔄 Luyện với Review Mode</button></div>`;
     }
 
-    if (mistakes.length) {
-      html += `<div class="learn-section"><h4>⚠️ Common mistakes</h4>${mistakes
+    if (mistakes.length && !(guide?.grammar?.length)) {
+      html += `<div class="learn-section"><h4>⚠️ Lỗi thường gặp</h4>${mistakes
         .map(
           (m) =>
             `<div class="mistake-card"><span class="mistake-wrong">✗ ${m.wrong}</span><span class="mistake-correct">✓ ${m.correct}</span><span class="mistake-why">${m.why}</span></div>`
@@ -1037,6 +1161,8 @@ const App = (() => {
     }
 
     extra.innerHTML = html;
+
+    if (typeof Glossary !== "undefined") Glossary.setupGlobalListeners();
   }
 
   /* ── Bookmarks ── */
@@ -1243,6 +1369,7 @@ const App = (() => {
     else if (parts[0] === "bookmarks") renderBookmarks();
     else if (parts[0] === "roadmap") renderRoadmap(parts[1]);
     else if (parts[0] === "patterns") renderPatterns(parts[1]);
+    else if (parts[0] === "glossary") renderGlossary(parts[1]);
     else renderHome();
   }
 
@@ -1334,15 +1461,22 @@ const App = (() => {
     window.addEventListener("hashchange", router);
 
     try {
-      const [comicsRes, roadmapRes, coreRes] = await Promise.all([
+      const [comicsRes, roadmapRes, coreRes, guidesRes, glossaryRes] = await Promise.all([
         fetch("data/comics.json"),
         fetch("data/roadmap.json"),
         fetch("data/core.json"),
+        fetch("data/episode-guides.json"),
+        fetch("data/glossary.json"),
       ]);
       data = await comicsRes.json();
       if (roadmapRes.ok) roadmapData = await roadmapRes.json();
+      if (guidesRes.ok) episodeGuides = await guidesRes.json();
       if (coreRes.ok && typeof Learn !== "undefined") {
         Learn.init(await coreRes.json());
+      }
+      if (glossaryRes.ok && typeof Glossary !== "undefined") {
+        Glossary.init(await glossaryRes.json(), data);
+        Glossary.setupGlobalListeners();
       }
       hideLoader();
       updateContinueBanner();

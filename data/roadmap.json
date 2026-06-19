@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Lộ trình học tiếng Anh",
-    "subtitle": "10 arc · 96 tập · Từ debug code đến khám phá Nhật Bản"
+    "subtitle": "15 arc · 122 tập · Từ debug code đến phỏng vấn & postmortem"
   },
   "methodology": [
     {
@@ -118,6 +118,32 @@
             {
               "seriesId": "anime-manga",
               "tip": "Figure shop, manga cafe, team lunch anime talk"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 9 — Career Advanced",
+          "desc": "Phỏng vấn, thương lượng, feedback, pitch, postmortem — tiếng Anh cấp senior",
+          "steps": [
+            {
+              "seriesId": "interview-career",
+              "tip": "Behavioral interview, salary, career goals"
+            },
+            {
+              "seriesId": "negotiation-boundaries",
+              "tip": "Deadline, scope creep, push back professionally"
+            },
+            {
+              "seriesId": "giving-feedback",
+              "tip": "1-on-1, constructive feedback, mentoring"
+            },
+            {
+              "seriesId": "presentation-pitch",
+              "tip": "Demo structure, key takeaway, tough Q&A"
+            },
+            {
+              "seriesId": "incident-postmortem",
+              "tip": "War room, root cause, blameless postmortem"
             }
           ]
         }
@@ -285,6 +311,150 @@
           "steps": [
             {
               "seriesId": "anime-manga"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "career-advanced",
+      "title": "Career Advanced",
+      "subtitle": "Tập 79–104 — interview, negotiate, feedback, pitch, postmortem",
+      "icon": "💼",
+      "color": "#F59E0B",
+      "duration": "4–5 tuần",
+      "desc": "Sau khi học xong 96 tập — mở rộng tiếng Anh phỏng vấn, thương lượng, 1-on-1, thuyết trình và postmortem.",
+      "phases": [
+        {
+          "title": "Interview & Career",
+          "desc": "6 tập phỏng vấn và định hướng sự nghiệp",
+          "steps": [
+            {
+              "seriesId": "interview-career"
+            }
+          ]
+        },
+        {
+          "title": "Negotiate & Lead",
+          "desc": "Thương lượng, feedback, pitch",
+          "steps": [
+            {
+              "seriesId": "negotiation-boundaries"
+            },
+            {
+              "seriesId": "giving-feedback"
+            },
+            {
+              "seriesId": "presentation-pitch"
+            }
+          ]
+        },
+        {
+          "title": "Incident Communication",
+          "desc": "War room và postmortem blameless",
+          "steps": [
+            {
+              "seriesId": "incident-postmortem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-career",
+      "title": "Interview & Career",
+      "subtitle": "Tập 79–84 — phone screen, STAR, salary",
+      "icon": "💼",
+      "color": "#F59E0B",
+      "duration": "1 tuần",
+      "desc": "Tiếng Anh phỏng vấn: behavioral questions, career goals, salary talk.",
+      "phases": [
+        {
+          "title": "Land Your Next Role",
+          "desc": "6 tập từ phone screen đến questions for interviewer",
+          "steps": [
+            {
+              "seriesId": "interview-career"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negotiation-boundaries",
+      "title": "Negotiation & Boundaries",
+      "subtitle": "Tập 85–89 — deadline, scope, push back",
+      "icon": "🤝",
+      "color": "#14B8A6",
+      "duration": "1 tuần",
+      "desc": "Thương lượng deadline, scope creep, và đặt ranh giới chuyên nghiệp.",
+      "phases": [
+        {
+          "title": "Push Back Like a Pro",
+          "desc": "5 tập từ tight deadline đến scope boundaries",
+          "steps": [
+            {
+              "seriesId": "negotiation-boundaries"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giving-feedback",
+      "title": "Feedback & 1-on-1",
+      "subtitle": "Tập 90–94 — constructive feedback, mentoring",
+      "icon": "💬",
+      "color": "#A855F7",
+      "duration": "1 tuần",
+      "desc": "Tiếng Anh 1-on-1: feedback tích cực, gợi ý cải thiện, hỗ trợ junior.",
+      "phases": [
+        {
+          "title": "Lead Through Conversations",
+          "desc": "5 tập từ chuẩn bị 1-on-1 đến support junior",
+          "steps": [
+            {
+              "seriesId": "giving-feedback"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presentation-pitch",
+      "title": "Presentation & Pitch",
+      "subtitle": "Tập 95–99 — demo, takeaway, Q&A",
+      "icon": "📊",
+      "color": "#F97316",
+      "duration": "1 tuần",
+      "desc": "Thuyết trình demo và pitch cho PM/investor — structure, takeaway, tough questions.",
+      "phases": [
+        {
+          "title": "Demo Like a Pro",
+          "desc": "5 tập từ structuring demo đến handling Q&A",
+          "steps": [
+            {
+              "seriesId": "presentation-pitch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incident-postmortem",
+      "title": "Incident & Postmortem",
+      "subtitle": "Tập 100–104 — war room, root cause, action items",
+      "icon": "🚨",
+      "color": "#DC2626",
+      "duration": "1 tuần",
+      "desc": "Tiếng Anh sự cố production: war room updates, root cause, blameless postmortem.",
+      "phases": [
+        {
+          "title": "Blameless Communication",
+          "desc": "5 tập từ war room đến postmortem finale",
+          "steps": [
+            {
+              "seriesId": "incident-postmortem"
             }
           ]
         }

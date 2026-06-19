@@ -221,6 +221,92 @@ SERIES = [
             (78, "anime-manga-finale", "Anime & Manga Finale"),
         ],
     },
+    {
+        "id": "interview-career",
+        "title": "Interview & Career Arc",
+        "desc": "Phone screen, behavioral questions, salary talk — tiếng Anh phỏng vấn và định hướng sự nghiệp",
+        "color": "#F59E0B",
+        "icon": "💼",
+        "tag": "Career",
+        "arc": "interview-career",
+        "global_num": True,
+        "episodes": [
+            (79, "the-first-phone-screen", "The First Phone Screen"),
+            (80, "tell-me-about-a-time-when", "Tell Me About a Time When..."),
+            (81, "why-do-you-want-this-role", "Why Do You Want This Role?"),
+            (82, "the-salary-question", "The Salary Question"),
+            (83, "questions-for-the-interviewer", "Questions for the Interviewer"),
+            (84, "interview-career-finale", "Interview & Career Finale"),
+        ],
+    },
+    {
+        "id": "negotiation-boundaries",
+        "title": "Negotiation & Boundaries Arc",
+        "desc": "Deadline, scope creep, push back — thương lượng và đặt ranh giới chuyên nghiệp",
+        "color": "#14B8A6",
+        "icon": "🤝",
+        "tag": "Career",
+        "arc": "negotiation-boundaries",
+        "global_num": True,
+        "episodes": [
+            (85, "the-tight-deadline", "The Tight Deadline"),
+            (86, "would-it-be-possible-to", "Would It Be Possible To...?"),
+            (87, "thats-outside-the-scope", "That's Outside the Scope"),
+            (88, "push-back-on-scope-creep", "Push Back on Scope Creep"),
+            (89, "negotiation-boundaries-finale", "Negotiation & Boundaries Finale"),
+        ],
+    },
+    {
+        "id": "giving-feedback",
+        "title": "Feedback & 1-on-1 Arc",
+        "desc": "1-on-1, constructive feedback, mentoring — tiếng Anh khi lead qua hội thoại",
+        "color": "#A855F7",
+        "icon": "💬",
+        "tag": "Career",
+        "arc": "giving-feedback",
+        "global_num": True,
+        "episodes": [
+            (90, "preparing-for-the-1-on-1", "Preparing for the 1-on-1"),
+            (91, "one-thing-that-went-well-was", "One Thing That Went Well Was..."),
+            (92, "id-suggest-trying", "I'd Suggest Trying..."),
+            (93, "how-can-i-support-you", "How Can I Support You?"),
+            (94, "feedback-1-on-1-finale", "Feedback & 1-on-1 Finale"),
+        ],
+    },
+    {
+        "id": "presentation-pitch",
+        "title": "Presentation & Pitch Arc",
+        "desc": "Demo structure, key takeaway, Q&A — thuyết trình và pitch cho PM/investor",
+        "color": "#F97316",
+        "icon": "📊",
+        "tag": "Career",
+        "arc": "presentation-pitch",
+        "global_num": True,
+        "episodes": [
+            (95, "structuring-the-demo", "Structuring the Demo"),
+            (96, "walk-through-the-demo", "Let Me Walk You Through the Demo"),
+            (97, "the-key-takeaway-is", "The Key Takeaway Is..."),
+            (98, "handling-tough-questions", "Handling Tough Questions"),
+            (99, "presentation-pitch-finale", "Presentation & Pitch Finale"),
+        ],
+    },
+    {
+        "id": "incident-postmortem",
+        "title": "Incident & Postmortem Arc",
+        "desc": "War room, root cause, action items — tiếng Anh sự cố và postmortem blameless",
+        "color": "#DC2626",
+        "icon": "🚨",
+        "tag": "Công việc",
+        "arc": "incident-postmortem",
+        "global_num": True,
+        "episodes": [
+            (100, "the-war-room", "The War Room"),
+            (101, "what-we-know-so-far-is", "What We Know So Far Is..."),
+            (102, "root-cause-analysis", "Root Cause Analysis"),
+            (103, "action-items-going-forward", "Action Items Going Forward"),
+            (104, "postmortem-finale", "Postmortem Finale"),
+        ],
+    },
 ]
 
 FOCUS = {
@@ -467,6 +553,146 @@ FOCUS = {
         {"phrase": "I'm glad that we shared our favorites.", "meaning": "May mà chúng ta chia sẻ anime yêu thích."},
         {"phrase": "look forward to", "meaning": "mong chờ / hướng tới"},
     ],
+    # Interview & Career Arc 79–84
+    "the-first-phone-screen": [
+        {"phrase": "I'm looking for a role where...", "meaning": "Tôi đang tìm một vị trí mà..."},
+        {"phrase": "I see myself growing in...", "meaning": "Tôi thấy mình phát triển trong..."},
+        {"phrase": "What attracted me to this company is...", "meaning": "Điều thu hút tôi ở công ty này là..."},
+    ],
+    "tell-me-about-a-time-when": [
+        {"phrase": "Tell me about a time when...", "meaning": "Hãy kể về một lần khi..."},
+        {"phrase": "One challenge I faced was...", "meaning": "Một thử thách tôi gặp là..."},
+        {"phrase": "What I learned from that was...", "meaning": "Bài học tôi rút ra là..."},
+    ],
+    "why-do-you-want-this-role": [
+        {"phrase": "Why I'm interested in this role is...", "meaning": "Lý do tôi quan tâm vị trí này là..."},
+        {"phrase": "I'm looking for a role where...", "meaning": "Tôi đang tìm một vị trí mà..."},
+        {"phrase": "work closely with", "meaning": "làm việc sát sao với"},
+    ],
+    "the-salary-question": [
+        {"phrase": "I'd need at least...", "meaning": "Tôi cần ít nhất..."},
+        {"phrase": "Would it be possible to...?", "meaning": "Liệu có thể... không?"},
+        {"phrase": "I'm looking for a range of...", "meaning": "Tôi đang tìm mức khoảng..."},
+    ],
+    "questions-for-the-interviewer": [
+        {"phrase": "Do you have any questions for us?", "meaning": "Bạn có câu hỏi nào cho chúng tôi không?"},
+        {"phrase": "What does success look like in this role?", "meaning": "Thành công ở vị trí này trông như thế nào?"},
+        {"phrase": "How does the team collaborate?", "meaning": "Team cộng tác như thế nào?"},
+    ],
+    "interview-career-finale": [
+        {"phrase": "Tell me about a time when...", "meaning": "Hãy kể về một lần khi..."},
+        {"phrase": "What I learned from that was...", "meaning": "Bài học tôi rút ra là..."},
+        {"phrase": "I'm looking for a role where...", "meaning": "Tôi đang tìm một vị trí mà..."},
+        {"phrase": "look forward to", "meaning": "mong chờ / hướng tới"},
+    ],
+    # Negotiation & Boundaries Arc 85–89
+    "the-tight-deadline": [
+        {"phrase": "I'm concerned that the timeline is too tight.", "meaning": "Tôi lo deadline quá gấp."},
+        {"phrase": "Could we push the deadline back by...?", "meaning": "Chúng ta có thể lùi deadline thêm... không?"},
+        {"phrase": "weigh up", "meaning": "cân nhắc (ưu/nhược)"},
+    ],
+    "would-it-be-possible-to": [
+        {"phrase": "Would it be possible to...?", "meaning": "Liệu có thể... không?"},
+        {"phrase": "I'd be more comfortable if we...", "meaning": "Tôi sẽ thoải mái hơn nếu chúng ta..."},
+        {"phrase": "What would it take to...?", "meaning": "Cần gì để...?"},
+    ],
+    "thats-outside-the-scope": [
+        {"phrase": "That's outside the original scope.", "meaning": "Điều đó ngoài phạm vi ban đầu."},
+        {"phrase": "I'd need at least...", "meaning": "Tôi cần ít nhất..."},
+        {"phrase": "scope creep", "meaning": "phạm vi công việc bị phình to dần"},
+    ],
+    "push-back-on-scope-creep": [
+        {"phrase": "Let me push back on that.", "meaning": "Để tôi phản hồi / không đồng ý với điều đó."},
+        {"phrase": "I'm happy to help, but we'll need to...", "meaning": "Tôi sẵn sàng giúp, nhưng chúng ta cần..."},
+        {"phrase": "push back", "meaning": "phản hồi / từ chối nhẹ nhàng"},
+    ],
+    "negotiation-boundaries-finale": [
+        {"phrase": "Would it be possible to...?", "meaning": "Liệu có thể... không?"},
+        {"phrase": "That's outside the original scope.", "meaning": "Điều đó ngoài phạm vi ban đầu."},
+        {"phrase": "set a boundary", "meaning": "đặt ranh giới rõ ràng"},
+        {"phrase": "compromise on", "meaning": "thỏa hiệp về"},
+    ],
+    # Feedback & 1-on-1 Arc 90–94
+    "preparing-for-the-1-on-1": [
+        {"phrase": "What would help you most right now?", "meaning": "Điều gì giúp bạn nhất lúc này?"},
+        {"phrase": "Let's set a goal for next week.", "meaning": "Hãy đặt mục tiêu cho tuần tới."},
+        {"phrase": "check in with", "meaning": "hỏi thăm / cập nhật với ai đó"},
+    ],
+    "one-thing-that-went-well-was": [
+        {"phrase": "One thing that went well was...", "meaning": "Một điều làm tốt là..."},
+        {"phrase": "I appreciate how you handled...", "meaning": "Tôi đánh giá cao cách bạn xử lý..."},
+        {"phrase": "One area to improve would be...", "meaning": "Một điểm cần cải thiện là..."},
+    ],
+    "id-suggest-trying": [
+        {"phrase": "I'd suggest trying...", "meaning": "Tôi gợi ý thử..."},
+        {"phrase": "Have you considered...?", "meaning": "Bạn đã cân nhắc... chưa?"},
+        {"phrase": "step up", "meaning": "nâng cao / làm tốt hơn"},
+    ],
+    "how-can-i-support-you": [
+        {"phrase": "How can I support you?", "meaning": "Tôi có thể hỗ trợ bạn thế nào?"},
+        {"phrase": "What would help you most right now?", "meaning": "Điều gì giúp bạn nhất lúc này?"},
+        {"phrase": "grow into", "meaning": "trưởng thành / phát triển thành"},
+    ],
+    "feedback-1-on-1-finale": [
+        {"phrase": "One thing that went well was...", "meaning": "Một điều làm tốt là..."},
+        {"phrase": "I'd suggest trying...", "meaning": "Tôi gợi ý thử..."},
+        {"phrase": "How can I support you?", "meaning": "Tôi có thể hỗ trợ bạn thế nào?"},
+        {"phrase": "follow up on", "meaning": "theo dõi / nhắc lại về"},
+    ],
+    # Presentation & Pitch Arc 95–99
+    "structuring-the-demo": [
+        {"phrase": "I'll keep this brief.", "meaning": "Tôi sẽ trình bày ngắn gọn."},
+        {"phrase": "The main problem we're solving is...", "meaning": "Vấn đề chính chúng ta giải quyết là..."},
+        {"phrase": "To summarize...", "meaning": "Tóm lại..."},
+    ],
+    "walk-through-the-demo": [
+        {"phrase": "Let me walk you through...", "meaning": "Để tôi hướng dẫn/giải thích từng bước..."},
+        {"phrase": "As you can see on this slide...", "meaning": "Như bạn thấy trên slide này..."},
+        {"phrase": "run through", "meaning": "đi lại / trình bày nhanh từng phần"},
+    ],
+    "the-key-takeaway-is": [
+        {"phrase": "The key takeaway is...", "meaning": "Điểm chính cần nhớ là..."},
+        {"phrase": "Here's what changed since last time.", "meaning": "Đây là những gì thay đổi từ lần trước."},
+        {"phrase": "break down", "meaning": "phân tích / chia nhỏ"},
+    ],
+    "handling-tough-questions": [
+        {"phrase": "Any questions on this part?", "meaning": "Có câu hỏi nào về phần này không?"},
+        {"phrase": "That's a great question — let me...", "meaning": "Câu hỏi hay — để tôi..."},
+        {"phrase": "circle back", "meaning": "quay lại (chủ đề) sau"},
+    ],
+    "presentation-pitch-finale": [
+        {"phrase": "Let me walk you through...", "meaning": "Để tôi hướng dẫn/giải thích từng bước..."},
+        {"phrase": "The key takeaway is...", "meaning": "Điểm chính cần nhớ là..."},
+        {"phrase": "Any questions on this part?", "meaning": "Có câu hỏi nào về phần này không?"},
+        {"phrase": "look forward to", "meaning": "mong chờ / hướng tới"},
+    ],
+    # Incident & Postmortem Arc 100–104
+    "the-war-room": [
+        {"phrase": "What we know so far is...", "meaning": "Những gì chúng ta biết đến giờ là..."},
+        {"phrase": "Let's focus on the facts, not blame.", "meaning": "Tập trung vào sự thật, không đổ lỗi."},
+        {"phrase": "dig into", "meaning": "đi sâu vào / điều tra kỹ"},
+    ],
+    "what-we-know-so-far-is": [
+        {"phrase": "What we know so far is...", "meaning": "Những gì chúng ta biết đến giờ là..."},
+        {"phrase": "The impact was that...", "meaning": "Tác động là..."},
+        {"phrase": "The timeline of events was...", "meaning": "Diễn biến theo thời gian là..."},
+    ],
+    "root-cause-analysis": [
+        {"phrase": "Root cause appears to be...", "meaning": "Nguyên nhân gốc có vẻ là..."},
+        {"phrase": "It seems like...", "meaning": "Có vẻ như..."},
+        {"phrase": "This might be caused by...", "meaning": "Có thể do..."},
+    ],
+    "action-items-going-forward": [
+        {"phrase": "Action items going forward...", "meaning": "Các việc cần làm tiếp theo..."},
+        {"phrase": "We mitigated the issue by...", "meaning": "Chúng ta đã giảm thiểu sự cố bằng cách..."},
+        {"phrase": "To prevent this from happening again...", "meaning": "Để tránh tái diễn..."},
+    ],
+    "postmortem-finale": [
+        {"phrase": "What we know so far is...", "meaning": "Những gì chúng ta biết đến giờ là..."},
+        {"phrase": "Root cause appears to be...", "meaning": "Nguyên nhân gốc có vẻ là..."},
+        {"phrase": "Action items going forward...", "meaning": "Các việc cần làm tiếp theo..."},
+        {"phrase": "follow up on", "meaning": "theo dõi / nhắc lại về"},
+    ],
 }
 
 
@@ -509,7 +735,7 @@ def build_roadmap() -> dict:
     return {
         "meta": {
             "title": "Lộ trình học tiếng Anh",
-            "subtitle": "10 arc · 96 tập · Từ debug code đến khám phá Nhật Bản",
+            "subtitle": "15 arc · 122 tập · Từ debug code đến phỏng vấn & postmortem",
         },
         "methodology": [
             {"step": 1, "icon": "📖", "title": "Đọc truyện", "desc": "Mỗi tập là một tình huống thật — đọc hội thoại và chú ý phần ENGLISH FOCUS trên ảnh."},
@@ -582,6 +808,17 @@ def build_roadmap() -> dict:
                         "desc": "Akihabara, manga cafe, anime pilgrimage — tiếng Anh trong thế giới otaku",
                         "steps": [
                             {"seriesId": "anime-manga", "tip": "Figure shop, manga cafe, team lunch anime talk"},
+                        ],
+                    },
+                    {
+                        "title": "Giai đoạn 9 — Career Advanced",
+                        "desc": "Phỏng vấn, thương lượng, feedback, pitch, postmortem — tiếng Anh cấp senior",
+                        "steps": [
+                            {"seriesId": "interview-career", "tip": "Behavioral interview, salary, career goals"},
+                            {"seriesId": "negotiation-boundaries", "tip": "Deadline, scope creep, push back professionally"},
+                            {"seriesId": "giving-feedback", "tip": "1-on-1, constructive feedback, mentoring"},
+                            {"seriesId": "presentation-pitch", "tip": "Demo structure, key takeaway, tough Q&A"},
+                            {"seriesId": "incident-postmortem", "tip": "War room, root cause, blameless postmortem"},
                         ],
                     },
                 ],
@@ -712,6 +949,116 @@ def build_roadmap() -> dict:
                         "title": "Dive Into Otaku Japan",
                         "desc": "6 tập từ Akihabara đến anime talk at lunch",
                         "steps": [{"seriesId": "anime-manga"}],
+                    },
+                ],
+            },
+            {
+                "id": "career-advanced",
+                "title": "Career Advanced",
+                "subtitle": "Tập 79–104 — interview, negotiate, feedback, pitch, postmortem",
+                "icon": "💼",
+                "color": "#F59E0B",
+                "duration": "4–5 tuần",
+                "desc": "Sau khi học xong 96 tập — mở rộng tiếng Anh phỏng vấn, thương lượng, 1-on-1, thuyết trình và postmortem.",
+                "phases": [
+                    {
+                        "title": "Interview & Career",
+                        "desc": "6 tập phỏng vấn và định hướng sự nghiệp",
+                        "steps": [{"seriesId": "interview-career"}],
+                    },
+                    {
+                        "title": "Negotiate & Lead",
+                        "desc": "Thương lượng, feedback, pitch",
+                        "steps": [
+                            {"seriesId": "negotiation-boundaries"},
+                            {"seriesId": "giving-feedback"},
+                            {"seriesId": "presentation-pitch"},
+                        ],
+                    },
+                    {
+                        "title": "Incident Communication",
+                        "desc": "War room và postmortem blameless",
+                        "steps": [{"seriesId": "incident-postmortem"}],
+                    },
+                ],
+            },
+            {
+                "id": "interview-career",
+                "title": "Interview & Career",
+                "subtitle": "Tập 79–84 — phone screen, STAR, salary",
+                "icon": "💼",
+                "color": "#F59E0B",
+                "duration": "1 tuần",
+                "desc": "Tiếng Anh phỏng vấn: behavioral questions, career goals, salary talk.",
+                "phases": [
+                    {
+                        "title": "Land Your Next Role",
+                        "desc": "6 tập từ phone screen đến questions for interviewer",
+                        "steps": [{"seriesId": "interview-career"}],
+                    },
+                ],
+            },
+            {
+                "id": "negotiation-boundaries",
+                "title": "Negotiation & Boundaries",
+                "subtitle": "Tập 85–89 — deadline, scope, push back",
+                "icon": "🤝",
+                "color": "#14B8A6",
+                "duration": "1 tuần",
+                "desc": "Thương lượng deadline, scope creep, và đặt ranh giới chuyên nghiệp.",
+                "phases": [
+                    {
+                        "title": "Push Back Like a Pro",
+                        "desc": "5 tập từ tight deadline đến scope boundaries",
+                        "steps": [{"seriesId": "negotiation-boundaries"}],
+                    },
+                ],
+            },
+            {
+                "id": "giving-feedback",
+                "title": "Feedback & 1-on-1",
+                "subtitle": "Tập 90–94 — constructive feedback, mentoring",
+                "icon": "💬",
+                "color": "#A855F7",
+                "duration": "1 tuần",
+                "desc": "Tiếng Anh 1-on-1: feedback tích cực, gợi ý cải thiện, hỗ trợ junior.",
+                "phases": [
+                    {
+                        "title": "Lead Through Conversations",
+                        "desc": "5 tập từ chuẩn bị 1-on-1 đến support junior",
+                        "steps": [{"seriesId": "giving-feedback"}],
+                    },
+                ],
+            },
+            {
+                "id": "presentation-pitch",
+                "title": "Presentation & Pitch",
+                "subtitle": "Tập 95–99 — demo, takeaway, Q&A",
+                "icon": "📊",
+                "color": "#F97316",
+                "duration": "1 tuần",
+                "desc": "Thuyết trình demo và pitch cho PM/investor — structure, takeaway, tough questions.",
+                "phases": [
+                    {
+                        "title": "Demo Like a Pro",
+                        "desc": "5 tập từ structuring demo đến handling Q&A",
+                        "steps": [{"seriesId": "presentation-pitch"}],
+                    },
+                ],
+            },
+            {
+                "id": "incident-postmortem",
+                "title": "Incident & Postmortem",
+                "subtitle": "Tập 100–104 — war room, root cause, action items",
+                "icon": "🚨",
+                "color": "#DC2626",
+                "duration": "1 tuần",
+                "desc": "Tiếng Anh sự cố production: war room updates, root cause, blameless postmortem.",
+                "phases": [
+                    {
+                        "title": "Blameless Communication",
+                        "desc": "5 tập từ war room đến postmortem finale",
+                        "steps": [{"seriesId": "incident-postmortem"}],
                     },
                 ],
             },

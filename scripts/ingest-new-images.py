@@ -31,12 +31,22 @@ ARC = "career-growth"
 #     ...
 # ]
 
-# ── Template: Email & Async 61–65 ──
-# ARC = "email-async"
+# ── Template: Career Advanced 79–104 ──
+# Chạy từng arc — đổi ARC và NEW_EPISODES, thả PNG vào untitled folder/
+#
+# ARC = "interview-career"
 # NEW_EPISODES = [
-#     ("ChatGPT Image ....png", 61, "just-following-up-on-the-pr"),
+#     ("ChatGPT Image ....png", 79, "the-first-phone-screen"),
+#     ("ChatGPT Image ....png", 80, "tell-me-about-a-time-when"),
 #     ...
 # ]
+#
+# ARC = "negotiation-boundaries"  # 85-89
+# ARC = "giving-feedback"         # 90-94
+# ARC = "presentation-pitch"      # 95-99
+# ARC = "incident-postmortem"     # 100-104
+#
+# python3 scripts/setup-career-advanced-dirs.py  # tạo thư mục trước
 
 
 def target(num: int, slug: str) -> Path:

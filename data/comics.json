@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 96,
+  "count": 122,
   "series": [
     {
       "id": "bug-arc-1",
@@ -1805,6 +1805,7 @@
             "bug_report_agreement_through",
             "decision_hesitation",
             "preference_opinion",
+            "presentation_pitch",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -2252,6 +2253,7 @@
             "bug_report_agreement_through",
             "decision_hesitation",
             "preference_opinion",
+            "presentation_pitch",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -3151,6 +3153,1222 @@
               "why": "look forward to + V-ing",
               "patterns": [
                 "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "interview-career",
+      "title": "Interview & Career Arc",
+      "desc": "Phone screen, behavioral questions, salary talk — tiếng Anh phỏng vấn và định hướng sự nghiệp",
+      "color": "#F59E0B",
+      "icon": "💼",
+      "tag": "Career",
+      "count": 6,
+      "cover": "images/comics/interview-career/tập-79/interview-career-tap79-the-first-phone-screen.png",
+      "episodes": [
+        {
+          "num": 79,
+          "title": "The First Phone Screen",
+          "slug": "the-first-phone-screen",
+          "image": "images/comics/interview-career/tập-79/interview-career-tap79-the-first-phone-screen.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm looking for a role where...",
+              "meaning": "Tôi đang tìm một vị trí mà..."
+            },
+            {
+              "phrase": "I see myself growing in...",
+              "meaning": "Tôi thấy mình phát triển trong..."
+            },
+            {
+              "phrase": "What attracted me to this company is...",
+              "meaning": "Điều thu hút tôi ở công ty này là..."
+            }
+          ],
+          "packs": [
+            "interview_career",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "career",
+            "interview",
+            "software-engineering"
+          ],
+          "patterns": [
+            "I'm looking for a role where...",
+            "I see myself growing in...",
+            "What attracted me to this company is..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm looking for a role where...」 để nói về tình huống: The First Phone Screen.",
+            "Dùng câu 「I see myself growing in...」 để nói về tình huống: The First Phone Screen.",
+            "Dùng câu 「What attracted me to this company is...」 để nói về tình huống: The First Phone Screen.",
+            "Thử nói master combo của pack 「Interview & Career English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Tell Me About a Time When..."
+        },
+        {
+          "num": 80,
+          "title": "Tell Me About a Time When...",
+          "slug": "tell-me-about-a-time-when",
+          "image": "images/comics/interview-career/tập-80/interview-career-tap80-tell-me-about-a-time-when.png",
+          "englishFocus": [
+            {
+              "phrase": "Tell me about a time when...",
+              "meaning": "Hãy kể về một lần khi..."
+            },
+            {
+              "phrase": "One challenge I faced was...",
+              "meaning": "Một thử thách tôi gặp là..."
+            },
+            {
+              "phrase": "What I learned from that was...",
+              "meaning": "Bài học tôi rút ra là..."
+            }
+          ],
+          "packs": [
+            "interview_career",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "career",
+            "interview",
+            "software-engineering"
+          ],
+          "patterns": [
+            "Tell me about a time when...",
+            "One challenge I faced was...",
+            "What I learned from that was..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Tell me about a time when...」 để nói về tình huống: Tell Me About a Time When....",
+            "Dùng câu 「One challenge I faced was...」 để nói về tình huống: Tell Me About a Time When....",
+            "Dùng câu 「What I learned from that was...」 để nói về tình huống: Tell Me About a Time When....",
+            "Thử nói master combo của pack 「Interview & Career English」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Tell me about a time when I fix a bug.",
+              "correct": "Tell me about a time when I fixed a bug.",
+              "why": "behavioral interview — dùng past tense cho sự kiện đã xảy ra",
+              "patterns": [
+                "Tell me about a time when",
+                "One challenge I faced"
+              ]
+            }
+          ],
+          "hook": "Next: Why Do You Want This Role?"
+        },
+        {
+          "num": 81,
+          "title": "Why Do You Want This Role?",
+          "slug": "why-do-you-want-this-role",
+          "image": "images/comics/interview-career/tập-81/interview-career-tap81-why-do-you-want-this-role.png",
+          "englishFocus": [
+            {
+              "phrase": "Why I'm interested in this role is...",
+              "meaning": "Lý do tôi quan tâm vị trí này là..."
+            },
+            {
+              "phrase": "I'm looking for a role where...",
+              "meaning": "Tôi đang tìm một vị trí mà..."
+            },
+            {
+              "phrase": "work closely with",
+              "meaning": "làm việc sát sao với"
+            }
+          ],
+          "packs": [
+            "interview_career",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Why I'm interested in this role is...",
+            "I'm looking for a role where...",
+            "work closely with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Why I'm interested in this role is...」 để nói về tình huống: Why Do You Want This Role?.",
+            "Dùng câu 「I'm looking for a role where...」 để nói về tình huống: Why Do You Want This Role?.",
+            "Dùng câu 「work closely with」 để nói về tình huống: Why Do You Want This Role?.",
+            "Thử nói master combo của pack 「Interview & Career English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Salary Question"
+        },
+        {
+          "num": 82,
+          "title": "The Salary Question",
+          "slug": "the-salary-question",
+          "image": "images/comics/interview-career/tập-82/interview-career-tap82-the-salary-question.png",
+          "englishFocus": [
+            {
+              "phrase": "I'd need at least...",
+              "meaning": "Tôi cần ít nhất..."
+            },
+            {
+              "phrase": "Would it be possible to...?",
+              "meaning": "Liệu có thể... không?"
+            },
+            {
+              "phrase": "I'm looking for a range of...",
+              "meaning": "Tôi đang tìm mức khoảng..."
+            }
+          ],
+          "packs": [
+            "interview_career",
+            "negotiation_boundaries",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'd need at least...",
+            "Would it be possible to...?",
+            "I'm looking for a range of..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'd need at least...」 để nói về tình huống: The Salary Question.",
+            "Dùng câu 「Would it be possible to...?」 để nói về tình huống: The Salary Question.",
+            "Dùng câu 「I'm looking for a range of...」 để nói về tình huống: The Salary Question.",
+            "Thử nói master combo của pack 「Interview & Career English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Questions for the Interviewer"
+        },
+        {
+          "num": 83,
+          "title": "Questions for the Interviewer",
+          "slug": "questions-for-the-interviewer",
+          "image": "images/comics/interview-career/tập-83/interview-career-tap83-questions-for-the-interviewer.png",
+          "englishFocus": [
+            {
+              "phrase": "Do you have any questions for us?",
+              "meaning": "Bạn có câu hỏi nào cho chúng tôi không?"
+            },
+            {
+              "phrase": "What does success look like in this role?",
+              "meaning": "Thành công ở vị trí này trông như thế nào?"
+            },
+            {
+              "phrase": "How does the team collaborate?",
+              "meaning": "Team cộng tác như thế nào?"
+            }
+          ],
+          "packs": [
+            "interview_career",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Do you have any questions for us?",
+            "What does success look like in this role?",
+            "How does the team collaborate?"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Do you have any questions for us?」 để nói về tình huống: Questions for the Interviewer.",
+            "Dùng câu 「What does success look like in this role?」 để nói về tình huống: Questions for the Interviewer.",
+            "Dùng câu 「How does the team collaborate?」 để nói về tình huống: Questions for the Interviewer.",
+            "Thử nói master combo của pack 「Interview & Career English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Interview & Career Finale"
+        },
+        {
+          "num": 84,
+          "title": "Interview & Career Finale",
+          "slug": "interview-career-finale",
+          "image": "images/comics/interview-career/tập-84/interview-career-tap84-interview-career-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "Tell me about a time when...",
+              "meaning": "Hãy kể về một lần khi..."
+            },
+            {
+              "phrase": "What I learned from that was...",
+              "meaning": "Bài học tôi rút ra là..."
+            },
+            {
+              "phrase": "I'm looking for a role where...",
+              "meaning": "Tôi đang tìm một vị trí mà..."
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ / hướng tới"
+            }
+          ],
+          "packs": [
+            "interview_career",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Tell me about a time when...",
+            "What I learned from that was...",
+            "I'm looking for a role where...",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Tell me about a time when...」 để nói về tình huống: Interview & Career Finale.",
+            "Dùng câu 「What I learned from that was...」 để nói về tình huống: Interview & Career Finale.",
+            "Dùng câu 「I'm looking for a role where...」 để nói về tình huống: Interview & Career Finale.",
+            "Thử nói master combo của pack 「Interview & Career English」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            },
+            {
+              "wrong": "Tell me about a time when I fix a bug.",
+              "correct": "Tell me about a time when I fixed a bug.",
+              "why": "behavioral interview — dùng past tense cho sự kiện đã xảy ra",
+              "patterns": [
+                "Tell me about a time when",
+                "One challenge I faced"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "negotiation-boundaries",
+      "title": "Negotiation & Boundaries Arc",
+      "desc": "Deadline, scope creep, push back — thương lượng và đặt ranh giới chuyên nghiệp",
+      "color": "#14B8A6",
+      "icon": "🤝",
+      "tag": "Career",
+      "count": 5,
+      "cover": "images/comics/negotiation-boundaries/tập-85/negotiation-boundaries-tap85-the-tight-deadline.png",
+      "episodes": [
+        {
+          "num": 85,
+          "title": "The Tight Deadline",
+          "slug": "the-tight-deadline",
+          "image": "images/comics/negotiation-boundaries/tập-85/negotiation-boundaries-tap85-the-tight-deadline.png",
+          "englishFocus": [
+            {
+              "phrase": "I'm concerned that the timeline is too tight.",
+              "meaning": "Tôi lo deadline quá gấp."
+            },
+            {
+              "phrase": "Could we push the deadline back by...?",
+              "meaning": "Chúng ta có thể lùi deadline thêm... không?"
+            },
+            {
+              "phrase": "weigh up",
+              "meaning": "cân nhắc (ưu/nhược)"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "negotiation_boundaries",
+            "preference_opinion"
+          ],
+          "contexts": [
+            "career",
+            "work-meeting",
+            "negotiation"
+          ],
+          "patterns": [
+            "I'm concerned that the timeline is too tight.",
+            "Could we push the deadline back by...?",
+            "weigh up"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'm concerned that the timeline is too tight.」 để nói về tình huống: The Tight Deadline.",
+            "Dùng câu 「Could we push the deadline back by...?」 để nói về tình huống: The Tight Deadline.",
+            "Dùng câu 「weigh up」 để nói về tình huống: The Tight Deadline.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Would It Be Possible To...?"
+        },
+        {
+          "num": 86,
+          "title": "Would It Be Possible To...?",
+          "slug": "would-it-be-possible-to",
+          "image": "images/comics/negotiation-boundaries/tập-86/negotiation-boundaries-tap86-would-it-be-possible-to.png",
+          "englishFocus": [
+            {
+              "phrase": "Would it be possible to...?",
+              "meaning": "Liệu có thể... không?"
+            },
+            {
+              "phrase": "I'd be more comfortable if we...",
+              "meaning": "Tôi sẽ thoải mái hơn nếu chúng ta..."
+            },
+            {
+              "phrase": "What would it take to...?",
+              "meaning": "Cần gì để...?"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "negotiation_boundaries",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Would it be possible to...?",
+            "I'd be more comfortable if we...",
+            "What would it take to...?"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Would it be possible to...?」 để nói về tình huống: Would It Be Possible To...?.",
+            "Dùng câu 「I'd be more comfortable if we...」 để nói về tình huống: Would It Be Possible To...?.",
+            "Dùng câu 「What would it take to...?」 để nói về tình huống: Would It Be Possible To...?.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: That's Outside the Scope"
+        },
+        {
+          "num": 87,
+          "title": "That's Outside the Scope",
+          "slug": "thats-outside-the-scope",
+          "image": "images/comics/negotiation-boundaries/tập-87/negotiation-boundaries-tap87-thats-outside-the-scope.png",
+          "englishFocus": [
+            {
+              "phrase": "That's outside the original scope.",
+              "meaning": "Điều đó ngoài phạm vi ban đầu."
+            },
+            {
+              "phrase": "I'd need at least...",
+              "meaning": "Tôi cần ít nhất..."
+            },
+            {
+              "phrase": "scope creep",
+              "meaning": "phạm vi công việc bị phình to dần"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "negotiation_boundaries",
+            "preference_opinion"
+          ],
+          "contexts": [
+            "career",
+            "work-meeting",
+            "negotiation"
+          ],
+          "patterns": [
+            "That's outside the original scope.",
+            "I'd need at least...",
+            "scope creep"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「That's outside the original scope.」 để nói về tình huống: That's Outside the Scope.",
+            "Dùng câu 「I'd need at least...」 để nói về tình huống: That's Outside the Scope.",
+            "Dùng câu 「scope creep」 để nói về tình huống: That's Outside the Scope.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Push Back on Scope Creep"
+        },
+        {
+          "num": 88,
+          "title": "Push Back on Scope Creep",
+          "slug": "push-back-on-scope-creep",
+          "image": "images/comics/negotiation-boundaries/tập-88/negotiation-boundaries-tap88-push-back-on-scope-creep.png",
+          "englishFocus": [
+            {
+              "phrase": "Let me push back on that.",
+              "meaning": "Để tôi phản hồi / không đồng ý với điều đó."
+            },
+            {
+              "phrase": "I'm happy to help, but we'll need to...",
+              "meaning": "Tôi sẵn sàng giúp, nhưng chúng ta cần..."
+            },
+            {
+              "phrase": "push back",
+              "meaning": "phản hồi / từ chối nhẹ nhàng"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "negotiation_boundaries",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Let me push back on that.",
+            "I'm happy to help, but we'll need to...",
+            "push back"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Let me push back on that.」 để nói về tình huống: Push Back on Scope Creep.",
+            "Dùng câu 「I'm happy to help, but we'll need to...」 để nói về tình huống: Push Back on Scope Creep.",
+            "Dùng câu 「push back」 để nói về tình huống: Push Back on Scope Creep.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Negotiation & Boundaries Finale"
+        },
+        {
+          "num": 89,
+          "title": "Negotiation & Boundaries Finale",
+          "slug": "negotiation-boundaries-finale",
+          "image": "images/comics/negotiation-boundaries/tập-89/negotiation-boundaries-tap89-negotiation-boundaries-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "Would it be possible to...?",
+              "meaning": "Liệu có thể... không?"
+            },
+            {
+              "phrase": "That's outside the original scope.",
+              "meaning": "Điều đó ngoài phạm vi ban đầu."
+            },
+            {
+              "phrase": "set a boundary",
+              "meaning": "đặt ranh giới rõ ràng"
+            },
+            {
+              "phrase": "compromise on",
+              "meaning": "thỏa hiệp về"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "negotiation_boundaries",
+            "preference_opinion"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Would it be possible to...?",
+            "That's outside the original scope.",
+            "set a boundary",
+            "compromise on"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Would it be possible to...?」 để nói về tình huống: Negotiation & Boundaries Finale.",
+            "Dùng câu 「That's outside the original scope.」 để nói về tình huống: Negotiation & Boundaries Finale.",
+            "Dùng câu 「set a boundary」 để nói về tình huống: Negotiation & Boundaries Finale.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "giving-feedback",
+      "title": "Feedback & 1-on-1 Arc",
+      "desc": "1-on-1, constructive feedback, mentoring — tiếng Anh khi lead qua hội thoại",
+      "color": "#A855F7",
+      "icon": "💬",
+      "tag": "Career",
+      "count": 5,
+      "cover": "images/comics/giving-feedback/tập-90/giving-feedback-tap90-preparing-for-the-1-on-1.png",
+      "episodes": [
+        {
+          "num": 90,
+          "title": "Preparing for the 1-on-1",
+          "slug": "preparing-for-the-1-on-1",
+          "image": "images/comics/giving-feedback/tập-90/giving-feedback-tap90-preparing-for-the-1-on-1.png",
+          "englishFocus": [
+            {
+              "phrase": "What would help you most right now?",
+              "meaning": "Điều gì giúp bạn nhất lúc này?"
+            },
+            {
+              "phrase": "Let's set a goal for next week.",
+              "meaning": "Hãy đặt mục tiêu cho tuần tới."
+            },
+            {
+              "phrase": "check in with",
+              "meaning": "hỏi thăm / cập nhật với ai đó"
+            }
+          ],
+          "packs": [
+            "giving_feedback",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "What would help you most right now?",
+            "Let's set a goal for next week.",
+            "check in with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「What would help you most right now?」 để nói về tình huống: Preparing for the 1-on-1.",
+            "Dùng câu 「Let's set a goal for next week.」 để nói về tình huống: Preparing for the 1-on-1.",
+            "Dùng câu 「check in with」 để nói về tình huống: Preparing for the 1-on-1.",
+            "Thử nói master combo của pack 「Giving Feedback & 1-on-1」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: One Thing That Went Well Was..."
+        },
+        {
+          "num": 91,
+          "title": "One Thing That Went Well Was...",
+          "slug": "one-thing-that-went-well-was",
+          "image": "images/comics/giving-feedback/tập-91/giving-feedback-tap91-one-thing-that-went-well-was.png",
+          "englishFocus": [
+            {
+              "phrase": "One thing that went well was...",
+              "meaning": "Một điều làm tốt là..."
+            },
+            {
+              "phrase": "I appreciate how you handled...",
+              "meaning": "Tôi đánh giá cao cách bạn xử lý..."
+            },
+            {
+              "phrase": "One area to improve would be...",
+              "meaning": "Một điểm cần cải thiện là..."
+            }
+          ],
+          "packs": [
+            "giving_feedback",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "career",
+            "work-meeting",
+            "feedback"
+          ],
+          "patterns": [
+            "One thing that went well was...",
+            "I appreciate how you handled...",
+            "One area to improve would be..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「One thing that went well was...」 để nói về tình huống: One Thing That Went Well Was....",
+            "Dùng câu 「I appreciate how you handled...」 để nói về tình huống: One Thing That Went Well Was....",
+            "Dùng câu 「One area to improve would be...」 để nói về tình huống: One Thing That Went Well Was....",
+            "Thử nói master combo của pack 「Giving Feedback & 1-on-1」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "One thing went well was the demo.",
+              "correct": "One thing that went well was the demo.",
+              "why": "feedback pattern — cần that sau thing",
+              "patterns": [
+                "One thing that went well"
+              ]
+            }
+          ],
+          "hook": "Next: I'd Suggest Trying..."
+        },
+        {
+          "num": 92,
+          "title": "I'd Suggest Trying...",
+          "slug": "id-suggest-trying",
+          "image": "images/comics/giving-feedback/tập-92/giving-feedback-tap92-id-suggest-trying.png",
+          "englishFocus": [
+            {
+              "phrase": "I'd suggest trying...",
+              "meaning": "Tôi gợi ý thử..."
+            },
+            {
+              "phrase": "Have you considered...?",
+              "meaning": "Bạn đã cân nhắc... chưa?"
+            },
+            {
+              "phrase": "step up",
+              "meaning": "nâng cao / làm tốt hơn"
+            }
+          ],
+          "packs": [
+            "giving_feedback",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'd suggest trying...",
+            "Have you considered...?",
+            "step up"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'd suggest trying...」 để nói về tình huống: I'd Suggest Trying....",
+            "Dùng câu 「Have you considered...?」 để nói về tình huống: I'd Suggest Trying....",
+            "Dùng câu 「step up」 để nói về tình huống: I'd Suggest Trying....",
+            "Thử nói master combo của pack 「Giving Feedback & 1-on-1」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: How Can I Support You?"
+        },
+        {
+          "num": 93,
+          "title": "How Can I Support You?",
+          "slug": "how-can-i-support-you",
+          "image": "images/comics/giving-feedback/tập-93/giving-feedback-tap93-how-can-i-support-you.png",
+          "englishFocus": [
+            {
+              "phrase": "How can I support you?",
+              "meaning": "Tôi có thể hỗ trợ bạn thế nào?"
+            },
+            {
+              "phrase": "What would help you most right now?",
+              "meaning": "Điều gì giúp bạn nhất lúc này?"
+            },
+            {
+              "phrase": "grow into",
+              "meaning": "trưởng thành / phát triển thành"
+            }
+          ],
+          "packs": [
+            "giving_feedback",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "How can I support you?",
+            "What would help you most right now?",
+            "grow into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「How can I support you?」 để nói về tình huống: How Can I Support You?.",
+            "Dùng câu 「What would help you most right now?」 để nói về tình huống: How Can I Support You?.",
+            "Dùng câu 「grow into」 để nói về tình huống: How Can I Support You?.",
+            "Thử nói master combo của pack 「Giving Feedback & 1-on-1」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Feedback & 1-on-1 Finale"
+        },
+        {
+          "num": 94,
+          "title": "Feedback & 1-on-1 Finale",
+          "slug": "feedback-1-on-1-finale",
+          "image": "images/comics/giving-feedback/tập-94/giving-feedback-tap94-feedback-1-on-1-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "One thing that went well was...",
+              "meaning": "Một điều làm tốt là..."
+            },
+            {
+              "phrase": "I'd suggest trying...",
+              "meaning": "Tôi gợi ý thử..."
+            },
+            {
+              "phrase": "How can I support you?",
+              "meaning": "Tôi có thể hỗ trợ bạn thế nào?"
+            },
+            {
+              "phrase": "follow up on",
+              "meaning": "theo dõi / nhắc lại về"
+            }
+          ],
+          "packs": [
+            "giving_feedback",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "One thing that went well was...",
+            "I'd suggest trying...",
+            "How can I support you?",
+            "follow up on"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「One thing that went well was...」 để nói về tình huống: Feedback & 1-on-1 Finale.",
+            "Dùng câu 「I'd suggest trying...」 để nói về tình huống: Feedback & 1-on-1 Finale.",
+            "Dùng câu 「How can I support you?」 để nói về tình huống: Feedback & 1-on-1 Finale.",
+            "Thử nói master combo của pack 「Giving Feedback & 1-on-1」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "One thing went well was the demo.",
+              "correct": "One thing that went well was the demo.",
+              "why": "feedback pattern — cần that sau thing",
+              "patterns": [
+                "One thing that went well"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "presentation-pitch",
+      "title": "Presentation & Pitch Arc",
+      "desc": "Demo structure, key takeaway, Q&A — thuyết trình và pitch cho PM/investor",
+      "color": "#F97316",
+      "icon": "📊",
+      "tag": "Career",
+      "count": 5,
+      "cover": "images/comics/presentation-pitch/tập-95/presentation-pitch-tap95-structuring-the-demo.png",
+      "episodes": [
+        {
+          "num": 95,
+          "title": "Structuring the Demo",
+          "slug": "structuring-the-demo",
+          "image": "images/comics/presentation-pitch/tập-95/presentation-pitch-tap95-structuring-the-demo.png",
+          "englishFocus": [
+            {
+              "phrase": "I'll keep this brief.",
+              "meaning": "Tôi sẽ trình bày ngắn gọn."
+            },
+            {
+              "phrase": "The main problem we're solving is...",
+              "meaning": "Vấn đề chính chúng ta giải quyết là..."
+            },
+            {
+              "phrase": "To summarize...",
+              "meaning": "Tóm lại..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "presentation_pitch",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "I'll keep this brief.",
+            "The main problem we're solving is...",
+            "To summarize..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「I'll keep this brief.」 để nói về tình huống: Structuring the Demo.",
+            "Dùng câu 「The main problem we're solving is...」 để nói về tình huống: Structuring the Demo.",
+            "Dùng câu 「To summarize...」 để nói về tình huống: Structuring the Demo.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Let Me Walk You Through the Demo"
+        },
+        {
+          "num": 96,
+          "title": "Let Me Walk You Through the Demo",
+          "slug": "walk-through-the-demo",
+          "image": "images/comics/presentation-pitch/tập-96/presentation-pitch-tap96-walk-through-the-demo.png",
+          "englishFocus": [
+            {
+              "phrase": "Let me walk you through...",
+              "meaning": "Để tôi hướng dẫn/giải thích từng bước..."
+            },
+            {
+              "phrase": "As you can see on this slide...",
+              "meaning": "Như bạn thấy trên slide này..."
+            },
+            {
+              "phrase": "run through",
+              "meaning": "đi lại / trình bày nhanh từng phần"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "presentation_pitch",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "career",
+            "work-meeting",
+            "presentation"
+          ],
+          "patterns": [
+            "Let me walk you through...",
+            "As you can see on this slide...",
+            "run through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Let me walk you through...」 để nói về tình huống: Let Me Walk You Through the Demo.",
+            "Dùng câu 「As you can see on this slide...」 để nói về tình huống: Let Me Walk You Through the Demo.",
+            "Dùng câu 「run through」 để nói về tình huống: Let Me Walk You Through the Demo.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Key Takeaway Is..."
+        },
+        {
+          "num": 97,
+          "title": "The Key Takeaway Is...",
+          "slug": "the-key-takeaway-is",
+          "image": "images/comics/presentation-pitch/tập-97/presentation-pitch-tap97-the-key-takeaway-is.png",
+          "englishFocus": [
+            {
+              "phrase": "The key takeaway is...",
+              "meaning": "Điểm chính cần nhớ là..."
+            },
+            {
+              "phrase": "Here's what changed since last time.",
+              "meaning": "Đây là những gì thay đổi từ lần trước."
+            },
+            {
+              "phrase": "break down",
+              "meaning": "phân tích / chia nhỏ"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "presentation_pitch",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "The key takeaway is...",
+            "Here's what changed since last time.",
+            "break down"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「The key takeaway is...」 để nói về tình huống: The Key Takeaway Is....",
+            "Dùng câu 「Here's what changed since last time.」 để nói về tình huống: The Key Takeaway Is....",
+            "Dùng câu 「break down」 để nói về tình huống: The Key Takeaway Is....",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Handling Tough Questions"
+        },
+        {
+          "num": 98,
+          "title": "Handling Tough Questions",
+          "slug": "handling-tough-questions",
+          "image": "images/comics/presentation-pitch/tập-98/presentation-pitch-tap98-handling-tough-questions.png",
+          "englishFocus": [
+            {
+              "phrase": "Any questions on this part?",
+              "meaning": "Có câu hỏi nào về phần này không?"
+            },
+            {
+              "phrase": "That's a great question — let me...",
+              "meaning": "Câu hỏi hay — để tôi..."
+            },
+            {
+              "phrase": "circle back",
+              "meaning": "quay lại (chủ đề) sau"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "presentation_pitch",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Any questions on this part?",
+            "That's a great question — let me...",
+            "circle back"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Any questions on this part?」 để nói về tình huống: Handling Tough Questions.",
+            "Dùng câu 「That's a great question — let me...」 để nói về tình huống: Handling Tough Questions.",
+            "Dùng câu 「circle back」 để nói về tình huống: Handling Tough Questions.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Presentation & Pitch Finale"
+        },
+        {
+          "num": 99,
+          "title": "Presentation & Pitch Finale",
+          "slug": "presentation-pitch-finale",
+          "image": "images/comics/presentation-pitch/tập-99/presentation-pitch-tap99-presentation-pitch-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "Let me walk you through...",
+              "meaning": "Để tôi hướng dẫn/giải thích từng bước..."
+            },
+            {
+              "phrase": "The key takeaway is...",
+              "meaning": "Điểm chính cần nhớ là..."
+            },
+            {
+              "phrase": "Any questions on this part?",
+              "meaning": "Có câu hỏi nào về phần này không?"
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ / hướng tới"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "presentation_pitch",
+            "universal_communication_v2"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Let me walk you through...",
+            "The key takeaway is...",
+            "Any questions on this part?",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Let me walk you through...」 để nói về tình huống: Presentation & Pitch Finale.",
+            "Dùng câu 「The key takeaway is...」 để nói về tình huống: Presentation & Pitch Finale.",
+            "Dùng câu 「Any questions on this part?」 để nói về tình huống: Presentation & Pitch Finale.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "incident-postmortem",
+      "title": "Incident & Postmortem Arc",
+      "desc": "War room, root cause, action items — tiếng Anh sự cố và postmortem blameless",
+      "color": "#DC2626",
+      "icon": "🚨",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/incident-postmortem/tập-100/incident-postmortem-tap100-the-war-room.png",
+      "episodes": [
+        {
+          "num": 100,
+          "title": "The War Room",
+          "slug": "the-war-room",
+          "image": "images/comics/incident-postmortem/tập-100/incident-postmortem-tap100-the-war-room.png",
+          "englishFocus": [
+            {
+              "phrase": "What we know so far is...",
+              "meaning": "Những gì chúng ta biết đến giờ là..."
+            },
+            {
+              "phrase": "Let's focus on the facts, not blame.",
+              "meaning": "Tập trung vào sự thật, không đổ lỗi."
+            },
+            {
+              "phrase": "dig into",
+              "meaning": "đi sâu vào / điều tra kỹ"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "email_async",
+            "incident_postmortem"
+          ],
+          "contexts": [
+            "software-engineering",
+            "production",
+            "incident"
+          ],
+          "patterns": [
+            "What we know so far is...",
+            "Let's focus on the facts, not blame.",
+            "dig into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「What we know so far is...」 để nói về tình huống: The War Room.",
+            "Dùng câu 「Let's focus on the facts, not blame.」 để nói về tình huống: The War Room.",
+            "Dùng câu 「dig into」 để nói về tình huống: The War Room.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Root cause is the cache.",
+              "correct": "Root cause appears to be the cache.",
+              "why": "postmortem — dùng appears to be khi chưa chắc chắn 100%",
+              "patterns": [
+                "Root cause appears",
+                "What we know so far"
+              ]
+            }
+          ],
+          "hook": "Next: What We Know So Far Is..."
+        },
+        {
+          "num": 101,
+          "title": "What We Know So Far Is...",
+          "slug": "what-we-know-so-far-is",
+          "image": "images/comics/incident-postmortem/tập-101/incident-postmortem-tap101-what-we-know-so-far-is.png",
+          "englishFocus": [
+            {
+              "phrase": "What we know so far is...",
+              "meaning": "Những gì chúng ta biết đến giờ là..."
+            },
+            {
+              "phrase": "The impact was that...",
+              "meaning": "Tác động là..."
+            },
+            {
+              "phrase": "The timeline of events was...",
+              "meaning": "Diễn biến theo thời gian là..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "email_async",
+            "incident_postmortem"
+          ],
+          "contexts": [],
+          "patterns": [
+            "What we know so far is...",
+            "The impact was that...",
+            "The timeline of events was..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「What we know so far is...」 để nói về tình huống: What We Know So Far Is....",
+            "Dùng câu 「The impact was that...」 để nói về tình huống: What We Know So Far Is....",
+            "Dùng câu 「The timeline of events was...」 để nói về tình huống: What We Know So Far Is....",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Root cause is the cache.",
+              "correct": "Root cause appears to be the cache.",
+              "why": "postmortem — dùng appears to be khi chưa chắc chắn 100%",
+              "patterns": [
+                "Root cause appears",
+                "What we know so far"
+              ]
+            }
+          ],
+          "hook": "Next: Root Cause Analysis"
+        },
+        {
+          "num": 102,
+          "title": "Root Cause Analysis",
+          "slug": "root-cause-analysis",
+          "image": "images/comics/incident-postmortem/tập-102/incident-postmortem-tap102-root-cause-analysis.png",
+          "englishFocus": [
+            {
+              "phrase": "Root cause appears to be...",
+              "meaning": "Nguyên nhân gốc có vẻ là..."
+            },
+            {
+              "phrase": "It seems like...",
+              "meaning": "Có vẻ như..."
+            },
+            {
+              "phrase": "This might be caused by...",
+              "meaning": "Có thể do..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "email_async",
+            "incident_postmortem"
+          ],
+          "contexts": [
+            "software-engineering",
+            "QA",
+            "incident"
+          ],
+          "patterns": [
+            "Root cause appears to be...",
+            "It seems like...",
+            "This might be caused by..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Root cause appears to be...」 để nói về tình huống: Root Cause Analysis.",
+            "Dùng câu 「It seems like...」 để nói về tình huống: Root Cause Analysis.",
+            "Dùng câu 「This might be caused by...」 để nói về tình huống: Root Cause Analysis.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Root cause is the cache.",
+              "correct": "Root cause appears to be the cache.",
+              "why": "postmortem — dùng appears to be khi chưa chắc chắn 100%",
+              "patterns": [
+                "Root cause appears",
+                "What we know so far"
+              ]
+            }
+          ],
+          "hook": "Next: Action Items Going Forward"
+        },
+        {
+          "num": 103,
+          "title": "Action Items Going Forward",
+          "slug": "action-items-going-forward",
+          "image": "images/comics/incident-postmortem/tập-103/incident-postmortem-tap103-action-items-going-forward.png",
+          "englishFocus": [
+            {
+              "phrase": "Action items going forward...",
+              "meaning": "Các việc cần làm tiếp theo..."
+            },
+            {
+              "phrase": "We mitigated the issue by...",
+              "meaning": "Chúng ta đã giảm thiểu sự cố bằng cách..."
+            },
+            {
+              "phrase": "To prevent this from happening again...",
+              "meaning": "Để tránh tái diễn..."
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "email_async",
+            "incident_postmortem"
+          ],
+          "contexts": [],
+          "patterns": [
+            "Action items going forward...",
+            "We mitigated the issue by...",
+            "To prevent this from happening again..."
+          ],
+          "practicePrompts": [
+            "Dùng câu 「Action items going forward...」 để nói về tình huống: Action Items Going Forward.",
+            "Dùng câu 「We mitigated the issue by...」 để nói về tình huống: Action Items Going Forward.",
+            "Dùng câu 「To prevent this from happening again...」 để nói về tình huống: Action Items Going Forward.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Postmortem Finale"
+        },
+        {
+          "num": 104,
+          "title": "Postmortem Finale",
+          "slug": "postmortem-finale",
+          "image": "images/comics/incident-postmortem/tập-104/incident-postmortem-tap104-postmortem-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "What we know so far is...",
+              "meaning": "Những gì chúng ta biết đến giờ là..."
+            },
+            {
+              "phrase": "Root cause appears to be...",
+              "meaning": "Nguyên nhân gốc có vẻ là..."
+            },
+            {
+              "phrase": "Action items going forward...",
+              "meaning": "Các việc cần làm tiếp theo..."
+            },
+            {
+              "phrase": "follow up on",
+              "meaning": "theo dõi / nhắc lại về"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "email_async",
+            "incident_postmortem"
+          ],
+          "contexts": [],
+          "patterns": [
+            "What we know so far is...",
+            "Root cause appears to be...",
+            "Action items going forward...",
+            "follow up on"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「What we know so far is...」 để nói về tình huống: Postmortem Finale.",
+            "Dùng câu 「Root cause appears to be...」 để nói về tình huống: Postmortem Finale.",
+            "Dùng câu 「Action items going forward...」 để nói về tình huống: Postmortem Finale.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "Root cause is the cache.",
+              "correct": "Root cause appears to be the cache.",
+              "why": "postmortem — dùng appears to be khi chưa chắc chắn 100%",
+              "patterns": [
+                "Root cause appears",
+                "What we know so far"
               ]
             }
           ],

@@ -491,5 +491,322 @@
       "I'm glad that we shared our favorites.",
       "look forward to"
     ]
+  },
+  {
+    "file": "interview-career-t79-comic.md",
+    "arc_id": "interview-career",
+    "num": 79,
+    "title": "The First Phone Screen",
+    "slug": "the-first-phone-screen",
+    "focus": [
+      "I'm looking for a role where...",
+      "I see myself growing in...",
+      "What attracted me to this company is..."
+    ]
+  },
+  {
+    "file": "interview-career-t80-comic.md",
+    "arc_id": "interview-career",
+    "num": 80,
+    "title": "Tell Me About a Time When...",
+    "slug": "tell-me-about-a-time-when",
+    "focus": [
+      "Tell me about a time when...",
+      "One challenge I faced was...",
+      "What I learned from that was..."
+    ]
+  },
+  {
+    "file": "interview-career-t81-comic.md",
+    "arc_id": "interview-career",
+    "num": 81,
+    "title": "Why Do You Want This Role?",
+    "slug": "why-do-you-want-this-role",
+    "focus": [
+      "Why I'm interested in this role is...",
+      "I'm looking for a role where...",
+      "work closely with"
+    ]
+  },
+  {
+    "file": "interview-career-t82-comic.md",
+    "arc_id": "interview-career",
+    "num": 82,
+    "title": "The Salary Question",
+    "slug": "the-salary-question",
+    "focus": [
+      "I'd need at least...",
+      "Would it be possible to...?",
+      "I'm looking for a range of..."
+    ]
+  },
+  {
+    "file": "interview-career-t83-comic.md",
+    "arc_id": "interview-career",
+    "num": 83,
+    "title": "Questions for the Interviewer",
+    "slug": "questions-for-the-interviewer",
+    "focus": [
+      "Do you have any questions for us?",
+      "What does success look like in this role?",
+      "How does the team collaborate?"
+    ]
+  },
+  {
+    "file": "interview-career-t84-comic.md",
+    "arc_id": "interview-career",
+    "num": 84,
+    "title": "Interview & Career Finale",
+    "slug": "interview-career-finale",
+    "focus": [
+      "Tell me about a time when...",
+      "What I learned from that was...",
+      "I'm looking for a role where...",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "negotiation-boundaries-t85-comic.md",
+    "arc_id": "negotiation-boundaries",
+    "num": 85,
+    "title": "The Tight Deadline",
+    "slug": "the-tight-deadline",
+    "focus": [
+      "I'm concerned that the timeline is too tight.",
+      "Could we push the deadline back by...?",
+      "weigh up"
+    ]
+  },
+  {
+    "file": "negotiation-boundaries-t86-comic.md",
+    "arc_id": "negotiation-boundaries",
+    "num": 86,
+    "title": "Would It Be Possible To...?",
+    "slug": "would-it-be-possible-to",
+    "focus": [
+      "Would it be possible to...?",
+      "I'd be more comfortable if we...",
+      "What would it take to...?"
+    ]
+  },
+  {
+    "file": "negotiation-boundaries-t87-comic.md",
+    "arc_id": "negotiation-boundaries",
+    "num": 87,
+    "title": "That's Outside the Scope",
+    "slug": "thats-outside-the-scope",
+    "focus": [
+      "That's outside the original scope.",
+      "I'd need at least...",
+      "scope creep"
+    ]
+  },
+  {
+    "file": "negotiation-boundaries-t88-comic.md",
+    "arc_id": "negotiation-boundaries",
+    "num": 88,
+    "title": "Push Back on Scope Creep",
+    "slug": "push-back-on-scope-creep",
+    "focus": [
+      "Let me push back on that.",
+      "I'm happy to help, but we'll need to...",
+      "push back"
+    ]
+  },
+  {
+    "file": "negotiation-boundaries-t89-comic.md",
+    "arc_id": "negotiation-boundaries",
+    "num": 89,
+    "title": "Negotiation & Boundaries Finale",
+    "slug": "negotiation-boundaries-finale",
+    "focus": [
+      "Would it be possible to...?",
+      "That's outside the original scope.",
+      "set a boundary",
+      "compromise on"
+    ]
+  },
+  {
+    "file": "giving-feedback-t90-comic.md",
+    "arc_id": "giving-feedback",
+    "num": 90,
+    "title": "Preparing for the 1-on-1",
+    "slug": "preparing-for-the-1-on-1",
+    "focus": [
+      "What would help you most right now?",
+      "Let's set a goal for next week.",
+      "check in with"
+    ]
+  },
+  {
+    "file": "giving-feedback-t91-comic.md",
+    "arc_id": "giving-feedback",
+    "num": 91,
+    "title": "One Thing That Went Well Was...",
+    "slug": "one-thing-that-went-well-was",
+    "focus": [
+      "One thing that went well was...",
+      "I appreciate how you handled...",
+      "One area to improve would be..."
+    ]
+  },
+  {
+    "file": "giving-feedback-t92-comic.md",
+    "arc_id": "giving-feedback",
+    "num": 92,
+    "title": "I'd Suggest Trying...",
+    "slug": "id-suggest-trying",
+    "focus": [
+      "I'd suggest trying...",
+      "Have you considered...?",
+      "step up"
+    ]
+  },
+  {
+    "file": "giving-feedback-t93-comic.md",
+    "arc_id": "giving-feedback",
+    "num": 93,
+    "title": "How Can I Support You?",
+    "slug": "how-can-i-support-you",
+    "focus": [
+      "How can I support you?",
+      "What would help you most right now?",
+      "grow into"
+    ]
+  },
+  {
+    "file": "giving-feedback-t94-comic.md",
+    "arc_id": "giving-feedback",
+    "num": 94,
+    "title": "Feedback & 1-on-1 Finale",
+    "slug": "feedback-1-on-1-finale",
+    "focus": [
+      "One thing that went well was...",
+      "I'd suggest trying...",
+      "How can I support you?",
+      "follow up on"
+    ]
+  },
+  {
+    "file": "presentation-pitch-t95-comic.md",
+    "arc_id": "presentation-pitch",
+    "num": 95,
+    "title": "Structuring the Demo",
+    "slug": "structuring-the-demo",
+    "focus": [
+      "I'll keep this brief.",
+      "The main problem we're solving is...",
+      "To summarize..."
+    ]
+  },
+  {
+    "file": "presentation-pitch-t96-comic.md",
+    "arc_id": "presentation-pitch",
+    "num": 96,
+    "title": "Let Me Walk You Through the Demo",
+    "slug": "let-me-walk-you-through-the-demo",
+    "focus": [
+      "Let me walk you through...",
+      "As you can see on this slide...",
+      "run through"
+    ]
+  },
+  {
+    "file": "presentation-pitch-t97-comic.md",
+    "arc_id": "presentation-pitch",
+    "num": 97,
+    "title": "The Key Takeaway Is...",
+    "slug": "the-key-takeaway-is",
+    "focus": [
+      "The key takeaway is...",
+      "Here's what changed since last time.",
+      "break down"
+    ]
+  },
+  {
+    "file": "presentation-pitch-t98-comic.md",
+    "arc_id": "presentation-pitch",
+    "num": 98,
+    "title": "Handling Tough Questions",
+    "slug": "handling-tough-questions",
+    "focus": [
+      "Any questions on this part?",
+      "That's a great question — let me...",
+      "circle back"
+    ]
+  },
+  {
+    "file": "presentation-pitch-t99-comic.md",
+    "arc_id": "presentation-pitch",
+    "num": 99,
+    "title": "Presentation & Pitch Finale",
+    "slug": "presentation-pitch-finale",
+    "focus": [
+      "Let me walk you through...",
+      "The key takeaway is...",
+      "Any questions on this part?",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "incident-postmortem-t100-comic.md",
+    "arc_id": "incident-postmortem",
+    "num": 100,
+    "title": "The War Room",
+    "slug": "the-war-room",
+    "focus": [
+      "What we know so far is...",
+      "Let's focus on the facts, not blame.",
+      "dig into"
+    ]
+  },
+  {
+    "file": "incident-postmortem-t101-comic.md",
+    "arc_id": "incident-postmortem",
+    "num": 101,
+    "title": "What We Know So Far Is...",
+    "slug": "what-we-know-so-far-is",
+    "focus": [
+      "What we know so far is...",
+      "The impact was that...",
+      "The timeline of events was..."
+    ]
+  },
+  {
+    "file": "incident-postmortem-t102-comic.md",
+    "arc_id": "incident-postmortem",
+    "num": 102,
+    "title": "Root Cause Analysis",
+    "slug": "root-cause-analysis",
+    "focus": [
+      "Root cause appears to be...",
+      "It seems like...",
+      "This might be caused by..."
+    ]
+  },
+  {
+    "file": "incident-postmortem-t103-comic.md",
+    "arc_id": "incident-postmortem",
+    "num": 103,
+    "title": "Action Items Going Forward",
+    "slug": "action-items-going-forward",
+    "focus": [
+      "Action items going forward...",
+      "We mitigated the issue by...",
+      "To prevent this from happening again..."
+    ]
+  },
+  {
+    "file": "incident-postmortem-t104-comic.md",
+    "arc_id": "incident-postmortem",
+    "num": 104,
+    "title": "Postmortem Finale",
+    "slug": "postmortem-finale",
+    "focus": [
+      "What we know so far is...",
+      "Root cause appears to be...",
+      "Action items going forward...",
+      "follow up on"
+    ]
   }
 ]

@@ -1,6 +1,38 @@
 # Tạo ảnh comic bằng Cursor — English Vault
 
-Hướng dẫn tạo **15 tập mới** (System Design 51–60 + Email & Async 61–65) theo đúng style Tokyo Debug Chronicles.
+Hướng dẫn tạo comic theo đúng style Tokyo Debug Chronicles.
+
+**Kịch bản arc chi tiết:** `prompts/arcs/00-career-advanced-overview.md` (+ 01–05 arc scripts)
+
+---
+
+## Career Advanced — 26 tập mới (79–104) ⭐ Ưu tiên
+
+| Arc | Tập | File kịch bản | Prompt files |
+|-----|-----|---------------|--------------|
+| Interview & Career | 79–84 | `arcs/01-interview-career-arc-script.md` | `interview-career-t79-comic.md` … `t84` |
+| Negotiation | 85–89 | `arcs/02-negotiation-boundaries-arc-script.md` | `negotiation-boundaries-t85-comic.md` … |
+| Feedback | 90–94 | `arcs/03-giving-feedback-arc-script.md` | `giving-feedback-t90-comic.md` … |
+| Presentation | 95–99 | `arcs/04-presentation-pitch-arc-script.md` | `presentation-pitch-t95-comic.md` … |
+| Postmortem | 100–104 | `arcs/05-incident-postmortem-arc-script.md` | `incident-postmortem-t100-comic.md` … |
+
+**Style ref gợi ý:**
+- Tập 79–84: `career-growth/tập-50/nam-becomes-the-bridge.png`
+- Tập 85+: tập finale arc trước hoặc `system-design/tập-58`
+
+**Thứ tự vẽ:** 79 → 84 → 85 → … → 104 (tập trước = ref tập sau)
+
+**Sau khi có ảnh** — xem template trong `scripts/ingest-new-images.py` (Career Advanced 79–104).
+
+```bash
+python3 scripts/setup-career-advanced-dirs.py   # tạo thư mục trống
+python3 scripts/ingest-new-images.py            # sau khi thả ảnh vào untitled folder/
+python3 scripts/build-comics-data.py
+```
+
+---
+
+## Arc cũ — System Design + Email (51–65)
 
 ## Chuẩn bị (1 lần)
 

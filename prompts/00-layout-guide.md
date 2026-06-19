@@ -32,14 +32,20 @@
 - Diagram / whiteboard trong panel khi cần (architecture, flow, pros/cons)
 - Không collage 2 episode trên 1 trang
 
-## ENGLISH FOCUS box (bắt buộc)
+## ENGLISH FOCUS box (bắt buộc — PHẢI có tiếng Việt)
 
 ```
 ENGLISH FOCUS
-1. "Pattern in English." = Nghĩa tiếng Việt.
-2. ...
-Tip: Use these patterns to ...
+1. "Pattern in English." = Nghĩa tiếng Việt đầy đủ.
+2. "Another pattern." = Nghĩa tiếng Việt đầy đủ.
+Tip: Gợi ý tiếng Việt hoặc English ngắn — khi nào dùng pattern.
 ```
+
+**Quy tắc quan trọng:**
+- Box nền **beige/cream**, chữ **TO**, dễ đọc trên mobile
+- Mỗi pattern: `"English"` + `=` + **tiếng Việt** (không bỏ nghĩa Việt)
+- Tiếng Việt **chỉ** trong ENGLISH FOCUS — speech bubbles giữ English
+- Tham chiếu chất lượng: `anime-manga/tập-78/anime-manga-tap78-anime-manga-finale.png`
 
 ## Style keywords (copy vào mọi prompt)
 

@@ -198,6 +198,124 @@
         "flag for"
       ],
       "masterCombo": "Just following up on the PR I sent yesterday — I wanted to check in on the review timeline. I'm blocked on staging access, so I'll follow up with DevOps and get back to you by EOD. Could you loop me in if anything changes?"
+    },
+    {
+      "id": "interview_career",
+      "title": "Interview & Career English",
+      "purpose": "Use in job interviews, career conversations, and professional self-introduction.",
+      "contexts": ["career", "interview", "software-engineering", "work-meeting"],
+      "patterns": [
+        "Tell me about a time when...",
+        "What I learned from that was...",
+        "I'm looking for a role where...",
+        "I see myself growing in...",
+        "One challenge I faced was...",
+        "The result was that...",
+        "Why I'm interested in this role is...",
+        "What attracted me to this company is...",
+        "Do you have any questions for us?"
+      ],
+      "phrases": [
+        "walk through",
+        "be responsible for",
+        "take ownership of",
+        "work closely with"
+      ],
+      "masterCombo": "Tell me about a time when our payment API went down before a demo. One challenge I faced was fixing it under time pressure. What I learned from that was to always run through the main flow early. I'm looking for a role where I can grow as a bridge between engineering and product."
+    },
+    {
+      "id": "negotiation_boundaries",
+      "title": "Negotiation & Boundaries",
+      "purpose": "Use when negotiating deadlines, salary, scope, and setting professional boundaries.",
+      "contexts": ["career", "work-meeting", "software-engineering", "remote work"],
+      "patterns": [
+        "Would it be possible to...?",
+        "I'd need at least...",
+        "That's outside the original scope.",
+        "I'm concerned that the timeline is too tight.",
+        "Could we push the deadline back by...?",
+        "I'd be more comfortable if we...",
+        "What would it take to...?",
+        "I'm happy to help, but we'll need to...",
+        "Let me push back on that."
+      ],
+      "phrases": [
+        "push back",
+        "scope creep",
+        "trade off",
+        "compromise on",
+        "set a boundary"
+      ],
+      "masterCombo": "I'm concerned that the timeline is too tight for a full refactor. Would it be possible to push the deadline back by one week? That's outside the original scope, so I'd need at least two more days for QA. I'm happy to help, but we'll need to narrow down the requirements first."
+    },
+    {
+      "id": "giving_feedback",
+      "title": "Giving Feedback & 1-on-1",
+      "purpose": "Use in 1-on-1 meetings, performance reviews, and giving constructive feedback.",
+      "contexts": ["career", "work-meeting", "software-engineering", "mentoring"],
+      "patterns": [
+        "One thing that went well was...",
+        "One area to improve would be...",
+        "I'd suggest trying...",
+        "How can I support you?",
+        "What would help you most right now?",
+        "I appreciate how you handled...",
+        "Have you considered...?",
+        "Let's set a goal for next week."
+      ],
+      "phrases": [
+        "check in with",
+        "follow up on",
+        "step up",
+        "grow into"
+      ],
+      "masterCombo": "One thing that went well was how you handled the incident calmly. One area to improve would be writing clearer PR descriptions. I'd suggest trying a short summary at the top of each PR. How can I support you with that this week?"
+    },
+    {
+      "id": "presentation_pitch",
+      "title": "Presentation & Pitch English",
+      "purpose": "Use when presenting demos, pitching ideas, or explaining to PM and stakeholders.",
+      "contexts": ["career", "work-meeting", "software-engineering", "system-design"],
+      "patterns": [
+        "Let me walk you through...",
+        "The key takeaway is...",
+        "Any questions on this part?",
+        "To summarize...",
+        "The main problem we're solving is...",
+        "Here's what changed since last time.",
+        "I'll keep this brief.",
+        "As you can see on this slide..."
+      ],
+      "phrases": [
+        "walk through",
+        "run through",
+        "break down",
+        "circle back"
+      ],
+      "masterCombo": "I'll keep this brief. Let me walk you through the new checkout flow. The main problem we're solving is failed payments during peak traffic. The key takeaway is that caching cut response time by 40%. Any questions on this part?"
+    },
+    {
+      "id": "incident_postmortem",
+      "title": "Incident & Postmortem English",
+      "purpose": "Use in war rooms, incident updates, and blameless postmortem meetings.",
+      "contexts": ["software-engineering", "QA", "production", "work-meeting"],
+      "patterns": [
+        "What we know so far is...",
+        "Root cause appears to be...",
+        "Action items going forward...",
+        "The impact was that...",
+        "We mitigated the issue by...",
+        "To prevent this from happening again...",
+        "Let's focus on the facts, not blame.",
+        "The timeline of events was..."
+      ],
+      "phrases": [
+        "follow up on",
+        "roll back",
+        "mitigate",
+        "dig into"
+      ],
+      "masterCombo": "What we know so far is that checkout failed for about 12% of users. Root cause appears to be a cache invalidation bug. We mitigated the issue by rolling back the release. Action items going forward: add an integration test and update the runbook."
     }
   ],
   "arcs": [
@@ -242,6 +360,36 @@
       "title": "Anime & Manga Arc — Dive Into Otaku Japan",
       "focus": ["Akihabara", "manga cafe", "anime pilgrimage", "figure shop", "otaku culture", "anime small talk", "weekend exploration"],
       "episodeRange": "73-78"
+    },
+    {
+      "id": "interview_career_arc",
+      "title": "Interview & Career Arc — Land Your Next Role",
+      "focus": ["phone screen", "behavioral questions", "STAR stories", "salary talk", "career goals"],
+      "episodeRange": "79-84"
+    },
+    {
+      "id": "negotiation_boundaries_arc",
+      "title": "Negotiation & Boundaries Arc — Push Back Like a Pro",
+      "focus": ["deadlines", "scope creep", "salary", "boundaries", "trade-offs"],
+      "episodeRange": "85-89"
+    },
+    {
+      "id": "giving_feedback_arc",
+      "title": "Feedback & 1-on-1 Arc — Lead Through Conversations",
+      "focus": ["1-on-1", "constructive feedback", "mentoring", "performance review", "support"],
+      "episodeRange": "90-94"
+    },
+    {
+      "id": "presentation_pitch_arc",
+      "title": "Presentation & Pitch Arc — Demo Like a Pro",
+      "focus": ["demo structure", "walk through", "key takeaway", "Q&A", "stakeholder pitch"],
+      "episodeRange": "95-99"
+    },
+    {
+      "id": "incident_postmortem_arc",
+      "title": "Incident & Postmortem Arc — Blameless Communication",
+      "focus": ["war room", "status updates", "root cause", "action items", "postmortem"],
+      "episodeRange": "100-104"
     }
   ],
   "episodeSchema": {
@@ -315,6 +463,12 @@
     "anime-manga",
     "culture",
     "otaku",
+    "interview",
+    "negotiation",
+    "feedback",
+    "presentation",
+    "postmortem",
+    "incident",
     "phrasal-verbs",
     "mistake-map"
   ],

@@ -47,3 +47,8 @@
 | Email & Async | `#3B82F6` |
 | Japan Culture | `#DC2626` |
 | Anime & Manga | `#EC4899` |
+| Interview & Career | `#F59E0B` |
+| Negotiation & Boundaries | `#14B8A6` |
+| Feedback & 1-on-1 | `#A855F7` |
+| Presentation & Pitch | `#F97316` |
+| Incident & Postmortem | `#DC2626` |

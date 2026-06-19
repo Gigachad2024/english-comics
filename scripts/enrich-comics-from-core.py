@@ -29,6 +29,11 @@ ARC_PACKS = {
     "email-async": ["email_async", "universal_communication_v2"],
     "japan-culture": ["decision_hesitation", "preference_opinion", "universal_communication_v2"],
     "anime-manga": ["decision_hesitation", "preference_opinion", "universal_communication_v2"],
+    "interview-career": ["interview_career", "universal_communication_v2"],
+    "negotiation-boundaries": ["negotiation_boundaries", "preference_opinion", "decision_hesitation"],
+    "giving-feedback": ["giving_feedback", "universal_communication_v2"],
+    "presentation-pitch": ["presentation_pitch", "universal_communication_v2", "bug_report_agreement_through"],
+    "incident-postmortem": ["incident_postmortem", "bug_report_agreement_through", "email_async"],
 }
 
 # Slug -> contexts tags
@@ -43,6 +48,14 @@ SLUG_CONTEXTS = {
     "akihabara-or-nakano-broadway": ["anime-manga", "travel", "decision"],
     "anime-pilgrimage-day": ["anime-manga", "travel", "small-talk"],
     "anime-talk-at-team-lunch": ["anime-manga", "software-engineering", "small-talk"],
+    "the-first-phone-screen": ["career", "interview", "software-engineering"],
+    "tell-me-about-a-time-when": ["career", "interview", "software-engineering"],
+    "the-tight-deadline": ["career", "work-meeting", "negotiation"],
+    "thats-outside-the-scope": ["career", "work-meeting", "negotiation"],
+    "one-thing-that-went-well-was": ["career", "work-meeting", "feedback"],
+    "walk-through-the-demo": ["career", "work-meeting", "presentation"],
+    "the-war-room": ["software-engineering", "production", "incident"],
+    "root-cause-analysis": ["software-engineering", "QA", "incident"],
     "new-apartment-in-tokyo": ["japan-life", "decision"],
     "moving-day": ["japan-life", "feeling"],
     "first-code-review-in-english": ["software-engineering", "asking-help"],
@@ -74,6 +87,24 @@ COMMON_MISTAKES = [
         "correct": "I'm torn between deploying and waiting.",
         "why": "torn between A and B — A/B cùng dạng từ",
         "patterns": ["I'm torn between"],
+    },
+    {
+        "wrong": "Tell me about a time when I fix a bug.",
+        "correct": "Tell me about a time when I fixed a bug.",
+        "why": "behavioral interview — dùng past tense cho sự kiện đã xảy ra",
+        "patterns": ["Tell me about a time when", "One challenge I faced"],
+    },
+    {
+        "wrong": "Root cause is the cache.",
+        "correct": "Root cause appears to be the cache.",
+        "why": "postmortem — dùng appears to be khi chưa chắc chắn 100%",
+        "patterns": ["Root cause appears", "What we know so far"],
+    },
+    {
+        "wrong": "One thing went well was the demo.",
+        "correct": "One thing that went well was the demo.",
+        "why": "feedback pattern — cần that sau thing",
+        "patterns": ["One thing that went well"],
     },
 ]
 
@@ -108,11 +139,16 @@ def match_packs(ep, series_id: str, all_patterns: list[str]) -> list[str]:
         ("preference_opinion", ["leaning toward", "makes more sense", "go with", "opt for", "stick with", "rule out", "weigh up"]),
         ("bug_report_agreement_through", ["the issue is", "it seems like", "api is returning", "bug affects", "different take", "see your point", "walk through", "go through", "follow through"]),
         ("email_async", ["following up", "loop me in", "loop in", "get back to", "check in on", "keep me posted", "blocked on", "look into this", "async standup", "reach out"]),
+        ("interview_career", ["tell me about a time", "what i learned from", "looking for a role", "interested in this role", "attracted me to"]),
+        ("negotiation_boundaries", ["would it be possible", "outside the scope", "push back", "timeline is too tight", "need at least", "scope creep"]),
+        ("giving_feedback", ["one thing that went well", "area to improve", "i'd suggest trying", "how can i support", "have you considered"]),
+        ("presentation_pitch", ["let me walk you through", "key takeaway", "any questions on this", "main problem we're solving", "keep this brief"]),
+        ("incident_postmortem", ["what we know so far", "root cause appears", "action items going forward", "mitigated the issue", "timeline of events"]),
     ]
     for pack_id, keys in rules:
         if any(k in blob for k in keys):
             packs.add(pack_id)
-    if series_id in ("living", "traveling", "career-growth", "system-design", "email-async", "japan-culture", "anime-manga"):
+    if series_id in ("living", "traveling", "career-growth", "system-design", "email-async", "japan-culture", "anime-manga", "interview-career", "giving-feedback", "presentation-pitch"):
         packs.add("universal_communication_v2")
     return sorted(packs)
 

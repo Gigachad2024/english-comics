@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>English Vault — Tokyo Debug Chronicles</title>
-  <meta name="description" content="Học tiếng Anh qua truyện tranh: debug code, du lịch Nhật, sống ở Tokyo. 5 arc, 57 tập, có lộ trình học.">
+  <meta name="description" content="Học tiếng Anh qua truyện tranh: 15 arc, 122 tập, giải thích chi tiết từng tập, bộ từ điển pattern đầy đủ.">
   <meta property="og:title" content="English Vault: Tokyo Debug Chronicles">
   <meta property="og:description" content="Software engineer life. English battles. Tokyo nights.">
   <meta property="og:type" content="website">
@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20250614-v3">
+  <link rel="stylesheet" href="css/style.css?v=20250618-v5">
 </head>
 <body>
 
@@ -87,6 +87,7 @@
         <a href="#/" class="nav-pill active" id="nav-home">Trang chủ</a>
         <a href="#/roadmap" class="nav-pill" id="nav-roadmap">Lộ trình</a>
         <a href="#/patterns" class="nav-pill" id="nav-patterns">Patterns</a>
+        <a href="#/glossary" class="nav-pill" id="nav-glossary">Từ điển</a>
         <a href="#/bookmarks" class="nav-pill" id="nav-bookmarks">Đã lưu</a>
       </div>
     </div>
@@ -113,15 +114,15 @@
         <div class="hero-actions">
           <button class="btn btn-primary btn-lg" id="hero-primary-btn" onclick="App.startLearning()">🗺️ Bắt đầu học</button>
           <button class="btn btn-ghost btn-lg" onclick="App.startReading()">📖 Đọc tiếp</button>
-          <button class="btn btn-ghost btn-lg" onclick="App.navigate('#/patterns')">🧠 Patterns</button>
+          <button class="btn btn-ghost btn-lg" onclick="App.navigate('#/glossary')">📖 Từ điển</button>
         </div>
         <div class="hero-stats">
           <div class="stat-card">
-            <div class="stat-num" id="stat-series" data-count="6">0</div>
+            <div class="stat-num" id="stat-series" data-count="15">0</div>
             <div class="stat-label">Arc truyện</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num" id="stat-episodes" data-count="67">0</div>
+            <div class="stat-num" id="stat-episodes" data-count="122">0</div>
             <div class="stat-label">Tập truyện</div>
           </div>
           <div class="stat-card">
@@ -226,10 +227,10 @@
         </div>
 
         <div class="takeaway-panel" id="takeaway-panel">
-          <h3 class="takeaway-title">🗣️ English Focus</h3>
-          <p class="takeaway-glossary-hint">Cụm từ quan trọng trong tập này — luyện đọc to và áp dụng vào công việc &amp; đời sống.</p>
+          <h3 class="takeaway-title">📘 Pattern · Từ vựng · Ngữ pháp</h3>
+          <p class="takeaway-glossary-hint">Giải thích đầy đủ từng tập: English Focus + từ trong hội thoại + điểm ngữ pháp — bấm cụm từ để tra <a href="#/glossary">từ điển</a>.</p>
           <p class="takeaway-summary hidden" id="takeaway-summary"></p>
-          <ul class="takeaway-list" id="takeaway-list"></ul>
+          <div class="takeaway-list" id="takeaway-list"></div>
           <p class="takeaway-twist hidden" id="takeaway-twist"></p>
           <p class="takeaway-slogan hidden" id="takeaway-slogan"></p>
           <div id="takeaway-extra" class="takeaway-extra"></div>
@@ -269,6 +270,10 @@
 
     <section id="page-patterns" class="page hidden">
       <div id="patterns-root" class="patterns-root"></div>
+    </section>
+
+    <section id="page-glossary" class="page hidden">
+      <div id="glossary-root"></div>
     </section>
 
     <section id="page-bookmarks" class="page hidden">
@@ -316,6 +321,10 @@
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
       <span>Patterns</span>
     </a>
+    <a href="#/glossary" class="mobile-nav-item" data-nav="glossary">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <span>Từ điển</span>
+    </a>
     <button class="mobile-nav-item" onclick="App.openSearch()">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       <span>Tìm</span>
@@ -332,7 +341,8 @@
 
   <button class="scroll-top hidden" id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Lên đầu trang">↑</button>
 
-  <script src="js/learn.js?v=20250614-v3"></script>
-  <script src="js/app.js?v=20250614-v3"></script>
+  <script src="js/learn.js?v=20250618-v5"></script>
+  <script src="js/glossary.js?v=20250618-v5"></script>
+  <script src="js/app.js?v=20250618-v5"></script>
 </body>
 </html>
