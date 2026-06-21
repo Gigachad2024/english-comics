@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Offer email on phone. Dialogue: Nam: "I got the offer — they liked my STAR stories."
-- **Panel 2:** Kenji congratulates. Dialogue: Kenji: "Your Tell me about a time when answers were clear and structured."
-- **Panel 3:** Nam reflects. Dialogue: Nam: "What I learned from that was to prepare three strong stories."
-- **Panel 4:** Future vision. Dialogue: Nam: "I'm looking for a role where I can keep growing as a bridge engineer."
-- **Panel 5:** Celebration. Dialogue: Linh: "You earned it — your English in interviews leveled up."
-- **Panel 6:** Forward look. Dialogue: Nam: "I look forward to starting next month."
-- **Panel 7:** Hook. Dialogue: Next: The Tight Deadline
+- **Panel 1:** Scene. Dialogue: Nam: "I got the offer — they liked my STAR stories."
+- **Panel 2:** Scene. Dialogue: Kenji: "Your Tell me about a time when answers were clear and structured."
+- **Panel 3:** Scene. Dialogue: Nam: "What I learned from that was to prepare three strong stories."
+- **Panel 4:** Scene. Dialogue: Nam: "I'm looking for a role where I can keep growing as a bridge engineer."
+- **Panel 5:** Scene. Dialogue: Linh: "You earned it — your English in interviews leveled up."
+- **Panel 6:** Scene. Dialogue: Nam: "I look forward to starting next month."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "I got the offer — they liked my STAR stories."
+  },
+  {
+    "panel": 2,
+    "speaker": "Kenji",
+    "text": "Your Tell me about a time when answers were clear and structured."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "What I learned from that was to prepare three strong stories."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I'm looking for a role where I can keep growing as a bridge engineer."
+  },
+  {
+    "panel": 5,
+    "speaker": "Linh",
+    "text": "You earned it — your English in interviews leveled up."
+  },
+  {
+    "panel": 6,
+    "speaker": "Nam",
+    "text": "I look forward to starting next month."
+  }
+]
+```
 
 ---
 
@@ -60,13 +98,12 @@ Setting: Nam receives offer email, team celebrates at café
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Offer email on phone.. Speech: Nam: "I got the offer — they liked my STAR stories."
-Panel 2: Kenji congratulates.. Speech: Kenji: "Your Tell me about a time when answers were clear and structured."
-Panel 3: Nam reflects.. Speech: Nam: "What I learned from that was to prepare three strong stories."
-Panel 4: Future vision.. Speech: Nam: "I'm looking for a role where I can keep growing as a bridge engineer."
-Panel 5: Celebration.. Speech: Linh: "You earned it — your English in interviews leveled up."
-Panel 6: Forward look.. Speech: Nam: "I look forward to starting next month."
-Panel 7: Hook.. Speech: Next: The Tight Deadline
+Panel 1: Story beat. Speech: Nam: "I got the offer — they liked my STAR stories."
+Panel 2: Story beat. Speech: Kenji: "Your Tell me about a time when answers were clear and structured."
+Panel 3: Story beat. Speech: Nam: "What I learned from that was to prepare three strong stories."
+Panel 4: Story beat. Speech: Nam: "I'm looking for a role where I can keep growing as a bridge engineer."
+Panel 5: Story beat. Speech: Linh: "You earned it — your English in interviews leveled up."
+Panel 6: Story beat. Speech: Nam: "I look forward to starting next month."
 
 ENGLISH FOCUS box must list:
 - "Tell me about a time when..." = Hãy kể về một lần khi...

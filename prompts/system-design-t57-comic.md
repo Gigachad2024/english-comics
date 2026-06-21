@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Proposal: 12 microservices for MVP. Dialogue: Engineer: "Let's split everything now."
-- **Panel 2:** Nam speaks up. Dialogue: Nam: "I have a different take — that's overengineering for our stage."
-- **Panel 3:** Simple vs complex diagram. Dialogue: Nam: "I see your point, but we can rule out k8s for now."
-- **Panel 4:** Kenji nods. Dialogue: Kenji: "YAGNI — you aren't gonna need it yet."
-- **Panel 5:** Simpler architecture approved. Dialogue: Aoi: "Start simple. Measure. Then split."
-- **Panel 6:** Hook. Dialogue: Next: Explain It to Product
+- **Panel 1:** Scene. Dialogue: Engineer: "Let's split everything now."
+- **Panel 2:** Scene. Dialogue: Nam: "I have a different take — that's overengineering for our stage."
+- **Panel 3:** Scene. Dialogue: Nam: "I see your point, but we can rule out k8s for now."
+- **Panel 4:** Scene. Dialogue: Kenji: "YAGNI — you aren't gonna need it yet."
+- **Panel 5:** Scene. Dialogue: Aoi: "Start simple. Measure. Then split."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Explain It to Product"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Engineer",
+    "text": "Let's split everything now."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I have a different take — that's overengineering for our stage."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I see your point, but we can rule out k8s for now."
+  },
+  {
+    "panel": 4,
+    "speaker": "Kenji",
+    "text": "YAGNI — you aren't gonna need it yet."
+  },
+  {
+    "panel": 5,
+    "speaker": "Aoi",
+    "text": "Start simple. Measure. Then split."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Explain It to Product"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Proposal: 12 microservices for MVP.. Speech: Engineer: "Let's split everything now."
-Panel 2: Nam speaks up.. Speech: Nam: "I have a different take — that's overengineering for our stage."
-Panel 3: Simple vs complex diagram.. Speech: Nam: "I see your point, but we can rule out k8s for now."
-Panel 4: Kenji nods.. Speech: Kenji: "YAGNI — you aren't gonna need it yet."
-Panel 5: Simpler architecture approved.. Speech: Aoi: "Start simple. Measure. Then split."
-Panel 6: Hook.. Speech: Next: Explain It to Product
+Panel 1: Story beat. Speech: Engineer: "Let's split everything now."
+Panel 2: Story beat. Speech: Nam: "I have a different take — that's overengineering for our stage."
+Panel 3: Story beat. Speech: Nam: "I see your point, but we can rule out k8s for now."
+Panel 4: Story beat. Speech: Kenji: "YAGNI — you aren't gonna need it yet."
+Panel 5: Story beat. Speech: Aoi: "Start simple. Measure. Then split."
+Panel 6: Story beat. Speech: Hook: "Next: Explain It to Product"
 
 ENGLISH FOCUS box must list:
 - "I have a different take." = Tôi có góc nhìn khác.

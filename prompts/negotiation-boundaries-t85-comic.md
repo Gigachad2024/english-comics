@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** PM sets aggressive deadline. Dialogue: PM: "We need the full feature by Friday."
-- **Panel 2:** Nam raises concern. Dialogue: Nam: "I'm concerned that the timeline is too tight for proper QA."
-- **Panel 3:** Whiteboard trade-offs. Dialogue: Aoi: "We need to weigh up speed vs stability."
-- **Panel 4:** Nam proposes alternative. Dialogue: Nam: "Could we push the deadline back by three days?"
-- **Panel 5:** PM considers. Dialogue: PM: "What if we ship MVP Friday and polish next week?"
-- **Panel 6:** Agreement. Dialogue: Nam: "That makes more sense — let's scope down the MVP."
-- **Panel 7:** Hook. Dialogue: Next: Would It Be Possible To...?
+- **Panel 1:** Scene. Dialogue: PM: "We need the full feature by Friday."
+- **Panel 2:** Scene. Dialogue: Nam: "I'm concerned that the timeline is too tight for proper QA."
+- **Panel 3:** Scene. Dialogue: Aoi: "We need to weigh up speed vs stability."
+- **Panel 4:** Scene. Dialogue: Nam: "Could we push the deadline back by three days?"
+- **Panel 5:** Scene. Dialogue: PM: "What if we ship MVP Friday and polish next week?"
+- **Panel 6:** Scene. Dialogue: Nam: "That makes more sense — let's scope down the MVP."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "PM",
+    "text": "We need the full feature by Friday."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I'm concerned that the timeline is too tight for proper QA."
+  },
+  {
+    "panel": 3,
+    "speaker": "Aoi",
+    "text": "We need to weigh up speed vs stability."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "Could we push the deadline back by three days?"
+  },
+  {
+    "panel": 5,
+    "speaker": "PM",
+    "text": "What if we ship MVP Friday and polish next week?"
+  },
+  {
+    "panel": 6,
+    "speaker": "Nam",
+    "text": "That makes more sense — let's scope down the MVP."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: PM sets aggressive deadline.. Speech: PM: "We need the full feature by Friday."
-Panel 2: Nam raises concern.. Speech: Nam: "I'm concerned that the timeline is too tight for proper QA."
-Panel 3: Whiteboard trade-offs.. Speech: Aoi: "We need to weigh up speed vs stability."
-Panel 4: Nam proposes alternative.. Speech: Nam: "Could we push the deadline back by three days?"
-Panel 5: PM considers.. Speech: PM: "What if we ship MVP Friday and polish next week?"
-Panel 6: Agreement.. Speech: Nam: "That makes more sense — let's scope down the MVP."
-Panel 7: Hook.. Speech: Next: Would It Be Possible To...?
+Panel 1: Story beat. Speech: PM: "We need the full feature by Friday."
+Panel 2: Story beat. Speech: Nam: "I'm concerned that the timeline is too tight for proper QA."
+Panel 3: Story beat. Speech: Aoi: "We need to weigh up speed vs stability."
+Panel 4: Story beat. Speech: Nam: "Could we push the deadline back by three days?"
+Panel 5: Story beat. Speech: PM: "What if we ship MVP Friday and polish next week?"
+Panel 6: Story beat. Speech: Nam: "That makes more sense — let's scope down the MVP."
 
 ENGLISH FOCUS box must list:
 - "I'm concerned that the timeline is too tight." = Tôi lo deadline quá gấp.

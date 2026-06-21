@@ -993,6 +993,164 @@ const App = (() => {
     return episodeGuides?.guides?.[`${seriesId}/${epNum}`] || null;
   }
 
+  function speakerTone(speaker) {
+    const s = (speaker || "").split("(")[0].trim().toLowerCase();
+    if (s === "nam") return "nam";
+    if (s === "agent" || s === "landlord") return "agent";
+    if (s === "kenji" || s === "aoi" || s === "linh") return "team";
+    if (s === "recruiter" || s === "interviewer" || s === "manager" || s === "pm") return "pro";
+    return "other";
+  }
+
+  function termBtn(text) {
+    return typeof Glossary !== "undefined"
+      ? Glossary.termButton(text)
+      : `<strong>${text}</strong>`;
+  }
+
+  function bindEpisodeGuideTabs(root) {
+    if (!root) return;
+    const tabs = root.querySelectorAll(".eg-tab");
+    const panels = root.querySelectorAll(".eg-panel");
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const id = tab.dataset.tab;
+        tabs.forEach((t) => t.classList.toggle("active", t === tab));
+        panels.forEach((p) => p.classList.toggle("active", p.dataset.panel === id));
+      });
+    });
+  }
+
+  function renderEpisodeGuide(guide, ep, recap) {
+    const dlg = guide.dialogueLines || [];
+    const phrases = guide.phrases || [];
+    const vocab = guide.extraVocab || [];
+    const grammar = guide.grammar || [];
+    const focusCount = dlg.filter((d) => d.isFocus).length;
+
+    const dialogueHtml = dlg.length
+      ? `<div class="dlg-timeline">${dlg.map((d, i) => {
+          const tone = speakerTone(d.speaker);
+          const focusBadge = d.isFocus ? `<span class="dlg-focus-pill">Focus</span>` : "";
+          const wordsHtml = d.words?.length
+            ? `<div class="dlg-chips">${d.words.map((w) =>
+                `<span class="dlg-chip" title="${w.note}"><span class="dlg-chip-en">${w.word}</span><span class="dlg-chip-vi">${w.note}</span></span>`
+              ).join("")}</div>`
+            : "";
+          const grammarHtml = d.grammarHint
+            ? `<details class="dlg-grammar-fold"><summary>Ngữ pháp</summary><p>${mdInline(d.grammarHint)}</p></details>`
+            : "";
+          return `
+          <article class="dlg-bubble dlg-bubble-${tone}${d.isFocus ? " dlg-bubble-focus" : ""}">
+            <div class="dlg-bubble-meta">
+              <span class="dlg-panel">Panel ${d.panel ?? i + 1}</span>
+              <span class="dlg-speaker">${d.speaker || "N/A"}</span>
+              ${focusBadge}
+            </div>
+            <blockquote class="dlg-quote">${termBtn(d.en)}</blockquote>
+            <p class="dlg-vi">${d.vi || ""}</p>
+            ${wordsHtml}
+            ${grammarHtml}
+          </article>`;
+        }).join("")}</div>`
+      : "";
+
+    const phrasesHtml = phrases.length
+      ? `<div class="pattern-stack">${phrases.map((p, i) => `
+          <article class="pattern-card">
+            <div class="pattern-card-top">
+              <span class="pattern-num">${i + 1}</span>
+              <div class="pattern-phrase">${termBtn(p.phrase)}</div>
+            </div>
+            <p class="pattern-meaning">${p.meaning || ""}</p>
+            <div class="pattern-meta">
+              <div><span class="pattern-label">Khi nào</span><p>${p.whenToUse || "—"}</p></div>
+              <div><span class="pattern-label">Cấu trúc</span><p><code>${p.structure || p.phrase}</code></p></div>
+            </div>
+            <div class="pattern-example">
+              <span class="pattern-label">Ví dụ trong tập</span>
+              <p>"${p.exampleEn || p.phrase}"</p>
+            </div>
+          </article>`).join("")}</div>`
+      : `<p class="eg-empty">Chưa có English Focus cho tập này.</p>`;
+
+    const vocabHtml = vocab.length
+      ? `<div class="vocab-grid">${vocab.map((v) => `
+          <div class="vocab-row">
+            <span class="vocab-term">${termBtn(v.phrase)}</span>
+            <span class="vocab-meaning">${v.meaning || ""}</span>
+          </div>`).join("")}</div>`
+      : `<p class="eg-empty">Không có từ vựng phụ thêm.</p>`;
+
+    const grammarHtml = grammar.length
+      ? `<div class="grammar-stack">${grammar.map((g, i) => `
+          <details class="grammar-fold"${i === 0 ? " open" : ""}>
+            <summary class="grammar-fold-title">${g.title}</summary>
+            <div class="grammar-fold-body">
+              <p class="grammar-rule">${mdInline(g.rule)}</p>
+              ${g.exampleGood ? `<div class="grammar-good"><span>✓</span> ${g.exampleGood}</div>` : ""}
+              ${g.exampleBad ? `<div class="grammar-bad"><span>✗</span> ${g.exampleBad}</div>` : ""}
+              ${g.beginnerNote ? `<p class="grammar-note">${mdInline(g.beginnerNote)}</p>` : `<p class="grammar-note">${mdInline(g.explain)}</p>`}
+            </div>
+          </details>`).join("")}</div>`
+      : `<p class="eg-empty">Không có mục ngữ pháp riêng cho tập này.</p>`;
+
+    const practiceHtml = guide.practiceSteps?.length
+      ? `<div class="eg-practice">
+          <h4 class="eg-practice-title">Luyện tập</h4>
+          <ol class="eg-practice-steps">${guide.practiceSteps.map((s) => `<li>${s}</li>`).join("")}</ol>
+          <button class="btn btn-primary btn-sm" type="button" onclick="App.openReviewMode('${ep.title.replace(/'/g, "\\'")}')">Mở Review Mode</button>
+        </div>`
+      : "";
+
+    return `
+      <div class="episode-guide" data-episode-guide>
+        <div class="eg-hero">
+          <div class="eg-hero-main">
+            <span class="eg-ep-badge">Tập ${ep.num}</span>
+            <p class="eg-hero-desc">${mdInline(guide.summary)}</p>
+          </div>
+          <div class="eg-stats">
+            <div class="eg-stat"><strong>${dlg.length}</strong><span>câu hội thoại</span></div>
+            <div class="eg-stat"><strong>${phrases.length}</strong><span>pattern</span></div>
+            <div class="eg-stat"><strong>${vocab.length}</strong><span>từ vựng</span></div>
+            ${focusCount ? `<div class="eg-stat eg-stat-focus"><strong>${focusCount}</strong><span>English Focus</span></div>` : ""}
+          </div>
+          ${recap ? `<details class="eg-recap-fold"><summary>Tóm tắt câu chuyện</summary><p>${mdInline(recap)}</p></details>` : ""}
+        </div>
+
+        <nav class="eg-tabs" role="tablist">
+          <button type="button" class="eg-tab active" data-tab="dialogue" role="tab">💬 Hội thoại</button>
+          <button type="button" class="eg-tab" data-tab="patterns" role="tab">🗣️ Pattern</button>
+          <button type="button" class="eg-tab" data-tab="vocab" role="tab">📚 Từ vựng</button>
+          <button type="button" class="eg-tab" data-tab="grammar" role="tab">📐 Ngữ pháp</button>
+        </nav>
+
+        <div class="eg-panels">
+          <section class="eg-panel active" data-panel="dialogue" role="tabpanel">
+            <p class="eg-panel-intro">Mỗi câu bám panel trong ảnh truyện — đọc EN, hiểu VI, học từ/cụm bên dưới.</p>
+            ${dialogueHtml}
+          </section>
+          <section class="eg-panel" data-panel="patterns" role="tabpanel">
+            <p class="eg-panel-intro">${guide.phrasesDerived ? "Pattern gợi ý từ pack phù hợp tập này." : "Pattern highlight trong khung ENGLISH FOCUS ở cuối ảnh truyện."}</p>
+            ${phrasesHtml}
+          </section>
+          <section class="eg-panel" data-panel="vocab" role="tabpanel">
+            <p class="eg-panel-intro">Từ/cụm hay gặp trong hội thoại — bấm để tra từ điển.</p>
+            ${vocabHtml}
+          </section>
+          <section class="eg-panel" data-panel="grammar" role="tabpanel">
+            <p class="eg-panel-intro">Giải thích ngữ pháp gắn với câu trong tập — cho người mới học.</p>
+            ${grammarHtml}
+          </section>
+        </div>
+
+        ${practiceHtml}
+        ${guide.realLifeTip ? `<aside class="eg-tip"><span class="eg-tip-icon">💡</span><p>${guide.realLifeTip}</p></aside>` : ""}
+        <p class="takeaway-glossary-link">Tra thêm: <a href="#/glossary" onclick="App.navigate('#/glossary')">Từ điển đầy đủ</a></p>
+      </div>`;
+  }
+
   function renderTakeaway(ep, seriesId) {
     const panel = $("#takeaway-panel");
     const list = $("#takeaway-list");
@@ -1014,86 +1172,8 @@ const App = (() => {
     if (quizBtn) quizBtn.classList.add("hidden");
 
     if (guide) {
-      list.innerHTML = `
-        <div class="episode-guide">
-          <div class="episode-guide-hero">
-            <span class="episode-guide-badge">📘 Giải thích tập ${ep.num}</span>
-            <p class="episode-guide-summary">${mdInline(guide.summary)}</p>
-            <p class="episode-guide-goal"><span>Mục tiêu:</span> ${mdInline(guide.learningGoal)}</p>
-          </div>
-          ${recap ? `<div class="episode-guide-recap"><h4>📖 Tóm tắt câu chuyện</h4><p>${mdInline(recap)}</p></div>` : ""}
-          ${guide.phrases?.length ? `
-            <div class="episode-guide-phrases">
-              <h4>🗣️ Giải thích từng cụm ${guide.phrasesDerived ? "(Pattern gợi ý từ pack)" : "(English Focus)"}</h4>
-              ${guide.phrasesDerived ? `<p class="section-desc">Tập này chưa gắn English Focus cố định — đây là các pattern phù hợp nhất lấy từ pack của tập.</p>` : ""}
-              <div class="phrase-cards">
-                ${guide.phrases.map((p, i) => {
-                  const termBtn = typeof Glossary !== "undefined"
-                    ? Glossary.termButton(p.phrase)
-                    : `<strong>${p.phrase}</strong>`;
-                  return `
-                  <article class="phrase-card">
-                    <div class="phrase-card-num">${i + 1}</div>
-                    <div class="phrase-card-body">
-                      <div class="phrase-card-head">${termBtn}<span class="phrase-meaning">= ${p.meaning || ""}</span></div>
-                      <p class="phrase-explain">${mdInline(p.explain)}</p>
-                      <div class="phrase-meta-grid">
-                        <div class="phrase-meta"><span>Khi nào dùng</span><p>${p.whenToUse || ""}</p></div>
-                        <div class="phrase-meta"><span>Cấu trúc</span><p><code>${p.structure || p.phrase}</code></p></div>
-                      </div>
-                      <div class="phrase-example">
-                        <span>Ví dụ</span>
-                        <p class="phrase-example-en">"${p.exampleEn || p.phrase}"</p>
-                        <p class="phrase-example-tip">💡 ${p.speakTip || "Đọc to 3 lần rồi tự nói 1 câu."}</p>
-                      </div>
-                    </div>
-                  </article>`;
-                }).join("")}
-              </div>
-            </div>` : ""}
-          ${guide.extraVocab?.length ? `
-            <div class="episode-guide-vocab">
-              <h4>📚 Từ vựng thêm trong truyện</h4>
-              <p class="section-desc">Các từ/cụm trong hội thoại — không nằm trong pattern pack nhưng hay gặp khi đọc truyện.</p>
-              <div class="vocab-cards">
-                ${guide.extraVocab.map((v) => {
-                  const termBtn = typeof Glossary !== "undefined"
-                    ? Glossary.termButton(v.phrase)
-                    : `<strong>${v.phrase}</strong>`;
-                  return `
-                  <article class="vocab-card">
-                    <div class="vocab-card-head">${termBtn}<span class="phrase-meaning">= ${v.meaning || ""}</span></div>
-                    <p class="vocab-explain">${mdInline(v.explain)}</p>
-                  </article>`;
-                }).join("")}
-              </div>
-            </div>` : ""}
-          ${guide.grammar?.length ? `
-            <div class="episode-guide-grammar">
-              <h4>📐 Ngữ pháp cần nhớ</h4>
-              <p class="section-desc">Điểm ngữ pháp gắn với câu trong tập này — đọc trước khi luyện nói.</p>
-              <div class="grammar-cards">
-                ${guide.grammar.map((g) => `
-                  <article class="grammar-card">
-                    <h5 class="grammar-card-title">${g.title}</h5>
-                    <p class="grammar-rule">${mdInline(g.rule)}</p>
-                    <p class="grammar-explain">${mdInline(g.explain)}</p>
-                    <div class="grammar-examples">
-                      ${g.exampleGood ? `<div class="grammar-good"><span>✓</span> ${g.exampleGood}</div>` : ""}
-                      ${g.exampleBad ? `<div class="grammar-bad"><span>✗</span> ${g.exampleBad}</div>` : ""}
-                    </div>
-                  </article>`).join("")}
-              </div>
-            </div>` : ""}
-          ${guide.practiceSteps?.length ? `
-            <div class="episode-guide-practice">
-              <h4>✅ Cách luyện tập</h4>
-              <ol class="guide-steps">${guide.practiceSteps.map((s) => `<li>${s}</li>`).join("")}</ol>
-              <button class="btn btn-primary btn-sm" type="button" onclick="App.openReviewMode('${ep.title.replace(/'/g, "\\'")}')">🔄 Mở Review Mode</button>
-            </div>` : ""}
-          ${guide.realLifeTip ? `<p class="episode-guide-tip">💡 <strong>Mẹo thực chiến:</strong> ${guide.realLifeTip}</p>` : ""}
-          <p class="takeaway-glossary-link">Tra thêm: <a href="#/glossary" onclick="App.navigate('#/glossary')">📖 Từ điển đầy đủ</a> (pattern · phrasal · từ vựng · ngữ pháp)</p>
-        </div>`;
+      list.innerHTML = renderEpisodeGuide(guide, ep, recap);
+      bindEpisodeGuideTabs(list.querySelector("[data-episode-guide]"));
       list.classList.remove("hidden");
     } else if (focus.length) {
       list.innerHTML = `<ul class="takeaway-simple-list">${focus

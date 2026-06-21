@@ -32,6 +32,23 @@
 - Diagram / whiteboard trong panel khi cần (architecture, flow, pros/cons)
 - Không collage 2 episode trên 1 trang
 
+## Canonical dialogue (bắt buộc — khớp 100% ảnh)
+
+Mỗi file `prompts/{arc}-t{NN}-comic.md` phải có hội thoại **trùng khít** speech bubbles trong PNG.
+
+**Quy trình chuẩn:**
+
+1. Vẽ / cập nhật ảnh comic
+2. Chạy `python3 scripts/build-canonical-dialogues.py` — OCR xác minh hội thoại từ PNG
+3. Chạy `python3 scripts/sync-prompts-from-canonical.py` — ghi lại prompt
+4. Chạy `python3 scripts/build-learning-data.py` — cập nhật guide học
+5. Chạy `python3 scripts/validate-dialogue-sync.py` — phải pass trước khi merge
+
+**Khi tạo ảnh mới:** copy `PANEL STORY` từ prompt → generate image → chạy lại bước 2–5.  
+Không dùng template dialogue generic. Mỗi panel = 1 dòng `Speaker: "..."` trong Story beats và PANEL STORY.
+
+Nguồn sự thật: `data/canonical-dialogues.json`
+
 ## ENGLISH FOCUS box (bắt buộc — PHẢI có tiếng Việt)
 
 ```

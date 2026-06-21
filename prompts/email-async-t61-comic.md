@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Nam writing Slack/email at desk. Dialogue: Subject: Following up on PR #512
-- **Panel 2:** Draft email on screen. Dialogue: Nam: "Just following up on the PR I sent yesterday."
-- **Panel 3:** Linh reviews tone. Dialogue: Linh: "Friendly but clear — add what you need from them."
-- **Panel 4:** Improved version. Dialogue: Nam: "I wanted to check in on the review timeline."
-- **Panel 5:** Reply received. Dialogue: Kenji: "I'll get back to you by EOD."
-- **Panel 6:** Hook. Dialogue: Next: Loop Me In on the Decision
+- **Panel 1:** Scene. Dialogue: Subject: "Following up on PR #512"
+- **Panel 2:** Scene. Dialogue: Nam: "Just following up on the PR I sent yesterday."
+- **Panel 3:** Scene. Dialogue: Linh: "Friendly but clear — add what you need from them."
+- **Panel 4:** Scene. Dialogue: Nam: "I wanted to check in on the review timeline."
+- **Panel 5:** Scene. Dialogue: Kenji: "I'll get back to you by EOD."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Loop Me In on the Decision"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Subject",
+    "text": "Following up on PR #512"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Just following up on the PR I sent yesterday."
+  },
+  {
+    "panel": 3,
+    "speaker": "Linh",
+    "text": "Friendly but clear — add what you need from them."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I wanted to check in on the review timeline."
+  },
+  {
+    "panel": 5,
+    "speaker": "Kenji",
+    "text": "I'll get back to you by EOD."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Loop Me In on the Decision"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Nam writing Slack/email at desk.. Speech: Subject: Following up on PR #512
-Panel 2: Draft email on screen.. Speech: Nam: "Just following up on the PR I sent yesterday."
-Panel 3: Linh reviews tone.. Speech: Linh: "Friendly but clear — add what you need from them."
-Panel 4: Improved version.. Speech: Nam: "I wanted to check in on the review timeline."
-Panel 5: Reply received.. Speech: Kenji: "I'll get back to you by EOD."
-Panel 6: Hook.. Speech: Next: Loop Me In on the Decision
+Panel 1: Story beat. Speech: Subject: "Following up on PR #512"
+Panel 2: Story beat. Speech: Nam: "Just following up on the PR I sent yesterday."
+Panel 3: Story beat. Speech: Linh: "Friendly but clear — add what you need from them."
+Panel 4: Story beat. Speech: Nam: "I wanted to check in on the review timeline."
+Panel 5: Story beat. Speech: Kenji: "I'll get back to you by EOD."
+Panel 6: Story beat. Speech: Hook: "Next: Loop Me In on the Decision"
 
 ENGLISH FOCUS box must list:
 - "Just following up on..." = Nhắc lại / theo dõi về...

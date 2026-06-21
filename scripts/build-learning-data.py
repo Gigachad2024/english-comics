@@ -3,9 +3,21 @@
 
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from dialogue_helpers import (  # noqa: E402
+    expand_grammar_beginner,
+    explain_dialogue_line,
+    fill_pattern,
+    get_dialogue_lines_for_episode,
+    lookup_line_vi,
+    normalize,
+    parse_speech_from_line,
+    synthesize_dialogue_lines,
+)
 
 # ── Grammar rules (trigger → Vietnamese explanation) ─────────────────────
 GRAMMAR_RULES = [
@@ -119,10 +131,10 @@ GRAMMAR_RULES = [
     },
     {
         "id": "thats-where",
-        "title": "That's where + clause",
-        "triggers": ["that's where", "that is where"],
-        "rule": "**where** chỉ **điểm/vị trí/bước** trong quy trình gây lỗi.",
-        "explain": "That's where the 500 errors are coming from.",
+        "title": "That's where + clause — chỉ đúng điểm gây lỗi",
+        "triggers": ["that's where", "that is where", "coming from"],
+        "rule": "**That's where + mệnh đề** — where trỏ tới vị trí/bước trong hệ thống gây lỗi.",
+        "explain": "That's where the 500 errors are coming from = Lỗi 500 bắt nguồn từ đó.",
         "exampleGood": "That's where the API fails.",
         "exampleBad": "That's where is the error. (sai trật tự từ)",
     },
@@ -170,6 +182,24 @@ GRAMMAR_RULES = [
         "explain": "The issue is that the API returns 500 for some users.",
         "exampleGood": "The issue is that we skipped integration tests.",
         "exampleBad": "The issue is the API return 500. (return → returns)",
+    },
+    {
+        "id": "can-could-you",
+        "title": "Can/Could you + V? — nhờ giúp lịch sự",
+        "triggers": ["can you ", "could you ", "can we ", "could we "],
+        "rule": "**Can/Could + you + động từ nguyên mẫu?** — Could lịch sự hơn Can.",
+        "explain": "Can you walk me through the payment flow? = Bạn giải thích flow thanh toán được không?",
+        "exampleGood": "Could you help me with this?",
+        "exampleBad": "Can you helping me? (sai — sau Can/Could phải là V nguyên mẫu)",
+    },
+    {
+        "id": "let-me",
+        "title": "Let me + V — tôi sẽ làm giúp",
+        "triggers": ["let me ", "let's ", "lets "],
+        "rule": "**Let me + V** = đề nghị tự mình làm; **Let's + V** = đề nghị làm chung.",
+        "explain": "Let me walk you through it step by step. / Let's find the root cause.",
+        "exampleGood": "Let me walk you through the logs.",
+        "exampleBad": "Let me to walk you through. (không thêm to)",
     },
 ]
 
@@ -432,11 +462,6 @@ def slug_id(text: str) -> str:
     return s[:80] or "term"
 
 
-def normalize(text: str) -> str:
-    t = (text or "").lower().replace("\u2019", "'").replace("\u2018", "'")
-    return re.sub(r"\s+", " ", t.strip().rstrip(".!?"))
-
-
 _PATTERN_VI_NORM = None
 
 
@@ -491,40 +516,46 @@ def series_context(tag: str, desc: str) -> str:
 
 
 def parse_prompts() -> dict:
-    """slug -> {dialogues: [...], focus_map: {phrase: vi}}"""
+    """slug + series/num -> {dialogueLines, focus_map, dialogues}"""
     by_slug: dict = {}
 
-    def add_slug(slug, dialogues=None, focus_map=None):
-        if not slug:
+    def add_lines(slug, lines=None, focus_map=None, series_key=None):
+        if not slug and not series_key:
             return
-        entry = by_slug.setdefault(slug, {"dialogues": [], "focus_map": {}})
-        for d in dialogues or []:
-            d = d.strip()
-            if len(d) > 8 and d not in entry["dialogues"]:
-                entry["dialogues"].append(d)
-        for phrase, vi in (focus_map or {}).items():
-            entry["focus_map"][phrase.strip()] = vi.strip()
+        for key in filter(None, [slug, series_key]):
+            entry = by_slug.setdefault(key, {"dialogueLines": [], "focus_map": {}})
+            seen = {(normalize(x["text"]), x.get("speaker", "")) for x in entry["dialogueLines"]}
+            for ln in lines or []:
+                key_t = (normalize(ln["text"]), ln.get("speaker", ""))
+                if key_t not in seen and len(ln.get("text", "")) >= 4:
+                    entry["dialogueLines"].append(ln)
+                    seen.add(key_t)
+            for phrase, vi in (focus_map or {}).items():
+                entry["focus_map"][phrase.strip()] = vi.strip()
 
-    quote_re = re.compile(r'["\']([^"\']{8,})["\']')
+    comic_re = re.compile(r"^([a-z0-9-]+)-t(\d+)-comic\.md$")
 
     for path in (ROOT / "prompts").glob("*-comic.md"):
         content = path.read_text(encoding="utf-8")
+        m = comic_re.match(path.name)
+        series_key = f"{m.group(1)}/{int(m.group(2))}" if m else None
+
         slug_m = re.search(r"\*\*Slug(?: gợi ý)?:\*\* `([^`]+)`", content)
         slug = slug_m.group(1) if slug_m else None
         if not slug:
             slug_m2 = re.search(r"\*\*Slug:\*\* `([^`]+)`", content)
             slug = slug_m2.group(1) if slug_m2 else None
 
-        dialogues = []
+        lines = []
         for line in content.splitlines():
             if re.search(r"(Dialogue|Speech):", line, re.I) or re.search(r"^Panel \d+:", line, re.I):
-                dialogues.extend(quote_re.findall(line))
+                lines.extend(parse_speech_from_line(line))
 
         focus_map = {}
-        for m in re.finditer(r'"([^"]+)"\s*=\s*([^\n|]+)', content):
-            focus_map[m.group(1).strip()] = m.group(2).strip()
+        for fm in re.finditer(r'"([^"]+)"\s*=\s*([^\n|]+)', content):
+            focus_map[fm.group(1).strip()] = fm.group(2).strip().rstrip(".")
 
-        add_slug(slug, dialogues, focus_map)
+        add_lines(slug, lines, focus_map, series_key)
 
     for path in (ROOT / "prompts" / "arcs").glob("*.md"):
         content = path.read_text(encoding="utf-8")
@@ -534,15 +565,29 @@ def parse_prompts() -> dict:
             if not slug_m:
                 slug_m = re.search(r"\| \*\*Slug\*\* \| `([^`]+)`", block)
             slug = slug_m.group(1) if slug_m else None
-            dialogues = quote_re.findall(block)
-            focus_line = re.search(r"\*\*ENGLISH FOCUS:\*\* (.+)", block)
+
+            lines = []
+            panel_num = None
+            for line in block.splitlines():
+                pm = re.search(r"^\|\s*(\d+)\s*\|", line)
+                if pm:
+                    panel_num = int(pm.group(1))
+                if "*" in line and ":" in line:
+                    lines.extend(parse_speech_from_line(line, panel_num))
+
             focus_map = {}
+            focus_line = re.search(r"\*\*ENGLISH FOCUS:\*\* (.+)", block)
             if focus_line:
                 for part in re.split(r"/", focus_line.group(1)):
                     part = part.strip().strip(".")
                     if part:
-                        focus_map[part] = ""
-            add_slug(slug, dialogues, focus_map)
+                        focus_map[part] = lookup_vi(part) or ""
+
+            add_lines(slug, lines, focus_map)
+
+    # Backward compat: plain dialogue strings
+    for slug, entry in by_slug.items():
+        entry["dialogues"] = [x["text"] for x in entry["dialogueLines"]]
 
     return by_slug
 
@@ -577,97 +622,65 @@ def is_covered_by_focus(candidate: str, focus: set[str]) -> bool:
     return False
 
 
-def extract_extra_vocab(ep: dict, prompt_data) -> list[dict]:
+def extract_extra_vocab(ep: dict, prompt_data, dialogue_lines: list[dict]) -> list[dict]:
+    """Key vocabulary from dialogue — not already in English Focus."""
     focus = focus_phrase_set(ep)
-    dialogues = (prompt_data or {}).get("dialogues") or []
-    blob = " ".join(dialogues).lower()
     found: dict[str, dict] = {}
 
-    # Scan vocab library against dialogue blob
+    def add(phrase: str, meaning: str, note: str, source: str):
+        key = normalize(phrase)
+        if len(key) < 3 or is_covered_by_focus(phrase, focus):
+            return
+        if key not in found:
+            found[key] = {
+                "phrase": phrase,
+                "meaning": meaning,
+                "note": note,
+                "source": source,
+            }
+
+    blob = " ".join(
+        (ln.get("en") or ln.get("text", "")) for ln in dialogue_lines
+    ).lower()
+
+    # Vocab library hits from dialogue
     for key, (short, vi) in sorted(VOCAB_LIBRARY.items(), key=lambda x: -len(x[0])):
         if key.lower() in blob and not is_covered_by_focus(key, focus):
-            found[key] = {
-                "phrase": key,
-                "meaning": vi,
-                "note": short,
-                "source": "dialogue",
-            }
+            add(key, vi, short, "dialogue")
 
-    # Extract short useful quotes from dialogue not in focus
-    for line in dialogues:
-        line_n = normalize(line)
-        if is_covered_by_focus(line, focus):
-            continue
-        if len(line) > 90:
-            # try sub-clauses
-            for chunk in re.split(r"[,;.]", line):
-                chunk = chunk.strip()
-                if 12 <= len(chunk) <= 80 and not is_covered_by_focus(chunk, focus):
-                    vi = VOCAB_LIBRARY.get(chunk.lower(), (chunk, "Cụm trong hội thoại tập này"))[1]
-                    found[chunk] = {
-                        "phrase": chunk,
-                        "meaning": vi if isinstance(vi, str) else chunk,
-                        "note": "Trích từ hội thoại truyện",
-                        "source": "dialogue",
-                    }
-        elif 12 <= len(line) <= 80 and not is_covered_by_focus(line, focus):
-            key = line.lower()
-            vi = VOCAB_LIBRARY.get(key, (line, "Câu/cụm trong hội thoại"))[1]
-            found[line] = {
-                "phrase": line,
-                "meaning": vi,
-                "note": "Trích từ hội thoại truyện",
-                "source": "dialogue",
-            }
+    # Word notes from dialogue breakdown
+    for ln in dialogue_lines:
+        for w in ln.get("words") or []:
+            add(w["word"], w["note"], f"Panel {ln.get('panel', '?')}", "dialogue")
 
-    # Title + slug fallback (episodes without prompt files)
-    title_blob = f"{ep.get('title', '')} {ep.get('slug', '')}".lower()
-    for key, (short, vi) in sorted(VOCAB_LIBRARY.items(), key=lambda x: -len(x[0])):
-        if key.lower() in title_blob and key not in found and not is_covered_by_focus(key, focus):
-            found[key] = {
-                "phrase": key.title() if len(key) < 20 else key,
-                "meaning": vi,
-                "note": short,
-                "source": "title",
-            }
+    # Title keywords when sparse
+    if len(found) < 3:
+        title_blob = f"{ep.get('title', '')} {ep.get('slug', '')}".lower()
+        for key, (short, vi) in sorted(VOCAB_LIBRARY.items(), key=lambda x: -len(x[0])):
+            if key.lower() in title_blob and not is_covered_by_focus(key, focus):
+                add(key, vi, short, "title")
 
-    # Context tags → vocab hints
-    CONTEXT_VOCAB = {
-        "software-engineering": ("production bug", "Lỗi trên môi trường user thật"),
-        "debugging": ("debug logs", "Xem log để tìm lỗi"),
-        "travel": ("itinerary", "Lịch trình du lịch"),
-        "japan-life": ("landlord", "Chủ nhà cho thuê"),
-        "interview": ("phone screen", "Vòng sàng lọc phỏng vấn đầu"),
-        "negotiation": ("push back", "Phản hồi khi scope/deadline không hợp lý"),
-        "incident": ("war room", "Phòng xử lý sự cố khẩn"),
-        "presentation": ("key takeaway", "Điểm chính cần nhớ sau pitch"),
-    }
-    for ctx in ep.get("contexts") or []:
-        if ctx in CONTEXT_VOCAB and len(found) < 8:
-            phrase, vi = CONTEXT_VOCAB[ctx]
-            if phrase not in found and not is_covered_by_focus(phrase, focus):
-                short = vi
-                found[phrase] = {
-                    "phrase": phrase,
-                    "meaning": vi,
-                    "note": f"Chủ đề: {ctx.replace('-', ' ')}",
-                    "source": "context",
-                }
-
-    items = list(found.values())[:8]
+    items = list(found.values())[:10]
     for item in items:
         item["explain"] = (
             f"**{item['phrase']}** — {item['meaning']}. "
-            f"{item.get('note', '')} "
-            f"Không nằm trong English Focus chính nhưng xuất hiện trong truyện — học thêm để đọc hiểu và nói tự nhiên hơn."
+            f"({item.get('note', '')}) "
+            f"Từ/cụm này xuất hiện trong hội thoại tập «{ep.get('title', '')}» — "
+            f"học để đọc truyện trôi chảy và mở rộng vốn từ ngoài English Focus."
         )
     return items
 
 
-def detect_grammar(ep: dict, phrases: list[str], dialogues: list[str]) -> list[dict]:
+def detect_grammar(ep: dict, phrases: list[str], dialogues: list[str], dialogue_lines: list[dict]) -> list[dict]:
     blob = " ".join(phrases + dialogues).lower()
     for m in ep.get("commonMistakes") or []:
         blob += " " + m.get("why", "").lower() + " " + m.get("wrong", "").lower()
+    for ln in dialogue_lines:
+        blob += " " + (ln.get("en") or ln.get("text", "")).lower()
+
+    episode_example = ""
+    if dialogue_lines:
+        episode_example = dialogue_lines[0].get("en") or dialogue_lines[0].get("text", "")
 
     rules = []
     seen = set()
@@ -680,6 +693,7 @@ def detect_grammar(ep: dict, phrases: list[str], dialogues: list[str]) -> list[d
                     "title": rule["title"],
                     "rule": rule["rule"],
                     "explain": rule["explain"],
+                    "beginnerNote": expand_grammar_beginner(rule, episode_example),
                     "exampleGood": rule["exampleGood"],
                     "exampleBad": rule["exampleBad"],
                 })
@@ -689,41 +703,56 @@ def detect_grammar(ep: dict, phrases: list[str], dialogues: list[str]) -> list[d
         mid = slug_id(m.get("why", m.get("wrong", "mistake")))
         if mid in seen:
             continue
-        rules.append({
-            "id": mid,
+        mistake_rule = {
             "title": f"⚠️ {m.get('why', 'Lỗi thường gặp')}",
             "rule": f"Sai: **{m.get('wrong', '')}**",
             "explain": f"Đúng: **{m.get('correct', '')}** — {m.get('why', '')}",
             "exampleGood": m.get("correct", ""),
             "exampleBad": m.get("wrong", ""),
+        }
+        rules.append({
+            "id": mid,
+            "title": mistake_rule["title"],
+            "rule": mistake_rule["rule"],
+            "explain": mistake_rule["explain"],
+            "beginnerNote": expand_grammar_beginner(mistake_rule, m.get("correct", "")),
+            "exampleGood": mistake_rule["exampleGood"],
+            "exampleBad": mistake_rule["exampleBad"],
         })
         seen.add(mid)
-        if len(rules) >= 6:
+        if len(rules) >= 8:
             break
 
-    return rules[:6]
+    return rules[:8]
 
 
-def build_story_recap(ep: dict, series: dict, dialogues: list[str]) -> str:
+def build_story_recap(ep: dict, series: dict, dialogue_lines: list[dict]) -> str:
     title = ep["title"]
     ctx = series_context(series.get("tag", ""), series.get("desc", ""))
-    focus = ep.get("englishFocus") or []
-    if dialogues:
-        sample = dialogues[0][:120] + ("…" if len(dialogues[0]) > 120 else "")
+    if dialogue_lines:
+        parts = []
+        for ln in dialogue_lines[:4]:
+            sp = ln.get("speaker", "N/A")
+            txt = ln.get("en") or ln.get("text", "")
+            parts.append(f"*{sp}:* \"{txt}\"")
+        flow = " → ".join(parts)
+        if len(dialogue_lines) > 4:
+            flow += f" … (còn {len(dialogue_lines) - 4} câu nữa trong truyện)"
         return (
-            f"Trong tập «{title}», Nam gặp tình huống {ctx}. "
-            f"Ví dụ câu trong truyện: *\"{sample}\"* — "
-            f"đọc ảnh, chú ý ENGLISH FOCUS và các từ phụ trong hội thoại."
+            f"Trong tập «{title}», Nam và team gặp tình huống **{ctx}**. "
+            f"Luồng hội thoại chính: {flow}. "
+            f"Đọc ảnh truyện trước, rồi xem giải thích từng câu bên dưới — English Focus chỉ là một phần."
         )
+    focus = ep.get("englishFocus") or []
     if focus:
-        main = focus[0]["phrase"]
+        main = fill_pattern(focus[0]["phrase"], title)
         return (
             f"Trong tập «{title}», Nam gặp tình huống {ctx}. "
-            f"Hội thoại xoay quanh cụm **{main}** — đọc ảnh truyện và chú ý ENGLISH FOCUS ở cuối."
+            f"Câu trọng tâm: *\"{main}\"* — đọc ảnh truyện và phần giải thích chi tiết bên dưới."
         )
     return (
         f"Trong tập «{title}», Nam tiếp tục hành trình {ctx}. "
-        f"Đọc hội thoại trong ảnh và tìm các cụm tiếng Anh tự nhiên."
+        f"Đọc hội thoại trong ảnh và tìm các cụm tiếng Anh — phần dưới giải thích từng câu và ngữ pháp."
     )
 
 
@@ -736,43 +765,59 @@ def build_summary(ep: dict, series: dict) -> str:
     )
 
 
-def build_learning_goal(ep: dict, series: dict) -> str:
+def build_learning_goal(ep: dict, series: dict, dialogue_lines: list[dict]) -> str:
     focus = ep.get("englishFocus") or []
     parts = []
+    parts.append(f"Giải thích **{len(dialogue_lines)} câu** trong hội thoại truyện")
     if focus:
-        phrases = ", ".join(f"「{f['phrase']}」" for f in focus[:3])
-        parts.append(f"Pattern: {phrases}")
-    parts.append("Từ vựng phụ trong hội thoại truyện")
-    parts.append("1–2 điểm ngữ pháp liên quan tập này")
+        phrases = ", ".join(f"「{f['phrase']}」" for f in focus[:2])
+        parts.append(f"English Focus: {phrases}")
+    parts.append("Từ vựng phụ + ngữ pháp chi tiết (cho người mới học)")
     return " · ".join(parts) + "."
 
 
-def build_phrase_detail(f: dict, ep: dict, series: dict) -> dict:
+def build_phrase_detail(f: dict, ep: dict, series: dict, dialogue_lines: list[dict]) -> dict:
     phrase = f.get("phrase", "")
     meaning = f.get("meaning", "") or lookup_vi(phrase)
     ctx = series_context(series.get("tag", ""), series.get("desc", ""))
     when = guess_when(phrase)
+    filled = fill_pattern(phrase, ep["title"])
+
+    # Find matching line in dialogue for real example
+    example_en = filled
+    example_vi = meaning
+    for ln in dialogue_lines:
+        txt = ln.get("en") or ln.get("text", "")
+        pn = normalize(phrase.replace("...", ""))
+        if pn and pn in normalize(txt):
+            example_en = txt
+            example_vi = ln.get("vi") or meaning
+            break
+
     return {
         "phrase": phrase,
         "meaning": meaning,
         "kind": "pattern",
         "explain": (
             f"Cụm **{phrase}** dịch là *{meaning.rstrip('.')}*. "
-            f"Đây là pattern chính (English Focus). {when} "
-            f"Trong tập «{ep['title']}», Nam dùng khi {ctx}."
+            f"Đây là **English Focus** — pattern chính của tập, nhưng không phải toàn bộ nội dung. "
+            f"{when} "
+            f"Trong tập «{ep['title']}», ví dụ thực tế: *\"{example_en}\"* "
+            f"(ngữ cảnh: {ctx})."
         ),
         "whenToUse": when,
         "structure": guess_structure(phrase),
-        "exampleEn": example_for(phrase, ep["title"]),
-        "exampleVi": f"Ngữ cảnh tập: «{ep['title']}».",
-        "speakTip": "① Đọc to 3 lần  ② Tự nói 1 câu  ③ Review Mode sửa lỗi.",
+        "exampleEn": example_en,
+        "exampleVi": example_vi or f"Ngữ cảnh tập: «{ep['title']}».",
+        "speakTip": "① Đọc to câu trong truyện 3 lần  ② Thay A/B bằng tình huống của bạn  ③ Review Mode sửa lỗi.",
     }
 
 
 def build_practice_steps(ep: dict) -> list[str]:
     steps = [
-        "Đọc truyện — chú ý ENGLISH FOCUS và từ phụ trong speech bubbles.",
-        "Đọc phần Pattern + Từ vựng thêm + Ngữ pháp bên dưới.",
+        "Đọc truyện — đọc hết speech bubbles trước khi xem giải thích.",
+        "Đọc phần **Giải thích từng câu** — hiểu nghĩa + từ khóa + ngữ pháp từng dòng.",
+        "Đọc English Focus + Từ vựng thêm + Ngữ pháp chi tiết bên dưới.",
     ]
     for p in (ep.get("practicePrompts") or [])[:2]:
         steps.append(p)
@@ -804,40 +849,51 @@ def derive_focus_from_packs(ep: dict, pack_patterns: dict) -> list[dict]:
 
 
 def build_guide(ep: dict, series: dict, prompt_data, pack_patterns: dict) -> dict:
-    dialogues = (prompt_data or {}).get("dialogues") or []
+    focus_map = (prompt_data or {}).get("focus_map") or {}
+    raw_lines = get_dialogue_lines_for_episode(
+        series["id"], ep["num"], prompt_data, ep, pack_patterns
+    )
+
+    dialogue_lines = [
+        explain_dialogue_line(ln, ep, series, focus_map) for ln in raw_lines
+    ]
+    dialogues = [ln["en"] for ln in dialogue_lines]
+
     focus = ep.get("englishFocus") or []
     derived = False
     if not focus:
         focus = derive_focus_from_packs(ep, pack_patterns)
         derived = bool(focus)
     phrase_texts = [f.get("phrase", "") for f in focus]
-    extra = extract_extra_vocab(ep, prompt_data)
-    grammar = detect_grammar(ep, phrase_texts, dialogues)
+    extra = extract_extra_vocab(ep, prompt_data, dialogue_lines)
+    grammar = detect_grammar(ep, phrase_texts, dialogues, dialogue_lines)
 
     phrases = []
     for f in focus:
-        detail = build_phrase_detail(f, ep, series)
+        detail = build_phrase_detail(f, ep, series, dialogue_lines)
         if derived:
             detail["kind"] = "pattern-suggested"
             detail["explain"] = (
                 f"Cụm **{f['phrase']}** dịch là *{f.get('meaning','').rstrip('.')}*. "
-                f"Tập này chưa gắn English Focus cố định, nhưng đây là pattern từ pack của tập — "
-                f"rất hợp tình huống «{ep['title']}». {guess_when(f['phrase'])}"
+                f"Tập này chưa gắn English Focus cố định — đây là pattern từ pack phù hợp «{ep['title']}». "
+                f"{guess_when(f['phrase'])} "
+                f"Ví dụ điền theo tên tập: *\"{detail['exampleEn']}\"*"
             )
         phrases.append(detail)
 
     return {
         "summary": build_summary(ep, series),
-        "learningGoal": build_learning_goal(ep, series),
-        "storyRecap": build_story_recap(ep, series, dialogues),
+        "learningGoal": build_learning_goal(ep, series, dialogue_lines),
+        "storyRecap": build_story_recap(ep, series, dialogue_lines),
+        "dialogueLines": dialogue_lines,
         "phrases": phrases,
         "phrasesDerived": derived,
         "extraVocab": extra,
         "grammar": grammar,
         "practiceSteps": build_practice_steps(ep),
         "realLifeTip": (
-            "Học đủ 3 lớp: pattern (nói được) + từ phụ (hiểu truyện) + ngữ pháp (nói đúng). "
-            "Áp dụng vào Slack/meeting thật trong tuần này."
+            "Học theo thứ tự: ① đọc truyện ② giải thích từng câu ③ English Focus ④ ngữ pháp. "
+            "English Focus chỉ là pattern chính — phần lớn từ vựng nằm trong hội thoại."
         ),
     }
 
@@ -985,20 +1041,23 @@ def main() -> None:
         for ep in series["episodes"]:
             key = f"{sid}/{ep['num']}"
             slug = ep.get("slug", "")
-            prompt_data = prompts_by_slug.get(slug)
+            prompt_data = (
+                prompts_by_slug.get(f"{sid}/{ep['num']}")
+                or prompts_by_slug.get(slug)
+            )
             guides[key] = build_guide(ep, series, prompt_data, pack_patterns)
 
     glossary = collect_glossary(comics, core, guides)
 
     (ROOT / "data" / "episode-guides.json").write_text(
-        json.dumps({"version": 2, "count": len(guides), "guides": guides}, indent=2, ensure_ascii=False) + "\n",
+        json.dumps({"version": 3, "count": len(guides), "guides": guides}, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
     (ROOT / "data" / "glossary.json").write_text(
         json.dumps(glossary, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-    print(f"episode-guides.json: {len(guides)} guides (v2 — vocab + grammar)")
+    print(f"episode-guides.json: {len(guides)} guides (v3 — dialogue + grammar for beginners)")
     print(f"glossary.json: {glossary['meta']['count']} terms — {glossary['meta'].get('typeCounts', {})}")
 
 

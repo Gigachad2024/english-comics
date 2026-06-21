@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Nam reviews junior's PR. Dialogue: Nam: "One thing that went well was your test coverage."
-- **Panel 2:** Positive reinforcement. Dialogue: Nam: "I appreciate how you handled the review comments quickly."
-- **Panel 3:** Constructive note. Dialogue: Nam: "One area to improve would be the PR description summary."
-- **Panel 4:** Junior listens. Dialogue: Junior: "Thanks — I'll add a summary section next time."
-- **Panel 5:** Balanced feedback. Dialogue: Aoi: "Good sandwich — positive, improve, support."
-- **Panel 6:** Junior motivated. Dialogue: Junior: "That feedback felt clear, not harsh."
-- **Panel 7:** Hook. Dialogue: Next: I'd Suggest Trying...
+- **Panel 1:** Scene. Dialogue: Nam: "One thing that went well was your test coverage."
+- **Panel 2:** Scene. Dialogue: Nam: "I appreciate how you handled the review comments quickly."
+- **Panel 3:** Scene. Dialogue: Nam: "One area to improve would be the PR description summary."
+- **Panel 4:** Scene. Dialogue: Junior: "Thanks — I'll add a summary section next time."
+- **Panel 5:** Scene. Dialogue: Aoi: "Good sandwich — positive, improve, support."
+- **Panel 6:** Scene. Dialogue: Junior: "That feedback felt clear, not harsh."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "One thing that went well was your test coverage."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I appreciate how you handled the review comments quickly."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "One area to improve would be the PR description summary."
+  },
+  {
+    "panel": 4,
+    "speaker": "Junior",
+    "text": "Thanks — I'll add a summary section next time."
+  },
+  {
+    "panel": 5,
+    "speaker": "Aoi",
+    "text": "Good sandwich — positive, improve, support."
+  },
+  {
+    "panel": 6,
+    "speaker": "Junior",
+    "text": "That feedback felt clear, not harsh."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Nam reviews junior's PR.. Speech: Nam: "One thing that went well was your test coverage."
-Panel 2: Positive reinforcement.. Speech: Nam: "I appreciate how you handled the review comments quickly."
-Panel 3: Constructive note.. Speech: Nam: "One area to improve would be the PR description summary."
-Panel 4: Junior listens.. Speech: Junior: "Thanks — I'll add a summary section next time."
-Panel 5: Balanced feedback.. Speech: Aoi: "Good sandwich — positive, improve, support."
-Panel 6: Junior motivated.. Speech: Junior: "That feedback felt clear, not harsh."
-Panel 7: Hook.. Speech: Next: I'd Suggest Trying...
+Panel 1: Story beat. Speech: Nam: "One thing that went well was your test coverage."
+Panel 2: Story beat. Speech: Nam: "I appreciate how you handled the review comments quickly."
+Panel 3: Story beat. Speech: Nam: "One area to improve would be the PR description summary."
+Panel 4: Story beat. Speech: Junior: "Thanks — I'll add a summary section next time."
+Panel 5: Story beat. Speech: Aoi: "Good sandwich — positive, improve, support."
+Panel 6: Story beat. Speech: Junior: "That feedback felt clear, not harsh."
 
 ENGLISH FOCUS box must list:
 - "One thing that went well was..." = Một điều làm tốt là...

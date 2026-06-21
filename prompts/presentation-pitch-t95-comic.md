@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Nam prepares slide outline. Dialogue: Aoi: "Start with the problem, not the code."
-- **Panel 2:** Opening line. Dialogue: Nam: "I'll keep this brief — three parts: problem, solution, results."
-- **Panel 3:** Problem slide. Dialogue: Nam: "The main problem we're solving is failed checkouts at peak traffic."
-- **Panel 4:** Solution slide. Dialogue: Nam: "We added caching and a retry queue."
-- **Panel 5:** Summary. Dialogue: Nam: "To summarize — 40% faster and 99.9% success rate."
-- **Panel 6:** Kenji approves. Dialogue: Kenji: "Clear structure — ready for stakeholders."
-- **Panel 7:** Hook. Dialogue: Next: Let Me Walk You Through the Demo
+- **Panel 1:** Scene. Dialogue: Aoi: "Start with the problem, not the code."
+- **Panel 2:** Scene. Dialogue: Nam: "I'll keep this brief — three parts: problem, solution, results."
+- **Panel 3:** Scene. Dialogue: Nam: "The main problem we're solving is failed checkouts at peak traffic."
+- **Panel 4:** Scene. Dialogue: Nam: "We added caching and a retry queue."
+- **Panel 5:** Scene. Dialogue: Nam: "To summarize — 40% faster and 99.9% success rate."
+- **Panel 6:** Scene. Dialogue: Kenji: "Clear structure — ready for stakeholders."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Aoi",
+    "text": "Start with the problem, not the code."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I'll keep this brief — three parts: problem, solution, results."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "The main problem we're solving is failed checkouts at peak traffic."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "We added caching and a retry queue."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "To summarize — 40% faster and 99.9% success rate."
+  },
+  {
+    "panel": 6,
+    "speaker": "Kenji",
+    "text": "Clear structure — ready for stakeholders."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Conference room, projector, demo slides on screen
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Nam prepares slide outline.. Speech: Aoi: "Start with the problem, not the code."
-Panel 2: Opening line.. Speech: Nam: "I'll keep this brief — three parts: problem, solution, results."
-Panel 3: Problem slide.. Speech: Nam: "The main problem we're solving is failed checkouts at peak traffic."
-Panel 4: Solution slide.. Speech: Nam: "We added caching and a retry queue."
-Panel 5: Summary.. Speech: Nam: "To summarize — 40% faster and 99.9% success rate."
-Panel 6: Kenji approves.. Speech: Kenji: "Clear structure — ready for stakeholders."
-Panel 7: Hook.. Speech: Next: Let Me Walk You Through the Demo
+Panel 1: Story beat. Speech: Aoi: "Start with the problem, not the code."
+Panel 2: Story beat. Speech: Nam: "I'll keep this brief — three parts: problem, solution, results."
+Panel 3: Story beat. Speech: Nam: "The main problem we're solving is failed checkouts at peak traffic."
+Panel 4: Story beat. Speech: Nam: "We added caching and a retry queue."
+Panel 5: Story beat. Speech: Nam: "To summarize — 40% faster and 99.9% success rate."
+Panel 6: Story beat. Speech: Kenji: "Clear structure — ready for stakeholders."
 
 ENGLISH FOCUS box must list:
 - "I'll keep this brief." = Tôi sẽ trình bày ngắn gọn.

@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Nam opens Q&A. Dialogue: Nam: "Any questions on this part before we wrap up?"
-- **Panel 2:** Tough question. Dialogue: Investor: "What if traffic grows 10x next month?"
-- **Panel 3:** Nam pauses calmly. Dialogue: Nam: "That's a great question — let me show our scaling plan."
-- **Panel 4:** Partial answer. Dialogue: Nam: "We can handle 3x today; for 10x we need the queue migration."
-- **Panel 5:** Circle back. Dialogue: Nam: "I'll circle back with a detailed capacity doc by Friday."
-- **Panel 6:** Respect earned. Dialogue: Investor: "Honest answer — I appreciate the transparency."
-- **Panel 7:** Hook. Dialogue: Next: Presentation & Pitch Finale
+- **Panel 1:** Scene. Dialogue: Nam: "Any questions on this part before we wrap up?"
+- **Panel 2:** Scene. Dialogue: Investor: "What if traffic grows 10x next month?"
+- **Panel 3:** Scene. Dialogue: Nam: "That's a great question — let me show our scaling plan."
+- **Panel 4:** Scene. Dialogue: Nam: "We can handle 3x today; for 10x we need the queue migration."
+- **Panel 5:** Scene. Dialogue: Nam: "I'll circle back with a detailed capacity doc by Friday."
+- **Panel 6:** Scene. Dialogue: Investor: "Honest answer — I appreciate the transparency."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "Any questions on this part before we wrap up?"
+  },
+  {
+    "panel": 2,
+    "speaker": "Investor",
+    "text": "What if traffic grows 10x next month?"
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "That's a great question — let me show our scaling plan."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "We can handle 3x today; for 10x we need the queue migration."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "I'll circle back with a detailed capacity doc by Friday."
+  },
+  {
+    "panel": 6,
+    "speaker": "Investor",
+    "text": "Honest answer — I appreciate the transparency."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Nam opens Q&A.. Speech: Nam: "Any questions on this part before we wrap up?"
-Panel 2: Tough question.. Speech: Investor: "What if traffic grows 10x next month?"
-Panel 3: Nam pauses calmly.. Speech: Nam: "That's a great question — let me show our scaling plan."
-Panel 4: Partial answer.. Speech: Nam: "We can handle 3x today; for 10x we need the queue migration."
-Panel 5: Circle back.. Speech: Nam: "I'll circle back with a detailed capacity doc by Friday."
-Panel 6: Respect earned.. Speech: Investor: "Honest answer — I appreciate the transparency."
-Panel 7: Hook.. Speech: Next: Presentation & Pitch Finale
+Panel 1: Story beat. Speech: Nam: "Any questions on this part before we wrap up?"
+Panel 2: Story beat. Speech: Investor: "What if traffic grows 10x next month?"
+Panel 3: Story beat. Speech: Nam: "That's a great question — let me show our scaling plan."
+Panel 4: Story beat. Speech: Nam: "We can handle 3x today; for 10x we need the queue migration."
+Panel 5: Story beat. Speech: Nam: "I'll circle back with a detailed capacity doc by Friday."
+Panel 6: Story beat. Speech: Investor: "Honest answer — I appreciate the transparency."
 
 ENGLISH FOCUS box must list:
 - "Any questions on this part?" = Có câu hỏi nào về phần này không?

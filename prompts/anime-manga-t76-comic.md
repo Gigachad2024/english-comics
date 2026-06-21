@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Wall of anime figures. Dialogue: Nam: "I can't decide what to buy — everything looks good."
-- **Panel 2:** Budget reality. Dialogue: Linh: "Quality over quantity."
-- **Panel 3:** Nam compares two figures. Dialogue: Nam: "I'd rather get one good figure than three cheap ones."
-- **Panel 4:** Limited edition spotted. Dialogue: Nam: "I think I'll go with this limited edition."
-- **Panel 5:** Happy purchase. Dialogue: Cashier: "Careful — box art is part of the value."
-- **Panel 6:** Hook. Dialogue: Next: Anime Talk at Team Lunch
+- **Panel 1:** Scene. Dialogue: Nam: "I can't decide what to buy — everything looks good."
+- **Panel 2:** Scene. Dialogue: Linh: "Quality over quantity."
+- **Panel 3:** Scene. Dialogue: Nam: "I'd rather get one good figure than three cheap ones."
+- **Panel 4:** Scene. Dialogue: Nam: "I think I'll go with this limited edition."
+- **Panel 5:** Scene. Dialogue: Cashier: "Careful — box art is part of the value."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Anime Talk at Team Lunch"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "I can't decide what to buy — everything looks good."
+  },
+  {
+    "panel": 2,
+    "speaker": "Linh",
+    "text": "Quality over quantity."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I'd rather get one good figure than three cheap ones."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I think I'll go with this limited edition."
+  },
+  {
+    "panel": 5,
+    "speaker": "Cashier",
+    "text": "Careful — box art is part of the value."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Anime Talk at Team Lunch"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Akihabara figure shop, glass display cases, limited edition boxes, pric
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Wall of anime figures.. Speech: Nam: "I can't decide what to buy — everything looks good."
-Panel 2: Budget reality.. Speech: Linh: "Quality over quantity."
-Panel 3: Nam compares two figures.. Speech: Nam: "I'd rather get one good figure than three cheap ones."
-Panel 4: Limited edition spotted.. Speech: Nam: "I think I'll go with this limited edition."
-Panel 5: Happy purchase.. Speech: Cashier: "Careful — box art is part of the value."
-Panel 6: Hook.. Speech: Next: Anime Talk at Team Lunch
+Panel 1: Story beat. Speech: Nam: "I can't decide what to buy — everything looks good."
+Panel 2: Story beat. Speech: Linh: "Quality over quantity."
+Panel 3: Story beat. Speech: Nam: "I'd rather get one good figure than three cheap ones."
+Panel 4: Story beat. Speech: Nam: "I think I'll go with this limited edition."
+Panel 5: Story beat. Speech: Cashier: "Careful — box art is part of the value."
+Panel 6: Story beat. Speech: Hook: "Next: Anime Talk at Team Lunch"
 
 ENGLISH FOCUS box must list:
 - "I can't decide what to buy." = Tôi không thể quyết định mua gì.

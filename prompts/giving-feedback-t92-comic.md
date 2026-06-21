@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Junior stuck on bug. Dialogue: Junior: "I've been debugging this API issue for hours."
-- **Panel 2:** Nam offers suggestion. Dialogue: Nam: "I'd suggest trying to reproduce it with a smaller payload first."
-- **Panel 3:** Alternative idea. Dialogue: Nam: "Have you considered checking the cache headers?"
-- **Panel 4:** Junior tries. Dialogue: Junior: "Oh — that fixed it. Thanks!"
-- **Panel 5:** Growth moment. Dialogue: Kenji: "Good mentoring — you helped them step up independently."
-- **Panel 6:** Nam smiles. Dialogue: Nam: "Suggesting beats solving it for them."
-- **Panel 7:** Hook. Dialogue: Next: How Can I Support You?
+- **Panel 1:** Scene. Dialogue: Junior: "I've been debugging this API issue for hours."
+- **Panel 2:** Scene. Dialogue: Nam: "I'd suggest trying to reproduce it with a smaller payload first."
+- **Panel 3:** Scene. Dialogue: Nam: "Have you considered checking the cache headers?"
+- **Panel 4:** Scene. Dialogue: Junior: "Oh — that fixed it. Thanks!"
+- **Panel 5:** Scene. Dialogue: Kenji: "Good mentoring — you helped them step up independently."
+- **Panel 6:** Scene. Dialogue: Nam: "Suggesting beats solving it for them."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Junior",
+    "text": "I've been debugging this API issue for hours."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I'd suggest trying to reproduce it with a smaller payload first."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "Have you considered checking the cache headers?"
+  },
+  {
+    "panel": 4,
+    "speaker": "Junior",
+    "text": "Oh — that fixed it. Thanks!"
+  },
+  {
+    "panel": 5,
+    "speaker": "Kenji",
+    "text": "Good mentoring — you helped them step up independently."
+  },
+  {
+    "panel": 6,
+    "speaker": "Nam",
+    "text": "Suggesting beats solving it for them."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Junior stuck on bug.. Speech: Junior: "I've been debugging this API issue for hours."
-Panel 2: Nam offers suggestion.. Speech: Nam: "I'd suggest trying to reproduce it with a smaller payload first."
-Panel 3: Alternative idea.. Speech: Nam: "Have you considered checking the cache headers?"
-Panel 4: Junior tries.. Speech: Junior: "Oh — that fixed it. Thanks!"
-Panel 5: Growth moment.. Speech: Kenji: "Good mentoring — you helped them step up independently."
-Panel 6: Nam smiles.. Speech: Nam: "Suggesting beats solving it for them."
-Panel 7: Hook.. Speech: Next: How Can I Support You?
+Panel 1: Story beat. Speech: Junior: "I've been debugging this API issue for hours."
+Panel 2: Story beat. Speech: Nam: "I'd suggest trying to reproduce it with a smaller payload first."
+Panel 3: Story beat. Speech: Nam: "Have you considered checking the cache headers?"
+Panel 4: Story beat. Speech: Junior: "Oh — that fixed it. Thanks!"
+Panel 5: Story beat. Speech: Kenji: "Good mentoring — you helped them step up independently."
+Panel 6: Story beat. Speech: Nam: "Suggesting beats solving it for them."
 
 ENGLISH FOCUS box must list:
 - "I'd suggest trying..." = Tôi gợi ý thử...

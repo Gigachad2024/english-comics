@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Slack message with extra asks. Dialogue: PM in Slack: "Also refactor the whole module please."
-- **Panel 2:** Nam responds professionally. Dialogue: Nam: "Let me push back on that for this week."
-- **Panel 3:** Nam offers alternative. Dialogue: Nam: "I'm happy to help, but we'll need to split it into phases."
-- **Panel 4:** Kenji coaches. Dialogue: Kenji: "Good push back — always tie it to timeline and risk."
-- **Panel 5:** PM accepts. Dialogue: PM: "You're right. Phase 1 this sprint, refactor later."
-- **Panel 6:** Nam relieved. Dialogue: Nam: "Setting boundaries saved us from another crunch week."
-- **Panel 7:** Hook. Dialogue: Next: Negotiation & Boundaries Finale
+- **Panel 1:** Scene. Dialogue: PM in Slack: "Also refactor the whole module please."
+- **Panel 2:** Scene. Dialogue: Nam: "Let me push back on that for this week."
+- **Panel 3:** Scene. Dialogue: Nam: "I'm happy to help, but we'll need to split it into phases."
+- **Panel 4:** Scene. Dialogue: Kenji: "Good push back — always tie it to timeline and risk."
+- **Panel 5:** Scene. Dialogue: PM: "You're right. Phase 1 this sprint, refactor later."
+- **Panel 6:** Scene. Dialogue: Nam: "Setting boundaries saved us from another crunch week."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "PM in Slack",
+    "text": "Also refactor the whole module please."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Let me push back on that for this week."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I'm happy to help, but we'll need to split it into phases."
+  },
+  {
+    "panel": 4,
+    "speaker": "Kenji",
+    "text": "Good push back — always tie it to timeline and risk."
+  },
+  {
+    "panel": 5,
+    "speaker": "PM",
+    "text": "You're right. Phase 1 this sprint, refactor later."
+  },
+  {
+    "panel": 6,
+    "speaker": "Nam",
+    "text": "Setting boundaries saved us from another crunch week."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Slack message with extra asks.. Speech: PM in Slack: "Also refactor the whole module please."
-Panel 2: Nam responds professionally.. Speech: Nam: "Let me push back on that for this week."
-Panel 3: Nam offers alternative.. Speech: Nam: "I'm happy to help, but we'll need to split it into phases."
-Panel 4: Kenji coaches.. Speech: Kenji: "Good push back — always tie it to timeline and risk."
-Panel 5: PM accepts.. Speech: PM: "You're right. Phase 1 this sprint, refactor later."
-Panel 6: Nam relieved.. Speech: Nam: "Setting boundaries saved us from another crunch week."
-Panel 7: Hook.. Speech: Next: Negotiation & Boundaries Finale
+Panel 1: Story beat. Speech: PM in Slack: "Also refactor the whole module please."
+Panel 2: Story beat. Speech: Nam: "Let me push back on that for this week."
+Panel 3: Story beat. Speech: Nam: "I'm happy to help, but we'll need to split it into phases."
+Panel 4: Story beat. Speech: Kenji: "Good push back — always tie it to timeline and risk."
+Panel 5: Story beat. Speech: PM: "You're right. Phase 1 this sprint, refactor later."
+Panel 6: Story beat. Speech: Nam: "Setting boundaries saved us from another crunch week."
 
 ENGLISH FOCUS box must list:
 - "Let me push back on that." = Để tôi phản hồi / không đồng ý với điều đó.

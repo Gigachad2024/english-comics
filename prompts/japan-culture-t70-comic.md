@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Ryokan check-in — staff bows deeply. Dialogue: Nam: "I'm surprised that they bowed so low."
-- **Panel 2:** Kenji explains omotenashi. Dialogue: Kenji: "It's thoughtful hospitality — no tip expected."
-- **Panel 3:** Tea and slippers detail. Dialogue: Linh: "Every small detail feels intentional."
-- **Panel 4:** Nam reflects. Dialogue: Nam: "I'm glad that we learned the custom first."
-- **Panel 5:** Evening kaiseki dinner. Dialogue: Nam: "That was worth it — best meal of the trip."
-- **Panel 6:** Hook. Dialogue: Next: Summer Festival Night
+- **Panel 1:** Scene. Dialogue: Nam: "I'm surprised that they bowed so low."
+- **Panel 2:** Scene. Dialogue: Kenji: "It's thoughtful hospitality — no tip expected."
+- **Panel 3:** Scene. Dialogue: Linh: "Every small detail feels intentional."
+- **Panel 4:** Scene. Dialogue: Nam: "I'm glad that we learned the custom first."
+- **Panel 5:** Scene. Dialogue: Nam: "That was worth it — best meal of the trip."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Summer Festival Night"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "I'm surprised that they bowed so low."
+  },
+  {
+    "panel": 2,
+    "speaker": "Kenji",
+    "text": "It's thoughtful hospitality — no tip expected."
+  },
+  {
+    "panel": 3,
+    "speaker": "Linh",
+    "text": "Every small detail feels intentional."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I'm glad that we learned the custom first."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "That was worth it — best meal of the trip."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Summer Festival Night"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Traditional Japanese inn lobby, staff bowing deeply, tea service, elega
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Ryokan check-in — staff bows deeply.. Speech: Nam: "I'm surprised that they bowed so low."
-Panel 2: Kenji explains omotenashi.. Speech: Kenji: "It's thoughtful hospitality — no tip expected."
-Panel 3: Tea and slippers detail.. Speech: Linh: "Every small detail feels intentional."
-Panel 4: Nam reflects.. Speech: Nam: "I'm glad that we learned the custom first."
-Panel 5: Evening kaiseki dinner.. Speech: Nam: "That was worth it — best meal of the trip."
-Panel 6: Hook.. Speech: Next: Summer Festival Night
+Panel 1: Story beat. Speech: Nam: "I'm surprised that they bowed so low."
+Panel 2: Story beat. Speech: Kenji: "It's thoughtful hospitality — no tip expected."
+Panel 3: Story beat. Speech: Linh: "Every small detail feels intentional."
+Panel 4: Story beat. Speech: Nam: "I'm glad that we learned the custom first."
+Panel 5: Story beat. Speech: Nam: "That was worth it — best meal of the trip."
+Panel 6: Story beat. Speech: Hook: "Next: Summer Festival Night"
 
 ENGLISH FOCUS box must list:
 - "I'm surprised that..." = Tôi ngạc nhiên vì...

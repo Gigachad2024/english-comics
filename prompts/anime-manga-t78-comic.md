@@ -1,22 +1,60 @@
-# Anime & Manga Arc — Dive Into Otaku Japan — Episode 78: Anime & Manga Finale
+# Anime & Manga Arc — Episode 78: Anime & Manga Finale
 
 > **File:** `anime-manga-t78-comic.md` · **Arc ID:** `anime-manga` · **Màu:** `#EC4899`
 > **Output:** `images/comics/anime-manga/tập-78/anime-manga-tap78-anime-manga-finale.png`
-> **Attach:** `prompts/00-character-bible.md` + `prompts/00-layout-guide.md` + style ref image
-> **Cách tạo:** Copy **PROMPT FULL PAGE** → Cursor Generate Image (hoặc ChatGPT)
+> **Attach:** `prompts/00-character-bible.md` + `prompts/00-layout-guide.md`
 
-**Slug gợi ý:** `anime-manga-finale`
+**Slug:** `anime-manga-finale`
 
 ---
 
 ## Story beats
 
-- **Panel 1:** Montage: Akihabara, manga cafe, pilgrimage, figures. Dialogue: Nam's otaku weekend highlights
-- **Panel 2:** Team shares favorite series. Dialogue: Everyone names their top anime
-- **Panel 3:** Nam reflects. Dialogue: Nam: "I'm glad that we shared our favorites — I learned new shows."
-- **Panel 4:** Worth it moment. Dialogue: Nam: "It was worth it — Japan is anime heaven."
-- **Panel 5:** Future plan. Dialogue: Nam: "I look forward to Comiket season next time."
-- **Panel 6:** Celebrate. Dialogue: Next: Nam's English journey continues…
+- **Panel 1:** Scene. Dialogue: Nam: "Nam's otaku weekend highlights"
+- **Panel 2:** Scene. Dialogue: Nam: "Everyone names their top anime"
+- **Panel 3:** Scene. Dialogue: Nam: "I'm glad that we shared our favorites — I learned new shows."
+- **Panel 4:** Scene. Dialogue: Nam: "It was worth it — Japan is anime heaven."
+- **Panel 5:** Scene. Dialogue: Nam: "I look forward to Comiket season next time."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Nam's English journey continues…"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "Nam's otaku weekend highlights"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Everyone names their top anime"
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I'm glad that we shared our favorites — I learned new shows."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "It was worth it — Japan is anime heaven."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "I look forward to Comiket season next time."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Nam's English journey continues…"
+  }
+]
+```
 
 ---
 
@@ -27,10 +65,10 @@ ENGLISH FOCUS
   1. "It was worth it." = Đáng giá / xứng đáng.
   2. "I'm glad that we shared our favorites." = May mà chúng ta chia sẻ anime yêu thích.
   3. "look forward to" = mong chờ / hướng tới
-Tip: Use these patterns for anime manga communication.
+Tip: Patterns from episode dialogue — read each line in the comic.
 ```
 
-**Next hook:** Next: Nam's English journey continues…
+**Next hook:** Next: Nam: "Anime & Manga Finale — we did it!"
 
 ---
 
@@ -39,7 +77,7 @@ Tip: Use these patterns for anime manga communication.
 ```
 Draw ONE complete educational manga comic page — English Vault: Tokyo Debug Chronicles.
 
-ARC: Anime & Manga Arc — Dive Into Otaku Japan
+ARC: Anime & Manga Arc
 EPISODE 78: Anime & Manga Finale
 Accent color: #EC4899
 
@@ -53,28 +91,23 @@ CHARACTERS (consistent):
 - Kenji: Tech Lead, dark shirt/suit, glasses
 - Aoi: Senior Engineer, navy blazer, long black hair
 - Linh: QA Engineer, gray hoodie
-Setting: Akihabara night montage, manga cafe, figure bag, pilgrimage photo — neon otaku paradise
+Setting: Tokyo
 
-LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
+LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box → NEXT hook box
 
 PANEL STORY:
-Panel 1: Montage: Akihabara, manga cafe, pilgrimage, figures.. Speech: Nam's otaku weekend highlights
-Panel 2: Team shares favorite series.. Speech: Everyone names their top anime
-Panel 3: Nam reflects.. Speech: Nam: "I'm glad that we shared our favorites — I learned new shows."
-Panel 4: Worth it moment.. Speech: Nam: "It was worth it — Japan is anime heaven."
-Panel 5: Future plan.. Speech: Nam: "I look forward to Comiket season next time."
-Panel 6: Celebrate.. Speech: Next: Nam's English journey continues…
+Panel 1: Story beat. Speech: Nam: "Nam's otaku weekend highlights"
+Panel 2: Story beat. Speech: Nam: "Everyone names their top anime"
+Panel 3: Story beat. Speech: Nam: "I'm glad that we shared our favorites — I learned new shows."
+Panel 4: Story beat. Speech: Nam: "It was worth it — Japan is anime heaven."
+Panel 5: Story beat. Speech: Nam: "I look forward to Comiket season next time."
+Panel 6: Story beat. Speech: Hook: "Next: Nam's English journey continues…"
 
 ENGLISH FOCUS box must list:
 - "It was worth it." = Đáng giá / xứng đáng.
 - "I'm glad that we shared our favorites." = May mà chúng ta chia sẻ anime yêu thích.
 - "look forward to" = mong chờ / hướng tới
 
-Highlight key phrases in BLUE BOLD inside speech bubbles.
 All dialogue in ENGLISH. Vietnamese ONLY inside ENGLISH FOCUS meanings.
-
-Footer next episode: Next: Nam's English journey continues…
-
-Portrait 1024x1536, high detail, same visual style as English Vault Tokyo Debug Chronicles series bible.
-NO watermark. NO real company logos.
+Portrait 1024x1536. NO watermark.
 ```

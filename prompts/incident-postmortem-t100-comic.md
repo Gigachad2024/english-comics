@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Alert fires at night. Dialogue: PagerDuty: "Checkout error rate > 15%"
-- **Panel 2:** Kenji opens war room. Dialogue: Kenji: "Let's focus on the facts, not blame — status first."
-- **Panel 3:** Nam gives update. Dialogue: Nam: "What we know so far is API timeouts on payment service."
-- **Panel 4:** Team assigns roles. Dialogue: Aoi: "I'll dig into the database metrics."
-- **Panel 5:** Linh checks QA. Dialogue: Linh: "Last deploy was 2 hours ago — possible correlation."
-- **Panel 6:** Calm coordination. Dialogue: Kenji: "Good — keep updates every 15 minutes."
-- **Panel 7:** Hook. Dialogue: Next: What We Know So Far Is...
+- **Panel 1:** Scene. Dialogue: PagerDuty: "Checkout error rate > 15%"
+- **Panel 2:** Scene. Dialogue: Kenji: "Let's focus on the facts, not blame — status first."
+- **Panel 3:** Scene. Dialogue: Nam: "What we know so far is API timeouts on payment service."
+- **Panel 4:** Scene. Dialogue: Aoi: "I'll dig into the database metrics."
+- **Panel 5:** Scene. Dialogue: Linh: "Last deploy was 2 hours ago — possible correlation."
+- **Panel 6:** Scene. Dialogue: Kenji: "Good — keep updates every 15 minutes."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "PagerDuty",
+    "text": "Checkout error rate > 15%"
+  },
+  {
+    "panel": 2,
+    "speaker": "Kenji",
+    "text": "Let's focus on the facts, not blame — status first."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "What we know so far is API timeouts on payment service."
+  },
+  {
+    "panel": 4,
+    "speaker": "Aoi",
+    "text": "I'll dig into the database metrics."
+  },
+  {
+    "panel": 5,
+    "speaker": "Linh",
+    "text": "Last deploy was 2 hours ago — possible correlation."
+  },
+  {
+    "panel": 6,
+    "speaker": "Kenji",
+    "text": "Good — keep updates every 15 minutes."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Dim war room, multiple monitors, incident channel on Slack, urgent but 
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Alert fires at night.. Speech: PagerDuty: "Checkout error rate > 15%"
-Panel 2: Kenji opens war room.. Speech: Kenji: "Let's focus on the facts, not blame — status first."
-Panel 3: Nam gives update.. Speech: Nam: "What we know so far is API timeouts on payment service."
-Panel 4: Team assigns roles.. Speech: Aoi: "I'll dig into the database metrics."
-Panel 5: Linh checks QA.. Speech: Linh: "Last deploy was 2 hours ago — possible correlation."
-Panel 6: Calm coordination.. Speech: Kenji: "Good — keep updates every 15 minutes."
-Panel 7: Hook.. Speech: Next: What We Know So Far Is...
+Panel 1: Story beat. Speech: PagerDuty: "Checkout error rate > 15%"
+Panel 2: Story beat. Speech: Kenji: "Let's focus on the facts, not blame — status first."
+Panel 3: Story beat. Speech: Nam: "What we know so far is API timeouts on payment service."
+Panel 4: Story beat. Speech: Aoi: "I'll dig into the database metrics."
+Panel 5: Story beat. Speech: Linh: "Last deploy was 2 hours ago — possible correlation."
+Panel 6: Story beat. Speech: Kenji: "Good — keep updates every 15 minutes."
 
 ENGLISH FOCUS box must list:
 - "What we know so far is..." = Những gì chúng ta biết đến giờ là...

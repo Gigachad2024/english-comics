@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Team uses async standup in Slack. Dialogue: Template: Yesterday / Today / Blockers
-- **Panel 2:** Nam writes update. Dialogue: Nam: "Here's what I worked on: cache invalidation fix."
-- **Panel 3:** Blocker. Dialogue: Nam: "I'm blocked on staging access — I'll follow up with DevOps."
-- **Panel 4:** Kenji replies. Dialogue: Kenji: "I'll loop in the platform team."
-- **Panel 5:** Clean async standup done. Dialogue: Linh: "Clear updates — no meeting needed!"
-- **Panel 6:** Hook. Dialogue: Next: Email & Async Finale
+- **Panel 1:** Scene. Dialogue: Template: "Yesterday / Today / Blockers"
+- **Panel 2:** Scene. Dialogue: Nam: "Here's what I worked on: cache invalidation fix."
+- **Panel 3:** Scene. Dialogue: Nam: "I'm blocked on staging access — I'll follow up with DevOps."
+- **Panel 4:** Scene. Dialogue: Kenji: "I'll loop in the platform team."
+- **Panel 5:** Scene. Dialogue: Linh: "Clear updates — no meeting needed!"
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Email & Async Finale"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Template",
+    "text": "Yesterday / Today / Blockers"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Here's what I worked on: cache invalidation fix."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I'm blocked on staging access — I'll follow up with DevOps."
+  },
+  {
+    "panel": 4,
+    "speaker": "Kenji",
+    "text": "I'll loop in the platform team."
+  },
+  {
+    "panel": 5,
+    "speaker": "Linh",
+    "text": "Clear updates — no meeting needed!"
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Email & Async Finale"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Team uses async standup in Slack.. Speech: Template: Yesterday / Today / Blockers
-Panel 2: Nam writes update.. Speech: Nam: "Here's what I worked on: cache invalidation fix."
-Panel 3: Blocker.. Speech: Nam: "I'm blocked on staging access — I'll follow up with DevOps."
-Panel 4: Kenji replies.. Speech: Kenji: "I'll loop in the platform team."
-Panel 5: Clean async standup done.. Speech: Linh: "Clear updates — no meeting needed!"
-Panel 6: Hook.. Speech: Next: Email & Async Finale
+Panel 1: Story beat. Speech: Template: "Yesterday / Today / Blockers"
+Panel 2: Story beat. Speech: Nam: "Here's what I worked on: cache invalidation fix."
+Panel 3: Story beat. Speech: Nam: "I'm blocked on staging access — I'll follow up with DevOps."
+Panel 4: Story beat. Speech: Kenji: "I'll loop in the platform team."
+Panel 5: Story beat. Speech: Linh: "Clear updates — no meeting needed!"
+Panel 6: Story beat. Speech: Hook: "Next: Email & Async Finale"
 
 ENGLISH FOCUS box must list:
 - "Here's what I worked on..." = Đây là những gì tôi đã làm...

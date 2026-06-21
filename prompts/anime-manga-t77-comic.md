@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Lunch with colleagues. Dialogue: Kenji: "Anyone watch anime lately?"
-- **Panel 2:** Nam shares taste. Dialogue: Nam: "I'm not really into sports anime, but I love slice-of-life."
-- **Panel 3:** Aoi recommends series. Dialogue: Aoi: "Try this one — the Tokyo locations are real."
-- **Panel 4:** Nam reacts. Dialogue: Nam: "Set in Shimokitazawa? That sounds amazing."
-- **Panel 5:** Plan weekend. Dialogue: Nam: "We should hang out at Akihabara sometime."
-- **Panel 6:** Hook. Dialogue: Next: Anime & Manga Finale
+- **Panel 1:** Scene. Dialogue: Kenji: "Anyone watch anime lately?"
+- **Panel 2:** Scene. Dialogue: Nam: "I'm not really into sports anime, but I love slice-of-life."
+- **Panel 3:** Scene. Dialogue: Aoi: "Try this one — the Tokyo locations are real."
+- **Panel 4:** Scene. Dialogue: Nam: "Set in Shimokitazawa? That sounds amazing."
+- **Panel 5:** Scene. Dialogue: Nam: "We should hang out at Akihabara sometime."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Anime & Manga Finale"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Kenji",
+    "text": "Anyone watch anime lately?"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I'm not really into sports anime, but I love slice-of-life."
+  },
+  {
+    "panel": 3,
+    "speaker": "Aoi",
+    "text": "Try this one — the Tokyo locations are real."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "Set in Shimokitazawa? That sounds amazing."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "We should hang out at Akihabara sometime."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Anime & Manga Finale"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Office lunch room, bento boxes, casual conversation, anime poster on Na
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Lunch with colleagues.. Speech: Kenji: "Anyone watch anime lately?"
-Panel 2: Nam shares taste.. Speech: Nam: "I'm not really into sports anime, but I love slice-of-life."
-Panel 3: Aoi recommends series.. Speech: Aoi: "Try this one — the Tokyo locations are real."
-Panel 4: Nam reacts.. Speech: Nam: "Set in Shimokitazawa? That sounds amazing."
-Panel 5: Plan weekend.. Speech: Nam: "We should hang out at Akihabara sometime."
-Panel 6: Hook.. Speech: Next: Anime & Manga Finale
+Panel 1: Story beat. Speech: Kenji: "Anyone watch anime lately?"
+Panel 2: Story beat. Speech: Nam: "I'm not really into sports anime, but I love slice-of-life."
+Panel 3: Story beat. Speech: Aoi: "Try this one — the Tokyo locations are real."
+Panel 4: Story beat. Speech: Nam: "Set in Shimokitazawa? That sounds amazing."
+Panel 5: Story beat. Speech: Nam: "We should hang out at Akihabara sometime."
+Panel 6: Story beat. Speech: Hook: "Next: Anime & Manga Finale"
 
 ENGLISH FOCUS box must list:
 - "I'm not really into A, but I love B." = Tôi không thích lắm A, nhưng rất thích B.

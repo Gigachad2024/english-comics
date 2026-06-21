@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Friday after release — team heads to izakaya. Dialogue: Kenji: "Celebration izakaya night!"
-- **Panel 2:** Menu with unfamiliar dishes. Dialogue: Nam: "I'm excited about trying real izakaya food."
-- **Panel 3:** Linh recommends yakitori set. Dialogue: Linh: "Grilled chicken and edamame — that sounds amazing."
-- **Panel 4:** Nam sets food preference. Dialogue: Nam: "I'm not really into raw fish, but I'll try the grilled stuff."
-- **Panel 5:** Kanpai toast. Dialogue: Team: "Kanpai! Great release week!"
-- **Panel 6:** Hook. Dialogue: Next: Cherry Blossom Dilemma
+- **Panel 1:** Scene. Dialogue: Kenji: "Celebration izakaya night!"
+- **Panel 2:** Scene. Dialogue: Nam: "I'm excited about trying real izakaya food."
+- **Panel 3:** Scene. Dialogue: Linh: "Grilled chicken and edamame — that sounds amazing."
+- **Panel 4:** Scene. Dialogue: Nam: "I'm not really into raw fish, but I'll try the grilled stuff."
+- **Panel 5:** Scene. Dialogue: Team: "Kanpai! Great release week!"
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Cherry Blossom Dilemma"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Kenji",
+    "text": "Celebration izakaya night!"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "I'm excited about trying real izakaya food."
+  },
+  {
+    "panel": 3,
+    "speaker": "Linh",
+    "text": "Grilled chicken and edamame — that sounds amazing."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I'm not really into raw fish, but I'll try the grilled stuff."
+  },
+  {
+    "panel": 5,
+    "speaker": "Team",
+    "text": "Kanpai! Great release week!"
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Cherry Blossom Dilemma"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Cozy Tokyo izakaya at night, red lanterns, wooden counter, yakitori and
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Friday after release — team heads to izakaya.. Speech: Kenji: "Celebration izakaya night!"
-Panel 2: Menu with unfamiliar dishes.. Speech: Nam: "I'm excited about trying real izakaya food."
-Panel 3: Linh recommends yakitori set.. Speech: Linh: "Grilled chicken and edamame — that sounds amazing."
-Panel 4: Nam sets food preference.. Speech: Nam: "I'm not really into raw fish, but I'll try the grilled stuff."
-Panel 5: Kanpai toast.. Speech: Team: "Kanpai! Great release week!"
-Panel 6: Hook.. Speech: Next: Cherry Blossom Dilemma
+Panel 1: Story beat. Speech: Kenji: "Celebration izakaya night!"
+Panel 2: Story beat. Speech: Nam: "I'm excited about trying real izakaya food."
+Panel 3: Story beat. Speech: Linh: "Grilled chicken and edamame — that sounds amazing."
+Panel 4: Story beat. Speech: Nam: "I'm not really into raw fish, but I'll try the grilled stuff."
+Panel 5: Story beat. Speech: Team: "Kanpai! Great release week!"
+Panel 6: Story beat. Speech: Hook: "Next: Cherry Blossom Dilemma"
 
 ENGLISH FOCUS box must list:
 - "I'm excited about trying real izakaya food." = Tôi hào hứng được thử đồ ăn izakaya thật.

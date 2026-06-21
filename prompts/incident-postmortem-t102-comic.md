@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Post-rollback analysis. Dialogue: Aoi: "Logs show cache invalidation errors."
-- **Panel 2:** Nam hypothesis. Dialogue: Nam: "Root cause appears to be stale cache keys after deploy."
-- **Panel 3:** Supporting evidence. Dialogue: Nam: "It seems like the new TTL config wasn't applied."
-- **Panel 4:** Linh adds. Dialogue: Linh: "This might be caused by a missing env variable in staging."
-- **Panel 5:** Kenji confirms. Dialogue: Kenji: "Let's verify before we finalize the postmortem."
-- **Panel 6:** No blame. Dialogue: Kenji: "Process gap, not person fault."
-- **Panel 7:** Hook. Dialogue: Next: Action Items Going Forward
+- **Panel 1:** Scene. Dialogue: Aoi: "Logs show cache invalidation errors."
+- **Panel 2:** Scene. Dialogue: Nam: "Root cause appears to be stale cache keys after deploy."
+- **Panel 3:** Scene. Dialogue: Nam: "It seems like the new TTL config wasn't applied."
+- **Panel 4:** Scene. Dialogue: Linh: "This might be caused by a missing env variable in staging."
+- **Panel 5:** Scene. Dialogue: Kenji: "Let's verify before we finalize the postmortem."
+- **Panel 6:** Scene. Dialogue: Kenji: "Process gap, not person fault."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Aoi",
+    "text": "Logs show cache invalidation errors."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Root cause appears to be stale cache keys after deploy."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "It seems like the new TTL config wasn't applied."
+  },
+  {
+    "panel": 4,
+    "speaker": "Linh",
+    "text": "This might be caused by a missing env variable in staging."
+  },
+  {
+    "panel": 5,
+    "speaker": "Kenji",
+    "text": "Let's verify before we finalize the postmortem."
+  },
+  {
+    "panel": 6,
+    "speaker": "Kenji",
+    "text": "Process gap, not person fault."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Post-rollback analysis.. Speech: Aoi: "Logs show cache invalidation errors."
-Panel 2: Nam hypothesis.. Speech: Nam: "Root cause appears to be stale cache keys after deploy."
-Panel 3: Supporting evidence.. Speech: Nam: "It seems like the new TTL config wasn't applied."
-Panel 4: Linh adds.. Speech: Linh: "This might be caused by a missing env variable in staging."
-Panel 5: Kenji confirms.. Speech: Kenji: "Let's verify before we finalize the postmortem."
-Panel 6: No blame.. Speech: Kenji: "Process gap, not person fault."
-Panel 7: Hook.. Speech: Next: Action Items Going Forward
+Panel 1: Story beat. Speech: Aoi: "Logs show cache invalidation errors."
+Panel 2: Story beat. Speech: Nam: "Root cause appears to be stale cache keys after deploy."
+Panel 3: Story beat. Speech: Nam: "It seems like the new TTL config wasn't applied."
+Panel 4: Story beat. Speech: Linh: "This might be caused by a missing env variable in staging."
+Panel 5: Story beat. Speech: Kenji: "Let's verify before we finalize the postmortem."
+Panel 6: Story beat. Speech: Kenji: "Process gap, not person fault."
 
 ENGLISH FOCUS box must list:
 - "Root cause appears to be..." = Nguyên nhân gốc có vẻ là...

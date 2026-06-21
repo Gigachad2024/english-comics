@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Nam missed a meeting. Dialogue: Slack: "Decision made on cache strategy"
-- **Panel 2:** Nam messages Kenji. Dialogue: Nam: "Could you loop me in on what was decided?"
-- **Panel 3:** Kenji adds Nam to thread. Dialogue: Kenji: "I'll add you to the channel thread."
-- **Panel 4:** Nam asks to stay updated. Dialogue: Nam: "Please keep me posted on any changes."
-- **Panel 5:** Team norm. Dialogue: Aoi: "Always reach out if you're unsure after a meeting."
-- **Panel 6:** Hook. Dialogue: Next: I'll Get Back to You by EOD
+- **Panel 1:** Scene. Dialogue: Slack: "Decision made on cache strategy"
+- **Panel 2:** Scene. Dialogue: Nam: "Could you loop me in on what was decided?"
+- **Panel 3:** Scene. Dialogue: Kenji: "I'll add you to the channel thread."
+- **Panel 4:** Scene. Dialogue: Nam: "Please keep me posted on any changes."
+- **Panel 5:** Scene. Dialogue: Aoi: "Always reach out if you're unsure after a meeting."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: I'll Get Back to You by EOD"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Slack",
+    "text": "Decision made on cache strategy"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Could you loop me in on what was decided?"
+  },
+  {
+    "panel": 3,
+    "speaker": "Kenji",
+    "text": "I'll add you to the channel thread."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "Please keep me posted on any changes."
+  },
+  {
+    "panel": 5,
+    "speaker": "Aoi",
+    "text": "Always reach out if you're unsure after a meeting."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: I'll Get Back to You by EOD"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Nam missed a meeting.. Speech: Slack: "Decision made on cache strategy"
-Panel 2: Nam messages Kenji.. Speech: Nam: "Could you loop me in on what was decided?"
-Panel 3: Kenji adds Nam to thread.. Speech: Kenji: "I'll add you to the channel thread."
-Panel 4: Nam asks to stay updated.. Speech: Nam: "Please keep me posted on any changes."
-Panel 5: Team norm.. Speech: Aoi: "Always reach out if you're unsure after a meeting."
-Panel 6: Hook.. Speech: Next: I'll Get Back to You by EOD
+Panel 1: Story beat. Speech: Slack: "Decision made on cache strategy"
+Panel 2: Story beat. Speech: Nam: "Could you loop me in on what was decided?"
+Panel 3: Story beat. Speech: Kenji: "I'll add you to the channel thread."
+Panel 4: Story beat. Speech: Nam: "Please keep me posted on any changes."
+Panel 5: Story beat. Speech: Aoi: "Always reach out if you're unsure after a meeting."
+Panel 6: Story beat. Speech: Hook: "Next: I'll Get Back to You by EOD"
 
 ENGLISH FOCUS box must list:
 - "Could you loop me in on...?" = Bạn có thể cập nhật tôi về...?

@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Kenji opens 1-on-1. Dialogue: Kenji: "What's on your mind this week?"
-- **Panel 2:** Nam asks supportive question. Dialogue: Nam: "What would help you most right now on the payment project?"
-- **Panel 3:** Goal setting. Dialogue: Kenji: "Let's set a goal for next week — ship the cache fix."
-- **Panel 4:** Nam commits to check in. Dialogue: Nam: "I'll check in with QA before we deploy."
-- **Panel 5:** Mutual support. Dialogue: Kenji: "And I'll check in with you on the design doc."
-- **Panel 6:** Productive close. Dialogue: Both: "Good 1-on-1 — clear next steps."
-- **Panel 7:** Hook. Dialogue: Next: One Thing That Went Well Was...
+- **Panel 1:** Scene. Dialogue: Kenji: "What's on your mind this week?"
+- **Panel 2:** Scene. Dialogue: Nam: "What would help you most right now on the payment project?"
+- **Panel 3:** Scene. Dialogue: Kenji: "Let's set a goal for next week — ship the cache fix."
+- **Panel 4:** Scene. Dialogue: Nam: "I'll check in with QA before we deploy."
+- **Panel 5:** Scene. Dialogue: Kenji: "And I'll check in with you on the design doc."
+- **Panel 6:** Scene. Dialogue: Both: "Good 1-on-1 — clear next steps."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Kenji",
+    "text": "What's on your mind this week?"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "What would help you most right now on the payment project?"
+  },
+  {
+    "panel": 3,
+    "speaker": "Kenji",
+    "text": "Let's set a goal for next week — ship the cache fix."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I'll check in with QA before we deploy."
+  },
+  {
+    "panel": 5,
+    "speaker": "Kenji",
+    "text": "And I'll check in with you on the design doc."
+  },
+  {
+    "panel": 6,
+    "speaker": "Both",
+    "text": "Good 1-on-1 — clear next steps."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Small meeting room, coffee cups, 1-on-1 agenda on laptop
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Kenji opens 1-on-1.. Speech: Kenji: "What's on your mind this week?"
-Panel 2: Nam asks supportive question.. Speech: Nam: "What would help you most right now on the payment project?"
-Panel 3: Goal setting.. Speech: Kenji: "Let's set a goal for next week — ship the cache fix."
-Panel 4: Nam commits to check in.. Speech: Nam: "I'll check in with QA before we deploy."
-Panel 5: Mutual support.. Speech: Kenji: "And I'll check in with you on the design doc."
-Panel 6: Productive close.. Speech: Both: "Good 1-on-1 — clear next steps."
-Panel 7: Hook.. Speech: Next: One Thing That Went Well Was...
+Panel 1: Story beat. Speech: Kenji: "What's on your mind this week?"
+Panel 2: Story beat. Speech: Nam: "What would help you most right now on the payment project?"
+Panel 3: Story beat. Speech: Kenji: "Let's set a goal for next week — ship the cache fix."
+Panel 4: Story beat. Speech: Nam: "I'll check in with QA before we deploy."
+Panel 5: Story beat. Speech: Kenji: "And I'll check in with you on the design doc."
+Panel 6: Story beat. Speech: Both: "Good 1-on-1 — clear next steps."
 
 ENGLISH FOCUS box must list:
 - "What would help you most right now?" = Điều gì giúp bạn nhất lúc này?

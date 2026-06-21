@@ -1,0 +1,5137 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-20T09:29:03.770876+00:00",
+  "count": 122,
+  "stats": {
+    "ocr_ok": 88,
+    "override": 34,
+    "weak": 0,
+    "errors": 0
+  },
+  "episodes": {
+    "bug-arc-1/1": {
+      "seriesId": "bug-arc-1",
+      "num": 1,
+      "slug": "quick-patch-or-full-refactor",
+      "title": "Quick Patch or Full Refactor?",
+      "image": "images/comics/bug-arc-1/tập-01/bug-arc-1-tap01-quick-patch-or-full-refactor.png",
+      "source": "script+verified",
+      "verifyScore": 0.911,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — quick patch or full refactor?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between quick patch and full refactor."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Full refactor is safer, but quick patch has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward quick."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I think I'll go with quick."
+        }
+      ]
+    },
+    "bug-arc-1/2": {
+      "seriesId": "bug-arc-1",
+      "num": 2,
+      "slug": "deploy-today-or-wait-for-qa",
+      "title": "Deploy Today or Wait for QA?",
+      "image": "images/comics/bug-arc-1/tập-02/bug-arc-1-tap02-deploy-today-or-wait-for-qa.png",
+      "source": "script+verified",
+      "verifyScore": 0.704,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — deploy today or wait for qa?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between deploy today and wait for qa."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Wait for qa is safer, but deploy today has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward deploy."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I think I'll go with deploy."
+        }
+      ]
+    },
+    "bug-arc-1/3": {
+      "seriesId": "bug-arc-1",
+      "num": 3,
+      "slug": "redis-or-database-only",
+      "title": "Redis or Database Only?",
+      "image": "images/comics/bug-arc-1/tập-03/bug-arc-1-tap03-redis-or-database-only.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "These dashboards are way too slow..."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I can't decide between Redis and the database only."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Let's narrow down the issue first."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "We need to weigh up speed, cost, and complexity."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Redis makes more sense to me for this case."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Rollback... or hotfix? This could get tricky!"
+        }
+      ]
+    },
+    "bug-arc-1/4": {
+      "seriesId": "bug-arc-1",
+      "num": 4,
+      "slug": "rollback-or-hotfix",
+      "title": "Rollback or Hotfix?",
+      "image": "images/comics/bug-arc-1/tập-04/bug-arc-1-tap04-rollback-or-hotfix.png",
+      "source": "script+verified",
+      "verifyScore": 0.563,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — rollback or hotfix?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between rollback and hotfix."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Hotfix is safer, but rollback has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward rollback."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I think I'll go with rollback."
+        }
+      ]
+    },
+    "bug-arc-1/5": {
+      "seriesId": "bug-arc-1",
+      "num": 5,
+      "slug": "go-or-frontend",
+      "title": "Go or Frontend?",
+      "image": "images/comics/bug-arc-1/tập-05/bug-arc-1-tap05-go-or-frontend.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Morning commute in Tokyo."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm debating whether to learn Go or improve my frontend skills."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm more interested in backend systems these days."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I prefer backend to frontend right now."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm into building APIs. I think I'll go with Go."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "But I still need to think it over tonight."
+        }
+      ]
+    },
+    "bug-arc-1/6": {
+      "seriesId": "bug-arc-1",
+      "num": 6,
+      "slug": "tokyo-cafe-late-thoughts",
+      "title": "Tokyo Café, Late Thoughts",
+      "image": "images/comics/bug-arc-1/tập-06/bug-arc-1-tap06-tokyo-cafe-late-thoughts.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Late-night thoughts at a Tokyo café."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I have no idea how to plan my learning roadmap."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm wondering whether to study tonight or sleep."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Maybe I should think it over first."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "This is a big decision. I'll sleep on it."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "A clear mind after a good sleep."
+        }
+      ]
+    },
+    "bug-arc-1/7": {
+      "seriesId": "bug-arc-1",
+      "num": 7,
+      "slug": "settling-on-a-plan",
+      "title": "Settling on a Plan",
+      "image": "images/comics/bug-arc-1/tập-07/bug-arc-1-tap07-settling-on-a-plan.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Good morning, everyone!"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "After thinking it over, I settled on Go."
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "What's making you choose that?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Backend makes more sense to me right now."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I'd rather study a little every day than rush."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Hmm... what should I order?"
+        }
+      ]
+    },
+    "bug-arc-1/8": {
+      "seriesId": "bug-arc-1",
+      "num": 8,
+      "slug": "team-dinner-in-tokyo",
+      "title": "Team Dinner in Tokyo",
+      "image": "images/comics/bug-arc-1/tập-08/bug-arc-1-tap08-team-dinner-in-tokyo.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "Nighttime team dinner at a lively Tokyo izakaya."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I can't decide what to order."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I prefer sushi to ramen tonight."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'll pass on that. I'm not really into spicy food."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think I'll go with matcha ice cream."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "By the way, team — how about our next trip? Tokyo or Osaka?"
+        }
+      ]
+    },
+    "bug-arc-1/9": {
+      "seriesId": "bug-arc-1",
+      "num": 9,
+      "slug": "tokyo-or-osaka",
+      "title": "Tokyo or Osaka?",
+      "image": "images/comics/bug-arc-1/tập-09/bug-arc-1-tap09-tokyo-or-osaka.png",
+      "source": "script+verified",
+      "verifyScore": 0.662,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — tokyo or osaka?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between tokyo and osaka."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Osaka is safer, but tokyo has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward tokyo."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "tokyo makes more sense to me."
+        }
+      ]
+    },
+    "bug-arc-1/10": {
+      "seriesId": "bug-arc-1",
+      "num": 10,
+      "slug": "the-safer-choice",
+      "title": "The Safer Choice",
+      "image": "images/comics/bug-arc-1/tập-10/bug-arc-1-tap10-the-safer-choice.png",
+      "source": "script+verified",
+      "verifyScore": 0.599,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — option A or option B?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between option A and option B."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Option b is safer, but option A has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward option."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I think I'll go with option."
+        }
+      ]
+    },
+    "bug-arc-2/1": {
+      "seriesId": "bug-arc-2",
+      "num": 1,
+      "slug": "payment-page-panic",
+      "title": "Payment Page Panic",
+      "image": "images/comics/bug-arc-2/tập-01/bug-arc-2-tap01-payment-page-panic.png",
+      "source": "script+verified",
+      "verifyScore": 0.723,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Users are reporting checkout failures."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "The issue is that option A."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The API is returning option A."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The bug affects option A."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should go through the logs before deploying."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "That makes sense — let's find the root cause first."
+        }
+      ]
+    },
+    "bug-arc-2/2": {
+      "seriesId": "bug-arc-2",
+      "num": 2,
+      "slug": "frontend-relies-on-the-api",
+      "title": "Frontend Relies on the API",
+      "image": "images/comics/bug-arc-2/tập-02/bug-arc-2-tap02-frontend-relies-on-the-api.png",
+      "source": "script+verified",
+      "verifyScore": 0.59,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Users are reporting checkout failures."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "The issue is that the payment API is returning 500 errors."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The API is returning incorrect data for some users."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The bug affects the checkout flow at the confirm step."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should go through the logs before deploying."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "That makes sense — let's find the root cause first."
+        }
+      ]
+    },
+    "bug-arc-2/3": {
+      "seriesId": "bug-arc-2",
+      "num": 3,
+      "slug": "go-through-the-logs",
+      "title": "Go Through the Logs",
+      "image": "images/comics/bug-arc-2/tập-03/bug-arc-2-tap03-go-through-the-logs.png",
+      "source": "script+verified",
+      "verifyScore": 0.685,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Let's go through the logs together."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "It seems like the error starts at the confirm endpoint."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "This might be caused by the new cache layer."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The API is returning 500 after the cache update."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "Can you walk me through the sequence diagram?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Good — let's follow through on this lead."
+        }
+      ]
+    },
+    "bug-arc-2/4": {
+      "seriesId": "bug-arc-2",
+      "num": 4,
+      "slug": "qa-checklist-showdown",
+      "title": "QA Checklist Showdown",
+      "image": "images/comics/bug-arc-2/tập-04/bug-arc-2-tap04-qa-checklist-showdown.png",
+      "source": "script+verified",
+      "verifyScore": 0.612,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "We need full regression before the demo."
+        },
+        {
+          "panel": 2,
+          "speaker": "Aoi",
+          "text": "Can we deploy with a known low-risk bug?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I see your point, but I think we should wait for QA."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "That makes sense — checkout must pass."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "I'll run through the payment flow tests tonight."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Demo flow drill tomorrow morning."
+        }
+      ]
+    },
+    "bug-arc-2/5": {
+      "seriesId": "bug-arc-2",
+      "num": 5,
+      "slug": "demo-flow-drill",
+      "title": "Demo Flow Drill",
+      "image": "images/comics/bug-arc-2/tập-05/bug-arc-2-tap05-demo-flow-drill.png",
+      "source": "script+verified",
+      "verifyScore": 0.576,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Users are reporting checkout failures."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "The issue is that the payment API is returning 500 errors."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The API is returning incorrect data for some users."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The bug affects the checkout flow at the confirm step."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should go through the logs before deploying."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "That makes sense — let's find the root cause first."
+        }
+      ]
+    },
+    "bug-arc-2/6": {
+      "seriesId": "bug-arc-2",
+      "num": 6,
+      "slug": "when-plans-fall-through",
+      "title": "When Plans Fall Through",
+      "image": "images/comics/bug-arc-2/tập-06/bug-arc-2-tap06-when-plans-fall-through.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "A new QA discovery just came in."
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "The release plan might fall through if this bug stays open."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I have a different take."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "I see your point, but we need more testing."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "The bug affects mobile checkout only."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "We can isolate the impact, ship a scoped fix, and protect the release."
+        }
+      ]
+    },
+    "bug-arc-2/7": {
+      "seriesId": "bug-arc-2",
+      "num": 7,
+      "slug": "follow-through-the-fix",
+      "title": "Follow Through the Fix",
+      "image": "images/comics/bug-arc-2/tập-07/bug-arc-2-tap07-follow-through-the-fix.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "The issue is that cached data stays stale after payment."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I agree with that."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Then let's follow through."
+        },
+        {
+          "panel": 4,
+          "speaker": "Aoi",
+          "text": "Step one is in."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "Tests are green."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Great work, everyone."
+        }
+      ]
+    },
+    "bug-arc-2/8": {
+      "seriesId": "bug-arc-2",
+      "num": 8,
+      "slug": "cache-culprit",
+      "title": "Cache Culprit",
+      "image": "images/comics/bug-arc-2/tập-08/bug-arc-2-tap08-cache-culprit.png",
+      "source": "script+verified",
+      "verifyScore": 0.57,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Aoi",
+          "text": "It seems like the cache update caused this."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "This might be caused by misconfigured TTL."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The confirm call fails after the cache update."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "That's where the 500 errors are coming from."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should roll back the cache change."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Good — now let's verify in QA."
+        }
+      ]
+    },
+    "bug-arc-2/9": {
+      "seriesId": "bug-arc-2",
+      "num": 9,
+      "slug": "final-risk-meeting",
+      "title": "Final Risk Meeting",
+      "image": "images/comics/bug-arc-2/tập-09/bug-arc-2-tap09-final-risk-meeting.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "The final decision before release."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We need to think through the risks."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "I see your point, but I have a different take."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I think we should release only after QA signs off."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "Agreed. Let's wait for QA sign-off."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Decision locked. Quality first, release next."
+        }
+      ]
+    },
+    "bug-arc-2/10": {
+      "seriesId": "bug-arc-2",
+      "num": 10,
+      "slug": "safe-release-finale",
+      "title": "Safe Release Finale",
+      "image": "images/comics/bug-arc-2/tập-10/bug-arc-2-tap10-safe-release-finale.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Test progress is at 100% — we're ready."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We ran through the final demo flow."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "The API is returning normal data now."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Let's follow through with the safer release."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "QA sign-off complete — release approved! Great work, team!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Safer today, stronger tomorrow."
+        }
+      ]
+    },
+    "bug-arc-3/1": {
+      "seriesId": "bug-arc-3",
+      "num": 1,
+      "slug": "investor-demo-nightmare",
+      "title": "Investor Demo Nightmare",
+      "image": "images/comics/bug-arc-3/tập-01/bug-arc-3-tap01-investor-demo-nightmare.png",
+      "source": "script+verified",
+      "verifyScore": 0.583,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Investors arrive in twelve hours."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "The issue is that option A."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm torn between option A and option B."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "We need to weigh up the trade-offs."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "Let's focus on the payment flow first."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "No mistakes tomorrow — let's prepare."
+        }
+      ]
+    },
+    "bug-arc-3/2": {
+      "seriesId": "bug-arc-3",
+      "num": 2,
+      "slug": "quick-patch-or-rollback",
+      "title": "Quick Patch or Rollback?",
+      "image": "images/comics/bug-arc-3/tập-02/bug-arc-3-tap02-quick-patch-or-rollback.png",
+      "source": "script+verified",
+      "verifyScore": 0.623,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — quick patch or rollback?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between quick patch and rollback."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Rollback is safer, but quick patch has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward quick."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I think I'll go with quick."
+        }
+      ]
+    },
+    "bug-arc-3/3": {
+      "seriesId": "bug-arc-3",
+      "num": 3,
+      "slug": "walk-me-through-the-payment-flow",
+      "title": "Walk Me Through the Payment Flow",
+      "image": "images/comics/bug-arc-3/tập-03/bug-arc-3-tap03-walk-me-through-the-payment-flow.png",
+      "source": "script+verified",
+      "verifyScore": 0.722,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Users are reporting checkout failures."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Can you walk me through the payment flow?."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The bug affects the payment flow."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Walk me through option A."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should go through the logs before deploying."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "That makes sense — let's find the root cause first."
+        }
+      ]
+    },
+    "bug-arc-3/4": {
+      "seriesId": "bug-arc-3",
+      "num": 4,
+      "slug": "cache-suspect",
+      "title": "Cache Suspect",
+      "image": "images/comics/bug-arc-3/tập-04/bug-arc-3-tap04-cache-suspect.png",
+      "source": "script+verified",
+      "verifyScore": 0.645,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Aoi",
+          "text": "It seems like the cache update caused this."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "This might be caused by misconfigured TTL."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The confirm call fails after the cache update."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "That's where the 500 errors are coming from."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should roll back the cache change."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Good — now let's verify in QA."
+        }
+      ]
+    },
+    "bug-arc-3/5": {
+      "seriesId": "bug-arc-3",
+      "num": 5,
+      "slug": "qa-gate",
+      "title": "QA Gate",
+      "image": "images/comics/bug-arc-3/tập-05/bug-arc-3-tap05-qa-gate.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "We need to get through the QA checklist."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I see your point, but we still have a blocker on mobile."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "I'm not sure I agree."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I think we should retest before release."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "The bug affects payment confirmation."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Quality first."
+        }
+      ]
+    },
+    "bug-arc-3/6": {
+      "seriesId": "bug-arc-3",
+      "num": 6,
+      "slug": "the-safer-choice",
+      "title": "The Safer Choice",
+      "image": "images/comics/bug-arc-3/tập-06/bug-arc-3-tap06-the-safer-choice.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "A rollback makes more sense to me."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I think I'll go with a rollback."
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "Let's stick with the safer approach."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "We can rule out a full refactor for now."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I agree with that."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Let's do this the smart way. Ship safe. Improve fast."
+        }
+      ]
+    },
+    "bug-arc-3/7": {
+      "seriesId": "bug-arc-3",
+      "num": 7,
+      "slug": "demo-rehearsal",
+      "title": "Demo Rehearsal",
+      "image": "images/comics/bug-arc-3/tập-07/bug-arc-3-tap07-demo-rehearsal.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Let's run through the demo flow."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We should go through the logs one more time."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "I prefer stability to speed."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "We need to think it over carefully."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm more interested in a safe release than a fast release."
+        },
+        {
+          "panel": 6,
+          "speaker": "Linh",
+          "text": "Tests are green."
+        }
+      ]
+    },
+    "bug-arc-3/8": {
+      "seriesId": "bug-arc-3",
+      "num": 8,
+      "slug": "release-plan-at-risk",
+      "title": "Release Plan at Risk",
+      "image": "images/comics/bug-arc-3/tập-08/bug-arc-3-tap08-release-plan-at-risk.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "The release plan might fall through."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "We need to think through the risks."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "If we decide to rollback, we need to follow through."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "I see your point, but I have a different take."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "It comes down to risk and timeline."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "We need a clear decision before the release window closes."
+        }
+      ]
+    },
+    "bug-arc-3/9": {
+      "seriesId": "bug-arc-3",
+      "num": 9,
+      "slug": "nam-levels-up",
+      "title": "Nam Levels Up",
+      "image": "images/comics/bug-arc-3/tập-09/bug-arc-3-tap09-nam-levels-up.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "The issue is that the payment API failed on mobile."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "It seems like stale cache caused incorrect data."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "This service acts as a bridge between the frontend and the payment system."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The frontend relies on this API."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "We got through the QA checklist and ran through the demo flow."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Let's follow through with the safer release."
+        }
+      ]
+    },
+    "traveling/11": {
+      "seriesId": "traveling",
+      "num": 11,
+      "slug": "tokyo-or-osaka",
+      "title": "Tokyo or Osaka?",
+      "image": "images/comics/traveling/tập-11/traveling-tap11-tokyo-or-osaka.png",
+      "source": "script+verified",
+      "verifyScore": 0.793,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "Where should we go next — tokyo or osaka?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between tokyo and osaka."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm leaning toward tokyo."
+        },
+        {
+          "panel": 4,
+          "speaker": "Friend",
+          "text": "Tokyo makes more sense for our schedule."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think we'll go with that plan."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I'm excited about the trip tomorrow."
+        }
+      ]
+    },
+    "traveling/12": {
+      "seriesId": "traveling",
+      "num": 12,
+      "slug": "train-or-taxi",
+      "title": "Train or Taxi?",
+      "image": "images/comics/traveling/tập-12/traveling-tap12-train-or-taxi.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "The team has arrived in Japan!"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I prefer taking the train to taking a taxi."
+        },
+        {
+          "panel": 3,
+          "speaker": "Mai",
+          "text": "Taking the train makes more sense to me."
+        },
+        {
+          "panel": 4,
+          "speaker": "Tuan",
+          "text": "I'd rather take the train than sit in traffic."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Let's go with the train."
+        },
+        {
+          "panel": 6,
+          "speaker": "Linh",
+          "text": "Shinkansen, here we come!"
+        }
+      ]
+    },
+    "traveling/13": {
+      "seriesId": "traveling",
+      "num": 13,
+      "slug": "the-hotel-problem",
+      "title": "The Hotel Problem",
+      "image": "images/comics/traveling/tập-13/traveling-tap13-the-hotel-problem.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm not sure if this hotel is a good choice."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We can rule out this hotel because it's too far."
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "I'll pass on the hotel that is too far from the city center."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Let's narrow it down to two hotels."
+        },
+        {
+          "panel": 5,
+          "speaker": "Friend",
+          "text": "Great! Staying closer means more time to explore and less time on the train."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Next stop: Osaka! Let's keep the same location rule."
+        }
+      ]
+    },
+    "traveling/14": {
+      "seriesId": "traveling",
+      "num": 14,
+      "slug": "sleep-on-the-itinerary",
+      "title": "Sleep on the Itinerary",
+      "image": "images/comics/traveling/tập-14/traveling-tap14-sleep-on-the-itinerary.png",
+      "source": "script+verified",
+      "verifyScore": 0.606,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "Where should we go next — option A or option B?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between option A and option B."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm leaning toward option."
+        },
+        {
+          "panel": 4,
+          "speaker": "Friend",
+          "text": "Option a makes more sense for our schedule."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think we'll go with that plan."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I'm excited about the trip tomorrow."
+        }
+      ]
+    },
+    "traveling/15": {
+      "seriesId": "traveling",
+      "num": 15,
+      "slug": "settling-on-osaka",
+      "title": "Settling on Osaka",
+      "image": "images/comics/traveling/tập-15/traveling-tap15-settling-on-osaka.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "After thinking it over, we settled on Osaka."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Osaka makes more sense because the food scene is amazing."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I think I'll go with Osaka."
+        },
+        {
+          "panel": 4,
+          "speaker": "Aoi",
+          "text": "Let's stick with the current itinerary."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Osaka it is! Let's make epic memories!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Friend",
+          "text": "New city, new energy, new stories."
+        }
+      ]
+    },
+    "traveling/16": {
+      "seriesId": "traveling",
+      "num": 16,
+      "slug": "what-should-i-order",
+      "title": "What Should I Order?",
+      "image": "images/comics/traveling/tập-16/traveling-tap16-what-should-i-order.png",
+      "source": "script+verified",
+      "verifyScore": 0.783,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "What should we order?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I don't know what to + verb."
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "Do you have any dietary restrictions?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I can't decide what to + verb."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think I'll go with the ramen."
+        },
+        {
+          "panel": 6,
+          "speaker": "Friend",
+          "text": "That sounds amazing — enjoy!"
+        }
+      ]
+    },
+    "traveling/17": {
+      "seriesId": "traveling",
+      "num": 17,
+      "slug": "food-tour-or-shopping",
+      "title": "Food Tour or Shopping?",
+      "image": "images/comics/traveling/tập-17/traveling-tap17-food-tour-or-shopping.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "We've got one more day in Osaka. What should we do?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Friend",
+          "text": "I'm more interested in food tours than shopping."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "I like local food more than shopping malls."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "A food tour makes more sense to me."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I'd rather try local food than buy souvenirs."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Let's eat, explore, and make amazing memories together!"
+        }
+      ]
+    },
+    "traveling/18": {
+      "seriesId": "traveling",
+      "num": 18,
+      "slug": "lost-in-shinjuku-station",
+      "title": "Lost in Shinjuku Station",
+      "image": "images/comics/traveling/tập-18/traveling-tap18-lost-in-shinjuku-station.png",
+      "source": "script+verified",
+      "verifyScore": 0.586,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm not sure I understand this map."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Could you show me how to get to the right platform?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Staff",
+          "text": "Let me walk you through the route step by step."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Just to clarify — I transfer at Shibuya, right?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm glad that worked — thank you."
+        },
+        {
+          "panel": 6,
+          "speaker": "Friend",
+          "text": "You made it! That station is confusing."
+        }
+      ]
+    },
+    "traveling/19": {
+      "seriesId": "traveling",
+      "num": 19,
+      "slug": "walk-me-through-the-route",
+      "title": "Walk Me Through the Route",
+      "image": "images/comics/traveling/tập-19/traveling-tap19-walk-me-through-the-route.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Can you walk me through the route?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Aoi",
+          "text": "Let's run through the plan one more time."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "We need to get through the station before rush hour."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "Plan ahead, travel smooth."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "IC card in, confidence up!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Plan locked. Let's make today unforgettable!"
+        }
+      ]
+    },
+    "traveling/20": {
+      "seriesId": "traveling",
+      "num": 20,
+      "slug": "kyoto-before-sunset",
+      "title": "Kyoto Before Sunset",
+      "image": "images/comics/traveling/tập-20/traveling-tap20-kyoto-before-sunset.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm debating whether to go now or wait until tomorrow."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We need to think through the timing."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "It comes down to whether we can catch the next train."
+        },
+        {
+          "panel": 4,
+          "speaker": "Friend",
+          "text": "I think Kyoto is better because the sunset looks beautiful."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Let's go! Kyoto, here we come!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Kyoto awaits — tradition, beauty, memories."
+        }
+      ]
+    },
+    "traveling/21": {
+      "seriesId": "traveling",
+      "num": 21,
+      "slug": "the-fuji-question",
+      "title": "The Fuji Question",
+      "image": "images/comics/traveling/tập-21/traveling-tap21-the-fuji-question.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "Should we wake up early for Mount Fuji?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I don't know if we should go early or sleep more."
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "I'd rather wake up early than miss the view."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "Fuji makes more sense to me because this is a rare chance."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Team decision: Let's wake up early and go see Fuji!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Good night, team — alarms set for Fuji morning!"
+        }
+      ]
+    },
+    "traveling/22": {
+      "seriesId": "traveling",
+      "num": 22,
+      "slug": "morning-train-to-fuji",
+      "title": "Morning Train to Fuji",
+      "image": "images/comics/traveling/tập-22/traveling-tap22-morning-train-to-fuji.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "We're up early and on track! Mount Fuji, here we come!"
+        },
+        {
+          "panel": 2,
+          "speaker": "Friend",
+          "text": "Let's stick with the current plan."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "We can rule out the late train."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'll opt for the early train."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "We need to follow through on the plan."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Mount Fuji is waiting — let's keep our backup plans ready."
+        }
+      ]
+    },
+    "traveling/23": {
+      "seriesId": "traveling",
+      "num": 23,
+      "slug": "rainy-day-backup-plan",
+      "title": "Rainy Day Backup Plan",
+      "image": "images/comics/traveling/tập-23/traveling-tap23-rainy-day-backup-plan.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "The plan might fall through because of the rain."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm not sure I agree with canceling right away."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Let's work through our backup options."
+        },
+        {
+          "panel": 4,
+          "speaker": "Friend",
+          "text": "Flexibility makes the journey better."
+        },
+        {
+          "panel": 5,
+          "speaker": "Friend",
+          "text": "Let's wait a bit, enjoy the café, and recheck the weather!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Friend",
+          "text": "Look! The sky might clear up later!"
+        }
+      ]
+    },
+    "traveling/24": {
+      "seriesId": "traveling",
+      "num": 24,
+      "slug": "fuji-clears-up",
+      "title": "Fuji Clears Up",
+      "image": "images/comics/traveling/tập-24/traveling-tap24-fuji-clears-up.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Look...!"
+        },
+        {
+          "panel": 2,
+          "speaker": "Friend",
+          "text": "It's beautiful!"
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm glad we didn't give up."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "It came down to patience and timing."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think this trip made me more confident."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Let's head back to Tokyo with full hearts!"
+        }
+      ]
+    },
+    "traveling/25": {
+      "seriesId": "traveling",
+      "num": 25,
+      "slug": "travel-finale",
+      "title": "Travel Finale",
+      "image": "images/comics/traveling/tập-25/traveling-tap25-travel-finale.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "We're back in Tokyo. What a journey."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "At first, I didn't know what to say."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I can say what I prefer, what I'm unsure about, and what makes sense to me."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I think I'll keep practicing."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "We didn't just visit Japan — we grew together."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Thank you, Tokyo! Thank you, team!"
+        }
+      ]
+    },
+    "living/26": {
+      "seriesId": "living",
+      "num": 26,
+      "slug": "new-apartment-in-tokyo",
+      "title": "New Apartment in Tokyo",
+      "image": "images/comics/living/tập-26/living-tap26-new-apartment-in-tokyo.png",
+      "source": "script+verified",
+      "verifyScore": 0.592,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "How is life in Tokyo going?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between option A and option B."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Could you help me with this?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Friend",
+          "text": "Let me walk you through it."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm getting used to life in Japan."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "That makes sense now — thank you."
+        }
+      ]
+    },
+    "living/27": {
+      "seriesId": "living",
+      "num": 27,
+      "slug": "can-you-walk-me-through-the-contract",
+      "title": "Can You Walk Me Through the Contract?",
+      "image": "images/comics/living/tập-27/living-tap27-can-you-walk-me-through-the-contract.png",
+      "source": "script+verified",
+      "verifyScore": 0.696,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Walk me through the contract?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Staff",
+          "text": "Let me walk you through it step by step."
+        },
+        {
+          "panel": 3,
+          "speaker": "Staff",
+          "text": "First, here is the main flow you need to know."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "What does this part mean?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Let me make sure I got this right."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "That makes sense — thank you."
+        }
+      ]
+    },
+    "living/28": {
+      "seriesId": "living",
+      "num": 28,
+      "slug": "does-saturday-work-for-you",
+      "title": "Does Saturday Work for You?",
+      "image": "images/comics/living/tập-28/living-tap28-does-saturday-work-for-you.png",
+      "source": "script+verified",
+      "verifyScore": 0.656,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Landlord",
+          "text": "When can you come to sign?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Does Saturday work for you?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Landlord",
+          "text": "How about 2 PM?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "That works for me — I'll be there."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm running late if the train is delayed."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Thank you — see you Saturday."
+        }
+      ]
+    },
+    "living/29": {
+      "seriesId": "living",
+      "num": 29,
+      "slug": "running-late-at-shinjuku-station",
+      "title": "Running Late at Shinjuku Station",
+      "image": "images/comics/living/tập-29/living-tap29-running-late-at-shinjuku-station.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm running late."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I have no idea which exit to take."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Can you show me how to get to the west exit?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Staff",
+          "text": "Could you say that again?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'll be there in 10 minutes."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Found it — west exit!"
+        }
+      ]
+    },
+    "living/30": {
+      "seriesId": "living",
+      "num": 30,
+      "slug": "fill-out-the-form",
+      "title": "Fill Out the Form",
+      "image": "images/comics/living/tập-30/living-tap30-fill-out-the-form.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Agent",
+          "text": "Welcome! Here are the rental application forms."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I need to fill out this form."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Do you have an English version of this form?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm not sure what to write here."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Just to clarify, do you mean my current address or my new address?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I'll check with Aoi and get back to you."
+        }
+      ]
+    },
+    "living/31": {
+      "seriesId": "living",
+      "num": 31,
+      "slug": "moving-day",
+      "title": "Moving Day",
+      "image": "images/comics/living/tập-31/living-tap31-moving-day.png",
+      "source": "script+verified",
+      "verifyScore": 0.576,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm excited about option A."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm nervous about option A."
+        },
+        {
+          "panel": 3,
+          "speaker": "Landlord",
+          "text": "Let me walk you through the contract one more time."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm getting used to the neighborhood already."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "It was worth it — I'm proud of myself."
+        },
+        {
+          "panel": 6,
+          "speaker": "Friend",
+          "text": "Welcome to your new place in Tokyo!"
+        }
+      ]
+    },
+    "living/33": {
+      "seriesId": "living",
+      "num": 33,
+      "slug": "opening-a-bank-account",
+      "title": "Opening a Bank Account",
+      "image": "images/comics/living/tập-33/living-tap33-opening-a-bank-account.png",
+      "source": "script+verified",
+      "verifyScore": 0.811,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Clerk",
+          "text": "How can I help you today?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'd like to open a bank account."
+        },
+        {
+          "panel": 3,
+          "speaker": "Clerk",
+          "text": "You need to fill out this form first."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Could you help me with this section?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Clerk",
+          "text": "Can you show me how to fill out the address part?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Thank you — I think I got it right."
+        }
+      ]
+    },
+    "living/34": {
+      "seriesId": "living",
+      "num": 34,
+      "slug": "bug-alert-after-work",
+      "title": "Bug Alert After Work",
+      "image": "images/comics/living/tập-34/living-tap34-bug-alert-after-work.png",
+      "source": "script+verified",
+      "verifyScore": 0.682,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Users are reporting checkout failures."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "The issue is that the payment API is returning 500 errors."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The API is returning incorrect data for some users."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The bug affects the checkout flow at the confirm step."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should go through the logs before deploying."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "That makes sense — let's find the root cause first."
+        }
+      ]
+    },
+    "living/35": {
+      "seriesId": "living",
+      "num": 35,
+      "slug": "first-remote-meeting-from-tokyo-apartment",
+      "title": "First Remote Meeting from Tokyo Apartment",
+      "image": "images/comics/living/tập-35/living-tap35-first-remote-meeting-from-tokyo-apartment.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "My first remote meeting from home..."
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "Can you walk me through the payment flow?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "Let's run through the logs quickly."
+        },
+        {
+          "panel": 4,
+          "speaker": "Aoi",
+          "text": "We need to think through the risks."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm not sure I agree with deploying tonight."
+        },
+        {
+          "panel": 6,
+          "speaker": "Linh",
+          "text": "That makes sense."
+        }
+      ]
+    },
+    "living/36": {
+      "seriesId": "living",
+      "num": 36,
+      "slug": "follow-through-on-the-fix",
+      "title": "Follow Through on the Fix",
+      "image": "images/comics/living/tập-36/living-tap36-follow-through-on-the-fix.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "We need to follow through on this fix."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "Let's work through the bug step by step."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "I'm worried about the deadline."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I traced the issue. The payment gateway was timing out before sending a response."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "It was worth it."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "One problem fixed. Next up: more tests and monitoring."
+        }
+      ]
+    },
+    "living/37": {
+      "seriesId": "living",
+      "num": 37,
+      "slug": "clinic-appointment",
+      "title": "Clinic Appointment",
+      "image": "images/comics/living/tập-37/living-tap37-clinic-appointment.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm running late for my clinic appointment."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I have an appointment at 9 AM."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm not sure how to explain my symptoms."
+        },
+        {
+          "panel": 4,
+          "speaker": "Staff",
+          "text": "Could you speak a little more slowly?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Sure, thank you. That helps a lot."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I'm glad that the staff helped me."
+        }
+      ]
+    },
+    "living/38": {
+      "seriesId": "living",
+      "num": 38,
+      "slug": "getting-used-to-life-in-japan",
+      "title": "Getting Used to Life in Japan",
+      "image": "images/comics/living/tập-38/living-tap38-getting-used-to-life-in-japan.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm getting used to life in Japan."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I didn't expect Tokyo to feel this peaceful."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Everything is so new..."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "It feels like home now."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "This street brings back memories from our trip."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I came across a nice little café."
+        }
+      ]
+    },
+    "living/39": {
+      "seriesId": "living",
+      "num": 39,
+      "slug": "team-dinner-after-release",
+      "title": "Team Dinner After Release",
+      "image": "images/comics/living/tập-39/living-tap39-team-dinner-after-release.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Great job, team! The release was such a win!"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm not really into spicy food."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "I'm more interested in local dishes."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "I'd rather try something simple than order too much."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think I'll go with this one."
+        },
+        {
+          "panel": 6,
+          "speaker": "Linh",
+          "text": "That sounds amazing."
+        }
+      ]
+    },
+    "living/40": {
+      "seriesId": "living",
+      "num": 40,
+      "slug": "english-for-real-life-finale",
+      "title": "English for Real Life Finale",
+      "image": "images/comics/living/tập-40/living-tap40-english-for-real-life-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.75,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "From contracts to bank forms — real life English in Tokyo."
+        },
+        {
+          "panel": 2,
+          "speaker": "Friend",
+          "text": "It was worth it."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm proud of myself."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm looking forward to using these patterns every day."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'll keep practicing in real situations."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "English for Real Life Finale — we did it!"
+        }
+      ]
+    },
+    "career-growth/41": {
+      "seriesId": "career-growth",
+      "num": 41,
+      "slug": "first-code-review-in-english",
+      "title": "First Code Review in English",
+      "image": "images/comics/career-growth/tập-41/career-growth-tap41-first-code-review-in-english.png",
+      "source": "script+verified",
+      "verifyScore": 0.727,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Aoi",
+          "text": "Can you walk me through this logic?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm not sure I understand this part — could you clarify?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "I think we should add a test before merging."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "That makes sense — I'll update the PR."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "Good improvement — clear structure."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Thanks — first code review in English done!"
+        }
+      ]
+    },
+    "career-growth/42": {
+      "seriesId": "career-growth",
+      "num": 42,
+      "slug": "the-performance-problem",
+      "title": "The Performance Problem",
+      "image": "images/comics/career-growth/tập-42/career-growth-tap42-the-performance-problem.png",
+      "source": "script+verified",
+      "verifyScore": 0.582,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Users are reporting checkout failures."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "The issue is that option A."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "It seems like option A."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "This might be caused by option A."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I think we should go through the logs before deploying."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "That makes sense — let's find the root cause first."
+        }
+      ]
+    },
+    "career-growth/43": {
+      "seriesId": "career-growth",
+      "num": 43,
+      "slug": "i-have-a-different-take",
+      "title": "I Have a Different Take",
+      "image": "images/comics/career-growth/tập-43/career-growth-tap43-i-have-a-different-take.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I see your point, but I'm not sure I agree."
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "Let's ship a quick frontend patch to hide the error state."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I have a different take."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The frontend relies on this API to load user data."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "We need to think through the risks."
+        },
+        {
+          "panel": 6,
+          "speaker": "Aoi",
+          "text": "Let's investigate the API error first."
+        }
+      ]
+    },
+    "career-growth/44": {
+      "seriesId": "career-growth",
+      "num": 44,
+      "slug": "walk-me-through-the-architecture",
+      "title": "Walk Me Through the Architecture",
+      "image": "images/comics/career-growth/tập-44/career-growth-tap44-walk-me-through-the-architecture.png",
+      "source": "script+verified",
+      "verifyScore": 0.75,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "walk me through?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Staff",
+          "text": "Let me walk you through it step by step."
+        },
+        {
+          "panel": 3,
+          "speaker": "Staff",
+          "text": "First, here is the main flow you need to know."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "What does this part mean?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Let me make sure I got this right."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "That makes sense — thank you."
+        }
+      ]
+    },
+    "career-growth/45": {
+      "seriesId": "career-growth",
+      "num": 45,
+      "slug": "quick-patch-or-full-refactor",
+      "title": "Quick Patch or Full Refactor?",
+      "image": "images/comics/career-growth/tập-45/career-growth-tap45-quick-patch-or-full-refactor.png",
+      "source": "script+verified",
+      "verifyScore": 0.8,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to choose — quick patch or full refactor?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between quick patch and full refactor."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Full refactor is safer, but quick patch has benefits too."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "I'm leaning toward quick."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "What makes more sense to you?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I think I'll go with quick."
+        }
+      ]
+    },
+    "career-growth/46": {
+      "seriesId": "career-growth",
+      "num": 46,
+      "slug": "demo-day-pressure",
+      "title": "Demo Day Pressure",
+      "image": "images/comics/career-growth/tập-46/career-growth-tap46-demo-day-pressure.png",
+      "source": "script+verified",
+      "verifyScore": 0.68,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Investors arrive in one hour."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm nervous about the demo."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Let's run through the main flow one more time."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm ready to present."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "Strong demo — clear structure."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "We worked through the pressure together."
+        }
+      ]
+    },
+    "career-growth/47": {
+      "seriesId": "career-growth",
+      "num": 47,
+      "slug": "the-junior-asks-for-help",
+      "title": "The Junior Asks for Help",
+      "image": "images/comics/career-growth/tập-47/career-growth-tap47-the-junior-asks-for-help.png",
+      "source": "script+verified",
+      "verifyScore": 0.847,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Junior",
+          "text": "Could you help me with this setup?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I can walk you through it step by step."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Let's figure it out together."
+        },
+        {
+          "panel": 4,
+          "speaker": "Junior",
+          "text": "Oh — that makes sense now."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "You'll get it — step by step."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Good mentoring, Nam."
+        }
+      ]
+    },
+    "career-growth/48": {
+      "seriesId": "career-growth",
+      "num": 48,
+      "slug": "incident-recap-meeting",
+      "title": "Incident Recap Meeting",
+      "image": "images/comics/career-growth/tập-48/career-growth-tap48-incident-recap-meeting.png",
+      "source": "script+verified",
+      "verifyScore": 0.788,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Walk us through what happened."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Let me walk you through what happened."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The issue was that we skipped a cache check."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "We followed through on the fix overnight."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "Good recap — clear structure."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Let's add monitoring before the next release."
+        }
+      ]
+    },
+    "career-growth/49": {
+      "seriesId": "career-growth",
+      "num": 49,
+      "slug": "speaking-up",
+      "title": "Speaking Up",
+      "image": "images/comics/career-growth/tập-49/career-growth-tap49-speaking-up.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "We need to decide what to focus on this sprint."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm debating whether to support the new feature now or improve stability first."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I see your point, but I have a different take."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "We need to weigh up speed, safety, and maintainability."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'd opt for improving stability first."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "It comes down to user trust."
+        }
+      ]
+    },
+    "career-growth/50": {
+      "seriesId": "career-growth",
+      "num": 50,
+      "slug": "nam-becomes-the-bridge",
+      "title": "Nam Becomes the Bridge",
+      "image": "images/comics/career-growth/tập-50/career-growth-tap50-nam-becomes-the-bridge.png",
+      "source": "script+verified",
+      "verifyScore": 0.732,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "From code review to speaking up — Nam leads with English."
+        },
+        {
+          "panel": 2,
+          "speaker": "Friend",
+          "text": "be the bridge between option A and option B."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "walk people through option A."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "disagree respectfully."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'll keep practicing in real situations."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Nam Becomes the Bridge — we did it!"
+        }
+      ]
+    },
+    "system-design/51": {
+      "seriesId": "system-design",
+      "num": 51,
+      "slug": "the-system-design-question",
+      "title": "The System Design Question",
+      "image": "images/comics/system-design/tập-51/system-design-tap51-the-system-design-question.png",
+      "source": "script+verified",
+      "verifyScore": 0.979,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Can you walk us through how this would work at 10x traffic?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm wondering if we should start with the current flow first."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Good — let's map the read path vs write path."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "What happens when checkout spikes?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Could we start by identifying the single biggest bottleneck?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Monolith or Microservices?"
+        }
+      ]
+    },
+    "system-design/52": {
+      "seriesId": "system-design",
+      "num": 52,
+      "slug": "monolith-or-microservices",
+      "title": "Monolith or Microservices?",
+      "image": "images/comics/system-design/tập-52/system-design-tap52-monolith-or-microservices.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm torn between keeping the monolith and splitting services."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm leaning toward the monolith because our team is still small."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Microservices help scale teams, not always traffic."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "We need to weigh up complexity vs flexibility."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "A monolith makes more sense to me for the next two quarters."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Cache or Database First?"
+        }
+      ]
+    },
+    "system-design/53": {
+      "seriesId": "system-design",
+      "num": 53,
+      "slug": "cache-or-database-first",
+      "title": "Cache or Database First?",
+      "image": "images/comics/system-design/tập-53/system-design-tap53-cache-or-database-first.png",
+      "source": "script+verified",
+      "verifyScore": 0.958,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "The issue is that every request hits the database."
+        },
+        {
+          "panel": 2,
+          "speaker": "Aoi",
+          "text": "Redis can act as a cache layer here."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "It seems like we're not caching user profile data."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "What if the cache is stale?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "We could rely on Redis for reads and keep DB as source of truth."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Queue Saves the Day"
+        }
+      ]
+    },
+    "system-design/54": {
+      "seriesId": "system-design",
+      "num": 54,
+      "slug": "queue-saves-the-day",
+      "title": "Queue Saves the Day",
+      "image": "images/comics/system-design/tập-54/system-design-tap54-queue-saves-the-day.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "This might be caused by synchronous email sending."
+        },
+        {
+          "panel": 2,
+          "speaker": "Aoi",
+          "text": "Put heavy work on a queue — respond fast to users."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I think we should move notifications to async processing."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "Show the latency before and after."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Let's follow through on monitoring the queue depth."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: API Gateway at Night"
+        }
+      ]
+    },
+    "system-design/55": {
+      "seriesId": "system-design",
+      "num": 55,
+      "slug": "api-gateway-at-night",
+      "title": "API Gateway at Night",
+      "image": "images/comics/system-design/tập-55/system-design-tap55-api-gateway-at-night.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Aoi",
+          "text": "Can you walk me through the API Gateway setup?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "It acts as a single entry point for all clients."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "We need to make sure rate limiting is per API key."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "What happens if the gateway goes down?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Let me make sure I got this right — gateway"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Scale Under Pressure"
+        }
+      ]
+    },
+    "system-design/56": {
+      "seriesId": "system-design",
+      "num": 56,
+      "slug": "scale-under-pressure",
+      "title": "Scale Under Pressure",
+      "image": "images/comics/system-design/tập-56/system-design-tap56-scale-under-pressure.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Black Friday scale — we're 5x normal traffic."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "It comes down to cost vs response time."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Horizontal scaling buys time if stateless."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'd opt for scaling out the API tier first."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "We need to weigh up DB connection limits too."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: The Cost of Overengineering"
+        }
+      ]
+    },
+    "system-design/57": {
+      "seriesId": "system-design",
+      "num": 57,
+      "slug": "the-cost-of-overengineering",
+      "title": "The Cost of Overengineering",
+      "image": "images/comics/system-design/tập-57/system-design-tap57-the-cost-of-overengineering.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Engineer",
+          "text": "Let's split everything now."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I have a different take — that's overengineering for our stage."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I see your point, but we can rule out k8s for now."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "YAGNI — you aren't gonna need it yet."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "Start simple. Measure. Then split."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Explain It to Product"
+        }
+      ]
+    },
+    "system-design/58": {
+      "seriesId": "system-design",
+      "num": 58,
+      "slug": "explain-it-to-product",
+      "title": "Explain It to Product",
+      "image": "images/comics/system-design/tập-58/system-design-tap58-explain-it-to-product.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "Why does this feature take 3 sprints?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Let me walk you through the flow in simple terms."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The main idea is: fast checkout beats perfect architecture."
+        },
+        {
+          "panel": 4,
+          "speaker": "PM",
+          "text": "So we ship phase 1 without real-time sync?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Exactly — we can add that in phase 2."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Design Review Showdown"
+        }
+      ]
+    },
+    "system-design/59": {
+      "seriesId": "system-design",
+      "num": 59,
+      "slug": "design-review-showdown",
+      "title": "Design Review Showdown",
+      "image": "images/comics/system-design/tập-59/system-design-tap59-design-review-showdown.png",
+      "source": "script+verified",
+      "verifyScore": 0.944,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Nam presents architecture v2."
+        },
+        {
+          "panel": 2,
+          "speaker": "Senior",
+          "text": "What fails first under load?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm debating whether to add a read replica now or later."
+        },
+        {
+          "panel": 4,
+          "speaker": "Aoi",
+          "text": "That makes sense — stick with one source of truth first."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "Good review. Ship with monitoring."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Thinking Bigger Finale"
+        }
+      ]
+    },
+    "system-design/60": {
+      "seriesId": "system-design",
+      "num": 60,
+      "slug": "thinking-bigger-finale",
+      "title": "Thinking Bigger Finale",
+      "image": "images/comics/system-design/tập-60/system-design-tap60-thinking-bigger-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.958,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Here's how all the pieces connect now."
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "You think in systems now, not just tickets."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm looking forward to tackling bigger problems."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I can be the bridge between teams on design decisions."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Patterns from arc 51–59 recap."
+        },
+        {
+          "panel": 6,
+          "speaker": "Next Arc",
+          "text": "Email & Async — Just Following Up"
+        }
+      ]
+    },
+    "email-async/61": {
+      "seriesId": "email-async",
+      "num": 61,
+      "slug": "just-following-up-on-the-pr",
+      "title": "Just Following Up on the PR",
+      "image": "images/comics/email-async/tập-61/email-async-tap61-just-following-up-on-the-pr.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Subject",
+          "text": "Following up on PR #512"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Just following up on the PR I sent yesterday."
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "Friendly but clear — add what you need from them."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I wanted to check in on the review timeline."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I'll get back to you by EOD."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Loop Me In on the Decision"
+        }
+      ]
+    },
+    "email-async/62": {
+      "seriesId": "email-async",
+      "num": 62,
+      "slug": "loop-me-in-on-the-decision",
+      "title": "Loop Me In on the Decision",
+      "image": "images/comics/email-async/tập-62/email-async-tap62-loop-me-in-on-the-decision.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Slack",
+          "text": "Decision made on cache strategy"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Could you loop me in on what was decided?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "I'll add you to the channel thread."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Please keep me posted on any changes."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "Always reach out if you're unsure after a meeting."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: I'll Get Back to You by EOD"
+        }
+      ]
+    },
+    "email-async/63": {
+      "seriesId": "email-async",
+      "num": 63,
+      "slug": "ill-get-back-to-you-by-eod",
+      "title": "I'll Get Back to You by EOD",
+      "image": "images/comics/email-async/tập-63/email-async-tap63-ill-get-back-to-you-by-eod.png",
+      "source": "script+verified",
+      "verifyScore": 0.944,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "Can we ship Friday?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Let me look into this and I'll get back to you by EOD."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Quick huddle at desk."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Following up — we can ship Friday if QA passes tonight."
+        },
+        {
+          "panel": 5,
+          "speaker": "PM",
+          "text": "Thanks for the quick follow-up!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Async Standup in English"
+        }
+      ]
+    },
+    "email-async/64": {
+      "seriesId": "email-async",
+      "num": 64,
+      "slug": "async-standup-in-english",
+      "title": "Async Standup in English",
+      "image": "images/comics/email-async/tập-64/email-async-tap64-async-standup-in-english.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Template",
+          "text": "Yesterday / Today / Blockers"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Here's what I worked on: cache invalidation fix."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm blocked on staging access — I'll follow up with DevOps."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "I'll loop in the platform team."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "Clear updates — no meeting needed!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Email & Async Finale"
+        }
+      ]
+    },
+    "email-async/65": {
+      "seriesId": "email-async",
+      "num": 65,
+      "slug": "email-async-finale",
+      "title": "Email & Async Finale",
+      "image": "images/comics/email-async/tập-65/email-async-tap65-email-async-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.733,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Multiple screens",
+          "text": "sent, replied, resolved"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Full professional async message example."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Your async communication is clear now."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Clear writing saves meetings."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Summary box."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Nam's English journey continues…"
+        }
+      ]
+    },
+    "japan-culture/66": {
+      "seriesId": "japan-culture",
+      "num": 66,
+      "slug": "walk-me-through-shrine-etiquette",
+      "title": "Walk Me Through Shrine Etiquette",
+      "image": "images/comics/japan-culture/tập-66/japan-culture-tap66-walk-me-through-shrine-etiquette.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "It's my first time at a real shrine."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "Can you walk me through how to pray at a shrine?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Two bows, two claps, one bow — like this."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Let me make sure I got this right."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm not sure I understand this part — the clap timing?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: The Onsen Question"
+        }
+      ]
+    },
+    "japan-culture/67": {
+      "seriesId": "japan-culture",
+      "num": 67,
+      "slug": "the-onsen-question",
+      "title": "The Onsen Question",
+      "image": "images/comics/japan-culture/tập-67/japan-culture-tap67-the-onsen-question.png",
+      "source": "script+verified",
+      "verifyScore": 0.911,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Signs",
+          "text": "wash before bath, no tattoos rule"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm not sure if I should enter before or after dinner."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "What do you mean by 'family bath' here?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Staff",
+          "text": "Small towel stays out of the water."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Could you explain this part again?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Izakaya After Work"
+        }
+      ]
+    },
+    "japan-culture/68": {
+      "seriesId": "japan-culture",
+      "num": 68,
+      "slug": "izakaya-after-work",
+      "title": "Izakaya After Work",
+      "image": "images/comics/japan-culture/tập-68/japan-culture-tap68-izakaya-after-work.png",
+      "source": "script+verified",
+      "verifyScore": 0.986,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Celebration izakaya night!"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm excited about trying real izakaya food."
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "Grilled chicken and edamame — that sounds amazing."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm not really into raw fish, but I'll try the grilled stuff."
+        },
+        {
+          "panel": 5,
+          "speaker": "Team",
+          "text": "Kanpai! Great release week!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Cherry Blossom Dilemma"
+        }
+      ]
+    },
+    "japan-culture/69": {
+      "seriesId": "japan-culture",
+      "num": 69,
+      "slug": "cherry-blossom-dilemma",
+      "title": "Cherry Blossom Dilemma",
+      "image": "images/comics/japan-culture/tập-69/japan-culture-tap69-cherry-blossom-dilemma.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Linh",
+          "text": "Where should we do hanami this weekend?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between Ueno Park and Meguro River."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Meguro is prettier at night."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm leaning toward Meguro because the lights look better."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I think I'll go with Meguro River."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: What Is Omotenashi?"
+        }
+      ]
+    },
+    "japan-culture/70": {
+      "seriesId": "japan-culture",
+      "num": 70,
+      "slug": "what-is-omotenashi",
+      "title": "What Is Omotenashi?",
+      "image": "images/comics/japan-culture/tập-70/japan-culture-tap70-what-is-omotenashi.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm surprised that they bowed so low."
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "It's thoughtful hospitality — no tip expected."
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "Every small detail feels intentional."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm glad that we learned the custom first."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "That was worth it — best meal of the trip."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Summer Festival Night"
+        }
+      ]
+    },
+    "japan-culture/71": {
+      "seriesId": "japan-culture",
+      "num": 71,
+      "slug": "summer-festival-night",
+      "title": "Summer Festival Night",
+      "image": "images/comics/japan-culture/tập-71/japan-culture-tap71-summer-festival-night.png",
+      "source": "script+verified",
+      "verifyScore": 0.833,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm looking for the takoyaki stall."
+        },
+        {
+          "panel": 2,
+          "speaker": "Riku",
+          "text": "How long does it take to get to Asakusa from here?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "The taiko performance — that sounds amazing."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Team watches together."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "This is exactly the Japan experience I wanted."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Japan Culture Finale"
+        }
+      ]
+    },
+    "japan-culture/72": {
+      "seriesId": "japan-culture",
+      "num": 72,
+      "slug": "japan-culture-finale",
+      "title": "Japan Culture Finale",
+      "image": "images/comics/japan-culture/tập-72/japan-culture-tap72-japan-culture-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.967,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Shrine, onsen, izakaya, hanami, festival"
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "You handled every custom situation well."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "It was worth it — I feel more confident in Japan now."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm proud of myself for asking when I wasn't sure."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I look forward to exploring more regions next season."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Akihabara or Nakano Broadway?"
+        }
+      ]
+    },
+    "anime-manga/73": {
+      "seriesId": "anime-manga",
+      "num": 73,
+      "slug": "akihabara-or-nakano-broadway",
+      "title": "Akihabara or Nakano Broadway?",
+      "image": "images/comics/anime-manga/tập-73/anime-manga-tap73-akihabara-or-nakano-broadway.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Where should we go first?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm torn between Akihabara and Nakano Broadway."
+        },
+        {
+          "panel": 3,
+          "speaker": "Linh",
+          "text": "I'm more interested in Nakano for vintage manga."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Akihabara makes more sense to me for my first visit."
+        },
+        {
+          "panel": 5,
+          "speaker": "Team",
+          "text": "Let's do Nakano tomorrow!"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: My First Manga Cafe"
+        }
+      ]
+    },
+    "anime-manga/74": {
+      "seriesId": "anime-manga",
+      "num": 74,
+      "slug": "my-first-manga-cafe",
+      "title": "My First Manga Cafe",
+      "image": "images/comics/anime-manga/tập-74/anime-manga-tap74-my-first-manga-cafe.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Sign",
+          "text": "pay by time, free drink bar"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Can you walk me through how a manga cafe works?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Staff",
+          "text": "Shoes off, locker key here."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Could you show me how to use the locker?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm not sure I understand the time system."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Anime Pilgrimage Day"
+        }
+      ]
+    },
+    "anime-manga/75": {
+      "seriesId": "anime-manga",
+      "num": 75,
+      "slug": "anime-pilgrimage-day",
+      "title": "Anime Pilgrimage Day",
+      "image": "images/comics/anime-manga/tập-75/anime-manga-tap75-anime-pilgrimage-day.png",
+      "source": "script+verified",
+      "verifyScore": 0.944,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm really into this anime — I want the real location."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "Fans call this a 'seichi junrei' spot."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm excited about finding the café from the scene."
+        },
+        {
+          "panel": 4,
+          "speaker": "Riku",
+          "text": "Recreating the scene — that sounds amazing."
+        },
+        {
+          "panel": 5,
+          "speaker": "Fan",
+          "text": "Which episode is this from?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Figure Store Dilemma"
+        }
+      ]
+    },
+    "anime-manga/76": {
+      "seriesId": "anime-manga",
+      "num": 76,
+      "slug": "figure-store-dilemma",
+      "title": "Figure Store Dilemma",
+      "image": "images/comics/anime-manga/tập-76/anime-manga-tap76-figure-store-dilemma.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I can't decide what to buy — everything looks good."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "Quality over quantity."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'd rather get one good figure than three cheap ones."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I think I'll go with this limited edition."
+        },
+        {
+          "panel": 5,
+          "speaker": "Cashier",
+          "text": "Careful — box art is part of the value."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Anime Talk at Team Lunch"
+        }
+      ]
+    },
+    "anime-manga/77": {
+      "seriesId": "anime-manga",
+      "num": 77,
+      "slug": "anime-talk-at-team-lunch",
+      "title": "Anime Talk at Team Lunch",
+      "image": "images/comics/anime-manga/tập-77/anime-manga-tap77-anime-talk-at-team-lunch.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "Anyone watch anime lately?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm not really into sports anime, but I love slice-of-life."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Try this one — the Tokyo locations are real."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Set in Shimokitazawa? That sounds amazing."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "We should hang out at Akihabara sometime."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Anime & Manga Finale"
+        }
+      ]
+    },
+    "anime-manga/78": {
+      "seriesId": "anime-manga",
+      "num": 78,
+      "slug": "anime-manga-finale",
+      "title": "Anime & Manga Finale",
+      "image": "images/comics/anime-manga/tập-78/anime-manga-tap78-anime-manga-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.867,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Nam's otaku weekend highlights"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Everyone names their top anime"
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm glad that we shared our favorites — I learned new shows."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "It was worth it — Japan is anime heaven."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I look forward to Comiket season next time."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Nam's English journey continues…"
+        }
+      ]
+    },
+    "interview-career/79": {
+      "seriesId": "interview-career",
+      "num": 79,
+      "slug": "the-first-phone-screen",
+      "title": "The First Phone Screen",
+      "image": "images/comics/interview-career/tập-79/interview-career-tap79-the-first-phone-screen.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Recruiter",
+          "text": "Tell me a bit about yourself and what you're looking for."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm looking for a role where I can grow as a full-stack engineer."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I see myself growing in system design and cross-team communication."
+        },
+        {
+          "panel": 4,
+          "speaker": "Recruiter",
+          "text": "Why our company?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "What attracted me to this company is the global product impact."
+        },
+        {
+          "panel": 6,
+          "speaker": "Recruiter",
+          "text": "Great — let's schedule the technical round."
+        }
+      ]
+    },
+    "interview-career/80": {
+      "seriesId": "interview-career",
+      "num": 80,
+      "slug": "tell-me-about-a-time-when",
+      "title": "Tell Me About a Time When...",
+      "image": "images/comics/interview-career/tập-80/interview-career-tap80-tell-me-about-a-time-when.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Interviewer",
+          "text": "Tell me about a time when you handled a production incident."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "One challenge I faced was a payment outage before a demo."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I walked the team through the logs and we rolled back safely."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The result was that we saved the demo and added better monitoring."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "What I learned from that was to always run through the main flow early."
+        },
+        {
+          "panel": 6,
+          "speaker": "Interviewer",
+          "text": "Strong example — clear structure."
+        }
+      ]
+    },
+    "interview-career/81": {
+      "seriesId": "interview-career",
+      "num": 81,
+      "slug": "why-do-you-want-this-role",
+      "title": "Why Do You Want This Role?",
+      "image": "images/comics/interview-career/tập-81/interview-career-tap81-why-do-you-want-this-role.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Manager",
+          "text": "Why do you want this role?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Why I'm interested in this role is the chance to own backend services at scale."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm looking for a role where I can work closely with product and QA."
+        },
+        {
+          "panel": 4,
+          "speaker": "Manager",
+          "text": "Where do you see yourself in two years?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I see myself growing into a tech lead who bridges teams."
+        },
+        {
+          "panel": 6,
+          "speaker": "Manager",
+          "text": "That's exactly what we need on this team."
+        }
+      ]
+    },
+    "interview-career/82": {
+      "seriesId": "interview-career",
+      "num": 82,
+      "slug": "the-salary-question",
+      "title": "The Salary Question",
+      "image": "images/comics/interview-career/tập-82/interview-career-tap82-the-salary-question.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Recruiter",
+          "text": "What are your salary expectations?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm looking for a range of ¥8–9M based on my experience."
+        },
+        {
+          "panel": 3,
+          "speaker": "Recruiter",
+          "text": "Our initial offer might be lower."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Would it be possible to include a signing bonus?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'd need at least ¥7.5M to make the move worthwhile."
+        },
+        {
+          "panel": 6,
+          "speaker": "Recruiter",
+          "text": "Let me check with HR and get back to you."
+        }
+      ]
+    },
+    "interview-career/83": {
+      "seriesId": "interview-career",
+      "num": 83,
+      "slug": "questions-for-the-interviewer",
+      "title": "Questions for the Interviewer",
+      "image": "images/comics/interview-career/tập-83/interview-career-tap83-questions-for-the-interviewer.png",
+      "source": "script+verified",
+      "verifyScore": 0.976,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Panel",
+          "text": "Do you have any questions for us?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "What does success look like in this role in the first six months?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Engineer",
+          "text": "Shipping two features independently and mentoring juniors."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "How does the team collaborate across time zones?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Engineer",
+          "text": "We rely on async updates and weekly design reviews."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "That aligns with how I work — thank you for sharing."
+        }
+      ]
+    },
+    "interview-career/84": {
+      "seriesId": "interview-career",
+      "num": 84,
+      "slug": "interview-career-finale",
+      "title": "Interview & Career Finale",
+      "image": "images/comics/interview-career/tập-84/interview-career-tap84-interview-career-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.858,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I got the offer — they liked my STAR stories."
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "Your Tell me about a time when answers were clear and structured."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "What I learned from that was to prepare three strong stories."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'm looking for a role where I can keep growing as a bridge engineer."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "You earned it — your English in interviews leveled up."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I look forward to starting next month."
+        }
+      ]
+    },
+    "negotiation-boundaries/85": {
+      "seriesId": "negotiation-boundaries",
+      "num": 85,
+      "slug": "the-tight-deadline",
+      "title": "The Tight Deadline",
+      "image": "images/comics/negotiation-boundaries/tập-85/negotiation-boundaries-tap85-the-tight-deadline.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "We need the full feature by Friday."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm concerned that the timeline is too tight for proper QA."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "We need to weigh up speed vs stability."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Could we push the deadline back by three days?"
+        },
+        {
+          "panel": 5,
+          "speaker": "PM",
+          "text": "What if we ship MVP Friday and polish next week?"
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "That makes more sense — let's scope down the MVP."
+        }
+      ]
+    },
+    "negotiation-boundaries/86": {
+      "seriesId": "negotiation-boundaries",
+      "num": 86,
+      "slug": "would-it-be-possible-to",
+      "title": "Would It Be Possible To...?",
+      "image": "images/comics/negotiation-boundaries/tập-86/negotiation-boundaries-tap86-would-it-be-possible-to.png",
+      "source": "script+verified",
+      "verifyScore": 0.917,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "Can you also add admin dashboard this sprint?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Would it be possible to move that to next sprint?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'd be more comfortable if we finish payment first."
+        },
+        {
+          "panel": 4,
+          "speaker": "PM",
+          "text": "What would it take to do both?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "We'd need at least one more engineer or cut scope."
+        },
+        {
+          "panel": 6,
+          "speaker": "PM",
+          "text": "Fair — let's prioritize payment and plan admin for Q2."
+        }
+      ]
+    },
+    "negotiation-boundaries/87": {
+      "seriesId": "negotiation-boundaries",
+      "num": 87,
+      "slug": "thats-outside-the-scope",
+      "title": "That's Outside the Scope",
+      "image": "images/comics/negotiation-boundaries/tập-87/negotiation-boundaries-tap87-thats-outside-the-scope.png",
+      "source": "script+verified",
+      "verifyScore": 0.981,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "While you're at it, add multi-currency support too."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "That's outside the original scope for this release."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Classic scope creep — let's document the change."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'd need at least two extra weeks for multi-currency."
+        },
+        {
+          "panel": 5,
+          "speaker": "PM",
+          "text": "Okay — let's create a separate ticket and timeline."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Happy to help, but we'll need a new sprint plan."
+        }
+      ]
+    },
+    "negotiation-boundaries/88": {
+      "seriesId": "negotiation-boundaries",
+      "num": 88,
+      "slug": "push-back-on-scope-creep",
+      "title": "Push Back on Scope Creep",
+      "image": "images/comics/negotiation-boundaries/tập-88/negotiation-boundaries-tap88-push-back-on-scope-creep.png",
+      "source": "script+verified",
+      "verifyScore": 0.955,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM in Slack",
+          "text": "Also refactor the whole module please."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Let me push back on that for this week."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "I'm happy to help, but we'll need to split it into phases."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "Good push back — always tie it to timeline and risk."
+        },
+        {
+          "panel": 5,
+          "speaker": "PM",
+          "text": "You're right. Phase 1 this sprint, refactor later."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Setting boundaries saved us from another crunch week."
+        }
+      ]
+    },
+    "negotiation-boundaries/89": {
+      "seriesId": "negotiation-boundaries",
+      "num": 89,
+      "slug": "negotiation-boundaries-finale",
+      "title": "Negotiation & Boundaries Finale",
+      "image": "images/comics/negotiation-boundaries/tập-89/negotiation-boundaries-tap89-negotiation-boundaries-finale.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "You handled scope requests much better this sprint."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Would it be possible to... is my go-to opener now."
+        },
+        {
+          "panel": 3,
+          "speaker": "Aoi",
+          "text": "Saying that's outside the original scope protects the team."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "We compromised on MVP scope instead of crunching."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "Clear boundaries make QA planning easier too."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I can push back without burning bridges."
+        }
+      ]
+    },
+    "giving-feedback/90": {
+      "seriesId": "giving-feedback",
+      "num": 90,
+      "slug": "preparing-for-the-1-on-1",
+      "title": "Preparing for the 1-on-1",
+      "image": "images/comics/giving-feedback/tập-90/giving-feedback-tap90-preparing-for-the-1-on-1.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "What's on your mind this week?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "What would help you most right now on the payment project?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Let's set a goal for next week — ship the cache fix."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'll check in with QA before we deploy."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "And I'll check in with you on the design doc."
+        },
+        {
+          "panel": 6,
+          "speaker": "Both",
+          "text": "Good 1-on-1 — clear next steps."
+        }
+      ]
+    },
+    "giving-feedback/91": {
+      "seriesId": "giving-feedback",
+      "num": 91,
+      "slug": "one-thing-that-went-well-was",
+      "title": "One Thing That Went Well Was...",
+      "image": "images/comics/giving-feedback/tập-91/giving-feedback-tap91-one-thing-that-went-well-was.png",
+      "source": "script+verified",
+      "verifyScore": 0.976,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "One thing that went well was your test coverage."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I appreciate how you handled the review comments quickly."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "One area to improve would be the PR description summary."
+        },
+        {
+          "panel": 4,
+          "speaker": "Junior",
+          "text": "Thanks — I'll add a summary section next time."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "Good sandwich — positive, improve, support."
+        },
+        {
+          "panel": 6,
+          "speaker": "Junior",
+          "text": "That feedback felt clear, not harsh."
+        }
+      ]
+    },
+    "giving-feedback/92": {
+      "seriesId": "giving-feedback",
+      "num": 92,
+      "slug": "id-suggest-trying",
+      "title": "I'd Suggest Trying...",
+      "image": "images/comics/giving-feedback/tập-92/giving-feedback-tap92-id-suggest-trying.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Junior",
+          "text": "I've been debugging this API issue for hours."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'd suggest trying to reproduce it with a smaller payload first."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Have you considered checking the cache headers?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Junior",
+          "text": "Oh — that fixed it. Thanks!"
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "Good mentoring — you helped them step up independently."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Suggesting beats solving it for them."
+        }
+      ]
+    },
+    "giving-feedback/93": {
+      "seriesId": "giving-feedback",
+      "num": 93,
+      "slug": "how-can-i-support-you",
+      "title": "How Can I Support You?",
+      "image": "images/comics/giving-feedback/tập-93/giving-feedback-tap93-how-can-i-support-you.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Junior",
+          "text": "I'm worried about the upcoming demo."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "How can I support you before demo day?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Junior",
+          "text": "A mock run-through would help most."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Let's do a dry run tomorrow at 3pm."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "That question opens space for real support."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "You're growing into a confident presenter."
+        }
+      ]
+    },
+    "giving-feedback/94": {
+      "seriesId": "giving-feedback",
+      "num": 94,
+      "slug": "feedback-1-on-1-finale",
+      "title": "Feedback & 1-on-1 Finale",
+      "image": "images/comics/giving-feedback/tập-94/giving-feedback-tap94-feedback-1-on-1-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.958,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Kenji",
+          "text": "1-on-1s feel more useful lately."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "One thing that went well was asking How can I support you?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Junior",
+          "text": "I'd suggest trying mock demos — that changed everything for me."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'll follow up on your growth plan next month."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "You're leading through conversations, not commands."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Feedback English is a skill — and I'm getting better."
+        }
+      ]
+    },
+    "presentation-pitch/95": {
+      "seriesId": "presentation-pitch",
+      "num": 95,
+      "slug": "structuring-the-demo",
+      "title": "Structuring the Demo",
+      "image": "images/comics/presentation-pitch/tập-95/presentation-pitch-tap95-structuring-the-demo.png",
+      "source": "script+verified",
+      "verifyScore": 0.867,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Aoi",
+          "text": "Start with the problem, not the code."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'll keep this brief — three parts: problem, solution, results."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The main problem we're solving is failed checkouts at peak traffic."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "We added caching and a retry queue."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "To summarize — 40% faster and 99.9% success rate."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Clear structure — ready for stakeholders."
+        }
+      ]
+    },
+    "presentation-pitch/96": {
+      "seriesId": "presentation-pitch",
+      "num": 96,
+      "slug": "walk-through-the-demo",
+      "title": "Let Me Walk You Through the Demo",
+      "image": "images/comics/presentation-pitch/tập-96/presentation-pitch-tap96-walk-through-the-demo.png",
+      "source": "script+verified",
+      "verifyScore": 0.792,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "Show us the new checkout flow."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Let me walk you through the happy path first."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "As you can see on this slide, latency dropped after caching."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'll run through a test purchase now."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Checkout completes — team claps"
+        },
+        {
+          "panel": 6,
+          "speaker": "PM",
+          "text": "Clean demo — very easy to follow."
+        }
+      ]
+    },
+    "presentation-pitch/97": {
+      "seriesId": "presentation-pitch",
+      "num": 97,
+      "slug": "the-key-takeaway-is",
+      "title": "The Key Takeaway Is...",
+      "image": "images/comics/presentation-pitch/tập-97/presentation-pitch-tap97-the-key-takeaway-is.png",
+      "source": "script+verified",
+      "verifyScore": 0.889,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Investor",
+          "text": "What's the one thing we should remember?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "The key takeaway is reliability under traffic spikes."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Here's what changed since last time — we cut errors by half."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Let me break down the numbers on this chart."
+        },
+        {
+          "panel": 5,
+          "speaker": "Investor",
+          "text": "Clear takeaway — I get the business impact."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Strong close — always land the takeaway."
+        }
+      ]
+    },
+    "presentation-pitch/98": {
+      "seriesId": "presentation-pitch",
+      "num": 98,
+      "slug": "handling-tough-questions",
+      "title": "Handling Tough Questions",
+      "image": "images/comics/presentation-pitch/tập-98/presentation-pitch-tap98-handling-tough-questions.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Any questions on this part before we wrap up?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Investor",
+          "text": "What if traffic grows 10x next month?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "That's a great question — let me show our scaling plan."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "We can handle 3x today; for 10x we need the queue migration."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'll circle back with a detailed capacity doc by Friday."
+        },
+        {
+          "panel": 6,
+          "speaker": "Investor",
+          "text": "Honest answer — I appreciate the transparency."
+        }
+      ]
+    },
+    "presentation-pitch/99": {
+      "seriesId": "presentation-pitch",
+      "num": 99,
+      "slug": "presentation-pitch-finale",
+      "title": "Presentation & Pitch Finale",
+      "image": "images/comics/presentation-pitch/tập-99/presentation-pitch-tap99-presentation-pitch-finale.png",
+      "source": "script+verified",
+      "verifyScore": 0.917,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "Team high-five after investor meeting"
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "Your Let me walk you through flow was smooth."
+        },
+        {
+          "panel": 3,
+          "speaker": "PM",
+          "text": "The key takeaway is line landed perfectly."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I handled tough questions without panicking."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I look forward to the product launch demo next month."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Presentation English — unlocked."
+        }
+      ]
+    },
+    "incident-postmortem/100": {
+      "seriesId": "incident-postmortem",
+      "num": 100,
+      "slug": "the-war-room",
+      "title": "The War Room",
+      "image": "images/comics/incident-postmortem/tập-100/incident-postmortem-tap100-the-war-room.png",
+      "source": "script+verified",
+      "verifyScore": 0.972,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PagerDuty",
+          "text": "Checkout error rate > 15%"
+        },
+        {
+          "panel": 2,
+          "speaker": "Kenji",
+          "text": "Let's focus on the facts, not blame — status first."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "What we know so far is API timeouts on payment service."
+        },
+        {
+          "panel": 4,
+          "speaker": "Aoi",
+          "text": "I'll dig into the database metrics."
+        },
+        {
+          "panel": 5,
+          "speaker": "Linh",
+          "text": "Last deploy was 2 hours ago — possible correlation."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Good — keep updates every 15 minutes."
+        }
+      ]
+    },
+    "incident-postmortem/101": {
+      "seriesId": "incident-postmortem",
+      "num": 101,
+      "slug": "what-we-know-so-far-is",
+      "title": "What We Know So Far Is...",
+      "image": "images/comics/incident-postmortem/tập-101/incident-postmortem-tap101-what-we-know-so-far-is.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "What's the customer impact?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "What we know so far is 12% of checkouts are failing."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "The impact was that EU users couldn't complete purchases."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "The timeline of events was: deploy at 8pm, errors at 8:45pm."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "We rolled back at 9:10pm — errors dropping now."
+        },
+        {
+          "panel": 6,
+          "speaker": "PM",
+          "text": "Clear update — thanks for the timeline."
+        }
+      ]
+    },
+    "incident-postmortem/102": {
+      "seriesId": "incident-postmortem",
+      "num": 102,
+      "slug": "root-cause-analysis",
+      "title": "Root Cause Analysis",
+      "image": "images/comics/incident-postmortem/tập-102/incident-postmortem-tap102-root-cause-analysis.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Aoi",
+          "text": "Logs show cache invalidation errors."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Root cause appears to be stale cache keys after deploy."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "It seems like the new TTL config wasn't applied."
+        },
+        {
+          "panel": 4,
+          "speaker": "Linh",
+          "text": "This might be caused by a missing env variable in staging."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "Let's verify before we finalize the postmortem."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Process gap, not person fault."
+        }
+      ]
+    },
+    "incident-postmortem/103": {
+      "seriesId": "incident-postmortem",
+      "num": 103,
+      "slug": "action-items-going-forward",
+      "title": "Action Items Going Forward",
+      "image": "images/comics/incident-postmortem/tập-103/incident-postmortem-tap103-action-items-going-forward.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Title",
+          "text": "Checkout Incident — Action Items"
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We mitigated the issue by rolling back within 25 minutes."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "To prevent this from happening again, we'll add a cache integration test."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Action items going forward: update runbook, fix env check, schedule game day."
+        },
+        {
+          "panel": 5,
+          "speaker": "Aoi",
+          "text": "I'll own the runbook update by Friday."
+        },
+        {
+          "panel": 6,
+          "speaker": "Kenji",
+          "text": "Clear actions — no blame, just improvement."
+        }
+      ]
+    },
+    "incident-postmortem/104": {
+      "seriesId": "incident-postmortem",
+      "num": 104,
+      "slug": "postmortem-finale",
+      "title": "Postmortem Finale",
+      "image": "images/comics/incident-postmortem/tập-104/incident-postmortem-tap104-postmortem-finale.png",
+      "source": "script+verified",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Leadership",
+          "text": "Walk us through the incident briefly."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "What we know so far is covered in the doc — 12% impact, 25-min recovery."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Root cause appears to be cache config — fixed and tested."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Action items going forward are assigned with owners and dates."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "I'll follow up on the game day drill next sprint."
+        },
+        {
+          "panel": 6,
+          "speaker": "Leadership",
+          "text": "Blameless, clear, actionable — well done."
+        }
+      ]
+    }
+  }
+}

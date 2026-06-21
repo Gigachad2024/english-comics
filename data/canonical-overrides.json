@@ -1,0 +1,276 @@
+{
+  "overrides": {
+    "bug-arc-1/3": [
+      {"panel": 1, "speaker": "Nam", "text": "These dashboards are way too slow..."},
+      {"panel": 2, "speaker": "Nam", "text": "I can't decide between Redis and the database only."},
+      {"panel": 3, "speaker": "Aoi", "text": "Let's narrow down the issue first."},
+      {"panel": 4, "speaker": "Kenji", "text": "We need to weigh up speed, cost, and complexity."},
+      {"panel": 5, "speaker": "Nam", "text": "Redis makes more sense to me for this case."},
+      {"panel": 6, "speaker": "Nam", "text": "Rollback... or hotfix? This could get tricky!"}
+    ],
+    "bug-arc-1/5": [
+      {"panel": 1, "speaker": "Nam", "text": "Morning commute in Tokyo."},
+      {"panel": 2, "speaker": "Nam", "text": "I'm debating whether to learn Go or improve my frontend skills."},
+      {"panel": 3, "speaker": "Nam", "text": "I'm more interested in backend systems these days."},
+      {"panel": 4, "speaker": "Nam", "text": "I prefer backend to frontend right now."},
+      {"panel": 5, "speaker": "Nam", "text": "I'm into building APIs. I think I'll go with Go."},
+      {"panel": 6, "speaker": "Nam", "text": "But I still need to think it over tonight."}
+    ],
+    "bug-arc-1/6": [
+      {"panel": 1, "speaker": "Nam", "text": "Late-night thoughts at a Tokyo café."},
+      {"panel": 2, "speaker": "Nam", "text": "I have no idea how to plan my learning roadmap."},
+      {"panel": 3, "speaker": "Nam", "text": "I'm wondering whether to study tonight or sleep."},
+      {"panel": 4, "speaker": "Nam", "text": "Maybe I should think it over first."},
+      {"panel": 5, "speaker": "Nam", "text": "This is a big decision. I'll sleep on it."},
+      {"panel": 6, "speaker": "Nam", "text": "A clear mind after a good sleep."}
+    ],
+    "bug-arc-1/7": [
+      {"panel": 1, "speaker": "Nam", "text": "Good morning, everyone!"},
+      {"panel": 2, "speaker": "Nam", "text": "After thinking it over, I settled on Go."},
+      {"panel": 3, "speaker": "Linh", "text": "What's making you choose that?"},
+      {"panel": 4, "speaker": "Nam", "text": "Backend makes more sense to me right now."},
+      {"panel": 5, "speaker": "Kenji", "text": "I'd rather study a little every day than rush."},
+      {"panel": 6, "speaker": "Nam", "text": "Hmm... what should I order?"}
+    ],
+    "bug-arc-1/8": [
+      {"panel": 1, "speaker": "Friend", "text": "Nighttime team dinner at a lively Tokyo izakaya."},
+      {"panel": 2, "speaker": "Nam", "text": "I can't decide what to order."},
+      {"panel": 3, "speaker": "Nam", "text": "I prefer sushi to ramen tonight."},
+      {"panel": 4, "speaker": "Nam", "text": "I'll pass on that. I'm not really into spicy food."},
+      {"panel": 5, "speaker": "Nam", "text": "I think I'll go with matcha ice cream."},
+      {"panel": 6, "speaker": "Kenji", "text": "By the way, team — how about our next trip? Tokyo or Osaka?"}
+    ],
+    "bug-arc-2/6": [
+      {"panel": 1, "speaker": "Linh", "text": "A new QA discovery just came in."},
+      {"panel": 2, "speaker": "Kenji", "text": "The release plan might fall through if this bug stays open."},
+      {"panel": 3, "speaker": "Nam", "text": "I have a different take."},
+      {"panel": 4, "speaker": "Kenji", "text": "I see your point, but we need more testing."},
+      {"panel": 5, "speaker": "Linh", "text": "The bug affects mobile checkout only."},
+      {"panel": 6, "speaker": "Nam", "text": "We can isolate the impact, ship a scoped fix, and protect the release."}
+    ],
+    "bug-arc-2/7": [
+      {"panel": 1, "speaker": "Nam", "text": "The issue is that cached data stays stale after payment."},
+      {"panel": 2, "speaker": "Nam", "text": "I agree with that."},
+      {"panel": 3, "speaker": "Nam", "text": "Then let's follow through."},
+      {"panel": 4, "speaker": "Aoi", "text": "Step one is in."},
+      {"panel": 5, "speaker": "Linh", "text": "Tests are green."},
+      {"panel": 6, "speaker": "Kenji", "text": "Great work, everyone."}
+    ],
+    "bug-arc-2/9": [
+      {"panel": 1, "speaker": "Kenji", "text": "The final decision before release."},
+      {"panel": 2, "speaker": "Nam", "text": "We need to think through the risks."},
+      {"panel": 3, "speaker": "Kenji", "text": "I see your point, but I have a different take."},
+      {"panel": 4, "speaker": "Nam", "text": "I think we should release only after QA signs off."},
+      {"panel": 5, "speaker": "Kenji", "text": "Agreed. Let's wait for QA sign-off."},
+      {"panel": 6, "speaker": "Nam", "text": "Decision locked. Quality first, release next."}
+    ],
+    "bug-arc-2/10": [
+      {"panel": 1, "speaker": "Linh", "text": "Test progress is at 100% — we're ready."},
+      {"panel": 2, "speaker": "Nam", "text": "We ran through the final demo flow."},
+      {"panel": 3, "speaker": "Kenji", "text": "The API is returning normal data now."},
+      {"panel": 4, "speaker": "Nam", "text": "Let's follow through with the safer release."},
+      {"panel": 5, "speaker": "Kenji", "text": "QA sign-off complete — release approved! Great work, team!"},
+      {"panel": 6, "speaker": "Nam", "text": "Safer today, stronger tomorrow."}
+    ],
+    "bug-arc-3/5": [
+      {"panel": 1, "speaker": "Linh", "text": "We need to get through the QA checklist."},
+      {"panel": 2, "speaker": "Nam", "text": "I see your point, but we still have a blocker on mobile."},
+      {"panel": 3, "speaker": "Kenji", "text": "I'm not sure I agree."},
+      {"panel": 4, "speaker": "Linh", "text": "I think we should retest before release."},
+      {"panel": 5, "speaker": "Linh", "text": "The bug affects payment confirmation."},
+      {"panel": 6, "speaker": "Nam", "text": "Quality first."}
+    ],
+    "bug-arc-3/6": [
+      {"panel": 1, "speaker": "Nam", "text": "A rollback makes more sense to me."},
+      {"panel": 2, "speaker": "Nam", "text": "I think I'll go with a rollback."},
+      {"panel": 3, "speaker": "Linh", "text": "Let's stick with the safer approach."},
+      {"panel": 4, "speaker": "Kenji", "text": "We can rule out a full refactor for now."},
+      {"panel": 5, "speaker": "Nam", "text": "I agree with that."},
+      {"panel": 6, "speaker": "Nam", "text": "Let's do this the smart way. Ship safe. Improve fast."}
+    ],
+    "bug-arc-3/7": [
+      {"panel": 1, "speaker": "Nam", "text": "Let's run through the demo flow."},
+      {"panel": 2, "speaker": "Nam", "text": "We should go through the logs one more time."},
+      {"panel": 3, "speaker": "Kenji", "text": "I prefer stability to speed."},
+      {"panel": 4, "speaker": "Linh", "text": "We need to think it over carefully."},
+      {"panel": 5, "speaker": "Nam", "text": "I'm more interested in a safe release than a fast release."},
+      {"panel": 6, "speaker": "Linh", "text": "Tests are green."}
+    ],
+    "bug-arc-3/8": [
+      {"panel": 1, "speaker": "Nam", "text": "The release plan might fall through."},
+      {"panel": 2, "speaker": "Linh", "text": "We need to think through the risks."},
+      {"panel": 3, "speaker": "Aoi", "text": "If we decide to rollback, we need to follow through."},
+      {"panel": 4, "speaker": "Kenji", "text": "I see your point, but I have a different take."},
+      {"panel": 5, "speaker": "Linh", "text": "It comes down to risk and timeline."},
+      {"panel": 6, "speaker": "Nam", "text": "We need a clear decision before the release window closes."}
+    ],
+    "bug-arc-3/9": [
+      {"panel": 1, "speaker": "Nam", "text": "The issue is that the payment API failed on mobile."},
+      {"panel": 2, "speaker": "Nam", "text": "It seems like stale cache caused incorrect data."},
+      {"panel": 3, "speaker": "Nam", "text": "This service acts as a bridge between the frontend and the payment system."},
+      {"panel": 4, "speaker": "Nam", "text": "The frontend relies on this API."},
+      {"panel": 5, "speaker": "Nam", "text": "We got through the QA checklist and ran through the demo flow."},
+      {"panel": 6, "speaker": "Nam", "text": "Let's follow through with the safer release."}
+    ],
+    "career-growth/43": [
+      {"panel": 1, "speaker": "Nam", "text": "I see your point, but I'm not sure I agree."},
+      {"panel": 2, "speaker": "Kenji", "text": "Let's ship a quick frontend patch to hide the error state."},
+      {"panel": 3, "speaker": "Nam", "text": "I have a different take."},
+      {"panel": 4, "speaker": "Nam", "text": "The frontend relies on this API to load user data."},
+      {"panel": 5, "speaker": "Nam", "text": "We need to think through the risks."},
+      {"panel": 6, "speaker": "Aoi", "text": "Let's investigate the API error first."}
+    ],
+    "career-growth/49": [
+      {"panel": 1, "speaker": "Kenji", "text": "We need to decide what to focus on this sprint."},
+      {"panel": 2, "speaker": "Nam", "text": "I'm debating whether to support the new feature now or improve stability first."},
+      {"panel": 3, "speaker": "Nam", "text": "I see your point, but I have a different take."},
+      {"panel": 4, "speaker": "Nam", "text": "We need to weigh up speed, safety, and maintainability."},
+      {"panel": 5, "speaker": "Nam", "text": "I'd opt for improving stability first."},
+      {"panel": 6, "speaker": "Nam", "text": "It comes down to user trust."}
+    ],
+    "living/29": [
+      {"panel": 1, "speaker": "Nam", "text": "I'm running late."},
+      {"panel": 2, "speaker": "Nam", "text": "I have no idea which exit to take."},
+      {"panel": 3, "speaker": "Nam", "text": "Can you show me how to get to the west exit?"},
+      {"panel": 4, "speaker": "Staff", "text": "Could you say that again?"},
+      {"panel": 5, "speaker": "Nam", "text": "I'll be there in 10 minutes."},
+      {"panel": 6, "speaker": "Nam", "text": "Found it — west exit!"}
+    ],
+    "living/30": [
+      {"panel": 1, "speaker": "Agent", "text": "Welcome! Here are the rental application forms."},
+      {"panel": 2, "speaker": "Nam", "text": "I need to fill out this form."},
+      {"panel": 3, "speaker": "Nam", "text": "Do you have an English version of this form?"},
+      {"panel": 4, "speaker": "Nam", "text": "I'm not sure what to write here."},
+      {"panel": 5, "speaker": "Nam", "text": "Just to clarify, do you mean my current address or my new address?"},
+      {"panel": 6, "speaker": "Nam", "text": "I'll check with Aoi and get back to you."}
+    ],
+    "living/35": [
+      {"panel": 1, "speaker": "Nam", "text": "My first remote meeting from home..."},
+      {"panel": 2, "speaker": "Kenji", "text": "Can you walk me through the payment flow?"},
+      {"panel": 3, "speaker": "Linh", "text": "Let's run through the logs quickly."},
+      {"panel": 4, "speaker": "Aoi", "text": "We need to think through the risks."},
+      {"panel": 5, "speaker": "Nam", "text": "I'm not sure I agree with deploying tonight."},
+      {"panel": 6, "speaker": "Linh", "text": "That makes sense."}
+    ],
+    "living/36": [
+      {"panel": 1, "speaker": "Nam", "text": "We need to follow through on this fix."},
+      {"panel": 2, "speaker": "Linh", "text": "Let's work through the bug step by step."},
+      {"panel": 3, "speaker": "Kenji", "text": "I'm worried about the deadline."},
+      {"panel": 4, "speaker": "Nam", "text": "I traced the issue. The payment gateway was timing out before sending a response."},
+      {"panel": 5, "speaker": "Linh", "text": "It was worth it."},
+      {"panel": 6, "speaker": "Nam", "text": "One problem fixed. Next up: more tests and monitoring."}
+    ],
+    "living/37": [
+      {"panel": 1, "speaker": "Nam", "text": "I'm running late for my clinic appointment."},
+      {"panel": 2, "speaker": "Nam", "text": "I have an appointment at 9 AM."},
+      {"panel": 3, "speaker": "Nam", "text": "I'm not sure how to explain my symptoms."},
+      {"panel": 4, "speaker": "Staff", "text": "Could you speak a little more slowly?"},
+      {"panel": 5, "speaker": "Nam", "text": "Sure, thank you. That helps a lot."},
+      {"panel": 6, "speaker": "Nam", "text": "I'm glad that the staff helped me."}
+    ],
+    "living/38": [
+      {"panel": 1, "speaker": "Nam", "text": "I'm getting used to life in Japan."},
+      {"panel": 2, "speaker": "Nam", "text": "I didn't expect Tokyo to feel this peaceful."},
+      {"panel": 3, "speaker": "Nam", "text": "Everything is so new..."},
+      {"panel": 4, "speaker": "Nam", "text": "It feels like home now."},
+      {"panel": 5, "speaker": "Nam", "text": "This street brings back memories from our trip."},
+      {"panel": 6, "speaker": "Nam", "text": "I came across a nice little café."}
+    ],
+    "living/39": [
+      {"panel": 1, "speaker": "Nam", "text": "Great job, team! The release was such a win!"},
+      {"panel": 2, "speaker": "Nam", "text": "I'm not really into spicy food."},
+      {"panel": 3, "speaker": "Aoi", "text": "I'm more interested in local dishes."},
+      {"panel": 4, "speaker": "Kenji", "text": "I'd rather try something simple than order too much."},
+      {"panel": 5, "speaker": "Nam", "text": "I think I'll go with this one."},
+      {"panel": 6, "speaker": "Linh", "text": "That sounds amazing."}
+    ],
+    "traveling/12": [
+      {"panel": 1, "speaker": "Friend", "text": "The team has arrived in Japan!"},
+      {"panel": 2, "speaker": "Nam", "text": "I prefer taking the train to taking a taxi."},
+      {"panel": 3, "speaker": "Mai", "text": "Taking the train makes more sense to me."},
+      {"panel": 4, "speaker": "Tuan", "text": "I'd rather take the train than sit in traffic."},
+      {"panel": 5, "speaker": "Nam", "text": "Let's go with the train."},
+      {"panel": 6, "speaker": "Linh", "text": "Shinkansen, here we come!"}
+    ],
+    "traveling/13": [
+      {"panel": 1, "speaker": "Nam", "text": "I'm not sure if this hotel is a good choice."},
+      {"panel": 2, "speaker": "Nam", "text": "We can rule out this hotel because it's too far."},
+      {"panel": 3, "speaker": "Friend", "text": "I'll pass on the hotel that is too far from the city center."},
+      {"panel": 4, "speaker": "Nam", "text": "Let's narrow it down to two hotels."},
+      {"panel": 5, "speaker": "Friend", "text": "Great! Staying closer means more time to explore and less time on the train."},
+      {"panel": 6, "speaker": "Nam", "text": "Next stop: Osaka! Let's keep the same location rule."}
+    ],
+    "traveling/15": [
+      {"panel": 1, "speaker": "Nam", "text": "After thinking it over, we settled on Osaka."},
+      {"panel": 2, "speaker": "Nam", "text": "Osaka makes more sense because the food scene is amazing."},
+      {"panel": 3, "speaker": "Nam", "text": "I think I'll go with Osaka."},
+      {"panel": 4, "speaker": "Aoi", "text": "Let's stick with the current itinerary."},
+      {"panel": 5, "speaker": "Nam", "text": "Osaka it is! Let's make epic memories!"},
+      {"panel": 6, "speaker": "Friend", "text": "New city, new energy, new stories."}
+    ],
+    "traveling/17": [
+      {"panel": 1, "speaker": "Nam", "text": "We've got one more day in Osaka. What should we do?"},
+      {"panel": 2, "speaker": "Friend", "text": "I'm more interested in food tours than shopping."},
+      {"panel": 3, "speaker": "Aoi", "text": "I like local food more than shopping malls."},
+      {"panel": 4, "speaker": "Kenji", "text": "A food tour makes more sense to me."},
+      {"panel": 5, "speaker": "Kenji", "text": "I'd rather try local food than buy souvenirs."},
+      {"panel": 6, "speaker": "Nam", "text": "Let's eat, explore, and make amazing memories together!"}
+    ],
+    "traveling/19": [
+      {"panel": 1, "speaker": "Nam", "text": "Can you walk me through the route?"},
+      {"panel": 2, "speaker": "Aoi", "text": "Let's run through the plan one more time."},
+      {"panel": 3, "speaker": "Aoi", "text": "We need to get through the station before rush hour."},
+      {"panel": 4, "speaker": "Kenji", "text": "Plan ahead, travel smooth."},
+      {"panel": 5, "speaker": "Nam", "text": "IC card in, confidence up!"},
+      {"panel": 6, "speaker": "Kenji", "text": "Plan locked. Let's make today unforgettable!"}
+    ],
+    "traveling/20": [
+      {"panel": 1, "speaker": "Nam", "text": "I'm debating whether to go now or wait until tomorrow."},
+      {"panel": 2, "speaker": "Nam", "text": "We need to think through the timing."},
+      {"panel": 3, "speaker": "Nam", "text": "It comes down to whether we can catch the next train."},
+      {"panel": 4, "speaker": "Friend", "text": "I think Kyoto is better because the sunset looks beautiful."},
+      {"panel": 5, "speaker": "Nam", "text": "Let's go! Kyoto, here we come!"},
+      {"panel": 6, "speaker": "Nam", "text": "Kyoto awaits — tradition, beauty, memories."}
+    ],
+    "traveling/21": [
+      {"panel": 1, "speaker": "Friend", "text": "Should we wake up early for Mount Fuji?"},
+      {"panel": 2, "speaker": "Nam", "text": "I don't know if we should go early or sleep more."},
+      {"panel": 3, "speaker": "Friend", "text": "I'd rather wake up early than miss the view."},
+      {"panel": 4, "speaker": "Kenji", "text": "Fuji makes more sense to me because this is a rare chance."},
+      {"panel": 5, "speaker": "Nam", "text": "Team decision: Let's wake up early and go see Fuji!"},
+      {"panel": 6, "speaker": "Nam", "text": "Good night, team — alarms set for Fuji morning!"}
+    ],
+    "traveling/22": [
+      {"panel": 1, "speaker": "Friend", "text": "We're up early and on track! Mount Fuji, here we come!"},
+      {"panel": 2, "speaker": "Friend", "text": "Let's stick with the current plan."},
+      {"panel": 3, "speaker": "Kenji", "text": "We can rule out the late train."},
+      {"panel": 4, "speaker": "Nam", "text": "I'll opt for the early train."},
+      {"panel": 5, "speaker": "Kenji", "text": "We need to follow through on the plan."},
+      {"panel": 6, "speaker": "Nam", "text": "Mount Fuji is waiting — let's keep our backup plans ready."}
+    ],
+    "traveling/23": [
+      {"panel": 1, "speaker": "Friend", "text": "The plan might fall through because of the rain."},
+      {"panel": 2, "speaker": "Nam", "text": "I'm not sure I agree with canceling right away."},
+      {"panel": 3, "speaker": "Nam", "text": "Let's work through our backup options."},
+      {"panel": 4, "speaker": "Friend", "text": "Flexibility makes the journey better."},
+      {"panel": 5, "speaker": "Friend", "text": "Let's wait a bit, enjoy the café, and recheck the weather!"},
+      {"panel": 6, "speaker": "Friend", "text": "Look! The sky might clear up later!"}
+    ],
+    "traveling/24": [
+      {"panel": 1, "speaker": "Nam", "text": "Look...!"},
+      {"panel": 2, "speaker": "Friend", "text": "It's beautiful!"},
+      {"panel": 3, "speaker": "Nam", "text": "I'm glad we didn't give up."},
+      {"panel": 4, "speaker": "Nam", "text": "It came down to patience and timing."},
+      {"panel": 5, "speaker": "Nam", "text": "I think this trip made me more confident."},
+      {"panel": 6, "speaker": "Nam", "text": "Let's head back to Tokyo with full hearts!"}
+    ],
+    "traveling/25": [
+      {"panel": 1, "speaker": "Nam", "text": "We're back in Tokyo. What a journey."},
+      {"panel": 2, "speaker": "Nam", "text": "At first, I didn't know what to say."},
+      {"panel": 3, "speaker": "Nam", "text": "I can say what I prefer, what I'm unsure about, and what makes sense to me."},
+      {"panel": 4, "speaker": "Nam", "text": "I think I'll keep practicing."},
+      {"panel": 5, "speaker": "Nam", "text": "We didn't just visit Japan — we grew together."},
+      {"panel": 6, "speaker": "Nam", "text": "Thank you, Tokyo! Thank you, team!"}
+    ]
+  }
+}

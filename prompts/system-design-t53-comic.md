@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Slow reads on dashboard. Dialogue: Nam: "The issue is that every request hits the database."
-- **Panel 2:** Redis diagram on monitor. Dialogue: Aoi: "Redis can act as a cache layer here."
-- **Panel 3:** Cache hit/miss flow. Dialogue: Nam: "It seems like we're not caching user profile data."
-- **Panel 4:** Linh asks about stale data. Dialogue: Linh: "What if the cache is stale?"
-- **Panel 5:** TTL strategy whiteboard. Dialogue: Nam: "We could rely on Redis for reads and keep DB as source of truth."
-- **Panel 6:** Hook. Dialogue: Next: Queue Saves the Day
+- **Panel 1:** Scene. Dialogue: Nam: "The issue is that every request hits the database."
+- **Panel 2:** Scene. Dialogue: Aoi: "Redis can act as a cache layer here."
+- **Panel 3:** Scene. Dialogue: Nam: "It seems like we're not caching user profile data."
+- **Panel 4:** Scene. Dialogue: Linh: "What if the cache is stale?"
+- **Panel 5:** Scene. Dialogue: Nam: "We could rely on Redis for reads and keep DB as source of truth."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Queue Saves the Day"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "The issue is that every request hits the database."
+  },
+  {
+    "panel": 2,
+    "speaker": "Aoi",
+    "text": "Redis can act as a cache layer here."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "It seems like we're not caching user profile data."
+  },
+  {
+    "panel": 4,
+    "speaker": "Linh",
+    "text": "What if the cache is stale?"
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "We could rely on Redis for reads and keep DB as source of truth."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Queue Saves the Day"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Slow reads on dashboard.. Speech: Nam: "The issue is that every request hits the database."
-Panel 2: Redis diagram on monitor.. Speech: Aoi: "Redis can act as a cache layer here."
-Panel 3: Cache hit/miss flow.. Speech: Nam: "It seems like we're not caching user profile data."
-Panel 4: Linh asks about stale data.. Speech: Linh: "What if the cache is stale?"
-Panel 5: TTL strategy whiteboard.. Speech: Nam: "We could rely on Redis for reads and keep DB as source of truth."
-Panel 6: Hook.. Speech: Next: Queue Saves the Day
+Panel 1: Story beat. Speech: Nam: "The issue is that every request hits the database."
+Panel 2: Story beat. Speech: Aoi: "Redis can act as a cache layer here."
+Panel 3: Story beat. Speech: Nam: "It seems like we're not caching user profile data."
+Panel 4: Story beat. Speech: Linh: "What if the cache is stale?"
+Panel 5: Story beat. Speech: Nam: "We could rely on Redis for reads and keep DB as source of truth."
+Panel 6: Story beat. Speech: Hook: "Next: Queue Saves the Day"
 
 ENGLISH FOCUS box must list:
 - "The issue is that..." = Vấn đề là...

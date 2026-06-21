@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Demo success celebration. Dialogue: Team high-five after investor meeting
-- **Panel 2:** Kenji debrief. Dialogue: Kenji: "Your Let me walk you through flow was smooth."
-- **Panel 3:** Takeaway praise. Dialogue: PM: "The key takeaway is line landed perfectly."
-- **Panel 4:** Q&A growth. Dialogue: Nam: "I handled tough questions without panicking."
-- **Panel 5:** Future pitch. Dialogue: Nam: "I look forward to the product launch demo next month."
-- **Panel 6:** Confidence. Dialogue: Nam: "Presentation English — unlocked."
-- **Panel 7:** Hook. Dialogue: Next: The War Room
+- **Panel 1:** Scene. Dialogue: Nam: "Team high-five after investor meeting"
+- **Panel 2:** Scene. Dialogue: Kenji: "Your Let me walk you through flow was smooth."
+- **Panel 3:** Scene. Dialogue: PM: "The key takeaway is line landed perfectly."
+- **Panel 4:** Scene. Dialogue: Nam: "I handled tough questions without panicking."
+- **Panel 5:** Scene. Dialogue: Nam: "I look forward to the product launch demo next month."
+- **Panel 6:** Scene. Dialogue: Nam: "Presentation English — unlocked."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "Team high-five after investor meeting"
+  },
+  {
+    "panel": 2,
+    "speaker": "Kenji",
+    "text": "Your Let me walk you through flow was smooth."
+  },
+  {
+    "panel": 3,
+    "speaker": "PM",
+    "text": "The key takeaway is line landed perfectly."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "I handled tough questions without panicking."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "I look forward to the product launch demo next month."
+  },
+  {
+    "panel": 6,
+    "speaker": "Nam",
+    "text": "Presentation English — unlocked."
+  }
+]
+```
 
 ---
 
@@ -60,13 +98,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Demo success celebration.. Speech: Team high-five after investor meeting
-Panel 2: Kenji debrief.. Speech: Kenji: "Your Let me walk you through flow was smooth."
-Panel 3: Takeaway praise.. Speech: PM: "The key takeaway is line landed perfectly."
-Panel 4: Q&A growth.. Speech: Nam: "I handled tough questions without panicking."
-Panel 5: Future pitch.. Speech: Nam: "I look forward to the product launch demo next month."
-Panel 6: Confidence.. Speech: Nam: "Presentation English — unlocked."
-Panel 7: Hook.. Speech: Next: The War Room
+Panel 1: Story beat. Speech: Nam: "Team high-five after investor meeting"
+Panel 2: Story beat. Speech: Kenji: "Your Let me walk you through flow was smooth."
+Panel 3: Story beat. Speech: PM: "The key takeaway is line landed perfectly."
+Panel 4: Story beat. Speech: Nam: "I handled tough questions without panicking."
+Panel 5: Story beat. Speech: Nam: "I look forward to the product launch demo next month."
+Panel 6: Story beat. Speech: Nam: "Presentation English — unlocked."
 
 ENGLISH FOCUS box must list:
 - "Let me walk you through..." = Để tôi hướng dẫn/giải thích từng bước...

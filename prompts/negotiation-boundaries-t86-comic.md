@@ -11,13 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Stakeholder request. Dialogue: PM: "Can you also add admin dashboard this sprint?"
-- **Panel 2:** Nam negotiates politely. Dialogue: Nam: "Would it be possible to move that to next sprint?"
-- **Panel 3:** Nam sets comfort boundary. Dialogue: Nam: "I'd be more comfortable if we finish payment first."
-- **Panel 4:** PM asks what's needed. Dialogue: PM: "What would it take to do both?"
-- **Panel 5:** Nam explains resources. Dialogue: Nam: "We'd need at least one more engineer or cut scope."
-- **Panel 6:** Compromise. Dialogue: PM: "Fair — let's prioritize payment and plan admin for Q2."
-- **Panel 7:** Hook. Dialogue: Next: That's Outside the Scope
+- **Panel 1:** Scene. Dialogue: PM: "Can you also add admin dashboard this sprint?"
+- **Panel 2:** Scene. Dialogue: Nam: "Would it be possible to move that to next sprint?"
+- **Panel 3:** Scene. Dialogue: Nam: "I'd be more comfortable if we finish payment first."
+- **Panel 4:** Scene. Dialogue: PM: "What would it take to do both?"
+- **Panel 5:** Scene. Dialogue: Nam: "We'd need at least one more engineer or cut scope."
+- **Panel 6:** Scene. Dialogue: PM: "Fair — let's prioritize payment and plan admin for Q2."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "PM",
+    "text": "Can you also add admin dashboard this sprint?"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Would it be possible to move that to next sprint?"
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I'd be more comfortable if we finish payment first."
+  },
+  {
+    "panel": 4,
+    "speaker": "PM",
+    "text": "What would it take to do both?"
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "We'd need at least one more engineer or cut scope."
+  },
+  {
+    "panel": 6,
+    "speaker": "PM",
+    "text": "Fair — let's prioritize payment and plan admin for Q2."
+  }
+]
+```
 
 ---
 
@@ -59,13 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Stakeholder request.. Speech: PM: "Can you also add admin dashboard this sprint?"
-Panel 2: Nam negotiates politely.. Speech: Nam: "Would it be possible to move that to next sprint?"
-Panel 3: Nam sets comfort boundary.. Speech: Nam: "I'd be more comfortable if we finish payment first."
-Panel 4: PM asks what's needed.. Speech: PM: "What would it take to do both?"
-Panel 5: Nam explains resources.. Speech: Nam: "We'd need at least one more engineer or cut scope."
-Panel 6: Compromise.. Speech: PM: "Fair — let's prioritize payment and plan admin for Q2."
-Panel 7: Hook.. Speech: Next: That's Outside the Scope
+Panel 1: Story beat. Speech: PM: "Can you also add admin dashboard this sprint?"
+Panel 2: Story beat. Speech: Nam: "Would it be possible to move that to next sprint?"
+Panel 3: Story beat. Speech: Nam: "I'd be more comfortable if we finish payment first."
+Panel 4: Story beat. Speech: PM: "What would it take to do both?"
+Panel 5: Story beat. Speech: Nam: "We'd need at least one more engineer or cut scope."
+Panel 6: Story beat. Speech: PM: "Fair — let's prioritize payment and plan admin for Q2."
 
 ENGLISH FOCUS box must list:
 - "Would it be possible to...?" = Liệu có thể... không?

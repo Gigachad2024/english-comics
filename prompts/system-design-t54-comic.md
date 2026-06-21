@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Payment timeout alert. Dialogue: Nam: "This might be caused by synchronous email sending."
-- **Panel 2:** Architecture: add message queue. Dialogue: Aoi: "Put heavy work on a queue — respond fast to users."
-- **Panel 3:** SQS/Kafka style diagram. Dialogue: Nam: "I think we should move notifications to async processing."
-- **Panel 4:** Before/after latency chart. Dialogue: Kenji: "Show the latency before and after."
-- **Panel 5:** Deploy checklist. Dialogue: Nam: "Let's follow through on monitoring the queue depth."
-- **Panel 6:** Hook. Dialogue: Next: API Gateway at Night
+- **Panel 1:** Scene. Dialogue: Nam: "This might be caused by synchronous email sending."
+- **Panel 2:** Scene. Dialogue: Aoi: "Put heavy work on a queue — respond fast to users."
+- **Panel 3:** Scene. Dialogue: Nam: "I think we should move notifications to async processing."
+- **Panel 4:** Scene. Dialogue: Kenji: "Show the latency before and after."
+- **Panel 5:** Scene. Dialogue: Nam: "Let's follow through on monitoring the queue depth."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: API Gateway at Night"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Nam",
+    "text": "This might be caused by synchronous email sending."
+  },
+  {
+    "panel": 2,
+    "speaker": "Aoi",
+    "text": "Put heavy work on a queue — respond fast to users."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "I think we should move notifications to async processing."
+  },
+  {
+    "panel": 4,
+    "speaker": "Kenji",
+    "text": "Show the latency before and after."
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "Let's follow through on monitoring the queue depth."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: API Gateway at Night"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Payment timeout alert.. Speech: Nam: "This might be caused by synchronous email sending."
-Panel 2: Architecture: add message queue.. Speech: Aoi: "Put heavy work on a queue — respond fast to users."
-Panel 3: SQS/Kafka style diagram.. Speech: Nam: "I think we should move notifications to async processing."
-Panel 4: Before/after latency chart.. Speech: Kenji: "Show the latency before and after."
-Panel 5: Deploy checklist.. Speech: Nam: "Let's follow through on monitoring the queue depth."
-Panel 6: Hook.. Speech: Next: API Gateway at Night
+Panel 1: Story beat. Speech: Nam: "This might be caused by synchronous email sending."
+Panel 2: Story beat. Speech: Aoi: "Put heavy work on a queue — respond fast to users."
+Panel 3: Story beat. Speech: Nam: "I think we should move notifications to async processing."
+Panel 4: Story beat. Speech: Kenji: "Show the latency before and after."
+Panel 5: Story beat. Speech: Nam: "Let's follow through on monitoring the queue depth."
+Panel 6: Story beat. Speech: Hook: "Next: API Gateway at Night"
 
 ENGLISH FOCUS box must list:
 - "This might be caused by..." = Có thể do...

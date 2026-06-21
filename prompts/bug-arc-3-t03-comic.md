@@ -10,12 +10,51 @@
 
 ## Story beats
 
-- **Panel 1:** Team regroups after rollback debate. Dialogue: Kenji: "Can you walk me through the payment flow?"
-- **Panel 2:** Aoi draws architecture on whiteboard: Client → API Gateway → Payment Service → DB. Dialogue: Aoi: "Let me walk you through it step by step."
-- **Panel 3:** Flow diagram: checkout → confirm → charge → receipt. Dialogue: Nam: "The bug affects the payment flow at the confirm step."
-- **Panel 4:** API endpoint `/api/payments/confirm` highlighted red. Dialogue: Linh: "That's where the 500 errors are coming from."
-- **Panel 5:** Sequence diagram on monitor. Dialogue: Nam: "It seems like the confirm call fails after the cache update."
-- **Panel 6:** Team aligned. Dialogue: Kenji: "Good. Now let's find the root cause." Hook: Next: Cache Suspect
+- **Panel 1:** Scene. Dialogue: Linh: "Users are reporting checkout failures."
+- **Panel 2:** Scene. Dialogue: Nam: "Can you walk me through the payment flow?."
+- **Panel 3:** Scene. Dialogue: Nam: "The bug affects the payment flow."
+- **Panel 4:** Scene. Dialogue: Nam: "Walk me through option A."
+- **Panel 5:** Scene. Dialogue: Kenji: "I think we should go through the logs before deploying."
+- **Panel 6:** Scene. Dialogue: Aoi: "That makes sense — let's find the root cause first."
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "Linh",
+    "text": "Users are reporting checkout failures."
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Can you walk me through the payment flow?."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "The bug affects the payment flow."
+  },
+  {
+    "panel": 4,
+    "speaker": "Nam",
+    "text": "Walk me through option A."
+  },
+  {
+    "panel": 5,
+    "speaker": "Kenji",
+    "text": "I think we should go through the logs before deploying."
+  },
+  {
+    "panel": 6,
+    "speaker": "Aoi",
+    "text": "That makes sense — let's find the root cause first."
+  }
+]
+```
 
 ---
 
@@ -57,12 +96,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Team regroups after rollback debate.. Speech: Kenji: "Can you walk me through the payment flow?"
-Panel 2: Aoi draws architecture on whiteboard: Client → API Gateway → Payment Service → DB.. Speech: Aoi: "Let me walk you through it step by step."
-Panel 3: Flow diagram: checkout → confirm → charge → receipt.. Speech: Nam: "The bug affects the payment flow at the confirm step."
-Panel 4: API endpoint /api/payments/confirm highlighted red.. Speech: Linh: "That's where the 500 errors are coming from."
-Panel 5: Sequence diagram on monitor.. Speech: Nam: "It seems like the confirm call fails after the cache update."
-Panel 6: Team aligned.. Speech: Kenji: "Good. Now let's find the root cause."
+Panel 1: Story beat. Speech: Linh: "Users are reporting checkout failures."
+Panel 2: Story beat. Speech: Nam: "Can you walk me through the payment flow?."
+Panel 3: Story beat. Speech: Nam: "The bug affects the payment flow."
+Panel 4: Story beat. Speech: Nam: "Walk me through option A."
+Panel 5: Story beat. Speech: Kenji: "I think we should go through the logs before deploying."
+Panel 6: Story beat. Speech: Aoi: "That makes sense — let's find the root cause first."
 
 ENGLISH FOCUS box must list:
 - "Can you walk me through the payment flow?" = Bạn giải thích flow thanh toán cho tôi được không?

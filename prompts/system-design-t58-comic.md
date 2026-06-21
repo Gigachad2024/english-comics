@@ -11,12 +11,51 @@
 
 ## Story beats
 
-- **Panel 1:** Meeting with PM (non-technical). Dialogue: PM: "Why does this feature take 3 sprints?"
-- **Panel 2:** Nam uses simple diagram. Dialogue: Nam: "Let me walk you through the flow in simple terms."
-- **Panel 3:** No jargon — user journey. Dialogue: Nam: "The main idea is: fast checkout beats perfect architecture."
-- **Panel 4:** PM understands trade-off. Dialogue: PM: "So we ship phase 1 without real-time sync?"
-- **Panel 5:** Alignment. Dialogue: Nam: "Exactly — we can add that in phase 2."
-- **Panel 6:** Hook. Dialogue: Next: Design Review Showdown
+- **Panel 1:** Scene. Dialogue: PM: "Why does this feature take 3 sprints?"
+- **Panel 2:** Scene. Dialogue: Nam: "Let me walk you through the flow in simple terms."
+- **Panel 3:** Scene. Dialogue: Nam: "The main idea is: fast checkout beats perfect architecture."
+- **Panel 4:** Scene. Dialogue: PM: "So we ship phase 1 without real-time sync?"
+- **Panel 5:** Scene. Dialogue: Nam: "Exactly — we can add that in phase 2."
+- **Panel 6:** Scene. Dialogue: Hook: "Next: Design Review Showdown"
+
+---
+
+## Canonical dialogue (synced from image — do not edit by hand)
+
+```json
+[
+  {
+    "panel": 1,
+    "speaker": "PM",
+    "text": "Why does this feature take 3 sprints?"
+  },
+  {
+    "panel": 2,
+    "speaker": "Nam",
+    "text": "Let me walk you through the flow in simple terms."
+  },
+  {
+    "panel": 3,
+    "speaker": "Nam",
+    "text": "The main idea is: fast checkout beats perfect architecture."
+  },
+  {
+    "panel": 4,
+    "speaker": "PM",
+    "text": "So we ship phase 1 without real-time sync?"
+  },
+  {
+    "panel": 5,
+    "speaker": "Nam",
+    "text": "Exactly — we can add that in phase 2."
+  },
+  {
+    "panel": 6,
+    "speaker": "Hook",
+    "text": "Next: Design Review Showdown"
+  }
+]
+```
 
 ---
 
@@ -58,12 +97,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Meeting with PM (non-technical).. Speech: PM: "Why does this feature take 3 sprints?"
-Panel 2: Nam uses simple diagram.. Speech: Nam: "Let me walk you through the flow in simple terms."
-Panel 3: No jargon — user journey.. Speech: Nam: "The main idea is: fast checkout beats perfect architecture."
-Panel 4: PM understands trade-off.. Speech: PM: "So we ship phase 1 without real-time sync?"
-Panel 5: Alignment.. Speech: Nam: "Exactly — we can add that in phase 2."
-Panel 6: Hook.. Speech: Next: Design Review Showdown
+Panel 1: Story beat. Speech: PM: "Why does this feature take 3 sprints?"
+Panel 2: Story beat. Speech: Nam: "Let me walk you through the flow in simple terms."
+Panel 3: Story beat. Speech: Nam: "The main idea is: fast checkout beats perfect architecture."
+Panel 4: Story beat. Speech: PM: "So we ship phase 1 without real-time sync?"
+Panel 5: Story beat. Speech: Nam: "Exactly — we can add that in phase 2."
+Panel 6: Story beat. Speech: Hook: "Next: Design Review Showdown"
 
 ENGLISH FOCUS box must list:
 - "Let me walk you through..." = Để tôi giải thích từng bước...
