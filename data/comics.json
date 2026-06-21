@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 122,
+  "count": 136,
   "series": [
     {
       "id": "bug-arc-1",
@@ -2445,7 +2445,17 @@
             "Dùng câu 「reach out to」 để nói về tình huống: Loop Me In on the Decision.",
             "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
           ],
-          "commonMistakes": [],
+          "commonMistakes": [
+            {
+              "wrong": "I need to get loop in on the project.",
+              "correct": "I need to get looped in on the project.",
+              "why": "get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện",
+              "patterns": [
+                "get looped in",
+                "loop me in"
+              ]
+            }
+          ],
           "hook": "Next: I'll Get Back to You by EOD"
         },
         {
@@ -2816,6 +2826,7 @@
           ],
           "packs": [
             "decision_hesitation",
+            "get_phrasal_travel",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -4369,6 +4380,694 @@
               "patterns": [
                 "Root cause appears",
                 "What we know so far"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-get",
+      "title": "Silicon Valley Get Arc",
+      "desc": "Buy-in, ship day, war room — phrasal verbs get trong startup Bay Area (loop in, blocked, shipped, acquired)",
+      "color": "#0EA5E9",
+      "icon": "🌉",
+      "tag": "Công việc",
+      "count": 6,
+      "cover": "images/comics/silicon-valley-get/tập-105/silicon-valley-get-tap105-can-you-loop-me-in.png",
+      "episodes": [
+        {
+          "num": 105,
+          "title": "Can You Loop Me In?",
+          "slug": "can-you-loop-me-in",
+          "image": "images/comics/silicon-valley-get/tập-105/silicon-valley-get-tap105-can-you-loop-me-in.png",
+          "englishFocus": [
+            {
+              "phrase": "get looped in",
+              "meaning": "được thêm vào cuộc trò chuyện / được cập nhật"
+            },
+            {
+              "phrase": "get pinged",
+              "meaning": "bị nhắn / bị tag trên Slack"
+            },
+            {
+              "phrase": "get up to speed",
+              "meaning": "nắm bắt nhanh tình hình"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "Slack",
+            "work-meeting"
+          ],
+          "patterns": [
+            "get looped in",
+            "get pinged",
+            "get up to speed"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get looped in」 để nói về tình huống: Can You Loop Me In?.",
+            "Dùng câu 「get pinged」 để nói về tình huống: Can You Loop Me In?.",
+            "Dùng câu 「get up to speed」 để nói về tình huống: Can You Loop Me In?.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I need to get loop in on the project.",
+              "correct": "I need to get looped in on the project.",
+              "why": "get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện",
+              "patterns": [
+                "get looped in",
+                "loop me in"
+              ]
+            }
+          ],
+          "hook": "Next: We Need Buy-In"
+        },
+        {
+          "num": 106,
+          "title": "We Need Buy-In",
+          "slug": "we-need-buy-in",
+          "image": "images/comics/silicon-valley-get/tập-106/silicon-valley-get-tap106-we-need-buy-in.png",
+          "englishFocus": [
+            {
+              "phrase": "get buy-in",
+              "meaning": "được mọi người đồng thuận / chấp thuận"
+            },
+            {
+              "phrase": "get aligned",
+              "meaning": "thống nhất / cùng hướng"
+            },
+            {
+              "phrase": "get the ball rolling",
+              "meaning": "bắt đầu / khởi động việc"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting",
+            "decision"
+          ],
+          "patterns": [
+            "get buy-in",
+            "get aligned",
+            "get the ball rolling"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get buy-in」 để nói về tình huống: We Need Buy-In.",
+            "Dùng câu 「get aligned」 để nói về tình huống: We Need Buy-In.",
+            "Dùng câu 「get the ball rolling」 để nói về tình huống: We Need Buy-In.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Blocked on Dependencies"
+        },
+        {
+          "num": 107,
+          "title": "Blocked on Dependencies",
+          "slug": "blocked-on-dependencies",
+          "image": "images/comics/silicon-valley-get/tập-107/silicon-valley-get-tap107-blocked-on-dependencies.png",
+          "englishFocus": [
+            {
+              "phrase": "get blocked",
+              "meaning": "bị kẹt / không tiến được vì phụ thuộc"
+            },
+            {
+              "phrase": "get unblocked",
+              "meaning": "được gỡ kẹt / tiếp tục được"
+            },
+            {
+              "phrase": "get through",
+              "meaning": "vượt qua / hoàn thành (một giai đoạn)"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_everyday",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "get blocked",
+            "get unblocked",
+            "get through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get blocked」 để nói về tình huống: Blocked on Dependencies.",
+            "Dùng câu 「get unblocked」 để nói về tình huống: Blocked on Dependencies.",
+            "Dùng câu 「get through」 để nói về tình huống: Blocked on Dependencies.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Ship It Friday"
+        },
+        {
+          "num": 108,
+          "title": "Ship It Friday",
+          "slug": "ship-it-friday",
+          "image": "images/comics/silicon-valley-get/tập-108/silicon-valley-get-tap108-ship-it-friday.png",
+          "englishFocus": [
+            {
+              "phrase": "get shipped",
+              "meaning": "được deploy / đưa lên production"
+            },
+            {
+              "phrase": "get sign-off",
+              "meaning": "được phê duyệt chính thức"
+            },
+            {
+              "phrase": "get ready",
+              "meaning": "chuẩn bị sẵn sàng"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_everyday",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "production",
+            "decision"
+          ],
+          "patterns": [
+            "get shipped",
+            "get sign-off",
+            "get ready"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get shipped」 để nói về tình huống: Ship It Friday.",
+            "Dùng câu 「get sign-off」 để nói về tình huống: Ship It Friday.",
+            "Dùng câu 「get ready」 để nói về tình huống: Ship It Friday.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "We got ship yesterday.",
+              "correct": "We got shipped yesterday.",
+              "why": "get shipped = feature được deploy — cần V3 (shipped)",
+              "patterns": [
+                "get shipped",
+                "get shipped"
+              ]
+            }
+          ],
+          "hook": "Next: Pulled Into the War Room"
+        },
+        {
+          "num": 109,
+          "title": "Pulled Into the War Room",
+          "slug": "pulled-into-the-war-room",
+          "image": "images/comics/silicon-valley-get/tập-109/silicon-valley-get-tap109-pulled-into-the-war-room.png",
+          "englishFocus": [
+            {
+              "phrase": "get pulled into",
+              "meaning": "bị kéo vào (cuộc họp / sự cố)"
+            },
+            {
+              "phrase": "get stuck",
+              "meaning": "bị kẹt / bí / không tiến triển"
+            },
+            {
+              "phrase": "get back to",
+              "meaning": "phản hồi lại / trả lời sau"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "incident",
+            "production"
+          ],
+          "patterns": [
+            "get pulled into",
+            "get stuck",
+            "get back to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get pulled into」 để nói về tình huống: Pulled Into the War Room.",
+            "Dùng câu 「get stuck」 để nói về tình huống: Pulled Into the War Room.",
+            "Dùng câu 「get back to」 để nói về tình huống: Pulled Into the War Room.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Acquisition News"
+        },
+        {
+          "num": 110,
+          "title": "The Acquisition News",
+          "slug": "the-acquisition-news",
+          "image": "images/comics/silicon-valley-get/tập-110/silicon-valley-get-tap110-the-acquisition-news.png",
+          "englishFocus": [
+            {
+              "phrase": "get face time",
+              "meaning": "có thời gian trực tiếp với sếp / leadership"
+            },
+            {
+              "phrase": "get promoted",
+              "meaning": "được thăng chức"
+            },
+            {
+              "phrase": "get acquired",
+              "meaning": "bị mua lại (công ty)"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "career",
+            "work-meeting"
+          ],
+          "patterns": [
+            "get face time",
+            "get promoted",
+            "get acquired"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get face time」 để nói về tình huống: The Acquisition News.",
+            "Dùng câu 「get promoted」 để nói về tình huống: The Acquisition News.",
+            "Dùng câu 「get acquired」 để nói về tình huống: The Acquisition News.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "switzerland-travel",
+      "title": "Switzerland Travel Arc",
+      "desc": "Zurich, Glacier Express, Zermatt — get around, get checked in, get snowed in trên đường khám phá Thụy Sĩ",
+      "color": "#059669",
+      "icon": "🏔️",
+      "tag": "Du lịch",
+      "count": 5,
+      "cover": "images/comics/switzerland-travel/tập-111/switzerland-travel-tap111-landing-in-zurich.png",
+      "episodes": [
+        {
+          "num": 111,
+          "title": "Landing in Zurich",
+          "slug": "landing-in-zurich",
+          "image": "images/comics/switzerland-travel/tập-111/switzerland-travel-tap111-landing-in-zurich.png",
+          "englishFocus": [
+            {
+              "phrase": "get to",
+              "meaning": "đến (một nơi)"
+            },
+            {
+              "phrase": "get checked in",
+              "meaning": "làm thủ tục nhận phòng"
+            },
+            {
+              "phrase": "get your bearings",
+              "meaning": "định hướng / nắm vị trí xung quanh"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "get_phrasal_travel",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "hotel",
+            "directions"
+          ],
+          "patterns": [
+            "get to",
+            "get checked in",
+            "get your bearings"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get to」 để nói về tình huống: Landing in Zurich.",
+            "Dùng câu 「get checked in」 để nói về tình huống: Landing in Zurich.",
+            "Dùng câu 「get your bearings」 để nói về tình huống: Landing in Zurich.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Travel & Movement」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: The Glacier Express"
+        },
+        {
+          "num": 112,
+          "title": "The Glacier Express",
+          "slug": "the-glacier-express",
+          "image": "images/comics/switzerland-travel/tập-112/switzerland-travel-tap112-the-glacier-express.png",
+          "englishFocus": [
+            {
+              "phrase": "get a ticket",
+              "meaning": "mua vé"
+            },
+            {
+              "phrase": "get on",
+              "meaning": "lên (tàu / xe)"
+            },
+            {
+              "phrase": "get off",
+              "meaning": "xuống (tàu / xe)"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "get_phrasal_travel",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "transport",
+            "train"
+          ],
+          "patterns": [
+            "get a ticket",
+            "get on",
+            "get off"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get a ticket」 để nói về tình huống: The Glacier Express.",
+            "Dùng câu 「get on」 để nói về tình huống: The Glacier Express.",
+            "Dùng câu 「get off」 để nói về tình huống: The Glacier Express.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Travel & Movement」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "How can I get in the train?",
+              "correct": "How can I get on the train?",
+              "why": "get on = lên phương tiện · get off = xuống",
+              "patterns": [
+                "get on",
+                "get off"
+              ]
+            }
+          ],
+          "hook": "Next: View from the Top"
+        },
+        {
+          "num": 113,
+          "title": "View from the Top",
+          "slug": "view-from-the-top",
+          "image": "images/comics/switzerland-travel/tập-113/switzerland-travel-tap113-view-from-the-top.png",
+          "englishFocus": [
+            {
+              "phrase": "get a view of",
+              "meaning": "nhìn thấy / ngắm cảnh"
+            },
+            {
+              "phrase": "get altitude sickness",
+              "meaning": "bị say độ cao"
+            },
+            {
+              "phrase": "get change",
+              "meaning": "đổi tiền lẻ / nhận tiền thối"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "get_phrasal_travel",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "mountains",
+            "health"
+          ],
+          "patterns": [
+            "get a view of",
+            "get altitude sickness",
+            "get change"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get a view of」 để nói về tình huống: View from the Top.",
+            "Dùng câu 「get altitude sickness」 để nói về tình huống: View from the Top.",
+            "Dùng câu 「get change」 để nói về tình huống: View from the Top.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Travel & Movement」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Snowed In at Zermatt"
+        },
+        {
+          "num": 114,
+          "title": "Snowed In at Zermatt",
+          "slug": "snowed-in-at-zermatt",
+          "image": "images/comics/switzerland-travel/tập-114/switzerland-travel-tap114-snowed-in-at-zermatt.png",
+          "englishFocus": [
+            {
+              "phrase": "get snowed in",
+              "meaning": "bị kẹt vì tuyết / không ra được"
+            },
+            {
+              "phrase": "get held up",
+              "meaning": "bị trì hoãn / bị chậm lại"
+            },
+            {
+              "phrase": "get by",
+              "meaning": "xử lý tạm / vượt qua (với ít tài nguyên)"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "get_phrasal_everyday",
+            "get_phrasal_travel",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "weather",
+            "hotel"
+          ],
+          "patterns": [
+            "get snowed in",
+            "get held up",
+            "get by"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get snowed in」 để nói về tình huống: Snowed In at Zermatt.",
+            "Dùng câu 「get held up」 để nói về tình huống: Snowed In at Zermatt.",
+            "Dùng câu 「get by」 để nói về tình huống: Snowed In at Zermatt.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Travel & Movement」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Lost on the Alpine Trail"
+        },
+        {
+          "num": 115,
+          "title": "Lost on the Alpine Trail",
+          "slug": "lost-on-the-alpine-trail",
+          "image": "images/comics/switzerland-travel/tập-115/switzerland-travel-tap115-lost-on-the-alpine-trail.png",
+          "englishFocus": [
+            {
+              "phrase": "get around",
+              "meaning": "đi lại / di chuyển quanh khu vực"
+            },
+            {
+              "phrase": "get lost",
+              "meaning": "bị lạc"
+            },
+            {
+              "phrase": "get swept up in",
+              "meaning": "bị cuốn vào (không khí / sự kiện)"
+            }
+          ],
+          "packs": [
+            "decision_hesitation",
+            "get_phrasal_travel",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "travel",
+            "directions",
+            "adventure"
+          ],
+          "patterns": [
+            "get around",
+            "get lost",
+            "get swept up in"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get around」 để nói về tình huống: Lost on the Alpine Trail.",
+            "Dùng câu 「get lost」 để nói về tình huống: Lost on the Alpine Trail.",
+            "Dùng câu 「get swept up in」 để nói về tình huống: Lost on the Alpine Trail.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Travel & Movement」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-get",
+      "title": "Everyday Get Arc",
+      "desc": "Meetup, homework, daily confidence — get used to, get it, get by khi học và sống bằng tiếng Anh",
+      "color": "#D946EF",
+      "icon": "📚",
+      "tag": "Học tập",
+      "count": 3,
+      "cover": "images/comics/english-everyday-get/tập-116/english-everyday-get-tap116-first-english-meetup.png",
+      "episodes": [
+        {
+          "num": 116,
+          "title": "First English Meetup",
+          "slug": "first-english-meetup",
+          "image": "images/comics/english-everyday-get/tập-116/english-everyday-get-tap116-first-english-meetup.png",
+          "englishFocus": [
+            {
+              "phrase": "get used to",
+              "meaning": "quen dần với"
+            },
+            {
+              "phrase": "get ready",
+              "meaning": "chuẩn bị sẵn sàng"
+            },
+            {
+              "phrase": "get through",
+              "meaning": "vượt qua / hoàn thành (một buổi / bài)"
+            }
+          ],
+          "packs": [
+            "get_phrasal_everyday",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "get used to",
+            "get ready",
+            "get through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get used to」 để nói về tình huống: First English Meetup.",
+            "Dùng câu 「get ready」 để nói về tình huống: First English Meetup.",
+            "Dùng câu 「get through」 để nói về tình huống: First English Meetup.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Startup & Tech」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: When You Finally Get It"
+        },
+        {
+          "num": 117,
+          "title": "When You Finally Get It",
+          "slug": "when-you-finally-get-it",
+          "image": "images/comics/english-everyday-get/tập-117/english-everyday-get-tap117-when-you-finally-get-it.png",
+          "englishFocus": [
+            {
+              "phrase": "get it",
+              "meaning": "hiểu rồi / nắm được"
+            },
+            {
+              "phrase": "get back to",
+              "meaning": "quay lại (việc) / phản hồi sau"
+            },
+            {
+              "phrase": "get by",
+              "meaning": "tạm đủ dùng / xoay xở được"
+            }
+          ],
+          "packs": [
+            "email_async",
+            "get_phrasal_everyday",
+            "get_phrasal_startup",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "study"
+          ],
+          "patterns": [
+            "get it",
+            "get back to",
+            "get by"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get it」 để nói về tình huống: When You Finally Get It.",
+            "Dùng câu 「get back to」 để nói về tình huống: When You Finally Get It.",
+            "Dùng câu 「get by」 để nói về tình huống: When You Finally Get It.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Everyday Get Finale"
+        },
+        {
+          "num": 118,
+          "title": "Everyday Get Finale",
+          "slug": "everyday-get-finale",
+          "image": "images/comics/english-everyday-get/tập-118/english-everyday-get-tap118-everyday-get-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "get onboarded",
+              "meaning": "được hướng dẫn nhập môn / làm quen hệ thống"
+            },
+            {
+              "phrase": "get sign-off",
+              "meaning": "được phê duyệt chính thức"
+            },
+            {
+              "phrase": "get a ride",
+              "meaning": "được chở / nhờ xe"
+            }
+          ],
+          "packs": [
+            "get_phrasal_everyday",
+            "get_phrasal_startup",
+            "get_phrasal_travel",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "software-engineering",
+            "mentoring"
+          ],
+          "patterns": [
+            "get onboarded",
+            "get sign-off",
+            "get a ride"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「get onboarded」 để nói về tình huống: Everyday Get Finale.",
+            "Dùng câu 「get sign-off」 để nói về tình huống: Everyday Get Finale.",
+            "Dùng câu 「get a ride」 để nói về tình huống: Everyday Get Finale.",
+            "Thử nói master combo của pack 「Get Phrasal Verbs — Startup & Tech」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "How can I get in the train?",
+              "correct": "How can I get on the train?",
+              "why": "get on = lên phương tiện · get off = xuống",
+              "patterns": [
+                "get on",
+                "get off"
               ]
             }
           ],

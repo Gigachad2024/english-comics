@@ -316,6 +316,110 @@
         "dig into"
       ],
       "masterCombo": "What we know so far is that checkout failed for about 12% of users. Root cause appears to be a cache invalidation bug. We mitigated the issue by rolling back the release. Action items going forward: add an integration test and update the runbook."
+    },
+    {
+      "id": "get_phrasal_startup",
+      "title": "Get Phrasal Verbs — Startup & Tech",
+      "purpose": "Use in Silicon Valley / startup work: Slack, standups, ship day, war rooms, career moments.",
+      "contexts": ["software-engineering", "work-meeting", "remote work", "Slack", "career", "startup"],
+      "patterns": [
+        "Can you loop me in on...?",
+        "I need to get up to speed on...",
+        "We need buy-in from...",
+        "Let's get aligned on...",
+        "I'm blocked on...",
+        "Can you help me get unblocked?",
+        "We got shipped on Friday.",
+        "I got pulled into the war room.",
+        "I'll get back to you by...",
+        "I finally get it."
+      ],
+      "phrases": [
+        "get looped in",
+        "get pinged",
+        "get up to speed",
+        "get buy-in",
+        "get aligned",
+        "get the ball rolling",
+        "get blocked",
+        "get unblocked",
+        "get through",
+        "get shipped",
+        "get sign-off",
+        "get ready",
+        "get pulled into",
+        "get stuck",
+        "get back to",
+        "get face time",
+        "get promoted",
+        "get acquired",
+        "get onboarded",
+        "get it"
+      ],
+      "masterCombo": "Can you loop me in on the launch channel? I'm getting up to speed but I'm blocked on the payments API. Once I get unblocked I'll get through review — we need buy-in from legal before we get shipped. I'll get back to you after standup."
+    },
+    {
+      "id": "get_phrasal_travel",
+      "title": "Get Phrasal Verbs — Travel & Movement",
+      "purpose": "Use when traveling: trains, hotels, directions, weather delays, exploring new places.",
+      "contexts": ["travel", "transport", "hotel", "directions", "weather"],
+      "patterns": [
+        "How do I get to...?",
+        "I need to get checked in.",
+        "Let me get my bearings first.",
+        "Where can I get a ticket?",
+        "Which platform do we get on?",
+        "Don't forget to get off at...",
+        "We got snowed in last night.",
+        "Sorry — I got held up by the train.",
+        "I can get by with phrasebook English.",
+        "I think we're lost."
+      ],
+      "phrases": [
+        "get to",
+        "get checked in",
+        "get your bearings",
+        "get a ticket",
+        "get on",
+        "get off",
+        "get a view of",
+        "get altitude sickness",
+        "get change",
+        "get snowed in",
+        "get held up",
+        "get by",
+        "get around",
+        "get lost",
+        "get swept up in",
+        "get a ride"
+      ],
+      "masterCombo": "How do I get to the hotel? I'll get checked in first and get my bearings in the old town. We got a ticket for the Glacier Express — get on at platform 7 and get off at Filisur. We got snowed in at Zermatt but we can get by until the trains run again."
+    },
+    {
+      "id": "get_phrasal_everyday",
+      "title": "Get Phrasal Verbs — Everyday English",
+      "purpose": "Use when learning English daily: meetups, homework, building confidence.",
+      "contexts": ["learning", "daily-life", "meetup", "study"],
+      "patterns": [
+        "I'm still getting used to...",
+        "Let me get ready first.",
+        "I got through my first presentation.",
+        "Oh — I get it now!",
+        "I'll get back to studying after dinner.",
+        "My English is good enough to get by."
+      ],
+      "phrases": [
+        "get used to",
+        "get ready",
+        "get through",
+        "get it",
+        "get back to",
+        "get by",
+        "get onboarded",
+        "get sign-off",
+        "get a ride"
+      ],
+      "masterCombo": "I'm still getting used to speaking English at meetups. Let me get ready — I need to get through this lesson first. Oh, I get it now! I'll get back to homework after work. My English isn't perfect, but I can get by."
     }
   ],
   "arcs": [
@@ -390,6 +494,24 @@
       "title": "Incident & Postmortem Arc — Blameless Communication",
       "focus": ["war room", "status updates", "root cause", "action items", "postmortem"],
       "episodeRange": "100-104"
+    },
+    {
+      "id": "silicon_valley_get_arc",
+      "title": "Silicon Valley Get Arc — Startup English",
+      "focus": ["loop in", "buy-in", "blocked", "ship day", "war room", "promotion", "acquisition"],
+      "episodeRange": "105-110"
+    },
+    {
+      "id": "switzerland_travel_arc",
+      "title": "Switzerland Travel Arc — Get Around the Alps",
+      "focus": ["trains", "hotels", "mountains", "snow", "directions", "travel confidence"],
+      "episodeRange": "111-115"
+    },
+    {
+      "id": "english_everyday_get_arc",
+      "title": "Everyday Get Arc — Learning English Daily",
+      "focus": ["meetup", "get it", "get by", "get used to", "daily confidence"],
+      "episodeRange": "116-118"
     }
   ],
   "episodeSchema": {

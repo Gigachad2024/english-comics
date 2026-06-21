@@ -307,6 +307,56 @@ SERIES = [
             (104, "postmortem-finale", "Postmortem Finale"),
         ],
     },
+    {
+        "id": "silicon-valley-get",
+        "title": "Silicon Valley Get Arc",
+        "desc": "Buy-in, ship day, war room — phrasal verbs get trong startup Bay Area (loop in, blocked, shipped, acquired)",
+        "color": "#0EA5E9",
+        "icon": "🌉",
+        "tag": "Công việc",
+        "arc": "silicon-valley-get",
+        "global_num": True,
+        "episodes": [
+            (105, "can-you-loop-me-in", "Can You Loop Me In?"),
+            (106, "we-need-buy-in", "We Need Buy-In"),
+            (107, "blocked-on-dependencies", "Blocked on Dependencies"),
+            (108, "ship-it-friday", "Ship It Friday"),
+            (109, "pulled-into-the-war-room", "Pulled Into the War Room"),
+            (110, "the-acquisition-news", "The Acquisition News"),
+        ],
+    },
+    {
+        "id": "switzerland-travel",
+        "title": "Switzerland Travel Arc",
+        "desc": "Zurich, Glacier Express, Zermatt — get around, get checked in, get snowed in trên đường khám phá Thụy Sĩ",
+        "color": "#059669",
+        "icon": "🏔️",
+        "tag": "Du lịch",
+        "arc": "switzerland-travel",
+        "global_num": True,
+        "episodes": [
+            (111, "landing-in-zurich", "Landing in Zurich"),
+            (112, "the-glacier-express", "The Glacier Express"),
+            (113, "view-from-the-top", "View from the Top"),
+            (114, "snowed-in-at-zermatt", "Snowed In at Zermatt"),
+            (115, "lost-on-the-alpine-trail", "Lost on the Alpine Trail"),
+        ],
+    },
+    {
+        "id": "english-everyday-get",
+        "title": "Everyday Get Arc",
+        "desc": "Meetup, homework, daily confidence — get used to, get it, get by khi học và sống bằng tiếng Anh",
+        "color": "#D946EF",
+        "icon": "📚",
+        "tag": "Học tập",
+        "arc": "english-everyday-get",
+        "global_num": True,
+        "episodes": [
+            (116, "first-english-meetup", "First English Meetup"),
+            (117, "when-you-finally-get-it", "When You Finally Get It"),
+            (118, "everyday-get-finale", "Everyday Get Finale"),
+        ],
+    },
 ]
 
 FOCUS = {
@@ -693,6 +743,79 @@ FOCUS = {
         {"phrase": "Action items going forward...", "meaning": "Các việc cần làm tiếp theo..."},
         {"phrase": "follow up on", "meaning": "theo dõi / nhắc lại về"},
     ],
+    # Silicon Valley Get Arc 105–110
+    "can-you-loop-me-in": [
+        {"phrase": "get looped in", "meaning": "được thêm vào cuộc trò chuyện / được cập nhật"},
+        {"phrase": "get pinged", "meaning": "bị nhắn / bị tag trên Slack"},
+        {"phrase": "get up to speed", "meaning": "nắm bắt nhanh tình hình"},
+    ],
+    "we-need-buy-in": [
+        {"phrase": "get buy-in", "meaning": "được mọi người đồng thuận / chấp thuận"},
+        {"phrase": "get aligned", "meaning": "thống nhất / cùng hướng"},
+        {"phrase": "get the ball rolling", "meaning": "bắt đầu / khởi động việc"},
+    ],
+    "blocked-on-dependencies": [
+        {"phrase": "get blocked", "meaning": "bị kẹt / không tiến được vì phụ thuộc"},
+        {"phrase": "get unblocked", "meaning": "được gỡ kẹt / tiếp tục được"},
+        {"phrase": "get through", "meaning": "vượt qua / hoàn thành (một giai đoạn)"},
+    ],
+    "ship-it-friday": [
+        {"phrase": "get shipped", "meaning": "được deploy / đưa lên production"},
+        {"phrase": "get sign-off", "meaning": "được phê duyệt chính thức"},
+        {"phrase": "get ready", "meaning": "chuẩn bị sẵn sàng"},
+    ],
+    "pulled-into-the-war-room": [
+        {"phrase": "get pulled into", "meaning": "bị kéo vào (cuộc họp / sự cố)"},
+        {"phrase": "get stuck", "meaning": "bị kẹt / bí / không tiến triển"},
+        {"phrase": "get back to", "meaning": "phản hồi lại / trả lời sau"},
+    ],
+    "the-acquisition-news": [
+        {"phrase": "get face time", "meaning": "có thời gian trực tiếp với sếp / leadership"},
+        {"phrase": "get promoted", "meaning": "được thăng chức"},
+        {"phrase": "get acquired", "meaning": "bị mua lại (công ty)"},
+    ],
+    # Switzerland Travel Arc 111–115
+    "landing-in-zurich": [
+        {"phrase": "get to", "meaning": "đến (một nơi)"},
+        {"phrase": "get checked in", "meaning": "làm thủ tục nhận phòng"},
+        {"phrase": "get your bearings", "meaning": "định hướng / nắm vị trí xung quanh"},
+    ],
+    "the-glacier-express": [
+        {"phrase": "get a ticket", "meaning": "mua vé"},
+        {"phrase": "get on", "meaning": "lên (tàu / xe)"},
+        {"phrase": "get off", "meaning": "xuống (tàu / xe)"},
+    ],
+    "view-from-the-top": [
+        {"phrase": "get a view of", "meaning": "nhìn thấy / ngắm cảnh"},
+        {"phrase": "get altitude sickness", "meaning": "bị say độ cao"},
+        {"phrase": "get change", "meaning": "đổi tiền lẻ / nhận tiền thối"},
+    ],
+    "snowed-in-at-zermatt": [
+        {"phrase": "get snowed in", "meaning": "bị kẹt vì tuyết / không ra được"},
+        {"phrase": "get held up", "meaning": "bị trì hoãn / bị chậm lại"},
+        {"phrase": "get by", "meaning": "xử lý tạm / vượt qua (với ít tài nguyên)"},
+    ],
+    "lost-on-the-alpine-trail": [
+        {"phrase": "get around", "meaning": "đi lại / di chuyển quanh khu vực"},
+        {"phrase": "get lost", "meaning": "bị lạc"},
+        {"phrase": "get swept up in", "meaning": "bị cuốn vào (không khí / sự kiện)"},
+    ],
+    # Everyday Get Arc 116–118
+    "first-english-meetup": [
+        {"phrase": "get used to", "meaning": "quen dần với"},
+        {"phrase": "get ready", "meaning": "chuẩn bị sẵn sàng"},
+        {"phrase": "get through", "meaning": "vượt qua / hoàn thành (một buổi / bài)"},
+    ],
+    "when-you-finally-get-it": [
+        {"phrase": "get it", "meaning": "hiểu rồi / nắm được"},
+        {"phrase": "get back to", "meaning": "quay lại (việc) / phản hồi sau"},
+        {"phrase": "get by", "meaning": "tạm đủ dùng / xoay xở được"},
+    ],
+    "everyday-get-finale": [
+        {"phrase": "get onboarded", "meaning": "được hướng dẫn nhập môn / làm quen hệ thống"},
+        {"phrase": "get sign-off", "meaning": "được phê duyệt chính thức"},
+        {"phrase": "get a ride", "meaning": "được chở / nhờ xe"},
+    ],
 }
 
 
@@ -735,7 +858,7 @@ def build_roadmap() -> dict:
     return {
         "meta": {
             "title": "Lộ trình học tiếng Anh",
-            "subtitle": "15 arc · 122 tập · Từ debug code đến phỏng vấn & postmortem",
+            "subtitle": "18 arc · 136 tập · Từ debug code đến phrasal verbs get",
         },
         "methodology": [
             {"step": 1, "icon": "📖", "title": "Đọc truyện", "desc": "Mỗi tập là một tình huống thật — đọc hội thoại và chú ý phần ENGLISH FOCUS trên ảnh."},
@@ -819,6 +942,15 @@ def build_roadmap() -> dict:
                             {"seriesId": "giving-feedback", "tip": "1-on-1, constructive feedback, mentoring"},
                             {"seriesId": "presentation-pitch", "tip": "Demo structure, key takeaway, tough Q&A"},
                             {"seriesId": "incident-postmortem", "tip": "War room, root cause, blameless postmortem"},
+                        ],
+                    },
+                    {
+                        "title": "Giai đoạn 10 — Get Phrasal Verbs",
+                        "desc": "Startup Bay Area, Thụy Sĩ, học tiếng Anh hàng ngày — học get + prep/adj/V3 qua truyện",
+                        "steps": [
+                            {"seriesId": "silicon-valley-get", "tip": "Loop in, buy-in, ship day, war room, acquisition"},
+                            {"seriesId": "switzerland-travel", "tip": "Trains, peaks, snow — get around Switzerland"},
+                            {"seriesId": "english-everyday-get", "tip": "Meetup, homework — get it, get by, get used to"},
                         ],
                     },
                 ],
@@ -1059,6 +1191,54 @@ def build_roadmap() -> dict:
                         "title": "Blameless Communication",
                         "desc": "5 tập từ war room đến postmortem finale",
                         "steps": [{"seriesId": "incident-postmortem"}],
+                    },
+                ],
+            },
+            {
+                "id": "silicon-valley-get",
+                "title": "Silicon Valley Get",
+                "subtitle": "Tập 105–110 — startup, ship day, acquisition",
+                "icon": "🌉",
+                "color": "#0EA5E9",
+                "duration": "1 tuần",
+                "desc": "Phrasal verbs get trong công việc startup: loop in, buy-in, blocked, shipped, promoted.",
+                "phases": [
+                    {
+                        "title": "Bay Area Rotation",
+                        "desc": "6 tập từ onboarding Slack đến acquisition news",
+                        "steps": [{"seriesId": "silicon-valley-get"}],
+                    },
+                ],
+            },
+            {
+                "id": "switzerland-travel",
+                "title": "Switzerland Travel",
+                "subtitle": "Tập 111–115 — Zurich, Glacier Express, Zermatt",
+                "icon": "🏔️",
+                "color": "#059669",
+                "duration": "1 tuần",
+                "desc": "Get around Switzerland — tickets, trains, altitude, snow, alpine trails.",
+                "phases": [
+                    {
+                        "title": "Alpine Adventure",
+                        "desc": "5 tập từ landing Zurich đến lost on the trail",
+                        "steps": [{"seriesId": "switzerland-travel"}],
+                    },
+                ],
+            },
+            {
+                "id": "english-everyday-get",
+                "title": "Everyday Get",
+                "subtitle": "Tập 116–118 — meetup, homework, daily English",
+                "icon": "📚",
+                "color": "#D946EF",
+                "duration": "3–4 ngày",
+                "desc": "Get used to, get it, get by — học tiếng Anh trong cuộc sống hàng ngày.",
+                "phases": [
+                    {
+                        "title": "Learning English Daily",
+                        "desc": "3 tập meetup, aha moment, finale combo",
+                        "steps": [{"seriesId": "english-everyday-get"}],
                     },
                 ],
             },

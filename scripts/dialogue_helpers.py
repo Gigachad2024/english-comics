@@ -298,7 +298,7 @@ def word_breakdown(text: str, max_items: int = 10) -> list[dict]:
                 add(comp, base)
 
     for key in sorted(WORD_NOTES.keys(), key=len, reverse=True):
-        if key in low and not any(key in s for s in seen):
+        if re.search(rf"\b{re.escape(key)}\b", low) and not any(key in s for s in seen):
             add(key, WORD_NOTES[key])
 
     return found[:max_items]
@@ -495,7 +495,7 @@ def expand_grammar_beginner(rule: dict, episode_example: str = "") -> str:
     if bad:
         parts.append(f"Ví dụ sai (tránh): *{bad}*")
     if episode_example:
-        parts.append(f"Trong tập này bạn gặp: *{episode_example}*")
+        parts.append(f"Trong tập này bạn gặp (Panel): *{episode_example}*")
     parts.append(
         "Mẹo học: đọc to câu đúng 3 lần, viết lại 1 câu tương tự về công việc/đời sống của bạn."
     )

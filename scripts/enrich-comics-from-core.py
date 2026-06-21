@@ -34,6 +34,9 @@ ARC_PACKS = {
     "giving-feedback": ["giving_feedback", "universal_communication_v2"],
     "presentation-pitch": ["presentation_pitch", "universal_communication_v2", "bug_report_agreement_through"],
     "incident-postmortem": ["incident_postmortem", "bug_report_agreement_through", "email_async"],
+    "silicon-valley-get": ["get_phrasal_startup", "email_async", "universal_communication_v2"],
+    "switzerland-travel": ["get_phrasal_travel", "decision_hesitation", "universal_communication_v2"],
+    "english-everyday-get": ["get_phrasal_everyday", "universal_communication_v2", "get_phrasal_startup"],
 }
 
 # Slug -> contexts tags
@@ -61,6 +64,20 @@ SLUG_CONTEXTS = {
     "first-code-review-in-english": ["software-engineering", "asking-help"],
     "speaking-up": ["software-engineering", "work-meeting", "opinion"],
     "nam-becomes-the-bridge": ["career-growth", "work-meeting"],
+    "can-you-loop-me-in": ["software-engineering", "startup", "Slack", "work-meeting"],
+    "we-need-buy-in": ["software-engineering", "startup", "work-meeting", "decision"],
+    "blocked-on-dependencies": ["software-engineering", "startup", "work-meeting"],
+    "ship-it-friday": ["software-engineering", "startup", "production", "decision"],
+    "pulled-into-the-war-room": ["software-engineering", "startup", "incident", "production"],
+    "the-acquisition-news": ["software-engineering", "startup", "career", "work-meeting"],
+    "landing-in-zurich": ["travel", "hotel", "directions"],
+    "the-glacier-express": ["travel", "transport", "train"],
+    "view-from-the-top": ["travel", "mountains", "health"],
+    "snowed-in-at-zermatt": ["travel", "weather", "hotel"],
+    "lost-on-the-alpine-trail": ["travel", "directions", "adventure"],
+    "first-english-meetup": ["learning", "daily-life", "meetup"],
+    "when-you-finally-get-it": ["learning", "daily-life", "study"],
+    "everyday-get-finale": ["learning", "software-engineering", "mentoring"],
 }
 
 COMMON_MISTAKES = [
@@ -106,6 +123,24 @@ COMMON_MISTAKES = [
         "why": "feedback pattern — cần that sau thing",
         "patterns": ["One thing that went well"],
     },
+    {
+        "wrong": "I need to get loop in on the project.",
+        "correct": "I need to get looped in on the project.",
+        "why": "get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện",
+        "patterns": ["get looped in", "loop me in"],
+    },
+    {
+        "wrong": "We got ship yesterday.",
+        "correct": "We got shipped yesterday.",
+        "why": "get shipped = feature được deploy — cần V3 (shipped)",
+        "patterns": ["get shipped", "get shipped"],
+    },
+    {
+        "wrong": "How can I get in the train?",
+        "correct": "How can I get on the train?",
+        "why": "get on = lên phương tiện · get off = xuống",
+        "patterns": ["get on", "get off"],
+    },
 ]
 
 
@@ -144,6 +179,9 @@ def match_packs(ep, series_id: str, all_patterns: list[str]) -> list[str]:
         ("giving_feedback", ["one thing that went well", "area to improve", "i'd suggest trying", "how can i support", "have you considered"]),
         ("presentation_pitch", ["let me walk you through", "key takeaway", "any questions on this", "main problem we're solving", "keep this brief"]),
         ("incident_postmortem", ["what we know so far", "root cause appears", "action items going forward", "mitigated the issue", "timeline of events"]),
+        ("get_phrasal_startup", ["get looped in", "get pinged", "get up to speed", "get buy-in", "get aligned", "get the ball rolling", "get blocked", "get unblocked", "get shipped", "get sign-off", "get pulled into", "get promoted", "get acquired", "get face time"]),
+        ("get_phrasal_travel", ["get to", "get checked in", "get your bearings", "get a ticket", "get on", "get off", "get a view of", "get snowed in", "get held up", "get lost", "get around", "get swept up in", "get a ride", "get altitude sickness", "get change"]),
+        ("get_phrasal_everyday", ["get used to", "get it", "get by", "get ready", "get through", "get onboarded"]),
     ]
     for pack_id, keys in rules:
         if any(k in blob for k in keys):

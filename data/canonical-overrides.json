@@ -271,6 +271,117 @@
       {"panel": 4, "speaker": "Nam", "text": "I think I'll keep practicing."},
       {"panel": 5, "speaker": "Nam", "text": "We didn't just visit Japan — we grew together."},
       {"panel": 6, "speaker": "Nam", "text": "Thank you, Tokyo! Thank you, team!"}
+    ],
+    "silicon-valley-get/105": [
+      {"panel": 1, "speaker": "PM", "text": "Welcome! I'll get you looped in on the launch channel."},
+      {"panel": 2, "speaker": "Nam", "text": "Sorry — I keep getting pinged on every thread."},
+      {"panel": 3, "speaker": "Buddy", "text": "Don't worry. We'll get you up to speed by standup tomorrow."},
+      {"panel": 4, "speaker": "Nam", "text": "There are twelve stakeholders I wasn't looped in on yet."},
+      {"panel": 5, "speaker": "Nam", "text": "I'm getting up to speed — but I still get pinged after hours."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: We Need Buy-In"}
+    ],
+    "silicon-valley-get/106": [
+      {"panel": 1, "speaker": "PM", "text": "We can't ship without buy-in from design and legal."},
+      {"panel": 2, "speaker": "Designer", "text": "We're not aligned on the user flow yet."},
+      {"panel": 3, "speaker": "Kenji", "text": "Let's get aligned on one MVP before we debate polish."},
+      {"panel": 4, "speaker": "Nam", "text": "If we get buy-in on this scope, we can get the ball rolling Monday."},
+      {"panel": 5, "speaker": "Legal", "text": "I'm in."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: Blocked on Dependencies"}
+    ],
+    "silicon-valley-get/107": [
+      {"panel": 1, "speaker": "Nam", "text": "I'm blocked on the payments API — third day."},
+      {"panel": 2, "speaker": "Nam", "text": "Every time I ask, I get blocked on a different dependency."},
+      {"panel": 3, "speaker": "Kenji", "text": "Nam needs to get unblocked today — demo is Friday."},
+      {"panel": 4, "speaker": "Platform", "text": "You should be unblocked now — try the staging key."},
+      {"panel": 5, "speaker": "Nam", "text": "Once I'm unblocked, I can get through code review tonight."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: Ship It Friday"}
+    ],
+    "silicon-valley-get/108": [
+      {"panel": 1, "speaker": "PM", "text": "We need sign-off from QA and product before we get shipped."},
+      {"panel": 2, "speaker": "Linh", "text": "Staging looks good — I'll get sign-off from QA in ten minutes."},
+      {"panel": 3, "speaker": "Nam", "text": "Are we ready? I want everything to get ready before we merge."},
+      {"panel": 4, "speaker": "Kenji", "text": "Feature got shipped — nice work."},
+      {"panel": 5, "speaker": "Hook", "text": "Next: Pulled Into the War Room"}
+    ],
+    "silicon-valley-get/109": [
+      {"panel": 1, "speaker": "On-call", "text": "Sorry — you're getting pulled into the checkout war room."},
+      {"panel": 2, "speaker": "Nam", "text": "I'm stuck — the error only happens in prod, not staging."},
+      {"panel": 3, "speaker": "Kenji", "text": "Don't spin — tell PM you'll get back to them in thirty minutes."},
+      {"panel": 4, "speaker": "Nam", "text": "I'll get back to the team once rollback is confirmed."},
+      {"panel": 5, "speaker": "Nam", "text": "Got pulled into my first war room — and we got through it."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: The Acquisition News"}
+    ],
+    "silicon-valley-get/110": [
+      {"panel": 1, "speaker": "CEO", "text": "Big news — we're getting acquired by a global platform."},
+      {"panel": 2, "speaker": "Nam", "text": "Does this mean layoffs… or opportunities?"},
+      {"panel": 3, "speaker": "VP", "text": "I wanted face time with you before the reorg."},
+      {"panel": 4, "speaker": "VP", "text": "You're getting promoted to senior — they noticed your ship work."},
+      {"panel": 5, "speaker": "Kenji", "text": "When a startup gets acquired, culture changes — stay flexible."},
+      {"panel": 6, "speaker": "Nam", "text": "I got face time, got promoted… and the whole company got acquired."}
+    ],
+    "switzerland-travel/111": [
+      {"panel": 1, "speaker": "Friend", "text": "Welcome! Let's get to the hotel before rush hour."},
+      {"panel": 2, "speaker": "Clerk", "text": "I'll get you checked in — passport and booking, please."},
+      {"panel": 3, "speaker": "Friend", "text": "Walk with me — you'll get your bearings in the old town."},
+      {"panel": 4, "speaker": "Nam", "text": "It took an hour to get to Zurich, but I already love it."},
+      {"panel": 5, "speaker": "Nam", "text": "Once I get my bearings, I want to explore every alley."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: The Glacier Express"}
+    ],
+    "switzerland-travel/112": [
+      {"panel": 1, "speaker": "Nam", "text": "How do I get a ticket for the Glacier Express?"},
+      {"panel": 2, "speaker": "Friend", "text": "First class or second? Get a ticket with a seat reservation."},
+      {"panel": 3, "speaker": "Nam", "text": "Wait — do we get on at platform 7 or 8?"},
+      {"panel": 4, "speaker": "Friend", "text": "We get off at Filisur — don't miss the stop."},
+      {"panel": 5, "speaker": "Nam", "text": "I nearly forgot to get off — the view hypnotized me."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: View from the Top"}
+    ],
+    "switzerland-travel/113": [
+      {"panel": 1, "speaker": "Friend", "text": "From here you'll get a view of the whole Bernese Alps."},
+      {"panel": 2, "speaker": "Nam", "text": "I think I'm getting altitude sickness — head is spinning."},
+      {"panel": 3, "speaker": "Friend", "text": "Sit still. Altitude sickness passes if you rest."},
+      {"panel": 4, "speaker": "Nam", "text": "Can I get change for this twenty-franc note?"},
+      {"panel": 5, "speaker": "Nam", "text": "Worth it — I got a view of mountains I'll never forget."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: Snowed In at Zermatt"}
+    ],
+    "switzerland-travel/114": [
+      {"panel": 1, "speaker": "Hotel host", "text": "You might get snowed in tonight — roads are closing."},
+      {"panel": 2, "speaker": "Nam", "text": "We got held up by the avalanche warning."},
+      {"panel": 3, "speaker": "Friend", "text": "We can get by with phrasebook German and gestures."},
+      {"panel": 4, "speaker": "Nam", "text": "English gets you by here — everyone is kind."},
+      {"panel": 5, "speaker": "Friend", "text": "Sometimes getting held up is how you meet the best stories."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: Lost on the Alpine Trail"}
+    ],
+    "switzerland-travel/115": [
+      {"panel": 1, "speaker": "Friend", "text": "Stay close — it's easy to get lost up here."},
+      {"panel": 2, "speaker": "Nam", "text": "I think we're lost — which way back to Zermatt?"},
+      {"panel": 3, "speaker": "Friend", "text": "Listen — we got swept up in a local festival by accident."},
+      {"panel": 4, "speaker": "Nam", "text": "Best wrong turn ever — I got swept up in the music."},
+      {"panel": 5, "speaker": "Local", "text": "I can get you a ride back — jump in the back."},
+      {"panel": 6, "speaker": "Nam", "text": "Switzerland taught me how to get around — even when lost."}
+    ],
+    "english-everyday-get/116": [
+      {"panel": 1, "speaker": "Nam", "text": "I need to get ready — deep breath."},
+      {"panel": 2, "speaker": "Facilitator", "text": "It takes time to get used to speaking English out loud."},
+      {"panel": 3, "speaker": "Nam", "text": "Sorry — I'm not used to talking this long in English."},
+      {"panel": 4, "speaker": "Partner", "text": "You got through the hardest part — the first five minutes."},
+      {"panel": 5, "speaker": "Nam", "text": "I got through my first meetup without switching to Vietnamese."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: When You Finally Get It"}
+    ],
+    "english-everyday-get/117": [
+      {"panel": 1, "speaker": "Tutor", "text": "Don't memorize lists — use them until you get it."},
+      {"panel": 2, "speaker": "Nam", "text": "Oh — I get it now. Get blocked means dependency stopped me."},
+      {"panel": 3, "speaker": "Nam", "text": "Let me get back to you after this lesson — I'm studying."},
+      {"panel": 4, "speaker": "Barista", "text": "Your English is good — you get by fine here."},
+      {"panel": 5, "speaker": "Nam", "text": "I used to get by with one-word answers. Not anymore."},
+      {"panel": 6, "speaker": "Hook", "text": "Next: Everyday Get Finale"}
+    ],
+    "english-everyday-get/118": [
+      {"panel": 1, "speaker": "Nam", "text": "I'll get you onboarded — same as my SF rotation."},
+      {"panel": 2, "speaker": "HR", "text": "We need your sign-off as his onboarding buddy."},
+      {"panel": 3, "speaker": "Nam", "text": "Get looped in, get unblocked, get shipped — you'll hear these daily."},
+      {"panel": 4, "speaker": "Riku", "text": "Can I get a ride to the station with you?"},
+      {"panel": 5, "speaker": "Nam", "text": "I got onboarded once too. Now I help others get it."},
+      {"panel": 6, "speaker": "Nam", "text": "Everyday English isn't perfect — but you get by, get better, and get heard."}
     ]
   }
 }

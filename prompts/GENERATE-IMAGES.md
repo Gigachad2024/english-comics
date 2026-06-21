@@ -2,11 +2,32 @@
 
 Hướng dẫn tạo comic theo đúng style Tokyo Debug Chronicles.
 
-**Kịch bản arc chi tiết:** `prompts/arcs/00-career-advanced-overview.md` (+ 01–05 arc scripts)
+**Kịch bản arc chi tiết:** `prompts/arcs/00-career-advanced-overview.md` (+ 01–05 arc scripts) · **Get phrasal verbs:** `06-get-phrasal-overview.md` (+ 07–09)
 
 ---
 
-## Career Advanced — 26 tập mới (79–104) ⭐ Ưu tiên
+## Get Phrasal Verbs — 14 tập mới (105–118) ⭐ Mới
+
+| Arc | Tập | File kịch bản | Prompt files |
+|-----|-----|---------------|--------------|
+| Silicon Valley Get | 105–110 | `arcs/07-silicon-valley-get-arc-script.md` | `silicon-valley-get-t105-comic.md` … `t110` |
+| Switzerland Travel | 111–115 | `arcs/08-switzerland-travel-arc-script.md` | `switzerland-travel-t111-comic.md` … `t115` |
+| Everyday Get | 116–118 | `arcs/09-everyday-get-arc-script.md` | `english-everyday-get-t116-comic.md` … `t118` |
+
+**Style ref gợi ý:**
+- Silicon Valley: `career-growth/tập-50/` + SF open office
+- Switzerland: `traveling/tập-16/` + alpine scenery
+- Everyday: warm meetup / cafe study session
+
+```bash
+python3 scripts/setup-get-arcs-dirs.py
+python3 scripts/generate-comic-prompts.py
+python3 scripts/build-comics-data.py
+```
+
+---
+
+## Career Advanced — 26 tập (79–104)
 
 | Arc | Tập | File kịch bản | Prompt files |
 |-----|-----|---------------|--------------|

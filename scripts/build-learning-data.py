@@ -16,6 +16,7 @@ from dialogue_helpers import (  # noqa: E402
     lookup_line_vi,
     normalize,
     parse_speech_from_line,
+    phrase_is_in_line,
     synthesize_dialogue_lines,
 )
 
@@ -201,6 +202,204 @@ GRAMMAR_RULES = [
         "exampleGood": "Let me walk you through the logs.",
         "exampleBad": "Let me to walk you through. (không thêm to)",
     },
+    {
+        "id": "get-looped-in",
+        "title": "get looped in — bị động, ai đó thêm bạn vào luồng",
+        "triggers": ["get looped in", "got looped in", "loop me in"],
+        "rule": "**get + V3 (looped)** = trạng thái kết quả — bạn đã được thêm vào email/Slack/meeting.",
+        "explain": "I'll get you looped in on the launch channel = Tôi sẽ thêm bạn vào kênh launch.",
+        "exampleGood": "Can you get me looped in on the decision?",
+        "exampleBad": "Can you get me loop in? (thiếu -ed)",
+    },
+    {
+        "id": "get-blocked-on",
+        "title": "get blocked on + noun — bị kẹt vì phụ thuộc",
+        "triggers": ["get blocked", "got blocked", "i'm blocked on", "get unblocked"],
+        "rule": "**get blocked on + dependency** · **get unblocked** = ai đó gỡ chướng ngại.",
+        "explain": "I'm blocked on the API key = Tôi không làm tiếp được vì thiếu API key.",
+        "exampleGood": "Nam needs to get unblocked before Friday's demo.",
+        "exampleBad": "I'm blocked the API. (thiếu on)",
+    },
+    {
+        "id": "get-adj-past",
+        "title": "get + V3 / get + adj — trạng thái thay đổi",
+        "triggers": ["get shipped", "get promoted", "getting promoted", "get acquired", "getting acquired", "got promoted", "get snowed in", "get lost", "get stuck", "get ready", "get checked in"],
+        "rule": "**get + V3/adj** mô tả **trạng thái mới**: shipped, promoted, lost, ready, checked in.",
+        "explain": "We got shipped Friday = Feature đã lên production. / I got lost on the trail = Tôi bị lạc.",
+        "exampleGood": "The feature got shipped on Friday.",
+        "exampleBad": "The feature got ship on Friday. (ship → shipped)",
+    },
+    {
+        "id": "get-prep-noun",
+        "title": "get + prep + noun — di chuyển & travel",
+        "triggers": ["get to", "get on", "get off", "get around", "get a ticket", "get a ride", "get a view of", "get your bearings"],
+        "rule": "**get + giới từ + danh từ** — get to Zurich, get on the train, get off at Filisur.",
+        "explain": "get your bearings = định hướng / nắm vị trí · get a view of = nhìn thấy cảnh.",
+        "exampleGood": "How do I get to the hotel from the station?",
+        "exampleBad": "How do I get the hotel? (thiếu to)",
+    },
+    {
+        "id": "get-used-to-ving",
+        "title": "get used to + V-ing / noun",
+        "triggers": ["get used to", "getting used to", "got used to"],
+        "rule": "**get used to + V-ing** = quen dần · Khác **used to + V** (trước đây hay làm).",
+        "explain": "I'm getting used to speaking English at meetups.",
+        "exampleGood": "You'll get used to the Slack pings.",
+        "exampleBad": "You'll get used to speak English. (speak → speaking)",
+    },
+    {
+        "id": "get-it-informal",
+        "title": "get it — hiểu rồi (thân mật)",
+        "triggers": ["get it", "got it", "i get it", "you get it"],
+        "rule": "**get it** = hiểu / nắm được · **Got it** = đã hiểu (phản hồi nhanh).",
+        "explain": "Oh, I get it now — get blocked means a dependency stopped me.",
+        "exampleGood": "Do you get it? — Yeah, I get it now.",
+        "exampleBad": "Do you get? (thiếu it)",
+    },
+    {
+        "id": "get-pinged",
+        "title": "get pinged — bị tag/nhắn liên tục",
+        "triggers": ["get pinged", "getting pinged", "keep getting pinged"],
+        "rule": "**get pinged on + thread/channel** = bị nhắn/tag liên tục trên Slack.",
+        "explain": "I keep getting pinged on every thread = Tôi cứ bị ping trên mọi thread.",
+        "exampleGood": "Sorry — I keep getting pinged after hours.",
+        "exampleBad": "I keep get pinged on threads. (get → getting / got pinged)",
+    },
+    {
+        "id": "get-up-to-speed",
+        "title": "get up to speed — nắm bắt nhanh",
+        "triggers": ["get up to speed", "getting up to speed"],
+        "rule": "**get up to speed on + topic** = nắm bắt nhanh tình hình / context mới.",
+        "explain": "We'll get you up to speed by standup = Chúng tôi giúp bạn nắm bắt trước standup.",
+        "exampleGood": "I'll get you up to speed on the launch channel.",
+        "exampleBad": "I'll get you up to speed the launch. (thiếu on)",
+    },
+    {
+        "id": "get-buy-in",
+        "title": "get buy-in — được đồng thuận",
+        "triggers": ["get buy-in", "buy-in from", "without buy-in"],
+        "rule": "**get buy-in from + team/stakeholder** = được mọi người chấp thuận trước khi làm.",
+        "explain": "We can't ship without buy-in from legal = Không ship được nếu legal chưa đồng ý.",
+        "exampleGood": "If we get buy-in on this scope, we can start Monday.",
+        "exampleBad": "We need buy in from legal. (buy-in viết liền hoặc có dấu gạch ngang)",
+    },
+    {
+        "id": "get-aligned",
+        "title": "get aligned — thống nhất hướng đi",
+        "triggers": ["get aligned", "not aligned", "finally aligned"],
+        "rule": "**get aligned on + topic** = team thống nhất trước khi làm chi tiết.",
+        "explain": "Let's get aligned on one MVP before we debate polish.",
+        "exampleGood": "We're not aligned on the user flow yet.",
+        "exampleBad": "Let's align on MVP. (align OK nhưng get aligned tự nhiên hơn trong startup)",
+    },
+    {
+        "id": "get-ball-rolling",
+        "title": "get the ball rolling — khởi động việc",
+        "triggers": ["get the ball rolling", "ball rolling"],
+        "rule": "Idiom: **get the ball rolling** = bắt đầu / khởi động dự án.",
+        "explain": "Once we have buy-in, we can get the ball rolling.",
+        "exampleGood": "Let's get the ball rolling on the MVP Monday.",
+        "exampleBad": "Let's get ball rolling. (thiếu the)",
+    },
+    {
+        "id": "get-through-stage",
+        "title": "get through + noun — vượt qua giai đoạn",
+        "triggers": ["get through", "got through"],
+        "rule": "**get through + review/meetup/lesson** = hoàn thành / vượt qua một giai đoạn.",
+        "explain": "Once I'm unblocked, I can get through code review tonight.",
+        "exampleGood": "You got through the hardest part — the first five minutes.",
+        "exampleBad": "I get through review. (nên dùng can/will hoặc got through cho quá khứ)",
+    },
+    {
+        "id": "get-sign-off",
+        "title": "get sign-off — phê duyệt chính thức",
+        "triggers": ["get sign-off", "sign-off from", "need sign-off"],
+        "rule": "**get sign-off from + QA/legal/PM** = được phê duyệt chính thức.",
+        "explain": "We need sign-off from QA before we get shipped.",
+        "exampleGood": "I'll get sign-off from QA in ten minutes.",
+        "exampleBad": "I need sign off from QA. (sign-off có dấu gạch ngang)",
+    },
+    {
+        "id": "get-pulled-into",
+        "title": "get pulled into — bị kéo vào sự cố",
+        "triggers": ["get pulled into", "getting pulled into", "pulled into"],
+        "rule": "**get pulled into + war room/meeting** = bị gọi vào xử lý khẩn.",
+        "explain": "You're getting pulled into the checkout war room.",
+        "exampleGood": "I got pulled into my first war room last night.",
+        "exampleBad": "I got pull into the war room. (pull → pulled)",
+    },
+    {
+        "id": "get-back-to",
+        "title": "get back to — phản hồi lại sau",
+        "triggers": ["get back to", "getting back to"],
+        "rule": "**get back to + person** = trả lời / phản hồi sau (email, Slack).",
+        "explain": "I'll get back to the team once rollback is confirmed.",
+        "exampleGood": "Let me get back to you after this lesson.",
+        "exampleBad": "I'll get back you tomorrow. (thiếu to)",
+    },
+    {
+        "id": "get-on-off-train",
+        "title": "get on / get off — lên/xuống tàu",
+        "triggers": ["get on at", "get off at", "get on the", "get off the", "forgot to get off"],
+        "rule": "**get on + vehicle** = lên · **get off at + stop** = xuống tại ga.",
+        "explain": "We get on at platform 7 — don't miss the stop at Filisur.",
+        "exampleGood": "Do we get on at platform 7 or 8?",
+        "exampleBad": "Do we get in the train? (dùng get on the train)",
+    },
+    {
+        "id": "get-snowed-held-up",
+        "title": "get snowed in / get held up — bị kẹt & trì hoãn",
+        "triggers": ["get snowed in", "got held up", "getting held up", "get held up"],
+        "rule": "**get snowed in** = kẹt tuyết · **get held up by + reason** = bị trì hoãn.",
+        "explain": "You might get snowed in tonight — roads are closing.",
+        "exampleGood": "We got held up by the avalanche warning.",
+        "exampleBad": "We got hold up by snow. (hold → held)",
+    },
+    {
+        "id": "get-swept-up",
+        "title": "get swept up in — bị cuốn vào",
+        "triggers": ["get swept up in", "got swept up in", "swept up in"],
+        "rule": "**get swept up in + event/music/crowd** = bị cuốn vào không khí.",
+        "explain": "We got swept up in a local festival by accident.",
+        "exampleGood": "I got swept up in the music — best wrong turn ever.",
+        "exampleBad": "I get sweep up in music. (sweep → swept)",
+    },
+    {
+        "id": "get-a-view-of",
+        "title": "get a view of — nhìn thấy toàn cảnh",
+        "triggers": ["get a view of", "got a view of", "getting a view of"],
+        "rule": "**get a view of + danh từ (cảnh)** = nhìn thấy / ngắm toàn cảnh từ vị trí này.",
+        "explain": "From here you'll get a view of the whole Bernese Alps = Từ đây bạn nhìn thấy cả dãy Alps.",
+        "exampleGood": "From here you'll get a view of the whole Bernese Alps.",
+        "exampleBad": "From here you'll get view of Alps. (thiếu a view of)",
+    },
+    {
+        "id": "get-travel-extras",
+        "title": "get altitude sickness / get change — tình huống du lịch",
+        "triggers": ["altitude sickness", "getting altitude sickness", "get change for", "get change"],
+        "rule": "**get altitude sickness** = bị say độ cao · **get change for + bill** = đổi tiền lẻ.",
+        "explain": "I think I'm getting altitude sickness = Tôi bị say độ cao. / Can I get change for this note?",
+        "exampleGood": "Can I get change for this twenty-franc note?",
+        "exampleBad": "Can I get a change? (get change for + bill)",
+    },
+    {
+        "id": "get-face-time",
+        "title": "get face time — thời gian trực tiếp với sếp",
+        "triggers": ["get face time", "got face time", "face time with", "wanted face time"],
+        "rule": "**get face time with + person** = có thời gian nói chuyện trực tiếp với leadership.",
+        "explain": "I wanted face time with you before the reorg = Tôi muốn gặp bạn trực tiếp trước tái cơ cấu.",
+        "exampleGood": "I got face time with the VP before the announcement.",
+        "exampleBad": "I got face times with VP. (face time không đếm số)",
+    },
+    {
+        "id": "get-onboarded",
+        "title": "get onboarded — nhập môn công ty",
+        "triggers": ["get onboarded", "get you onboarded", "got onboarded"],
+        "rule": "**get onboarded** = được hướng dẫn làm quen hệ thống / team mới.",
+        "explain": "I'll get you onboarded — same as my SF rotation.",
+        "exampleGood": "I got onboarded once too. Now I help others.",
+        "exampleBad": "I'll onboard you. (OK nhưng get onboarded nhấn trải nghiệm người mới)",
+    },
 ]
 
 # ── Extra vocabulary (words/phrases in dialogue, not always in packs) ───────
@@ -356,6 +555,41 @@ PATTERN_VI = {
     "fit in": "hòa nhập",
     "flag for": "đánh dấu để lưu ý",
     "get used to": "quen dần với",
+    "get looped in": "được thêm vào cuộc trò chuyện / được cập nhật",
+    "get pinged": "bị nhắn / bị tag trên Slack",
+    "get up to speed": "nắm bắt nhanh tình hình",
+    "get buy-in": "được mọi người đồng thuận",
+    "get aligned": "thống nhất / cùng hướng",
+    "get the ball rolling": "bắt đầu / khởi động việc",
+    "get blocked": "bị kẹt / không tiến được",
+    "get unblocked": "được gỡ kẹt",
+    "get shipped": "được deploy / đưa lên production",
+    "get sign-off": "được phê duyệt chính thức",
+    "get ready": "chuẩn bị sẵn sàng",
+    "get pulled into": "bị kéo vào (cuộc họp / sự cố)",
+    "get stuck": "bị kẹt / bí / không tiến triển",
+    "get back to": "phản hồi lại / quay lại việc",
+    "get face time": "có thời gian trực tiếp với sếp",
+    "get promoted": "được thăng chức",
+    "get acquired": "bị mua lại (công ty)",
+    "get onboarded": "được hướng dẫn nhập môn",
+    "get it": "hiểu rồi / nắm được",
+    "get to": "đến (một nơi)",
+    "get checked in": "làm thủ tục nhận phòng",
+    "get your bearings": "định hướng / nắm vị trí",
+    "get a ticket": "mua vé",
+    "get on": "lên (tàu / xe)",
+    "get off": "xuống (tàu / xe)",
+    "get a view of": "nhìn thấy / ngắm cảnh",
+    "get altitude sickness": "bị say độ cao",
+    "get change": "đổi tiền lẻ",
+    "get snowed in": "bị kẹt vì tuyết",
+    "get held up": "bị trì hoãn",
+    "get by": "xoay xở được / tạm đủ dùng",
+    "get around": "đi lại quanh khu vực",
+    "get lost": "bị lạc",
+    "get swept up in": "bị cuốn vào (sự kiện / không khí)",
+    "get a ride": "được chở / nhờ xe",
     "hang out": "đi chơi",
     "drop off": "thả ai/đồ ở đâu",
     "keep posted": "cập nhật thường xuyên",
@@ -502,6 +736,13 @@ def example_for(phrase: str, title: str) -> str:
 
 
 def series_context(tag: str, desc: str) -> str:
+    dl = (desc or "").lower()
+    if "bay area" in dl or "silicon valley" in dl or "startup" in dl and "ship" in dl:
+        return "startup Bay Area — Slack, buy-in, ship day, war room"
+    if "alps" in dl or "switzerland" in dl or "zurich" in dl:
+        return "du lịch Thụy Sĩ — tàu hỏa, núi Alps, định hướng"
+    if "everyday get" in dl or "meetup" in dl and "english" in dl:
+        return "meetup tiếng Anh & đời sống hàng ngày ở Tokyo"
     if tag == "Du lịch":
         return "du lịch Nhật cùng team"
     if tag == "Cuộc sống":
@@ -511,7 +752,7 @@ def series_context(tag: str, desc: str) -> str:
     if tag in ("Văn hóa", "Anime"):
         return "khám phá văn hóa và đời sống Nhật"
     if tag == "Công việc":
-        return "team dev Tokyo — meeting, debug, release"
+        return "team dev — meeting, debug, release"
     return desc.split("—")[0].strip().lower() if "—" in desc else "tình huống thực tế"
 
 
@@ -678,26 +919,57 @@ def detect_grammar(ep: dict, phrases: list[str], dialogues: list[str], dialogue_
     for ln in dialogue_lines:
         blob += " " + (ln.get("en") or ln.get("text", "")).lower()
 
-    episode_example = ""
-    if dialogue_lines:
-        episode_example = dialogue_lines[0].get("en") or dialogue_lines[0].get("text", "")
+    focus_phrases = [normalize(f.get("phrase", "")) for f in ep.get("englishFocus") or []]
+    focus_phrases += [normalize(p) for p in phrases if p]
 
-    rules = []
-    seen = set()
+    def rule_score(rule: dict) -> int:
+        score = 0
+        for t in rule["triggers"]:
+            tl = t.lower()
+            if tl in blob:
+                score += 2
+            for fp in focus_phrases:
+                if fp and (fp in tl or tl in fp):
+                    score += 5
+        return score
+
+    def example_for_rule(rule: dict):
+        for ln in dialogue_lines:
+            txt = (ln.get("en") or ln.get("text", "")).lower()
+            if any(t in txt for t in rule["triggers"]):
+                return ln.get("en") or ln.get("text", ""), ln.get("panel")
+        return dialogue_lines[0].get("en", "") if dialogue_lines else "", dialogue_lines[0].get("panel") if dialogue_lines else None
+
+    scored: list[tuple[int, dict]] = []
+    seen: set[str] = set()
     for rule in GRAMMAR_RULES:
-        if any(t in blob for t in rule["triggers"]):
-            rid = rule["id"]
-            if rid not in seen:
-                rules.append({
-                    "id": rid,
-                    "title": rule["title"],
-                    "rule": rule["rule"],
-                    "explain": rule["explain"],
-                    "beginnerNote": expand_grammar_beginner(rule, episode_example),
-                    "exampleGood": rule["exampleGood"],
-                    "exampleBad": rule["exampleBad"],
-                })
-                seen.add(rid)
+        if not any(t in blob for t in rule["triggers"]):
+            continue
+        rid = rule["id"]
+        if rid in seen:
+            continue
+        ep_ex, panel = example_for_rule(rule)
+        note = expand_grammar_beginner(rule, ep_ex)
+        if panel:
+            note = note.replace(
+                f"Trong tập này bạn gặp (Panel): *{ep_ex}*",
+                f"Trong tập này (Panel {panel}) bạn gặp: *{ep_ex}*",
+            )
+        scored.append((rule_score(rule), {
+            "id": rid,
+            "title": rule["title"],
+            "rule": rule["rule"],
+            "explain": rule["explain"],
+            "beginnerNote": note,
+            "exampleGood": rule["exampleGood"],
+            "exampleBad": rule["exampleBad"],
+            "panelRef": panel,
+            "episodeLine": ep_ex,
+        }))
+        seen.add(rid)
+
+    scored.sort(key=lambda x: -x[0])
+    rules = [r for _, r in scored]
 
     for m in ep.get("commonMistakes") or []:
         mid = slug_id(m.get("why", m.get("wrong", "mistake")))
@@ -710,14 +982,27 @@ def detect_grammar(ep: dict, phrases: list[str], dialogues: list[str], dialogue_
             "exampleGood": m.get("correct", ""),
             "exampleBad": m.get("wrong", ""),
         }
+        ep_ex = m.get("correct", "")
+        panel = None
+        for ln in dialogue_lines:
+            txt = ln.get("en") or ""
+            for pat in m.get("patterns") or []:
+                if normalize(pat) in normalize(txt):
+                    ep_ex = txt
+                    panel = ln.get("panel")
+                    break
+            if panel:
+                break
         rules.append({
             "id": mid,
             "title": mistake_rule["title"],
             "rule": mistake_rule["rule"],
             "explain": mistake_rule["explain"],
-            "beginnerNote": expand_grammar_beginner(mistake_rule, m.get("correct", "")),
+            "beginnerNote": expand_grammar_beginner(mistake_rule, ep_ex),
             "exampleGood": mistake_rule["exampleGood"],
             "exampleBad": mistake_rule["exampleBad"],
+            "panelRef": panel,
+            "episodeLine": ep_ex,
         })
         seen.add(mid)
         if len(rules) >= 8:
@@ -789,7 +1074,8 @@ def build_phrase_detail(f: dict, ep: dict, series: dict, dialogue_lines: list[di
     for ln in dialogue_lines:
         txt = ln.get("en") or ln.get("text", "")
         pn = normalize(phrase.replace("...", ""))
-        if pn and pn in normalize(txt):
+        tn = normalize(txt)
+        if pn and (pn in tn or phrase_is_in_line(pn, tn)):
             example_en = txt
             example_vi = ln.get("vi") or meaning
             break

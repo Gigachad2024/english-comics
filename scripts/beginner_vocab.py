@@ -1,5 +1,7 @@
 """Beginner-friendly vocabulary & phrase notes for dialogue breakdown."""
 
+from get_episode_vocab import GET_GRAMMAR_PATTERNS, GET_PHRASE_NOTES, GET_SENTENCE_VI
+
 # Multi-word phrases — matched longest first
 PHRASE_NOTES: dict[str, str] = {
     "more affordable": "rẻ hơn / dễ chi trả hơn — affordable = giá vừa túi tiền",
@@ -249,6 +251,8 @@ SENTENCE_VI: dict[str, str] = {
     "that makes sense now — thank you": "Giờ tôi hiểu rồi — cảm ơn bạn.",
     "that makes sense now - thank you": "Giờ tôi hiểu rồi — cảm ơn bạn.",
 }
+SENTENCE_VI.update(GET_SENTENCE_VI)
+PHRASE_NOTES.update(GET_PHRASE_NOTES)
 
 # Canonical dialogue: data/canonical-dialogues.json (scripts/build-canonical-dialogues.py)
 
@@ -274,3 +278,4 @@ GRAMMAR_PATTERNS = [
     (r"\bcan't\b", "**can't** = cannot = không thể."),
     (r"\bgetting used to\b", "**getting used to + N/V-ing** = đang quen dần với."),
 ]
+GRAMMAR_PATTERNS.extend(GET_GRAMMAR_PATTERNS)

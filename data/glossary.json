@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "English Vault — Từ điển đầy đủ",
-    "count": 496,
+    "count": 595,
     "typeCounts": {
-      "vocab": 218,
-      "pattern": 201,
-      "grammar": 26,
-      "phrasal": 51
+      "vocab": 238,
+      "pattern": 257,
+      "grammar": 51,
+      "phrasal": 49
     },
     "subtitle": "Pattern · Phrasal verb · Từ vựng truyện · Ngữ pháp — 122 tập"
   },
@@ -304,6 +304,11 @@
           "title": "Demo Flow Drill"
         },
         {
+          "seriesId": "bug-arc-3",
+          "num": 5,
+          "title": "QA Gate"
+        },
+        {
           "seriesId": "living",
           "num": 34,
           "title": "Bug Alert After Work"
@@ -344,6 +349,11 @@
           "title": "Cache Culprit"
         },
         {
+          "seriesId": "bug-arc-2",
+          "num": 9,
+          "title": "Final Risk Meeting"
+        },
+        {
           "seriesId": "bug-arc-3",
           "num": 4,
           "title": "Cache Suspect"
@@ -382,6 +392,16 @@
           "seriesId": "incident-postmortem",
           "num": 102,
           "title": "Root Cause Analysis"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
         }
       ],
       "related": []
@@ -452,6 +472,11 @@
           "seriesId": "living",
           "num": 31,
           "title": "Moving Day"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
         }
       ],
       "related": []
@@ -541,18 +566,13 @@
       "term": "answer",
       "aliases": [],
       "vi": "câu trả lời",
-      "short": "Panel 2",
+      "short": "Panel 6",
       "long": "answer — câu trả lời. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: answer",
       "example": "answer.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
-        {
-          "seriesId": "interview-career",
-          "num": 84,
-          "title": "Interview & Career Finale"
-        },
         {
           "seriesId": "presentation-pitch",
           "num": 98,
@@ -955,6 +975,11 @@
           "title": "QA Gate"
         },
         {
+          "seriesId": "bug-arc-3",
+          "num": 8,
+          "title": "Release Plan at Risk"
+        },
+        {
           "seriesId": "traveling",
           "num": 19,
           "title": "Walk Me Through the Route"
@@ -1008,6 +1033,26 @@
           "seriesId": "incident-postmortem",
           "num": 102,
           "title": "Root Cause Analysis"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
         }
       ],
       "related": []
@@ -1198,6 +1243,31 @@
       "related": []
     },
     {
+      "id": "blocked-on",
+      "term": "blocked on",
+      "aliases": [],
+      "vi": "bị chặn ở (dependency/API)",
+      "short": "Panel 6",
+      "long": "blocked on — bị chặn ở (dependency/API). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: blocked on",
+      "example": "blocked on.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "blocker",
       "term": "blocker",
       "aliases": [],
@@ -1262,6 +1332,26 @@
       ]
     },
     {
+      "id": "buy-in",
+      "term": "buy-in",
+      "aliases": [],
+      "vi": "sự đồng thuận / chấp thuận",
+      "short": "Panel 6",
+      "long": "buy-in — sự đồng thuận / chấp thuận. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: buy-in",
+      "example": "buy-in.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "cache",
       "term": "cache",
       "aliases": [],
@@ -1277,11 +1367,6 @@
           "seriesId": "bug-arc-2",
           "num": 3,
           "title": "Go Through the Logs"
-        },
-        {
-          "seriesId": "bug-arc-2",
-          "num": 7,
-          "title": "Follow Through the Fix"
         },
         {
           "seriesId": "bug-arc-2",
@@ -1312,6 +1397,11 @@
           "seriesId": "system-design",
           "num": 53,
           "title": "Cache or Database First?"
+        },
+        {
+          "seriesId": "system-design",
+          "num": 55,
+          "title": "API Gateway at Night"
         },
         {
           "seriesId": "email-async",
@@ -1493,6 +1583,44 @@
         "ask-for",
         "bring-back",
         "calm-down"
+      ]
+    },
+    {
+      "id": "can-you-help-me-get-unblocked",
+      "term": "Can you help me get unblocked?",
+      "aliases": [],
+      "vi": "",
+      "short": "Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày.",
+      "long": "Can you help me get unblocked? — Mục từ vựng/pattern tiếng Anh. Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày. Cấu trúc: Can you help me get unblocked?",
+      "example": "Can you help me get unblocked?",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-loop-me-in-on",
+        "i-finally-get-it",
+        "i-got-pulled-into-the-war-room",
+        "i-need-to-get-up-to-speed-on"
+      ]
+    },
+    {
+      "id": "can-you-loop-me-in-on",
+      "term": "Can you loop me in on...?",
+      "aliases": [],
+      "vi": "",
+      "short": "Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày.",
+      "long": "Can you loop me in on...? — Mục từ vựng/pattern tiếng Anh. Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày. Cấu trúc: Can you loop me in on...?",
+      "example": "Can you loop me in onthe payment flow?",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "i-finally-get-it",
+        "i-got-pulled-into-the-war-room",
+        "i-need-to-get-up-to-speed-on"
       ]
     },
     {
@@ -1833,7 +1961,7 @@
         "could-you-loop-me-in-on",
         "flag-for",
         "follow-up-on",
-        "here-s-what-i-worked-on"
+        "get-acquired"
       ]
     },
     {
@@ -1985,6 +2113,11 @@
           "seriesId": "incident-postmortem",
           "num": 103,
           "title": "Action Items Going Forward"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
         }
       ],
       "related": []
@@ -2154,6 +2287,11 @@
           "seriesId": "career-growth",
           "num": 50,
           "title": "Nam Becomes the Bridge"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
         }
       ],
       "related": []
@@ -2357,11 +2495,6 @@
           "seriesId": "living",
           "num": 31,
           "title": "Moving Day"
-        },
-        {
-          "seriesId": "living",
-          "num": 40,
-          "title": "English for Real Life Finale"
         }
       ],
       "related": []
@@ -2402,11 +2535,6 @@
           "seriesId": "system-design",
           "num": 53,
           "title": "Cache or Database First?"
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 101,
-          "title": "What We Know So Far Is..."
         }
       ],
       "related": []
@@ -2577,7 +2705,7 @@
         "check-in-on",
         "flag-for",
         "follow-up-on",
-        "here-s-what-i-worked-on"
+        "get-acquired"
       ]
     },
     {
@@ -2785,14 +2913,14 @@
           "title": "Final Risk Meeting"
         },
         {
+          "seriesId": "bug-arc-3",
+          "num": 8,
+          "title": "Release Plan at Risk"
+        },
+        {
           "seriesId": "traveling",
           "num": 21,
           "title": "The Fuji Question"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 60,
-          "title": "Thinking Bigger Finale"
         },
         {
           "seriesId": "email-async",
@@ -2863,6 +2991,36 @@
           "seriesId": "presentation-pitch",
           "num": 99,
           "title": "Presentation & Pitch Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "dependency",
+      "term": "dependency",
+      "aliases": [],
+      "vi": "phụ thuộc kỹ thuật — chặn tiến độ",
+      "short": "Panel 2",
+      "long": "dependency — phụ thuộc kỹ thuật — chặn tiến độ. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: dependency",
+      "example": "dependency.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
         }
       ],
       "related": []
@@ -3103,6 +3261,25 @@
         "ask-for",
         "bring-back",
         "calm-down"
+      ]
+    },
+    {
+      "id": "don-t-forget-to-get-off-at",
+      "term": "Don't forget to get off at...",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "Don't forget to get off at... — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: Don't forget to get off at + [nội dung cụ thể]",
+      "example": "Don't forget to get off atthe payment flow.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in",
+        "i-think-we-re-lost"
       ]
     },
     {
@@ -3567,6 +3744,21 @@
           "seriesId": "incident-postmortem",
           "num": 100,
           "title": "The War Room"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
         }
       ],
       "related": []
@@ -3606,7 +3798,7 @@
         "check-in-on",
         "could-you-loop-me-in-on",
         "follow-up-on",
-        "here-s-what-i-worked-on"
+        "get-acquired"
       ]
     },
     {
@@ -3690,6 +3882,11 @@
           "seriesId": "presentation-pitch",
           "num": 99,
           "title": "Presentation & Pitch Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
         }
       ],
       "related": []
@@ -3781,7 +3978,7 @@
         "check-in-on",
         "could-you-loop-me-in-on",
         "flag-for",
-        "here-s-what-i-worked-on"
+        "get-acquired"
       ]
     },
     {
@@ -3847,11 +4044,6 @@
       "packTitle": "",
       "episodes": [
         {
-          "seriesId": "traveling",
-          "num": 18,
-          "title": "Lost in Shinjuku Station"
-        },
-        {
           "seriesId": "living",
           "num": 30,
           "title": "Fill Out the Form"
@@ -3860,21 +4052,6 @@
           "seriesId": "living",
           "num": 33,
           "title": "Opening a Bank Account"
-        },
-        {
-          "seriesId": "living",
-          "num": 40,
-          "title": "English for Real Life Finale"
-        },
-        {
-          "seriesId": "email-async",
-          "num": 64,
-          "title": "Async Standup in English"
-        },
-        {
-          "seriesId": "japan-culture",
-          "num": 71,
-          "title": "Summer Festival Night"
         }
       ],
       "related": []
@@ -3930,6 +4107,31 @@
           "seriesId": "japan-culture",
           "num": 71,
           "title": "Summer Festival Night"
+        },
+        {
+          "seriesId": "negotiation-boundaries",
+          "num": 88,
+          "title": "Push Back on Scope Creep"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
         }
       ],
       "related": []
@@ -4005,12 +4207,362 @@
       "related": []
     },
     {
+      "id": "get-prep-noun-di-chuy-n-travel",
+      "term": "get + prep + noun — di chuyển & travel",
+      "aliases": [],
+      "vi": "**get + giới từ + danh từ** — get to Zurich, get on the train, get off at Filisur.",
+      "short": "get your bearings = định hướng / nắm vị trí · get a view of = nhìn thấy cảnh.",
+      "long": "get + prep + noun — di chuyển & travel — **get + giới từ + danh từ** — get to Zurich, get on the train, get off at Filisur.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get + prep + noun — di chuyển & travel",
+      "example": "get + prep + noun — di chuyển & travel.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "traveling",
+          "num": 18,
+          "title": "Lost in Shinjuku Station"
+        },
+        {
+          "seriesId": "living",
+          "num": 29,
+          "title": "Running Late at Shinjuku Station"
+        },
+        {
+          "seriesId": "japan-culture",
+          "num": 71,
+          "title": "Summer Festival Night"
+        },
+        {
+          "seriesId": "anime-manga",
+          "num": 76,
+          "title": "Figure Store Dilemma"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-v3-get-adj-tr-ng-th-i-thay-i",
+      "term": "get + V3 / get + adj — trạng thái thay đổi",
+      "aliases": [],
+      "vi": "**get + V3/adj** mô tả **trạng thái mới**: shipped, promoted, lost, ready, checked in.",
+      "short": "We got shipped Friday = Feature đã lên production. / I got lost on the trail = Tôi bị lạc.",
+      "long": "get + V3 / get + adj — trạng thái thay đổi — **get + V3/adj** mô tả **trạng thái mới**: shipped, promoted, lost, ready, checked in.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get + V3 / get + adj — trạng thái thay đổi",
+      "example": "get + V3 / get + adj — trạng thái thay đổi.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-a-ride",
+      "term": "get a ride",
+      "aliases": [],
+      "vi": "được chở / nhờ xe",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get a ride — được chở / nhờ xe. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get a ride",
+      "example": "get a ride.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": [
+        "get-onboarded",
+        "get-used-to",
+        "i-got-through-my-first-presentation",
+        "i-ll-get-back-to-studying-after-dinner"
+      ]
+    },
+    {
+      "id": "get-a-ticket",
+      "term": "get a ticket",
+      "aliases": [],
+      "vi": "mua vé",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get a ticket — mua vé. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get a ticket",
+      "example": "get a ticket.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-a-view-of",
+      "term": "get a view of",
+      "aliases": [],
+      "vi": "nhìn thấy / ngắm cảnh",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get a view of — nhìn thấy / ngắm cảnh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get a view of",
+      "example": "get a view of.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-a-view-of-nh-n-th-y-to-n-c-nh",
+      "term": "get a view of — nhìn thấy toàn cảnh",
+      "aliases": [],
+      "vi": "**get a view of + danh từ (cảnh)** = nhìn thấy / ngắm toàn cảnh từ vị trí này.",
+      "short": "From here you'll get a view of the whole Bernese Alps = Từ đây bạn nhìn thấy cả dãy Alps.",
+      "long": "get a view of — nhìn thấy toàn cảnh — **get a view of + danh từ (cảnh)** = nhìn thấy / ngắm toàn cảnh từ vị trí này.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get a view of — nhìn thấy toàn cảnh",
+      "example": "get a view of — nhìn thấy toàn cảnh.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-acquired",
+      "term": "get acquired",
+      "aliases": [],
+      "vi": "bị mua lại (công ty)",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get acquired — bị mua lại (công ty). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get acquired",
+      "example": "get acquired.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-aligned",
+      "term": "get aligned",
+      "aliases": [],
+      "vi": "thống nhất / cùng hướng",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get aligned — thống nhất / cùng hướng. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get aligned",
+      "example": "get aligned.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-aligned-th-ng-nh-t-h-ng-i",
+      "term": "get aligned — thống nhất hướng đi",
+      "aliases": [],
+      "vi": "**get aligned on + topic** = team thống nhất trước khi làm chi tiết.",
+      "short": "Let's get aligned on one MVP before we debate polish.",
+      "long": "get aligned — thống nhất hướng đi — **get aligned on + topic** = team thống nhất trước khi làm chi tiết.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get aligned — thống nhất hướng đi",
+      "example": "get aligned — thống nhất hướng đi.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-altitude-sickness",
+      "term": "get altitude sickness",
+      "aliases": [],
+      "vi": "bị say độ cao",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get altitude sickness — bị say độ cao. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get altitude sickness",
+      "example": "get altitude sickness.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-altitude-sickness-get-change-t-nh-hu-ng-du-l-ch",
+      "term": "get altitude sickness / get change — tình huống du lịch",
+      "aliases": [],
+      "vi": "**get altitude sickness** = bị say độ cao · **get change for + bill** = đổi tiền lẻ.",
+      "short": "I think I'm getting altitude sickness = Tôi bị say độ cao. / Can I get change for this note?",
+      "long": "get altitude sickness / get change — tình huống du lịch — **get altitude sickness** = bị say độ cao · **get change for + bill** = đổi tiền lẻ.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get altitude sickness / get change — tình huống du lịch",
+      "example": "get altitude sickness / get change — tình huống du lịch.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-around",
+      "term": "get around",
+      "aliases": [],
+      "vi": "đi lại / di chuyển quanh khu vực",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get around — đi lại / di chuyển quanh khu vực. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get around",
+      "example": "get around.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
       "id": "get-back-to",
       "term": "get back to",
       "aliases": [],
-      "vi": "phản hồi lại sau",
+      "vi": "phản hồi lại / quay lại việc",
       "short": "Panel 6",
-      "long": "get back to — phản hồi lại sau. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get back to",
+      "long": "get back to — phản hồi lại / quay lại việc. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get back to",
       "example": "get back to.",
       "type": "vocab",
       "pack": null,
@@ -4040,6 +4592,1011 @@
           "seriesId": "interview-career",
           "num": 82,
           "title": "The Salary Question"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-back-to-ph-n-h-i-l-i-sau",
+      "term": "get back to — phản hồi lại sau",
+      "aliases": [],
+      "vi": "**get back to + person** = trả lời / phản hồi sau (email, Slack).",
+      "short": "I'll get back to the team once rollback is confirmed.",
+      "long": "get back to — phản hồi lại sau — **get back to + person** = trả lời / phản hồi sau (email, Slack).. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get back to — phản hồi lại sau",
+      "example": "get back to — phản hồi lại sau.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "living",
+          "num": 30,
+          "title": "Fill Out the Form"
+        },
+        {
+          "seriesId": "email-async",
+          "num": 61,
+          "title": "Just Following Up on the PR"
+        },
+        {
+          "seriesId": "email-async",
+          "num": 62,
+          "title": "Loop Me In on the Decision"
+        },
+        {
+          "seriesId": "email-async",
+          "num": 63,
+          "title": "I'll Get Back to You by EOD"
+        },
+        {
+          "seriesId": "email-async",
+          "num": 65,
+          "title": "Email & Async Finale"
+        },
+        {
+          "seriesId": "interview-career",
+          "num": 82,
+          "title": "The Salary Question"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-blocked",
+      "term": "get blocked",
+      "aliases": [],
+      "vi": "bị kẹt / không tiến được vì phụ thuộc",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get blocked — bị kẹt / không tiến được vì phụ thuộc. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get blocked",
+      "example": "get blocked.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-blocked-on-noun-b-k-t-v-ph-thu-c",
+      "term": "get blocked on + noun — bị kẹt vì phụ thuộc",
+      "aliases": [],
+      "vi": "**get blocked on + dependency** · **get unblocked** = ai đó gỡ chướng ngại.",
+      "short": "I'm blocked on the API key = Tôi không làm tiếp được vì thiếu API key.",
+      "long": "get blocked on + noun — bị kẹt vì phụ thuộc — **get blocked on + dependency** · **get unblocked** = ai đó gỡ chướng ngại.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get blocked on + noun — bị kẹt vì phụ thuộc",
+      "example": "get blocked on + noun — bị kẹt vì phụ thuộc.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "email-async",
+          "num": 64,
+          "title": "Async Standup in English"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-buy-in",
+      "term": "get buy-in",
+      "aliases": [],
+      "vi": "được mọi người đồng thuận / chấp thuận",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get buy-in — được mọi người đồng thuận / chấp thuận. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get buy-in",
+      "example": "get buy-in.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-buy-in-c-ng-thu-n",
+      "term": "get buy-in — được đồng thuận",
+      "aliases": [],
+      "vi": "**get buy-in from + team/stakeholder** = được mọi người chấp thuận trước khi làm.",
+      "short": "We can't ship without buy-in from legal = Không ship được nếu legal chưa đồng ý.",
+      "long": "get buy-in — được đồng thuận — **get buy-in from + team/stakeholder** = được mọi người chấp thuận trước khi làm.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get buy-in — được đồng thuận",
+      "example": "get buy-in — được đồng thuận.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-by",
+      "term": "get by",
+      "aliases": [],
+      "vi": "xử lý tạm / vượt qua (với ít tài nguyên)",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get by — xử lý tạm / vượt qua (với ít tài nguyên). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get by",
+      "example": "get by.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-change",
+      "term": "get change",
+      "aliases": [],
+      "vi": "đổi tiền lẻ / nhận tiền thối",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get change — đổi tiền lẻ / nhận tiền thối. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get change",
+      "example": "get change.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-checked-in",
+      "term": "get checked in",
+      "aliases": [],
+      "vi": "làm thủ tục nhận phòng",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get checked in — làm thủ tục nhận phòng. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get checked in",
+      "example": "get checked in.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-face-time",
+      "term": "get face time",
+      "aliases": [],
+      "vi": "có thời gian trực tiếp với sếp / leadership",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get face time — có thời gian trực tiếp với sếp / leadership. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get face time",
+      "example": "get face time.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-face-time-th-i-gian-tr-c-ti-p-v-i-s-p",
+      "term": "get face time — thời gian trực tiếp với sếp",
+      "aliases": [],
+      "vi": "**get face time with + person** = có thời gian nói chuyện trực tiếp với leadership.",
+      "short": "I wanted face time with you before the reorg = Tôi muốn gặp bạn trực tiếp trước tái cơ cấu.",
+      "long": "get face time — thời gian trực tiếp với sếp — **get face time with + person** = có thời gian nói chuyện trực tiếp với leadership.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get face time — thời gian trực tiếp với sếp",
+      "example": "get face time — thời gian trực tiếp với sếp.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-held-up",
+      "term": "get held up",
+      "aliases": [],
+      "vi": "bị trì hoãn / bị chậm lại",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get held up — bị trì hoãn / bị chậm lại. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get held up",
+      "example": "get held up.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-it",
+      "term": "get it",
+      "aliases": [],
+      "vi": "hiểu rồi / nắm được",
+      "short": "Panel 5",
+      "long": "get it — hiểu rồi / nắm được. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get it",
+      "example": "get it.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "career-growth",
+          "num": 47,
+          "title": "The Junior Asks for Help"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-it-hi-u-r-i-th-n-m-t",
+      "term": "get it — hiểu rồi (thân mật)",
+      "aliases": [],
+      "vi": "**get it** = hiểu / nắm được · **Got it** = đã hiểu (phản hồi nhanh).",
+      "short": "Oh, I get it now — get blocked means a dependency stopped me.",
+      "long": "get it — hiểu rồi (thân mật) — **get it** = hiểu / nắm được · **Got it** = đã hiểu (phản hồi nhanh).. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get it — hiểu rồi (thân mật)",
+      "example": "get it — hiểu rồi (thân mật).",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "living",
+          "num": 33,
+          "title": "Opening a Bank Account"
+        },
+        {
+          "seriesId": "career-growth",
+          "num": 47,
+          "title": "The Junior Asks for Help"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-looped-in",
+      "term": "get looped in",
+      "aliases": [],
+      "vi": "được thêm vào cuộc trò chuyện / được cập nhật",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get looped in — được thêm vào cuộc trò chuyện / được cập nhật. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get looped in",
+      "example": "get looped in.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-looped-in-b-ng-ai-th-m-b-n-v-o-lu-ng",
+      "term": "get looped in — bị động, ai đó thêm bạn vào luồng",
+      "aliases": [],
+      "vi": "**get + V3 (looped)** = trạng thái kết quả — bạn đã được thêm vào email/Slack/meeting.",
+      "short": "I'll get you looped in on the launch channel = Tôi sẽ thêm bạn vào kênh launch.",
+      "long": "get looped in — bị động, ai đó thêm bạn vào luồng — **get + V3 (looped)** = trạng thái kết quả — bạn đã được thêm vào email/Slack/meeting.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get looped in — bị động, ai đó thêm bạn vào luồng",
+      "example": "get looped in — bị động, ai đó thêm bạn vào luồng.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "email-async",
+          "num": 61,
+          "title": "Just Following Up on the PR"
+        },
+        {
+          "seriesId": "email-async",
+          "num": 62,
+          "title": "Loop Me In on the Decision"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-lost",
+      "term": "get lost",
+      "aliases": [],
+      "vi": "bị lạc",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get lost — bị lạc. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get lost",
+      "example": "get lost.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-off",
+      "term": "get off",
+      "aliases": [],
+      "vi": "xuống (tàu / xe)",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get off — xuống (tàu / xe). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get off",
+      "example": "get off.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-on",
+      "term": "get on",
+      "aliases": [],
+      "vi": "lên (tàu / xe) — không dùng *get in the train*",
+      "short": "Panel 3",
+      "long": "get on — lên (tàu / xe) — không dùng *get in the train*. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get on",
+      "example": "get on.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "anime-manga",
+          "num": 76,
+          "title": "Figure Store Dilemma"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-on-get-off-l-n-xu-ng-t-u",
+      "term": "get on / get off — lên/xuống tàu",
+      "aliases": [],
+      "vi": "**get on + vehicle** = lên · **get off at + stop** = xuống tại ga.",
+      "short": "We get on at platform 7 — don't miss the stop at Filisur.",
+      "long": "get on / get off — lên/xuống tàu — **get on + vehicle** = lên · **get off at + stop** = xuống tại ga.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get on / get off — lên/xuống tàu",
+      "example": "get on / get off — lên/xuống tàu.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-onboarded",
+      "term": "get onboarded",
+      "aliases": [],
+      "vi": "được hướng dẫn nhập môn / làm quen hệ thống",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get onboarded — được hướng dẫn nhập môn / làm quen hệ thống. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get onboarded",
+      "example": "get onboarded.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": [
+        "get-a-ride",
+        "get-used-to",
+        "i-got-through-my-first-presentation",
+        "i-ll-get-back-to-studying-after-dinner"
+      ]
+    },
+    {
+      "id": "get-onboarded-nh-p-m-n-c-ng-ty",
+      "term": "get onboarded — nhập môn công ty",
+      "aliases": [],
+      "vi": "**get onboarded** = được hướng dẫn làm quen hệ thống / team mới.",
+      "short": "I'll get you onboarded — same as my SF rotation.",
+      "long": "get onboarded — nhập môn công ty — **get onboarded** = được hướng dẫn làm quen hệ thống / team mới.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get onboarded — nhập môn công ty",
+      "example": "get onboarded — nhập môn công ty.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-pinged",
+      "term": "get pinged",
+      "aliases": [],
+      "vi": "bị nhắn / bị tag trên Slack",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get pinged — bị nhắn / bị tag trên Slack. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get pinged",
+      "example": "get pinged.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-pinged-b-tag-nh-n-li-n-t-c",
+      "term": "get pinged — bị tag/nhắn liên tục",
+      "aliases": [],
+      "vi": "**get pinged on + thread/channel** = bị nhắn/tag liên tục trên Slack.",
+      "short": "I keep getting pinged on every thread = Tôi cứ bị ping trên mọi thread.",
+      "long": "get pinged — bị tag/nhắn liên tục — **get pinged on + thread/channel** = bị nhắn/tag liên tục trên Slack.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get pinged — bị tag/nhắn liên tục",
+      "example": "get pinged — bị tag/nhắn liên tục.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-promoted",
+      "term": "get promoted",
+      "aliases": [],
+      "vi": "được thăng chức",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get promoted — được thăng chức. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get promoted",
+      "example": "get promoted.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-pulled-into",
+      "term": "get pulled into",
+      "aliases": [],
+      "vi": "bị kéo vào (cuộc họp / sự cố)",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get pulled into — bị kéo vào (cuộc họp / sự cố). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get pulled into",
+      "example": "get pulled into.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-pulled-into-b-k-o-v-o-s-c",
+      "term": "get pulled into — bị kéo vào sự cố",
+      "aliases": [],
+      "vi": "**get pulled into + war room/meeting** = bị gọi vào xử lý khẩn.",
+      "short": "You're getting pulled into the checkout war room.",
+      "long": "get pulled into — bị kéo vào sự cố — **get pulled into + war room/meeting** = bị gọi vào xử lý khẩn.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get pulled into — bị kéo vào sự cố",
+      "example": "get pulled into — bị kéo vào sự cố.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-ready",
+      "term": "get ready",
+      "aliases": [],
+      "vi": "chuẩn bị sẵn sàng",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get ready — chuẩn bị sẵn sàng. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get ready",
+      "example": "get ready.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-shipped",
+      "term": "get shipped",
+      "aliases": [],
+      "vi": "được deploy / đưa lên production",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get shipped — được deploy / đưa lên production. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get shipped",
+      "example": "get shipped.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-sign-off",
+      "term": "get sign-off",
+      "aliases": [],
+      "vi": "được phê duyệt chính thức",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get sign-off — được phê duyệt chính thức. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get sign-off",
+      "example": "get sign-off.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-sign-off-ph-duy-t-ch-nh-th-c",
+      "term": "get sign-off — phê duyệt chính thức",
+      "aliases": [],
+      "vi": "**get sign-off from + QA/legal/PM** = được phê duyệt chính thức.",
+      "short": "We need sign-off from QA before we get shipped.",
+      "long": "get sign-off — phê duyệt chính thức — **get sign-off from + QA/legal/PM** = được phê duyệt chính thức.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get sign-off — phê duyệt chính thức",
+      "example": "get sign-off — phê duyệt chính thức.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-snowed-in",
+      "term": "get snowed in",
+      "aliases": [],
+      "vi": "bị kẹt vì tuyết / không ra được",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get snowed in — bị kẹt vì tuyết / không ra được. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get snowed in",
+      "example": "get snowed in.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-snowed-in-get-held-up-b-k-t-tr-ho-n",
+      "term": "get snowed in / get held up — bị kẹt & trì hoãn",
+      "aliases": [],
+      "vi": "**get snowed in** = kẹt tuyết · **get held up by + reason** = bị trì hoãn.",
+      "short": "You might get snowed in tonight — roads are closing.",
+      "long": "get snowed in / get held up — bị kẹt & trì hoãn — **get snowed in** = kẹt tuyết · **get held up by + reason** = bị trì hoãn.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get snowed in / get held up — bị kẹt & trì hoãn",
+      "example": "get snowed in / get held up — bị kẹt & trì hoãn.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-stuck",
+      "term": "get stuck",
+      "aliases": [],
+      "vi": "bị kẹt / bí / không tiến triển",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get stuck — bị kẹt / bí / không tiến triển. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get stuck",
+      "example": "get stuck.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-swept-up-in",
+      "term": "get swept up in",
+      "aliases": [],
+      "vi": "bị cuốn vào (không khí / sự kiện)",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get swept up in — bị cuốn vào (không khí / sự kiện). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get swept up in",
+      "example": "get swept up in.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "get-swept-up-in-b-cu-n-v-o",
+      "term": "get swept up in — bị cuốn vào",
+      "aliases": [],
+      "vi": "**get swept up in + event/music/crowd** = bị cuốn vào không khí.",
+      "short": "We got swept up in a local festival by accident.",
+      "long": "get swept up in — bị cuốn vào — **get swept up in + event/music/crowd** = bị cuốn vào không khí.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get swept up in — bị cuốn vào",
+      "example": "get swept up in — bị cuốn vào.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-the-ball-rolling",
+      "term": "get the ball rolling",
+      "aliases": [],
+      "vi": "bắt đầu / khởi động việc",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get the ball rolling — bắt đầu / khởi động việc. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get the ball rolling",
+      "example": "get the ball rolling.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-the-ball-rolling-kh-i-ng-vi-c",
+      "term": "get the ball rolling — khởi động việc",
+      "aliases": [],
+      "vi": "Idiom: **get the ball rolling** = bắt đầu / khởi động dự án.",
+      "short": "Once we have buy-in, we can get the ball rolling.",
+      "long": "get the ball rolling — khởi động việc — Idiom: **get the ball rolling** = bắt đầu / khởi động dự án.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get the ball rolling — khởi động việc",
+      "example": "get the ball rolling — khởi động việc.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
         }
       ],
       "related": []
@@ -4048,20 +5605,191 @@
       "id": "get-through",
       "term": "get through",
       "aliases": [],
-      "vi": "vượt qua / hoàn thành",
-      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
-      "long": "get through — vượt qua / hoàn thành. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get through",
+      "vi": "vượt qua / hoàn thành (review, buổi học)",
+      "short": "Panel 1",
+      "long": "get through — vượt qua / hoàn thành (review, buổi học). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get through",
       "example": "get through.",
-      "type": "phrasal",
-      "pack": "bug_report_agreement_through",
-      "packTitle": "Bug Report + Agreement / Disagreement + Through Verbs",
-      "episodes": [],
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "bug-arc-3",
+          "num": 5,
+          "title": "QA Gate"
+        },
+        {
+          "seriesId": "traveling",
+          "num": 19,
+          "title": "Walk Me Through the Route"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-through-noun-v-t-qua-giai-o-n",
+      "term": "get through + noun — vượt qua giai đoạn",
+      "aliases": [],
+      "vi": "**get through + review/meetup/lesson** = hoàn thành / vượt qua một giai đoạn.",
+      "short": "Once I'm unblocked, I can get through code review tonight.",
+      "long": "get through + noun — vượt qua giai đoạn — **get through + review/meetup/lesson** = hoàn thành / vượt qua một giai đoạn.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get through + noun — vượt qua giai đoạn",
+      "example": "get through + noun — vượt qua giai đoạn.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "bug-arc-2",
+          "num": 6,
+          "title": "When Plans Fall Through"
+        },
+        {
+          "seriesId": "bug-arc-3",
+          "num": 5,
+          "title": "QA Gate"
+        },
+        {
+          "seriesId": "bug-arc-3",
+          "num": 9,
+          "title": "Nam Levels Up"
+        },
+        {
+          "seriesId": "traveling",
+          "num": 19,
+          "title": "Walk Me Through the Route"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-to",
+      "term": "get to",
+      "aliases": [],
+      "vi": "đến (một nơi)",
+      "short": "Panel 2",
+      "long": "get to — đến (một nơi). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get to",
+      "example": "get to.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "traveling",
+          "num": 18,
+          "title": "Lost in Shinjuku Station"
+        },
+        {
+          "seriesId": "living",
+          "num": 29,
+          "title": "Running Late at Shinjuku Station"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-unblocked",
+      "term": "get unblocked",
+      "aliases": [],
+      "vi": "được gỡ kẹt / tiếp tục được",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get unblocked — được gỡ kẹt / tiếp tục được. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get unblocked",
+      "example": "get unblocked.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
       "related": [
-        "a-makes-more-sense-to-me",
-        "act-as",
-        "act-as-a-cache-layer",
-        "action-items-going-forward"
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
       ]
+    },
+    {
+      "id": "get-up-to-speed",
+      "term": "get up to speed",
+      "aliases": [],
+      "vi": "nắm bắt nhanh tình hình",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get up to speed — nắm bắt nhanh tình hình. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get up to speed",
+      "example": "get up to speed.",
+      "type": "pattern",
+      "pack": "email_async",
+      "packTitle": "Email & Async English",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": [
+        "check-in-on",
+        "could-you-loop-me-in-on",
+        "flag-for",
+        "follow-up-on"
+      ]
+    },
+    {
+      "id": "get-up-to-speed-n-m-b-t-nhanh",
+      "term": "get up to speed — nắm bắt nhanh",
+      "aliases": [],
+      "vi": "**get up to speed on + topic** = nắm bắt nhanh tình hình / context mới.",
+      "short": "We'll get you up to speed by standup = Chúng tôi giúp bạn nắm bắt trước standup.",
+      "long": "get up to speed — nắm bắt nhanh — **get up to speed on + topic** = nắm bắt nhanh tình hình / context mới.. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get up to speed — nắm bắt nhanh",
+      "example": "get up to speed — nắm bắt nhanh.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
     },
     {
       "id": "get-used-to",
@@ -4071,16 +5799,142 @@
       "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
       "long": "get used to — quen dần với. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get used to",
       "example": "get used to.",
-      "type": "phrasal",
-      "pack": "universal_communication_v2",
-      "packTitle": "Universal Communication Pack V2",
-      "episodes": [],
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        }
+      ],
       "related": [
-        "are-you-available-at-time",
-        "ask-for",
-        "bring-back",
-        "calm-down"
+        "get-a-ride",
+        "get-onboarded",
+        "i-got-through-my-first-presentation",
+        "i-ll-get-back-to-studying-after-dinner"
       ]
+    },
+    {
+      "id": "get-used-to-v-ing-noun",
+      "term": "get used to + V-ing / noun",
+      "aliases": [],
+      "vi": "**get used to + V-ing** = quen dần · Khác **used to + V** (trước đây hay làm).",
+      "short": "I'm getting used to speaking English at meetups.",
+      "long": "get used to + V-ing / noun — **get used to + V-ing** = quen dần · Khác **used to + V** (trước đây hay làm).. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get used to + V-ing / noun",
+      "example": "get used to + V-ing / noun.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "living",
+          "num": 26,
+          "title": "New Apartment in Tokyo"
+        },
+        {
+          "seriesId": "living",
+          "num": 31,
+          "title": "Moving Day"
+        },
+        {
+          "seriesId": "living",
+          "num": 38,
+          "title": "Getting Used to Life in Japan"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-your-bearings",
+      "term": "get your bearings",
+      "aliases": [],
+      "vi": "định hướng / nắm vị trí xung quanh",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "get your bearings — định hướng / nắm vị trí xung quanh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: get your bearings",
+      "example": "get your bearings.",
+      "type": "pattern",
+      "pack": "decision_hesitation",
+      "packTitle": "Decision / Hesitation",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        }
+      ],
+      "related": [
+        "can-you-walk-me-through-how-a-manga-cafe-works",
+        "can-you-walk-me-through-how-to-pray-at-a-shrine",
+        "compromise-on",
+        "could-we-push-the-deadline-back-by"
+      ]
+    },
+    {
+      "id": "gets-you-by",
+      "term": "gets you by",
+      "aliases": [],
+      "vi": "giúp bạn xoay xở được",
+      "short": "Panel 4",
+      "long": "gets you by — giúp bạn xoay xở được. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: gets you by",
+      "example": "gets you by.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "getting-acquired",
+      "term": "getting acquired",
+      "aliases": [],
+      "vi": "đang bị mua lại (công ty)",
+      "short": "Panel 1",
+      "long": "getting acquired — đang bị mua lại (công ty). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: getting acquired",
+      "example": "getting acquired.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "getting-pinged",
+      "term": "getting pinged",
+      "aliases": [],
+      "vi": "đang bị ping / tag liên tục",
+      "short": "Panel 2",
+      "long": "getting pinged — đang bị ping / tag liên tục. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: getting pinged",
+      "example": "getting pinged.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
     },
     {
       "id": "getting-used-to",
@@ -4108,6 +5962,31 @@
           "seriesId": "living",
           "num": 38,
           "title": "Getting Used to Life in Japan"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "glacier",
+      "term": "glacier",
+      "aliases": [],
+      "vi": "glaci + er = ... hơn",
+      "short": "Panel 6",
+      "long": "glacier — glaci + er = ... hơn. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: glacier",
+      "example": "glacier.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
         }
       ],
       "related": []
@@ -4229,6 +6108,11 @@
           "title": "Go or Frontend?"
         },
         {
+          "seriesId": "bug-arc-1",
+          "num": 8,
+          "title": "Team Dinner in Tokyo"
+        },
+        {
           "seriesId": "bug-arc-3",
           "num": 6,
           "title": "The Safer Choice"
@@ -4265,6 +6149,26 @@
         "act-as-a-cache-layer",
         "action-items-going-forward"
       ]
+    },
+    {
+      "id": "got-shipped",
+      "term": "got shipped",
+      "aliases": [],
+      "vi": "đã được ship (V3 — trạng thái kết quả)",
+      "short": "Panel 4",
+      "long": "got shipped — đã được ship (V3 — trạng thái kết quả). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: got shipped",
+      "example": "got shipped.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        }
+      ],
+      "related": []
     },
     {
       "id": "great",
@@ -4388,11 +6292,6 @@
           "title": "Opening a Bank Account"
         },
         {
-          "seriesId": "living",
-          "num": 37,
-          "title": "Clinic Appointment"
-        },
-        {
           "seriesId": "system-design",
           "num": 52,
           "title": "Monolith or Microservices?"
@@ -4403,9 +6302,9 @@
           "title": "That's Outside the Scope"
         },
         {
-          "seriesId": "giving-feedback",
-          "num": 92,
-          "title": "I'd Suggest Trying..."
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
         }
       ],
       "related": []
@@ -4541,6 +6440,26 @@
           "seriesId": "anime-manga",
           "num": 74,
           "title": "My First Manga Cafe"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
         }
       ],
       "related": []
@@ -4611,6 +6530,11 @@
           "seriesId": "traveling",
           "num": 13,
           "title": "The Hotel Problem"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
         }
       ],
       "related": []
@@ -4643,6 +6567,25 @@
         "grow-into",
         "have-you-considered",
         "i-appreciate-how-you-handled"
+      ]
+    },
+    {
+      "id": "how-do-i-get-to",
+      "term": "How do I get to...?",
+      "aliases": [],
+      "vi": "",
+      "short": "Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày.",
+      "long": "How do I get to...? — Mục từ vựng/pattern tiếng Anh. Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày. Cấu trúc: How do I get to...?",
+      "example": "How do I get tothe payment flow?",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in",
+        "i-think-we-re-lost"
       ]
     },
     {
@@ -4775,6 +6718,25 @@
         "grow-into",
         "have-you-considered",
         "how-can-i-support-you"
+      ]
+    },
+    {
+      "id": "i-can-get-by-with-phrasebook-english",
+      "term": "I can get by with phrasebook English.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I can get by with phrasebook English. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I can get by with phrasebook English.",
+      "example": "I can get by with phrasebook English.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-need-to-get-checked-in",
+        "i-think-we-re-lost"
       ]
     },
     {
@@ -4954,6 +6916,63 @@
       ]
     },
     {
+      "id": "i-finally-get-it",
+      "term": "I finally get it.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I finally get it. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I finally get it.",
+      "example": "I finally get it.",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "can-you-loop-me-in-on",
+        "i-got-pulled-into-the-war-room",
+        "i-need-to-get-up-to-speed-on"
+      ]
+    },
+    {
+      "id": "i-got-pulled-into-the-war-room",
+      "term": "I got pulled into the war room.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I got pulled into the war room. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I got pulled into the war room.",
+      "example": "I got pulled into the war room.",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "can-you-loop-me-in-on",
+        "i-finally-get-it",
+        "i-need-to-get-up-to-speed-on"
+      ]
+    },
+    {
+      "id": "i-got-through-my-first-presentation",
+      "term": "I got through my first presentation.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I got through my first presentation. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I got through my first presentation.",
+      "example": "I got through my first presentation.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [],
+      "related": [
+        "get-a-ride",
+        "get-onboarded",
+        "get-used-to",
+        "i-ll-get-back-to-studying-after-dinner"
+      ]
+    },
+    {
       "id": "i-have-a-different-take",
       "term": "I have a different take.",
       "aliases": [],
@@ -5043,6 +7062,44 @@
         "ask-for",
         "bring-back",
         "calm-down"
+      ]
+    },
+    {
+      "id": "i-need-to-get-checked-in",
+      "term": "I need to get checked in.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I need to get checked in. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I need to get checked in.",
+      "example": "I need to get checked in.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-think-we-re-lost"
+      ]
+    },
+    {
+      "id": "i-need-to-get-up-to-speed-on",
+      "term": "I need to get up to speed on...",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I need to get up to speed on... — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I need to get up to speed on + [nội dung cụ thể]",
+      "example": "I need to get up to speed onthe payment flow.",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "can-you-loop-me-in-on",
+        "i-finally-get-it",
+        "i-got-pulled-into-the-war-room"
       ]
     },
     {
@@ -5263,6 +7320,25 @@
       ]
     },
     {
+      "id": "i-think-we-re-lost",
+      "term": "I think we're lost.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I think we're lost. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I think we're lost.",
+      "example": "I think we're lost.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in"
+      ]
+    },
+    {
       "id": "i-wanted-to-check-in-on",
       "term": "I wanted to check in on...",
       "aliases": [],
@@ -5450,6 +7526,25 @@
         "could-you-loop-me-in-on",
         "flag-for",
         "follow-up-on"
+      ]
+    },
+    {
+      "id": "i-ll-get-back-to-studying-after-dinner",
+      "term": "I'll get back to studying after dinner.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I'll get back to studying after dinner. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I'll get back to studying after dinner.",
+      "example": "I'll get back to studying after dinner.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [],
+      "related": [
+        "get-a-ride",
+        "get-onboarded",
+        "get-used-to",
+        "i-got-through-my-first-presentation"
       ]
     },
     {
@@ -6213,6 +8308,25 @@
       ]
     },
     {
+      "id": "i-m-still-getting-used-to",
+      "term": "I'm still getting used to...",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "I'm still getting used to... — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: I'm still getting used to + [nội dung cụ thể]",
+      "example": "I'm still getting used tothe payment flow.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [],
+      "related": [
+        "get-a-ride",
+        "get-onboarded",
+        "get-used-to",
+        "i-got-through-my-first-presentation"
+      ]
+    },
+    {
       "id": "i-m-surprised-that",
       "term": "I'm surprised that...",
       "aliases": [],
@@ -6408,26 +8522,6 @@
       "related": []
     },
     {
-      "id": "interview",
-      "term": "interview",
-      "aliases": [],
-      "vi": "phỏng vấn",
-      "short": "Panel 5",
-      "long": "interview — phỏng vấn. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: interview",
-      "example": "interview.",
-      "type": "vocab",
-      "pack": null,
-      "packTitle": "",
-      "episodes": [
-        {
-          "seriesId": "interview-career",
-          "num": 84,
-          "title": "Interview & Career Finale"
-        }
-      ],
-      "related": []
-    },
-    {
       "id": "into",
       "term": "into",
       "aliases": [],
@@ -6463,6 +8557,11 @@
           "seriesId": "negotiation-boundaries",
           "num": 88,
           "title": "Push Back on Scope Creep"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
         }
       ],
       "related": []
@@ -7028,6 +9127,11 @@
           "title": "Lost in Shinjuku Station"
         },
         {
+          "seriesId": "traveling",
+          "num": 25,
+          "title": "Travel Finale"
+        },
+        {
           "seriesId": "living",
           "num": 30,
           "title": "Fill Out the Form"
@@ -7554,9 +9658,62 @@
           "seriesId": "incident-postmortem",
           "num": 102,
           "title": "Root Cause Analysis"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
         }
       ],
       "related": []
+    },
+    {
+      "id": "let-me-get-my-bearings-first",
+      "term": "Let me get my bearings first.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "Let me get my bearings first. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: Let me get my bearings first.",
+      "example": "Let me get my bearings first.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in"
+      ]
+    },
+    {
+      "id": "let-me-get-ready-first",
+      "term": "Let me get ready first.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "Let me get ready first. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: Let me get ready first.",
+      "example": "Let me get ready first.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [],
+      "related": [
+        "get-a-ride",
+        "get-onboarded",
+        "get-used-to",
+        "i-got-through-my-first-presentation"
+      ]
     },
     {
       "id": "let-me-look-into-this",
@@ -7944,6 +10101,16 @@
           "seriesId": "incident-postmortem",
           "num": 102,
           "title": "Root Cause Analysis"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
         }
       ],
       "related": []
@@ -7971,6 +10138,25 @@
         "act-as",
         "act-as-a-cache-layer",
         "action-items-going-forward"
+      ]
+    },
+    {
+      "id": "let-s-get-aligned-on",
+      "term": "Let's get aligned on...",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "Let's get aligned on... — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: Let's get aligned on + [nội dung cụ thể]",
+      "example": "Let's get aligned onthe payment flow.",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "can-you-loop-me-in-on",
+        "i-finally-get-it",
+        "i-got-pulled-into-the-war-room"
       ]
     },
     {
@@ -8438,11 +10624,6 @@
           "title": "Async Standup in English"
         },
         {
-          "seriesId": "email-async",
-          "num": 65,
-          "title": "Email & Async Finale"
-        },
-        {
           "seriesId": "presentation-pitch",
           "num": 99,
           "title": "Presentation & Pitch Finale"
@@ -8827,6 +11008,26 @@
       "related": []
     },
     {
+      "id": "more-testing",
+      "term": "more testing",
+      "aliases": [],
+      "vi": "... hơn — testing",
+      "short": "Panel 4",
+      "long": "more testing — ... hơn — testing. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: more testing",
+      "example": "more testing.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "bug-arc-2",
+          "num": 6,
+          "title": "When Plans Fall Through"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "more-than",
       "term": "more than",
       "aliases": [],
@@ -8926,6 +11127,25 @@
       ]
     },
     {
+      "id": "my-english-is-good-enough-to-get-by",
+      "term": "My English is good enough to get by.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "My English is good enough to get by. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: My English is good enough to get by.",
+      "example": "My English is good enough to get by.",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [],
+      "related": [
+        "get-a-ride",
+        "get-onboarded",
+        "get-used-to",
+        "i-got-through-my-first-presentation"
+      ]
+    },
+    {
       "id": "narrow-down",
       "term": "narrow down",
       "aliases": [],
@@ -8990,6 +11210,11 @@
           "seriesId": "bug-arc-2",
           "num": 4,
           "title": "QA Checklist Showdown"
+        },
+        {
+          "seriesId": "bug-arc-2",
+          "num": 6,
+          "title": "When Plans Fall Through"
         },
         {
           "seriesId": "bug-arc-2",
@@ -9097,11 +11322,6 @@
           "title": "Just Following Up on the PR"
         },
         {
-          "seriesId": "email-async",
-          "num": 64,
-          "title": "Async Standup in English"
-        },
-        {
           "seriesId": "interview-career",
           "num": 81,
           "title": "Why Do You Want This Role?"
@@ -9120,6 +11340,21 @@
           "seriesId": "presentation-pitch",
           "num": 98,
           "title": "Handling Tough Questions"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
         }
       ],
       "related": []
@@ -9140,6 +11375,26 @@
           "seriesId": "living",
           "num": 31,
           "title": "Moving Day"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "never",
+      "term": "never",
+      "aliases": [],
+      "vi": "không bao giờ",
+      "short": "Panel 5",
+      "long": "never — không bao giờ. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: never",
+      "example": "never.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
         }
       ],
       "related": []
@@ -9230,6 +11485,11 @@
           "seriesId": "email-async",
           "num": 63,
           "title": "I'll Get Back to You by EOD"
+        },
+        {
+          "seriesId": "email-async",
+          "num": 64,
+          "title": "Async Standup in English"
         },
         {
           "seriesId": "email-async",
@@ -9340,6 +11600,76 @@
           "seriesId": "incident-postmortem",
           "num": 104,
           "title": "Postmortem Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "not-aligned",
+      "term": "not aligned",
+      "aliases": [],
+      "vi": "chưa thống nhất",
+      "short": "Panel 2",
+      "long": "not aligned — chưa thống nhất. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: not aligned",
+      "example": "not aligned.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
         }
       ],
       "related": []
@@ -9368,6 +11698,25 @@
         }
       ],
       "related": []
+    },
+    {
+      "id": "oh-i-get-it-now",
+      "term": "Oh — I get it now!",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "Oh — I get it now! — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: Oh — I get it now!",
+      "example": "Oh — I get it now!",
+      "type": "pattern",
+      "pack": "get_phrasal_everyday",
+      "packTitle": "Get Phrasal Verbs — Everyday English",
+      "episodes": [],
+      "related": [
+        "get-a-ride",
+        "get-onboarded",
+        "get-used-to",
+        "i-got-through-my-first-presentation"
+      ]
     },
     {
       "id": "one-area-to-improve-would-be",
@@ -9465,6 +11814,11 @@
           "seriesId": "bug-arc-1",
           "num": 3,
           "title": "Redis or Database Only?"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
         }
       ],
       "related": []
@@ -9702,13 +12056,18 @@
       "term": "order",
       "aliases": [],
       "vi": "gọi món / đặt hàng",
-      "short": "Panel 2",
+      "short": "Panel 6",
       "long": "order — gọi món / đặt hàng. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: order",
       "example": "order.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
+        {
+          "seriesId": "bug-arc-1",
+          "num": 7,
+          "title": "Settling on a Plan"
+        },
         {
           "seriesId": "bug-arc-1",
           "num": 8,
@@ -9750,11 +12109,6 @@
           "title": "Settling on a Plan"
         },
         {
-          "seriesId": "bug-arc-2",
-          "num": 6,
-          "title": "When Plans Fall Through"
-        },
-        {
           "seriesId": "bug-arc-3",
           "num": 7,
           "title": "Demo Rehearsal"
@@ -9765,34 +12119,9 @@
           "title": "Settling on Osaka"
         },
         {
-          "seriesId": "career-growth",
-          "num": 48,
-          "title": "Incident Recap Meeting"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 56,
-          "title": "Scale Under Pressure"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 57,
-          "title": "The Cost of Overengineering"
-        },
-        {
           "seriesId": "anime-manga",
           "num": 76,
           "title": "Figure Store Dilemma"
-        },
-        {
-          "seriesId": "giving-feedback",
-          "num": 91,
-          "title": "One Thing That Went Well Was..."
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 104,
-          "title": "Postmortem Finale"
         }
       ],
       "related": []
@@ -9997,11 +12326,6 @@
           "title": "That's Outside the Scope"
         },
         {
-          "seriesId": "negotiation-boundaries",
-          "num": 89,
-          "title": "Negotiation & Boundaries Finale"
-        },
-        {
           "seriesId": "giving-feedback",
           "num": 94,
           "title": "Feedback & 1-on-1 Finale"
@@ -10035,6 +12359,11 @@
           "seriesId": "negotiation-boundaries",
           "num": 88,
           "title": "Push Back on Scope Creep"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
         }
       ],
       "related": []
@@ -10662,56 +12991,6 @@
       "related": []
     },
     {
-      "id": "rent",
-      "term": "rent",
-      "aliases": [],
-      "vi": "tiền thuê nhà",
-      "short": "Panel 3",
-      "long": "rent — tiền thuê nhà. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: rent",
-      "example": "rent.",
-      "type": "vocab",
-      "pack": null,
-      "packTitle": "",
-      "episodes": [
-        {
-          "seriesId": "bug-arc-2",
-          "num": 6,
-          "title": "When Plans Fall Through"
-        },
-        {
-          "seriesId": "bug-arc-2",
-          "num": 9,
-          "title": "Final Risk Meeting"
-        },
-        {
-          "seriesId": "bug-arc-3",
-          "num": 8,
-          "title": "Release Plan at Risk"
-        },
-        {
-          "seriesId": "traveling",
-          "num": 15,
-          "title": "Settling on Osaka"
-        },
-        {
-          "seriesId": "traveling",
-          "num": 22,
-          "title": "Morning Train to Fuji"
-        },
-        {
-          "seriesId": "living",
-          "num": 30,
-          "title": "Fill Out the Form"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 51,
-          "title": "The System Design Question"
-        }
-      ],
-      "related": []
-    },
-    {
       "id": "review",
       "term": "review",
       "aliases": [],
@@ -10723,16 +13002,6 @@
       "pack": null,
       "packTitle": "",
       "episodes": [
-        {
-          "seriesId": "career-growth",
-          "num": 41,
-          "title": "First Code Review in English"
-        },
-        {
-          "seriesId": "career-growth",
-          "num": 50,
-          "title": "Nam Becomes the Bridge"
-        },
         {
           "seriesId": "system-design",
           "num": 58,
@@ -10747,11 +13016,6 @@
           "seriesId": "email-async",
           "num": 61,
           "title": "Just Following Up on the PR"
-        },
-        {
-          "seriesId": "interview-career",
-          "num": 83,
-          "title": "Questions for the Interviewer"
         },
         {
           "seriesId": "giving-feedback",
@@ -10833,6 +13097,11 @@
           "seriesId": "bug-arc-3",
           "num": 8,
           "title": "Release Plan at Risk"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
         }
       ],
       "related": []
@@ -11366,6 +13635,11 @@
           "seriesId": "negotiation-boundaries",
           "num": 86,
           "title": "Would It Be Possible To...?"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
         }
       ],
       "related": []
@@ -11436,6 +13710,11 @@
           "seriesId": "bug-arc-2",
           "num": 4,
           "title": "QA Checklist Showdown"
+        },
+        {
+          "seriesId": "bug-arc-2",
+          "num": 6,
+          "title": "When Plans Fall Through"
         },
         {
           "seriesId": "bug-arc-2",
@@ -11634,6 +13913,11 @@
           "seriesId": "presentation-pitch",
           "num": 97,
           "title": "The Key Takeaway Is..."
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
         }
       ],
       "related": []
@@ -11716,6 +14000,26 @@
       ]
     },
     {
+      "id": "sign-off",
+      "term": "sign-off",
+      "aliases": [],
+      "vi": "phê duyệt chính thức",
+      "short": "Panel 5",
+      "long": "sign-off — phê duyệt chính thức. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: sign-off",
+      "example": "sign-off.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "bug-arc-2",
+          "num": 10,
+          "title": "Safe Release Finale"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "sleep-on-it",
       "term": "sleep on it",
       "aliases": [],
@@ -11776,6 +14080,75 @@
       "related": []
     },
     {
+      "id": "sometimes",
+      "term": "sometimes",
+      "aliases": [],
+      "vi": "đôi khi",
+      "short": "Panel 5",
+      "long": "sometimes — đôi khi. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: sometimes",
+      "example": "sometimes.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "sorry",
+      "term": "sorry",
+      "aliases": [],
+      "vi": "xin lỗi",
+      "short": "Panel 2",
+      "long": "sorry — xin lỗi. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: sorry",
+      "example": "sorry.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "sorry-i-got-held-up-by-the-train",
+      "term": "Sorry — I got held up by the train.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "Sorry — I got held up by the train. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: Sorry — I got held up by the train.",
+      "example": "Sorry — I got held up by the train.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in"
+      ]
+    },
+    {
       "id": "sorry-i-missed-that",
       "term": "Sorry, I missed that.",
       "aliases": [],
@@ -11815,6 +14188,46 @@
       "related": []
     },
     {
+      "id": "staging",
+      "term": "staging",
+      "aliases": [],
+      "vi": "môi trường staging (gần giống production)",
+      "short": "Panel 3",
+      "long": "staging — môi trường staging (gần giống production). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: staging",
+      "example": "staging.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "email-async",
+          "num": 64,
+          "title": "Async Standup in English"
+        },
+        {
+          "seriesId": "incident-postmortem",
+          "num": 102,
+          "title": "Root Cause Analysis"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "stakeholder",
       "term": "stakeholder",
       "aliases": [],
@@ -11830,6 +14243,61 @@
           "seriesId": "presentation-pitch",
           "num": 95,
           "title": "Structuring the Demo"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "stakeholders",
+      "term": "stakeholders",
+      "aliases": [],
+      "vi": "các bên liên quan cần được cập nhật",
+      "short": "Panel 6",
+      "long": "stakeholders — các bên liên quan cần được cập nhật. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: stakeholders",
+      "example": "stakeholders.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "presentation-pitch",
+          "num": 95,
+          "title": "Structuring the Demo"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "standup",
+      "term": "standup",
+      "aliases": [],
+      "vi": "họp standup hàng ngày (Scrum)",
+      "short": "Panel 6",
+      "long": "standup — họp standup hàng ngày (Scrum). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: standup",
+      "example": "standup.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "email-async",
+          "num": 63,
+          "title": "I'll Get Back to You by EOD"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
         }
       ],
       "related": []
@@ -11955,6 +14423,16 @@
           "seriesId": "system-design",
           "num": 52,
           "title": "Monolith or Microservices?"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
         }
       ],
       "related": []
@@ -12081,11 +14559,6 @@
           "title": "Rainy Day Backup Plan"
         },
         {
-          "seriesId": "traveling",
-          "num": 25,
-          "title": "Travel Finale"
-        },
-        {
           "seriesId": "living",
           "num": 27,
           "title": "Can You Walk Me Through the Contract?"
@@ -12104,21 +14577,6 @@
           "seriesId": "career-growth",
           "num": 43,
           "title": "I Have a Different Take"
-        },
-        {
-          "seriesId": "career-growth",
-          "num": 46,
-          "title": "Demo Day Pressure"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 57,
-          "title": "The Cost of Overengineering"
-        },
-        {
-          "seriesId": "email-async",
-          "num": 62,
-          "title": "Loop Me In on the Decision"
         },
         {
           "seriesId": "japan-culture",
@@ -12220,11 +14678,6 @@
           "title": "Monolith or Microservices?"
         },
         {
-          "seriesId": "system-design",
-          "num": 60,
-          "title": "Thinking Bigger Finale"
-        },
-        {
           "seriesId": "email-async",
           "num": 64,
           "title": "Async Standup in English"
@@ -12258,6 +14711,11 @@
           "seriesId": "presentation-pitch",
           "num": 99,
           "title": "Presentation & Pitch Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
         }
       ],
       "related": []
@@ -12362,7 +14820,7 @@
       "term": "test",
       "aliases": [],
       "vi": "kiểm thử / test",
-      "short": "Panel 5",
+      "short": "Panel 1",
       "long": "test — kiểm thử / test. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: test",
       "example": "test.",
       "type": "vocab",
@@ -12371,18 +14829,8 @@
       "episodes": [
         {
           "seriesId": "bug-arc-2",
-          "num": 7,
-          "title": "Follow Through the Fix"
-        },
-        {
-          "seriesId": "bug-arc-2",
           "num": 10,
           "title": "Safe Release Finale"
-        },
-        {
-          "seriesId": "bug-arc-3",
-          "num": 5,
-          "title": "QA Gate"
         },
         {
           "seriesId": "giving-feedback",
@@ -12398,11 +14846,6 @@
           "seriesId": "incident-postmortem",
           "num": 103,
           "title": "Action Items Going Forward"
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 104,
-          "title": "Postmortem Finale"
         }
       ],
       "related": []
@@ -12412,13 +14855,18 @@
       "term": "than",
       "aliases": [],
       "vi": "hơn (so sánh: cheaper than)",
-      "short": "Panel 4",
+      "short": "Panel 5",
       "long": "than — hơn (so sánh: cheaper than). Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: than",
       "example": "than.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
+        {
+          "seriesId": "bug-arc-1",
+          "num": 7,
+          "title": "Settling on a Plan"
+        },
         {
           "seriesId": "traveling",
           "num": 12,
@@ -12447,13 +14895,18 @@
       "term": "thank",
       "aliases": [],
       "vi": "cảm ơn",
-      "short": "Panel 6",
+      "short": "Panel 5",
       "long": "thank — cảm ơn. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: thank",
       "example": "thank.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
+        {
+          "seriesId": "traveling",
+          "num": 18,
+          "title": "Lost in Shinjuku Station"
+        },
         {
           "seriesId": "living",
           "num": 27,
@@ -12471,38 +14924,13 @@
         },
         {
           "seriesId": "career-growth",
-          "num": 41,
-          "title": "First Code Review in English"
-        },
-        {
-          "seriesId": "career-growth",
           "num": 44,
           "title": "Walk Me Through the Architecture"
-        },
-        {
-          "seriesId": "email-async",
-          "num": 63,
-          "title": "I'll Get Back to You by EOD"
         },
         {
           "seriesId": "interview-career",
           "num": 83,
           "title": "Questions for the Interviewer"
-        },
-        {
-          "seriesId": "giving-feedback",
-          "num": 91,
-          "title": "One Thing That Went Well Was..."
-        },
-        {
-          "seriesId": "giving-feedback",
-          "num": 92,
-          "title": "I'd Suggest Trying..."
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 101,
-          "title": "What We Know So Far Is..."
         }
       ],
       "related": []
@@ -13340,6 +15768,11 @@
           "seriesId": "traveling",
           "num": 19,
           "title": "Walk Me Through the Route"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
         }
       ],
       "related": []
@@ -13390,6 +15823,11 @@
           "seriesId": "living",
           "num": 29,
           "title": "Running Late at Shinjuku Station"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
         }
       ],
       "related": []
@@ -13420,6 +15858,11 @@
           "seriesId": "living",
           "num": 40,
           "title": "English for Real Life Finale"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
         }
       ],
       "related": []
@@ -13455,11 +15898,6 @@
           "seriesId": "bug-arc-1",
           "num": 6,
           "title": "Tokyo Café, Late Thoughts"
-        },
-        {
-          "seriesId": "bug-arc-1",
-          "num": 7,
-          "title": "Settling on a Plan"
         },
         {
           "seriesId": "bug-arc-2",
@@ -13523,13 +15961,18 @@
         },
         {
           "seriesId": "system-design",
-          "num": 59,
-          "title": "Design Review Showdown"
-        },
-        {
-          "seriesId": "system-design",
           "num": 60,
           "title": "Thinking Bigger Finale"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
         }
       ],
       "related": []
@@ -13758,6 +16201,31 @@
           "seriesId": "presentation-pitch",
           "num": 97,
           "title": "The Key Takeaway Is..."
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 113,
+          "title": "View from the Top"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
         }
       ],
       "related": []
@@ -13841,11 +16309,6 @@
         },
         {
           "seriesId": "bug-arc-3",
-          "num": 5,
-          "title": "QA Gate"
-        },
-        {
-          "seriesId": "bug-arc-3",
           "num": 7,
           "title": "Demo Rehearsal"
         },
@@ -13903,6 +16366,11 @@
           "seriesId": "incident-postmortem",
           "num": 104,
           "title": "Postmortem Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
         }
       ],
       "related": []
@@ -13937,23 +16405,13 @@
       "term": "time",
       "aliases": [],
       "vi": "thời gian",
-      "short": "Panel 1",
+      "short": "Panel 2",
       "long": "time — thời gian. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: time",
       "example": "time.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
-        {
-          "seriesId": "bug-arc-1",
-          "num": 8,
-          "title": "Team Dinner in Tokyo"
-        },
-        {
-          "seriesId": "bug-arc-3",
-          "num": 8,
-          "title": "Release Plan at Risk"
-        },
         {
           "seriesId": "system-design",
           "num": 56,
@@ -13963,11 +16421,6 @@
           "seriesId": "system-design",
           "num": 58,
           "title": "Explain It to Product"
-        },
-        {
-          "seriesId": "email-async",
-          "num": 61,
-          "title": "Just Following Up on the PR"
         },
         {
           "seriesId": "japan-culture",
@@ -13985,24 +16438,19 @@
           "title": "Questions for the Interviewer"
         },
         {
-          "seriesId": "negotiation-boundaries",
-          "num": 87,
-          "title": "That's Outside the Scope"
-        },
-        {
-          "seriesId": "negotiation-boundaries",
-          "num": 88,
-          "title": "Push Back on Scope Creep"
-        },
-        {
           "seriesId": "giving-feedback",
           "num": 91,
           "title": "One Thing That Went Well Was..."
         },
         {
-          "seriesId": "incident-postmortem",
-          "num": 100,
-          "title": "The War Room"
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
         }
       ],
       "related": []
@@ -14128,6 +16576,11 @@
           "seriesId": "presentation-pitch",
           "num": 98,
           "title": "Handling Tough Questions"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 107,
+          "title": "Blocked on Dependencies"
         }
       ],
       "related": []
@@ -14283,6 +16736,11 @@
           "seriesId": "giving-feedback",
           "num": 93,
           "title": "How Can I Support You?"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
         }
       ],
       "related": []
@@ -14420,18 +16878,13 @@
       "term": "under",
       "aliases": [],
       "vi": "dưới",
-      "short": "Panel 1",
+      "short": "Panel 6",
       "long": "under — dưới. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: under",
       "example": "under.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
-        {
-          "seriesId": "traveling",
-          "num": 18,
-          "title": "Lost in Shinjuku Station"
-        },
         {
           "seriesId": "system-design",
           "num": 55,
@@ -14466,6 +16919,11 @@
           "seriesId": "traveling",
           "num": 20,
           "title": "Kyoto Before Sunset"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
         }
       ],
       "related": []
@@ -14498,21 +16956,6 @@
           "title": "First Code Review in English"
         },
         {
-          "seriesId": "email-async",
-          "num": 64,
-          "title": "Async Standup in English"
-        },
-        {
-          "seriesId": "interview-career",
-          "num": 83,
-          "title": "Questions for the Interviewer"
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 100,
-          "title": "The War Room"
-        },
-        {
           "seriesId": "incident-postmortem",
           "num": 101,
           "title": "What We Know So Far Is..."
@@ -14530,7 +16973,7 @@
       "term": "very",
       "aliases": [],
       "vi": "rất",
-      "short": "Panel 1",
+      "short": "Panel 6",
       "long": "very — rất. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: very",
       "example": "very.",
       "type": "vocab",
@@ -14538,79 +16981,9 @@
       "packTitle": "",
       "episodes": [
         {
-          "seriesId": "bug-arc-1",
-          "num": 7,
-          "title": "Settling on a Plan"
-        },
-        {
-          "seriesId": "bug-arc-2",
-          "num": 6,
-          "title": "When Plans Fall Through"
-        },
-        {
-          "seriesId": "bug-arc-2",
-          "num": 7,
-          "title": "Follow Through the Fix"
-        },
-        {
-          "seriesId": "living",
-          "num": 38,
-          "title": "Getting Used to Life in Japan"
-        },
-        {
-          "seriesId": "living",
-          "num": 40,
-          "title": "English for Real Life Finale"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 53,
-          "title": "Cache or Database First?"
-        },
-        {
-          "seriesId": "system-design",
-          "num": 57,
-          "title": "The Cost of Overengineering"
-        },
-        {
-          "seriesId": "japan-culture",
-          "num": 70,
-          "title": "What Is Omotenashi?"
-        },
-        {
-          "seriesId": "japan-culture",
-          "num": 72,
-          "title": "Japan Culture Finale"
-        },
-        {
-          "seriesId": "anime-manga",
-          "num": 76,
-          "title": "Figure Store Dilemma"
-        },
-        {
-          "seriesId": "anime-manga",
-          "num": 78,
-          "title": "Anime & Manga Finale"
-        },
-        {
-          "seriesId": "giving-feedback",
-          "num": 94,
-          "title": "Feedback & 1-on-1 Finale"
-        },
-        {
           "seriesId": "presentation-pitch",
           "num": 96,
           "title": "Let Me Walk You Through the Demo"
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 100,
-          "title": "The War Room"
-        },
-        {
-          "seriesId": "incident-postmortem",
-          "num": 104,
-          "title": "Postmortem Finale"
         }
       ],
       "related": []
@@ -14910,6 +17283,31 @@
       "related": []
     },
     {
+      "id": "war-room",
+      "term": "war room",
+      "aliases": [],
+      "vi": "Team tập trung fix incident khẩn cấp",
+      "short": "phòng xử lý sự cố",
+      "long": "war room — Team tập trung fix incident khẩn cấp. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: war room",
+      "example": "war room.",
+      "type": "vocab",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 109,
+          "title": "Pulled Into the War Room"
+        }
+      ],
+      "related": []
+    },
+    {
       "id": "water",
       "term": "water",
       "aliases": [],
@@ -14928,6 +17326,44 @@
         }
       ],
       "related": []
+    },
+    {
+      "id": "we-got-shipped-on-friday",
+      "term": "We got shipped on Friday.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "We got shipped on Friday. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: We got shipped on Friday.",
+      "example": "We got shipped on Friday.",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "can-you-loop-me-in-on",
+        "i-finally-get-it",
+        "i-got-pulled-into-the-war-room"
+      ]
+    },
+    {
+      "id": "we-got-snowed-in-last-night",
+      "term": "We got snowed in last night.",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "We got snowed in last night. — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: We got snowed in last night.",
+      "example": "We got snowed in last night.",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in"
+      ]
     },
     {
       "id": "we-mitigated-the-issue-by",
@@ -14952,6 +17388,25 @@
         "act-as",
         "act-as-a-cache-layer",
         "action-items-going-forward"
+      ]
+    },
+    {
+      "id": "we-need-buy-in-from",
+      "term": "We need buy-in from...",
+      "aliases": [],
+      "vi": "",
+      "short": "Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack.",
+      "long": "We need buy-in from... — Mục từ vựng/pattern tiếng Anh. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: We need buy-in from + [nội dung cụ thể]",
+      "example": "We need buy-in fromthe payment flow.",
+      "type": "pattern",
+      "pack": "get_phrasal_startup",
+      "packTitle": "Get Phrasal Verbs — Startup & Tech",
+      "episodes": [],
+      "related": [
+        "can-you-help-me-get-unblocked",
+        "can-you-loop-me-in-on",
+        "i-finally-get-it",
+        "i-got-pulled-into-the-war-room"
       ]
     },
     {
@@ -15165,6 +17620,11 @@
           "seriesId": "career-growth",
           "num": 49,
           "title": "Speaking Up"
+        },
+        {
+          "seriesId": "system-design",
+          "num": 51,
+          "title": "The System Design Question"
         },
         {
           "seriesId": "system-design",
@@ -15529,6 +17989,21 @@
           "seriesId": "japan-culture",
           "num": 72,
           "title": "Japan Culture Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 115,
+          "title": "Lost on the Alpine Trail"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
         }
       ],
       "related": []
@@ -15579,6 +18054,25 @@
       "related": []
     },
     {
+      "id": "where-can-i-get-a-ticket",
+      "term": "Where can I get a ticket?",
+      "aliases": [],
+      "vi": "",
+      "short": "Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày.",
+      "long": "Where can I get a ticket? — Mục từ vựng/pattern tiếng Anh. Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày. Cấu trúc: Where can I get a ticket?",
+      "example": "Where can I get a ticket?",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in"
+      ]
+    },
+    {
       "id": "whether",
       "term": "whether",
       "aliases": [],
@@ -15609,22 +18103,36 @@
       "related": []
     },
     {
+      "id": "which-platform-do-we-get-on",
+      "term": "Which platform do we get on?",
+      "aliases": [],
+      "vi": "",
+      "short": "Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày.",
+      "long": "Which platform do we get on? — Mục từ vựng/pattern tiếng Anh. Dùng khi hỏi hoặc đề xuất — phù hợp meeting và giao tiếp hàng ngày. Cấu trúc: Which platform do we get on?",
+      "example": "Which platform do we get on?",
+      "type": "pattern",
+      "pack": "get_phrasal_travel",
+      "packTitle": "Get Phrasal Verbs — Travel & Movement",
+      "episodes": [],
+      "related": [
+        "don-t-forget-to-get-off-at",
+        "how-do-i-get-to",
+        "i-can-get-by-with-phrasebook-english",
+        "i-need-to-get-checked-in"
+      ]
+    },
+    {
       "id": "while",
       "term": "while",
       "aliases": [],
       "vi": "trong khi",
-      "short": "Panel 5",
+      "short": "Panel 1",
       "long": "while — trong khi. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: while",
       "example": "while.",
       "type": "vocab",
       "pack": null,
       "packTitle": "",
       "episodes": [
-        {
-          "seriesId": "interview-career",
-          "num": 82,
-          "title": "The Salary Question"
-        },
         {
           "seriesId": "negotiation-boundaries",
           "num": 87,
@@ -15716,6 +18224,11 @@
           "title": "Fuji Clears Up"
         },
         {
+          "seriesId": "living",
+          "num": 30,
+          "title": "Fill Out the Form"
+        },
+        {
           "seriesId": "career-growth",
           "num": 50,
           "title": "Nam Becomes the Bridge"
@@ -15752,13 +18265,38 @@
         },
         {
           "seriesId": "incident-postmortem",
-          "num": 103,
-          "title": "Action Items Going Forward"
-        },
-        {
-          "seriesId": "incident-postmortem",
           "num": 104,
           "title": "Postmortem Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 111,
+          "title": "Landing in Zurich"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        },
+        {
+          "seriesId": "switzerland-travel",
+          "num": 114,
+          "title": "Snowed In at Zermatt"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 117,
+          "title": "When You Finally Get It"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
         }
       ],
       "related": []
@@ -15789,6 +18327,16 @@
           "seriesId": "presentation-pitch",
           "num": 99,
           "title": "Presentation & Pitch Finale"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 106,
+          "title": "We Need Buy-In"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 116,
+          "title": "First English Meetup"
         }
       ],
       "related": []
@@ -15809,11 +18357,6 @@
           "seriesId": "bug-arc-2",
           "num": 7,
           "title": "Follow Through the Fix"
-        },
-        {
-          "seriesId": "bug-arc-2",
-          "num": 10,
-          "title": "Safe Release Finale"
         },
         {
           "seriesId": "traveling",
@@ -15849,6 +18392,16 @@
           "seriesId": "interview-career",
           "num": 83,
           "title": "Questions for the Interviewer"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 110,
+          "title": "The Acquisition News"
         }
       ],
       "related": []
@@ -16248,6 +18801,76 @@
           "seriesId": "giving-feedback",
           "num": 94,
           "title": "Feedback & 1-on-1 Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-looped-in-b-ng-ai-th-m-b-n-v-o-cu-c-tr-chuy-n",
+      "term": "⚠️ get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện",
+      "aliases": [],
+      "vi": "Sai: **I need to get loop in on the project.**",
+      "short": "Đúng: **I need to get looped in on the project.** — get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện",
+      "long": "⚠️ get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện — Sai: **I need to get loop in on the project.**. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: ⚠️ get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện",
+      "example": "⚠️ get looped in = bị động — ai đó thêm bạn vào cuộc trò chuyện.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "email-async",
+          "num": 62,
+          "title": "Loop Me In on the Decision"
+        },
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 105,
+          "title": "Can You Loop Me In?"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-on-l-n-ph-ng-ti-n-get-off-xu-ng",
+      "term": "⚠️ get on = lên phương tiện · get off = xuống",
+      "aliases": [],
+      "vi": "Sai: **How can I get in the train?**",
+      "short": "Đúng: **How can I get on the train?** — get on = lên phương tiện · get off = xuống",
+      "long": "⚠️ get on = lên phương tiện · get off = xuống — Sai: **How can I get in the train?**. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: ⚠️ get on = lên phương tiện · get off = xuống",
+      "example": "⚠️ get on = lên phương tiện · get off = xuống.",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "switzerland-travel",
+          "num": 112,
+          "title": "The Glacier Express"
+        },
+        {
+          "seriesId": "english-everyday-get",
+          "num": 118,
+          "title": "Everyday Get Finale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "get-shipped-feature-c-deploy-c-n-v3-shipped",
+      "term": "⚠️ get shipped = feature được deploy — cần V3 (shipped)",
+      "aliases": [],
+      "vi": "Sai: **We got ship yesterday.**",
+      "short": "Đúng: **We got shipped yesterday.** — get shipped = feature được deploy — cần V3 (shipped)",
+      "long": "⚠️ get shipped = feature được deploy — cần V3 (shipped) — Sai: **We got ship yesterday.**. Xuất hiện trong hội thoại truyện — học thêm từ vựng ngoài pattern pack. Cấu trúc: ⚠️ get shipped = feature được deploy — cần V3 (shipped)",
+      "example": "⚠️ get shipped = feature được deploy — cần V3 (shipped).",
+      "type": "grammar",
+      "pack": null,
+      "packTitle": "",
+      "episodes": [
+        {
+          "seriesId": "silicon-valley-get",
+          "num": 108,
+          "title": "Ship It Friday"
         }
       ],
       "related": []

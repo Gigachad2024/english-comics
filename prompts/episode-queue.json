@@ -808,5 +808,117 @@
       "Action items going forward...",
       "follow up on"
     ]
+  },
+  {
+    "file": "silicon-valley-get-t105-comic.md",
+    "arc_id": "silicon-valley-get",
+    "num": 105,
+    "title": "Can You Loop Me In?",
+    "slug": "can-you-loop-me-in",
+    "focus": ["get looped in", "get pinged", "get up to speed"]
+  },
+  {
+    "file": "silicon-valley-get-t106-comic.md",
+    "arc_id": "silicon-valley-get",
+    "num": 106,
+    "title": "We Need Buy-In",
+    "slug": "we-need-buy-in",
+    "focus": ["get buy-in", "get aligned", "get the ball rolling"]
+  },
+  {
+    "file": "silicon-valley-get-t107-comic.md",
+    "arc_id": "silicon-valley-get",
+    "num": 107,
+    "title": "Blocked on Dependencies",
+    "slug": "blocked-on-dependencies",
+    "focus": ["get blocked", "get unblocked", "get through"]
+  },
+  {
+    "file": "silicon-valley-get-t108-comic.md",
+    "arc_id": "silicon-valley-get",
+    "num": 108,
+    "title": "Ship It Friday",
+    "slug": "ship-it-friday",
+    "focus": ["get shipped", "get sign-off", "get ready"]
+  },
+  {
+    "file": "silicon-valley-get-t109-comic.md",
+    "arc_id": "silicon-valley-get",
+    "num": 109,
+    "title": "Pulled Into the War Room",
+    "slug": "pulled-into-the-war-room",
+    "focus": ["get pulled into", "get stuck", "get back to"]
+  },
+  {
+    "file": "silicon-valley-get-t110-comic.md",
+    "arc_id": "silicon-valley-get",
+    "num": 110,
+    "title": "The Acquisition News",
+    "slug": "the-acquisition-news",
+    "focus": ["get face time", "get promoted", "get acquired"]
+  },
+  {
+    "file": "switzerland-travel-t111-comic.md",
+    "arc_id": "switzerland-travel",
+    "num": 111,
+    "title": "Landing in Zurich",
+    "slug": "landing-in-zurich",
+    "focus": ["get to", "get checked in", "get your bearings"]
+  },
+  {
+    "file": "switzerland-travel-t112-comic.md",
+    "arc_id": "switzerland-travel",
+    "num": 112,
+    "title": "The Glacier Express",
+    "slug": "the-glacier-express",
+    "focus": ["get a ticket", "get on", "get off"]
+  },
+  {
+    "file": "switzerland-travel-t113-comic.md",
+    "arc_id": "switzerland-travel",
+    "num": 113,
+    "title": "View from the Top",
+    "slug": "view-from-the-top",
+    "focus": ["get a view of", "get altitude sickness", "get change"]
+  },
+  {
+    "file": "switzerland-travel-t114-comic.md",
+    "arc_id": "switzerland-travel",
+    "num": 114,
+    "title": "Snowed In at Zermatt",
+    "slug": "snowed-in-at-zermatt",
+    "focus": ["get snowed in", "get held up", "get by"]
+  },
+  {
+    "file": "switzerland-travel-t115-comic.md",
+    "arc_id": "switzerland-travel",
+    "num": 115,
+    "title": "Lost on the Alpine Trail",
+    "slug": "lost-on-the-alpine-trail",
+    "focus": ["get around", "get lost", "get swept up in"]
+  },
+  {
+    "file": "english-everyday-get-t116-comic.md",
+    "arc_id": "english-everyday-get",
+    "num": 116,
+    "title": "First English Meetup",
+    "slug": "first-english-meetup",
+    "focus": ["get used to", "get ready", "get through"]
+  },
+  {
+    "file": "english-everyday-get-t117-comic.md",
+    "arc_id": "english-everyday-get",
+    "num": 117,
+    "title": "When You Finally Get It",
+    "slug": "when-you-finally-get-it",
+    "focus": ["get it", "get back to", "get by"]
+  },
+  {
+    "file": "english-everyday-get-t118-comic.md",
+    "arc_id": "english-everyday-get",
+    "num": 118,
+    "title": "Everyday Get Finale",
+    "slug": "everyday-get-finale",
+    "focus": ["get onboarded", "get sign-off", "get a ride"]
   }
 ]

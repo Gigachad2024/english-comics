@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Lộ trình học tiếng Anh",
-    "subtitle": "15 arc · 122 tập · Từ debug code đến phỏng vấn & postmortem"
+    "subtitle": "18 arc · 136 tập · Từ debug code đến phrasal verbs get"
   },
   "methodology": [
     {
@@ -144,6 +144,24 @@
             {
               "seriesId": "incident-postmortem",
               "tip": "War room, root cause, blameless postmortem"
+            }
+          ]
+        },
+        {
+          "title": "Giai đoạn 10 — Get Phrasal Verbs",
+          "desc": "Startup Bay Area, Thụy Sĩ, học tiếng Anh hàng ngày — học get + prep/adj/V3 qua truyện",
+          "steps": [
+            {
+              "seriesId": "silicon-valley-get",
+              "tip": "Loop in, buy-in, ship day, war room, acquisition"
+            },
+            {
+              "seriesId": "switzerland-travel",
+              "tip": "Trains, peaks, snow — get around Switzerland"
+            },
+            {
+              "seriesId": "english-everyday-get",
+              "tip": "Meetup, homework — get it, get by, get used to"
             }
           ]
         }
@@ -455,6 +473,66 @@
           "steps": [
             {
               "seriesId": "incident-postmortem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-get",
+      "title": "Silicon Valley Get",
+      "subtitle": "Tập 105–110 — startup, ship day, acquisition",
+      "icon": "🌉",
+      "color": "#0EA5E9",
+      "duration": "1 tuần",
+      "desc": "Phrasal verbs get trong công việc startup: loop in, buy-in, blocked, shipped, promoted.",
+      "phases": [
+        {
+          "title": "Bay Area Rotation",
+          "desc": "6 tập từ onboarding Slack đến acquisition news",
+          "steps": [
+            {
+              "seriesId": "silicon-valley-get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "switzerland-travel",
+      "title": "Switzerland Travel",
+      "subtitle": "Tập 111–115 — Zurich, Glacier Express, Zermatt",
+      "icon": "🏔️",
+      "color": "#059669",
+      "duration": "1 tuần",
+      "desc": "Get around Switzerland — tickets, trains, altitude, snow, alpine trails.",
+      "phases": [
+        {
+          "title": "Alpine Adventure",
+          "desc": "5 tập từ landing Zurich đến lost on the trail",
+          "steps": [
+            {
+              "seriesId": "switzerland-travel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-get",
+      "title": "Everyday Get",
+      "subtitle": "Tập 116–118 — meetup, homework, daily English",
+      "icon": "📚",
+      "color": "#D946EF",
+      "duration": "3–4 ngày",
+      "desc": "Get used to, get it, get by — học tiếng Anh trong cuộc sống hàng ngày.",
+      "phases": [
+        {
+          "title": "Learning English Daily",
+          "desc": "3 tập meetup, aha moment, finale combo",
+          "steps": [
+            {
+              "seriesId": "english-everyday-get"
             }
           ]
         }

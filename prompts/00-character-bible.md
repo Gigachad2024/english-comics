@@ -52,3 +52,6 @@
 | Feedback & 1-on-1 | `#A855F7` |
 | Presentation & Pitch | `#F97316` |
 | Incident & Postmortem | `#DC2626` |
+| Silicon Valley Get | `#0EA5E9` |
+| Switzerland Travel | `#059669` |
+| Everyday Get | `#D946EF` |

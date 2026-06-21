@@ -11,6 +11,9 @@ SPEECH_RE = re.compile(
 MULTI_SPEECH_RE = re.compile(
     r'([A-Za-z][A-Za-z .\'-]{0,30}?):\s*\*"([^"]+)"\*'
 )
+INLINE_SPEECH_RE = re.compile(
+    r'([A-Za-z][A-Za-z .\'()-]{0,40}?):\s*"([^"]+)"'
+)
 
 KNOWN_SPEAKERS = {
     "nam", "kenji", "aoi", "linh", "agent", "recruiter", "interviewer",
@@ -27,8 +30,20 @@ def parse_speech_field(raw: str) -> list[dict[str, Any]]:
     if raw.lower().startswith("next:"):
         return [{"panel": None, "speaker": "Hook", "text": raw.rstrip(".")}]
 
+    # Multiple quoted speakers on one line (common in comic panel beats)
+    inline = list(INLINE_SPEECH_RE.finditer(raw))
+    if len(inline) >= 1:
+        out: list[dict[str, Any]] = []
+        for m in inline:
+            speaker, text = m.group(1).strip(), m.group(2).strip()
+            if speaker.lower() == "next":
+                speaker = "Hook"
+                text = f"Next: {text}"
+            out.append({"speaker": speaker, "text": text})
+        return out
+
     parts = re.split(r"\s*→\s*", raw)
-    out: list[dict[str, Any]] = []
+    out = []
     for part in parts:
         part = part.strip()
         m = SPEECH_RE.match(part)

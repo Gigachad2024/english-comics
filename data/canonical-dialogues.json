@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-20T09:29:03.770876+00:00",
-  "count": 122,
+  "generatedAt": "2026-06-21T07:37:02.771852+00:00",
+  "count": 136,
   "stats": {
-    "ocr_ok": 88,
-    "override": 34,
-    "weak": 0,
+    "ocr_ok": 0,
+    "override": 48,
+    "weak": 88,
     "errors": 0
   },
   "episodes": {
@@ -15,8 +15,8 @@
       "slug": "quick-patch-or-full-refactor",
       "title": "Quick Patch or Full Refactor?",
       "image": "images/comics/bug-arc-1/tập-01/bug-arc-1-tap01-quick-patch-or-full-refactor.png",
-      "source": "script+verified",
-      "verifyScore": 0.911,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -57,8 +57,8 @@
       "slug": "deploy-today-or-wait-for-qa",
       "title": "Deploy Today or Wait for QA?",
       "image": "images/comics/bug-arc-1/tập-02/bug-arc-1-tap02-deploy-today-or-wait-for-qa.png",
-      "source": "script+verified",
-      "verifyScore": 0.704,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -141,8 +141,8 @@
       "slug": "rollback-or-hotfix",
       "title": "Rollback or Hotfix?",
       "image": "images/comics/bug-arc-1/tập-04/bug-arc-1-tap04-rollback-or-hotfix.png",
-      "source": "script+verified",
-      "verifyScore": 0.563,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -351,8 +351,8 @@
       "slug": "tokyo-or-osaka",
       "title": "Tokyo or Osaka?",
       "image": "images/comics/bug-arc-1/tập-09/bug-arc-1-tap09-tokyo-or-osaka.png",
-      "source": "script+verified",
-      "verifyScore": 0.662,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -393,8 +393,8 @@
       "slug": "the-safer-choice",
       "title": "The Safer Choice",
       "image": "images/comics/bug-arc-1/tập-10/bug-arc-1-tap10-the-safer-choice.png",
-      "source": "script+verified",
-      "verifyScore": 0.599,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -435,8 +435,8 @@
       "slug": "payment-page-panic",
       "title": "Payment Page Panic",
       "image": "images/comics/bug-arc-2/tập-01/bug-arc-2-tap01-payment-page-panic.png",
-      "source": "script+verified",
-      "verifyScore": 0.723,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -477,8 +477,8 @@
       "slug": "frontend-relies-on-the-api",
       "title": "Frontend Relies on the API",
       "image": "images/comics/bug-arc-2/tập-02/bug-arc-2-tap02-frontend-relies-on-the-api.png",
-      "source": "script+verified",
-      "verifyScore": 0.59,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -519,8 +519,8 @@
       "slug": "go-through-the-logs",
       "title": "Go Through the Logs",
       "image": "images/comics/bug-arc-2/tập-03/bug-arc-2-tap03-go-through-the-logs.png",
-      "source": "script+verified",
-      "verifyScore": 0.685,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -561,8 +561,8 @@
       "slug": "qa-checklist-showdown",
       "title": "QA Checklist Showdown",
       "image": "images/comics/bug-arc-2/tập-04/bug-arc-2-tap04-qa-checklist-showdown.png",
-      "source": "script+verified",
-      "verifyScore": 0.612,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -603,8 +603,8 @@
       "slug": "demo-flow-drill",
       "title": "Demo Flow Drill",
       "image": "images/comics/bug-arc-2/tập-05/bug-arc-2-tap05-demo-flow-drill.png",
-      "source": "script+verified",
-      "verifyScore": 0.576,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -729,8 +729,8 @@
       "slug": "cache-culprit",
       "title": "Cache Culprit",
       "image": "images/comics/bug-arc-2/tập-08/bug-arc-2-tap08-cache-culprit.png",
-      "source": "script+verified",
-      "verifyScore": 0.57,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -855,8 +855,8 @@
       "slug": "investor-demo-nightmare",
       "title": "Investor Demo Nightmare",
       "image": "images/comics/bug-arc-3/tập-01/bug-arc-3-tap01-investor-demo-nightmare.png",
-      "source": "script+verified",
-      "verifyScore": 0.583,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -897,8 +897,8 @@
       "slug": "quick-patch-or-rollback",
       "title": "Quick Patch or Rollback?",
       "image": "images/comics/bug-arc-3/tập-02/bug-arc-3-tap02-quick-patch-or-rollback.png",
-      "source": "script+verified",
-      "verifyScore": 0.623,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -939,8 +939,8 @@
       "slug": "walk-me-through-the-payment-flow",
       "title": "Walk Me Through the Payment Flow",
       "image": "images/comics/bug-arc-3/tập-03/bug-arc-3-tap03-walk-me-through-the-payment-flow.png",
-      "source": "script+verified",
-      "verifyScore": 0.722,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -981,8 +981,8 @@
       "slug": "cache-suspect",
       "title": "Cache Suspect",
       "image": "images/comics/bug-arc-3/tập-04/bug-arc-3-tap04-cache-suspect.png",
-      "source": "script+verified",
-      "verifyScore": 0.645,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1233,8 +1233,8 @@
       "slug": "tokyo-or-osaka",
       "title": "Tokyo or Osaka?",
       "image": "images/comics/traveling/tập-11/traveling-tap11-tokyo-or-osaka.png",
-      "source": "script+verified",
-      "verifyScore": 0.793,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1359,8 +1359,8 @@
       "slug": "sleep-on-the-itinerary",
       "title": "Sleep on the Itinerary",
       "image": "images/comics/traveling/tập-14/traveling-tap14-sleep-on-the-itinerary.png",
-      "source": "script+verified",
-      "verifyScore": 0.606,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1443,8 +1443,8 @@
       "slug": "what-should-i-order",
       "title": "What Should I Order?",
       "image": "images/comics/traveling/tập-16/traveling-tap16-what-should-i-order.png",
-      "source": "script+verified",
-      "verifyScore": 0.783,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1527,8 +1527,8 @@
       "slug": "lost-in-shinjuku-station",
       "title": "Lost in Shinjuku Station",
       "image": "images/comics/traveling/tập-18/traveling-tap18-lost-in-shinjuku-station.png",
-      "source": "script+verified",
-      "verifyScore": 0.586,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1863,8 +1863,8 @@
       "slug": "new-apartment-in-tokyo",
       "title": "New Apartment in Tokyo",
       "image": "images/comics/living/tập-26/living-tap26-new-apartment-in-tokyo.png",
-      "source": "script+verified",
-      "verifyScore": 0.592,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1905,8 +1905,8 @@
       "slug": "can-you-walk-me-through-the-contract",
       "title": "Can You Walk Me Through the Contract?",
       "image": "images/comics/living/tập-27/living-tap27-can-you-walk-me-through-the-contract.png",
-      "source": "script+verified",
-      "verifyScore": 0.696,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -1947,8 +1947,8 @@
       "slug": "does-saturday-work-for-you",
       "title": "Does Saturday Work for You?",
       "image": "images/comics/living/tập-28/living-tap28-does-saturday-work-for-you.png",
-      "source": "script+verified",
-      "verifyScore": 0.656,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2073,8 +2073,8 @@
       "slug": "moving-day",
       "title": "Moving Day",
       "image": "images/comics/living/tập-31/living-tap31-moving-day.png",
-      "source": "script+verified",
-      "verifyScore": 0.576,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2115,8 +2115,8 @@
       "slug": "opening-a-bank-account",
       "title": "Opening a Bank Account",
       "image": "images/comics/living/tập-33/living-tap33-opening-a-bank-account.png",
-      "source": "script+verified",
-      "verifyScore": 0.811,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2157,8 +2157,8 @@
       "slug": "bug-alert-after-work",
       "title": "Bug Alert After Work",
       "image": "images/comics/living/tập-34/living-tap34-bug-alert-after-work.png",
-      "source": "script+verified",
-      "verifyScore": 0.682,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2409,8 +2409,8 @@
       "slug": "english-for-real-life-finale",
       "title": "English for Real Life Finale",
       "image": "images/comics/living/tập-40/living-tap40-english-for-real-life-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.75,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2451,8 +2451,8 @@
       "slug": "first-code-review-in-english",
       "title": "First Code Review in English",
       "image": "images/comics/career-growth/tập-41/career-growth-tap41-first-code-review-in-english.png",
-      "source": "script+verified",
-      "verifyScore": 0.727,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2493,8 +2493,8 @@
       "slug": "the-performance-problem",
       "title": "The Performance Problem",
       "image": "images/comics/career-growth/tập-42/career-growth-tap42-the-performance-problem.png",
-      "source": "script+verified",
-      "verifyScore": 0.582,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2577,8 +2577,8 @@
       "slug": "walk-me-through-the-architecture",
       "title": "Walk Me Through the Architecture",
       "image": "images/comics/career-growth/tập-44/career-growth-tap44-walk-me-through-the-architecture.png",
-      "source": "script+verified",
-      "verifyScore": 0.75,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2619,8 +2619,8 @@
       "slug": "quick-patch-or-full-refactor",
       "title": "Quick Patch or Full Refactor?",
       "image": "images/comics/career-growth/tập-45/career-growth-tap45-quick-patch-or-full-refactor.png",
-      "source": "script+verified",
-      "verifyScore": 0.8,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2661,8 +2661,8 @@
       "slug": "demo-day-pressure",
       "title": "Demo Day Pressure",
       "image": "images/comics/career-growth/tập-46/career-growth-tap46-demo-day-pressure.png",
-      "source": "script+verified",
-      "verifyScore": 0.68,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2703,8 +2703,8 @@
       "slug": "the-junior-asks-for-help",
       "title": "The Junior Asks for Help",
       "image": "images/comics/career-growth/tập-47/career-growth-tap47-the-junior-asks-for-help.png",
-      "source": "script+verified",
-      "verifyScore": 0.847,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2745,8 +2745,8 @@
       "slug": "incident-recap-meeting",
       "title": "Incident Recap Meeting",
       "image": "images/comics/career-growth/tập-48/career-growth-tap48-incident-recap-meeting.png",
-      "source": "script+verified",
-      "verifyScore": 0.788,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2829,8 +2829,8 @@
       "slug": "nam-becomes-the-bridge",
       "title": "Nam Becomes the Bridge",
       "image": "images/comics/career-growth/tập-50/career-growth-tap50-nam-becomes-the-bridge.png",
-      "source": "script+verified",
-      "verifyScore": 0.732,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2871,8 +2871,8 @@
       "slug": "the-system-design-question",
       "title": "The System Design Question",
       "image": "images/comics/system-design/tập-51/system-design-tap51-the-system-design-question.png",
-      "source": "script+verified",
-      "verifyScore": 0.979,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2913,8 +2913,8 @@
       "slug": "monolith-or-microservices",
       "title": "Monolith or Microservices?",
       "image": "images/comics/system-design/tập-52/system-design-tap52-monolith-or-microservices.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2955,8 +2955,8 @@
       "slug": "cache-or-database-first",
       "title": "Cache or Database First?",
       "image": "images/comics/system-design/tập-53/system-design-tap53-cache-or-database-first.png",
-      "source": "script+verified",
-      "verifyScore": 0.958,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -2997,8 +2997,8 @@
       "slug": "queue-saves-the-day",
       "title": "Queue Saves the Day",
       "image": "images/comics/system-design/tập-54/system-design-tap54-queue-saves-the-day.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3039,8 +3039,8 @@
       "slug": "api-gateway-at-night",
       "title": "API Gateway at Night",
       "image": "images/comics/system-design/tập-55/system-design-tap55-api-gateway-at-night.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3066,7 +3066,7 @@
         {
           "panel": 5,
           "speaker": "Nam",
-          "text": "Let me make sure I got this right — gateway"
+          "text": "Let me make sure I got this right — gateway → services → cache → DB."
         },
         {
           "panel": 6,
@@ -3081,8 +3081,8 @@
       "slug": "scale-under-pressure",
       "title": "Scale Under Pressure",
       "image": "images/comics/system-design/tập-56/system-design-tap56-scale-under-pressure.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3123,8 +3123,8 @@
       "slug": "the-cost-of-overengineering",
       "title": "The Cost of Overengineering",
       "image": "images/comics/system-design/tập-57/system-design-tap57-the-cost-of-overengineering.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3165,8 +3165,8 @@
       "slug": "explain-it-to-product",
       "title": "Explain It to Product",
       "image": "images/comics/system-design/tập-58/system-design-tap58-explain-it-to-product.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3207,8 +3207,8 @@
       "slug": "design-review-showdown",
       "title": "Design Review Showdown",
       "image": "images/comics/system-design/tập-59/system-design-tap59-design-review-showdown.png",
-      "source": "script+verified",
-      "verifyScore": 0.944,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3249,8 +3249,8 @@
       "slug": "thinking-bigger-finale",
       "title": "Thinking Bigger Finale",
       "image": "images/comics/system-design/tập-60/system-design-tap60-thinking-bigger-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.958,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3291,8 +3291,8 @@
       "slug": "just-following-up-on-the-pr",
       "title": "Just Following Up on the PR",
       "image": "images/comics/email-async/tập-61/email-async-tap61-just-following-up-on-the-pr.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3333,8 +3333,8 @@
       "slug": "loop-me-in-on-the-decision",
       "title": "Loop Me In on the Decision",
       "image": "images/comics/email-async/tập-62/email-async-tap62-loop-me-in-on-the-decision.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3375,8 +3375,8 @@
       "slug": "ill-get-back-to-you-by-eod",
       "title": "I'll Get Back to You by EOD",
       "image": "images/comics/email-async/tập-63/email-async-tap63-ill-get-back-to-you-by-eod.png",
-      "source": "script+verified",
-      "verifyScore": 0.944,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3417,8 +3417,8 @@
       "slug": "async-standup-in-english",
       "title": "Async Standup in English",
       "image": "images/comics/email-async/tập-64/email-async-tap64-async-standup-in-english.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3459,8 +3459,8 @@
       "slug": "email-async-finale",
       "title": "Email & Async Finale",
       "image": "images/comics/email-async/tập-65/email-async-tap65-email-async-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.733,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3501,8 +3501,8 @@
       "slug": "walk-me-through-shrine-etiquette",
       "title": "Walk Me Through Shrine Etiquette",
       "image": "images/comics/japan-culture/tập-66/japan-culture-tap66-walk-me-through-shrine-etiquette.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3543,8 +3543,8 @@
       "slug": "the-onsen-question",
       "title": "The Onsen Question",
       "image": "images/comics/japan-culture/tập-67/japan-culture-tap67-the-onsen-question.png",
-      "source": "script+verified",
-      "verifyScore": 0.911,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3585,8 +3585,8 @@
       "slug": "izakaya-after-work",
       "title": "Izakaya After Work",
       "image": "images/comics/japan-culture/tập-68/japan-culture-tap68-izakaya-after-work.png",
-      "source": "script+verified",
-      "verifyScore": 0.986,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3627,8 +3627,8 @@
       "slug": "cherry-blossom-dilemma",
       "title": "Cherry Blossom Dilemma",
       "image": "images/comics/japan-culture/tập-69/japan-culture-tap69-cherry-blossom-dilemma.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3669,8 +3669,8 @@
       "slug": "what-is-omotenashi",
       "title": "What Is Omotenashi?",
       "image": "images/comics/japan-culture/tập-70/japan-culture-tap70-what-is-omotenashi.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3711,8 +3711,8 @@
       "slug": "summer-festival-night",
       "title": "Summer Festival Night",
       "image": "images/comics/japan-culture/tập-71/japan-culture-tap71-summer-festival-night.png",
-      "source": "script+verified",
-      "verifyScore": 0.833,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3753,8 +3753,8 @@
       "slug": "japan-culture-finale",
       "title": "Japan Culture Finale",
       "image": "images/comics/japan-culture/tập-72/japan-culture-tap72-japan-culture-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.967,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3795,8 +3795,8 @@
       "slug": "akihabara-or-nakano-broadway",
       "title": "Akihabara or Nakano Broadway?",
       "image": "images/comics/anime-manga/tập-73/anime-manga-tap73-akihabara-or-nakano-broadway.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3837,8 +3837,8 @@
       "slug": "my-first-manga-cafe",
       "title": "My First Manga Cafe",
       "image": "images/comics/anime-manga/tập-74/anime-manga-tap74-my-first-manga-cafe.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3879,8 +3879,8 @@
       "slug": "anime-pilgrimage-day",
       "title": "Anime Pilgrimage Day",
       "image": "images/comics/anime-manga/tập-75/anime-manga-tap75-anime-pilgrimage-day.png",
-      "source": "script+verified",
-      "verifyScore": 0.944,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3921,8 +3921,8 @@
       "slug": "figure-store-dilemma",
       "title": "Figure Store Dilemma",
       "image": "images/comics/anime-manga/tập-76/anime-manga-tap76-figure-store-dilemma.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -3963,8 +3963,8 @@
       "slug": "anime-talk-at-team-lunch",
       "title": "Anime Talk at Team Lunch",
       "image": "images/comics/anime-manga/tập-77/anime-manga-tap77-anime-talk-at-team-lunch.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4005,8 +4005,8 @@
       "slug": "anime-manga-finale",
       "title": "Anime & Manga Finale",
       "image": "images/comics/anime-manga/tập-78/anime-manga-tap78-anime-manga-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.867,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4047,8 +4047,8 @@
       "slug": "the-first-phone-screen",
       "title": "The First Phone Screen",
       "image": "images/comics/interview-career/tập-79/interview-career-tap79-the-first-phone-screen.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4089,8 +4089,8 @@
       "slug": "tell-me-about-a-time-when",
       "title": "Tell Me About a Time When...",
       "image": "images/comics/interview-career/tập-80/interview-career-tap80-tell-me-about-a-time-when.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4131,8 +4131,8 @@
       "slug": "why-do-you-want-this-role",
       "title": "Why Do You Want This Role?",
       "image": "images/comics/interview-career/tập-81/interview-career-tap81-why-do-you-want-this-role.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4173,8 +4173,8 @@
       "slug": "the-salary-question",
       "title": "The Salary Question",
       "image": "images/comics/interview-career/tập-82/interview-career-tap82-the-salary-question.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4215,8 +4215,8 @@
       "slug": "questions-for-the-interviewer",
       "title": "Questions for the Interviewer",
       "image": "images/comics/interview-career/tập-83/interview-career-tap83-questions-for-the-interviewer.png",
-      "source": "script+verified",
-      "verifyScore": 0.976,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4257,8 +4257,8 @@
       "slug": "interview-career-finale",
       "title": "Interview & Career Finale",
       "image": "images/comics/interview-career/tập-84/interview-career-tap84-interview-career-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.858,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4299,8 +4299,8 @@
       "slug": "the-tight-deadline",
       "title": "The Tight Deadline",
       "image": "images/comics/negotiation-boundaries/tập-85/negotiation-boundaries-tap85-the-tight-deadline.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4341,8 +4341,8 @@
       "slug": "would-it-be-possible-to",
       "title": "Would It Be Possible To...?",
       "image": "images/comics/negotiation-boundaries/tập-86/negotiation-boundaries-tap86-would-it-be-possible-to.png",
-      "source": "script+verified",
-      "verifyScore": 0.917,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4383,8 +4383,8 @@
       "slug": "thats-outside-the-scope",
       "title": "That's Outside the Scope",
       "image": "images/comics/negotiation-boundaries/tập-87/negotiation-boundaries-tap87-thats-outside-the-scope.png",
-      "source": "script+verified",
-      "verifyScore": 0.981,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4425,8 +4425,8 @@
       "slug": "push-back-on-scope-creep",
       "title": "Push Back on Scope Creep",
       "image": "images/comics/negotiation-boundaries/tập-88/negotiation-boundaries-tap88-push-back-on-scope-creep.png",
-      "source": "script+verified",
-      "verifyScore": 0.955,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4467,8 +4467,8 @@
       "slug": "negotiation-boundaries-finale",
       "title": "Negotiation & Boundaries Finale",
       "image": "images/comics/negotiation-boundaries/tập-89/negotiation-boundaries-tap89-negotiation-boundaries-finale.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4509,8 +4509,8 @@
       "slug": "preparing-for-the-1-on-1",
       "title": "Preparing for the 1-on-1",
       "image": "images/comics/giving-feedback/tập-90/giving-feedback-tap90-preparing-for-the-1-on-1.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4551,8 +4551,8 @@
       "slug": "one-thing-that-went-well-was",
       "title": "One Thing That Went Well Was...",
       "image": "images/comics/giving-feedback/tập-91/giving-feedback-tap91-one-thing-that-went-well-was.png",
-      "source": "script+verified",
-      "verifyScore": 0.976,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4593,8 +4593,8 @@
       "slug": "id-suggest-trying",
       "title": "I'd Suggest Trying...",
       "image": "images/comics/giving-feedback/tập-92/giving-feedback-tap92-id-suggest-trying.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4635,8 +4635,8 @@
       "slug": "how-can-i-support-you",
       "title": "How Can I Support You?",
       "image": "images/comics/giving-feedback/tập-93/giving-feedback-tap93-how-can-i-support-you.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4677,8 +4677,8 @@
       "slug": "feedback-1-on-1-finale",
       "title": "Feedback & 1-on-1 Finale",
       "image": "images/comics/giving-feedback/tập-94/giving-feedback-tap94-feedback-1-on-1-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.958,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4719,8 +4719,8 @@
       "slug": "structuring-the-demo",
       "title": "Structuring the Demo",
       "image": "images/comics/presentation-pitch/tập-95/presentation-pitch-tap95-structuring-the-demo.png",
-      "source": "script+verified",
-      "verifyScore": 0.867,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4761,8 +4761,8 @@
       "slug": "walk-through-the-demo",
       "title": "Let Me Walk You Through the Demo",
       "image": "images/comics/presentation-pitch/tập-96/presentation-pitch-tap96-walk-through-the-demo.png",
-      "source": "script+verified",
-      "verifyScore": 0.792,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4803,8 +4803,8 @@
       "slug": "the-key-takeaway-is",
       "title": "The Key Takeaway Is...",
       "image": "images/comics/presentation-pitch/tập-97/presentation-pitch-tap97-the-key-takeaway-is.png",
-      "source": "script+verified",
-      "verifyScore": 0.889,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4845,8 +4845,8 @@
       "slug": "handling-tough-questions",
       "title": "Handling Tough Questions",
       "image": "images/comics/presentation-pitch/tập-98/presentation-pitch-tap98-handling-tough-questions.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4887,8 +4887,8 @@
       "slug": "presentation-pitch-finale",
       "title": "Presentation & Pitch Finale",
       "image": "images/comics/presentation-pitch/tập-99/presentation-pitch-tap99-presentation-pitch-finale.png",
-      "source": "script+verified",
-      "verifyScore": 0.917,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4929,8 +4929,8 @@
       "slug": "the-war-room",
       "title": "The War Room",
       "image": "images/comics/incident-postmortem/tập-100/incident-postmortem-tap100-the-war-room.png",
-      "source": "script+verified",
-      "verifyScore": 0.972,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -4971,8 +4971,8 @@
       "slug": "what-we-know-so-far-is",
       "title": "What We Know So Far Is...",
       "image": "images/comics/incident-postmortem/tập-101/incident-postmortem-tap101-what-we-know-so-far-is.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -5013,8 +5013,8 @@
       "slug": "root-cause-analysis",
       "title": "Root Cause Analysis",
       "image": "images/comics/incident-postmortem/tập-102/incident-postmortem-tap102-root-cause-analysis.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -5055,8 +5055,8 @@
       "slug": "action-items-going-forward",
       "title": "Action Items Going Forward",
       "image": "images/comics/incident-postmortem/tập-103/incident-postmortem-tap103-action-items-going-forward.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -5097,8 +5097,8 @@
       "slug": "postmortem-finale",
       "title": "Postmortem Finale",
       "image": "images/comics/incident-postmortem/tập-104/incident-postmortem-tap104-postmortem-finale.png",
-      "source": "script+verified",
-      "verifyScore": 1.0,
+      "source": "script-unverified",
+      "verifyScore": 0.0,
       "errors": [],
       "lines": [
         {
@@ -5130,6 +5130,589 @@
           "panel": 6,
           "speaker": "Leadership",
           "text": "Blameless, clear, actionable — well done."
+        }
+      ]
+    },
+    "silicon-valley-get/105": {
+      "seriesId": "silicon-valley-get",
+      "num": 105,
+      "slug": "can-you-loop-me-in",
+      "title": "Can You Loop Me In?",
+      "image": "images/comics/silicon-valley-get/tập-105/silicon-valley-get-tap105-can-you-loop-me-in.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "Welcome! I'll get you looped in on the launch channel."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Sorry — I keep getting pinged on every thread."
+        },
+        {
+          "panel": 3,
+          "speaker": "Buddy",
+          "text": "Don't worry. We'll get you up to speed by standup tomorrow."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "There are twelve stakeholders I wasn't looped in on yet."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I'm getting up to speed — but I still get pinged after hours."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: We Need Buy-In"
+        }
+      ]
+    },
+    "silicon-valley-get/106": {
+      "seriesId": "silicon-valley-get",
+      "num": 106,
+      "slug": "we-need-buy-in",
+      "title": "We Need Buy-In",
+      "image": "images/comics/silicon-valley-get/tập-106/silicon-valley-get-tap106-we-need-buy-in.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "We can't ship without buy-in from design and legal."
+        },
+        {
+          "panel": 2,
+          "speaker": "Designer",
+          "text": "We're not aligned on the user flow yet."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Let's get aligned on one MVP before we debate polish."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "If we get buy-in on this scope, we can get the ball rolling Monday."
+        },
+        {
+          "panel": 5,
+          "speaker": "Legal",
+          "text": "I'm in."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Blocked on Dependencies"
+        }
+      ]
+    },
+    "silicon-valley-get/107": {
+      "seriesId": "silicon-valley-get",
+      "num": 107,
+      "slug": "blocked-on-dependencies",
+      "title": "Blocked on Dependencies",
+      "image": "images/comics/silicon-valley-get/tập-107/silicon-valley-get-tap107-blocked-on-dependencies.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'm blocked on the payments API — third day."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Every time I ask, I get blocked on a different dependency."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Nam needs to get unblocked today — demo is Friday."
+        },
+        {
+          "panel": 4,
+          "speaker": "Platform",
+          "text": "You should be unblocked now — try the staging key."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Once I'm unblocked, I can get through code review tonight."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Ship It Friday"
+        }
+      ]
+    },
+    "silicon-valley-get/108": {
+      "seriesId": "silicon-valley-get",
+      "num": 108,
+      "slug": "ship-it-friday",
+      "title": "Ship It Friday",
+      "image": "images/comics/silicon-valley-get/tập-108/silicon-valley-get-tap108-ship-it-friday.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "PM",
+          "text": "We need sign-off from QA and product before we get shipped."
+        },
+        {
+          "panel": 2,
+          "speaker": "Linh",
+          "text": "Staging looks good — I'll get sign-off from QA in ten minutes."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Are we ready? I want everything to get ready before we merge."
+        },
+        {
+          "panel": 4,
+          "speaker": "Kenji",
+          "text": "Feature got shipped — nice work."
+        },
+        {
+          "panel": 5,
+          "speaker": "Hook",
+          "text": "Next: Pulled Into the War Room"
+        }
+      ]
+    },
+    "silicon-valley-get/109": {
+      "seriesId": "silicon-valley-get",
+      "num": 109,
+      "slug": "pulled-into-the-war-room",
+      "title": "Pulled Into the War Room",
+      "image": "images/comics/silicon-valley-get/tập-109/silicon-valley-get-tap109-pulled-into-the-war-room.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "On-call",
+          "text": "Sorry — you're getting pulled into the checkout war room."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I'm stuck — the error only happens in prod, not staging."
+        },
+        {
+          "panel": 3,
+          "speaker": "Kenji",
+          "text": "Don't spin — tell PM you'll get back to them in thirty minutes."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "I'll get back to the team once rollback is confirmed."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Got pulled into my first war room — and we got through it."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: The Acquisition News"
+        }
+      ]
+    },
+    "silicon-valley-get/110": {
+      "seriesId": "silicon-valley-get",
+      "num": 110,
+      "slug": "the-acquisition-news",
+      "title": "The Acquisition News",
+      "image": "images/comics/silicon-valley-get/tập-110/silicon-valley-get-tap110-the-acquisition-news.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "CEO",
+          "text": "Big news — we're getting acquired by a global platform."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Does this mean layoffs… or opportunities?"
+        },
+        {
+          "panel": 3,
+          "speaker": "VP",
+          "text": "I wanted face time with you before the reorg."
+        },
+        {
+          "panel": 4,
+          "speaker": "VP",
+          "text": "You're getting promoted to senior — they noticed your ship work."
+        },
+        {
+          "panel": 5,
+          "speaker": "Kenji",
+          "text": "When a startup gets acquired, culture changes — stay flexible."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "I got face time, got promoted… and the whole company got acquired."
+        }
+      ]
+    },
+    "switzerland-travel/111": {
+      "seriesId": "switzerland-travel",
+      "num": 111,
+      "slug": "landing-in-zurich",
+      "title": "Landing in Zurich",
+      "image": "images/comics/switzerland-travel/tập-111/switzerland-travel-tap111-landing-in-zurich.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "Welcome! Let's get to the hotel before rush hour."
+        },
+        {
+          "panel": 2,
+          "speaker": "Clerk",
+          "text": "I'll get you checked in — passport and booking, please."
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "Walk with me — you'll get your bearings in the old town."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "It took an hour to get to Zurich, but I already love it."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Once I get my bearings, I want to explore every alley."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: The Glacier Express"
+        }
+      ]
+    },
+    "switzerland-travel/112": {
+      "seriesId": "switzerland-travel",
+      "num": 112,
+      "slug": "the-glacier-express",
+      "title": "The Glacier Express",
+      "image": "images/comics/switzerland-travel/tập-112/switzerland-travel-tap112-the-glacier-express.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "How do I get a ticket for the Glacier Express?"
+        },
+        {
+          "panel": 2,
+          "speaker": "Friend",
+          "text": "First class or second? Get a ticket with a seat reservation."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Wait — do we get on at platform 7 or 8?"
+        },
+        {
+          "panel": 4,
+          "speaker": "Friend",
+          "text": "We get off at Filisur — don't miss the stop."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I nearly forgot to get off — the view hypnotized me."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: View from the Top"
+        }
+      ]
+    },
+    "switzerland-travel/113": {
+      "seriesId": "switzerland-travel",
+      "num": 113,
+      "slug": "view-from-the-top",
+      "title": "View from the Top",
+      "image": "images/comics/switzerland-travel/tập-113/switzerland-travel-tap113-view-from-the-top.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "From here you'll get a view of the whole Bernese Alps."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I think I'm getting altitude sickness — head is spinning."
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "Sit still. Altitude sickness passes if you rest."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Can I get change for this twenty-franc note?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "Worth it — I got a view of mountains I'll never forget."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Snowed In at Zermatt"
+        }
+      ]
+    },
+    "switzerland-travel/114": {
+      "seriesId": "switzerland-travel",
+      "num": 114,
+      "slug": "snowed-in-at-zermatt",
+      "title": "Snowed In at Zermatt",
+      "image": "images/comics/switzerland-travel/tập-114/switzerland-travel-tap114-snowed-in-at-zermatt.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Hotel host",
+          "text": "You might get snowed in tonight — roads are closing."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "We got held up by the avalanche warning."
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "We can get by with phrasebook German and gestures."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "English gets you by here — everyone is kind."
+        },
+        {
+          "panel": 5,
+          "speaker": "Friend",
+          "text": "Sometimes getting held up is how you meet the best stories."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Lost on the Alpine Trail"
+        }
+      ]
+    },
+    "switzerland-travel/115": {
+      "seriesId": "switzerland-travel",
+      "num": 115,
+      "slug": "lost-on-the-alpine-trail",
+      "title": "Lost on the Alpine Trail",
+      "image": "images/comics/switzerland-travel/tập-115/switzerland-travel-tap115-lost-on-the-alpine-trail.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Friend",
+          "text": "Stay close — it's easy to get lost up here."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "I think we're lost — which way back to Zermatt?"
+        },
+        {
+          "panel": 3,
+          "speaker": "Friend",
+          "text": "Listen — we got swept up in a local festival by accident."
+        },
+        {
+          "panel": 4,
+          "speaker": "Nam",
+          "text": "Best wrong turn ever — I got swept up in the music."
+        },
+        {
+          "panel": 5,
+          "speaker": "Local",
+          "text": "I can get you a ride back — jump in the back."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Switzerland taught me how to get around — even when lost."
+        }
+      ]
+    },
+    "english-everyday-get/116": {
+      "seriesId": "english-everyday-get",
+      "num": 116,
+      "slug": "first-english-meetup",
+      "title": "First English Meetup",
+      "image": "images/comics/english-everyday-get/tập-116/english-everyday-get-tap116-first-english-meetup.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I need to get ready — deep breath."
+        },
+        {
+          "panel": 2,
+          "speaker": "Facilitator",
+          "text": "It takes time to get used to speaking English out loud."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Sorry — I'm not used to talking this long in English."
+        },
+        {
+          "panel": 4,
+          "speaker": "Partner",
+          "text": "You got through the hardest part — the first five minutes."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I got through my first meetup without switching to Vietnamese."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: When You Finally Get It"
+        }
+      ]
+    },
+    "english-everyday-get/117": {
+      "seriesId": "english-everyday-get",
+      "num": 117,
+      "slug": "when-you-finally-get-it",
+      "title": "When You Finally Get It",
+      "image": "images/comics/english-everyday-get/tập-117/english-everyday-get-tap117-when-you-finally-get-it.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Tutor",
+          "text": "Don't memorize lists — use them until you get it."
+        },
+        {
+          "panel": 2,
+          "speaker": "Nam",
+          "text": "Oh — I get it now. Get blocked means dependency stopped me."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Let me get back to you after this lesson — I'm studying."
+        },
+        {
+          "panel": 4,
+          "speaker": "Barista",
+          "text": "Your English is good — you get by fine here."
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I used to get by with one-word answers. Not anymore."
+        },
+        {
+          "panel": 6,
+          "speaker": "Hook",
+          "text": "Next: Everyday Get Finale"
+        }
+      ]
+    },
+    "english-everyday-get/118": {
+      "seriesId": "english-everyday-get",
+      "num": 118,
+      "slug": "everyday-get-finale",
+      "title": "Everyday Get Finale",
+      "image": "images/comics/english-everyday-get/tập-118/english-everyday-get-tap118-everyday-get-finale.png",
+      "source": "override",
+      "verifyScore": 1.0,
+      "errors": [],
+      "lines": [
+        {
+          "panel": 1,
+          "speaker": "Nam",
+          "text": "I'll get you onboarded — same as my SF rotation."
+        },
+        {
+          "panel": 2,
+          "speaker": "HR",
+          "text": "We need your sign-off as his onboarding buddy."
+        },
+        {
+          "panel": 3,
+          "speaker": "Nam",
+          "text": "Get looped in, get unblocked, get shipped — you'll hear these daily."
+        },
+        {
+          "panel": 4,
+          "speaker": "Riku",
+          "text": "Can I get a ride to the station with you?"
+        },
+        {
+          "panel": 5,
+          "speaker": "Nam",
+          "text": "I got onboarded once too. Now I help others get it."
+        },
+        {
+          "panel": 6,
+          "speaker": "Nam",
+          "text": "Everyday English isn't perfect — but you get by, get better, and get heard."
         }
       ]
     }
