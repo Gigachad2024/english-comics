@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Nam: "It's my first time at a real shrine."
-- **Panel 2:** Scene. Dialogue: Linh: "Can you walk me through how to pray at a shrine?"
-- **Panel 3:** Scene. Dialogue: Kenji: "Two bows, two claps, one bow — like this."
-- **Panel 4:** Scene. Dialogue: Nam: "Let me make sure I got this right."
-- **Panel 5:** Scene. Dialogue: Nam: "I'm not sure I understand this part — the clap timing?"
-- **Panel 6:** Scene. Dialogue: Hook: "Next: The Onsen Question"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Nam",
-    "text": "It's my first time at a real shrine."
-  },
-  {
-    "panel": 2,
-    "speaker": "Linh",
-    "text": "Can you walk me through how to pray at a shrine?"
-  },
-  {
-    "panel": 3,
-    "speaker": "Kenji",
-    "text": "Two bows, two claps, one bow — like this."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "Let me make sure I got this right."
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "I'm not sure I understand this part — the clap timing?"
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: The Onsen Question"
-  }
-]
-```
+- **Panel 1:** Nam and Linh arrive at a shrine. Dialogue: Nam: "It's my first time at a real shrine."
+- **Panel 2:** Torii gate and purification fountain. Dialogue: Linh: "Can you walk me through how to pray at a shrine?"
+- **Panel 3:** Kenji demonstrates bow and clap. Dialogue: Kenji: "Two bows, two claps, one bow — like this."
+- **Panel 4:** Nam tries and checks understanding. Dialogue: Nam: "Let me make sure I got this right."
+- **Panel 5:** Small mistake on order. Dialogue: Nam: "I'm not sure I understand this part — the clap timing?"
+- **Panel 6:** Hook. Dialogue: Next: The Onsen Question
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Meiji Shrine or Fushimi Inari torii gates, stone path, warm afternoon l
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Nam: "It's my first time at a real shrine."
-Panel 2: Story beat. Speech: Linh: "Can you walk me through how to pray at a shrine?"
-Panel 3: Story beat. Speech: Kenji: "Two bows, two claps, one bow — like this."
-Panel 4: Story beat. Speech: Nam: "Let me make sure I got this right."
-Panel 5: Story beat. Speech: Nam: "I'm not sure I understand this part — the clap timing?"
-Panel 6: Story beat. Speech: Hook: "Next: The Onsen Question"
+Panel 1: Nam and Linh arrive at a shrine.. Speech: Nam: "It's my first time at a real shrine."
+Panel 2: Torii gate and purification fountain.. Speech: Linh: "Can you walk me through how to pray at a shrine?"
+Panel 3: Kenji demonstrates bow and clap.. Speech: Kenji: "Two bows, two claps, one bow — like this."
+Panel 4: Nam tries and checks understanding.. Speech: Nam: "Let me make sure I got this right."
+Panel 5: Small mistake on order.. Speech: Nam: "I'm not sure I understand this part — the clap timing?"
+Panel 6: Hook.. Speech: Next: The Onsen Question
 
 ENGLISH FOCUS box must list:
 - "Can you walk me through how to pray at a shrine?" = Bạn hướng dẫn tôi cách cầu nguyện ở đền được không?

@@ -31,6 +31,7 @@ Hướng dẫn A→Z — từ chạy website, thêm truyện, mở rộng patter
 - Du lịch Nhật
 - Sống ở Tokyo
 - Career growth (mentor, speaking up…)
+- Get phrasal verbs (startup, travel, everyday English…)
 
 ### Triết lý học (Core Loop)
 
@@ -68,7 +69,7 @@ English-Comics/
 │   └── learn.js                       ← Pattern Library & Review Mode
 ├── data/
 │   ├── core.json                      ← Packs, patterns, review template
-│   ├── comics.json                    ← Metadata 67 tập (auto-generated)
+│   ├── comics.json                    ← Metadata 136 tập · 18 series (auto-generated)
 │   ├── roadmap.json                   ← Lộ trình học
 │   ├── image-manifest.json            ← Map ảnh cũ → tên mới
 │   └── new-images-manifest.json       ← Ảnh mới ingest gần nhất
@@ -77,6 +78,9 @@ English-Comics/
 │   ├── traveling/tập-11/...
 │   ├── living/tập-26/...
 │   ├── career-growth/tập-41/...
+│   ├── silicon-valley-get/tập-105/...
+│   ├── switzerland-travel/tập-111/...
+│   ├── english-everyday-get/tập-116/...
 │   └── series-bible/...
 ├── scripts/
 │   ├── build-comics-data.py           ← Tạo comics.json + roadmap.json
@@ -89,15 +93,57 @@ English-Comics/
 
 ### Hiện có bao nhiêu nội dung?
 
-| Arc | ID | Tập | Số episode |
-|-----|-----|-----|------------|
+**136 tập · 18 series** (xem `data/comics.json` hoặc `#/roadmap`)
+
+| Arc | ID | Tập (global) | Episodes |
+|-----|-----|--------------|----------|
 | Debug & Release | `bug-arc-1` | 1–10 | 10 |
-| Payment & Demo | `bug-arc-2` | 1–10 | 10 |
-| Investor Demo | `bug-arc-3` | 1–9 | 9 |
+| Payment & Demo Crisis | `bug-arc-2` | 1–10 | 10 |
+| Investor Demo Nightmare | `bug-arc-3` | 1–9 | 9 |
 | English on the Road | `traveling` | 11–25 | 15 |
-| English for Real Life | `living` | 26–40 | 13 (thiếu Ep 32) |
+| English for Real Life | `living` | 26–40 | 14 |
 | Career Growth | `career-growth` | 41–50 | 10 |
-| **Tổng** | | | **67 tập** |
+| System Design | `system-design` | 51–60 | 10 |
+| Email & Async | `email-async` | 61–65 | 5 |
+| Japan Culture | `japan-culture` | 66–72 | 7 |
+| Anime & Manga | `anime-manga` | 73–78 | 6 |
+| Interview & Career | `interview-career` | 79–84 | 6 |
+| Negotiation & Boundaries | `negotiation-boundaries` | 85–89 | 5 |
+| Feedback & 1-on-1 | `giving-feedback` | 90–94 | 5 |
+| Presentation & Pitch | `presentation-pitch` | 95–99 | 5 |
+| Incident & Postmortem | `incident-postmortem` | 100–104 | 5 |
+| **Silicon Valley Get** | `silicon-valley-get` | **105–110** | 6 |
+| **Switzerland Travel** | `switzerland-travel` | **111–115** | 5 |
+| **Everyday Get** | `english-everyday-get` | **116–118** | 3 |
+
+### Phrasal Verbs Expansion — 20 arc mới (119–210)
+
+| Arc | Tập | Pack | Localhost |
+|-----|-----|------|-----------|
+| Silicon Valley Look | 119–124 | `look_phrasal_bigtech` | [http://localhost:8080#/read/silicon-valley-look/119](http://localhost:8080#/read/silicon-valley-look/119) |
+| Wall Street Look | 125–129 | `look_phrasal_wallstreet` | [http://localhost:8080#/read/wall-street-look/125](http://localhost:8080#/read/wall-street-look/125) |
+| Everyday Look | 130–132 | `look_phrasal_everyday` | [http://localhost:8080#/read/english-everyday-look/130](http://localhost:8080#/read/english-everyday-look/130) |
+| Silicon Valley Take | 133–138 | `take_phrasal_bigtech` | [http://localhost:8080#/read/silicon-valley-take/133](http://localhost:8080#/read/silicon-valley-take/133) |
+| Wall Street Take | 139–143 | `take_phrasal_wallstreet` | [http://localhost:8080#/read/wall-street-take/139](http://localhost:8080#/read/wall-street-take/139) |
+| … PUT/COME/GO arcs | 147–188 | `put/come/go_phrasal_*` | see `prompts/arcs/15-put-come-go-overview.md` |
+| Topic arcs | 189–210 | `customer_support`, etc. | see `prompts/arcs/16-topic-arcs-overview.md` |
+
+Kịch bản: `prompts/arcs/10-look-phrasal-overview.md` … `16-topic-arcs-overview.md`
+| **Tổng** | | | **136 tập** |
+
+### Get Phrasal Verbs — 3 arc mới (105–118)
+
+Nam học **get + prep / adj / V3** qua ba câu chuyện liên tiếp. Grammar chi tiết: [`prompts/arcs/06-get-phrasal-overview.md`](prompts/arcs/06-get-phrasal-overview.md)
+
+| Arc | Tập | Pack | Xem trên local |
+|-----|-----|------|----------------|
+| Silicon Valley Get | 105–110 | `get_phrasal_startup` | [http://localhost:8080#/read/silicon-valley-get/105](http://localhost:8080#/read/silicon-valley-get/105) |
+| Switzerland Travel | 111–115 | `get_phrasal_travel` | [http://localhost:8080#/read/switzerland-travel/111](http://localhost:8080#/read/switzerland-travel/111) |
+| Everyday Get | 116–118 | `get_phrasal_everyday` | [http://localhost:8080#/read/english-everyday-get/116](http://localhost:8080#/read/english-everyday-get/116) |
+
+**5 pattern types** (tóm tắt): get + V3 · get + adj · get + prep + noun · get + noun · get + through/up to/used to/by/it
+
+Kịch bản arc: `prompts/arcs/07-silicon-valley-get-arc-script.md` · `08-switzerland-travel-arc-script.md` · `09-everyday-get-arc-script.md`
 
 ---
 
@@ -149,7 +195,7 @@ Trong terminal: `Ctrl + C`
 |-------|-----|---------|
 | Trang chủ | `#/` | Xem tất cả arc, filter theo tag |
 | Lộ trình | `#/roadmap` | Học theo thứ tự Work → Travel → Life → Growth |
-| Patterns | `#/patterns` | Xem 4 knowledge packs, master combo |
+| Patterns | `#/patterns` | Xem 13 knowledge packs, master combo |
 | Đọc truyện | `#/read/{arc-id}/{số-tập}` | Vd: `#/read/career-growth/45` |
 | Đã lưu | `#/bookmarks` | Tập bookmark + lịch sử đọc |
 
@@ -499,7 +545,7 @@ Mỗi tập có:
 
 ### `data/core.json`
 
-4 knowledge packs + review mode template. **Nguồn sự thật** cho Pattern Library.
+13 knowledge packs (gồm 3 get phrasal packs) + review mode template. **Nguồn sự thật** cho Pattern Library.
 
 ### `data/roadmap.json`
 
@@ -600,7 +646,7 @@ Kéo thả folder `English-Comics` lên [netlify.com](https://netlify.com) hoặ
 ### Sau khi học xong toàn bộ
 
 - [ ] Tạo pack mới trong core (email, interview, negotiation…)
-- [ ] Plan arc truyện mới (System Design 51–60)
+- [ ] Plan arc truyện mới (xem mục 14)
 - [ ] Dùng Review Mode ôn pattern cũ
 - [ ] Tạo comic mới cho pattern mới
 
@@ -645,29 +691,22 @@ Thêm vào dict `FOCUS` trong `build-comics-data.py`, rồi build lại.
 
 ## 14. Arc tiếp theo gợi ý
 
-Theo `English_Vault_Website_Core.md`, arc kế tiếp:
+Đã ship: System Design (51–60), Email & Async (61–65), Japan Culture (66–72), Anime & Manga (73–78), Career Advanced (79–104), **Get Phrasal Verbs (105–118)**, **Phrasal Expansion (119–210)** — look/take/put/come/go + topic arcs.
 
-### System Design Arc — Ep 51–60
+### Ý tưởng arc tiếp theo (Ep 119+)
 
-| Tập | Chủ đề gợi ý |
-|-----|--------------|
-| 51 | The System Design Question |
-| 52 | Monolith or Microservices? |
-| 53 | Cache or Database First? |
-| 54 | Queue Saves the Day |
-| 55 | API Gateway at Night |
-| 56 | Scale Under Pressure |
-| 57 | The Cost of Overengineering |
-| 58 | Explain It to Product |
-| 59 | Design Review Showdown |
-| 60 | Thinking Bigger Finale |
+| Hướng | Chủ đề gợi ý |
+|-------|--------------|
+| Customer Support | I understand your concern…, escalate, follow up |
+| Remote / Async deep dive | timezone overlap, async RFC, written decisions |
+| Health & clinic | appointment, symptoms, insurance forms |
+| Side project / indie | pitch deck, user feedback, launch day |
 
 ### Pack mới có thể thêm
 
-- **Email & Async** — follow up, loop in, get back to
-- **Interview English** — tell me about a time when…
-- **Negotiation** — would it be possible to…, push back
-- **Customer Support** — I understand your concern…
+- **Customer Support** — I understand your concern…, let me look into…
+- **Health & Clinic** — I've been feeling…, Do I need an appointment?
+- **Side Project English** — user feedback, iterate, ship MVP
 
 ---
 

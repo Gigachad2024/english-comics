@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Title: "Checkout Incident — Action Items"
-- **Panel 2:** Scene. Dialogue: Nam: "We mitigated the issue by rolling back within 25 minutes."
-- **Panel 3:** Scene. Dialogue: Nam: "To prevent this from happening again, we'll add a cache integration test."
-- **Panel 4:** Scene. Dialogue: Nam: "Action items going forward: update runbook, fix env check, schedule game day."
-- **Panel 5:** Scene. Dialogue: Aoi: "I'll own the runbook update by Friday."
-- **Panel 6:** Scene. Dialogue: Kenji: "Clear actions — no blame, just improvement."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Title",
-    "text": "Checkout Incident — Action Items"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "We mitigated the issue by rolling back within 25 minutes."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "To prevent this from happening again, we'll add a cache integration test."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "Action items going forward: update runbook, fix env check, schedule game day."
-  },
-  {
-    "panel": 5,
-    "speaker": "Aoi",
-    "text": "I'll own the runbook update by Friday."
-  },
-  {
-    "panel": 6,
-    "speaker": "Kenji",
-    "text": "Clear actions — no blame, just improvement."
-  }
-]
-```
+- **Panel 1:** Postmortem doc on screen. Dialogue: Title: Checkout Incident — Action Items
+- **Panel 2:** Mitigation recap. Dialogue: Nam: "We mitigated the issue by rolling back within 25 minutes."
+- **Panel 3:** Prevention. Dialogue: Nam: "To prevent this from happening again, we'll add a cache integration test."
+- **Panel 4:** Action list. Dialogue: Nam: "Action items going forward: update runbook, fix env check, schedule game day."
+- **Panel 5:** Owner assignments. Dialogue: Aoi: "I'll own the runbook update by Friday."
+- **Panel 6:** Team alignment. Dialogue: Kenji: "Clear actions — no blame, just improvement."
+- **Panel 7:** Hook. Dialogue: Next: Postmortem Finale
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Title: "Checkout Incident — Action Items"
-Panel 2: Story beat. Speech: Nam: "We mitigated the issue by rolling back within 25 minutes."
-Panel 3: Story beat. Speech: Nam: "To prevent this from happening again, we'll add a cache integration test."
-Panel 4: Story beat. Speech: Nam: "Action items going forward: update runbook, fix env check, schedule game day."
-Panel 5: Story beat. Speech: Aoi: "I'll own the runbook update by Friday."
-Panel 6: Story beat. Speech: Kenji: "Clear actions — no blame, just improvement."
+Panel 1: Postmortem doc on screen.. Speech: Title: Checkout Incident — Action Items
+Panel 2: Mitigation recap.. Speech: Nam: "We mitigated the issue by rolling back within 25 minutes."
+Panel 3: Prevention.. Speech: Nam: "To prevent this from happening again, we'll add a cache integration test."
+Panel 4: Action list.. Speech: Nam: "Action items going forward: update runbook, fix env check, schedule game day."
+Panel 5: Owner assignments.. Speech: Aoi: "I'll own the runbook update by Friday."
+Panel 6: Team alignment.. Speech: Kenji: "Clear actions — no blame, just improvement."
+Panel 7: Hook.. Speech: Next: Postmortem Finale
 
 ENGLISH FOCUS box must list:
 - "Action items going forward..." = Các việc cần làm tiếp theo...

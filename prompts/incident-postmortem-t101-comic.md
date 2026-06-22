@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: PM: "What's the customer impact?"
-- **Panel 2:** Scene. Dialogue: Nam: "What we know so far is 12% of checkouts are failing."
-- **Panel 3:** Scene. Dialogue: Nam: "The impact was that EU users couldn't complete purchases."
-- **Panel 4:** Scene. Dialogue: Nam: "The timeline of events was: deploy at 8pm, errors at 8:45pm."
-- **Panel 5:** Scene. Dialogue: Kenji: "We rolled back at 9:10pm — errors dropping now."
-- **Panel 6:** Scene. Dialogue: PM: "Clear update — thanks for the timeline."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "PM",
-    "text": "What's the customer impact?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "What we know so far is 12% of checkouts are failing."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "The impact was that EU users couldn't complete purchases."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "The timeline of events was: deploy at 8pm, errors at 8:45pm."
-  },
-  {
-    "panel": 5,
-    "speaker": "Kenji",
-    "text": "We rolled back at 9:10pm — errors dropping now."
-  },
-  {
-    "panel": 6,
-    "speaker": "PM",
-    "text": "Clear update — thanks for the timeline."
-  }
-]
-```
+- **Panel 1:** Stakeholder joins call. Dialogue: PM: "What's the customer impact?"
+- **Panel 2:** Nam status update. Dialogue: Nam: "What we know so far is 12% of checkouts are failing."
+- **Panel 3:** Impact statement. Dialogue: Nam: "The impact was that EU users couldn't complete purchases."
+- **Panel 4:** Timeline. Dialogue: Nam: "The timeline of events was: deploy at 8pm, errors at 8:45pm."
+- **Panel 5:** Mitigation. Dialogue: Kenji: "We rolled back at 9:10pm — errors dropping now."
+- **Panel 6:** PM relieved. Dialogue: PM: "Clear update — thanks for the timeline."
+- **Panel 7:** Hook. Dialogue: Next: Root Cause Analysis
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: PM: "What's the customer impact?"
-Panel 2: Story beat. Speech: Nam: "What we know so far is 12% of checkouts are failing."
-Panel 3: Story beat. Speech: Nam: "The impact was that EU users couldn't complete purchases."
-Panel 4: Story beat. Speech: Nam: "The timeline of events was: deploy at 8pm, errors at 8:45pm."
-Panel 5: Story beat. Speech: Kenji: "We rolled back at 9:10pm — errors dropping now."
-Panel 6: Story beat. Speech: PM: "Clear update — thanks for the timeline."
+Panel 1: Stakeholder joins call.. Speech: PM: "What's the customer impact?"
+Panel 2: Nam status update.. Speech: Nam: "What we know so far is 12% of checkouts are failing."
+Panel 3: Impact statement.. Speech: Nam: "The impact was that EU users couldn't complete purchases."
+Panel 4: Timeline.. Speech: Nam: "The timeline of events was: deploy at 8pm, errors at 8:45pm."
+Panel 5: Mitigation.. Speech: Kenji: "We rolled back at 9:10pm — errors dropping now."
+Panel 6: PM relieved.. Speech: PM: "Clear update — thanks for the timeline."
+Panel 7: Hook.. Speech: Next: Root Cause Analysis
 
 ENGLISH FOCUS box must list:
 - "What we know so far is..." = Những gì chúng ta biết đến giờ là...

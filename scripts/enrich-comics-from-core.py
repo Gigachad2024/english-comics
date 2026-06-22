@@ -3,9 +3,59 @@
 
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from phrasal_verbs_expansion import PHRASAL_FOCUS, PHRASAL_SERIES  # noqa: E402
+
+# Arc prefix -> primary phrasal pack
+_PHRASAL_ARC_PACKS = {
+    "silicon-valley-look": "look_phrasal_bigtech",
+    "wall-street-look": "look_phrasal_wallstreet",
+    "english-everyday-look": "look_phrasal_everyday",
+    "silicon-valley-take": "take_phrasal_bigtech",
+    "wall-street-take": "take_phrasal_wallstreet",
+    "english-everyday-take": "take_phrasal_everyday",
+    "silicon-valley-put": "put_phrasal_bigtech",
+    "wall-street-put": "put_phrasal_wallstreet",
+    "english-everyday-put": "put_phrasal_everyday",
+    "silicon-valley-come": "come_phrasal_bigtech",
+    "wall-street-come": "come_phrasal_wallstreet",
+    "english-everyday-come": "come_phrasal_everyday",
+    "silicon-valley-go": "go_phrasal_bigtech",
+    "wall-street-go": "go_phrasal_wallstreet",
+    "english-everyday-go": "go_phrasal_everyday",
+    "customer-support": "customer_support",
+    "health-clinic": "health_clinic",
+    "side-project": "side_project",
+    "remote-async": "remote_async",
+    "phrasal-review": "phrasal_review",
+}
+
+_PHRASAL_SLUG_CONTEXTS = {
+    slug: (
+        ["software-engineering", "startup", "work-meeting"]
+        if sid.startswith("silicon-valley")
+        else ["finance", "work-meeting", "NYC"]
+        if sid.startswith("wall-street")
+        else ["learning", "daily-life", "meetup"]
+        if sid.startswith("english-everyday")
+        else ["customer-support", "work-meeting"]
+        if sid == "customer-support"
+        else ["health", "clinic", "daily-life"]
+        if sid == "health-clinic"
+        else ["side-project", "startup", "launch"]
+        if sid == "side-project"
+        else ["remote work", "async", "work-meeting"]
+        if sid == "remote-async"
+        else ["learning", "review", "phrasal-verbs"]
+    )
+    for s in PHRASAL_SERIES
+    for _, slug, _ in s["episodes"]
+    for sid in [s["id"]]
+}
 
 # Arc -> default pack IDs
 ARC_PACKS = {
@@ -37,6 +87,7 @@ ARC_PACKS = {
     "silicon-valley-get": ["get_phrasal_startup", "email_async", "universal_communication_v2"],
     "switzerland-travel": ["get_phrasal_travel", "decision_hesitation", "universal_communication_v2"],
     "english-everyday-get": ["get_phrasal_everyday", "universal_communication_v2", "get_phrasal_startup"],
+    **{k: [v, "universal_communication_v2"] for k, v in _PHRASAL_ARC_PACKS.items()},
 }
 
 # Slug -> contexts tags
@@ -78,6 +129,7 @@ SLUG_CONTEXTS = {
     "first-english-meetup": ["learning", "daily-life", "meetup"],
     "when-you-finally-get-it": ["learning", "daily-life", "study"],
     "everyday-get-finale": ["learning", "software-engineering", "mentoring"],
+    **_PHRASAL_SLUG_CONTEXTS,
 }
 
 COMMON_MISTAKES = [
@@ -182,6 +234,26 @@ def match_packs(ep, series_id: str, all_patterns: list[str]) -> list[str]:
         ("get_phrasal_startup", ["get looped in", "get pinged", "get up to speed", "get buy-in", "get aligned", "get the ball rolling", "get blocked", "get unblocked", "get shipped", "get sign-off", "get pulled into", "get promoted", "get acquired", "get face time"]),
         ("get_phrasal_travel", ["get to", "get checked in", "get your bearings", "get a ticket", "get on", "get off", "get a view of", "get snowed in", "get held up", "get lost", "get around", "get swept up in", "get a ride", "get altitude sickness", "get change"]),
         ("get_phrasal_everyday", ["get used to", "get it", "get by", "get ready", "get through", "get onboarded"]),
+        ("look_phrasal_bigtech", ["look into", "look up", "look out for", "look through", "look over", "look forward to", "look back on"]),
+        ("look_phrasal_wallstreet", ["look at", "look into", "look forward to", "look through", "look up to"]),
+        ("look_phrasal_everyday", ["look for", "look after", "look around", "look through", "look back on"]),
+        ("take_phrasal_bigtech", ["take over", "take on", "take apart", "take off", "take ownership", "take the heat"]),
+        ("take_phrasal_wallstreet", ["take a position", "take heat", "take over", "take the meeting offline"]),
+        ("take_phrasal_everyday", ["take out", "take your time", "take turns", "take part in"]),
+        ("put_phrasal_bigtech", ["put off", "put together", "put up with", "put forward", "put aside", "put out"]),
+        ("put_phrasal_wallstreet", ["put down", "put up", "put away", "put in an offer"]),
+        ("put_phrasal_everyday", ["put together", "put off", "put your work out there"]),
+        ("come_phrasal_bigtech", ["come across", "come up with", "come through", "come down to", "come up"]),
+        ("come_phrasal_wallstreet", ["come over", "come across as", "come in handy", "come to terms with", "come by"]),
+        ("come_phrasal_everyday", ["come back to", "come full circle", "come to think of it"]),
+        ("go_phrasal_bigtech", ["go over", "go through", "go ahead", "go down", "go with", "go live"]),
+        ("go_phrasal_wallstreet", ["go along with", "go out of your way", "go back", "go for it"]),
+        ("go_phrasal_everyday", ["go over", "go through", "go back"]),
+        ("customer_support", ["look into", "follow up", "escalate", "hand off", "get back to"]),
+        ("health_clinic", ["make an appointment", "come in", "look into", "take care of", "fill out"]),
+        ("side_project", ["put together", "put off", "go live", "come up with"]),
+        ("remote_async", ["follow up", "get back to", "go over", "circle back"]),
+        ("phrasal_review", ["look back on", "come full circle", "go through"]),
     ]
     for pack_id, keys in rules:
         if any(k in blob for k in keys):

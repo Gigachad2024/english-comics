@@ -4,10 +4,13 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "prompts"
+sys.path.insert(0, str(ROOT / "scripts"))
+from phrasal_verbs_expansion import PHRASAL_EPISODES  # noqa: E402
 
 
 def load_focus_dict() -> dict:
@@ -1491,6 +1494,7 @@ EPISODES = [
             ("Finale.", "Nam: \"Everyday English isn't perfect — but you get by, get better, and get heard.\""),
         ],
     },
+    *PHRASAL_EPISODES,
 ]
 
 

@@ -73,16 +73,12 @@ def parse_prompt_md(path: Path) -> list[dict[str, Any]]:
 
 
 def load_generate_comic_prompts() -> dict[str, list[dict]]:
-    """Parse EPISODES from generate-comic-prompts.py via AST."""
+    """Load EPISODES from generate-comic-prompts.py (supports dynamic imports)."""
     path = ROOT / "scripts" / "generate-comic-prompts.py"
-    src = path.read_text(encoding="utf-8")
-    mod = ast.parse(src)
-    episodes = None
-    for node in mod.body:
-        if isinstance(node, ast.Assign):
-            for t in node.targets:
-                if isinstance(t, ast.Name) and t.id == "EPISODES":
-                    episodes = ast.literal_eval(node.value)
+    spec = importlib.util.spec_from_file_location("generate_comic_prompts", path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    episodes = getattr(mod, "EPISODES", None)
     if not episodes:
         return {}
     out: dict[str, list[dict]] = {}

@@ -1,387 +1,4479 @@
 {
   "overrides": {
     "bug-arc-1/3": [
-      {"panel": 1, "speaker": "Nam", "text": "These dashboards are way too slow..."},
-      {"panel": 2, "speaker": "Nam", "text": "I can't decide between Redis and the database only."},
-      {"panel": 3, "speaker": "Aoi", "text": "Let's narrow down the issue first."},
-      {"panel": 4, "speaker": "Kenji", "text": "We need to weigh up speed, cost, and complexity."},
-      {"panel": 5, "speaker": "Nam", "text": "Redis makes more sense to me for this case."},
-      {"panel": 6, "speaker": "Nam", "text": "Rollback... or hotfix? This could get tricky!"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "These dashboards are way too slow..."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I can't decide between Redis and the database only."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "Let's narrow down the issue first."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "We need to weigh up speed, cost, and complexity."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Redis makes more sense to me for this case."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Rollback... or hotfix? This could get tricky!"
+      }
     ],
     "bug-arc-1/5": [
-      {"panel": 1, "speaker": "Nam", "text": "Morning commute in Tokyo."},
-      {"panel": 2, "speaker": "Nam", "text": "I'm debating whether to learn Go or improve my frontend skills."},
-      {"panel": 3, "speaker": "Nam", "text": "I'm more interested in backend systems these days."},
-      {"panel": 4, "speaker": "Nam", "text": "I prefer backend to frontend right now."},
-      {"panel": 5, "speaker": "Nam", "text": "I'm into building APIs. I think I'll go with Go."},
-      {"panel": 6, "speaker": "Nam", "text": "But I still need to think it over tonight."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Morning commute in Tokyo."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm debating whether to learn Go or improve my frontend skills."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'm more interested in backend systems these days."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I prefer backend to frontend right now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'm into building APIs. I think I'll go with Go."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "But I still need to think it over tonight."
+      }
     ],
     "bug-arc-1/6": [
-      {"panel": 1, "speaker": "Nam", "text": "Late-night thoughts at a Tokyo café."},
-      {"panel": 2, "speaker": "Nam", "text": "I have no idea how to plan my learning roadmap."},
-      {"panel": 3, "speaker": "Nam", "text": "I'm wondering whether to study tonight or sleep."},
-      {"panel": 4, "speaker": "Nam", "text": "Maybe I should think it over first."},
-      {"panel": 5, "speaker": "Nam", "text": "This is a big decision. I'll sleep on it."},
-      {"panel": 6, "speaker": "Nam", "text": "A clear mind after a good sleep."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Late-night thoughts at a Tokyo café."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I have no idea how to plan my learning roadmap."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'm wondering whether to study tonight or sleep."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Maybe I should think it over first."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "This is a big decision. I'll sleep on it."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "A clear mind after a good sleep."
+      }
     ],
     "bug-arc-1/7": [
-      {"panel": 1, "speaker": "Nam", "text": "Good morning, everyone!"},
-      {"panel": 2, "speaker": "Nam", "text": "After thinking it over, I settled on Go."},
-      {"panel": 3, "speaker": "Linh", "text": "What's making you choose that?"},
-      {"panel": 4, "speaker": "Nam", "text": "Backend makes more sense to me right now."},
-      {"panel": 5, "speaker": "Kenji", "text": "I'd rather study a little every day than rush."},
-      {"panel": 6, "speaker": "Nam", "text": "Hmm... what should I order?"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Good morning, everyone!"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "After thinking it over, I settled on Go."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "What's making you choose that?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Backend makes more sense to me right now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "I'd rather study a little every day than rush."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Hmm... what should I order?"
+      }
     ],
     "bug-arc-1/8": [
-      {"panel": 1, "speaker": "Friend", "text": "Nighttime team dinner at a lively Tokyo izakaya."},
-      {"panel": 2, "speaker": "Nam", "text": "I can't decide what to order."},
-      {"panel": 3, "speaker": "Nam", "text": "I prefer sushi to ramen tonight."},
-      {"panel": 4, "speaker": "Nam", "text": "I'll pass on that. I'm not really into spicy food."},
-      {"panel": 5, "speaker": "Nam", "text": "I think I'll go with matcha ice cream."},
-      {"panel": 6, "speaker": "Kenji", "text": "By the way, team — how about our next trip? Tokyo or Osaka?"}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "Nighttime team dinner at a lively Tokyo izakaya."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I can't decide what to order."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I prefer sushi to ramen tonight."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'll pass on that. I'm not really into spicy food."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I think I'll go with matcha ice cream."
+      },
+      {
+        "panel": 6,
+        "speaker": "Kenji",
+        "text": "By the way, team — how about our next trip? Tokyo or Osaka?"
+      }
     ],
     "bug-arc-2/6": [
-      {"panel": 1, "speaker": "Linh", "text": "A new QA discovery just came in."},
-      {"panel": 2, "speaker": "Kenji", "text": "The release plan might fall through if this bug stays open."},
-      {"panel": 3, "speaker": "Nam", "text": "I have a different take."},
-      {"panel": 4, "speaker": "Kenji", "text": "I see your point, but we need more testing."},
-      {"panel": 5, "speaker": "Linh", "text": "The bug affects mobile checkout only."},
-      {"panel": 6, "speaker": "Nam", "text": "We can isolate the impact, ship a scoped fix, and protect the release."}
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "A new QA discovery just came in."
+      },
+      {
+        "panel": 2,
+        "speaker": "Kenji",
+        "text": "The release plan might fall through if this bug stays open."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I have a different take."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "I see your point, but we need more testing."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "The bug affects mobile checkout only."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "We can isolate the impact, ship a scoped fix, and protect the release."
+      }
     ],
     "bug-arc-2/7": [
-      {"panel": 1, "speaker": "Nam", "text": "The issue is that cached data stays stale after payment."},
-      {"panel": 2, "speaker": "Nam", "text": "I agree with that."},
-      {"panel": 3, "speaker": "Nam", "text": "Then let's follow through."},
-      {"panel": 4, "speaker": "Aoi", "text": "Step one is in."},
-      {"panel": 5, "speaker": "Linh", "text": "Tests are green."},
-      {"panel": 6, "speaker": "Kenji", "text": "Great work, everyone."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "The issue is that cached data stays stale after payment."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I agree with that."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Then let's follow through."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Step one is in."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "Tests are green."
+      },
+      {
+        "panel": 6,
+        "speaker": "Kenji",
+        "text": "Great work, everyone."
+      }
     ],
     "bug-arc-2/9": [
-      {"panel": 1, "speaker": "Kenji", "text": "The final decision before release."},
-      {"panel": 2, "speaker": "Nam", "text": "We need to think through the risks."},
-      {"panel": 3, "speaker": "Kenji", "text": "I see your point, but I have a different take."},
-      {"panel": 4, "speaker": "Nam", "text": "I think we should release only after QA signs off."},
-      {"panel": 5, "speaker": "Kenji", "text": "Agreed. Let's wait for QA sign-off."},
-      {"panel": 6, "speaker": "Nam", "text": "Decision locked. Quality first, release next."}
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "The final decision before release."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We need to think through the risks."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "I see your point, but I have a different take."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I think we should release only after QA signs off."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Agreed. Let's wait for QA sign-off."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Decision locked. Quality first, release next."
+      }
     ],
     "bug-arc-2/10": [
-      {"panel": 1, "speaker": "Linh", "text": "Test progress is at 100% — we're ready."},
-      {"panel": 2, "speaker": "Nam", "text": "We ran through the final demo flow."},
-      {"panel": 3, "speaker": "Kenji", "text": "The API is returning normal data now."},
-      {"panel": 4, "speaker": "Nam", "text": "Let's follow through with the safer release."},
-      {"panel": 5, "speaker": "Kenji", "text": "QA sign-off complete — release approved! Great work, team!"},
-      {"panel": 6, "speaker": "Nam", "text": "Safer today, stronger tomorrow."}
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "Test progress is at 100% — we're ready."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We ran through the final demo flow."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "The API is returning normal data now."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Let's follow through with the safer release."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "QA sign-off complete — release approved! Great work, team!"
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Safer today, stronger tomorrow."
+      }
     ],
     "bug-arc-3/5": [
-      {"panel": 1, "speaker": "Linh", "text": "We need to get through the QA checklist."},
-      {"panel": 2, "speaker": "Nam", "text": "I see your point, but we still have a blocker on mobile."},
-      {"panel": 3, "speaker": "Kenji", "text": "I'm not sure I agree."},
-      {"panel": 4, "speaker": "Linh", "text": "I think we should retest before release."},
-      {"panel": 5, "speaker": "Linh", "text": "The bug affects payment confirmation."},
-      {"panel": 6, "speaker": "Nam", "text": "Quality first."}
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "We need to get through the QA checklist."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I see your point, but we still have a blocker on mobile."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "I'm not sure I agree."
+      },
+      {
+        "panel": 4,
+        "speaker": "Linh",
+        "text": "I think we should retest before release."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "The bug affects payment confirmation."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Quality first."
+      }
     ],
     "bug-arc-3/6": [
-      {"panel": 1, "speaker": "Nam", "text": "A rollback makes more sense to me."},
-      {"panel": 2, "speaker": "Nam", "text": "I think I'll go with a rollback."},
-      {"panel": 3, "speaker": "Linh", "text": "Let's stick with the safer approach."},
-      {"panel": 4, "speaker": "Kenji", "text": "We can rule out a full refactor for now."},
-      {"panel": 5, "speaker": "Nam", "text": "I agree with that."},
-      {"panel": 6, "speaker": "Nam", "text": "Let's do this the smart way. Ship safe. Improve fast."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "A rollback makes more sense to me."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I think I'll go with a rollback."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Let's stick with the safer approach."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "We can rule out a full refactor for now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I agree with that."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Let's do this the smart way. Ship safe. Improve fast."
+      }
     ],
     "bug-arc-3/7": [
-      {"panel": 1, "speaker": "Nam", "text": "Let's run through the demo flow."},
-      {"panel": 2, "speaker": "Nam", "text": "We should go through the logs one more time."},
-      {"panel": 3, "speaker": "Kenji", "text": "I prefer stability to speed."},
-      {"panel": 4, "speaker": "Linh", "text": "We need to think it over carefully."},
-      {"panel": 5, "speaker": "Nam", "text": "I'm more interested in a safe release than a fast release."},
-      {"panel": 6, "speaker": "Linh", "text": "Tests are green."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Let's run through the demo flow."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We should go through the logs one more time."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "I prefer stability to speed."
+      },
+      {
+        "panel": 4,
+        "speaker": "Linh",
+        "text": "We need to think it over carefully."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'm more interested in a safe release than a fast release."
+      },
+      {
+        "panel": 6,
+        "speaker": "Linh",
+        "text": "Tests are green."
+      }
     ],
     "bug-arc-3/8": [
-      {"panel": 1, "speaker": "Nam", "text": "The release plan might fall through."},
-      {"panel": 2, "speaker": "Linh", "text": "We need to think through the risks."},
-      {"panel": 3, "speaker": "Aoi", "text": "If we decide to rollback, we need to follow through."},
-      {"panel": 4, "speaker": "Kenji", "text": "I see your point, but I have a different take."},
-      {"panel": 5, "speaker": "Linh", "text": "It comes down to risk and timeline."},
-      {"panel": 6, "speaker": "Nam", "text": "We need a clear decision before the release window closes."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "The release plan might fall through."
+      },
+      {
+        "panel": 2,
+        "speaker": "Linh",
+        "text": "We need to think through the risks."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "If we decide to rollback, we need to follow through."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "I see your point, but I have a different take."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "It comes down to risk and timeline."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "We need a clear decision before the release window closes."
+      }
     ],
     "bug-arc-3/9": [
-      {"panel": 1, "speaker": "Nam", "text": "The issue is that the payment API failed on mobile."},
-      {"panel": 2, "speaker": "Nam", "text": "It seems like stale cache caused incorrect data."},
-      {"panel": 3, "speaker": "Nam", "text": "This service acts as a bridge between the frontend and the payment system."},
-      {"panel": 4, "speaker": "Nam", "text": "The frontend relies on this API."},
-      {"panel": 5, "speaker": "Nam", "text": "We got through the QA checklist and ran through the demo flow."},
-      {"panel": 6, "speaker": "Nam", "text": "Let's follow through with the safer release."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "The issue is that the payment API failed on mobile."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "It seems like stale cache caused incorrect data."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "This service acts as a bridge between the frontend and the payment system."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "The frontend relies on this API."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We got through the QA checklist and ran through the demo flow."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Let's follow through with the safer release."
+      }
     ],
     "career-growth/43": [
-      {"panel": 1, "speaker": "Nam", "text": "I see your point, but I'm not sure I agree."},
-      {"panel": 2, "speaker": "Kenji", "text": "Let's ship a quick frontend patch to hide the error state."},
-      {"panel": 3, "speaker": "Nam", "text": "I have a different take."},
-      {"panel": 4, "speaker": "Nam", "text": "The frontend relies on this API to load user data."},
-      {"panel": 5, "speaker": "Nam", "text": "We need to think through the risks."},
-      {"panel": 6, "speaker": "Aoi", "text": "Let's investigate the API error first."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I see your point, but I'm not sure I agree."
+      },
+      {
+        "panel": 2,
+        "speaker": "Kenji",
+        "text": "Let's ship a quick frontend patch to hide the error state."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I have a different take."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "The frontend relies on this API to load user data."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We need to think through the risks."
+      },
+      {
+        "panel": 6,
+        "speaker": "Aoi",
+        "text": "Let's investigate the API error first."
+      }
     ],
     "career-growth/49": [
-      {"panel": 1, "speaker": "Kenji", "text": "We need to decide what to focus on this sprint."},
-      {"panel": 2, "speaker": "Nam", "text": "I'm debating whether to support the new feature now or improve stability first."},
-      {"panel": 3, "speaker": "Nam", "text": "I see your point, but I have a different take."},
-      {"panel": 4, "speaker": "Nam", "text": "We need to weigh up speed, safety, and maintainability."},
-      {"panel": 5, "speaker": "Nam", "text": "I'd opt for improving stability first."},
-      {"panel": 6, "speaker": "Nam", "text": "It comes down to user trust."}
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "We need to decide what to focus on this sprint."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm debating whether to support the new feature now or improve stability first."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I see your point, but I have a different take."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "We need to weigh up speed, safety, and maintainability."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'd opt for improving stability first."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "It comes down to user trust."
+      }
     ],
     "living/29": [
-      {"panel": 1, "speaker": "Nam", "text": "I'm running late."},
-      {"panel": 2, "speaker": "Nam", "text": "I have no idea which exit to take."},
-      {"panel": 3, "speaker": "Nam", "text": "Can you show me how to get to the west exit?"},
-      {"panel": 4, "speaker": "Staff", "text": "Could you say that again?"},
-      {"panel": 5, "speaker": "Nam", "text": "I'll be there in 10 minutes."},
-      {"panel": 6, "speaker": "Nam", "text": "Found it — west exit!"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'm running late."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I have no idea which exit to take."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Can you show me how to get to the west exit?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Staff",
+        "text": "Could you say that again?"
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll be there in 10 minutes."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Found it — west exit!"
+      }
     ],
     "living/30": [
-      {"panel": 1, "speaker": "Agent", "text": "Welcome! Here are the rental application forms."},
-      {"panel": 2, "speaker": "Nam", "text": "I need to fill out this form."},
-      {"panel": 3, "speaker": "Nam", "text": "Do you have an English version of this form?"},
-      {"panel": 4, "speaker": "Nam", "text": "I'm not sure what to write here."},
-      {"panel": 5, "speaker": "Nam", "text": "Just to clarify, do you mean my current address or my new address?"},
-      {"panel": 6, "speaker": "Nam", "text": "I'll check with Aoi and get back to you."}
+      {
+        "panel": 1,
+        "speaker": "Agent",
+        "text": "Welcome! Here are the rental application forms."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I need to fill out this form."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Do you have an English version of this form?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'm not sure what to write here."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Just to clarify, do you mean my current address or my new address?"
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "I'll check with Aoi and get back to you."
+      }
     ],
     "living/35": [
-      {"panel": 1, "speaker": "Nam", "text": "My first remote meeting from home..."},
-      {"panel": 2, "speaker": "Kenji", "text": "Can you walk me through the payment flow?"},
-      {"panel": 3, "speaker": "Linh", "text": "Let's run through the logs quickly."},
-      {"panel": 4, "speaker": "Aoi", "text": "We need to think through the risks."},
-      {"panel": 5, "speaker": "Nam", "text": "I'm not sure I agree with deploying tonight."},
-      {"panel": 6, "speaker": "Linh", "text": "That makes sense."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "My first remote meeting from home..."
+      },
+      {
+        "panel": 2,
+        "speaker": "Kenji",
+        "text": "Can you walk me through the payment flow?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Let's run through the logs quickly."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "We need to think through the risks."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'm not sure I agree with deploying tonight."
+      },
+      {
+        "panel": 6,
+        "speaker": "Linh",
+        "text": "That makes sense."
+      }
     ],
     "living/36": [
-      {"panel": 1, "speaker": "Nam", "text": "We need to follow through on this fix."},
-      {"panel": 2, "speaker": "Linh", "text": "Let's work through the bug step by step."},
-      {"panel": 3, "speaker": "Kenji", "text": "I'm worried about the deadline."},
-      {"panel": 4, "speaker": "Nam", "text": "I traced the issue. The payment gateway was timing out before sending a response."},
-      {"panel": 5, "speaker": "Linh", "text": "It was worth it."},
-      {"panel": 6, "speaker": "Nam", "text": "One problem fixed. Next up: more tests and monitoring."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "We need to follow through on this fix."
+      },
+      {
+        "panel": 2,
+        "speaker": "Linh",
+        "text": "Let's work through the bug step by step."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "I'm worried about the deadline."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I traced the issue. The payment gateway was timing out before sending a response."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "It was worth it."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "One problem fixed. Next up: more tests and monitoring."
+      }
     ],
     "living/37": [
-      {"panel": 1, "speaker": "Nam", "text": "I'm running late for my clinic appointment."},
-      {"panel": 2, "speaker": "Nam", "text": "I have an appointment at 9 AM."},
-      {"panel": 3, "speaker": "Nam", "text": "I'm not sure how to explain my symptoms."},
-      {"panel": 4, "speaker": "Staff", "text": "Could you speak a little more slowly?"},
-      {"panel": 5, "speaker": "Nam", "text": "Sure, thank you. That helps a lot."},
-      {"panel": 6, "speaker": "Nam", "text": "I'm glad that the staff helped me."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'm running late for my clinic appointment."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I have an appointment at 9 AM."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'm not sure how to explain my symptoms."
+      },
+      {
+        "panel": 4,
+        "speaker": "Staff",
+        "text": "Could you speak a little more slowly?"
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Sure, thank you. That helps a lot."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "I'm glad that the staff helped me."
+      }
     ],
     "living/38": [
-      {"panel": 1, "speaker": "Nam", "text": "I'm getting used to life in Japan."},
-      {"panel": 2, "speaker": "Nam", "text": "I didn't expect Tokyo to feel this peaceful."},
-      {"panel": 3, "speaker": "Nam", "text": "Everything is so new..."},
-      {"panel": 4, "speaker": "Nam", "text": "It feels like home now."},
-      {"panel": 5, "speaker": "Nam", "text": "This street brings back memories from our trip."},
-      {"panel": 6, "speaker": "Nam", "text": "I came across a nice little café."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'm getting used to life in Japan."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I didn't expect Tokyo to feel this peaceful."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Everything is so new..."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "It feels like home now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "This street brings back memories from our trip."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "I came across a nice little café."
+      }
     ],
     "living/39": [
-      {"panel": 1, "speaker": "Nam", "text": "Great job, team! The release was such a win!"},
-      {"panel": 2, "speaker": "Nam", "text": "I'm not really into spicy food."},
-      {"panel": 3, "speaker": "Aoi", "text": "I'm more interested in local dishes."},
-      {"panel": 4, "speaker": "Kenji", "text": "I'd rather try something simple than order too much."},
-      {"panel": 5, "speaker": "Nam", "text": "I think I'll go with this one."},
-      {"panel": 6, "speaker": "Linh", "text": "That sounds amazing."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Great job, team! The release was such a win!"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm not really into spicy food."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "I'm more interested in local dishes."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "I'd rather try something simple than order too much."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I think I'll go with this one."
+      },
+      {
+        "panel": 6,
+        "speaker": "Linh",
+        "text": "That sounds amazing."
+      }
     ],
     "traveling/12": [
-      {"panel": 1, "speaker": "Friend", "text": "The team has arrived in Japan!"},
-      {"panel": 2, "speaker": "Nam", "text": "I prefer taking the train to taking a taxi."},
-      {"panel": 3, "speaker": "Mai", "text": "Taking the train makes more sense to me."},
-      {"panel": 4, "speaker": "Tuan", "text": "I'd rather take the train than sit in traffic."},
-      {"panel": 5, "speaker": "Nam", "text": "Let's go with the train."},
-      {"panel": 6, "speaker": "Linh", "text": "Shinkansen, here we come!"}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "The team has arrived in Japan!"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I prefer taking the train to taking a taxi."
+      },
+      {
+        "panel": 3,
+        "speaker": "Mai",
+        "text": "Taking the train makes more sense to me."
+      },
+      {
+        "panel": 4,
+        "speaker": "Tuan",
+        "text": "I'd rather take the train than sit in traffic."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Let's go with the train."
+      },
+      {
+        "panel": 6,
+        "speaker": "Linh",
+        "text": "Shinkansen, here we come!"
+      }
     ],
     "traveling/13": [
-      {"panel": 1, "speaker": "Nam", "text": "I'm not sure if this hotel is a good choice."},
-      {"panel": 2, "speaker": "Nam", "text": "We can rule out this hotel because it's too far."},
-      {"panel": 3, "speaker": "Friend", "text": "I'll pass on the hotel that is too far from the city center."},
-      {"panel": 4, "speaker": "Nam", "text": "Let's narrow it down to two hotels."},
-      {"panel": 5, "speaker": "Friend", "text": "Great! Staying closer means more time to explore and less time on the train."},
-      {"panel": 6, "speaker": "Nam", "text": "Next stop: Osaka! Let's keep the same location rule."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'm not sure if this hotel is a good choice."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We can rule out this hotel because it's too far."
+      },
+      {
+        "panel": 3,
+        "speaker": "Friend",
+        "text": "I'll pass on the hotel that is too far from the city center."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Let's narrow it down to two hotels."
+      },
+      {
+        "panel": 5,
+        "speaker": "Friend",
+        "text": "Great! Staying closer means more time to explore and less time on the train."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Next stop: Osaka! Let's keep the same location rule."
+      }
     ],
     "traveling/15": [
-      {"panel": 1, "speaker": "Nam", "text": "After thinking it over, we settled on Osaka."},
-      {"panel": 2, "speaker": "Nam", "text": "Osaka makes more sense because the food scene is amazing."},
-      {"panel": 3, "speaker": "Nam", "text": "I think I'll go with Osaka."},
-      {"panel": 4, "speaker": "Aoi", "text": "Let's stick with the current itinerary."},
-      {"panel": 5, "speaker": "Nam", "text": "Osaka it is! Let's make epic memories!"},
-      {"panel": 6, "speaker": "Friend", "text": "New city, new energy, new stories."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "After thinking it over, we settled on Osaka."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Osaka makes more sense because the food scene is amazing."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I think I'll go with Osaka."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Let's stick with the current itinerary."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Osaka it is! Let's make epic memories!"
+      },
+      {
+        "panel": 6,
+        "speaker": "Friend",
+        "text": "New city, new energy, new stories."
+      }
     ],
     "traveling/17": [
-      {"panel": 1, "speaker": "Nam", "text": "We've got one more day in Osaka. What should we do?"},
-      {"panel": 2, "speaker": "Friend", "text": "I'm more interested in food tours than shopping."},
-      {"panel": 3, "speaker": "Aoi", "text": "I like local food more than shopping malls."},
-      {"panel": 4, "speaker": "Kenji", "text": "A food tour makes more sense to me."},
-      {"panel": 5, "speaker": "Kenji", "text": "I'd rather try local food than buy souvenirs."},
-      {"panel": 6, "speaker": "Nam", "text": "Let's eat, explore, and make amazing memories together!"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "We've got one more day in Osaka. What should we do?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Friend",
+        "text": "I'm more interested in food tours than shopping."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "I like local food more than shopping malls."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "A food tour makes more sense to me."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "I'd rather try local food than buy souvenirs."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Let's eat, explore, and make amazing memories together!"
+      }
     ],
     "traveling/19": [
-      {"panel": 1, "speaker": "Nam", "text": "Can you walk me through the route?"},
-      {"panel": 2, "speaker": "Aoi", "text": "Let's run through the plan one more time."},
-      {"panel": 3, "speaker": "Aoi", "text": "We need to get through the station before rush hour."},
-      {"panel": 4, "speaker": "Kenji", "text": "Plan ahead, travel smooth."},
-      {"panel": 5, "speaker": "Nam", "text": "IC card in, confidence up!"},
-      {"panel": 6, "speaker": "Kenji", "text": "Plan locked. Let's make today unforgettable!"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Can you walk me through the route?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Aoi",
+        "text": "Let's run through the plan one more time."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "We need to get through the station before rush hour."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Plan ahead, travel smooth."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "IC card in, confidence up!"
+      },
+      {
+        "panel": 6,
+        "speaker": "Kenji",
+        "text": "Plan locked. Let's make today unforgettable!"
+      }
     ],
     "traveling/20": [
-      {"panel": 1, "speaker": "Nam", "text": "I'm debating whether to go now or wait until tomorrow."},
-      {"panel": 2, "speaker": "Nam", "text": "We need to think through the timing."},
-      {"panel": 3, "speaker": "Nam", "text": "It comes down to whether we can catch the next train."},
-      {"panel": 4, "speaker": "Friend", "text": "I think Kyoto is better because the sunset looks beautiful."},
-      {"panel": 5, "speaker": "Nam", "text": "Let's go! Kyoto, here we come!"},
-      {"panel": 6, "speaker": "Nam", "text": "Kyoto awaits — tradition, beauty, memories."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'm debating whether to go now or wait until tomorrow."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We need to think through the timing."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "It comes down to whether we can catch the next train."
+      },
+      {
+        "panel": 4,
+        "speaker": "Friend",
+        "text": "I think Kyoto is better because the sunset looks beautiful."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Let's go! Kyoto, here we come!"
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Kyoto awaits — tradition, beauty, memories."
+      }
     ],
     "traveling/21": [
-      {"panel": 1, "speaker": "Friend", "text": "Should we wake up early for Mount Fuji?"},
-      {"panel": 2, "speaker": "Nam", "text": "I don't know if we should go early or sleep more."},
-      {"panel": 3, "speaker": "Friend", "text": "I'd rather wake up early than miss the view."},
-      {"panel": 4, "speaker": "Kenji", "text": "Fuji makes more sense to me because this is a rare chance."},
-      {"panel": 5, "speaker": "Nam", "text": "Team decision: Let's wake up early and go see Fuji!"},
-      {"panel": 6, "speaker": "Nam", "text": "Good night, team — alarms set for Fuji morning!"}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "Should we wake up early for Mount Fuji?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I don't know if we should go early or sleep more."
+      },
+      {
+        "panel": 3,
+        "speaker": "Friend",
+        "text": "I'd rather wake up early than miss the view."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Fuji makes more sense to me because this is a rare chance."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Team decision: Let's wake up early and go see Fuji!"
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Good night, team — alarms set for Fuji morning!"
+      }
     ],
     "traveling/22": [
-      {"panel": 1, "speaker": "Friend", "text": "We're up early and on track! Mount Fuji, here we come!"},
-      {"panel": 2, "speaker": "Friend", "text": "Let's stick with the current plan."},
-      {"panel": 3, "speaker": "Kenji", "text": "We can rule out the late train."},
-      {"panel": 4, "speaker": "Nam", "text": "I'll opt for the early train."},
-      {"panel": 5, "speaker": "Kenji", "text": "We need to follow through on the plan."},
-      {"panel": 6, "speaker": "Nam", "text": "Mount Fuji is waiting — let's keep our backup plans ready."}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "We're up early and on track! Mount Fuji, here we come!"
+      },
+      {
+        "panel": 2,
+        "speaker": "Friend",
+        "text": "Let's stick with the current plan."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "We can rule out the late train."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'll opt for the early train."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "We need to follow through on the plan."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Mount Fuji is waiting — let's keep our backup plans ready."
+      }
     ],
     "traveling/23": [
-      {"panel": 1, "speaker": "Friend", "text": "The plan might fall through because of the rain."},
-      {"panel": 2, "speaker": "Nam", "text": "I'm not sure I agree with canceling right away."},
-      {"panel": 3, "speaker": "Nam", "text": "Let's work through our backup options."},
-      {"panel": 4, "speaker": "Friend", "text": "Flexibility makes the journey better."},
-      {"panel": 5, "speaker": "Friend", "text": "Let's wait a bit, enjoy the café, and recheck the weather!"},
-      {"panel": 6, "speaker": "Friend", "text": "Look! The sky might clear up later!"}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "The plan might fall through because of the rain."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm not sure I agree with canceling right away."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Let's work through our backup options."
+      },
+      {
+        "panel": 4,
+        "speaker": "Friend",
+        "text": "Flexibility makes the journey better."
+      },
+      {
+        "panel": 5,
+        "speaker": "Friend",
+        "text": "Let's wait a bit, enjoy the café, and recheck the weather!"
+      },
+      {
+        "panel": 6,
+        "speaker": "Friend",
+        "text": "Look! The sky might clear up later!"
+      }
     ],
     "traveling/24": [
-      {"panel": 1, "speaker": "Nam", "text": "Look...!"},
-      {"panel": 2, "speaker": "Friend", "text": "It's beautiful!"},
-      {"panel": 3, "speaker": "Nam", "text": "I'm glad we didn't give up."},
-      {"panel": 4, "speaker": "Nam", "text": "It came down to patience and timing."},
-      {"panel": 5, "speaker": "Nam", "text": "I think this trip made me more confident."},
-      {"panel": 6, "speaker": "Nam", "text": "Let's head back to Tokyo with full hearts!"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Look...!"
+      },
+      {
+        "panel": 2,
+        "speaker": "Friend",
+        "text": "It's beautiful!"
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'm glad we didn't give up."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "It came down to patience and timing."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I think this trip made me more confident."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Let's head back to Tokyo with full hearts!"
+      }
     ],
     "traveling/25": [
-      {"panel": 1, "speaker": "Nam", "text": "We're back in Tokyo. What a journey."},
-      {"panel": 2, "speaker": "Nam", "text": "At first, I didn't know what to say."},
-      {"panel": 3, "speaker": "Nam", "text": "I can say what I prefer, what I'm unsure about, and what makes sense to me."},
-      {"panel": 4, "speaker": "Nam", "text": "I think I'll keep practicing."},
-      {"panel": 5, "speaker": "Nam", "text": "We didn't just visit Japan — we grew together."},
-      {"panel": 6, "speaker": "Nam", "text": "Thank you, Tokyo! Thank you, team!"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "We're back in Tokyo. What a journey."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "At first, I didn't know what to say."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I can say what I prefer, what I'm unsure about, and what makes sense to me."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I think I'll keep practicing."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We didn't just visit Japan — we grew together."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Thank you, Tokyo! Thank you, team!"
+      }
     ],
     "silicon-valley-get/105": [
-      {"panel": 1, "speaker": "PM", "text": "Welcome! I'll get you looped in on the launch channel."},
-      {"panel": 2, "speaker": "Nam", "text": "Sorry — I keep getting pinged on every thread."},
-      {"panel": 3, "speaker": "Buddy", "text": "Don't worry. We'll get you up to speed by standup tomorrow."},
-      {"panel": 4, "speaker": "Nam", "text": "There are twelve stakeholders I wasn't looped in on yet."},
-      {"panel": 5, "speaker": "Nam", "text": "I'm getting up to speed — but I still get pinged after hours."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: We Need Buy-In"}
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "Welcome! I'll get you looped in on the launch channel."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Sorry — I keep getting pinged on every thread."
+      },
+      {
+        "panel": 3,
+        "speaker": "Buddy",
+        "text": "Don't worry. We'll get you up to speed by standup tomorrow."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "There are twelve stakeholders I wasn't looped in on yet."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'm getting up to speed — but I still get pinged after hours."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: We Need Buy-In"
+      }
     ],
     "silicon-valley-get/106": [
-      {"panel": 1, "speaker": "PM", "text": "We can't ship without buy-in from design and legal."},
-      {"panel": 2, "speaker": "Designer", "text": "We're not aligned on the user flow yet."},
-      {"panel": 3, "speaker": "Kenji", "text": "Let's get aligned on one MVP before we debate polish."},
-      {"panel": 4, "speaker": "Nam", "text": "If we get buy-in on this scope, we can get the ball rolling Monday."},
-      {"panel": 5, "speaker": "Legal", "text": "I'm in."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: Blocked on Dependencies"}
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We can't ship without buy-in from design and legal."
+      },
+      {
+        "panel": 2,
+        "speaker": "Designer",
+        "text": "We're not aligned on the user flow yet."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Let's get aligned on one MVP before we debate polish."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "If we get buy-in on this scope, we can get the ball rolling Monday."
+      },
+      {
+        "panel": 5,
+        "speaker": "Legal",
+        "text": "I'm in."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: Blocked on Dependencies"
+      }
     ],
     "silicon-valley-get/107": [
-      {"panel": 1, "speaker": "Nam", "text": "I'm blocked on the payments API — third day."},
-      {"panel": 2, "speaker": "Nam", "text": "Every time I ask, I get blocked on a different dependency."},
-      {"panel": 3, "speaker": "Kenji", "text": "Nam needs to get unblocked today — demo is Friday."},
-      {"panel": 4, "speaker": "Platform", "text": "You should be unblocked now — try the staging key."},
-      {"panel": 5, "speaker": "Nam", "text": "Once I'm unblocked, I can get through code review tonight."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: Ship It Friday"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'm blocked on the payments API — third day."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Every time I ask, I get blocked on a different dependency."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Nam needs to get unblocked today — demo is Friday."
+      },
+      {
+        "panel": 4,
+        "speaker": "Platform",
+        "text": "You should be unblocked now — try the staging key."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Once I'm unblocked, I can get through code review tonight."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: Ship It Friday"
+      }
     ],
     "silicon-valley-get/108": [
-      {"panel": 1, "speaker": "PM", "text": "We need sign-off from QA and product before we get shipped."},
-      {"panel": 2, "speaker": "Linh", "text": "Staging looks good — I'll get sign-off from QA in ten minutes."},
-      {"panel": 3, "speaker": "Nam", "text": "Are we ready? I want everything to get ready before we merge."},
-      {"panel": 4, "speaker": "Kenji", "text": "Feature got shipped — nice work."},
-      {"panel": 5, "speaker": "Hook", "text": "Next: Pulled Into the War Room"}
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We need sign-off from QA and product before we get shipped."
+      },
+      {
+        "panel": 2,
+        "speaker": "Linh",
+        "text": "Staging looks good — I'll get sign-off from QA in ten minutes."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Are we ready? I want everything to get ready before we merge."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Feature got shipped — nice work."
+      },
+      {
+        "panel": 5,
+        "speaker": "Hook",
+        "text": "Next: Pulled Into the War Room"
+      }
     ],
     "silicon-valley-get/109": [
-      {"panel": 1, "speaker": "On-call", "text": "Sorry — you're getting pulled into the checkout war room."},
-      {"panel": 2, "speaker": "Nam", "text": "I'm stuck — the error only happens in prod, not staging."},
-      {"panel": 3, "speaker": "Kenji", "text": "Don't spin — tell PM you'll get back to them in thirty minutes."},
-      {"panel": 4, "speaker": "Nam", "text": "I'll get back to the team once rollback is confirmed."},
-      {"panel": 5, "speaker": "Nam", "text": "Got pulled into my first war room — and we got through it."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: The Acquisition News"}
+      {
+        "panel": 1,
+        "speaker": "On-call",
+        "text": "Sorry — you're getting pulled into the checkout war room."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm stuck — the error only happens in prod, not staging."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Don't spin — tell PM you'll get back to them in thirty minutes."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'll get back to the team once rollback is confirmed."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Got pulled into my first war room — and we got through it."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: The Acquisition News"
+      }
     ],
     "silicon-valley-get/110": [
-      {"panel": 1, "speaker": "CEO", "text": "Big news — we're getting acquired by a global platform."},
-      {"panel": 2, "speaker": "Nam", "text": "Does this mean layoffs… or opportunities?"},
-      {"panel": 3, "speaker": "VP", "text": "I wanted face time with you before the reorg."},
-      {"panel": 4, "speaker": "VP", "text": "You're getting promoted to senior — they noticed your ship work."},
-      {"panel": 5, "speaker": "Kenji", "text": "When a startup gets acquired, culture changes — stay flexible."},
-      {"panel": 6, "speaker": "Nam", "text": "I got face time, got promoted… and the whole company got acquired."}
+      {
+        "panel": 1,
+        "speaker": "CEO",
+        "text": "Big news — we're getting acquired by a global platform."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Does this mean layoffs… or opportunities?"
+      },
+      {
+        "panel": 3,
+        "speaker": "VP",
+        "text": "I wanted face time with you before the reorg."
+      },
+      {
+        "panel": 4,
+        "speaker": "VP",
+        "text": "You're getting promoted to senior — they noticed your ship work."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "When a startup gets acquired, culture changes — stay flexible."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "I got face time, got promoted… and the whole company got acquired."
+      }
     ],
     "switzerland-travel/111": [
-      {"panel": 1, "speaker": "Friend", "text": "Welcome! Let's get to the hotel before rush hour."},
-      {"panel": 2, "speaker": "Clerk", "text": "I'll get you checked in — passport and booking, please."},
-      {"panel": 3, "speaker": "Friend", "text": "Walk with me — you'll get your bearings in the old town."},
-      {"panel": 4, "speaker": "Nam", "text": "It took an hour to get to Zurich, but I already love it."},
-      {"panel": 5, "speaker": "Nam", "text": "Once I get my bearings, I want to explore every alley."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: The Glacier Express"}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "Welcome! Let's get to the hotel before rush hour."
+      },
+      {
+        "panel": 2,
+        "speaker": "Clerk",
+        "text": "I'll get you checked in — passport and booking, please."
+      },
+      {
+        "panel": 3,
+        "speaker": "Friend",
+        "text": "Walk with me — you'll get your bearings in the old town."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "It took an hour to get to Zurich, but I already love it."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Once I get my bearings, I want to explore every alley."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: The Glacier Express"
+      }
     ],
     "switzerland-travel/112": [
-      {"panel": 1, "speaker": "Nam", "text": "How do I get a ticket for the Glacier Express?"},
-      {"panel": 2, "speaker": "Friend", "text": "First class or second? Get a ticket with a seat reservation."},
-      {"panel": 3, "speaker": "Nam", "text": "Wait — do we get on at platform 7 or 8?"},
-      {"panel": 4, "speaker": "Friend", "text": "We get off at Filisur — don't miss the stop."},
-      {"panel": 5, "speaker": "Nam", "text": "I nearly forgot to get off — the view hypnotized me."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: View from the Top"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "How do I get a ticket for the Glacier Express?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Friend",
+        "text": "First class or second? Get a ticket with a seat reservation."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Wait — do we get on at platform 7 or 8?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Friend",
+        "text": "We get off at Filisur — don't miss the stop."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I nearly forgot to get off — the view hypnotized me."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: View from the Top"
+      }
     ],
     "switzerland-travel/113": [
-      {"panel": 1, "speaker": "Friend", "text": "From here you'll get a view of the whole Bernese Alps."},
-      {"panel": 2, "speaker": "Nam", "text": "I think I'm getting altitude sickness — head is spinning."},
-      {"panel": 3, "speaker": "Friend", "text": "Sit still. Altitude sickness passes if you rest."},
-      {"panel": 4, "speaker": "Nam", "text": "Can I get change for this twenty-franc note?"},
-      {"panel": 5, "speaker": "Nam", "text": "Worth it — I got a view of mountains I'll never forget."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: Snowed In at Zermatt"}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "From here you'll get a view of the whole Bernese Alps."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I think I'm getting altitude sickness — head is spinning."
+      },
+      {
+        "panel": 3,
+        "speaker": "Friend",
+        "text": "Sit still. Altitude sickness passes if you rest."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Can I get change for this twenty-franc note?"
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Worth it — I got a view of mountains I'll never forget."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: Snowed In at Zermatt"
+      }
     ],
     "switzerland-travel/114": [
-      {"panel": 1, "speaker": "Hotel host", "text": "You might get snowed in tonight — roads are closing."},
-      {"panel": 2, "speaker": "Nam", "text": "We got held up by the avalanche warning."},
-      {"panel": 3, "speaker": "Friend", "text": "We can get by with phrasebook German and gestures."},
-      {"panel": 4, "speaker": "Nam", "text": "English gets you by here — everyone is kind."},
-      {"panel": 5, "speaker": "Friend", "text": "Sometimes getting held up is how you meet the best stories."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: Lost on the Alpine Trail"}
+      {
+        "panel": 1,
+        "speaker": "Hotel host",
+        "text": "You might get snowed in tonight — roads are closing."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We got held up by the avalanche warning."
+      },
+      {
+        "panel": 3,
+        "speaker": "Friend",
+        "text": "We can get by with phrasebook German and gestures."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "English gets you by here — everyone is kind."
+      },
+      {
+        "panel": 5,
+        "speaker": "Friend",
+        "text": "Sometimes getting held up is how you meet the best stories."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: Lost on the Alpine Trail"
+      }
     ],
     "switzerland-travel/115": [
-      {"panel": 1, "speaker": "Friend", "text": "Stay close — it's easy to get lost up here."},
-      {"panel": 2, "speaker": "Nam", "text": "I think we're lost — which way back to Zermatt?"},
-      {"panel": 3, "speaker": "Friend", "text": "Listen — we got swept up in a local festival by accident."},
-      {"panel": 4, "speaker": "Nam", "text": "Best wrong turn ever — I got swept up in the music."},
-      {"panel": 5, "speaker": "Local", "text": "I can get you a ride back — jump in the back."},
-      {"panel": 6, "speaker": "Nam", "text": "Switzerland taught me how to get around — even when lost."}
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "Stay close — it's easy to get lost up here."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I think we're lost — which way back to Zermatt?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Friend",
+        "text": "Listen — we got swept up in a local festival by accident."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Best wrong turn ever — I got swept up in the music."
+      },
+      {
+        "panel": 5,
+        "speaker": "Local",
+        "text": "I can get you a ride back — jump in the back."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Switzerland taught me how to get around — even when lost."
+      }
     ],
     "english-everyday-get/116": [
-      {"panel": 1, "speaker": "Nam", "text": "I need to get ready — deep breath."},
-      {"panel": 2, "speaker": "Facilitator", "text": "It takes time to get used to speaking English out loud."},
-      {"panel": 3, "speaker": "Nam", "text": "Sorry — I'm not used to talking this long in English."},
-      {"panel": 4, "speaker": "Partner", "text": "You got through the hardest part — the first five minutes."},
-      {"panel": 5, "speaker": "Nam", "text": "I got through my first meetup without switching to Vietnamese."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: When You Finally Get It"}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I need to get ready — deep breath."
+      },
+      {
+        "panel": 2,
+        "speaker": "Facilitator",
+        "text": "It takes time to get used to speaking English out loud."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Sorry — I'm not used to talking this long in English."
+      },
+      {
+        "panel": 4,
+        "speaker": "Partner",
+        "text": "You got through the hardest part — the first five minutes."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I got through my first meetup without switching to Vietnamese."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: When You Finally Get It"
+      }
     ],
     "english-everyday-get/117": [
-      {"panel": 1, "speaker": "Tutor", "text": "Don't memorize lists — use them until you get it."},
-      {"panel": 2, "speaker": "Nam", "text": "Oh — I get it now. Get blocked means dependency stopped me."},
-      {"panel": 3, "speaker": "Nam", "text": "Let me get back to you after this lesson — I'm studying."},
-      {"panel": 4, "speaker": "Barista", "text": "Your English is good — you get by fine here."},
-      {"panel": 5, "speaker": "Nam", "text": "I used to get by with one-word answers. Not anymore."},
-      {"panel": 6, "speaker": "Hook", "text": "Next: Everyday Get Finale"}
+      {
+        "panel": 1,
+        "speaker": "Tutor",
+        "text": "Don't memorize lists — use them until you get it."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Oh — I get it now. Get blocked means dependency stopped me."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Let me get back to you after this lesson — I'm studying."
+      },
+      {
+        "panel": 4,
+        "speaker": "Barista",
+        "text": "Your English is good — you get by fine here."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I used to get by with one-word answers. Not anymore."
+      },
+      {
+        "panel": 6,
+        "speaker": "Hook",
+        "text": "Next: Everyday Get Finale"
+      }
     ],
     "english-everyday-get/118": [
-      {"panel": 1, "speaker": "Nam", "text": "I'll get you onboarded — same as my SF rotation."},
-      {"panel": 2, "speaker": "HR", "text": "We need your sign-off as his onboarding buddy."},
-      {"panel": 3, "speaker": "Nam", "text": "Get looped in, get unblocked, get shipped — you'll hear these daily."},
-      {"panel": 4, "speaker": "Riku", "text": "Can I get a ride to the station with you?"},
-      {"panel": 5, "speaker": "Nam", "text": "I got onboarded once too. Now I help others get it."},
-      {"panel": 6, "speaker": "Nam", "text": "Everyday English isn't perfect — but you get by, get better, and get heard."}
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'll get you onboarded — same as my SF rotation."
+      },
+      {
+        "panel": 2,
+        "speaker": "HR",
+        "text": "We need your sign-off as his onboarding buddy."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "Get looped in, get unblocked, get shipped — you'll hear these daily."
+      },
+      {
+        "panel": 4,
+        "speaker": "Riku",
+        "text": "Can I get a ride to the station with you?"
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I got onboarded once too. Now I help others get it."
+      },
+      {
+        "panel": 6,
+        "speaker": "Nam",
+        "text": "Everyday English isn't perfect — but you get by, get better, and get heard."
+      }
+    ],
+    "silicon-valley-look/119": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "Checkout conversion dropped 8% since the merge. Can you look into it today?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll look into the funnel metrics first — something looks off in mobile."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "Look up the old checkout docs before you refactor anything."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Look out for edge cases around promo codes — legal changed the rules."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll look into logs tonight and look up the integration spec. I'll look out for regressions."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking Through the Logs"
+      }
+    ],
+    "silicon-valley-look/120": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Start by looking through the error logs from 2 AM onward."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "It looks like a race condition — I'm looking through the deploy diff now."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "Can you look over my hypothesis before we page platform?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Looking through the traces, it looks like cache invalidation failed twice."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Good catch. Look over the rollback plan — we ship the fix by morning."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Look Forward to Ship Day"
+      }
+    ],
+    "silicon-valley-look/121": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "I'm looking forward to ship day Friday — this feature is huge."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Looking back on last sprint, we underestimated QA time."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Let's look over the release checklist one more time."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "I look forward to demoing the new onboarding flow to leadership."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Looking back on my first month here, I've come a long way. Looking forward to Friday."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking Up to Kenji"
+      }
+    ],
+    "silicon-valley-look/122": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Maya starts today — can you look after her for the first week?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Maya",
+        "text": "I look up to engineers who ship calmly under pressure."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'll look after your onboarding. Look out for the staging deploy window."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "When I was junior, I looked up to seniors who explained the why, not just the how."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll look out for you in standup. Maya, you've got people to look up to here."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking for the War Room"
+      }
+    ],
+    "silicon-valley-look/123": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We're looking for Conference Room B — the all-hands got moved."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Let me look around this floor — everything looks like a maze today."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "It looks like they moved the war room next to the kitchen."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I looked around twice. Found it — looks like a proper incident room now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Good. Look for the runbook binder on the shelf before the next page."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Look Back on the Quarter"
+      }
+    ],
+    "silicon-valley-look/124": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Looking back on Q2, we shipped three major integrations."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Looking back on my rotation, I almost quit in week two."
+      },
+      {
+        "panel": 3,
+        "speaker": "PM",
+        "text": "I'm looking forward to the NYC offsite — Wall Street immersion."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "We should look into a better on-call rotation next quarter."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Looking back on it, every crisis made me stronger. Looking forward to what's next."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Silicon Valley Look Arc — Complete. Next: Wall Street."
+      }
+    ],
+    "wall-street-look/125": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Take a minute to look around — this is your home for two weeks."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll look into the risk dashboard before market open."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "Look out for the 9:30 bell — volume spikes in the first five minutes."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Look around the floor after lunch. Every screen tells a story."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I looked around, looked into the playbook, and I'm ready to look out for anomalies."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking Through the Financials"
+      }
+    ],
+    "wall-street-look/126": [
+      {
+        "panel": 1,
+        "speaker": "Analyst",
+        "text": "Look through the 10-K before the analyst call — page forty-two matters."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "It looks like revenue beat but guidance looks soft."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "Look over my summary before I send it to the PM desk."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Looking through the footnotes, it looks like they hid a one-time charge."
+      },
+      {
+        "panel": 5,
+        "speaker": "Analyst",
+        "text": "Always look over the numbers twice. Looks can deceive on Wall Street."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking Forward to the IPO"
+      }
+    ],
+    "wall-street-look/127": [
+      {
+        "panel": 1,
+        "speaker": "Banker",
+        "text": "Investors look forward to hearing the growth story tomorrow."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Looking back on our startup days, an IPO felt impossible."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "We need to look into the lock-up period rules for employees."
+      },
+      {
+        "panel": 4,
+        "speaker": "Banker",
+        "text": "The street is looking forward to this debut — don't undersell it."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Looking back on the acquisition, we earned this moment. Looking forward to the bell."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking Up to the Desk Lead"
+      }
+    ],
+    "wall-street-look/128": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I look up to how you stay calm when the market swings 3%."
+      },
+      {
+        "panel": 2,
+        "speaker": "Desk Lead",
+        "text": "Look for dislocations — that's where edge lives."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "Look out for the Fed speaker at 2 PM — spreads will widen."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "People look up to consistency, not hero trades."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll look for setups and look out for headline risk. I look up to this desk."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Wall Street Look Finale"
+      }
+    ],
+    "wall-street-look/129": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Looking back on your first week, you read the room fast."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Looking back on SF, I never thought I'd parse a 10-K in English."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "I'm looking forward to having you on the next deal team."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Look into the quant rotation if you want to stay in finance."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Looking back on it all — Bay Area to Wall Street — I look forward to going home wiser."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Wall Street Look Arc — Complete."
+      }
+    ],
+    "english-everyday-look/130": [
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "We're looking for a two-bedroom under four thousand."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Let's look around the neighborhood before we decide."
+      },
+      {
+        "panel": 3,
+        "speaker": "Agent",
+        "text": "This unit looks like a good fit — laundry in-building."
+      },
+      {
+        "panel": 4,
+        "speaker": "Linh",
+        "text": "It looks like the BART stop is only two blocks away."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We looked around, and this looks like home. Let's apply."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Looking Through the Menu"
+      }
+    ],
+    "english-everyday-look/131": [
+      {
+        "panel": 1,
+        "speaker": "Date",
+        "text": "I'm looking forward to trying this place — look through the specials?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll look up what 'burrata' is real quick."
+      },
+      {
+        "panel": 3,
+        "speaker": "Date",
+        "text": "Looking through the menu, the pasta looks amazing."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I looked up reviews — people say look for the truffle tagliatelle."
+      },
+      {
+        "panel": 5,
+        "speaker": "Date",
+        "text": "I've been looking forward to this all week. Glad we looked through everything."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Everyday Look Finale"
+      }
+    ],
+    "english-everyday-look/132": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Looking back on your first meetup, you barely spoke."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Looking back on three years in the US, every arc taught me new phrasals."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Look after yourself — burnout is real in Big Tech."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'm looking forward to helping the next newcomer at this meetup."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Look back on how far you've come. Look forward. Look after your English habit."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Everyday Look Arc — Complete. Take arc begins."
+      }
+    ],
+    "silicon-valley-take/133": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "I'll take over on-call tonight — you looked exhausted."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Are you sure? I can take on the weekend rotation."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Take care of the checkout alerts first — they spike on Sundays."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "If anything pages, take over the bridge and ping me."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll take over calmly. I'll take care of alerts and take on whatever comes."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take Apart the Bug"
+      }
+    ],
+    "silicon-valley-take/134": [
+      {
+        "panel": 1,
+        "speaker": "Aoi",
+        "text": "Let's take apart this bug layer by layer."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take down every hypothesis on the board."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Take note of the timestamp — it matches the deploy window."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Taking apart the request flow, the timeout happens at the gateway."
+      },
+      {
+        "panel": 5,
+        "speaker": "Aoi",
+        "text": "Good. Take note of that pattern — we'll take it to postmortem."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take Off at Launch"
+      }
+    ],
+    "silicon-valley-take/135": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "Usage is taking off — we hit ten thousand sign-ups in an hour."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Monitoring is taking up both screens — I can't look away."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "If error rate spikes, we take back the rollout immediately."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "It's taking off faster than we modeled. Scale the cache tier."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Launch took off. I'll take up the post-launch watch. No take-backs tonight."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take Ownership of the Pipeline"
+      }
+    ],
+    "silicon-valley-take/136": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "I need someone to take ownership of the CI pipeline migration."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take responsibility for the timeline and the rollback plan."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Don't wait for permission — take initiative on the design doc."
+      },
+      {
+        "panel": 4,
+        "speaker": "PM",
+        "text": "When you take ownership, the whole team moves faster."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll take initiative this week. I take ownership seriously now."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take the Heat in Review"
+      }
+    ],
+    "silicon-valley-take/137": [
+      {
+        "panel": 1,
+        "speaker": "Architect",
+        "text": "This design won't scale — someone needs to take the heat."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take the heat. I wrote the RFC — I'll take feedback openly."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "You took it in stride in there. That impressed leadership."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Take feedback from the room, then take the best ideas forward."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I took the heat, took feedback, and took it in stride. We iterate."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Silicon Valley Take Finale"
+      }
+    ],
+    "silicon-valley-take/138": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Before you go, take stock of what you've learned here."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Taking a step back, this rotation changed how I speak up."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "I'll take it from here on the pipeline. You've earned the NYC trip."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Take stock, take a breath, take the Wall Street playbook with you."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I took stock of every take-phrasal I learned. Aoi, take it from here."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Silicon Valley Take Arc — Complete."
+      }
+    ],
+    "wall-street-take/139": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "We're taking a position before the jobs report — size it small."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'd rather take a risk with a tight stop than sit out."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "If we hit target, take profit at the first resistance level."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Never take a position without knowing your exit."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We took a position, managed risk, and took profit by noon."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take Heat from Compliance"
+      }
+    ],
+    "wall-street-take/140": [
+      {
+        "panel": 1,
+        "speaker": "Compliance",
+        "text": "The desk will take heat if we miss the filing deadline."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take responsibility for updating the trade log format."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "Take note of the new retention rules — they start Monday."
+      },
+      {
+        "panel": 4,
+        "speaker": "Compliance",
+        "text": "You took heat well in there. Fix it and move on."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I took responsibility, took note of every rule, and we'll pass the next audit."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take Over the Desk"
+      }
+    ],
+    "wall-street-take/141": [
+      {
+        "panel": 1,
+        "speaker": "Analyst",
+        "text": "Can you take over the desk until Marcus returns?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take on the morning book and take charge of the hedge."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "When you take charge, speak clearly — the floor listens."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Taking over mid-session is scary, but I'll take on the responsibility."
+      },
+      {
+        "panel": 5,
+        "speaker": "Desk Lead",
+        "text": "You took over, took charge, and the desk stayed green. Well done."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take the Meeting Offline"
+      }
+    ],
+    "wall-street-take/142": [
+      {
+        "panel": 1,
+        "speaker": "Client",
+        "text": "This pricing is unacceptable — we need answers now."
+      },
+      {
+        "panel": 2,
+        "speaker": "Desk Lead",
+        "text": "Let's take this offline and regroup in ten minutes."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'll take down notes on every concern they raised."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "I'll take it up with legal before we revise the term sheet."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We took it offline, took down notes, and took it up with the right people."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Wall Street Take Finale"
+      }
+    ],
+    "wall-street-take/143": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Take stock — you survived your first earnings season."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Taking a step back, finance English is its own dialect."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "Next time, take the lead on the morning brief."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "You took stock, took risks, and took the heat. That's the job."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll take the lead back in SF. I took stock of everything I learned here."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Wall Street Take Arc — Complete."
+      }
+    ],
+    "english-everyday-take/144": [
+      {
+        "panel": 1,
+        "speaker": "Roommate",
+        "text": "Can you take out the trash? It's been three days."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I took off work early — I'll take care of chores tonight."
+      },
+      {
+        "panel": 3,
+        "speaker": "Roommate",
+        "text": "If you take out recycling, I'll take care of dishes."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Deal. I'll take out trash and take care of the kitchen."
+      },
+      {
+        "panel": 5,
+        "speaker": "Roommate",
+        "text": "We took care of the apartment together. That's how roommates work."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Take Your Time at Dinner"
+      }
+    ],
+    "english-everyday-take/145": [
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "Take a seat — take your time reading the menu."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Sorry, I always rush. I'll take it easy tonight."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "In the US, people take their time at dinner. It's not rude."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'm learning to take it easy after years of startup speed."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "Take your time. Take a seat. Take it easy — you earned this."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Everyday Take Finale"
+      }
+    ],
+    "english-everyday-take/146": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Take stock of your daily English — do you still practice?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm taking on new habits: one phrasal a day in real conversation."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Take it from here — keep using them, not just reading them."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Taking stock, I take on challenges differently now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Take stock, take on habits, take it from here. That's the everyday arc."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Everyday Take Arc — Complete. Put arc begins."
+      }
+    ],
+    "silicon-valley-put/147": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "Can we put off the refactor until after launch?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "If we put it off again, we'll pay interest in incidents."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Put aside two days post-launch — I'll help you put together a plan."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Let's put together a minimal refactor scope, not a rewrite."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We won't put off safety. We'll put aside time and put together a real plan."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put Forward a Proposal"
+      }
+    ],
+    "silicon-valley-put/148": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I'd like to put forward an async event pipeline design."
+      },
+      {
+        "panel": 2,
+        "speaker": "Architect",
+        "text": "Put forth your assumptions on throughput first."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Did you put in a request for the extra Kafka cluster?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I put forward three options. I put forth the trade-offs clearly."
+      },
+      {
+        "panel": 5,
+        "speaker": "PM",
+        "text": "Strong proposal. You put in the work — now we decide."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put the Release on Hold"
+      }
+    ],
+    "silicon-valley-put/149": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We're putting the release on hold until root cause is clear."
+      },
+      {
+        "panel": 2,
+        "speaker": "Kenji",
+        "text": "Put back the launch to Tuesday — no hero deploys tonight."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "I'll put you through to platform on the bridge line."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Put on hold is the right call. I'll put through the hotfix PR."
+      },
+      {
+        "panel": 5,
+        "speaker": "PM",
+        "text": "We put the release on hold, put back the date, and put through the fix."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put Your Head Down"
+      }
+    ],
+    "silicon-valley-put/150": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Demo is Thursday — time to put your head down."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll put in the hours, but I won't burn out again."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "Put effort into the demo script, not just the code."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Put your head down today, lift it up proud on demo day."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I put effort into every slide. I put in the hours. It paid off."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put It in Writing"
+      }
+    ],
+    "silicon-valley-put/151": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We need this decision put in writing before EOD."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll put down the three options and the rationale."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Put across the risk clearly — product needs to understand."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "If it's not in writing, it didn't happen. Put it in the RFC."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I put it in writing, put down every trade-off, and put across the recommendation."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Silicon Valley Put Finale"
+      }
+    ],
+    "silicon-valley-put/152": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Let's put the launch drama to rest in this retro."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I finally put the pieces together — comms failed, not code."
+      },
+      {
+        "panel": 3,
+        "speaker": "PM",
+        "text": "We put it behind us and ship smarter next time."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Put to rest the blame game. Put the pieces together and move on."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We put it behind us. I put the pieces together. SF put-phrasals — done."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Silicon Valley Put Arc — Complete."
+      }
+    ],
+    "wall-street-put/153": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "We're putting money on this merger arb — size carefully."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "How much capital are we putting at risk?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "Put aside ten percent as a buffer for volatility."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Never put money on a trade you can't explain in one sentence."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We put aside reserves, knew what we put at risk, and sized the bet."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put Forward the Pitch"
+      }
+    ],
+    "wall-street-put/154": [
+      {
+        "panel": 1,
+        "speaker": "Banker",
+        "text": "We put forward the growth story by 10 AM tomorrow."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I put together the tech diligence appendix last night."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "Put forth the moat argument on slide seven."
+      },
+      {
+        "panel": 4,
+        "speaker": "Banker",
+        "text": "This pitch puts forward a credible path to profitability."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We put together the deck, put forth the numbers, put forward our best case."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put the Deal on Hold"
+      }
+    ],
+    "wall-street-put/155": [
+      {
+        "panel": 1,
+        "speaker": "Banker",
+        "text": "Regulators put the deal on hold pending review."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Should we put back the signing date two weeks?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "I'll put you through to counsel — get it in writing."
+      },
+      {
+        "panel": 4,
+        "speaker": "Banker",
+        "text": "When deals get put on hold, stay patient and stay ready."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We put back the timeline, put through the docs, and waited it out."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put It All on the Table"
+      }
+    ],
+    "wall-street-put/156": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Put all our concerns on the table now — no surprises later."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll put across the tech integration risks clearly."
+      },
+      {
+        "panel": 3,
+        "speaker": "Banker",
+        "text": "Everything on the table must be put in writing tonight."
+      },
+      {
+        "panel": 4,
+        "speaker": "Counterparty",
+        "text": "We appreciate you putting the issues on the table early."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We put it on the table, put across our terms, and put it in writing."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Wall Street Put Finale"
+      }
+    ],
+    "wall-street-put/157": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Let's put the lost trade to rest — lesson learned."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I put together everything I learned about finance English."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "Put the tough week behind us. You earned the ferry view."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "We put disagreements to rest and put the quarter behind us."
+      },
+      {
+        "panel": 5,
+        "speaker": "Desk Lead",
+        "text": "Put it behind us. Put together your SF notes. You did good."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Wall Street Put Arc — Complete."
+      }
+    ],
+    "english-everyday-put/158": [
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "Help me put together a surprise for Kenji's birthday."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll put up decorations while you pick up the cake."
+      },
+      {
+        "panel": 3,
+        "speaker": "Roommate",
+        "text": "Put away the clutter — he can't see the setup!"
+      },
+      {
+        "panel": 4,
+        "speaker": "Linh",
+        "text": "We put together something small but meaningful."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We put up lights, put away the mess, and put together a great night."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put Up With Roommate Noise"
+      }
+    ],
+    "english-everyday-put/159": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I can't put up with the drilling at midnight anymore."
+      },
+      {
+        "panel": 2,
+        "speaker": "Roommate",
+        "text": "Sorry — I'll put off the shelf install until Saturday."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Put aside the frustration and talk to them calmly."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I put aside my annoyance and knocked on their door politely."
+      },
+      {
+        "panel": 5,
+        "speaker": "Roommate",
+        "text": "We put off noisy work and agreed on quiet hours. Worth putting up with neighbors."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Everyday Put Finale"
+      }
+    ],
+    "english-everyday-put/160": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Put your mind at ease — your English is ready for real life."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I put to rest the fear of making mistakes at the grocery store."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Put it behind you — that awkward date taught you 'take your time.'"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Everyday put-phrasals put my mind at ease. I put old shame behind me."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Put to rest the doubt. Put it behind you. Keep putting effort into practice."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Everyday Put Arc — Complete. Come arc begins."
+      }
+    ],
+    "silicon-valley-come/161": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I came across a bug nobody's hit in two years."
+      },
+      {
+        "panel": 2,
+        "speaker": "Aoi",
+        "text": "Can you come up with a minimal repro by lunch?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Sometimes you come across gold in legacy code — or landmines."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'm coming to terms with how much we don't know about this service."
+      },
+      {
+        "panel": 5,
+        "speaker": "Aoi",
+        "text": "You came across it, came up with a fix, and came to terms with the scope."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Up Against a Deadline"
+      }
+    ],
+    "silicon-valley-come/162": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We're coming up against a hard deadline — partner launches Monday."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "It comes down to whether QA signs off by Friday."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "The team always comes through when it matters."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "If we come up against blockers, escalate early."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We came up against the deadline and came through. It came down to focus."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Around to the Idea"
+      }
+    ],
+    "silicon-valley-come/163": [
+      {
+        "panel": 1,
+        "speaker": "Architect",
+        "text": "I wasn't sold on the split either — then I came around to it."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Come to think of it, the monolith is slowing deploys."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Come clean with the team about your concerns — don't sandbag."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'll come clean: I was wrong. I'm coming around to the split."
+      },
+      {
+        "panel": 5,
+        "speaker": "Architect",
+        "text": "When you come clean, people come around faster. Good leadership."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Back from Burnout"
+      }
+    ],
+    "silicon-valley-come/164": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Welcome back. How are you coming back from the break?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm coming out of burnout slowly — boundaries help."
+      },
+      {
+        "panel": 3,
+        "speaker": "PM",
+        "text": "Take light tasks until you come to grips with the new pace."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Coming back from burnout is brave. We're glad you're here."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I came back from the edge. I'm coming to grips with sustainable pace."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Up in Standup"
+      }
+    ],
+    "silicon-valley-come/165": [
+      {
+        "panel": 1,
+        "speaker": "VP",
+        "text": "Something came up — can you walk me through the migration?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll come up with a one-pager by this afternoon."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "When leadership comes up in standup, stay calm and be clear."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "The latency issue came up again — I'll come through for the demo."
+      },
+      {
+        "panel": 5,
+        "speaker": "VP",
+        "text": "You came up with a solid answer. The team comes through when it counts."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Silicon Valley Come Finale"
+      }
+    ],
+    "silicon-valley-come/166": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "You've come a long way since that first war room."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I come to realize — every come-phrasal showed up in real work."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "It's come full circle: you mentor others now."
+      },
+      {
+        "panel": 4,
+        "speaker": "Kenji",
+        "text": "Come a long way, come to realize, come full circle. That's growth."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I came a long way from nervous newcomer to SF leadership voice."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Silicon Valley Come Arc — Complete."
+      }
+    ],
+    "wall-street-come/167": [
+      {
+        "panel": 1,
+        "speaker": "Compliance",
+        "text": "We came across trades that don't match the mandate."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll come up with a timeline for the full audit trail."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "If risk comes to light late, we all pay for it."
+      },
+      {
+        "panel": 4,
+        "speaker": "Compliance",
+        "text": "Good catch — this came across your desk at the right time."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "It came to light early. We came up with a fix before market open."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Down to the Numbers"
+      }
+    ],
+    "wall-street-come/168": [
+      {
+        "panel": 1,
+        "speaker": "Analyst",
+        "text": "It all comes down to margin guidance this quarter."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "We came up against a liquidity cap on the block trade."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "The desk came through — best week of the year."
+      },
+      {
+        "panel": 4,
+        "speaker": "Analyst",
+        "text": "When it comes down to numbers, story doesn't matter."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "It came down to discipline. We came through for the client."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Around on the Merger"
+      }
+    ],
+    "wall-street-come/169": [
+      {
+        "panel": 1,
+        "speaker": "Analyst",
+        "text": "I didn't like the merger — but I'm coming around to it."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Come clean about the synergy assumptions on slide four."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "Legal needs both sides to come to terms with the break fee."
+      },
+      {
+        "panel": 4,
+        "speaker": "Analyst",
+        "text": "Once I came clean on my model, I came around to the deal."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We came to terms with the risk. The room came around together."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Back from a Loss"
+      }
+    ],
+    "wall-street-come/170": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "We took a hit — now we come back from it tomorrow."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'm coming to grips with how fast sentiment flipped."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "One bad day doesn't define you. Come back from it."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "We still come out ahead on the month if we stay disciplined."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We came back from the loss. We came to grips with the lesson."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Wall Street Come Finale"
+      }
+    ],
+    "wall-street-come/171": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "You came a long way from fintech APIs to equity desks."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I come to realize — come-phrasals are everywhere in finance."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "It's come full circle: SF builder, NYC trader mindset."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Looking back, every arc helped me come to realize who I am at work."
+      },
+      {
+        "panel": 5,
+        "speaker": "Desk Lead",
+        "text": "Come a long way. Come full circle. Go make something in SF."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Wall Street Come Arc — Complete."
+      }
+    ],
+    "english-everyday-come/172": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Come over tonight — I'm trying a new pasta recipe."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Can I come by around seven? I'll come up with a dessert idea."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Come over whenever — door's open."
+      },
+      {
+        "panel": 4,
+        "speaker": "Linh",
+        "text": "Last time I came over, we practiced phrasals over wine."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I came over, came up with tiramisu, and came away full and fluent."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Come Down with a Cold"
+      }
+    ],
+    "english-everyday-come/173": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "I think I'm coming down with something — throat hurts."
+      },
+      {
+        "panel": 2,
+        "speaker": "Roommate",
+        "text": "Rest up. You'll come around in a few days."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "When you come down with a cold, hydrate and take it easy."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "My energy came back after sleep. I'm coming around finally."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "You came down with a cold, but you came back strong."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Everyday Come Finale"
+      }
+    ],
+    "english-everyday-come/174": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "You've come a long way since episode one."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I come to appreciate small talk — it used to terrify me."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "It's come full circle: you host the meetup now."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Everyday come-phrasals came alive when I stopped translating in my head."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Come a long way. Come to appreciate the journey. Topic arcs await."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Everyday Come Arc — Complete. Go arc begins."
+      }
+    ],
+    "silicon-valley-go/175": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Let's go over the timeline before we assign action items."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go through each alert and what we missed."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "I think we go with the simpler fix first, then harden."
+      },
+      {
+        "panel": 4,
+        "speaker": "PM",
+        "text": "Going through the postmortem, comms lag hurt more than code."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went over everything, went through the facts, and went with blameless culture."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Ahead with the Merge"
+      }
+    ],
+    "silicon-valley-go/176": [
+      {
+        "panel": 1,
+        "speaker": "Aoi",
+        "text": "All checks green — go ahead with the merge?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Kenji",
+        "text": "I'll go along with your call if QA signed off."
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "If anything fails, we go back to the release branch immediately."
+      },
+      {
+        "panel": 4,
+        "speaker": "PM",
+        "text": "Go ahead — ship it. We'll monitor for an hour."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went ahead, the team went along with the plan, no need to go back."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Down in History"
+      }
+    ],
+    "silicon-valley-go/177": [
+      {
+        "panel": 1,
+        "speaker": "CEO",
+        "text": "This launch will go down in company history."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "The alert went off during rehearsal — everything that could go wrong did."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "When demos go wrong in rehearsal, they go right on stage."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Nothing went wrong live. This day will go down as our best."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "It went off perfectly. Nothing went wrong. This goes down in history."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Through with the Cut"
+      }
+    ],
+    "silicon-valley-go/178": [
+      {
+        "panel": 1,
+        "speaker": "PM",
+        "text": "We have to go through with the scope cut — no time for polish."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Let me go over what's in versus out one last time."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Sometimes you go with the flow and ship the MVP."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Going through with cuts hurts, but missing launch hurts more."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went over the list, went through with the cut, and went with the flow."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Deep on Architecture"
+      }
+    ],
+    "silicon-valley-go/179": [
+      {
+        "panel": 1,
+        "speaker": "Architect",
+        "text": "Today we go deep on the data consistency model."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I want to go beyond the happy path — what about partition?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Go over the CAP trade-offs before we pick a store."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Going deep on this now saves us three incidents later."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went deep on consistency, went beyond basics, went over every edge case."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Silicon Valley Go Finale"
+      }
+    ],
+    "silicon-valley-go/180": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Clear communication goes a long way in every team."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Humility and curiosity go hand in hand — you taught me that."
+      },
+      {
+        "panel": 3,
+        "speaker": "PM",
+        "text": "You always go the extra mile on docs. We'll miss you."
+      },
+      {
+        "panel": 4,
+        "speaker": "Aoi",
+        "text": "Go-phrasals go a long way in postmortems and standups alike."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I go the extra mile now because this team went the extra mile for me."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Silicon Valley Go Arc — Complete."
+      }
+    ],
+    "wall-street-go/181": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Go over the EPS beat before the bell."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go through management commentary on the call."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "I'm going with long bias if guidance holds."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Never go with a trade until you go through the risk limits."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went over earnings, went through the model, and went with conviction."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Ahead with the Block Trade"
+      }
+    ],
+    "wall-street-go/182": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "We have clearance — go ahead with the block."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go along with your slice strategy on the order."
+      },
+      {
+        "panel": 3,
+        "speaker": "Compliance",
+        "text": "Don't go back on the limit we agreed this morning."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Go ahead at the open — smooth execution only."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went ahead, went along with the plan, and nobody went back on their word."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Down with the Market"
+      }
+    ],
+    "wall-street-go/183": [
+      {
+        "panel": 1,
+        "speaker": "Analyst",
+        "text": "The index went down three percent in twenty minutes."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "My stop went off — at least risk was capped."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "When macro goes wrong, cut size and breathe."
+      },
+      {
+        "panel": 4,
+        "speaker": "Analyst",
+        "text": "Everything went down together — no place to hide."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "The market went down, stops went off, but nothing went wrong on process."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Through Compliance Audit"
+      }
+    ],
+    "wall-street-go/184": [
+      {
+        "panel": 1,
+        "speaker": "Compliance",
+        "text": "We'll go through every trade from Q3."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go over the log format fixes we shipped."
+      },
+      {
+        "panel": 3,
+        "speaker": "Desk Lead",
+        "text": "On audit week, we go by the book — no shortcuts."
+      },
+      {
+        "panel": 4,
+        "speaker": "Compliance",
+        "text": "You went through the review clean. Well done."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went through audit, went over every gap, and went by the book."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Wall Street Go Finale"
+      }
+    ],
+    "wall-street-go/185": [
+      {
+        "panel": 1,
+        "speaker": "Desk Lead",
+        "text": "Preparation goes a long way on this floor."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Discipline and humility go hand in hand in trading."
+      },
+      {
+        "panel": 3,
+        "speaker": "Analyst",
+        "text": "You went the extra mile on every brief — thank you."
+      },
+      {
+        "panel": 4,
+        "speaker": "Desk Lead",
+        "text": "Go-phrasals go a long way in client calls too."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I'll go the extra mile back in SF. Wall Street go-arc — complete."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Wall Street Go Arc — Complete."
+      }
+    ],
+    "english-everyday-go/186": [
+      {
+        "panel": 1,
+        "speaker": "Linh",
+        "text": "Let's go over the list before we split up."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go through aisle five for snacks."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Let's go with the cheaper olive oil — same brand."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Going over the list saved us twenty dollars."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "We went over, went through every aisle, and went with smart choices."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Go Out with Friends"
+      }
+    ],
+    "english-everyday-go/187": [
+      {
+        "panel": 1,
+        "speaker": "Friend",
+        "text": "Want to go out tonight? There's live music in the Mission."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go along with whatever you pick — I need to decompress."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Go for it — ask the band if they take requests!"
+      },
+      {
+        "panel": 4,
+        "speaker": "Friend",
+        "text": "Going out in English used to scare me too. You go for it now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "We went out, I went for karaoke, and went along with the vibe."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Everyday Go Finale"
+      }
+    ],
+    "english-everyday-go/188": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Consistent practice goes a long way — you proved it."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Manga stories and real life go hand in hand in this project."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "Go the extra mile: teach one friend a phrasal this week."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Look, take, put, come, go — they all go hand in hand now."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Go the extra mile into topic arcs. Customer support awaits."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Everyday Go Arc — Complete. Topic arcs begin."
+      }
+    ],
+    "customer-support/189": [
+      {
+        "panel": 1,
+        "speaker": "Lead",
+        "text": "When a customer is upset, look into the account history first."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll follow up with an ETA once I find the root cause."
+      },
+      {
+        "panel": 3,
+        "speaker": "Customer",
+        "text": "Nobody got back to me for three days!"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'm sorry — I'll look into this now and get back to you within the hour."
+      },
+      {
+        "panel": 5,
+        "speaker": "Lead",
+        "text": "You looked into it, followed up fast, and got back with a fix. Perfect."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Escalate to Tier Two"
+      }
+    ],
+    "customer-support/190": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "This looks like a billing engine bug — I need to escalate."
+      },
+      {
+        "panel": 2,
+        "speaker": "Tier-2",
+        "text": "I'll take ownership once you hand off the full timeline."
+      },
+      {
+        "panel": 3,
+        "speaker": "Lead",
+        "text": "Always escalate early rather than promise what you can't deliver."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I handed off the notes and escalated with clear repro steps."
+      },
+      {
+        "panel": 5,
+        "speaker": "Tier-2",
+        "text": "Clean hand off. I'll take ownership until resolution."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Walk Through the Fix"
+      }
+    ],
+    "customer-support/191": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Let me walk you through the reset steps on your account."
+      },
+      {
+        "panel": 2,
+        "speaker": "Customer",
+        "text": "Can you put me through to someone who can refund?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Nam",
+        "text": "I'll put you through to billing after we walk through the fix."
+      },
+      {
+        "panel": 4,
+        "speaker": "Lead",
+        "text": "Follow up on the ticket tomorrow — make sure it stuck."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "I walked them through it, put them through to billing, and followed up."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Angry Customer on Call"
+      }
+    ],
+    "customer-support/192": [
+      {
+        "panel": 1,
+        "speaker": "Customer",
+        "text": "This is the third time I'm calling!"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I hear you. Stay on the line — I'll look into your account now."
+      },
+      {
+        "panel": 3,
+        "speaker": "Customer",
+        "text": "Don't put me on hold again!"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'll come back to you in two minutes with an answer. I promise."
+      },
+      {
+        "panel": 5,
+        "speaker": "Lead",
+        "text": "You stayed calm, looked into it, and came back with credit. Textbook."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Customer Support Finale"
+      }
+    ],
+    "customer-support/193": [
+      {
+        "panel": 1,
+        "speaker": "Lead",
+        "text": "Support is about follow through — every promise counts."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll wrap up my open tickets before I leave the floor."
+      },
+      {
+        "panel": 3,
+        "speaker": "Customer",
+        "text": "You took care of everything — thank you."
+      },
+      {
+        "panel": 4,
+        "speaker": "Lead",
+        "text": "You follow through, wrap up clean, and take care of people."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Customer support English: look into, escalate, follow through. Done."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Customer Support Arc — Complete."
+      }
+    ],
+    "health-clinic/194": [
+      {
+        "panel": 1,
+        "speaker": "Reception",
+        "text": "Would you like to make an appointment with Dr. Chen?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Can I come in this Thursday morning?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Reception",
+        "text": "She'll look into your records before the visit."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I made an appointment — first time navigating US healthcare in English."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "You made an appointment, asked to come in, and understood everything. Proud."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Describing the Symptoms"
+      }
+    ],
+    "health-clinic/195": [
+      {
+        "panel": 1,
+        "speaker": "Doctor",
+        "text": "What symptoms have you been going through?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I think I came down with tension headaches — stress from work."
+      },
+      {
+        "panel": 3,
+        "speaker": "Doctor",
+        "text": "Let's take care of this before it gets worse."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I've been going through this for two weeks. I didn't know the words."
+      },
+      {
+        "panel": 5,
+        "speaker": "Doctor",
+        "text": "You described it clearly. We'll take care of you."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Filling Out Insurance Forms"
+      }
+    ],
+    "health-clinic/196": [
+      {
+        "panel": 1,
+        "speaker": "Admin",
+        "text": "Please fill out both sides of the insurance form."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Should I put down my employer or personal plan?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Admin",
+        "text": "Look over section three — signature and date."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I filled out every field and looked over it twice."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "US forms are scary until you fill out, look over, and put down the right info."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Follow-Up Visit"
+      }
+    ],
+    "health-clinic/197": [
+      {
+        "panel": 1,
+        "speaker": "Doctor",
+        "text": "Thanks for coming back for the follow-up."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Should I come back if symptoms return?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Doctor",
+        "text": "We'll look into the labs again if anything changes."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "The follow-up visit was shorter — I knew the vocabulary."
+      },
+      {
+        "panel": 5,
+        "speaker": "Doctor",
+        "text": "You follow up well. That's half of healthcare in America."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Health Clinic Finale"
+      }
+    ],
+    "health-clinic/198": [
+      {
+        "panel": 1,
+        "speaker": "Pharmacist",
+        "text": "Take it easy for a few days — hydration helps."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll look after myself better this sprint."
+      },
+      {
+        "panel": 3,
+        "speaker": "Doctor",
+        "text": "You'll come around faster if you sleep eight hours."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Health English: appointment, symptoms, forms, follow-up. I come around confident."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "Look after yourself. Take it easy. You'll come around — always do."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Health Clinic Arc — Complete."
+      }
+    ],
+    "side-project/199": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "You're taking on a side project after Big Tech hours?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll put together an MVP in two weekends — go for it or regret it."
+      },
+      {
+        "panel": 3,
+        "speaker": "Linh",
+        "text": "If you take on too much, burnout comes back."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I'm taking on one small idea. I'll put together a landing page first."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Go for it. Put together something ugly that works."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: User Feedback Night"
+      }
+    ],
+    "side-project/200": [
+      {
+        "panel": 1,
+        "speaker": "User",
+        "text": "The onboarding confused me — I got lost on step two."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take feedback openly. Let me go through your notes tonight."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Can you come up with three fixes before next beta?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I went through every comment and came up with a simpler flow."
+      },
+      {
+        "panel": 5,
+        "speaker": "User",
+        "text": "You take feedback well. Most founders get defensive."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Launch Day Nerves"
+      }
+    ],
+    "side-project/201": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "We're going live in ten minutes — my hands are shaking."
+      },
+      {
+        "panel": 2,
+        "speaker": "Linh",
+        "text": "Look out for error spikes in the first hour."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "If the site goes down, you fix it. That's launch day."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "It went live! Nothing went down — yet. I'm looking out for every alert."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "You went live calm. You looked out for users. Launch day survived."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Iterate After Launch"
+      }
+    ],
+    "side-project/202": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Retention is soft — go back to onboarding and simplify."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll put together a patch release this weekend."
+      },
+      {
+        "panel": 3,
+        "speaker": "User email",
+        "text": "Can you come up with dark mode?"
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "We went back to basics, put together v1.1, came up with two quick wins."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Side projects live on iterate, iterate, iterate."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Side Project Finale"
+      }
+    ],
+    "side-project/203": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Taking stock — one hundred users, zero revenue, infinite learning."
+      },
+      {
+        "panel": 2,
+        "speaker": "Audience",
+        "text": "Your launch post went a long way — we saw it on HN."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Look forward to v2, but celebrate v1 tonight."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Side project English: take on, feedback, go live, iterate."
+      },
+      {
+        "panel": 5,
+        "speaker": "Linh",
+        "text": "Take stock, go a long way, look forward. Indie life suits you."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Side Project Arc — Complete."
+      }
+    ],
+    "remote-async/204": [
+      {
+        "panel": 1,
+        "speaker": "NYC",
+        "text": "I'll get back to you on the RFC when I'm online at 6 AM your time."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll follow up on the deployment thread before standup."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Async only works if everyone comes through on commitments."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I posted the update — no meeting needed. Follow up if blocked."
+      },
+      {
+        "panel": 5,
+        "speaker": "NYC",
+        "text": "You came through on the doc. Async standup win."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Written RFC Decision"
+      }
+    ],
+    "remote-async/205": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Put the decision in writing — no verbal-only agreements."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll go over every comment before we lock the RFC."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "Take note of the latency concern on page three."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "We put it in writing, went over objections, took note of every risk."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Written decisions scale. Meetings don't."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Missed Handoff"
+      }
+    ],
+    "remote-async/206": [
+      {
+        "panel": 1,
+        "speaker": "London",
+        "text": "Sorry — I forgot to hand off the pager properly."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll pick up the incident — what do I need to know?"
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "When handoffs fail, someone must come through for the team."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "I picked up at 5 AM, handled it, and fixed the handoff doc."
+      },
+      {
+        "panel": 5,
+        "speaker": "London",
+        "text": "You came through for us. I'll never miss handoff again."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Remote Async Finale"
+      }
+    ],
+    "remote-async/207": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "We go async on updates — meetings are for conflict only."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll take ownership of the handoff checklist going forward."
+      },
+      {
+        "panel": 3,
+        "speaker": "Aoi",
+        "text": "Look ahead: document everything you'd say in a hallway chat."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Remote English: follow up, put in writing, hand off, pick up."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Go async, take ownership, look ahead. You're remote-ready."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Remote Async Arc — Complete."
+      }
+    ],
+    "phrasal-review/208": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Quick drill — look into or take on a new service?"
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Look into the bug. Take on the migration project."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Look out for regressions. Take care of the on-call handoff."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Look forward to ship day. Take stock after launch."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "Look and take — nailed it. Put and come tomorrow."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Put & Come Mix-Up"
+      }
+    ],
+    "phrasal-review/209": [
+      {
+        "panel": 1,
+        "speaker": "Kenji",
+        "text": "Don't put off what came up in standup."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "I'll come through on the fix and go through QA tonight."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Put forward the RFC, then go ahead after approval."
+      },
+      {
+        "panel": 4,
+        "speaker": "Nam",
+        "text": "Put, come, go — different prepositions, different worlds."
+      },
+      {
+        "panel": 5,
+        "speaker": "Kenji",
+        "text": "One more episode. Grand finale next."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Next: Phrasal Review Grand Finale"
+      }
+    ],
+    "phrasal-review/210": [
+      {
+        "panel": 1,
+        "speaker": "Nam",
+        "text": "Look into problems. Take ownership. Put ideas in writing."
+      },
+      {
+        "panel": 2,
+        "speaker": "Nam",
+        "text": "Come through for your team. Go the extra mile every day."
+      },
+      {
+        "panel": 3,
+        "speaker": "Kenji",
+        "text": "Ninety-two episodes. Five verbs. One voice — yours."
+      },
+      {
+        "panel": 4,
+        "speaker": "Audience",
+        "text": "You came full circle from shy newcomer to this stage."
+      },
+      {
+        "panel": 5,
+        "speaker": "Nam",
+        "text": "Episodes 119 to 210 — look, take, put, come, go. It goes a long way. Thank you."
+      },
+      {
+        "panel": 6,
+        "speaker": "Caption",
+        "text": "Phrasal Review Grand Finale — Episodes 119–210 Complete."
+      }
     ]
   }
 }

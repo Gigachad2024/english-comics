@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Junior: "I'm worried about the upcoming demo."
-- **Panel 2:** Scene. Dialogue: Nam: "How can I support you before demo day?"
-- **Panel 3:** Scene. Dialogue: Junior: "A mock run-through would help most."
-- **Panel 4:** Scene. Dialogue: Nam: "Let's do a dry run tomorrow at 3pm."
-- **Panel 5:** Scene. Dialogue: Kenji: "That question opens space for real support."
-- **Panel 6:** Scene. Dialogue: Nam: "You're growing into a confident presenter."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Junior",
-    "text": "I'm worried about the upcoming demo."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "How can I support you before demo day?"
-  },
-  {
-    "panel": 3,
-    "speaker": "Junior",
-    "text": "A mock run-through would help most."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "Let's do a dry run tomorrow at 3pm."
-  },
-  {
-    "panel": 5,
-    "speaker": "Kenji",
-    "text": "That question opens space for real support."
-  },
-  {
-    "panel": 6,
-    "speaker": "Nam",
-    "text": "You're growing into a confident presenter."
-  }
-]
-```
+- **Panel 1:** Junior looks stressed. Dialogue: Junior: "I'm worried about the upcoming demo."
+- **Panel 2:** Nam asks support question. Dialogue: Nam: "How can I support you before demo day?"
+- **Panel 3:** Specific help. Dialogue: Junior: "A mock run-through would help most."
+- **Panel 4:** Nam offers time. Dialogue: Nam: "Let's do a dry run tomorrow at 3pm."
+- **Panel 5:** Kenji observes. Dialogue: Kenji: "That question opens space for real support."
+- **Panel 6:** Growth talk. Dialogue: Nam: "You're growing into a confident presenter."
+- **Panel 7:** Hook. Dialogue: Next: Feedback & 1-on-1 Finale
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Junior: "I'm worried about the upcoming demo."
-Panel 2: Story beat. Speech: Nam: "How can I support you before demo day?"
-Panel 3: Story beat. Speech: Junior: "A mock run-through would help most."
-Panel 4: Story beat. Speech: Nam: "Let's do a dry run tomorrow at 3pm."
-Panel 5: Story beat. Speech: Kenji: "That question opens space for real support."
-Panel 6: Story beat. Speech: Nam: "You're growing into a confident presenter."
+Panel 1: Junior looks stressed.. Speech: Junior: "I'm worried about the upcoming demo."
+Panel 2: Nam asks support question.. Speech: Nam: "How can I support you before demo day?"
+Panel 3: Specific help.. Speech: Junior: "A mock run-through would help most."
+Panel 4: Nam offers time.. Speech: Nam: "Let's do a dry run tomorrow at 3pm."
+Panel 5: Kenji observes.. Speech: Kenji: "That question opens space for real support."
+Panel 6: Growth talk.. Speech: Nam: "You're growing into a confident presenter."
+Panel 7: Hook.. Speech: Next: Feedback & 1-on-1 Finale
 
 ENGLISH FOCUS box must list:
 - "How can I support you?" = Tôi có thể hỗ trợ bạn thế nào?

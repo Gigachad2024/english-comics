@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Nam: "I'm torn between keeping the monolith and splitting services."
-- **Panel 2:** Scene. Dialogue: Nam: "I'm leaning toward the monolith because our team is still small."
-- **Panel 3:** Scene. Dialogue: Aoi: "Microservices help scale teams, not always traffic."
-- **Panel 4:** Scene. Dialogue: Kenji: "We need to weigh up complexity vs flexibility."
-- **Panel 5:** Scene. Dialogue: Nam: "A monolith makes more sense to me for the next two quarters."
-- **Panel 6:** Scene. Dialogue: Hook: "Next: Cache or Database First?"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Nam",
-    "text": "I'm torn between keeping the monolith and splitting services."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "I'm leaning toward the monolith because our team is still small."
-  },
-  {
-    "panel": 3,
-    "speaker": "Aoi",
-    "text": "Microservices help scale teams, not always traffic."
-  },
-  {
-    "panel": 4,
-    "speaker": "Kenji",
-    "text": "We need to weigh up complexity vs flexibility."
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "A monolith makes more sense to me for the next two quarters."
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: Cache or Database First?"
-  }
-]
-```
+- **Panel 1:** Whiteboard: MONOLITH vs MICROSERVICES pros/cons. Dialogue: Nam: "I'm torn between keeping the monolith and splitting services."
+- **Panel 2:** Kenji asks why. Dialogue: Nam: "I'm leaning toward the monolith because our team is still small."
+- **Panel 3:** Aoi adds trade-offs. Dialogue: Aoi: "Microservices help scale teams, not always traffic."
+- **Panel 4:** Cost diagram on screen. Dialogue: Kenji: "We need to weigh up complexity vs flexibility."
+- **Panel 5:** Decision checklist. Dialogue: Nam: "A monolith makes more sense to me for the next two quarters."
+- **Panel 6:** Hook. Dialogue: Next: Cache or Database First?
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Nam: "I'm torn between keeping the monolith and splitting services."
-Panel 2: Story beat. Speech: Nam: "I'm leaning toward the monolith because our team is still small."
-Panel 3: Story beat. Speech: Aoi: "Microservices help scale teams, not always traffic."
-Panel 4: Story beat. Speech: Kenji: "We need to weigh up complexity vs flexibility."
-Panel 5: Story beat. Speech: Nam: "A monolith makes more sense to me for the next two quarters."
-Panel 6: Story beat. Speech: Hook: "Next: Cache or Database First?"
+Panel 1: Whiteboard: MONOLITH vs MICROSERVICES pros/cons.. Speech: Nam: "I'm torn between keeping the monolith and splitting services."
+Panel 2: Kenji asks why.. Speech: Nam: "I'm leaning toward the monolith because our team is still small."
+Panel 3: Aoi adds trade-offs.. Speech: Aoi: "Microservices help scale teams, not always traffic."
+Panel 4: Cost diagram on screen.. Speech: Kenji: "We need to weigh up complexity vs flexibility."
+Panel 5: Decision checklist.. Speech: Nam: "A monolith makes more sense to me for the next two quarters."
+Panel 6: Hook.. Speech: Next: Cache or Database First?
 
 ENGLISH FOCUS box must list:
 - "I'm torn between A and B." = Tôi phân vân giữa A và B.

@@ -3,7 +3,7 @@ const App = (() => {
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => document.querySelectorAll(s);
 
-  const ASSET_VERSION = "20250621-grammar-audit-v8";
+  const ASSET_VERSION = "20250622-phrasal-us-v10";
 
   function toWebp(path) {
     if (!path || !/\.png$/i.test(path)) return path;

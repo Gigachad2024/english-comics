@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Signs: "wash before bath, no tattoos rule"
-- **Panel 2:** Scene. Dialogue: Nam: "I'm not sure if I should enter before or after dinner."
-- **Panel 3:** Scene. Dialogue: Aoi: "What do you mean by 'family bath' here?"
-- **Panel 4:** Scene. Dialogue: Staff: "Small towel stays out of the water."
-- **Panel 5:** Scene. Dialogue: Nam: "Could you explain this part again?"
-- **Panel 6:** Scene. Dialogue: Hook: "Next: Izakaya After Work"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Signs",
-    "text": "wash before bath, no tattoos rule"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "I'm not sure if I should enter before or after dinner."
-  },
-  {
-    "panel": 3,
-    "speaker": "Aoi",
-    "text": "What do you mean by 'family bath' here?"
-  },
-  {
-    "panel": 4,
-    "speaker": "Staff",
-    "text": "Small towel stays out of the water."
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "Could you explain this part again?"
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: Izakaya After Work"
-  }
-]
-```
+- **Panel 1:** Team weekend trip to onsen town. Dialogue: Signs: wash before bath, no tattoos rule
+- **Panel 2:** Nam reads rules nervously. Dialogue: Nam: "I'm not sure if I should enter before or after dinner."
+- **Panel 3:** Aoi explains konyoku vs gender-separated. Dialogue: Aoi: "What do you mean by 'family bath' here?"
+- **Panel 4:** Staff explains towel etiquette. Dialogue: Staff: "Small towel stays out of the water."
+- **Panel 5:** Nam asks again politely. Dialogue: Nam: "Could you explain this part again?"
+- **Panel 6:** Hook. Dialogue: Next: Izakaya After Work
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Traditional ryokan onsen entrance, wooden signs, steam, tatami changing
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Signs: "wash before bath, no tattoos rule"
-Panel 2: Story beat. Speech: Nam: "I'm not sure if I should enter before or after dinner."
-Panel 3: Story beat. Speech: Aoi: "What do you mean by 'family bath' here?"
-Panel 4: Story beat. Speech: Staff: "Small towel stays out of the water."
-Panel 5: Story beat. Speech: Nam: "Could you explain this part again?"
-Panel 6: Story beat. Speech: Hook: "Next: Izakaya After Work"
+Panel 1: Team weekend trip to onsen town.. Speech: Signs: wash before bath, no tattoos rule
+Panel 2: Nam reads rules nervously.. Speech: Nam: "I'm not sure if I should enter before or after dinner."
+Panel 3: Aoi explains konyoku vs gender-separated.. Speech: Aoi: "What do you mean by 'family bath' here?"
+Panel 4: Staff explains towel etiquette.. Speech: Staff: "Small towel stays out of the water."
+Panel 5: Nam asks again politely.. Speech: Nam: "Could you explain this part again?"
+Panel 6: Hook.. Speech: Next: Izakaya After Work
 
 ENGLISH FOCUS box must list:
 - "I'm not sure if I should..." = Tôi không chắc liệu mình có nên...

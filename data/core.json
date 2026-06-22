@@ -2,7 +2,12 @@
   "project": {
     "name": "English Vault: Tokyo Debug Chronicles",
     "type": "manga_webcomic_english_learning_system",
-    "coreLoop": ["Speak", "Fix", "Reuse", "Review"],
+    "coreLoop": [
+      "Speak",
+      "Fix",
+      "Reuse",
+      "Review"
+    ],
     "websiteGoal": "Comic episode -> English Focus -> Pattern card -> Practice prompt -> Review mode",
     "mainPromise": "Learn English patterns through stories and reuse them across travel, software engineering, Japan life, daily life, and work."
   },
@@ -11,7 +16,14 @@
       "id": "decision_hesitation",
       "title": "Decision / Hesitation",
       "purpose": "Use when the learner is unsure, choosing between options, or asking for advice.",
-      "contexts": ["food", "travel", "daily life", "software engineering", "career", "learning"],
+      "contexts": [
+        "food",
+        "travel",
+        "daily life",
+        "software engineering",
+        "career",
+        "learning"
+      ],
       "patterns": [
         "I don’t know what to + verb.",
         "Question word + to + verb.",
@@ -32,7 +44,13 @@
       "id": "preference_opinion",
       "title": "Preference / Opinion",
       "purpose": "Use when the learner wants to say what they prefer, what makes sense, or what option they choose.",
-      "contexts": ["daily life", "travel", "software engineering", "career", "work discussion"],
+      "contexts": [
+        "daily life",
+        "travel",
+        "software engineering",
+        "career",
+        "work discussion"
+      ],
       "patterns": [
         "I prefer A to B.",
         "I like A more than B.",
@@ -64,7 +82,14 @@
       "id": "bug_report_agreement_through",
       "title": "Bug Report + Agreement / Disagreement + Through Verbs",
       "purpose": "Use for software engineering communication: reporting bugs, disagreeing politely, explaining risk, and proposing safe next steps.",
-      "contexts": ["software engineering", "QA", "production", "meetings", "debugging", "release"],
+      "contexts": [
+        "software engineering",
+        "QA",
+        "production",
+        "meetings",
+        "debugging",
+        "release"
+      ],
       "patterns": [
         "The issue is that...",
         "It seems like...",
@@ -112,7 +137,16 @@
             "Could you speak a little more slowly?",
             "Sorry, I missed that."
           ],
-          "phrases": ["ask for", "look up", "find out", "figure out", "check with", "reach out to", "get back to", "follow up on"]
+          "phrases": [
+            "ask for",
+            "look up",
+            "find out",
+            "figure out",
+            "check with",
+            "reach out to",
+            "get back to",
+            "follow up on"
+          ]
         },
         {
           "id": "scheduling_appointment",
@@ -129,7 +163,16 @@
             "I need to reschedule.",
             "Let’s meet at + place."
           ],
-          "phrases": ["set up", "push back", "move up", "put off", "show up", "run late", "fit in", "catch up"]
+          "phrases": [
+            "set up",
+            "push back",
+            "move up",
+            "put off",
+            "show up",
+            "run late",
+            "fit in",
+            "catch up"
+          ]
         },
         {
           "id": "daily_life_survival",
@@ -147,7 +190,18 @@
             "I need to fill out this form.",
             "I’m here to pick up..."
           ],
-          "phrases": ["look for", "pick up", "drop off", "fill out", "sign up for", "check in", "check out", "pay for", "run out of", "deal with"]
+          "phrases": [
+            "look for",
+            "pick up",
+            "drop off",
+            "fill out",
+            "sign up for",
+            "check in",
+            "check out",
+            "pay for",
+            "run out of",
+            "deal with"
+          ]
         },
         {
           "id": "feeling_reaction_small_talk",
@@ -164,7 +218,18 @@
             "It was worth it.",
             "I’m proud of myself."
           ],
-          "phrases": ["look forward to", "calm down", "cheer up", "stress out", "open up", "get used to", "settle in", "hang out", "come across", "bring back"]
+          "phrases": [
+            "look forward to",
+            "calm down",
+            "cheer up",
+            "stress out",
+            "open up",
+            "get used to",
+            "settle in",
+            "hang out",
+            "come across",
+            "bring back"
+          ]
         }
       ]
     },
@@ -172,7 +237,14 @@
       "id": "email_async",
       "title": "Email & Async English",
       "purpose": "Use when writing email, Slack, async standups, follow-ups, and keeping stakeholders in the loop.",
-      "contexts": ["software engineering", "work meeting", "remote work", "Slack", "email", "career"],
+      "contexts": [
+        "software engineering",
+        "work meeting",
+        "remote work",
+        "Slack",
+        "email",
+        "career"
+      ],
       "patterns": [
         "Just following up on...",
         "I wanted to check in on...",
@@ -203,7 +275,12 @@
       "id": "interview_career",
       "title": "Interview & Career English",
       "purpose": "Use in job interviews, career conversations, and professional self-introduction.",
-      "contexts": ["career", "interview", "software-engineering", "work-meeting"],
+      "contexts": [
+        "career",
+        "interview",
+        "software-engineering",
+        "work-meeting"
+      ],
       "patterns": [
         "Tell me about a time when...",
         "What I learned from that was...",
@@ -227,7 +304,12 @@
       "id": "negotiation_boundaries",
       "title": "Negotiation & Boundaries",
       "purpose": "Use when negotiating deadlines, salary, scope, and setting professional boundaries.",
-      "contexts": ["career", "work-meeting", "software-engineering", "remote work"],
+      "contexts": [
+        "career",
+        "work-meeting",
+        "software-engineering",
+        "remote work"
+      ],
       "patterns": [
         "Would it be possible to...?",
         "I'd need at least...",
@@ -252,7 +334,12 @@
       "id": "giving_feedback",
       "title": "Giving Feedback & 1-on-1",
       "purpose": "Use in 1-on-1 meetings, performance reviews, and giving constructive feedback.",
-      "contexts": ["career", "work-meeting", "software-engineering", "mentoring"],
+      "contexts": [
+        "career",
+        "work-meeting",
+        "software-engineering",
+        "mentoring"
+      ],
       "patterns": [
         "One thing that went well was...",
         "One area to improve would be...",
@@ -275,7 +362,12 @@
       "id": "presentation_pitch",
       "title": "Presentation & Pitch English",
       "purpose": "Use when presenting demos, pitching ideas, or explaining to PM and stakeholders.",
-      "contexts": ["career", "work-meeting", "software-engineering", "system-design"],
+      "contexts": [
+        "career",
+        "work-meeting",
+        "software-engineering",
+        "system-design"
+      ],
       "patterns": [
         "Let me walk you through...",
         "The key takeaway is...",
@@ -298,7 +390,12 @@
       "id": "incident_postmortem",
       "title": "Incident & Postmortem English",
       "purpose": "Use in war rooms, incident updates, and blameless postmortem meetings.",
-      "contexts": ["software-engineering", "QA", "production", "work-meeting"],
+      "contexts": [
+        "software-engineering",
+        "QA",
+        "production",
+        "work-meeting"
+      ],
       "patterns": [
         "What we know so far is...",
         "Root cause appears to be...",
@@ -321,7 +418,14 @@
       "id": "get_phrasal_startup",
       "title": "Get Phrasal Verbs — Startup & Tech",
       "purpose": "Use in Silicon Valley / startup work: Slack, standups, ship day, war rooms, career moments.",
-      "contexts": ["software-engineering", "work-meeting", "remote work", "Slack", "career", "startup"],
+      "contexts": [
+        "software-engineering",
+        "work-meeting",
+        "remote work",
+        "Slack",
+        "career",
+        "startup"
+      ],
       "patterns": [
         "Can you loop me in on...?",
         "I need to get up to speed on...",
@@ -362,7 +466,13 @@
       "id": "get_phrasal_travel",
       "title": "Get Phrasal Verbs — Travel & Movement",
       "purpose": "Use when traveling: trains, hotels, directions, weather delays, exploring new places.",
-      "contexts": ["travel", "transport", "hotel", "directions", "weather"],
+      "contexts": [
+        "travel",
+        "transport",
+        "hotel",
+        "directions",
+        "weather"
+      ],
       "patterns": [
         "How do I get to...?",
         "I need to get checked in.",
@@ -399,7 +509,12 @@
       "id": "get_phrasal_everyday",
       "title": "Get Phrasal Verbs — Everyday English",
       "purpose": "Use when learning English daily: meetups, homework, building confidence.",
-      "contexts": ["learning", "daily-life", "meetup", "study"],
+      "contexts": [
+        "learning",
+        "daily-life",
+        "meetup",
+        "study"
+      ],
       "patterns": [
         "I'm still getting used to...",
         "Let me get ready first.",
@@ -420,98 +535,1132 @@
         "get a ride"
       ],
       "masterCombo": "I'm still getting used to speaking English at meetups. Let me get ready — I need to get through this lesson first. Oh, I get it now! I'll get back to homework after work. My English isn't perfect, but I can get by."
+    },
+    {
+      "id": "look_phrasal_bigtech",
+      "title": "Look Phrasal Verbs — Big Tech SF",
+      "purpose": "Use look phrasals in SF engineering: debug, PR review, postmortem, mentoring.",
+      "contexts": [
+        "software-engineering",
+        "work-meeting",
+        "debug",
+        "startup"
+      ],
+      "patterns": [
+        "Let me look into...",
+        "Let me look up...",
+        "Let me look out for...",
+        "Let me look through...",
+        "Let me look over...",
+        "Let me look like...",
+        "Let me look forward to...",
+        "Let me look back on...",
+        "Let me look up to...",
+        "Let me look after..."
+      ],
+      "phrases": [
+        "look into",
+        "look up",
+        "look out for",
+        "look through",
+        "look over",
+        "look like",
+        "look forward to",
+        "look back on",
+        "look up to",
+        "look after",
+        "look for",
+        "look around"
+      ],
+      "masterCombo": "(look into) (look up) (look out for) (look through) (look over) (look like) (look forward to) (look back on)"
+    },
+    {
+      "id": "look_phrasal_wallstreet",
+      "title": "Look Phrasal Verbs — Wall Street NYC",
+      "purpose": "Use look phrasals in finance: due diligence, earnings, IPO, trading floor.",
+      "contexts": [
+        "finance",
+        "work-meeting",
+        "Wall Street",
+        "career"
+      ],
+      "patterns": [
+        "Let me look around...",
+        "Let me look into...",
+        "Let me look out for...",
+        "Let me look through...",
+        "Let me look over...",
+        "Let me look like...",
+        "Let me look forward to...",
+        "Let me look back on...",
+        "Let me look up to...",
+        "Let me look for..."
+      ],
+      "phrases": [
+        "look around",
+        "look into",
+        "look out for",
+        "look through",
+        "look over",
+        "look like",
+        "look forward to",
+        "look back on",
+        "look up to",
+        "look for"
+      ],
+      "masterCombo": "(look around) (look into) (look out for) (look through) (look over) (look like) (look forward to) (look back on)"
+    },
+    {
+      "id": "look_phrasal_everyday",
+      "title": "Look Phrasal Verbs — US Daily Life",
+      "purpose": "Use look phrasals in everyday US life: apartment hunt, dining, meetups.",
+      "contexts": [
+        "daily-life",
+        "learning",
+        "meetup",
+        "apartment"
+      ],
+      "patterns": [
+        "Let me look for...",
+        "Let me look around...",
+        "Let me look like...",
+        "Let me look through...",
+        "Let me look up...",
+        "Let me look forward to...",
+        "Let me look back on...",
+        "Let me look after..."
+      ],
+      "phrases": [
+        "look for",
+        "look around",
+        "look like",
+        "look through",
+        "look up",
+        "look forward to",
+        "look back on",
+        "look after"
+      ],
+      "masterCombo": "(look for) (look around) (look like) (look through) (look up) (look forward to) (look back on) (look after)"
+    },
+    {
+      "id": "take_phrasal_bigtech",
+      "title": "Take Phrasal Verbs — Big Tech SF",
+      "purpose": "Use take phrasals in SF tech: on-call, ownership, launch, code review heat.",
+      "contexts": [
+        "software-engineering",
+        "on-call",
+        "startup",
+        "career"
+      ],
+      "patterns": [
+        "Let me take over...",
+        "Let me take on...",
+        "Let me take care of...",
+        "Let me take apart...",
+        "Let me take down...",
+        "Let me take note of...",
+        "Let me take off...",
+        "Let me take up...",
+        "Let me take back...",
+        "Let me take ownership..."
+      ],
+      "phrases": [
+        "take over",
+        "take on",
+        "take care of",
+        "take apart",
+        "take down",
+        "take note of",
+        "take off",
+        "take up",
+        "take back",
+        "take ownership",
+        "take responsibility",
+        "take initiative",
+        "take the heat",
+        "take feedback",
+        "take it in stride",
+        "take stock",
+        "take a step back",
+        "take it from here"
+      ],
+      "masterCombo": "(take over) (take on) (take care of) (take apart) (take down) (take note of) (take off) (take up)"
+    },
+    {
+      "id": "take_phrasal_wallstreet",
+      "title": "Take Phrasal Verbs — Wall Street NYC",
+      "purpose": "Use take phrasals in finance: positions, risk, desk lead, compliance.",
+      "contexts": [
+        "finance",
+        "trading",
+        "Wall Street",
+        "career"
+      ],
+      "patterns": [
+        "Let me take a position...",
+        "Let me take a risk...",
+        "Let me take profit...",
+        "Let me take heat...",
+        "Let me take responsibility...",
+        "Let me take note of...",
+        "Let me take over...",
+        "Let me take on...",
+        "Let me take charge...",
+        "Let me take offline..."
+      ],
+      "phrases": [
+        "take a position",
+        "take a risk",
+        "take profit",
+        "take heat",
+        "take responsibility",
+        "take note of",
+        "take over",
+        "take on",
+        "take charge",
+        "take offline",
+        "take down notes",
+        "take it up with",
+        "take stock",
+        "take a step back",
+        "take the lead"
+      ],
+      "masterCombo": "(take a position) (take a risk) (take profit) (take heat) (take responsibility) (take note of) (take over) (take on)"
+    },
+    {
+      "id": "take_phrasal_everyday",
+      "title": "Take Phrasal Verbs — US Daily Life",
+      "purpose": "Use take phrasals daily: chores, dinner, habits, reflection.",
+      "contexts": [
+        "daily-life",
+        "learning",
+        "roommate",
+        "social"
+      ],
+      "patterns": [
+        "Let me take out...",
+        "Let me take off...",
+        "Let me take care of...",
+        "Let me take your time...",
+        "Let me take a seat...",
+        "Let me take it easy...",
+        "Let me take it from here...",
+        "Let me take stock...",
+        "Let me take on new habits..."
+      ],
+      "phrases": [
+        "take out",
+        "take off",
+        "take care of",
+        "take your time",
+        "take a seat",
+        "take it easy",
+        "take it from here",
+        "take stock",
+        "take on new habits"
+      ],
+      "masterCombo": "(take out) (take off) (take care of) (take your time) (take a seat) (take it easy) (take it from here) (take stock)"
+    },
+    {
+      "id": "put_phrasal_bigtech",
+      "title": "Put Phrasal Verbs — Big Tech SF",
+      "purpose": "Use put phrasals at work: proposals, hold, writing, scope cuts.",
+      "contexts": [
+        "software-engineering",
+        "meetings",
+        "RFC",
+        "startup"
+      ],
+      "patterns": [
+        "Let me put off...",
+        "Let me put aside...",
+        "Let me put together...",
+        "Let me put forward...",
+        "Let me put forth...",
+        "Let me put in a request...",
+        "Let me put on hold...",
+        "Let me put back...",
+        "Let me put through...",
+        "Let me put your head down..."
+      ],
+      "phrases": [
+        "put off",
+        "put aside",
+        "put together",
+        "put forward",
+        "put forth",
+        "put in a request",
+        "put on hold",
+        "put back",
+        "put through",
+        "put your head down",
+        "put in the hours",
+        "put effort into",
+        "put in writing",
+        "put down",
+        "put across",
+        "put to rest",
+        "put the pieces together",
+        "put it behind us"
+      ],
+      "masterCombo": "(put off) (put aside) (put together) (put forward) (put forth) (put in a request) (put on hold) (put back)"
+    },
+    {
+      "id": "put_phrasal_wallstreet",
+      "title": "Put Phrasal Verbs — Wall Street NYC",
+      "purpose": "Use put phrasals in deals: pitch, hold, negotiation, compliance.",
+      "contexts": [
+        "finance",
+        "deals",
+        "Wall Street",
+        "negotiation"
+      ],
+      "patterns": [
+        "Let me put money on...",
+        "Let me put at risk...",
+        "Let me put aside...",
+        "Let me put forward...",
+        "Let me put forth...",
+        "Let me put together...",
+        "Let me put on hold...",
+        "Let me put back...",
+        "Let me put through...",
+        "Let me put on the table..."
+      ],
+      "phrases": [
+        "put money on",
+        "put at risk",
+        "put aside",
+        "put forward",
+        "put forth",
+        "put together",
+        "put on hold",
+        "put back",
+        "put through",
+        "put on the table",
+        "put across",
+        "put in writing",
+        "put to rest",
+        "put behind us"
+      ],
+      "masterCombo": "(put money on) (put at risk) (put aside) (put forward) (put forth) (put together) (put on hold) (put back)"
+    },
+    {
+      "id": "put_phrasal_everyday",
+      "title": "Put Phrasal Verbs — US Daily Life",
+      "purpose": "Use put phrasals daily: surprises, roommates, peace of mind.",
+      "contexts": [
+        "daily-life",
+        "learning",
+        "apartment",
+        "social"
+      ],
+      "patterns": [
+        "Let me put together...",
+        "Let me put up...",
+        "Let me put away...",
+        "Let me put up with...",
+        "Let me put off...",
+        "Let me put aside...",
+        "Let me put to rest...",
+        "Let me put your mind at ease...",
+        "Let me put it behind you..."
+      ],
+      "phrases": [
+        "put together",
+        "put up",
+        "put away",
+        "put up with",
+        "put off",
+        "put aside",
+        "put to rest",
+        "put your mind at ease",
+        "put it behind you"
+      ],
+      "masterCombo": "(put together) (put up) (put away) (put up with) (put off) (put aside) (put to rest) (put your mind at ease)"
+    },
+    {
+      "id": "come_phrasal_bigtech",
+      "title": "Come Phrasal Verbs — Big Tech SF",
+      "purpose": "Use come phrasals in tech: bugs, deadlines, burnout, standup.",
+      "contexts": [
+        "software-engineering",
+        "deadlines",
+        "burnout",
+        "startup"
+      ],
+      "patterns": [
+        "Let me come across...",
+        "Let me come up with...",
+        "Let me come to terms with...",
+        "Let me come up against...",
+        "Let me come down to...",
+        "Let me come through...",
+        "Let me come around to...",
+        "Let me come to think of it...",
+        "Let me come clean...",
+        "Let me come back from..."
+      ],
+      "phrases": [
+        "come across",
+        "come up with",
+        "come to terms with",
+        "come up against",
+        "come down to",
+        "come through",
+        "come around to",
+        "come to think of it",
+        "come clean",
+        "come back from",
+        "come out of",
+        "come to grips with",
+        "come up",
+        "come through for",
+        "come full circle",
+        "come a long way",
+        "come to realize"
+      ],
+      "masterCombo": "(come across) (come up with) (come to terms with) (come up against) (come down to) (come through) (come around to) (come to think of it)"
+    },
+    {
+      "id": "come_phrasal_wallstreet",
+      "title": "Come Phrasal Verbs — Wall Street NYC",
+      "purpose": "Use come phrasals in finance: risk, merger, losses, recovery.",
+      "contexts": [
+        "finance",
+        "trading",
+        "merger",
+        "Wall Street"
+      ],
+      "patterns": [
+        "Let me come across...",
+        "Let me come up with...",
+        "Let me come to light...",
+        "Let me come down to...",
+        "Let me come up against...",
+        "Let me come through...",
+        "Let me come around to...",
+        "Let me come to terms with...",
+        "Let me come clean...",
+        "Let me come back from..."
+      ],
+      "phrases": [
+        "come across",
+        "come up with",
+        "come to light",
+        "come down to",
+        "come up against",
+        "come through",
+        "come around to",
+        "come to terms with",
+        "come clean",
+        "come back from",
+        "come out ahead",
+        "come to grips with",
+        "come full circle",
+        "come a long way",
+        "come to realize"
+      ],
+      "masterCombo": "(come across) (come up with) (come to light) (come down to) (come up against) (come through) (come around to) (come to terms with)"
+    },
+    {
+      "id": "come_phrasal_everyday",
+      "title": "Come Phrasal Verbs — US Daily Life",
+      "purpose": "Use come phrasals daily: dinner invites, illness, gratitude.",
+      "contexts": [
+        "daily-life",
+        "learning",
+        "health",
+        "social"
+      ],
+      "patterns": [
+        "Let me come over...",
+        "Let me come by...",
+        "Let me come up with...",
+        "Let me come down with...",
+        "Let me come around...",
+        "Let me come back...",
+        "Let me come full circle...",
+        "Let me come a long way...",
+        "Let me come to appreciate..."
+      ],
+      "phrases": [
+        "come over",
+        "come by",
+        "come up with",
+        "come down with",
+        "come around",
+        "come back",
+        "come full circle",
+        "come a long way",
+        "come to appreciate"
+      ],
+      "masterCombo": "(come over) (come by) (come up with) (come down with) (come around) (come back) (come full circle) (come a long way)"
+    },
+    {
+      "id": "go_phrasal_bigtech",
+      "title": "Go Phrasal Verbs — Big Tech SF",
+      "purpose": "Use go phrasals in engineering: postmortem, merge, launch, architecture.",
+      "contexts": [
+        "software-engineering",
+        "postmortem",
+        "deploy",
+        "architecture"
+      ],
+      "patterns": [
+        "Let me go over...",
+        "Let me go through...",
+        "Let me go with...",
+        "Let me go ahead...",
+        "Let me go along with...",
+        "Let me go back to...",
+        "Let me go down...",
+        "Let me go off...",
+        "Let me go wrong...",
+        "Let me go through with..."
+      ],
+      "phrases": [
+        "go over",
+        "go through",
+        "go with",
+        "go ahead",
+        "go along with",
+        "go back to",
+        "go down",
+        "go off",
+        "go wrong",
+        "go through with",
+        "go with the flow",
+        "go deep on",
+        "go beyond",
+        "go a long way",
+        "go hand in hand",
+        "go the extra mile"
+      ],
+      "masterCombo": "(go over) (go through) (go with) (go ahead) (go along with) (go back to) (go down) (go off)"
+    },
+    {
+      "id": "go_phrasal_wallstreet",
+      "title": "Go Phrasal Verbs — Wall Street NYC",
+      "purpose": "Use go phrasals in finance: earnings, trades, market moves, audit.",
+      "contexts": [
+        "finance",
+        "trading",
+        "compliance",
+        "Wall Street"
+      ],
+      "patterns": [
+        "Let me go over...",
+        "Let me go through...",
+        "Let me go with...",
+        "Let me go ahead...",
+        "Let me go along with...",
+        "Let me go back on...",
+        "Let me go down...",
+        "Let me go off...",
+        "Let me go wrong...",
+        "Let me go by the book..."
+      ],
+      "phrases": [
+        "go over",
+        "go through",
+        "go with",
+        "go ahead",
+        "go along with",
+        "go back on",
+        "go down",
+        "go off",
+        "go wrong",
+        "go by the book",
+        "go a long way",
+        "go hand in hand",
+        "go the extra mile"
+      ],
+      "masterCombo": "(go over) (go through) (go with) (go ahead) (go along with) (go back on) (go down) (go off)"
+    },
+    {
+      "id": "go_phrasal_everyday",
+      "title": "Go Phrasal Verbs — US Daily Life",
+      "purpose": "Use go phrasals daily: groceries, friends, milestones.",
+      "contexts": [
+        "daily-life",
+        "learning",
+        "social",
+        "shopping"
+      ],
+      "patterns": [
+        "Let me go over...",
+        "Let me go through...",
+        "Let me go with...",
+        "Let me go out...",
+        "Let me go for it...",
+        "Let me go along with...",
+        "Let me go a long way...",
+        "Let me go hand in hand...",
+        "Let me go the extra mile..."
+      ],
+      "phrases": [
+        "go over",
+        "go through",
+        "go with",
+        "go out",
+        "go for it",
+        "go along with",
+        "go a long way",
+        "go hand in hand",
+        "go the extra mile"
+      ],
+      "masterCombo": "(go over) (go through) (go with) (go out) (go for it) (go along with) (go a long way) (go hand in hand)"
+    },
+    {
+      "id": "customer_support",
+      "title": "Customer Support English",
+      "purpose": "Professional support language: tickets, escalation, follow-up, angry callers.",
+      "contexts": [
+        "customer-support",
+        "work-meeting",
+        "phone",
+        "career"
+      ],
+      "patterns": [
+        "Let me look into...",
+        "Let me follow up...",
+        "Let me get back to...",
+        "Let me escalate...",
+        "Let me hand off...",
+        "Let me take ownership...",
+        "Let me walk through...",
+        "Let me follow up on...",
+        "Let me put through...",
+        "Let me stay calm..."
+      ],
+      "phrases": [
+        "look into",
+        "follow up",
+        "get back to",
+        "escalate",
+        "hand off",
+        "take ownership",
+        "walk through",
+        "follow up on",
+        "put through",
+        "stay calm",
+        "come back to",
+        "follow through",
+        "wrap up",
+        "take care of"
+      ],
+      "masterCombo": "(look into) (follow up) (get back to) (escalate) (hand off) (take ownership) (walk through) (follow up on)"
+    },
+    {
+      "id": "health_clinic",
+      "title": "Health & Clinic English",
+      "purpose": "US healthcare English: appointments, symptoms, insurance forms, follow-up.",
+      "contexts": [
+        "health",
+        "clinic",
+        "daily-life",
+        "appointment"
+      ],
+      "patterns": [
+        "Let me make an appointment...",
+        "Let me come in...",
+        "Let me look into...",
+        "Let me come down with...",
+        "Let me go through...",
+        "Let me take care of...",
+        "Let me fill out...",
+        "Let me look over...",
+        "Let me put down...",
+        "Let me follow up..."
+      ],
+      "phrases": [
+        "make an appointment",
+        "come in",
+        "look into",
+        "come down with",
+        "go through",
+        "take care of",
+        "fill out",
+        "look over",
+        "put down",
+        "follow up",
+        "come back",
+        "take it easy",
+        "look after yourself",
+        "come around"
+      ],
+      "masterCombo": "(make an appointment) (come in) (look into) (come down with) (go through) (take care of) (fill out) (look over)"
+    },
+    {
+      "id": "side_project",
+      "title": "Side Project English",
+      "purpose": "Indie builder English: MVP, feedback, launch, iterate.",
+      "contexts": [
+        "side-project",
+        "startup",
+        "launch",
+        "career"
+      ],
+      "patterns": [
+        "Let me take on...",
+        "Let me put together...",
+        "Let me go for it...",
+        "Let me take feedback...",
+        "Let me go through...",
+        "Let me come up with...",
+        "Let me go live...",
+        "Let me go down...",
+        "Let me look out for...",
+        "Let me go back to..."
+      ],
+      "phrases": [
+        "take on",
+        "put together",
+        "go for it",
+        "take feedback",
+        "go through",
+        "come up with",
+        "go live",
+        "go down",
+        "look out for",
+        "go back to",
+        "take stock",
+        "go a long way",
+        "look forward to"
+      ],
+      "masterCombo": "(take on) (put together) (go for it) (take feedback) (go through) (come up with) (go live) (go down)"
+    },
+    {
+      "id": "remote_async",
+      "title": "Remote & Async English",
+      "purpose": "Distributed team English: async standup, RFC, handoff, timezone gaps.",
+      "contexts": [
+        "remote work",
+        "async",
+        "Slack",
+        "software-engineering"
+      ],
+      "patterns": [
+        "Let me follow up...",
+        "Let me get back to...",
+        "Let me come through...",
+        "Let me put in writing...",
+        "Let me go over...",
+        "Let me take note of...",
+        "Let me hand off...",
+        "Let me pick up...",
+        "Let me come through for...",
+        "Let me go async..."
+      ],
+      "phrases": [
+        "follow up",
+        "get back to",
+        "come through",
+        "put in writing",
+        "go over",
+        "take note of",
+        "hand off",
+        "pick up",
+        "come through for",
+        "go async",
+        "take ownership",
+        "look ahead"
+      ],
+      "masterCombo": "(follow up) (get back to) (come through) (put in writing) (go over) (take note of) (hand off) (pick up)"
+    },
+    {
+      "id": "phrasal_review",
+      "title": "Phrasal Verbs Grand Review",
+      "purpose": "Mixed review of look, take, put, come, go across all contexts.",
+      "contexts": [
+        "phrasal-verbs",
+        "review",
+        "learning",
+        "career"
+      ],
+      "patterns": [
+        "Let me look into...",
+        "Let me look out for...",
+        "Let me look forward to...",
+        "Let me put off...",
+        "Let me come through...",
+        "Let me go ahead...",
+        "Let me look / take / put / come / go...",
+        "Let me go a long way...",
+        "Let me come full circle..."
+      ],
+      "phrases": [
+        "look into",
+        "look out for",
+        "look forward to",
+        "put off",
+        "come through",
+        "go ahead",
+        "look / take / put / come / go",
+        "go a long way",
+        "come full circle"
+      ],
+      "masterCombo": "(look into) (look out for) (look forward to) (put off) (come through) (go ahead) (look / take / put / come / go) (go a long way)"
     }
   ],
   "arcs": [
     {
       "id": "traveling_japan",
       "title": "Traveling Japan Arc — English on the Road",
-      "focus": ["travel choices", "trains", "hotels", "food", "stations", "Kyoto", "Mount Fuji", "confidence"],
+      "focus": [
+        "travel choices",
+        "trains",
+        "hotels",
+        "food",
+        "stations",
+        "Kyoto",
+        "Mount Fuji",
+        "confidence"
+      ],
       "episodeRange": "11-25"
     },
     {
       "id": "living_in_japan",
       "title": "Living in Japan Arc — English for Real Life",
-      "focus": ["apartment", "contract", "appointment", "forms", "konbini", "bank", "clinic", "daily confidence"],
+      "focus": [
+        "apartment",
+        "contract",
+        "appointment",
+        "forms",
+        "konbini",
+        "bank",
+        "clinic",
+        "daily confidence"
+      ],
       "episodeRange": "26-40"
     },
     {
       "id": "career_growth",
       "title": "Career Growth Arc — Nam Speaks Up at Work",
-      "focus": ["code review", "performance issue", "disagreement", "architecture", "demo", "mentoring", "incident recap", "speaking up"],
+      "focus": [
+        "code review",
+        "performance issue",
+        "disagreement",
+        "architecture",
+        "demo",
+        "mentoring",
+        "incident recap",
+        "speaking up"
+      ],
       "episodeRange": "41-50"
     },
     {
       "id": "system_design",
       "title": "System Design Arc — Thinking Bigger",
-      "focus": ["architecture", "scalability", "trade-offs", "technical leadership", "product communication"],
+      "focus": [
+        "architecture",
+        "scalability",
+        "trade-offs",
+        "technical leadership",
+        "product communication"
+      ],
       "episodeRange": "51-60"
     },
     {
       "id": "email_async_arc",
       "title": "Email & Async Arc — Write Like a Pro",
-      "focus": ["email", "Slack", "follow-up", "async standup", "professional writing"],
+      "focus": [
+        "email",
+        "Slack",
+        "follow-up",
+        "async standup",
+        "professional writing"
+      ],
       "episodeRange": "61-65"
     },
     {
       "id": "japan_culture",
       "title": "Japan Culture Arc — Explore Beyond the Guidebook",
-      "focus": ["shrine etiquette", "onsen", "izakaya", "hanami", "omotenashi", "matsuri", "cultural customs", "after-work exploration"],
+      "focus": [
+        "shrine etiquette",
+        "onsen",
+        "izakaya",
+        "hanami",
+        "omotenashi",
+        "matsuri",
+        "cultural customs",
+        "after-work exploration"
+      ],
       "episodeRange": "66-72"
     },
     {
       "id": "anime_manga",
       "title": "Anime & Manga Arc — Dive Into Otaku Japan",
-      "focus": ["Akihabara", "manga cafe", "anime pilgrimage", "figure shop", "otaku culture", "anime small talk", "weekend exploration"],
+      "focus": [
+        "Akihabara",
+        "manga cafe",
+        "anime pilgrimage",
+        "figure shop",
+        "otaku culture",
+        "anime small talk",
+        "weekend exploration"
+      ],
       "episodeRange": "73-78"
     },
     {
       "id": "interview_career_arc",
       "title": "Interview & Career Arc — Land Your Next Role",
-      "focus": ["phone screen", "behavioral questions", "STAR stories", "salary talk", "career goals"],
+      "focus": [
+        "phone screen",
+        "behavioral questions",
+        "STAR stories",
+        "salary talk",
+        "career goals"
+      ],
       "episodeRange": "79-84"
     },
     {
       "id": "negotiation_boundaries_arc",
       "title": "Negotiation & Boundaries Arc — Push Back Like a Pro",
-      "focus": ["deadlines", "scope creep", "salary", "boundaries", "trade-offs"],
+      "focus": [
+        "deadlines",
+        "scope creep",
+        "salary",
+        "boundaries",
+        "trade-offs"
+      ],
       "episodeRange": "85-89"
     },
     {
       "id": "giving_feedback_arc",
       "title": "Feedback & 1-on-1 Arc — Lead Through Conversations",
-      "focus": ["1-on-1", "constructive feedback", "mentoring", "performance review", "support"],
+      "focus": [
+        "1-on-1",
+        "constructive feedback",
+        "mentoring",
+        "performance review",
+        "support"
+      ],
       "episodeRange": "90-94"
     },
     {
       "id": "presentation_pitch_arc",
       "title": "Presentation & Pitch Arc — Demo Like a Pro",
-      "focus": ["demo structure", "walk through", "key takeaway", "Q&A", "stakeholder pitch"],
+      "focus": [
+        "demo structure",
+        "walk through",
+        "key takeaway",
+        "Q&A",
+        "stakeholder pitch"
+      ],
       "episodeRange": "95-99"
     },
     {
       "id": "incident_postmortem_arc",
       "title": "Incident & Postmortem Arc — Blameless Communication",
-      "focus": ["war room", "status updates", "root cause", "action items", "postmortem"],
+      "focus": [
+        "war room",
+        "status updates",
+        "root cause",
+        "action items",
+        "postmortem"
+      ],
       "episodeRange": "100-104"
     },
     {
       "id": "silicon_valley_get_arc",
       "title": "Silicon Valley Get Arc — Startup English",
-      "focus": ["loop in", "buy-in", "blocked", "ship day", "war room", "promotion", "acquisition"],
+      "focus": [
+        "loop in",
+        "buy-in",
+        "blocked",
+        "ship day",
+        "war room",
+        "promotion",
+        "acquisition"
+      ],
       "episodeRange": "105-110"
     },
     {
       "id": "switzerland_travel_arc",
       "title": "Switzerland Travel Arc — Get Around the Alps",
-      "focus": ["trains", "hotels", "mountains", "snow", "directions", "travel confidence"],
+      "focus": [
+        "trains",
+        "hotels",
+        "mountains",
+        "snow",
+        "directions",
+        "travel confidence"
+      ],
       "episodeRange": "111-115"
     },
     {
       "id": "english_everyday_get_arc",
       "title": "Everyday Get Arc — Learning English Daily",
-      "focus": ["meetup", "get it", "get by", "get used to", "daily confidence"],
+      "focus": [
+        "meetup",
+        "get it",
+        "get by",
+        "get used to",
+        "daily confidence"
+      ],
       "episodeRange": "116-118"
+    },
+    {
+      "id": "silicon_valley_look_arc",
+      "title": "Silicon Valley Look Arc",
+      "focus": [
+        "Debug, PR, postmortem"
+      ],
+      "episodeRange": "119-124"
+    },
+    {
+      "id": "wall_street_look_arc",
+      "title": "Wall Street Look Arc",
+      "focus": [
+        "IPO, trading floor, due diligence"
+      ],
+      "episodeRange": "125-129"
+    },
+    {
+      "id": "english_everyday_look_arc",
+      "title": "Everyday Look Arc",
+      "focus": [
+        "Apartment hunt, daily life"
+      ],
+      "episodeRange": "130-132"
+    },
+    {
+      "id": "silicon_valley_take_arc",
+      "title": "Silicon Valley Take Arc",
+      "focus": [
+        "On-call, ownership, launch"
+      ],
+      "episodeRange": "133-138"
+    },
+    {
+      "id": "wall_street_take_arc",
+      "title": "Wall Street Take Arc",
+      "focus": [
+        "Positions, risk, desk lead"
+      ],
+      "episodeRange": "139-143"
+    },
+    {
+      "id": "english_everyday_take_arc",
+      "title": "Everyday Take Arc",
+      "focus": [
+        "Chores, dinner, habits"
+      ],
+      "episodeRange": "144-146"
+    },
+    {
+      "id": "silicon_valley_put_arc",
+      "title": "Silicon Valley Put Arc",
+      "focus": [
+        "Proposals, hold, writing"
+      ],
+      "episodeRange": "147-152"
+    },
+    {
+      "id": "wall_street_put_arc",
+      "title": "Wall Street Put Arc",
+      "focus": [
+        "Deals, pitches, compliance"
+      ],
+      "episodeRange": "153-157"
+    },
+    {
+      "id": "english_everyday_put_arc",
+      "title": "Everyday Put Arc",
+      "focus": [
+        "Surprises, roommates, peace of mind"
+      ],
+      "episodeRange": "158-160"
+    },
+    {
+      "id": "silicon_valley_come_arc",
+      "title": "Silicon Valley Come Arc",
+      "focus": [
+        "Bugs, deadlines, burnout recovery"
+      ],
+      "episodeRange": "161-166"
+    },
+    {
+      "id": "wall_street_come_arc",
+      "title": "Wall Street Come Arc",
+      "focus": [
+        "Risk, merger, losses"
+      ],
+      "episodeRange": "167-171"
+    },
+    {
+      "id": "english_everyday_come_arc",
+      "title": "Everyday Come Arc",
+      "focus": [
+        "Dinner invites, illness, gratitude"
+      ],
+      "episodeRange": "172-174"
+    },
+    {
+      "id": "silicon_valley_go_arc",
+      "title": "Silicon Valley Go Arc",
+      "focus": [
+        "Postmortem, merge, architecture"
+      ],
+      "episodeRange": "175-180"
+    },
+    {
+      "id": "wall_street_go_arc",
+      "title": "Wall Street Go Arc",
+      "focus": [
+        "Earnings, trades, audit"
+      ],
+      "episodeRange": "181-185"
+    },
+    {
+      "id": "english_everyday_go_arc",
+      "title": "Everyday Go Arc",
+      "focus": [
+        "Groceries, friends, milestones"
+      ],
+      "episodeRange": "186-188"
+    },
+    {
+      "id": "customer_support_arc",
+      "title": "Customer Support Arc",
+      "focus": [
+        "Tickets, escalation, follow-up"
+      ],
+      "episodeRange": "189-193"
+    },
+    {
+      "id": "health_clinic_arc",
+      "title": "Health Clinic Arc",
+      "focus": [
+        "Appointments, symptoms, insurance"
+      ],
+      "episodeRange": "194-198"
+    },
+    {
+      "id": "side_project_arc",
+      "title": "Side Project Arc",
+      "focus": [
+        "MVP, feedback, launch day"
+      ],
+      "episodeRange": "199-203"
+    },
+    {
+      "id": "remote_async_arc",
+      "title": "Remote Async Arc",
+      "focus": [
+        "Timezone, RFC, handoff"
+      ],
+      "episodeRange": "204-207"
+    },
+    {
+      "id": "phrasal_review_arc",
+      "title": "Phrasal Review Arc",
+      "focus": [
+        "Grand recap look/take/put/come/go"
+      ],
+      "episodeRange": "208-210"
     }
   ],
   "episodeSchema": {
@@ -519,12 +1668,22 @@
     "title": "string",
     "arc": "string",
     "image": "string",
-    "contexts": ["string"],
+    "contexts": [
+      "string"
+    ],
     "summary": "string",
-    "dialogue": ["string"],
-    "patterns": ["string"],
-    "phrasalVerbs": ["string"],
-    "englishFocus": ["string"],
+    "dialogue": [
+      "string"
+    ],
+    "patterns": [
+      "string"
+    ],
+    "phrasalVerbs": [
+      "string"
+    ],
+    "englishFocus": [
+      "string"
+    ],
     "commonMistakes": [
       {
         "wrong": "string",
@@ -532,7 +1691,9 @@
         "why": "string"
       }
     ],
-    "practicePrompts": ["string"],
+    "practicePrompts": [
+      "string"
+    ],
     "hook": "string"
   },
   "sampleEpisode": {
@@ -540,7 +1701,11 @@
     "title": "Quick Patch or Full Refactor?",
     "arc": "Career Growth Arc — Nam Speaks Up at Work",
     "image": "/images/episode-45.png",
-    "contexts": ["software-engineering", "work-meeting", "decision"],
+    "contexts": [
+      "software-engineering",
+      "work-meeting",
+      "decision"
+    ],
     "patterns": [
       "I’m torn between A and B.",
       "I’m leaning toward A because...",

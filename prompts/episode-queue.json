@@ -815,7 +815,11 @@
     "num": 105,
     "title": "Can You Loop Me In?",
     "slug": "can-you-loop-me-in",
-    "focus": ["get looped in", "get pinged", "get up to speed"]
+    "focus": [
+      "get looped in",
+      "get pinged",
+      "get up to speed"
+    ]
   },
   {
     "file": "silicon-valley-get-t106-comic.md",
@@ -823,7 +827,11 @@
     "num": 106,
     "title": "We Need Buy-In",
     "slug": "we-need-buy-in",
-    "focus": ["get buy-in", "get aligned", "get the ball rolling"]
+    "focus": [
+      "get buy-in",
+      "get aligned",
+      "get the ball rolling"
+    ]
   },
   {
     "file": "silicon-valley-get-t107-comic.md",
@@ -831,7 +839,11 @@
     "num": 107,
     "title": "Blocked on Dependencies",
     "slug": "blocked-on-dependencies",
-    "focus": ["get blocked", "get unblocked", "get through"]
+    "focus": [
+      "get blocked",
+      "get unblocked",
+      "get through"
+    ]
   },
   {
     "file": "silicon-valley-get-t108-comic.md",
@@ -839,7 +851,11 @@
     "num": 108,
     "title": "Ship It Friday",
     "slug": "ship-it-friday",
-    "focus": ["get shipped", "get sign-off", "get ready"]
+    "focus": [
+      "get shipped",
+      "get sign-off",
+      "get ready"
+    ]
   },
   {
     "file": "silicon-valley-get-t109-comic.md",
@@ -847,7 +863,11 @@
     "num": 109,
     "title": "Pulled Into the War Room",
     "slug": "pulled-into-the-war-room",
-    "focus": ["get pulled into", "get stuck", "get back to"]
+    "focus": [
+      "get pulled into",
+      "get stuck",
+      "get back to"
+    ]
   },
   {
     "file": "silicon-valley-get-t110-comic.md",
@@ -855,7 +875,11 @@
     "num": 110,
     "title": "The Acquisition News",
     "slug": "the-acquisition-news",
-    "focus": ["get face time", "get promoted", "get acquired"]
+    "focus": [
+      "get face time",
+      "get promoted",
+      "get acquired"
+    ]
   },
   {
     "file": "switzerland-travel-t111-comic.md",
@@ -863,7 +887,11 @@
     "num": 111,
     "title": "Landing in Zurich",
     "slug": "landing-in-zurich",
-    "focus": ["get to", "get checked in", "get your bearings"]
+    "focus": [
+      "get to",
+      "get checked in",
+      "get your bearings"
+    ]
   },
   {
     "file": "switzerland-travel-t112-comic.md",
@@ -871,7 +899,11 @@
     "num": 112,
     "title": "The Glacier Express",
     "slug": "the-glacier-express",
-    "focus": ["get a ticket", "get on", "get off"]
+    "focus": [
+      "get a ticket",
+      "get on",
+      "get off"
+    ]
   },
   {
     "file": "switzerland-travel-t113-comic.md",
@@ -879,7 +911,11 @@
     "num": 113,
     "title": "View from the Top",
     "slug": "view-from-the-top",
-    "focus": ["get a view of", "get altitude sickness", "get change"]
+    "focus": [
+      "get a view of",
+      "get altitude sickness",
+      "get change"
+    ]
   },
   {
     "file": "switzerland-travel-t114-comic.md",
@@ -887,7 +923,11 @@
     "num": 114,
     "title": "Snowed In at Zermatt",
     "slug": "snowed-in-at-zermatt",
-    "focus": ["get snowed in", "get held up", "get by"]
+    "focus": [
+      "get snowed in",
+      "get held up",
+      "get by"
+    ]
   },
   {
     "file": "switzerland-travel-t115-comic.md",
@@ -895,7 +935,11 @@
     "num": 115,
     "title": "Lost on the Alpine Trail",
     "slug": "lost-on-the-alpine-trail",
-    "focus": ["get around", "get lost", "get swept up in"]
+    "focus": [
+      "get around",
+      "get lost",
+      "get swept up in"
+    ]
   },
   {
     "file": "english-everyday-get-t116-comic.md",
@@ -903,7 +947,11 @@
     "num": 116,
     "title": "First English Meetup",
     "slug": "first-english-meetup",
-    "focus": ["get used to", "get ready", "get through"]
+    "focus": [
+      "get used to",
+      "get ready",
+      "get through"
+    ]
   },
   {
     "file": "english-everyday-get-t117-comic.md",
@@ -911,7 +959,11 @@
     "num": 117,
     "title": "When You Finally Get It",
     "slug": "when-you-finally-get-it",
-    "focus": ["get it", "get back to", "get by"]
+    "focus": [
+      "get it",
+      "get back to",
+      "get by"
+    ]
   },
   {
     "file": "english-everyday-get-t118-comic.md",
@@ -919,6 +971,1114 @@
     "num": 118,
     "title": "Everyday Get Finale",
     "slug": "everyday-get-finale",
-    "focus": ["get onboarded", "get sign-off", "get a ride"]
+    "focus": [
+      "get onboarded",
+      "get sign-off",
+      "get a ride"
+    ]
+  },
+  {
+    "file": "silicon-valley-look-t119-comic.md",
+    "arc_id": "silicon-valley-look",
+    "num": 119,
+    "title": "Something Looks Off",
+    "slug": "something-looks-off",
+    "focus": [
+      "look into",
+      "look up",
+      "look out for"
+    ]
+  },
+  {
+    "file": "silicon-valley-look-t120-comic.md",
+    "arc_id": "silicon-valley-look",
+    "num": 120,
+    "title": "Looking Through the Logs",
+    "slug": "looking-through-the-logs",
+    "focus": [
+      "look through",
+      "look over",
+      "look like"
+    ]
+  },
+  {
+    "file": "silicon-valley-look-t121-comic.md",
+    "arc_id": "silicon-valley-look",
+    "num": 121,
+    "title": "Look Forward to Ship Day",
+    "slug": "look-forward-to-ship-day",
+    "focus": [
+      "look forward to",
+      "look back on",
+      "look over"
+    ]
+  },
+  {
+    "file": "silicon-valley-look-t122-comic.md",
+    "arc_id": "silicon-valley-look",
+    "num": 122,
+    "title": "Looking Up to Kenji",
+    "slug": "looking-up-to-kenji",
+    "focus": [
+      "look up to",
+      "look after",
+      "look out for"
+    ]
+  },
+  {
+    "file": "silicon-valley-look-t123-comic.md",
+    "arc_id": "silicon-valley-look",
+    "num": 123,
+    "title": "Looking for the War Room",
+    "slug": "looking-for-the-war-room",
+    "focus": [
+      "look for",
+      "look around",
+      "look like"
+    ]
+  },
+  {
+    "file": "silicon-valley-look-t124-comic.md",
+    "arc_id": "silicon-valley-look",
+    "num": 124,
+    "title": "Look Back on the Quarter",
+    "slug": "look-back-on-the-quarter",
+    "focus": [
+      "look back on",
+      "look forward to",
+      "look into"
+    ]
+  },
+  {
+    "file": "wall-street-look-t125-comic.md",
+    "arc_id": "wall-street-look",
+    "num": 125,
+    "title": "First Look at the Trading Floor",
+    "slug": "first-look-at-the-trading-floor",
+    "focus": [
+      "look around",
+      "look into",
+      "look out for"
+    ]
+  },
+  {
+    "file": "wall-street-look-t126-comic.md",
+    "arc_id": "wall-street-look",
+    "num": 126,
+    "title": "Looking Through the Financials",
+    "slug": "looking-through-the-financials",
+    "focus": [
+      "look through",
+      "look over",
+      "look like"
+    ]
+  },
+  {
+    "file": "wall-street-look-t127-comic.md",
+    "arc_id": "wall-street-look",
+    "num": 127,
+    "title": "Looking Forward to the IPO",
+    "slug": "looking-forward-to-the-ipo",
+    "focus": [
+      "look forward to",
+      "look back on",
+      "look into"
+    ]
+  },
+  {
+    "file": "wall-street-look-t128-comic.md",
+    "arc_id": "wall-street-look",
+    "num": 128,
+    "title": "Looking Up to the Desk Lead",
+    "slug": "looking-up-to-the-desk-lead",
+    "focus": [
+      "look up to",
+      "look for",
+      "look out for"
+    ]
+  },
+  {
+    "file": "wall-street-look-t129-comic.md",
+    "arc_id": "wall-street-look",
+    "num": 129,
+    "title": "Wall Street Look Finale",
+    "slug": "wall-street-look-finale",
+    "focus": [
+      "look back on",
+      "look forward to",
+      "look into"
+    ]
+  },
+  {
+    "file": "english-everyday-look-t130-comic.md",
+    "arc_id": "english-everyday-look",
+    "num": 130,
+    "title": "Looking for an Apartment",
+    "slug": "looking-for-an-apartment",
+    "focus": [
+      "look for",
+      "look around",
+      "look like"
+    ]
+  },
+  {
+    "file": "english-everyday-look-t131-comic.md",
+    "arc_id": "english-everyday-look",
+    "num": 131,
+    "title": "Looking Through the Menu",
+    "slug": "looking-through-the-menu",
+    "focus": [
+      "look through",
+      "look up",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "english-everyday-look-t132-comic.md",
+    "arc_id": "english-everyday-look",
+    "num": 132,
+    "title": "Everyday Look Finale",
+    "slug": "everyday-look-finale",
+    "focus": [
+      "look back on",
+      "look after",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "silicon-valley-take-t133-comic.md",
+    "arc_id": "silicon-valley-take",
+    "num": 133,
+    "title": "Take Over the On-Call",
+    "slug": "take-over-the-on-call",
+    "focus": [
+      "take over",
+      "take on",
+      "take care of"
+    ]
+  },
+  {
+    "file": "silicon-valley-take-t134-comic.md",
+    "arc_id": "silicon-valley-take",
+    "num": 134,
+    "title": "Take Apart the Bug",
+    "slug": "take-apart-the-bug",
+    "focus": [
+      "take apart",
+      "take down",
+      "take note of"
+    ]
+  },
+  {
+    "file": "silicon-valley-take-t135-comic.md",
+    "arc_id": "silicon-valley-take",
+    "num": 135,
+    "title": "Take Off at Launch",
+    "slug": "take-off-at-launch",
+    "focus": [
+      "take off",
+      "take up",
+      "take back"
+    ]
+  },
+  {
+    "file": "silicon-valley-take-t136-comic.md",
+    "arc_id": "silicon-valley-take",
+    "num": 136,
+    "title": "Take Ownership of the Pipeline",
+    "slug": "take-ownership-of-the-pipeline",
+    "focus": [
+      "take ownership",
+      "take responsibility",
+      "take initiative"
+    ]
+  },
+  {
+    "file": "silicon-valley-take-t137-comic.md",
+    "arc_id": "silicon-valley-take",
+    "num": 137,
+    "title": "Take the Heat in Review",
+    "slug": "take-the-heat-in-review",
+    "focus": [
+      "take the heat",
+      "take feedback",
+      "take it in stride"
+    ]
+  },
+  {
+    "file": "silicon-valley-take-t138-comic.md",
+    "arc_id": "silicon-valley-take",
+    "num": 138,
+    "title": "Silicon Valley Take Finale",
+    "slug": "silicon-valley-take-finale",
+    "focus": [
+      "take stock",
+      "take a step back",
+      "take it from here"
+    ]
+  },
+  {
+    "file": "wall-street-take-t139-comic.md",
+    "arc_id": "wall-street-take",
+    "num": 139,
+    "title": "Take a Position",
+    "slug": "take-a-position",
+    "focus": [
+      "take a position",
+      "take a risk",
+      "take profit"
+    ]
+  },
+  {
+    "file": "wall-street-take-t140-comic.md",
+    "arc_id": "wall-street-take",
+    "num": 140,
+    "title": "Take Heat from Compliance",
+    "slug": "take-heat-from-compliance",
+    "focus": [
+      "take heat",
+      "take responsibility",
+      "take note of"
+    ]
+  },
+  {
+    "file": "wall-street-take-t141-comic.md",
+    "arc_id": "wall-street-take",
+    "num": 141,
+    "title": "Take Over the Desk",
+    "slug": "take-over-the-desk",
+    "focus": [
+      "take over",
+      "take on",
+      "take charge"
+    ]
+  },
+  {
+    "file": "wall-street-take-t142-comic.md",
+    "arc_id": "wall-street-take",
+    "num": 142,
+    "title": "Take the Meeting Offline",
+    "slug": "take-the-meeting-offline",
+    "focus": [
+      "take offline",
+      "take down notes",
+      "take it up with"
+    ]
+  },
+  {
+    "file": "wall-street-take-t143-comic.md",
+    "arc_id": "wall-street-take",
+    "num": 143,
+    "title": "Wall Street Take Finale",
+    "slug": "wall-street-take-finale",
+    "focus": [
+      "take stock",
+      "take a step back",
+      "take the lead"
+    ]
+  },
+  {
+    "file": "english-everyday-take-t144-comic.md",
+    "arc_id": "english-everyday-take",
+    "num": 144,
+    "title": "Take Out the Trash Debate",
+    "slug": "take-out-the-trash-debate",
+    "focus": [
+      "take out",
+      "take off",
+      "take care of"
+    ]
+  },
+  {
+    "file": "english-everyday-take-t145-comic.md",
+    "arc_id": "english-everyday-take",
+    "num": 145,
+    "title": "Take Your Time at Dinner",
+    "slug": "take-your-time-at-dinner",
+    "focus": [
+      "take your time",
+      "take a seat",
+      "take it easy"
+    ]
+  },
+  {
+    "file": "english-everyday-take-t146-comic.md",
+    "arc_id": "english-everyday-take",
+    "num": 146,
+    "title": "Everyday Take Finale",
+    "slug": "everyday-take-finale",
+    "focus": [
+      "take it from here",
+      "take stock",
+      "take on new habits"
+    ]
+  },
+  {
+    "file": "silicon-valley-put-t147-comic.md",
+    "arc_id": "silicon-valley-put",
+    "num": 147,
+    "title": "Put Off the Refactor",
+    "slug": "put-off-the-refactor",
+    "focus": [
+      "put off",
+      "put aside",
+      "put together"
+    ]
+  },
+  {
+    "file": "silicon-valley-put-t148-comic.md",
+    "arc_id": "silicon-valley-put",
+    "num": 148,
+    "title": "Put Forward a Proposal",
+    "slug": "put-forward-a-proposal",
+    "focus": [
+      "put forward",
+      "put forth",
+      "put in a request"
+    ]
+  },
+  {
+    "file": "silicon-valley-put-t149-comic.md",
+    "arc_id": "silicon-valley-put",
+    "num": 149,
+    "title": "Put the Release on Hold",
+    "slug": "put-the-release-on-hold",
+    "focus": [
+      "put on hold",
+      "put back",
+      "put through"
+    ]
+  },
+  {
+    "file": "silicon-valley-put-t150-comic.md",
+    "arc_id": "silicon-valley-put",
+    "num": 150,
+    "title": "Put Your Head Down",
+    "slug": "put-your-head-down",
+    "focus": [
+      "put your head down",
+      "put in the hours",
+      "put effort into"
+    ]
+  },
+  {
+    "file": "silicon-valley-put-t151-comic.md",
+    "arc_id": "silicon-valley-put",
+    "num": 151,
+    "title": "Put It in Writing",
+    "slug": "put-it-in-writing",
+    "focus": [
+      "put in writing",
+      "put down",
+      "put across"
+    ]
+  },
+  {
+    "file": "silicon-valley-put-t152-comic.md",
+    "arc_id": "silicon-valley-put",
+    "num": 152,
+    "title": "Silicon Valley Put Finale",
+    "slug": "silicon-valley-put-finale",
+    "focus": [
+      "put to rest",
+      "put the pieces together",
+      "put it behind us"
+    ]
+  },
+  {
+    "file": "wall-street-put-t153-comic.md",
+    "arc_id": "wall-street-put",
+    "num": 153,
+    "title": "Put Money on the Line",
+    "slug": "put-money-on-the-line",
+    "focus": [
+      "put money on",
+      "put at risk",
+      "put aside"
+    ]
+  },
+  {
+    "file": "wall-street-put-t154-comic.md",
+    "arc_id": "wall-street-put",
+    "num": 154,
+    "title": "Put Forward the Pitch",
+    "slug": "put-forward-the-pitch",
+    "focus": [
+      "put forward",
+      "put forth",
+      "put together"
+    ]
+  },
+  {
+    "file": "wall-street-put-t155-comic.md",
+    "arc_id": "wall-street-put",
+    "num": 155,
+    "title": "Put the Deal on Hold",
+    "slug": "put-the-deal-on-hold",
+    "focus": [
+      "put on hold",
+      "put back",
+      "put through"
+    ]
+  },
+  {
+    "file": "wall-street-put-t156-comic.md",
+    "arc_id": "wall-street-put",
+    "num": 156,
+    "title": "Put It All on the Table",
+    "slug": "put-it-all-on-the-table",
+    "focus": [
+      "put on the table",
+      "put across",
+      "put in writing"
+    ]
+  },
+  {
+    "file": "wall-street-put-t157-comic.md",
+    "arc_id": "wall-street-put",
+    "num": 157,
+    "title": "Wall Street Put Finale",
+    "slug": "wall-street-put-finale",
+    "focus": [
+      "put to rest",
+      "put together",
+      "put behind us"
+    ]
+  },
+  {
+    "file": "english-everyday-put-t158-comic.md",
+    "arc_id": "english-everyday-put",
+    "num": 158,
+    "title": "Put Together a Birthday Surprise",
+    "slug": "put-together-a-birthday-surprise",
+    "focus": [
+      "put together",
+      "put up",
+      "put away"
+    ]
+  },
+  {
+    "file": "english-everyday-put-t159-comic.md",
+    "arc_id": "english-everyday-put",
+    "num": 159,
+    "title": "Put Up With Roommate Noise",
+    "slug": "put-up-with-roommate-noise",
+    "focus": [
+      "put up with",
+      "put off",
+      "put aside"
+    ]
+  },
+  {
+    "file": "english-everyday-put-t160-comic.md",
+    "arc_id": "english-everyday-put",
+    "num": 160,
+    "title": "Everyday Put Finale",
+    "slug": "everyday-put-finale",
+    "focus": [
+      "put to rest",
+      "put your mind at ease",
+      "put it behind you"
+    ]
+  },
+  {
+    "file": "silicon-valley-come-t161-comic.md",
+    "arc_id": "silicon-valley-come",
+    "num": 161,
+    "title": "Come Across a Rare Bug",
+    "slug": "come-across-a-rare-bug",
+    "focus": [
+      "come across",
+      "come up with",
+      "come to terms with"
+    ]
+  },
+  {
+    "file": "silicon-valley-come-t162-comic.md",
+    "arc_id": "silicon-valley-come",
+    "num": 162,
+    "title": "Come Up Against a Deadline",
+    "slug": "come-up-against-a-deadline",
+    "focus": [
+      "come up against",
+      "come down to",
+      "come through"
+    ]
+  },
+  {
+    "file": "silicon-valley-come-t163-comic.md",
+    "arc_id": "silicon-valley-come",
+    "num": 163,
+    "title": "Come Around to the Idea",
+    "slug": "come-around-to-the-idea",
+    "focus": [
+      "come around to",
+      "come to think of it",
+      "come clean"
+    ]
+  },
+  {
+    "file": "silicon-valley-come-t164-comic.md",
+    "arc_id": "silicon-valley-come",
+    "num": 164,
+    "title": "Come Back from Burnout",
+    "slug": "come-back-from-burnout",
+    "focus": [
+      "come back from",
+      "come out of",
+      "come to grips with"
+    ]
+  },
+  {
+    "file": "silicon-valley-come-t165-comic.md",
+    "arc_id": "silicon-valley-come",
+    "num": 165,
+    "title": "Come Up in Standup",
+    "slug": "come-up-in-standup",
+    "focus": [
+      "come up",
+      "come up with",
+      "come through for"
+    ]
+  },
+  {
+    "file": "silicon-valley-come-t166-comic.md",
+    "arc_id": "silicon-valley-come",
+    "num": 166,
+    "title": "Silicon Valley Come Finale",
+    "slug": "silicon-valley-come-finale",
+    "focus": [
+      "come full circle",
+      "come a long way",
+      "come to realize"
+    ]
+  },
+  {
+    "file": "wall-street-come-t167-comic.md",
+    "arc_id": "wall-street-come",
+    "num": 167,
+    "title": "Come Across Insider Risk",
+    "slug": "come-across-insider-risk",
+    "focus": [
+      "come across",
+      "come up with",
+      "come to light"
+    ]
+  },
+  {
+    "file": "wall-street-come-t168-comic.md",
+    "arc_id": "wall-street-come",
+    "num": 168,
+    "title": "Come Down to the Numbers",
+    "slug": "come-down-to-the-numbers",
+    "focus": [
+      "come down to",
+      "come up against",
+      "come through"
+    ]
+  },
+  {
+    "file": "wall-street-come-t169-comic.md",
+    "arc_id": "wall-street-come",
+    "num": 169,
+    "title": "Come Around on the Merger",
+    "slug": "come-around-on-the-merger",
+    "focus": [
+      "come around to",
+      "come to terms with",
+      "come clean"
+    ]
+  },
+  {
+    "file": "wall-street-come-t170-comic.md",
+    "arc_id": "wall-street-come",
+    "num": 170,
+    "title": "Come Back from a Loss",
+    "slug": "come-back-from-a-loss",
+    "focus": [
+      "come back from",
+      "come out ahead",
+      "come to grips with"
+    ]
+  },
+  {
+    "file": "wall-street-come-t171-comic.md",
+    "arc_id": "wall-street-come",
+    "num": 171,
+    "title": "Wall Street Come Finale",
+    "slug": "wall-street-come-finale",
+    "focus": [
+      "come full circle",
+      "come a long way",
+      "come to realize"
+    ]
+  },
+  {
+    "file": "english-everyday-come-t172-comic.md",
+    "arc_id": "english-everyday-come",
+    "num": 172,
+    "title": "Come Over for Dinner",
+    "slug": "come-over-for-dinner",
+    "focus": [
+      "come over",
+      "come by",
+      "come up with"
+    ]
+  },
+  {
+    "file": "english-everyday-come-t173-comic.md",
+    "arc_id": "english-everyday-come",
+    "num": 173,
+    "title": "Come Down with a Cold",
+    "slug": "come-down-with-a-cold",
+    "focus": [
+      "come down with",
+      "come around",
+      "come back"
+    ]
+  },
+  {
+    "file": "english-everyday-come-t174-comic.md",
+    "arc_id": "english-everyday-come",
+    "num": 174,
+    "title": "Everyday Come Finale",
+    "slug": "everyday-come-finale",
+    "focus": [
+      "come full circle",
+      "come a long way",
+      "come to appreciate"
+    ]
+  },
+  {
+    "file": "silicon-valley-go-t175-comic.md",
+    "arc_id": "silicon-valley-go",
+    "num": 175,
+    "title": "Go Over the Postmortem",
+    "slug": "go-over-the-postmortem",
+    "focus": [
+      "go over",
+      "go through",
+      "go with"
+    ]
+  },
+  {
+    "file": "silicon-valley-go-t176-comic.md",
+    "arc_id": "silicon-valley-go",
+    "num": 176,
+    "title": "Go Ahead with the Merge",
+    "slug": "go-ahead-with-the-merge",
+    "focus": [
+      "go ahead",
+      "go along with",
+      "go back to"
+    ]
+  },
+  {
+    "file": "silicon-valley-go-t177-comic.md",
+    "arc_id": "silicon-valley-go",
+    "num": 177,
+    "title": "Go Down in History",
+    "slug": "go-down-in-history",
+    "focus": [
+      "go down",
+      "go off",
+      "go wrong"
+    ]
+  },
+  {
+    "file": "silicon-valley-go-t178-comic.md",
+    "arc_id": "silicon-valley-go",
+    "num": 178,
+    "title": "Go Through with the Cut",
+    "slug": "go-through-with-the-cut",
+    "focus": [
+      "go through with",
+      "go over",
+      "go with the flow"
+    ]
+  },
+  {
+    "file": "silicon-valley-go-t179-comic.md",
+    "arc_id": "silicon-valley-go",
+    "num": 179,
+    "title": "Go Deep on Architecture",
+    "slug": "go-deep-on-architecture",
+    "focus": [
+      "go deep on",
+      "go beyond",
+      "go over"
+    ]
+  },
+  {
+    "file": "silicon-valley-go-t180-comic.md",
+    "arc_id": "silicon-valley-go",
+    "num": 180,
+    "title": "Silicon Valley Go Finale",
+    "slug": "silicon-valley-go-finale",
+    "focus": [
+      "go a long way",
+      "go hand in hand",
+      "go the extra mile"
+    ]
+  },
+  {
+    "file": "wall-street-go-t181-comic.md",
+    "arc_id": "wall-street-go",
+    "num": 181,
+    "title": "Go Over the Earnings",
+    "slug": "go-over-the-earnings",
+    "focus": [
+      "go over",
+      "go through",
+      "go with"
+    ]
+  },
+  {
+    "file": "wall-street-go-t182-comic.md",
+    "arc_id": "wall-street-go",
+    "num": 182,
+    "title": "Go Ahead with the Block Trade",
+    "slug": "go-ahead-with-the-block-trade",
+    "focus": [
+      "go ahead",
+      "go along with",
+      "go back on"
+    ]
+  },
+  {
+    "file": "wall-street-go-t183-comic.md",
+    "arc_id": "wall-street-go",
+    "num": 183,
+    "title": "Go Down with the Market",
+    "slug": "go-down-with-the-market",
+    "focus": [
+      "go down",
+      "go off",
+      "go wrong"
+    ]
+  },
+  {
+    "file": "wall-street-go-t184-comic.md",
+    "arc_id": "wall-street-go",
+    "num": 184,
+    "title": "Go Through Compliance Audit",
+    "slug": "go-through-compliance-audit",
+    "focus": [
+      "go through",
+      "go over",
+      "go by the book"
+    ]
+  },
+  {
+    "file": "wall-street-go-t185-comic.md",
+    "arc_id": "wall-street-go",
+    "num": 185,
+    "title": "Wall Street Go Finale",
+    "slug": "wall-street-go-finale",
+    "focus": [
+      "go a long way",
+      "go hand in hand",
+      "go the extra mile"
+    ]
+  },
+  {
+    "file": "english-everyday-go-t186-comic.md",
+    "arc_id": "english-everyday-go",
+    "num": 186,
+    "title": "Go Over the Grocery List",
+    "slug": "go-over-the-grocery-list",
+    "focus": [
+      "go over",
+      "go through",
+      "go with"
+    ]
+  },
+  {
+    "file": "english-everyday-go-t187-comic.md",
+    "arc_id": "english-everyday-go",
+    "num": 187,
+    "title": "Go Out with Friends",
+    "slug": "go-out-with-friends",
+    "focus": [
+      "go out",
+      "go for it",
+      "go along with"
+    ]
+  },
+  {
+    "file": "english-everyday-go-t188-comic.md",
+    "arc_id": "english-everyday-go",
+    "num": 188,
+    "title": "Everyday Go Finale",
+    "slug": "everyday-go-finale",
+    "focus": [
+      "go a long way",
+      "go hand in hand",
+      "go the extra mile"
+    ]
+  },
+  {
+    "file": "customer-support-t189-comic.md",
+    "arc_id": "customer-support",
+    "num": 189,
+    "title": "Look Into Your Ticket",
+    "slug": "look-into-your-ticket",
+    "focus": [
+      "look into",
+      "follow up",
+      "get back to"
+    ]
+  },
+  {
+    "file": "customer-support-t190-comic.md",
+    "arc_id": "customer-support",
+    "num": 190,
+    "title": "Escalate to Tier Two",
+    "slug": "escalate-to-tier-two",
+    "focus": [
+      "escalate",
+      "hand off",
+      "take ownership"
+    ]
+  },
+  {
+    "file": "customer-support-t191-comic.md",
+    "arc_id": "customer-support",
+    "num": 191,
+    "title": "Walk Through the Fix",
+    "slug": "walk-through-the-fix",
+    "focus": [
+      "walk through",
+      "follow up on",
+      "put through"
+    ]
+  },
+  {
+    "file": "customer-support-t192-comic.md",
+    "arc_id": "customer-support",
+    "num": 192,
+    "title": "Angry Customer on Call",
+    "slug": "angry-customer-on-call",
+    "focus": [
+      "stay calm",
+      "look into",
+      "come back to"
+    ]
+  },
+  {
+    "file": "customer-support-t193-comic.md",
+    "arc_id": "customer-support",
+    "num": 193,
+    "title": "Customer Support Finale",
+    "slug": "customer-support-finale",
+    "focus": [
+      "follow through",
+      "wrap up",
+      "take care of"
+    ]
+  },
+  {
+    "file": "health-clinic-t194-comic.md",
+    "arc_id": "health-clinic",
+    "num": 194,
+    "title": "Make an Appointment",
+    "slug": "make-an-appointment",
+    "focus": [
+      "make an appointment",
+      "come in",
+      "look into"
+    ]
+  },
+  {
+    "file": "health-clinic-t195-comic.md",
+    "arc_id": "health-clinic",
+    "num": 195,
+    "title": "Describing the Symptoms",
+    "slug": "describing-the-symptoms",
+    "focus": [
+      "come down with",
+      "go through",
+      "take care of"
+    ]
+  },
+  {
+    "file": "health-clinic-t196-comic.md",
+    "arc_id": "health-clinic",
+    "num": 196,
+    "title": "Filling Out Insurance Forms",
+    "slug": "filling-out-insurance-forms",
+    "focus": [
+      "fill out",
+      "look over",
+      "put down"
+    ]
+  },
+  {
+    "file": "health-clinic-t197-comic.md",
+    "arc_id": "health-clinic",
+    "num": 197,
+    "title": "Follow-Up Visit",
+    "slug": "follow-up-visit",
+    "focus": [
+      "follow up",
+      "come back",
+      "look into"
+    ]
+  },
+  {
+    "file": "health-clinic-t198-comic.md",
+    "arc_id": "health-clinic",
+    "num": 198,
+    "title": "Health Clinic Finale",
+    "slug": "health-clinic-finale",
+    "focus": [
+      "take it easy",
+      "look after yourself",
+      "come around"
+    ]
+  },
+  {
+    "file": "side-project-t199-comic.md",
+    "arc_id": "side-project",
+    "num": 199,
+    "title": "Take On a Side Project",
+    "slug": "take-on-a-side-project",
+    "focus": [
+      "take on",
+      "put together",
+      "go for it"
+    ]
+  },
+  {
+    "file": "side-project-t200-comic.md",
+    "arc_id": "side-project",
+    "num": 200,
+    "title": "User Feedback Night",
+    "slug": "user-feedback-night",
+    "focus": [
+      "take feedback",
+      "go through",
+      "come up with"
+    ]
+  },
+  {
+    "file": "side-project-t201-comic.md",
+    "arc_id": "side-project",
+    "num": 201,
+    "title": "Launch Day Nerves",
+    "slug": "launch-day-nerves",
+    "focus": [
+      "go live",
+      "go down",
+      "look out for"
+    ]
+  },
+  {
+    "file": "side-project-t202-comic.md",
+    "arc_id": "side-project",
+    "num": 202,
+    "title": "Iterate After Launch",
+    "slug": "iterate-after-launch",
+    "focus": [
+      "go back to",
+      "put together",
+      "come up with"
+    ]
+  },
+  {
+    "file": "side-project-t203-comic.md",
+    "arc_id": "side-project",
+    "num": 203,
+    "title": "Side Project Finale",
+    "slug": "side-project-finale",
+    "focus": [
+      "take stock",
+      "go a long way",
+      "look forward to"
+    ]
+  },
+  {
+    "file": "remote-async-t204-comic.md",
+    "arc_id": "remote-async",
+    "num": 204,
+    "title": "Async Standup Across Timezones",
+    "slug": "async-standup-across-timezones",
+    "focus": [
+      "follow up",
+      "get back to",
+      "come through"
+    ]
+  },
+  {
+    "file": "remote-async-t205-comic.md",
+    "arc_id": "remote-async",
+    "num": 205,
+    "title": "Written RFC Decision",
+    "slug": "written-rfc-decision",
+    "focus": [
+      "put in writing",
+      "go over",
+      "take note of"
+    ]
+  },
+  {
+    "file": "remote-async-t206-comic.md",
+    "arc_id": "remote-async",
+    "num": 206,
+    "title": "Missed Handoff",
+    "slug": "missed-handoff",
+    "focus": [
+      "hand off",
+      "pick up",
+      "come through for"
+    ]
+  },
+  {
+    "file": "remote-async-t207-comic.md",
+    "arc_id": "remote-async",
+    "num": 207,
+    "title": "Remote Async Finale",
+    "slug": "remote-async-finale",
+    "focus": [
+      "go async",
+      "take ownership",
+      "look ahead"
+    ]
+  },
+  {
+    "file": "phrasal-review-t208-comic.md",
+    "arc_id": "phrasal-review",
+    "num": 208,
+    "title": "Look & Take Mix-Up",
+    "slug": "look-take-mix-up",
+    "focus": [
+      "look into vs take on",
+      "look out for vs take care of",
+      "look forward to vs take stock"
+    ]
+  },
+  {
+    "file": "phrasal-review-t209-comic.md",
+    "arc_id": "phrasal-review",
+    "num": 209,
+    "title": "Put, Come & Go Mix-Up",
+    "slug": "put-come-go-mix-up",
+    "focus": [
+      "put off vs come up",
+      "come through vs go through",
+      "go ahead vs put forward"
+    ]
+  },
+  {
+    "file": "phrasal-review-t210-comic.md",
+    "arc_id": "phrasal-review",
+    "num": 210,
+    "title": "Phrasal Review Grand Finale",
+    "slug": "phrasal-review-grand-finale",
+    "focus": [
+      "look / take / put / come / go",
+      "go a long way",
+      "come full circle"
+    ]
   }
 ]

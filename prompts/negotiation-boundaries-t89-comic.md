@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Kenji: "You handled scope requests much better this sprint."
-- **Panel 2:** Scene. Dialogue: Nam: "Would it be possible to... is my go-to opener now."
-- **Panel 3:** Scene. Dialogue: Aoi: "Saying that's outside the original scope protects the team."
-- **Panel 4:** Scene. Dialogue: Nam: "We compromised on MVP scope instead of crunching."
-- **Panel 5:** Scene. Dialogue: Linh: "Clear boundaries make QA planning easier too."
-- **Panel 6:** Scene. Dialogue: Nam: "I can push back without burning bridges."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Kenji",
-    "text": "You handled scope requests much better this sprint."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "Would it be possible to... is my go-to opener now."
-  },
-  {
-    "panel": 3,
-    "speaker": "Aoi",
-    "text": "Saying that's outside the original scope protects the team."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "We compromised on MVP scope instead of crunching."
-  },
-  {
-    "panel": 5,
-    "speaker": "Linh",
-    "text": "Clear boundaries make QA planning easier too."
-  },
-  {
-    "panel": 6,
-    "speaker": "Nam",
-    "text": "I can push back without burning bridges."
-  }
-]
-```
+- **Panel 1:** Retrospective on negotiation week. Dialogue: Kenji: "You handled scope requests much better this sprint."
+- **Panel 2:** Nam summarizes skills. Dialogue: Nam: "Would it be possible to... is my go-to opener now."
+- **Panel 3:** Boundary lesson. Dialogue: Aoi: "Saying that's outside the original scope protects the team."
+- **Panel 4:** Compromise example. Dialogue: Nam: "We compromised on MVP scope instead of crunching."
+- **Panel 5:** Team respect. Dialogue: Linh: "Clear boundaries make QA planning easier too."
+- **Panel 6:** Confidence. Dialogue: Nam: "I can push back without burning bridges."
+- **Panel 7:** Hook. Dialogue: Next: Preparing for the 1-on-1
 
 ---
 
@@ -98,12 +60,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Kenji: "You handled scope requests much better this sprint."
-Panel 2: Story beat. Speech: Nam: "Would it be possible to... is my go-to opener now."
-Panel 3: Story beat. Speech: Aoi: "Saying that's outside the original scope protects the team."
-Panel 4: Story beat. Speech: Nam: "We compromised on MVP scope instead of crunching."
-Panel 5: Story beat. Speech: Linh: "Clear boundaries make QA planning easier too."
-Panel 6: Story beat. Speech: Nam: "I can push back without burning bridges."
+Panel 1: Retrospective on negotiation week.. Speech: Kenji: "You handled scope requests much better this sprint."
+Panel 2: Nam summarizes skills.. Speech: Nam: "Would it be possible to... is my go-to opener now."
+Panel 3: Boundary lesson.. Speech: Aoi: "Saying that's outside the original scope protects the team."
+Panel 4: Compromise example.. Speech: Nam: "We compromised on MVP scope instead of crunching."
+Panel 5: Team respect.. Speech: Linh: "Clear boundaries make QA planning easier too."
+Panel 6: Confidence.. Speech: Nam: "I can push back without burning bridges."
+Panel 7: Hook.. Speech: Next: Preparing for the 1-on-1
 
 ENGLISH FOCUS box must list:
 - "Would it be possible to...?" = Liệu có thể... không?

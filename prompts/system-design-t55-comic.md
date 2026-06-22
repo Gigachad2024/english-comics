@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Aoi: "Can you walk me through the API Gateway setup?"
-- **Panel 2:** Scene. Dialogue: Nam: "It acts as a single entry point for all clients."
-- **Panel 3:** Scene. Dialogue: Nam: "We need to make sure rate limiting is per API key."
-- **Panel 4:** Scene. Dialogue: Kenji: "What happens if the gateway goes down?"
-- **Panel 5:** Scene. Dialogue: Nam: "Let me make sure I got this right — gateway"
-- **Panel 6:** Scene. Dialogue: Hook: "Next: Scale Under Pressure"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Aoi",
-    "text": "Can you walk me through the API Gateway setup?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "It acts as a single entry point for all clients."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "We need to make sure rate limiting is per API key."
-  },
-  {
-    "panel": 4,
-    "speaker": "Kenji",
-    "text": "What happens if the gateway goes down?"
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "Let me make sure I got this right — gateway"
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: Scale Under Pressure"
-  }
-]
-```
+- **Panel 1:** Late night architecture review. Dialogue: Aoi: "Can you walk me through the API Gateway setup?"
+- **Panel 2:** Gateway routes diagram. Dialogue: Nam: "It acts as a single entry point for all clients."
+- **Panel 3:** Auth + rate limit boxes. Dialogue: Nam: "We need to make sure rate limiting is per API key."
+- **Panel 4:** Kenji asks about failure. Dialogue: Kenji: "What happens if the gateway goes down?"
+- **Panel 5:** Health check monitor. Dialogue: Nam: "Let me make sure I got this right — gateway → services → cache → DB."
+- **Panel 6:** Hook. Dialogue: Next: Scale Under Pressure
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Aoi: "Can you walk me through the API Gateway setup?"
-Panel 2: Story beat. Speech: Nam: "It acts as a single entry point for all clients."
-Panel 3: Story beat. Speech: Nam: "We need to make sure rate limiting is per API key."
-Panel 4: Story beat. Speech: Kenji: "What happens if the gateway goes down?"
-Panel 5: Story beat. Speech: Nam: "Let me make sure I got this right — gateway"
-Panel 6: Story beat. Speech: Hook: "Next: Scale Under Pressure"
+Panel 1: Late night architecture review.. Speech: Aoi: "Can you walk me through the API Gateway setup?"
+Panel 2: Gateway routes diagram.. Speech: Nam: "It acts as a single entry point for all clients."
+Panel 3: Auth + rate limit boxes.. Speech: Nam: "We need to make sure rate limiting is per API key."
+Panel 4: Kenji asks about failure.. Speech: Kenji: "What happens if the gateway goes down?"
+Panel 5: Health check monitor.. Speech: Nam: "Let me make sure I got this right — gateway → services → cache → DB."
+Panel 6: Hook.. Speech: Next: Scale Under Pressure
 
 ENGLISH FOCUS box must list:
 - "walk me through" = giải thích từng bước cho tôi

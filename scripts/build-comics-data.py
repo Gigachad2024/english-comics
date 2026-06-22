@@ -3,9 +3,12 @@
 
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from phrasal_verbs_expansion import PHRASAL_FOCUS as _PHRASAL_FOCUS, PHRASAL_SERIES  # noqa: E402
 
 SERIES = [
     {
@@ -357,6 +360,7 @@ SERIES = [
             (118, "everyday-get-finale", "Everyday Get Finale"),
         ],
     },
+    *PHRASAL_SERIES,
 ]
 
 FOCUS = {
@@ -816,6 +820,7 @@ FOCUS = {
         {"phrase": "get sign-off", "meaning": "được phê duyệt chính thức"},
         {"phrase": "get a ride", "meaning": "được chở / nhờ xe"},
     ],
+    **_PHRASAL_FOCUS,
 }
 
 
@@ -858,7 +863,7 @@ def build_roadmap() -> dict:
     return {
         "meta": {
             "title": "Lộ trình học tiếng Anh",
-            "subtitle": "18 arc · 136 tập · Từ debug code đến phrasal verbs get",
+            "subtitle": "38 arc · 228 tập · Từ debug code đến phrasal verbs (get + look/take/put/come/go)",
         },
         "methodology": [
             {"step": 1, "icon": "📖", "title": "Đọc truyện", "desc": "Mỗi tập là một tình huống thật — đọc hội thoại và chú ý phần ENGLISH FOCUS trên ảnh."},
@@ -951,6 +956,19 @@ def build_roadmap() -> dict:
                             {"seriesId": "silicon-valley-get", "tip": "Loop in, buy-in, ship day, war room, acquisition"},
                             {"seriesId": "switzerland-travel", "tip": "Trains, peaks, snow — get around Switzerland"},
                             {"seriesId": "english-everyday-get", "tip": "Meetup, homework — get it, get by, get used to"},
+                        ],
+                    },
+                    {
+                        "title": "Giai đoạn 11 — Phrasal Verbs Expansion (119–210)",
+                        "desc": "Look, take, put, come, go + topic arcs — SF Big Tech, NYC Wall Street, US daily life",
+                        "steps": [
+                            {"seriesId": "silicon-valley-look", "tip": "Debug & postmortem — look into, look through, look back on"},
+                            {"seriesId": "wall-street-look", "tip": "IPO & trading floor — look at, look forward to, look into"},
+                            {"seriesId": "english-everyday-look", "tip": "Apartment & meetup — look for, look after, full circle"},
+                            {"seriesId": "silicon-valley-take", "tip": "On-call & ownership — take over, take apart, take ownership"},
+                            {"seriesId": "wall-street-take", "tip": "Positions & risk — take a position, take heat, take over"},
+                            {"seriesId": "customer-support", "tip": "Support English — escalate, follow up, hand off"},
+                            {"seriesId": "phrasal-review", "tip": "Grand finale — review all five phrasal families"},
                         ],
                     },
                 ],

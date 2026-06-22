@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Panel: "Do you have any questions for us?"
-- **Panel 2:** Scene. Dialogue: Nam: "What does success look like in this role in the first six months?"
-- **Panel 3:** Scene. Dialogue: Engineer: "Shipping two features independently and mentoring juniors."
-- **Panel 4:** Scene. Dialogue: Nam: "How does the team collaborate across time zones?"
-- **Panel 5:** Scene. Dialogue: Engineer: "We rely on async updates and weekly design reviews."
-- **Panel 6:** Scene. Dialogue: Nam: "That aligns with how I work — thank you for sharing."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Panel",
-    "text": "Do you have any questions for us?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "What does success look like in this role in the first six months?"
-  },
-  {
-    "panel": 3,
-    "speaker": "Engineer",
-    "text": "Shipping two features independently and mentoring juniors."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "How does the team collaborate across time zones?"
-  },
-  {
-    "panel": 5,
-    "speaker": "Engineer",
-    "text": "We rely on async updates and weekly design reviews."
-  },
-  {
-    "panel": 6,
-    "speaker": "Nam",
-    "text": "That aligns with how I work — thank you for sharing."
-  }
-]
-```
+- **Panel 1:** Panel opens floor. Dialogue: Panel: "Do you have any questions for us?"
+- **Panel 2:** Nam asks about success. Dialogue: Nam: "What does success look like in this role in the first six months?"
+- **Panel 3:** Panel answers. Dialogue: Engineer: "Shipping two features independently and mentoring juniors."
+- **Panel 4:** Nam asks about collaboration. Dialogue: Nam: "How does the team collaborate across time zones?"
+- **Panel 5:** Culture insight. Dialogue: Engineer: "We rely on async updates and weekly design reviews."
+- **Panel 6:** Nam shows interest. Dialogue: Nam: "That aligns with how I work — thank you for sharing."
+- **Panel 7:** Hook. Dialogue: Next: Interview & Career Finale
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Final interview round, friendly panel of two engineers
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Panel: "Do you have any questions for us?"
-Panel 2: Story beat. Speech: Nam: "What does success look like in this role in the first six months?"
-Panel 3: Story beat. Speech: Engineer: "Shipping two features independently and mentoring juniors."
-Panel 4: Story beat. Speech: Nam: "How does the team collaborate across time zones?"
-Panel 5: Story beat. Speech: Engineer: "We rely on async updates and weekly design reviews."
-Panel 6: Story beat. Speech: Nam: "That aligns with how I work — thank you for sharing."
+Panel 1: Panel opens floor.. Speech: Panel: "Do you have any questions for us?"
+Panel 2: Nam asks about success.. Speech: Nam: "What does success look like in this role in the first six months?"
+Panel 3: Panel answers.. Speech: Engineer: "Shipping two features independently and mentoring juniors."
+Panel 4: Nam asks about collaboration.. Speech: Nam: "How does the team collaborate across time zones?"
+Panel 5: Culture insight.. Speech: Engineer: "We rely on async updates and weekly design reviews."
+Panel 6: Nam shows interest.. Speech: Nam: "That aligns with how I work — thank you for sharing."
+Panel 7: Hook.. Speech: Next: Interview & Career Finale
 
 ENGLISH FOCUS box must list:
 - "Do you have any questions for us?" = Bạn có câu hỏi nào cho chúng tôi không?

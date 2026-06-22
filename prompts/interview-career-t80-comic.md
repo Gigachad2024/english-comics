@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Interviewer: "Tell me about a time when you handled a production incident."
-- **Panel 2:** Scene. Dialogue: Nam: "One challenge I faced was a payment outage before a demo."
-- **Panel 3:** Scene. Dialogue: Nam: "I walked the team through the logs and we rolled back safely."
-- **Panel 4:** Scene. Dialogue: Nam: "The result was that we saved the demo and added better monitoring."
-- **Panel 5:** Scene. Dialogue: Nam: "What I learned from that was to always run through the main flow early."
-- **Panel 6:** Scene. Dialogue: Interviewer: "Strong example — clear structure."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Interviewer",
-    "text": "Tell me about a time when you handled a production incident."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "One challenge I faced was a payment outage before a demo."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "I walked the team through the logs and we rolled back safely."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "The result was that we saved the demo and added better monitoring."
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "What I learned from that was to always run through the main flow early."
-  },
-  {
-    "panel": 6,
-    "speaker": "Interviewer",
-    "text": "Strong example — clear structure."
-  }
-]
-```
+- **Panel 1:** Interviewer asks behavioral question. Dialogue: Interviewer: "Tell me about a time when you handled a production incident."
+- **Panel 2:** Nam sets the scene. Dialogue: Nam: "One challenge I faced was a payment outage before a demo."
+- **Panel 3:** Nam explains actions. Dialogue: Nam: "I walked the team through the logs and we rolled back safely."
+- **Panel 4:** Result. Dialogue: Nam: "The result was that we saved the demo and added better monitoring."
+- **Panel 5:** Lesson learned. Dialogue: Nam: "What I learned from that was to always run through the main flow early."
+- **Panel 6:** Interviewer nods. Dialogue: Interviewer: "Strong example — clear structure."
+- **Panel 7:** Hook. Dialogue: Next: Why Do You Want This Role?
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Video interview, whiteboard notes visible, STAR method sticky notes
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Interviewer: "Tell me about a time when you handled a production incident."
-Panel 2: Story beat. Speech: Nam: "One challenge I faced was a payment outage before a demo."
-Panel 3: Story beat. Speech: Nam: "I walked the team through the logs and we rolled back safely."
-Panel 4: Story beat. Speech: Nam: "The result was that we saved the demo and added better monitoring."
-Panel 5: Story beat. Speech: Nam: "What I learned from that was to always run through the main flow early."
-Panel 6: Story beat. Speech: Interviewer: "Strong example — clear structure."
+Panel 1: Interviewer asks behavioral question.. Speech: Interviewer: "Tell me about a time when you handled a production incident."
+Panel 2: Nam sets the scene.. Speech: Nam: "One challenge I faced was a payment outage before a demo."
+Panel 3: Nam explains actions.. Speech: Nam: "I walked the team through the logs and we rolled back safely."
+Panel 4: Result.. Speech: Nam: "The result was that we saved the demo and added better monitoring."
+Panel 5: Lesson learned.. Speech: Nam: "What I learned from that was to always run through the main flow early."
+Panel 6: Interviewer nods.. Speech: Interviewer: "Strong example — clear structure."
+Panel 7: Hook.. Speech: Next: Why Do You Want This Role?
 
 ENGLISH FOCUS box must list:
 - "Tell me about a time when..." = Hãy kể về một lần khi...

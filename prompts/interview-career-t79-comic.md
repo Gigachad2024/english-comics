@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Recruiter: "Tell me a bit about yourself and what you're looking for."
-- **Panel 2:** Scene. Dialogue: Nam: "I'm looking for a role where I can grow as a full-stack engineer."
-- **Panel 3:** Scene. Dialogue: Nam: "I see myself growing in system design and cross-team communication."
-- **Panel 4:** Scene. Dialogue: Recruiter: "Why our company?"
-- **Panel 5:** Scene. Dialogue: Nam: "What attracted me to this company is the global product impact."
-- **Panel 6:** Scene. Dialogue: Recruiter: "Great — let's schedule the technical round."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Recruiter",
-    "text": "Tell me a bit about yourself and what you're looking for."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "I'm looking for a role where I can grow as a full-stack engineer."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "I see myself growing in system design and cross-team communication."
-  },
-  {
-    "panel": 4,
-    "speaker": "Recruiter",
-    "text": "Why our company?"
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "What attracted me to this company is the global product impact."
-  },
-  {
-    "panel": 6,
-    "speaker": "Recruiter",
-    "text": "Great — let's schedule the technical round."
-  }
-]
-```
+- **Panel 1:** Nam prepares for recruiter call. Dialogue: Recruiter: "Tell me a bit about yourself and what you're looking for."
+- **Panel 2:** Nam answers confidently. Dialogue: Nam: "I'm looking for a role where I can grow as a full-stack engineer."
+- **Panel 3:** Recruiter asks about goals. Dialogue: Nam: "I see myself growing in system design and cross-team communication."
+- **Panel 4:** Company culture question. Dialogue: Recruiter: "Why our company?"
+- **Panel 5:** Nam explains motivation. Dialogue: Nam: "What attracted me to this company is the global product impact."
+- **Panel 6:** Positive close. Dialogue: Recruiter: "Great — let's schedule the technical round."
+- **Panel 7:** Hook. Dialogue: Next: Tell Me About a Time When...
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Quiet Tokyo apartment, laptop video call, professional but warm lightin
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Recruiter: "Tell me a bit about yourself and what you're looking for."
-Panel 2: Story beat. Speech: Nam: "I'm looking for a role where I can grow as a full-stack engineer."
-Panel 3: Story beat. Speech: Nam: "I see myself growing in system design and cross-team communication."
-Panel 4: Story beat. Speech: Recruiter: "Why our company?"
-Panel 5: Story beat. Speech: Nam: "What attracted me to this company is the global product impact."
-Panel 6: Story beat. Speech: Recruiter: "Great — let's schedule the technical round."
+Panel 1: Nam prepares for recruiter call.. Speech: Recruiter: "Tell me a bit about yourself and what you're looking for."
+Panel 2: Nam answers confidently.. Speech: Nam: "I'm looking for a role where I can grow as a full-stack engineer."
+Panel 3: Recruiter asks about goals.. Speech: Nam: "I see myself growing in system design and cross-team communication."
+Panel 4: Company culture question.. Speech: Recruiter: "Why our company?"
+Panel 5: Nam explains motivation.. Speech: Nam: "What attracted me to this company is the global product impact."
+Panel 6: Positive close.. Speech: Recruiter: "Great — let's schedule the technical round."
+Panel 7: Hook.. Speech: Next: Tell Me About a Time When...
 
 ENGLISH FOCUS box must list:
 - "I'm looking for a role where..." = Tôi đang tìm một vị trí mà...

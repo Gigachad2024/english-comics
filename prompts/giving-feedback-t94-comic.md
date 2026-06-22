@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Kenji: "1-on-1s feel more useful lately."
-- **Panel 2:** Scene. Dialogue: Nam: "One thing that went well was asking How can I support you?"
-- **Panel 3:** Scene. Dialogue: Junior: "I'd suggest trying mock demos — that changed everything for me."
-- **Panel 4:** Scene. Dialogue: Nam: "I'll follow up on your growth plan next month."
-- **Panel 5:** Scene. Dialogue: Aoi: "You're leading through conversations, not commands."
-- **Panel 6:** Scene. Dialogue: Nam: "Feedback English is a skill — and I'm getting better."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Kenji",
-    "text": "1-on-1s feel more useful lately."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "One thing that went well was asking How can I support you?"
-  },
-  {
-    "panel": 3,
-    "speaker": "Junior",
-    "text": "I'd suggest trying mock demos — that changed everything for me."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "I'll follow up on your growth plan next month."
-  },
-  {
-    "panel": 5,
-    "speaker": "Aoi",
-    "text": "You're leading through conversations, not commands."
-  },
-  {
-    "panel": 6,
-    "speaker": "Nam",
-    "text": "Feedback English is a skill — and I'm getting better."
-  }
-]
-```
+- **Panel 1:** Team retro on feedback culture. Dialogue: Kenji: "1-on-1s feel more useful lately."
+- **Panel 2:** Nam shares pattern. Dialogue: Nam: "One thing that went well was asking How can I support you?"
+- **Panel 3:** Junior thanks Nam. Dialogue: Junior: "I'd suggest trying mock demos — that changed everything for me."
+- **Panel 4:** Follow up. Dialogue: Nam: "I'll follow up on your growth plan next month."
+- **Panel 5:** Leadership growth. Dialogue: Aoi: "You're leading through conversations, not commands."
+- **Panel 6:** Nam proud. Dialogue: Nam: "Feedback English is a skill — and I'm getting better."
+- **Panel 7:** Hook. Dialogue: Next: Structuring the Demo
 
 ---
 
@@ -98,12 +60,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Kenji: "1-on-1s feel more useful lately."
-Panel 2: Story beat. Speech: Nam: "One thing that went well was asking How can I support you?"
-Panel 3: Story beat. Speech: Junior: "I'd suggest trying mock demos — that changed everything for me."
-Panel 4: Story beat. Speech: Nam: "I'll follow up on your growth plan next month."
-Panel 5: Story beat. Speech: Aoi: "You're leading through conversations, not commands."
-Panel 6: Story beat. Speech: Nam: "Feedback English is a skill — and I'm getting better."
+Panel 1: Team retro on feedback culture.. Speech: Kenji: "1-on-1s feel more useful lately."
+Panel 2: Nam shares pattern.. Speech: Nam: "One thing that went well was asking How can I support you?"
+Panel 3: Junior thanks Nam.. Speech: Junior: "I'd suggest trying mock demos — that changed everything for me."
+Panel 4: Follow up.. Speech: Nam: "I'll follow up on your growth plan next month."
+Panel 5: Leadership growth.. Speech: Aoi: "You're leading through conversations, not commands."
+Panel 6: Nam proud.. Speech: Nam: "Feedback English is a skill — and I'm getting better."
+Panel 7: Hook.. Speech: Next: Structuring the Demo
 
 ENGLISH FOCUS box must list:
 - "One thing that went well was..." = Một điều làm tốt là...

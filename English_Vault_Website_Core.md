@@ -312,6 +312,84 @@ bring back
 
 ---
 
+### Pack E — Get Phrasal Verbs — Startup & Tech
+
+Used in Silicon Valley / startup work: Slack, standups, ship day, war rooms, acquisition news.
+
+Pack ID: `get_phrasal_startup` · Episodes **105–110** (`silicon-valley-get`)
+
+Core phrases:
+
+```text
+get looped in
+get up to speed
+get buy-in
+get aligned
+get blocked / get unblocked
+get shipped
+get pulled into
+get back to
+get promoted / get acquired
+get it
+```
+
+---
+
+### Pack F — Get Phrasal Verbs — Travel & Movement
+
+Used when traveling: trains, hotels, directions, weather delays, exploring Switzerland.
+
+Pack ID: `get_phrasal_travel` · Episodes **111–115** (`switzerland-travel`)
+
+Core phrases:
+
+```text
+get to
+get checked in
+get your bearings
+get on / get off
+get snowed in
+get held up
+get by / get around
+get lost
+get swept up in
+```
+
+---
+
+### Pack G — Get Phrasal Verbs — Everyday English
+
+Used when learning English daily: meetups, homework, building confidence.
+
+Pack ID: `get_phrasal_everyday` · Episodes **116–118** (`english-everyday-get`)
+
+Core phrases:
+
+```text
+get used to
+get ready
+get through
+get it
+get back to
+get by
+```
+
+---
+
+### Get grammar — 5 pattern types
+
+Full guide (Vietnamese): [`prompts/arcs/06-get-phrasal-overview.md`](prompts/arcs/06-get-phrasal-overview.md)
+
+```text
+1. get + V3          — result state (get looped in, get shipped, get snowed in)
+2. get + adj         — become (get ready, get stuck, get aligned)
+3. get + prep + noun — movement & relations (get to, get on, get back to)
+4. get + noun        — no preposition (get buy-in, get sign-off, get pinged)
+5. get + through / up to / used to / by / it — idioms & fixed combos
+```
+
+---
+
 ## 3. Website information architecture
 
 Recommended pages:
@@ -486,7 +564,7 @@ I’d opt for...
 It comes down to...
 ```
 
-### Recommended Next Arc — System Design Arc: Thinking Bigger
+### System Design Arc — Thinking Bigger (Ep 51–60)
 
 Focus:
 
@@ -494,19 +572,62 @@ Focus:
 system design, scalability, trade-offs, architecture diagrams, product requirements, tech leadership
 ```
 
-Possible episode topics:
+Patterns:
 
 ```text
-51. The System Design Question
-52. Monolith or Microservices?
-53. Cache or Database First?
-54. Queue Saves the Day
-55. API Gateway at Night
-56. Scale Under Pressure
-57. The Cost of Overengineering
-58. Explain It to Product
-59. Design Review Showdown
-60. Thinking Bigger Finale
+I'm weighing up A and B.
+It comes down to...
+We need to scale under pressure.
+Let's walk through the architecture.
+The trade-off is...
+```
+
+### Email & Async Arc (Ep 61–65)
+
+Focus:
+
+```text
+follow-up emails, loop in, async standup, stakeholder updates
+```
+
+### Japan Culture Arc (Ep 66–72) · Anime & Manga Arc (Ep 73–78)
+
+Focus:
+
+```text
+shrine etiquette, onsen, izakaya, hanami, Akihabara, manga cafe
+```
+
+### Career Advanced Arcs (Ep 79–104)
+
+Five arcs: interview, negotiation, feedback, presentation, postmortem — senior-level workplace English.
+
+### Get Phrasal Verbs — 3 arcs (Ep 105–118)
+
+Grammar overview: [`prompts/arcs/06-get-phrasal-overview.md`](prompts/arcs/06-get-phrasal-overview.md)
+
+| Arc | Episodes | Pack | Focus |
+|-----|----------|------|-------|
+| Silicon Valley Get | 105–110 | `get_phrasal_startup` | Bay Area rotation: loop in, buy-in, ship day, war room, acquisition |
+| Switzerland Travel | 111–115 | `get_phrasal_travel` | Alps reward trip: trains, peaks, snow, get around |
+| Everyday Get | 116–118 | `get_phrasal_everyday` | Meetup & mentor: get it, get by, get used to |
+
+Five get pattern types:
+
+```text
+1. get + V3
+2. get + adj
+3. get + prep + noun
+4. get + noun
+5. get + through / up to / used to / by / it
+```
+
+### Ideas for Next Arc (Ep 119+)
+
+Focus:
+
+```text
+customer support, health & clinic visits, side-project launch, deeper async collaboration
 ```
 
 ---

@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Nam: "Where should we go first?"
-- **Panel 2:** Scene. Dialogue: Nam: "I'm torn between Akihabara and Nakano Broadway."
-- **Panel 3:** Scene. Dialogue: Linh: "I'm more interested in Nakano for vintage manga."
-- **Panel 4:** Scene. Dialogue: Nam: "Akihabara makes more sense to me for my first visit."
-- **Panel 5:** Scene. Dialogue: Team: "Let's do Nakano tomorrow!"
-- **Panel 6:** Scene. Dialogue: Hook: "Next: My First Manga Cafe"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Nam",
-    "text": "Where should we go first?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "I'm torn between Akihabara and Nakano Broadway."
-  },
-  {
-    "panel": 3,
-    "speaker": "Linh",
-    "text": "I'm more interested in Nakano for vintage manga."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "Akihabara makes more sense to me for my first visit."
-  },
-  {
-    "panel": 5,
-    "speaker": "Team",
-    "text": "Let's do Nakano tomorrow!"
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: My First Manga Cafe"
-  }
-]
-```
+- **Panel 1:** Saturday otaku trip planning. Dialogue: Nam: "Where should we go first?"
+- **Panel 2:** Two districts on map. Dialogue: Nam: "I'm torn between Akihabara and Nakano Broadway."
+- **Panel 3:** Linh wants rare manga. Dialogue: Linh: "I'm more interested in Nakano for vintage manga."
+- **Panel 4:** Nam decides for figures. Dialogue: Nam: "Akihabara makes more sense to me for my first visit."
+- **Panel 5:** Train to Akihabara. Dialogue: Team: "Let's do Nakano tomorrow!"
+- **Panel 6:** Hook. Dialogue: Next: My First Manga Cafe
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Split scene: Akihabara neon electric town vs Nakano Broadway Sun Mall, 
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Nam: "Where should we go first?"
-Panel 2: Story beat. Speech: Nam: "I'm torn between Akihabara and Nakano Broadway."
-Panel 3: Story beat. Speech: Linh: "I'm more interested in Nakano for vintage manga."
-Panel 4: Story beat. Speech: Nam: "Akihabara makes more sense to me for my first visit."
-Panel 5: Story beat. Speech: Team: "Let's do Nakano tomorrow!"
-Panel 6: Story beat. Speech: Hook: "Next: My First Manga Cafe"
+Panel 1: Saturday otaku trip planning.. Speech: Nam: "Where should we go first?"
+Panel 2: Two districts on map.. Speech: Nam: "I'm torn between Akihabara and Nakano Broadway."
+Panel 3: Linh wants rare manga.. Speech: Linh: "I'm more interested in Nakano for vintage manga."
+Panel 4: Nam decides for figures.. Speech: Nam: "Akihabara makes more sense to me for my first visit."
+Panel 5: Train to Akihabara.. Speech: Team: "Let's do Nakano tomorrow!"
+Panel 6: Hook.. Speech: Next: My First Manga Cafe
 
 ENGLISH FOCUS box must list:
 - "I'm torn between A and B." = Tôi phân vân giữa A và B.

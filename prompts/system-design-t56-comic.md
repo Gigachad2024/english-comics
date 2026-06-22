@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Kenji: "Black Friday scale — we're 5x normal traffic."
-- **Panel 2:** Scene. Dialogue: Nam: "It comes down to cost vs response time."
-- **Panel 3:** Scene. Dialogue: Aoi: "Horizontal scaling buys time if stateless."
-- **Panel 4:** Scene. Dialogue: Nam: "I'd opt for scaling out the API tier first."
-- **Panel 5:** Scene. Dialogue: Kenji: "We need to weigh up DB connection limits too."
-- **Panel 6:** Scene. Dialogue: Hook: "Next: The Cost of Overengineering"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Kenji",
-    "text": "Black Friday scale — we're 5x normal traffic."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "It comes down to cost vs response time."
-  },
-  {
-    "panel": 3,
-    "speaker": "Aoi",
-    "text": "Horizontal scaling buys time if stateless."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "I'd opt for scaling out the API tier first."
-  },
-  {
-    "panel": 5,
-    "speaker": "Kenji",
-    "text": "We need to weigh up DB connection limits too."
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: The Cost of Overengineering"
-  }
-]
-```
+- **Panel 1:** Traffic spike graph on screen. Dialogue: Kenji: "Black Friday scale — we're 5x normal traffic."
+- **Panel 2:** Options: scale up vs scale out. Dialogue: Nam: "It comes down to cost vs response time."
+- **Panel 3:** Auto-scaling diagram. Dialogue: Aoi: "Horizontal scaling buys time if stateless."
+- **Panel 4:** Nam presents recommendation. Dialogue: Nam: "I'd opt for scaling out the API tier first."
+- **Panel 5:** Team agrees. Dialogue: Kenji: "We need to weigh up DB connection limits too."
+- **Panel 6:** Hook. Dialogue: Next: The Cost of Overengineering
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Kenji: "Black Friday scale — we're 5x normal traffic."
-Panel 2: Story beat. Speech: Nam: "It comes down to cost vs response time."
-Panel 3: Story beat. Speech: Aoi: "Horizontal scaling buys time if stateless."
-Panel 4: Story beat. Speech: Nam: "I'd opt for scaling out the API tier first."
-Panel 5: Story beat. Speech: Kenji: "We need to weigh up DB connection limits too."
-Panel 6: Story beat. Speech: Hook: "Next: The Cost of Overengineering"
+Panel 1: Traffic spike graph on screen.. Speech: Kenji: "Black Friday scale — we're 5x normal traffic."
+Panel 2: Options: scale up vs scale out.. Speech: Nam: "It comes down to cost vs response time."
+Panel 3: Auto-scaling diagram.. Speech: Aoi: "Horizontal scaling buys time if stateless."
+Panel 4: Nam presents recommendation.. Speech: Nam: "I'd opt for scaling out the API tier first."
+Panel 5: Team agrees.. Speech: Kenji: "We need to weigh up DB connection limits too."
+Panel 6: Hook.. Speech: Next: The Cost of Overengineering
 
 ENGLISH FOCUS box must list:
 - "It comes down to..." = Vấn đề cốt lõi là...

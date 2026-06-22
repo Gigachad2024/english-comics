@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: PM: "While you're at it, add multi-currency support too."
-- **Panel 2:** Scene. Dialogue: Nam: "That's outside the original scope for this release."
-- **Panel 3:** Scene. Dialogue: Kenji: "Classic scope creep — let's document the change."
-- **Panel 4:** Scene. Dialogue: Nam: "I'd need at least two extra weeks for multi-currency."
-- **Panel 5:** Scene. Dialogue: PM: "Okay — let's create a separate ticket and timeline."
-- **Panel 6:** Scene. Dialogue: Nam: "Happy to help, but we'll need a new sprint plan."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "PM",
-    "text": "While you're at it, add multi-currency support too."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "That's outside the original scope for this release."
-  },
-  {
-    "panel": 3,
-    "speaker": "Kenji",
-    "text": "Classic scope creep — let's document the change."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "I'd need at least two extra weeks for multi-currency."
-  },
-  {
-    "panel": 5,
-    "speaker": "PM",
-    "text": "Okay — let's create a separate ticket and timeline."
-  },
-  {
-    "panel": 6,
-    "speaker": "Nam",
-    "text": "Happy to help, but we'll need a new sprint plan."
-  }
-]
-```
+- **Panel 1:** New request in meeting. Dialogue: PM: "While you're at it, add multi-currency support too."
+- **Panel 2:** Nam flags scope. Dialogue: Nam: "That's outside the original scope for this release."
+- **Panel 3:** Kenji supports. Dialogue: Kenji: "Classic scope creep — let's document the change."
+- **Panel 4:** Nam estimates. Dialogue: Nam: "I'd need at least two extra weeks for multi-currency."
+- **Panel 5:** PM rethinks. Dialogue: PM: "Okay — let's create a separate ticket and timeline."
+- **Panel 6:** Clear boundary. Dialogue: Nam: "Happy to help, but we'll need a new sprint plan."
+- **Panel 7:** Hook. Dialogue: Next: Push Back on Scope Creep
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: PM: "While you're at it, add multi-currency support too."
-Panel 2: Story beat. Speech: Nam: "That's outside the original scope for this release."
-Panel 3: Story beat. Speech: Kenji: "Classic scope creep — let's document the change."
-Panel 4: Story beat. Speech: Nam: "I'd need at least two extra weeks for multi-currency."
-Panel 5: Story beat. Speech: PM: "Okay — let's create a separate ticket and timeline."
-Panel 6: Story beat. Speech: Nam: "Happy to help, but we'll need a new sprint plan."
+Panel 1: New request in meeting.. Speech: PM: "While you're at it, add multi-currency support too."
+Panel 2: Nam flags scope.. Speech: Nam: "That's outside the original scope for this release."
+Panel 3: Kenji supports.. Speech: Kenji: "Classic scope creep — let's document the change."
+Panel 4: Nam estimates.. Speech: Nam: "I'd need at least two extra weeks for multi-currency."
+Panel 5: PM rethinks.. Speech: PM: "Okay — let's create a separate ticket and timeline."
+Panel 6: Clear boundary.. Speech: Nam: "Happy to help, but we'll need a new sprint plan."
+Panel 7: Hook.. Speech: Next: Push Back on Scope Creep
 
 ENGLISH FOCUS box must list:
 - "That's outside the original scope." = Điều đó ngoài phạm vi ban đầu.

@@ -2,17 +2,37 @@
 
 Hướng dẫn tạo comic theo đúng style Tokyo Debug Chronicles.
 
-**Kịch bản arc chi tiết:** `prompts/arcs/00-career-advanced-overview.md` (+ 01–05 arc scripts) · **Get phrasal verbs:** `06-get-phrasal-overview.md` (+ 07–09)
+**136 tập · 18 series** · Kịch bản arc: `prompts/arcs/00-career-advanced-overview.md` (+ 01–05) · **Get phrasal verbs:** [`prompts/arcs/06-get-phrasal-overview.md`](prompts/arcs/06-get-phrasal-overview.md) (+ 07–09 arc scripts)
+
+---
+
+## Phrasal Verbs Expansion — 92 tập mới (119–210) ⭐ Mới
+
+| Phase | Tập | Arc script | Prompt files | View |
+|-------|-----|------------|--------------|------|
+| LOOK — Big Tech | 119–124 | `arcs/11-look-bigtech-script.md` | `silicon-valley-look-t119-comic.md` … `t124` | [localhost:8080#/read/silicon-valley-look/119](http://localhost:8080#/read/silicon-valley-look/119) |
+| LOOK — Wall Street | 125–129 | `arcs/12-look-wallstreet-script.md` | `wall-street-look-t125-comic.md` … `t129` | [localhost:8080#/read/wall-street-look/125](http://localhost:8080#/read/wall-street-look/125) |
+| LOOK — Everyday | 130–132 | `arcs/13-look-everyday-script.md` | `english-everyday-look-t130-comic.md` … `t132` | [localhost:8080#/read/english-everyday-look/130](http://localhost:8080#/read/english-everyday-look/130) |
+| TAKE/PUT/COME/GO | 133–188 | `arcs/14-take-phrasal-overview.md`, `15-put-come-go-overview.md` | `*-take/put/come/go-t*.md` | see README roadmap |
+| Topic arcs | 189–210 | `arcs/16-topic-arcs-overview.md` | `customer-support-t189-comic.md` … `phrasal-review-t210` | [localhost:8080#/read/customer-support/189](http://localhost:8080#/read/customer-support/189) |
+
+**Packs:** `look_phrasal_*` · `take_phrasal_*` · `put_phrasal_*` · `come_phrasal_*` · `go_phrasal_*` · `customer_support` · `health_clinic` · `side_project` · `remote_async` · `phrasal_review`
+
+**Setup:** `python3 scripts/setup-phrasal-arcs-dirs.py` · **Sync:** `python3 scripts/sync-phrasal-expansion.py`
 
 ---
 
 ## Get Phrasal Verbs — 14 tập mới (105–118) ⭐ Mới
 
-| Arc | Tập | File kịch bản | Prompt files |
-|-----|-----|---------------|--------------|
-| Silicon Valley Get | 105–110 | `arcs/07-silicon-valley-get-arc-script.md` | `silicon-valley-get-t105-comic.md` … `t110` |
-| Switzerland Travel | 111–115 | `arcs/08-switzerland-travel-arc-script.md` | `switzerland-travel-t111-comic.md` … `t115` |
-| Everyday Get | 116–118 | `arcs/09-everyday-get-arc-script.md` | `english-everyday-get-t116-comic.md` … `t118` |
+**Grammar (5 pattern types):** xem [`prompts/arcs/06-get-phrasal-overview.md`](prompts/arcs/06-get-phrasal-overview.md) — get + V3 · get + adj · get + prep + noun · get + noun · get + through/up to/used to/by/it
+
+| Arc | Tập | File kịch bản | Prompt files | Xem trên local |
+|-----|-----|---------------|--------------|----------------|
+| Silicon Valley Get | 105–110 | `arcs/07-silicon-valley-get-arc-script.md` | `silicon-valley-get-t105-comic.md` … `t110` | [localhost:8080#/read/silicon-valley-get/105](http://localhost:8080#/read/silicon-valley-get/105) |
+| Switzerland Travel | 111–115 | `arcs/08-switzerland-travel-arc-script.md` | `switzerland-travel-t111-comic.md` … `t115` | [localhost:8080#/read/switzerland-travel/111](http://localhost:8080#/read/switzerland-travel/111) |
+| Everyday Get | 116–118 | `arcs/09-everyday-get-arc-script.md` | `english-everyday-get-t116-comic.md` … `t118` | [localhost:8080#/read/english-everyday-get/116](http://localhost:8080#/read/english-everyday-get/116) |
+
+**Packs:** `get_phrasal_startup` · `get_phrasal_travel` · `get_phrasal_everyday`
 
 **Style ref gợi ý:**
 - Silicon Valley: `career-growth/tập-50/` + SF open office

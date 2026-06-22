@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Nam: "I'm really into this anime — I want the real location."
-- **Panel 2:** Scene. Dialogue: Linh: "Fans call this a 'seichi junrei' spot."
-- **Panel 3:** Scene. Dialogue: Nam: "I'm excited about finding the café from the scene."
-- **Panel 4:** Scene. Dialogue: Riku: "Recreating the scene — that sounds amazing."
-- **Panel 5:** Scene. Dialogue: Fan: "Which episode is this from?"
-- **Panel 6:** Scene. Dialogue: Hook: "Next: Figure Store Dilemma"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Nam",
-    "text": "I'm really into this anime — I want the real location."
-  },
-  {
-    "panel": 2,
-    "speaker": "Linh",
-    "text": "Fans call this a 'seichi junrei' spot."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "I'm excited about finding the café from the scene."
-  },
-  {
-    "panel": 4,
-    "speaker": "Riku",
-    "text": "Recreating the scene — that sounds amazing."
-  },
-  {
-    "panel": 5,
-    "speaker": "Fan",
-    "text": "Which episode is this from?"
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: Figure Store Dilemma"
-  }
-]
-```
+- **Panel 1:** Nam shows anime screenshot on phone. Dialogue: Nam: "I'm really into this anime — I want the real location."
+- **Panel 2:** Train to pilgrimage spot. Dialogue: Linh: "Fans call this a 'seichi junrei' spot."
+- **Panel 3:** Finding the famous staircase. Dialogue: Nam: "I'm excited about finding the café from the scene."
+- **Panel 4:** Photo moment. Dialogue: Riku: "Recreating the scene — that sounds amazing."
+- **Panel 5:** Other fans chatting in English. Dialogue: Fan: "Which episode is this from?"
+- **Panel 6:** Hook. Dialogue: Next: Figure Store Dilemma
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Real-life anime location in Tokyo suburb, recognizable café staircase,
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Nam: "I'm really into this anime — I want the real location."
-Panel 2: Story beat. Speech: Linh: "Fans call this a 'seichi junrei' spot."
-Panel 3: Story beat. Speech: Nam: "I'm excited about finding the café from the scene."
-Panel 4: Story beat. Speech: Riku: "Recreating the scene — that sounds amazing."
-Panel 5: Story beat. Speech: Fan: "Which episode is this from?"
-Panel 6: Story beat. Speech: Hook: "Next: Figure Store Dilemma"
+Panel 1: Nam shows anime screenshot on phone.. Speech: Nam: "I'm really into this anime — I want the real location."
+Panel 2: Train to pilgrimage spot.. Speech: Linh: "Fans call this a 'seichi junrei' spot."
+Panel 3: Finding the famous staircase.. Speech: Nam: "I'm excited about finding the café from the scene."
+Panel 4: Photo moment.. Speech: Riku: "Recreating the scene — that sounds amazing."
+Panel 5: Other fans chatting in English.. Speech: Fan: "Which episode is this from?"
+Panel 6: Hook.. Speech: Next: Figure Store Dilemma
 
 ENGLISH FOCUS box must list:
 - "I'm really into this anime." = Tôi rất mê anime này.

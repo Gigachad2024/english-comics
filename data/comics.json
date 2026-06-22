@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 136,
+  "count": 228,
   "series": [
     {
       "id": "bug-arc-1",
@@ -34,6 +34,7 @@
           "packs": [
             "bug_report_agreement_through",
             "decision_hesitation",
+            "go_phrasal_bigtech",
             "preference_opinion"
           ],
           "contexts": [
@@ -366,7 +367,10 @@
           "englishFocus": [],
           "packs": [
             "bug_report_agreement_through",
-            "decision_hesitation"
+            "decision_hesitation",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review"
           ],
           "contexts": [],
           "patterns": [],
@@ -1262,12 +1266,14 @@
           "image": "images/comics/living/tập-30/living-tap30-fill-out-the-form.png",
           "englishFocus": [],
           "packs": [
+            "health_clinic",
             "universal_communication_v2"
           ],
           "contexts": [],
           "patterns": [],
           "practicePrompts": [
-            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Fill Out the Form."
+            "Đọc truyện và viết 2–3 câu tiếng Anh mô tả tình huống: Fill Out the Form.",
+            "Thử nói master combo của pack 「Health & Clinic English」 cho tình huống này."
           ],
           "commonMistakes": [],
           "hook": "Next: Moving Day"
@@ -1530,6 +1536,9 @@
           "packs": [
             "bug_report_agreement_through",
             "decision_hesitation",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -1656,6 +1665,7 @@
           "packs": [
             "bug_report_agreement_through",
             "decision_hesitation",
+            "go_phrasal_bigtech",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -1898,6 +1908,9 @@
           "packs": [
             "bug_report_agreement_through",
             "decision_hesitation",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -2333,6 +2346,9 @@
           "packs": [
             "bug_report_agreement_through",
             "decision_hesitation",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -2392,7 +2408,9 @@
             }
           ],
           "packs": [
+            "customer_support",
             "email_async",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -2478,7 +2496,12 @@
             }
           ],
           "packs": [
+            "customer_support",
             "email_async",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_wallstreet",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -2516,7 +2539,9 @@
             }
           ],
           "packs": [
+            "customer_support",
             "email_async",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -2558,7 +2583,9 @@
             }
           ],
           "packs": [
+            "customer_support",
             "email_async",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -2735,6 +2762,7 @@
           ],
           "packs": [
             "decision_hesitation",
+            "go_phrasal_bigtech",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -2866,6 +2894,9 @@
           ],
           "packs": [
             "decision_hesitation",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -3060,6 +3091,7 @@
           ],
           "packs": [
             "decision_hesitation",
+            "go_phrasal_bigtech",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -3142,6 +3174,9 @@
           ],
           "packs": [
             "decision_hesitation",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
             "preference_opinion",
             "universal_communication_v2"
           ],
@@ -3415,6 +3450,9 @@
           ],
           "packs": [
             "interview_career",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -3872,7 +3910,9 @@
             }
           ],
           "packs": [
+            "customer_support",
             "giving_feedback",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -4055,6 +4095,7 @@
           "packs": [
             "bug_report_agreement_through",
             "presentation_pitch",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [],
@@ -4097,6 +4138,9 @@
           ],
           "packs": [
             "bug_report_agreement_through",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
             "presentation_pitch",
             "universal_communication_v2"
           ],
@@ -4356,8 +4400,10 @@
           ],
           "packs": [
             "bug_report_agreement_through",
+            "customer_support",
             "email_async",
-            "incident_postmortem"
+            "incident_postmortem",
+            "remote_async"
           ],
           "contexts": [],
           "patterns": [
@@ -4614,8 +4660,10 @@
             }
           ],
           "packs": [
+            "customer_support",
             "email_async",
             "get_phrasal_startup",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [
@@ -4995,9 +5043,11 @@
             }
           ],
           "packs": [
+            "customer_support",
             "email_async",
             "get_phrasal_everyday",
             "get_phrasal_startup",
+            "remote_async",
             "universal_communication_v2"
           ],
           "contexts": [
@@ -5071,6 +5121,4357 @@
               ]
             }
           ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-look",
+      "title": "Silicon Valley Look Arc",
+      "desc": "Debug, PR, postmortem — phrasal verbs look trong Big Tech SF (look into, look through, look forward to)",
+      "color": "#0EA5E9",
+      "icon": "👀",
+      "tag": "Công việc",
+      "count": 6,
+      "cover": "images/comics/silicon-valley-look/tập-119/silicon-valley-look-tap119-something-looks-off.png",
+      "episodes": [
+        {
+          "num": 119,
+          "title": "Something Looks Off",
+          "slug": "something-looks-off",
+          "image": "images/comics/silicon-valley-look/tập-119/silicon-valley-look-tap119-something-looks-off.png",
+          "englishFocus": [
+            {
+              "phrase": "look into",
+              "meaning": "điều tra / xem xét kỹ"
+            },
+            {
+              "phrase": "look up",
+              "meaning": "tra cứu (docs, API, từ điển)"
+            },
+            {
+              "phrase": "look out for",
+              "meaning": "cẩn thận / chú ý tới"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look into",
+            "look up",
+            "look out for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look into」 để nói về tình huống: Something Looks Off.",
+            "Dùng câu 「look up」 để nói về tình huống: Something Looks Off.",
+            "Dùng câu 「look out for」 để nói về tình huống: Something Looks Off.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Looking Through the Logs"
+        },
+        {
+          "num": 120,
+          "title": "Looking Through the Logs",
+          "slug": "looking-through-the-logs",
+          "image": "images/comics/silicon-valley-look/tập-120/silicon-valley-look-tap120-looking-through-the-logs.png",
+          "englishFocus": [
+            {
+              "phrase": "look through",
+              "meaning": "lướt qua / xem kỹ từng phần"
+            },
+            {
+              "phrase": "look over",
+              "meaning": "xem lại / review nhanh"
+            },
+            {
+              "phrase": "look like",
+              "meaning": "có vẻ như / trông giống như"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look through",
+            "look over",
+            "look like"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look through」 để nói về tình huống: Looking Through the Logs.",
+            "Dùng câu 「look over」 để nói về tình huống: Looking Through the Logs.",
+            "Dùng câu 「look like」 để nói về tình huống: Looking Through the Logs.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Look Forward to Ship Day"
+        },
+        {
+          "num": 121,
+          "title": "Look Forward to Ship Day",
+          "slug": "look-forward-to-ship-day",
+          "image": "images/comics/silicon-valley-look/tập-121/silicon-valley-look-tap121-look-forward-to-ship-day.png",
+          "englishFocus": [
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ / háo hức"
+            },
+            {
+              "phrase": "look back on",
+              "meaning": "nhìn lại (quá khứ)"
+            },
+            {
+              "phrase": "look over",
+              "meaning": "xem lại trước khi ship"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look forward to",
+            "look back on",
+            "look over"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look forward to」 để nói về tình huống: Look Forward to Ship Day.",
+            "Dùng câu 「look back on」 để nói về tình huống: Look Forward to Ship Day.",
+            "Dùng câu 「look over」 để nói về tình huống: Look Forward to Ship Day.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": "Next: Looking Up to Kenji"
+        },
+        {
+          "num": 122,
+          "title": "Looking Up to Kenji",
+          "slug": "looking-up-to-kenji",
+          "image": "images/comics/silicon-valley-look/tập-122/silicon-valley-look-tap122-looking-up-to-kenji.png",
+          "englishFocus": [
+            {
+              "phrase": "look up to",
+              "meaning": "ngưỡng mộ / coi ai là hình mẫu"
+            },
+            {
+              "phrase": "look after",
+              "meaning": "chăm sóc / phụ trách"
+            },
+            {
+              "phrase": "look out for",
+              "meaning": "để mắt giúp / cảnh báo"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look up to",
+            "look after",
+            "look out for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look up to」 để nói về tình huống: Looking Up to Kenji.",
+            "Dùng câu 「look after」 để nói về tình huống: Looking Up to Kenji.",
+            "Dùng câu 「look out for」 để nói về tình huống: Looking Up to Kenji.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Looking for the War Room"
+        },
+        {
+          "num": 123,
+          "title": "Looking for the War Room",
+          "slug": "looking-for-the-war-room",
+          "image": "images/comics/silicon-valley-look/tập-123/silicon-valley-look-tap123-looking-for-the-war-room.png",
+          "englishFocus": [
+            {
+              "phrase": "look for",
+              "meaning": "tìm kiếm"
+            },
+            {
+              "phrase": "look around",
+              "meaning": "nhìn quanh / khám phá không gian"
+            },
+            {
+              "phrase": "look like",
+              "meaning": "trông có vẻ"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look for",
+            "look around",
+            "look like"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look for」 để nói về tình huống: Looking for the War Room.",
+            "Dùng câu 「look around」 để nói về tình huống: Looking for the War Room.",
+            "Dùng câu 「look like」 để nói về tình huống: Looking for the War Room.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Look Back on the Quarter"
+        },
+        {
+          "num": 124,
+          "title": "Look Back on the Quarter",
+          "slug": "look-back-on-the-quarter",
+          "image": "images/comics/silicon-valley-look/tập-124/silicon-valley-look-tap124-look-back-on-the-quarter.png",
+          "englishFocus": [
+            {
+              "phrase": "look back on",
+              "meaning": "nhìn lại (thành tựu / giai đoạn)"
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ tương lai"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "sẽ điều tra / khám phá tiếp"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look back on",
+            "look forward to",
+            "look into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look back on」 để nói về tình huống: Look Back on the Quarter.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Look Back on the Quarter.",
+            "Dùng câu 「look into」 để nói về tình huống: Look Back on the Quarter.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "wall-street-look",
+      "title": "Wall Street Look Arc",
+      "desc": "IPO, trading floor, due diligence — look phrasals trên Wall Street NYC",
+      "color": "#B45309",
+      "icon": "🏙️",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/wall-street-look/tập-125/wall-street-look-tap125-first-look-at-the-trading-floor.png",
+      "episodes": [
+        {
+          "num": 125,
+          "title": "First Look at the Trading Floor",
+          "slug": "first-look-at-the-trading-floor",
+          "image": "images/comics/wall-street-look/tập-125/wall-street-look-tap125-first-look-at-the-trading-floor.png",
+          "englishFocus": [
+            {
+              "phrase": "look around",
+              "meaning": "nhìn quanh / làm quen không gian"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "điều tra / nghiên cứu"
+            },
+            {
+              "phrase": "look out for",
+              "meaning": "cẩn thận với rủi ro"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "look around",
+            "look into",
+            "look out for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look around」 để nói về tình huống: First Look at the Trading Floor.",
+            "Dùng câu 「look into」 để nói về tình huống: First Look at the Trading Floor.",
+            "Dùng câu 「look out for」 để nói về tình huống: First Look at the Trading Floor.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Looking Through the Financials"
+        },
+        {
+          "num": 126,
+          "title": "Looking Through the Financials",
+          "slug": "looking-through-the-financials",
+          "image": "images/comics/wall-street-look/tập-126/wall-street-look-tap126-looking-through-the-financials.png",
+          "englishFocus": [
+            {
+              "phrase": "look through",
+              "meaning": "xem kỹ từng phần (báo cáo, số liệu)"
+            },
+            {
+              "phrase": "look over",
+              "meaning": "review nhanh trước khi trình"
+            },
+            {
+              "phrase": "look like",
+              "meaning": "có vẻ / dự báo trông như thế nào"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "look through",
+            "look over",
+            "look like"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look through」 để nói về tình huống: Looking Through the Financials.",
+            "Dùng câu 「look over」 để nói về tình huống: Looking Through the Financials.",
+            "Dùng câu 「look like」 để nói về tình huống: Looking Through the Financials.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Looking Forward to the IPO"
+        },
+        {
+          "num": 127,
+          "title": "Looking Forward to the IPO",
+          "slug": "looking-forward-to-the-ipo",
+          "image": "images/comics/wall-street-look/tập-127/wall-street-look-tap127-looking-forward-to-the-ipo.png",
+          "englishFocus": [
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ sự kiện lớn"
+            },
+            {
+              "phrase": "look back on",
+              "meaning": "nhìn lại giai đoạn pre-IPO"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "điều tra / phân tích sâu"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "look forward to",
+            "look back on",
+            "look into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look forward to」 để nói về tình huống: Looking Forward to the IPO.",
+            "Dùng câu 「look back on」 để nói về tình huống: Looking Forward to the IPO.",
+            "Dùng câu 「look into」 để nói về tình huống: Looking Forward to the IPO.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": "Next: Looking Up to the Desk Lead"
+        },
+        {
+          "num": 128,
+          "title": "Looking Up to the Desk Lead",
+          "slug": "looking-up-to-the-desk-lead",
+          "image": "images/comics/wall-street-look/tập-128/wall-street-look-tap128-looking-up-to-the-desk-lead.png",
+          "englishFocus": [
+            {
+              "phrase": "look up to",
+              "meaning": "ngưỡng mộ người dẫn dắt"
+            },
+            {
+              "phrase": "look for",
+              "meaning": "tìm kiếm (cơ hội, tín hiệu)"
+            },
+            {
+              "phrase": "look out for",
+              "meaning": "cảnh giác với biến động"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "look up to",
+            "look for",
+            "look out for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look up to」 để nói về tình huống: Looking Up to the Desk Lead.",
+            "Dùng câu 「look for」 để nói về tình huống: Looking Up to the Desk Lead.",
+            "Dùng câu 「look out for」 để nói về tình huống: Looking Up to the Desk Lead.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Wall Street Look Finale"
+        },
+        {
+          "num": 129,
+          "title": "Wall Street Look Finale",
+          "slug": "wall-street-look-finale",
+          "image": "images/comics/wall-street-look/tập-129/wall-street-look-tap129-wall-street-look-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "look back on",
+              "meaning": "nhìn lại tuần trên Wall Street"
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ bước tiếp theo"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "sẽ tìm hiểu thêm"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "look back on",
+            "look forward to",
+            "look into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look back on」 để nói về tình huống: Wall Street Look Finale.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Wall Street Look Finale.",
+            "Dùng câu 「look into」 để nói về tình huống: Wall Street Look Finale.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-look",
+      "title": "Everyday Look Arc",
+      "desc": "Apartment hunt, daily life — look phrasals trong cuộc sống Mỹ",
+      "color": "#D946EF",
+      "icon": "📚",
+      "tag": "Học tập",
+      "count": 3,
+      "cover": "images/comics/english-everyday-look/tập-130/english-everyday-look-tap130-looking-for-an-apartment.png",
+      "episodes": [
+        {
+          "num": 130,
+          "title": "Looking for an Apartment",
+          "slug": "looking-for-an-apartment",
+          "image": "images/comics/english-everyday-look/tập-130/english-everyday-look-tap130-looking-for-an-apartment.png",
+          "englishFocus": [
+            {
+              "phrase": "look for",
+              "meaning": "tìm (nhà, việc, đồ)"
+            },
+            {
+              "phrase": "look around",
+              "meaning": "xem quanh khu vực"
+            },
+            {
+              "phrase": "look like",
+              "meaning": "trông có vẻ (phù hợp không)"
+            }
+          ],
+          "packs": [
+            "look_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "look for",
+            "look around",
+            "look like"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look for」 để nói về tình huống: Looking for an Apartment.",
+            "Dùng câu 「look around」 để nói về tình huống: Looking for an Apartment.",
+            "Dùng câu 「look like」 để nói về tình huống: Looking for an Apartment.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Looking Through the Menu"
+        },
+        {
+          "num": 131,
+          "title": "Looking Through the Menu",
+          "slug": "looking-through-the-menu",
+          "image": "images/comics/english-everyday-look/tập-131/english-everyday-look-tap131-looking-through-the-menu.png",
+          "englishFocus": [
+            {
+              "phrase": "look through",
+              "meaning": "xem kỹ (menu, danh sách)"
+            },
+            {
+              "phrase": "look up",
+              "meaning": "tra cứu (món lạ trên phone)"
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ buổi tối"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "look through",
+            "look up",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look through」 để nói về tình huống: Looking Through the Menu.",
+            "Dùng câu 「look up」 để nói về tình huống: Looking Through the Menu.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Looking Through the Menu.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": "Next: Everyday Look Finale"
+        },
+        {
+          "num": 132,
+          "title": "Everyday Look Finale",
+          "slug": "everyday-look-finale",
+          "image": "images/comics/english-everyday-look/tập-132/english-everyday-look-tap132-everyday-look-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "look back on",
+              "meaning": "nhìn lại hành trình học tiếng Anh"
+            },
+            {
+              "phrase": "look after",
+              "meaning": "chăm sóc bản thân / người khác"
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ tương lai"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "look back on",
+            "look after",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look back on」 để nói về tình huống: Everyday Look Finale.",
+            "Dùng câu 「look after」 để nói về tình huống: Everyday Look Finale.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Everyday Look Finale.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-take",
+      "title": "Silicon Valley Take Arc",
+      "desc": "On-call, ownership, launch — take phrasals trong startup Bay Area",
+      "color": "#0EA5E9",
+      "icon": "🎯",
+      "tag": "Công việc",
+      "count": 6,
+      "cover": "images/comics/silicon-valley-take/tập-133/silicon-valley-take-tap133-take-over-the-oncall.png",
+      "episodes": [
+        {
+          "num": 133,
+          "title": "Take Over the On-Call",
+          "slug": "take-over-the-oncall",
+          "image": "images/comics/silicon-valley-take/tập-133/silicon-valley-take-tap133-take-over-the-oncall.png",
+          "englishFocus": [
+            {
+              "phrase": "take over",
+              "meaning": "tiếp quản (ca, công việc)"
+            },
+            {
+              "phrase": "take on",
+              "meaning": "nhận thêm trách nhiệm"
+            },
+            {
+              "phrase": "take care of",
+              "meaning": "xử lý / lo liệu"
+            }
+          ],
+          "packs": [
+            "health_clinic",
+            "take_phrasal_bigtech",
+            "take_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "take over",
+            "take on",
+            "take care of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take over」 để nói về tình huống: Take Over the On-Call.",
+            "Dùng câu 「take on」 để nói về tình huống: Take Over the On-Call.",
+            "Dùng câu 「take care of」 để nói về tình huống: Take Over the On-Call.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take Apart the Bug"
+        },
+        {
+          "num": 134,
+          "title": "Take Apart the Bug",
+          "slug": "take-apart-the-bug",
+          "image": "images/comics/silicon-valley-take/tập-134/silicon-valley-take-tap134-take-apart-the-bug.png",
+          "englishFocus": [
+            {
+              "phrase": "take apart",
+              "meaning": "tháo gỡ / phân tích từng phần"
+            },
+            {
+              "phrase": "take down",
+              "meaning": "ghi chép lại (notes)"
+            },
+            {
+              "phrase": "take note of",
+              "meaning": "lưu ý / ghi nhận"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "take apart",
+            "take down",
+            "take note of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take apart」 để nói về tình huống: Take Apart the Bug.",
+            "Dùng câu 「take down」 để nói về tình huống: Take Apart the Bug.",
+            "Dùng câu 「take note of」 để nói về tình huống: Take Apart the Bug.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take Off at Launch"
+        },
+        {
+          "num": 135,
+          "title": "Take Off at Launch",
+          "slug": "take-off-at-launch",
+          "image": "images/comics/silicon-valley-take/tập-135/silicon-valley-take-tap135-take-off-at-launch.png",
+          "englishFocus": [
+            {
+              "phrase": "take off",
+              "meaning": "cất cánh / thành công nhanh"
+            },
+            {
+              "phrase": "take up",
+              "meaning": "bắt đầu chiếm (thời gian, tài nguyên)"
+            },
+            {
+              "phrase": "take back",
+              "meaning": "rút lại / thu hồi (lời nói, deploy)"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "take off",
+            "take up",
+            "take back"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take off」 để nói về tình huống: Take Off at Launch.",
+            "Dùng câu 「take up」 để nói về tình huống: Take Off at Launch.",
+            "Dùng câu 「take back」 để nói về tình huống: Take Off at Launch.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take Ownership of the Pipeline"
+        },
+        {
+          "num": 136,
+          "title": "Take Ownership of the Pipeline",
+          "slug": "take-ownership-of-the-pipeline",
+          "image": "images/comics/silicon-valley-take/tập-136/silicon-valley-take-tap136-take-ownership-of-the-pipeline.png",
+          "englishFocus": [
+            {
+              "phrase": "take ownership",
+              "meaning": "chủ động chịu trách nhiệm"
+            },
+            {
+              "phrase": "take responsibility",
+              "meaning": "nhận trách nhiệm"
+            },
+            {
+              "phrase": "take initiative",
+              "meaning": "chủ động làm trước"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "take ownership",
+            "take responsibility",
+            "take initiative"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take ownership」 để nói về tình huống: Take Ownership of the Pipeline.",
+            "Dùng câu 「take responsibility」 để nói về tình huống: Take Ownership of the Pipeline.",
+            "Dùng câu 「take initiative」 để nói về tình huống: Take Ownership of the Pipeline.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take the Heat in Review"
+        },
+        {
+          "num": 137,
+          "title": "Take the Heat in Review",
+          "slug": "take-the-heat-in-review",
+          "image": "images/comics/silicon-valley-take/tập-137/silicon-valley-take-tap137-take-the-heat-in-review.png",
+          "englishFocus": [
+            {
+              "phrase": "take the heat",
+              "meaning": "chịu áp lực / chỉ trích"
+            },
+            {
+              "phrase": "take feedback",
+              "meaning": "tiếp nhận phản hồi"
+            },
+            {
+              "phrase": "take it in stride",
+              "meaning": "bình tĩnh đối diện"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "take the heat",
+            "take feedback",
+            "take it in stride"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take the heat」 để nói về tình huống: Take the Heat in Review.",
+            "Dùng câu 「take feedback」 để nói về tình huống: Take the Heat in Review.",
+            "Dùng câu 「take it in stride」 để nói về tình huống: Take the Heat in Review.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Silicon Valley Take Finale"
+        },
+        {
+          "num": 138,
+          "title": "Silicon Valley Take Finale",
+          "slug": "silicon-valley-take-finale",
+          "image": "images/comics/silicon-valley-take/tập-138/silicon-valley-take-tap138-silicon-valley-take-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "take stock",
+              "meaning": "tổng kết / đánh giá lại"
+            },
+            {
+              "phrase": "take a step back",
+              "meaning": "lùi một bước suy nghĩ"
+            },
+            {
+              "phrase": "take it from here",
+              "meaning": "tiếp tục từ đây (bàn giao)"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "take stock",
+            "take a step back",
+            "take it from here"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take stock」 để nói về tình huống: Silicon Valley Take Finale.",
+            "Dùng câu 「take a step back」 để nói về tình huống: Silicon Valley Take Finale.",
+            "Dùng câu 「take it from here」 để nói về tình huống: Silicon Valley Take Finale.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "wall-street-take",
+      "title": "Wall Street Take Arc",
+      "desc": "Positions, risk, desk lead — take phrasals trên trading floor NYC",
+      "color": "#B45309",
+      "icon": "🏙️",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/wall-street-take/tập-139/wall-street-take-tap139-take-a-position.png",
+      "episodes": [
+        {
+          "num": 139,
+          "title": "Take a Position",
+          "slug": "take-a-position",
+          "image": "images/comics/wall-street-take/tập-139/wall-street-take-tap139-take-a-position.png",
+          "englishFocus": [
+            {
+              "phrase": "take a position",
+              "meaning": "mở vị thế / đặt cược"
+            },
+            {
+              "phrase": "take a risk",
+              "meaning": "chấp nhận rủi ro"
+            },
+            {
+              "phrase": "take profit",
+              "meaning": "chốt lời"
+            }
+          ],
+          "packs": [
+            "take_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "take a position",
+            "take a risk",
+            "take profit"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take a position」 để nói về tình huống: Take a Position.",
+            "Dùng câu 「take a risk」 để nói về tình huống: Take a Position.",
+            "Dùng câu 「take profit」 để nói về tình huống: Take a Position.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take Heat from Compliance"
+        },
+        {
+          "num": 140,
+          "title": "Take Heat from Compliance",
+          "slug": "take-heat-from-compliance",
+          "image": "images/comics/wall-street-take/tập-140/wall-street-take-tap140-take-heat-from-compliance.png",
+          "englishFocus": [
+            {
+              "phrase": "take heat",
+              "meaning": "chịu áp lực từ cấp trên / compliance"
+            },
+            {
+              "phrase": "take responsibility",
+              "meaning": "nhận trách nhiệm với audit"
+            },
+            {
+              "phrase": "take note of",
+              "meaning": "ghi nhận yêu cầu compliance"
+            }
+          ],
+          "packs": [
+            "take_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "take heat",
+            "take responsibility",
+            "take note of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take heat」 để nói về tình huống: Take Heat from Compliance.",
+            "Dùng câu 「take responsibility」 để nói về tình huống: Take Heat from Compliance.",
+            "Dùng câu 「take note of」 để nói về tình huống: Take Heat from Compliance.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take Over the Desk"
+        },
+        {
+          "num": 141,
+          "title": "Take Over the Desk",
+          "slug": "take-over-the-desk",
+          "image": "images/comics/wall-street-take/tập-141/wall-street-take-tap141-take-over-the-desk.png",
+          "englishFocus": [
+            {
+              "phrase": "take over",
+              "meaning": "tiếp quản bàn giao dịch"
+            },
+            {
+              "phrase": "take on",
+              "meaning": "nhận thêm vai trò tạm thời"
+            },
+            {
+              "phrase": "take charge",
+              "meaning": "nắm quyền điều hành"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "take_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "take over",
+            "take on",
+            "take charge"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take over」 để nói về tình huống: Take Over the Desk.",
+            "Dùng câu 「take on」 để nói về tình huống: Take Over the Desk.",
+            "Dùng câu 「take charge」 để nói về tình huống: Take Over the Desk.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take the Meeting Offline"
+        },
+        {
+          "num": 142,
+          "title": "Take the Meeting Offline",
+          "slug": "take-the-meeting-offline",
+          "image": "images/comics/wall-street-take/tập-142/wall-street-take-tap142-take-the-meeting-offline.png",
+          "englishFocus": [
+            {
+              "phrase": "take offline",
+              "meaning": "đưa ra ngoài cuộc họp xử lý riêng"
+            },
+            {
+              "phrase": "take down notes",
+              "meaning": "ghi chép lại"
+            },
+            {
+              "phrase": "take it up with",
+              "meaning": "mang vấn đề tới (sếp / team khác)"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "take_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "take offline",
+            "take down notes",
+            "take it up with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take offline」 để nói về tình huống: Take the Meeting Offline.",
+            "Dùng câu 「take down notes」 để nói về tình huống: Take the Meeting Offline.",
+            "Dùng câu 「take it up with」 để nói về tình huống: Take the Meeting Offline.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Wall Street Take Finale"
+        },
+        {
+          "num": 143,
+          "title": "Wall Street Take Finale",
+          "slug": "wall-street-take-finale",
+          "image": "images/comics/wall-street-take/tập-143/wall-street-take-tap143-wall-street-take-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "take stock",
+              "meaning": "tổng kết kinh nghiệm Wall Street"
+            },
+            {
+              "phrase": "take a step back",
+              "meaning": "nhìn xa hơn số liệu"
+            },
+            {
+              "phrase": "take the lead",
+              "meaning": "dẫn dắt / chủ động trước"
+            }
+          ],
+          "packs": [
+            "take_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "take stock",
+            "take a step back",
+            "take the lead"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take stock」 để nói về tình huống: Wall Street Take Finale.",
+            "Dùng câu 「take a step back」 để nói về tình huống: Wall Street Take Finale.",
+            "Dùng câu 「take the lead」 để nói về tình huống: Wall Street Take Finale.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-take",
+      "title": "Everyday Take Arc",
+      "desc": "Chores, dinner, habits — take phrasals trong đời sống hàng ngày",
+      "color": "#D946EF",
+      "icon": "📚",
+      "tag": "Học tập",
+      "count": 3,
+      "cover": "images/comics/english-everyday-take/tập-144/english-everyday-take-tap144-take-out-the-trash-debate.png",
+      "episodes": [
+        {
+          "num": 144,
+          "title": "Take Out the Trash Debate",
+          "slug": "take-out-the-trash-debate",
+          "image": "images/comics/english-everyday-take/tập-144/english-everyday-take-tap144-take-out-the-trash-debate.png",
+          "englishFocus": [
+            {
+              "phrase": "take out",
+              "meaning": "mang ra (rác, đồ ăn)"
+            },
+            {
+              "phrase": "take off",
+              "meaning": "cởi ra / nghỉ (work)"
+            },
+            {
+              "phrase": "take care of",
+              "meaning": "lo việc nhà"
+            }
+          ],
+          "packs": [
+            "health_clinic",
+            "take_phrasal_bigtech",
+            "take_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "take out",
+            "take off",
+            "take care of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take out」 để nói về tình huống: Take Out the Trash Debate.",
+            "Dùng câu 「take off」 để nói về tình huống: Take Out the Trash Debate.",
+            "Dùng câu 「take care of」 để nói về tình huống: Take Out the Trash Debate.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Take Your Time at Dinner"
+        },
+        {
+          "num": 145,
+          "title": "Take Your Time at Dinner",
+          "slug": "take-your-time-at-dinner",
+          "image": "images/comics/english-everyday-take/tập-145/english-everyday-take-tap145-take-your-time-at-dinner.png",
+          "englishFocus": [
+            {
+              "phrase": "take your time",
+              "meaning": "cứ từ từ / không vội"
+            },
+            {
+              "phrase": "take a seat",
+              "meaning": "ngồi xuống"
+            },
+            {
+              "phrase": "take it easy",
+              "meaning": "thư giãn / đừng căng"
+            }
+          ],
+          "packs": [
+            "take_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "take your time",
+            "take a seat",
+            "take it easy"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take your time」 để nói về tình huống: Take Your Time at Dinner.",
+            "Dùng câu 「take a seat」 để nói về tình huống: Take Your Time at Dinner.",
+            "Dùng câu 「take it easy」 để nói về tình huống: Take Your Time at Dinner.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Everyday Take Finale"
+        },
+        {
+          "num": 146,
+          "title": "Everyday Take Finale",
+          "slug": "everyday-take-finale",
+          "image": "images/comics/english-everyday-take/tập-146/english-everyday-take-tap146-everyday-take-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "take it from here",
+              "meaning": "tiếp tục thói quen tốt"
+            },
+            {
+              "phrase": "take stock",
+              "meaning": "nhìn lại thói quen hàng ngày"
+            },
+            {
+              "phrase": "take on new habits",
+              "meaning": "bắt đầu thói quen mới"
+            }
+          ],
+          "packs": [
+            "take_phrasal_bigtech",
+            "take_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "take it from here",
+            "take stock",
+            "take on new habits"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take it from here」 để nói về tình huống: Everyday Take Finale.",
+            "Dùng câu 「take stock」 để nói về tình huống: Everyday Take Finale.",
+            "Dùng câu 「take on new habits」 để nói về tình huống: Everyday Take Finale.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-put",
+      "title": "Silicon Valley Put Arc",
+      "desc": "Proposals, hold, writing — put phrasals trong engineering meetings SF",
+      "color": "#0EA5E9",
+      "icon": "📋",
+      "tag": "Công việc",
+      "count": 6,
+      "cover": "images/comics/silicon-valley-put/tập-147/silicon-valley-put-tap147-put-off-the-refactor.png",
+      "episodes": [
+        {
+          "num": 147,
+          "title": "Put Off the Refactor",
+          "slug": "put-off-the-refactor",
+          "image": "images/comics/silicon-valley-put/tập-147/silicon-valley-put-tap147-put-off-the-refactor.png",
+          "englishFocus": [
+            {
+              "phrase": "put off",
+              "meaning": "hoãn lại"
+            },
+            {
+              "phrase": "put aside",
+              "meaning": "gác lại / dành riêng"
+            },
+            {
+              "phrase": "put together",
+              "meaning": "ghép / lắp ráp kế hoạch"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put off",
+            "put aside",
+            "put together"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put off」 để nói về tình huống: Put Off the Refactor.",
+            "Dùng câu 「put aside」 để nói về tình huống: Put Off the Refactor.",
+            "Dùng câu 「put together」 để nói về tình huống: Put Off the Refactor.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put Forward a Proposal"
+        },
+        {
+          "num": 148,
+          "title": "Put Forward a Proposal",
+          "slug": "put-forward-a-proposal",
+          "image": "images/comics/silicon-valley-put/tập-148/silicon-valley-put-tap148-put-forward-a-proposal.png",
+          "englishFocus": [
+            {
+              "phrase": "put forward",
+              "meaning": "đề xuất chính thức"
+            },
+            {
+              "phrase": "put forth",
+              "meaning": "đưa ra (ý tưởng, effort)"
+            },
+            {
+              "phrase": "put in a request",
+              "meaning": "gửi yêu cầu chính thức"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put forward",
+            "put forth",
+            "put in a request"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put forward」 để nói về tình huống: Put Forward a Proposal.",
+            "Dùng câu 「put forth」 để nói về tình huống: Put Forward a Proposal.",
+            "Dùng câu 「put in a request」 để nói về tình huống: Put Forward a Proposal.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put the Release on Hold"
+        },
+        {
+          "num": 149,
+          "title": "Put the Release on Hold",
+          "slug": "put-the-release-on-hold",
+          "image": "images/comics/silicon-valley-put/tập-149/silicon-valley-put-tap149-put-the-release-on-hold.png",
+          "englishFocus": [
+            {
+              "phrase": "put on hold",
+              "meaning": "tạm dừng / giữ lại"
+            },
+            {
+              "phrase": "put back",
+              "meaning": "lùi lịch / trả lại"
+            },
+            {
+              "phrase": "put through",
+              "meaning": "đưa qua / kết nối (call)"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put on hold",
+            "put back",
+            "put through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put on hold」 để nói về tình huống: Put the Release on Hold.",
+            "Dùng câu 「put back」 để nói về tình huống: Put the Release on Hold.",
+            "Dùng câu 「put through」 để nói về tình huống: Put the Release on Hold.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put Your Head Down"
+        },
+        {
+          "num": 150,
+          "title": "Put Your Head Down",
+          "slug": "put-your-head-down",
+          "image": "images/comics/silicon-valley-put/tập-150/silicon-valley-put-tap150-put-your-head-down.png",
+          "englishFocus": [
+            {
+              "phrase": "put your head down",
+              "meaning": "cúi đầu làm việc tập trung"
+            },
+            {
+              "phrase": "put in the hours",
+              "meaning": "bỏ nhiều giờ công sức"
+            },
+            {
+              "phrase": "put effort into",
+              "meaning": "đầu tư công sức vào"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put your head down",
+            "put in the hours",
+            "put effort into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put your head down」 để nói về tình huống: Put Your Head Down.",
+            "Dùng câu 「put in the hours」 để nói về tình huống: Put Your Head Down.",
+            "Dùng câu 「put effort into」 để nói về tình huống: Put Your Head Down.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put It in Writing"
+        },
+        {
+          "num": 151,
+          "title": "Put It in Writing",
+          "slug": "put-it-in-writing",
+          "image": "images/comics/silicon-valley-put/tập-151/silicon-valley-put-tap151-put-it-in-writing.png",
+          "englishFocus": [
+            {
+              "phrase": "put in writing",
+              "meaning": "viết thành văn bản chính thức"
+            },
+            {
+              "phrase": "put down",
+              "meaning": "ghi xuống / đặt xuống"
+            },
+            {
+              "phrase": "put across",
+              "meaning": "truyền đạt rõ ràng"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put in writing",
+            "put down",
+            "put across"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put in writing」 để nói về tình huống: Put It in Writing.",
+            "Dùng câu 「put down」 để nói về tình huống: Put It in Writing.",
+            "Dùng câu 「put across」 để nói về tình huống: Put It in Writing.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Silicon Valley Put Finale"
+        },
+        {
+          "num": 152,
+          "title": "Silicon Valley Put Finale",
+          "slug": "silicon-valley-put-finale",
+          "image": "images/comics/silicon-valley-put/tập-152/silicon-valley-put-tap152-silicon-valley-put-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "put to rest",
+              "meaning": "giải quyết dứt điểm"
+            },
+            {
+              "phrase": "put the pieces together",
+              "meaning": "ghép mảnh lại thành bức tranh"
+            },
+            {
+              "phrase": "put it behind us",
+              "meaning": "bỏ lại phía sau / không oán hận"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put to rest",
+            "put the pieces together",
+            "put it behind us"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put to rest」 để nói về tình huống: Silicon Valley Put Finale.",
+            "Dùng câu 「put the pieces together」 để nói về tình huống: Silicon Valley Put Finale.",
+            "Dùng câu 「put it behind us」 để nói về tình huống: Silicon Valley Put Finale.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "wall-street-put",
+      "title": "Wall Street Put Arc",
+      "desc": "Deals, pitches, compliance — put phrasals trên Wall Street",
+      "color": "#B45309",
+      "icon": "🏙️",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/wall-street-put/tập-153/wall-street-put-tap153-put-money-on-the-line.png",
+      "episodes": [
+        {
+          "num": 153,
+          "title": "Put Money on the Line",
+          "slug": "put-money-on-the-line",
+          "image": "images/comics/wall-street-put/tập-153/wall-street-put-tap153-put-money-on-the-line.png",
+          "englishFocus": [
+            {
+              "phrase": "put money on",
+              "meaning": "đặt cược tiền vào"
+            },
+            {
+              "phrase": "put at risk",
+              "meaning": "đưa vào vùng rủi ro"
+            },
+            {
+              "phrase": "put aside",
+              "meaning": "dành riêng (vốn, dự phòng)"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "put money on",
+            "put at risk",
+            "put aside"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put money on」 để nói về tình huống: Put Money on the Line.",
+            "Dùng câu 「put at risk」 để nói về tình huống: Put Money on the Line.",
+            "Dùng câu 「put aside」 để nói về tình huống: Put Money on the Line.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put Forward the Pitch"
+        },
+        {
+          "num": 154,
+          "title": "Put Forward the Pitch",
+          "slug": "put-forward-the-pitch",
+          "image": "images/comics/wall-street-put/tập-154/wall-street-put-tap154-put-forward-the-pitch.png",
+          "englishFocus": [
+            {
+              "phrase": "put forward",
+              "meaning": "đệ trình / đề xuất chính thức"
+            },
+            {
+              "phrase": "put forth",
+              "meaning": "trình bày (effort, argument)"
+            },
+            {
+              "phrase": "put together",
+              "meaning": "biên soạn deck / tài liệu"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "put_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "put forward",
+            "put forth",
+            "put together"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put forward」 để nói về tình huống: Put Forward the Pitch.",
+            "Dùng câu 「put forth」 để nói về tình huống: Put Forward the Pitch.",
+            "Dùng câu 「put together」 để nói về tình huống: Put Forward the Pitch.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put the Deal on Hold"
+        },
+        {
+          "num": 155,
+          "title": "Put the Deal on Hold",
+          "slug": "put-the-deal-on-hold",
+          "image": "images/comics/wall-street-put/tập-155/wall-street-put-tap155-put-the-deal-on-hold.png",
+          "englishFocus": [
+            {
+              "phrase": "put on hold",
+              "meaning": "tạm hoãn thương vụ"
+            },
+            {
+              "phrase": "put back",
+              "meaning": "lùi timeline đóng deal"
+            },
+            {
+              "phrase": "put through",
+              "meaning": "đưa hồ sơ qua bộ phận duyệt"
+            }
+          ],
+          "packs": [
+            "put_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "put on hold",
+            "put back",
+            "put through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put on hold」 để nói về tình huống: Put the Deal on Hold.",
+            "Dùng câu 「put back」 để nói về tình huống: Put the Deal on Hold.",
+            "Dùng câu 「put through」 để nói về tình huống: Put the Deal on Hold.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put It All on the Table"
+        },
+        {
+          "num": 156,
+          "title": "Put It All on the Table",
+          "slug": "put-it-all-on-the-table",
+          "image": "images/comics/wall-street-put/tập-156/wall-street-put-tap156-put-it-all-on-the-table.png",
+          "englishFocus": [
+            {
+              "phrase": "put on the table",
+              "meaning": "đưa ra bàn đàm phán"
+            },
+            {
+              "phrase": "put across",
+              "meaning": "truyền đạt quan điểm rõ"
+            },
+            {
+              "phrase": "put in writing",
+              "meaning": "chốt bằng văn bản pháp lý"
+            }
+          ],
+          "packs": [
+            "put_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "put on the table",
+            "put across",
+            "put in writing"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put on the table」 để nói về tình huống: Put It All on the Table.",
+            "Dùng câu 「put across」 để nói về tình huống: Put It All on the Table.",
+            "Dùng câu 「put in writing」 để nói về tình huống: Put It All on the Table.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Wall Street Put Finale"
+        },
+        {
+          "num": 157,
+          "title": "Wall Street Put Finale",
+          "slug": "wall-street-put-finale",
+          "image": "images/comics/wall-street-put/tập-157/wall-street-put-tap157-wall-street-put-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "put to rest",
+              "meaning": "kết thúc tranh cãi / lo ngại"
+            },
+            {
+              "phrase": "put together",
+              "meaning": "tổng hợp kinh nghiệm"
+            },
+            {
+              "phrase": "put behind us",
+              "meaning": "bỏ lại phía sau"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "put_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "put to rest",
+            "put together",
+            "put behind us"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put to rest」 để nói về tình huống: Wall Street Put Finale.",
+            "Dùng câu 「put together」 để nói về tình huống: Wall Street Put Finale.",
+            "Dùng câu 「put behind us」 để nói về tình huống: Wall Street Put Finale.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-put",
+      "title": "Everyday Put Arc",
+      "desc": "Surprises, roommates, peace of mind — put phrasals hàng ngày",
+      "color": "#D946EF",
+      "icon": "📚",
+      "tag": "Học tập",
+      "count": 3,
+      "cover": "images/comics/english-everyday-put/tập-158/english-everyday-put-tap158-put-together-a-birthday-surprise.png",
+      "episodes": [
+        {
+          "num": 158,
+          "title": "Put Together a Birthday Surprise",
+          "slug": "put-together-a-birthday-surprise",
+          "image": "images/comics/english-everyday-put/tập-158/english-everyday-put-tap158-put-together-a-birthday-surprise.png",
+          "englishFocus": [
+            {
+              "phrase": "put together",
+              "meaning": "chuẩn bị / tổ chức"
+            },
+            {
+              "phrase": "put up",
+              "meaning": "treo / dựng (decorations)"
+            },
+            {
+              "phrase": "put away",
+              "meaning": "cất đi / dọn gọn"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "put_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "put together",
+            "put up",
+            "put away"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put together」 để nói về tình huống: Put Together a Birthday Surprise.",
+            "Dùng câu 「put up」 để nói về tình huống: Put Together a Birthday Surprise.",
+            "Dùng câu 「put away」 để nói về tình huống: Put Together a Birthday Surprise.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Put Up With Roommate Noise"
+        },
+        {
+          "num": 159,
+          "title": "Put Up With Roommate Noise",
+          "slug": "put-up-with-roommate-noise",
+          "image": "images/comics/english-everyday-put/tập-159/english-everyday-put-tap159-put-up-with-roommate-noise.png",
+          "englishFocus": [
+            {
+              "phrase": "put up with",
+              "meaning": "chịu đựng / bỏ qua"
+            },
+            {
+              "phrase": "put off",
+              "meaning": "hoãn (sleep, chore)"
+            },
+            {
+              "phrase": "put aside",
+              "meaning": "gác cơn giận sang một bên"
+            }
+          ],
+          "packs": [
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "put_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "put up with",
+            "put off",
+            "put aside"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put up with」 để nói về tình huống: Put Up With Roommate Noise.",
+            "Dùng câu 「put off」 để nói về tình huống: Put Up With Roommate Noise.",
+            "Dùng câu 「put aside」 để nói về tình huống: Put Up With Roommate Noise.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Everyday Put Finale"
+        },
+        {
+          "num": 160,
+          "title": "Everyday Put Finale",
+          "slug": "everyday-put-finale",
+          "image": "images/comics/english-everyday-put/tập-160/english-everyday-put-tap160-everyday-put-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "put to rest",
+              "meaning": "giải tỏa lo lắng"
+            },
+            {
+              "phrase": "put your mind at ease",
+              "meaning": "làm tâm trí yên tâm"
+            },
+            {
+              "phrase": "put it behind you",
+              "meaning": "buông bỏ quá khứ"
+            }
+          ],
+          "packs": [
+            "put_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "put to rest",
+            "put your mind at ease",
+            "put it behind you"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put to rest」 để nói về tình huống: Everyday Put Finale.",
+            "Dùng câu 「put your mind at ease」 để nói về tình huống: Everyday Put Finale.",
+            "Dùng câu 「put it behind you」 để nói về tình huống: Everyday Put Finale.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-come",
+      "title": "Silicon Valley Come Arc",
+      "desc": "Bugs, deadlines, burnout recovery — come phrasals trong tech team SF",
+      "color": "#0EA5E9",
+      "icon": "💡",
+      "tag": "Công việc",
+      "count": 6,
+      "cover": "images/comics/silicon-valley-come/tập-161/silicon-valley-come-tap161-come-across-a-rare-bug.png",
+      "episodes": [
+        {
+          "num": 161,
+          "title": "Come Across a Rare Bug",
+          "slug": "come-across-a-rare-bug",
+          "image": "images/comics/silicon-valley-come/tập-161/silicon-valley-come-tap161-come-across-a-rare-bug.png",
+          "englishFocus": [
+            {
+              "phrase": "come across",
+              "meaning": "tình cờ gặp / phát hiện"
+            },
+            {
+              "phrase": "come up with",
+              "meaning": "nghĩ ra / đưa ra ý tưởng"
+            },
+            {
+              "phrase": "come to terms with",
+              "meaning": "chấp nhận / hòa giải với"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "come_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "come across",
+            "come up with",
+            "come to terms with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come across」 để nói về tình huống: Come Across a Rare Bug.",
+            "Dùng câu 「come up with」 để nói về tình huống: Come Across a Rare Bug.",
+            "Dùng câu 「come to terms with」 để nói về tình huống: Come Across a Rare Bug.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Up Against a Deadline"
+        },
+        {
+          "num": 162,
+          "title": "Come Up Against a Deadline",
+          "slug": "come-up-against-a-deadline",
+          "image": "images/comics/silicon-valley-come/tập-162/silicon-valley-come-tap162-come-up-against-a-deadline.png",
+          "englishFocus": [
+            {
+              "phrase": "come up against",
+              "meaning": "đụng phải / đối mặt (thử thách)"
+            },
+            {
+              "phrase": "come down to",
+              "meaning": "quy về / còn phụ thuộc vào"
+            },
+            {
+              "phrase": "come through",
+              "meaning": "hoàn thành đúng hạn / giúp được"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "come up against",
+            "come down to",
+            "come through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come up against」 để nói về tình huống: Come Up Against a Deadline.",
+            "Dùng câu 「come down to」 để nói về tình huống: Come Up Against a Deadline.",
+            "Dùng câu 「come through」 để nói về tình huống: Come Up Against a Deadline.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Around to the Idea"
+        },
+        {
+          "num": 163,
+          "title": "Come Around to the Idea",
+          "slug": "come-around-to-the-idea",
+          "image": "images/comics/silicon-valley-come/tập-163/silicon-valley-come-tap163-come-around-to-the-idea.png",
+          "englishFocus": [
+            {
+              "phrase": "come around to",
+              "meaning": "dần đồng ý với ý tưởng"
+            },
+            {
+              "phrase": "come to think of it",
+              "meaning": "nghĩ lại thì / à mà"
+            },
+            {
+              "phrase": "come clean",
+              "meaning": "thú nhận thẳng thắn"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "come_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "come around to",
+            "come to think of it",
+            "come clean"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come around to」 để nói về tình huống: Come Around to the Idea.",
+            "Dùng câu 「come to think of it」 để nói về tình huống: Come Around to the Idea.",
+            "Dùng câu 「come clean」 để nói về tình huống: Come Around to the Idea.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Back from Burnout"
+        },
+        {
+          "num": 164,
+          "title": "Come Back from Burnout",
+          "slug": "come-back-from-burnout",
+          "image": "images/comics/silicon-valley-come/tập-164/silicon-valley-come-tap164-come-back-from-burnout.png",
+          "englishFocus": [
+            {
+              "phrase": "come back from",
+              "meaning": "hồi phục sau (burnout, nghỉ dài)"
+            },
+            {
+              "phrase": "come out of",
+              "meaning": "thoát khỏi (giai đoạn khó)"
+            },
+            {
+              "phrase": "come to grips with",
+              "meaning": "đối mặt và xử lý thực tế"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "come back from",
+            "come out of",
+            "come to grips with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come back from」 để nói về tình huống: Come Back from Burnout.",
+            "Dùng câu 「come out of」 để nói về tình huống: Come Back from Burnout.",
+            "Dùng câu 「come to grips with」 để nói về tình huống: Come Back from Burnout.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Up in Standup"
+        },
+        {
+          "num": 165,
+          "title": "Come Up in Standup",
+          "slug": "come-up-in-standup",
+          "image": "images/comics/silicon-valley-come/tập-165/silicon-valley-come-tap165-come-up-in-standup.png",
+          "englishFocus": [
+            {
+              "phrase": "come up",
+              "meaning": "phát sinh / được nhắc tới"
+            },
+            {
+              "phrase": "come up with",
+              "meaning": "đưa ra (câu trả lời nhanh)"
+            },
+            {
+              "phrase": "come through for",
+              "meaning": "không phụ lòng / giúp khi cần"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "come up",
+            "come up with",
+            "come through for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come up」 để nói về tình huống: Come Up in Standup.",
+            "Dùng câu 「come up with」 để nói về tình huống: Come Up in Standup.",
+            "Dùng câu 「come through for」 để nói về tình huống: Come Up in Standup.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Silicon Valley Come Finale"
+        },
+        {
+          "num": 166,
+          "title": "Silicon Valley Come Finale",
+          "slug": "silicon-valley-come-finale",
+          "image": "images/comics/silicon-valley-come/tập-166/silicon-valley-come-tap166-silicon-valley-come-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "come full circle",
+              "meaning": "quay tròn / trở về điểm xuất phát"
+            },
+            {
+              "phrase": "come a long way",
+              "meaning": "tiến xa / trưởng thành nhiều"
+            },
+            {
+              "phrase": "come to realize",
+              "meaning": "dần nhận ra"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "come_phrasal_everyday",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "come full circle",
+            "come a long way",
+            "come to realize"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come full circle」 để nói về tình huống: Silicon Valley Come Finale.",
+            "Dùng câu 「come a long way」 để nói về tình huống: Silicon Valley Come Finale.",
+            "Dùng câu 「come to realize」 để nói về tình huống: Silicon Valley Come Finale.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "wall-street-come",
+      "title": "Wall Street Come Arc",
+      "desc": "Risk, merger, losses — come phrasals trong finance NYC",
+      "color": "#B45309",
+      "icon": "🏙️",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/wall-street-come/tập-167/wall-street-come-tap167-come-across-insider-risk.png",
+      "episodes": [
+        {
+          "num": 167,
+          "title": "Come Across Insider Risk",
+          "slug": "come-across-insider-risk",
+          "image": "images/comics/wall-street-come/tập-167/wall-street-come-tap167-come-across-insider-risk.png",
+          "englishFocus": [
+            {
+              "phrase": "come across",
+              "meaning": "phát hiện (khi rà soát)"
+            },
+            {
+              "phrase": "come up with",
+              "meaning": "đưa ra giải pháp tuân thủ"
+            },
+            {
+              "phrase": "come to light",
+              "meaning": "lộ ra / được phát hiện"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "come_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "come across",
+            "come up with",
+            "come to light"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come across」 để nói về tình huống: Come Across Insider Risk.",
+            "Dùng câu 「come up with」 để nói về tình huống: Come Across Insider Risk.",
+            "Dùng câu 「come to light」 để nói về tình huống: Come Across Insider Risk.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Down to the Numbers"
+        },
+        {
+          "num": 168,
+          "title": "Come Down to the Numbers",
+          "slug": "come-down-to-the-numbers",
+          "image": "images/comics/wall-street-come/tập-168/wall-street-come-tap168-come-down-to-the-numbers.png",
+          "englishFocus": [
+            {
+              "phrase": "come down to",
+              "meaning": "quy về con số / yếu tố then chốt"
+            },
+            {
+              "phrase": "come up against",
+              "meaning": "đụng trần / giới hạn"
+            },
+            {
+              "phrase": "come through",
+              "meaning": "vượt kỳ vọng / hoàn thành cam kết"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "come_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "come down to",
+            "come up against",
+            "come through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come down to」 để nói về tình huống: Come Down to the Numbers.",
+            "Dùng câu 「come up against」 để nói về tình huống: Come Down to the Numbers.",
+            "Dùng câu 「come through」 để nói về tình huống: Come Down to the Numbers.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Around on the Merger"
+        },
+        {
+          "num": 169,
+          "title": "Come Around on the Merger",
+          "slug": "come-around-on-the-merger",
+          "image": "images/comics/wall-street-come/tập-169/wall-street-come-tap169-come-around-on-the-merger.png",
+          "englishFocus": [
+            {
+              "phrase": "come around to",
+              "meaning": "dần chấp nhận thương vụ"
+            },
+            {
+              "phrase": "come to terms with",
+              "meaning": "chấp nhận điều khoản"
+            },
+            {
+              "phrase": "come clean",
+              "meaning": "nói thẳng lo ngại"
+            }
+          ],
+          "packs": [
+            "come_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "come around to",
+            "come to terms with",
+            "come clean"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come around to」 để nói về tình huống: Come Around on the Merger.",
+            "Dùng câu 「come to terms with」 để nói về tình huống: Come Around on the Merger.",
+            "Dùng câu 「come clean」 để nói về tình huống: Come Around on the Merger.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Back from a Loss"
+        },
+        {
+          "num": 170,
+          "title": "Come Back from a Loss",
+          "slug": "come-back-from-a-loss",
+          "image": "images/comics/wall-street-come/tập-170/wall-street-come-tap170-come-back-from-a-loss.png",
+          "englishFocus": [
+            {
+              "phrase": "come back from",
+              "meaning": "phục hồi sau thua lỗ"
+            },
+            {
+              "phrase": "come out ahead",
+              "meaning": "vẫn lời / vượt qua được"
+            },
+            {
+              "phrase": "come to grips with",
+              "meaning": "chấp nhận thua và học"
+            }
+          ],
+          "packs": [
+            "come_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "come back from",
+            "come out ahead",
+            "come to grips with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come back from」 để nói về tình huống: Come Back from a Loss.",
+            "Dùng câu 「come out ahead」 để nói về tình huống: Come Back from a Loss.",
+            "Dùng câu 「come to grips with」 để nói về tình huống: Come Back from a Loss.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Wall Street Come Finale"
+        },
+        {
+          "num": 171,
+          "title": "Wall Street Come Finale",
+          "slug": "wall-street-come-finale",
+          "image": "images/comics/wall-street-come/tập-171/wall-street-come-tap171-wall-street-come-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "come full circle",
+              "meaning": "hoàn thành vòng cung Wall Street"
+            },
+            {
+              "phrase": "come a long way",
+              "meaning": "tiến bộ trong finance English"
+            },
+            {
+              "phrase": "come to realize",
+              "meaning": "nhận ra giá trị kinh nghiệm"
+            }
+          ],
+          "packs": [
+            "come_phrasal_everyday",
+            "come_phrasal_wallstreet",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "come full circle",
+            "come a long way",
+            "come to realize"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come full circle」 để nói về tình huống: Wall Street Come Finale.",
+            "Dùng câu 「come a long way」 để nói về tình huống: Wall Street Come Finale.",
+            "Dùng câu 「come to realize」 để nói về tình huống: Wall Street Come Finale.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-come",
+      "title": "Everyday Come Arc",
+      "desc": "Dinner invites, illness, gratitude — come phrasals đời thường",
+      "color": "#D946EF",
+      "icon": "📚",
+      "tag": "Học tập",
+      "count": 3,
+      "cover": "images/comics/english-everyday-come/tập-172/english-everyday-come-tap172-come-over-for-dinner.png",
+      "episodes": [
+        {
+          "num": 172,
+          "title": "Come Over for Dinner",
+          "slug": "come-over-for-dinner",
+          "image": "images/comics/english-everyday-come/tập-172/english-everyday-come-tap172-come-over-for-dinner.png",
+          "englishFocus": [
+            {
+              "phrase": "come over",
+              "meaning": "ghé qua nhà ai"
+            },
+            {
+              "phrase": "come by",
+              "meaning": "ghé qua (ngắn)"
+            },
+            {
+              "phrase": "come up with",
+              "meaning": "nghĩ ra món / kế hoạch"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "come_phrasal_everyday",
+            "come_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "come over",
+            "come by",
+            "come up with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come over」 để nói về tình huống: Come Over for Dinner.",
+            "Dùng câu 「come by」 để nói về tình huống: Come Over for Dinner.",
+            "Dùng câu 「come up with」 để nói về tình huống: Come Over for Dinner.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Come Down with a Cold"
+        },
+        {
+          "num": 173,
+          "title": "Come Down with a Cold",
+          "slug": "come-down-with-a-cold",
+          "image": "images/comics/english-everyday-come/tập-173/english-everyday-come-tap173-come-down-with-a-cold.png",
+          "englishFocus": [
+            {
+              "phrase": "come down with",
+              "meaning": "mắc bệnh / bị cảm"
+            },
+            {
+              "phrase": "come around",
+              "meaning": "khỏi hẳn / quay lại bình thường"
+            },
+            {
+              "phrase": "come back",
+              "meaning": "hồi phục / trở lại"
+            }
+          ],
+          "packs": [
+            "come_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "come down with",
+            "come around",
+            "come back"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come down with」 để nói về tình huống: Come Down with a Cold.",
+            "Dùng câu 「come around」 để nói về tình huống: Come Down with a Cold.",
+            "Dùng câu 「come back」 để nói về tình huống: Come Down with a Cold.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Everyday Come Finale"
+        },
+        {
+          "num": 174,
+          "title": "Everyday Come Finale",
+          "slug": "everyday-come-finale",
+          "image": "images/comics/english-everyday-come/tập-174/english-everyday-come-tap174-everyday-come-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "come full circle",
+              "meaning": "hoàn thành vòng học phrasals"
+            },
+            {
+              "phrase": "come a long way",
+              "meaning": "tiến bộ trong cuộc sống Mỹ"
+            },
+            {
+              "phrase": "come to appreciate",
+              "meaning": "dần trân trọng"
+            }
+          ],
+          "packs": [
+            "come_phrasal_everyday",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "come full circle",
+            "come a long way",
+            "come to appreciate"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come full circle」 để nói về tình huống: Everyday Come Finale.",
+            "Dùng câu 「come a long way」 để nói về tình huống: Everyday Come Finale.",
+            "Dùng câu 「come to appreciate」 để nói về tình huống: Everyday Come Finale.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "silicon-valley-go",
+      "title": "Silicon Valley Go Arc",
+      "desc": "Postmortem, merge, architecture — go phrasals trong Big Tech SF",
+      "color": "#0EA5E9",
+      "icon": "🚀",
+      "tag": "Công việc",
+      "count": 6,
+      "cover": "images/comics/silicon-valley-go/tập-175/silicon-valley-go-tap175-go-over-the-postmortem.png",
+      "episodes": [
+        {
+          "num": 175,
+          "title": "Go Over the Postmortem",
+          "slug": "go-over-the-postmortem",
+          "image": "images/comics/silicon-valley-go/tập-175/silicon-valley-go-tap175-go-over-the-postmortem.png",
+          "englishFocus": [
+            {
+              "phrase": "go over",
+              "meaning": "xem lại / duyệt qua"
+            },
+            {
+              "phrase": "go through",
+              "meaning": "đi qua từng bước"
+            },
+            {
+              "phrase": "go with",
+              "meaning": "chọn theo / đi cùng phương án"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review",
+            "preference_opinion",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go over",
+            "go through",
+            "go with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go over」 để nói về tình huống: Go Over the Postmortem.",
+            "Dùng câu 「go through」 để nói về tình huống: Go Over the Postmortem.",
+            "Dùng câu 「go with」 để nói về tình huống: Go Over the Postmortem.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Ahead with the Merge"
+        },
+        {
+          "num": 176,
+          "title": "Go Ahead with the Merge",
+          "slug": "go-ahead-with-the-merge",
+          "image": "images/comics/silicon-valley-go/tập-176/silicon-valley-go-tap176-go-ahead-with-the-merge.png",
+          "englishFocus": [
+            {
+              "phrase": "go ahead",
+              "meaning": "tiến hành / được phép làm"
+            },
+            {
+              "phrase": "go along with",
+              "meaning": "đồng ý theo quyết định"
+            },
+            {
+              "phrase": "go back to",
+              "meaning": "quay lại (branch, topic)"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "go_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go ahead",
+            "go along with",
+            "go back to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go ahead」 để nói về tình huống: Go Ahead with the Merge.",
+            "Dùng câu 「go along with」 để nói về tình huống: Go Ahead with the Merge.",
+            "Dùng câu 「go back to」 để nói về tình huống: Go Ahead with the Merge.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Down in History"
+        },
+        {
+          "num": 177,
+          "title": "Go Down in History",
+          "slug": "go-down-in-history",
+          "image": "images/comics/silicon-valley-go/tập-177/silicon-valley-go-tap177-go-down-in-history.png",
+          "englishFocus": [
+            {
+              "phrase": "go down",
+              "meaning": "đi xuống / đi vào lịch sử"
+            },
+            {
+              "phrase": "go off",
+              "meaning": "diễn ra (sự kiện) / reo (báo động)"
+            },
+            {
+              "phrase": "go wrong",
+              "meaning": "sai / trục trặc"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go down",
+            "go off",
+            "go wrong"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go down」 để nói về tình huống: Go Down in History.",
+            "Dùng câu 「go off」 để nói về tình huống: Go Down in History.",
+            "Dùng câu 「go wrong」 để nói về tình huống: Go Down in History.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Through with the Cut"
+        },
+        {
+          "num": 178,
+          "title": "Go Through with the Cut",
+          "slug": "go-through-with-the-cut",
+          "image": "images/comics/silicon-valley-go/tập-178/silicon-valley-go-tap178-go-through-with-the-cut.png",
+          "englishFocus": [
+            {
+              "phrase": "go through with",
+              "meaning": "thực hiện đến cùng (quyết định khó)"
+            },
+            {
+              "phrase": "go over",
+              "meaning": "xem lại scope một lần nữa"
+            },
+            {
+              "phrase": "go with the flow",
+              "meaning": "linh hoạt theo tình huống"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review",
+            "preference_opinion",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go through with",
+            "go over",
+            "go with the flow"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go through with」 để nói về tình huống: Go Through with the Cut.",
+            "Dùng câu 「go over」 để nói về tình huống: Go Through with the Cut.",
+            "Dùng câu 「go with the flow」 để nói về tình huống: Go Through with the Cut.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Deep on Architecture"
+        },
+        {
+          "num": 179,
+          "title": "Go Deep on Architecture",
+          "slug": "go-deep-on-architecture",
+          "image": "images/comics/silicon-valley-go/tập-179/silicon-valley-go-tap179-go-deep-on-architecture.png",
+          "englishFocus": [
+            {
+              "phrase": "go deep on",
+              "meaning": "đi sâu vào chủ đề"
+            },
+            {
+              "phrase": "go beyond",
+              "meaning": "vượt ra ngoài (yêu cầu cơ bản)"
+            },
+            {
+              "phrase": "go over",
+              "meaning": "ôn lại chi tiết kỹ thuật"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go deep on",
+            "go beyond",
+            "go over"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go deep on」 để nói về tình huống: Go Deep on Architecture.",
+            "Dùng câu 「go beyond」 để nói về tình huống: Go Deep on Architecture.",
+            "Dùng câu 「go over」 để nói về tình huống: Go Deep on Architecture.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Silicon Valley Go Finale"
+        },
+        {
+          "num": 180,
+          "title": "Silicon Valley Go Finale",
+          "slug": "silicon-valley-go-finale",
+          "image": "images/comics/silicon-valley-go/tập-180/silicon-valley-go-tap180-silicon-valley-go-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "go a long way",
+              "meaning": "giúp ích rất nhiều"
+            },
+            {
+              "phrase": "go hand in hand",
+              "meaning": "song hành / đi cùng nhau"
+            },
+            {
+              "phrase": "go the extra mile",
+              "meaning": "nỗ lực thêm một bước"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "software-engineering",
+            "startup",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go a long way",
+            "go hand in hand",
+            "go the extra mile"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go a long way」 để nói về tình huống: Silicon Valley Go Finale.",
+            "Dùng câu 「go hand in hand」 để nói về tình huống: Silicon Valley Go Finale.",
+            "Dùng câu 「go the extra mile」 để nói về tình huống: Silicon Valley Go Finale.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "wall-street-go",
+      "title": "Wall Street Go Arc",
+      "desc": "Earnings, trades, audit — go phrasals trên Wall Street",
+      "color": "#B45309",
+      "icon": "🏙️",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/wall-street-go/tập-181/wall-street-go-tap181-go-over-the-earnings.png",
+      "episodes": [
+        {
+          "num": 181,
+          "title": "Go Over the Earnings",
+          "slug": "go-over-the-earnings",
+          "image": "images/comics/wall-street-go/tập-181/wall-street-go-tap181-go-over-the-earnings.png",
+          "englishFocus": [
+            {
+              "phrase": "go over",
+              "meaning": "duyệt qua báo cáo earnings"
+            },
+            {
+              "phrase": "go through",
+              "meaning": "đi qua từng dòng số"
+            },
+            {
+              "phrase": "go with",
+              "meaning": "theo hướng trade nào"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "go_phrasal_wallstreet",
+            "phrasal_review",
+            "preference_opinion",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "go over",
+            "go through",
+            "go with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go over」 để nói về tình huống: Go Over the Earnings.",
+            "Dùng câu 「go through」 để nói về tình huống: Go Over the Earnings.",
+            "Dùng câu 「go with」 để nói về tình huống: Go Over the Earnings.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Ahead with the Block Trade"
+        },
+        {
+          "num": 182,
+          "title": "Go Ahead with the Block Trade",
+          "slug": "go-ahead-with-the-block-trade",
+          "image": "images/comics/wall-street-go/tập-182/wall-street-go-tap182-go-ahead-with-the-block-trade.png",
+          "englishFocus": [
+            {
+              "phrase": "go ahead",
+              "meaning": "thực hiện lệnh lớn"
+            },
+            {
+              "phrase": "go along with",
+              "meaning": "đồng thuận chiến lược"
+            },
+            {
+              "phrase": "go back on",
+              "meaning": "nuốt lời / đảo ngược cam kết"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "go_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "go ahead",
+            "go along with",
+            "go back on"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go ahead」 để nói về tình huống: Go Ahead with the Block Trade.",
+            "Dùng câu 「go along with」 để nói về tình huống: Go Ahead with the Block Trade.",
+            "Dùng câu 「go back on」 để nói về tình huống: Go Ahead with the Block Trade.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Down with the Market"
+        },
+        {
+          "num": 183,
+          "title": "Go Down with the Market",
+          "slug": "go-down-with-the-market",
+          "image": "images/comics/wall-street-go/tập-183/wall-street-go-tap183-go-down-with-the-market.png",
+          "englishFocus": [
+            {
+              "phrase": "go down",
+              "meaning": "giảm (chỉ số, giá)"
+            },
+            {
+              "phrase": "go off",
+              "meaning": "kích hoạt (stop, alert)"
+            },
+            {
+              "phrase": "go wrong",
+              "meaning": "đi sai hướng / bất ngờ"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "go_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "go down",
+            "go off",
+            "go wrong"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go down」 để nói về tình huống: Go Down with the Market.",
+            "Dùng câu 「go off」 để nói về tình huống: Go Down with the Market.",
+            "Dùng câu 「go wrong」 để nói về tình huống: Go Down with the Market.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Through Compliance Audit"
+        },
+        {
+          "num": 184,
+          "title": "Go Through Compliance Audit",
+          "slug": "go-through-compliance-audit",
+          "image": "images/comics/wall-street-go/tập-184/wall-street-go-tap184-go-through-compliance-audit.png",
+          "englishFocus": [
+            {
+              "phrase": "go through",
+              "meaning": "trải qua / duyệt hết (audit)"
+            },
+            {
+              "phrase": "go over",
+              "meaning": "rà soát lại từng mục"
+            },
+            {
+              "phrase": "go by the book",
+              "meaning": "làm đúng quy trình"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "go_phrasal_wallstreet",
+            "phrasal_review",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "go through",
+            "go over",
+            "go by the book"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go through」 để nói về tình huống: Go Through Compliance Audit.",
+            "Dùng câu 「go over」 để nói về tình huống: Go Through Compliance Audit.",
+            "Dùng câu 「go by the book」 để nói về tình huống: Go Through Compliance Audit.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Wall Street Go Finale"
+        },
+        {
+          "num": 185,
+          "title": "Wall Street Go Finale",
+          "slug": "wall-street-go-finale",
+          "image": "images/comics/wall-street-go/tập-185/wall-street-go-tap185-wall-street-go-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "go a long way",
+              "meaning": "kỹ năng giao tiếp giúp rất nhiều"
+            },
+            {
+              "phrase": "go hand in hand",
+              "meaning": "risk và discipline song hành"
+            },
+            {
+              "phrase": "go the extra mile",
+              "meaning": "chuẩn bị thêm cho team"
+            }
+          ],
+          "packs": [
+            "go_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "finance",
+            "work-meeting",
+            "NYC"
+          ],
+          "patterns": [
+            "go a long way",
+            "go hand in hand",
+            "go the extra mile"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go a long way」 để nói về tình huống: Wall Street Go Finale.",
+            "Dùng câu 「go hand in hand」 để nói về tình huống: Wall Street Go Finale.",
+            "Dùng câu 「go the extra mile」 để nói về tình huống: Wall Street Go Finale.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "english-everyday-go",
+      "title": "Everyday Go Arc",
+      "desc": "Groceries, friends, milestones — go phrasals cuộc sống Mỹ",
+      "color": "#D946EF",
+      "icon": "📚",
+      "tag": "Học tập",
+      "count": 3,
+      "cover": "images/comics/english-everyday-go/tập-186/english-everyday-go-tap186-go-over-the-grocery-list.png",
+      "episodes": [
+        {
+          "num": 186,
+          "title": "Go Over the Grocery List",
+          "slug": "go-over-the-grocery-list",
+          "image": "images/comics/english-everyday-go/tập-186/english-everyday-go-tap186-go-over-the-grocery-list.png",
+          "englishFocus": [
+            {
+              "phrase": "go over",
+              "meaning": "xem lại danh sách"
+            },
+            {
+              "phrase": "go through",
+              "meaning": "đi qua từng aisle"
+            },
+            {
+              "phrase": "go with",
+              "meaning": "chọn món nào"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review",
+            "preference_opinion",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "go over",
+            "go through",
+            "go with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go over」 để nói về tình huống: Go Over the Grocery List.",
+            "Dùng câu 「go through」 để nói về tình huống: Go Over the Grocery List.",
+            "Dùng câu 「go with」 để nói về tình huống: Go Over the Grocery List.",
+            "Thử nói master combo của pack 「Preference / Opinion」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Go Out with Friends"
+        },
+        {
+          "num": 187,
+          "title": "Go Out with Friends",
+          "slug": "go-out-with-friends",
+          "image": "images/comics/english-everyday-go/tập-187/english-everyday-go-tap187-go-out-with-friends.png",
+          "englishFocus": [
+            {
+              "phrase": "go out",
+              "meaning": "đi chơi / hẹn hò ra ngoài"
+            },
+            {
+              "phrase": "go for it",
+              "meaning": "cứ làm / cứ thử"
+            },
+            {
+              "phrase": "go along with",
+              "meaning": "chiều theo kế hoạch nhóm"
+            }
+          ],
+          "packs": [
+            "go_phrasal_everyday",
+            "go_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "go out",
+            "go for it",
+            "go along with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go out」 để nói về tình huống: Go Out with Friends.",
+            "Dùng câu 「go for it」 để nói về tình huống: Go Out with Friends.",
+            "Dùng câu 「go along with」 để nói về tình huống: Go Out with Friends.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Wall Street NYC」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Everyday Go Finale"
+        },
+        {
+          "num": 188,
+          "title": "Everyday Go Finale",
+          "slug": "everyday-go-finale",
+          "image": "images/comics/english-everyday-go/tập-188/english-everyday-go-tap188-everyday-go-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "go a long way",
+              "meaning": "mỗi phrasal giúp ích rất nhiều"
+            },
+            {
+              "phrase": "go hand in hand",
+              "meaning": "story và practice song hành"
+            },
+            {
+              "phrase": "go the extra mile",
+              "meaning": "học thêm một bước mỗi ngày"
+            }
+          ],
+          "packs": [
+            "go_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "daily-life",
+            "meetup"
+          ],
+          "patterns": [
+            "go a long way",
+            "go hand in hand",
+            "go the extra mile"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go a long way」 để nói về tình huống: Everyday Go Finale.",
+            "Dùng câu 「go hand in hand」 để nói về tình huống: Everyday Go Finale.",
+            "Dùng câu 「go the extra mile」 để nói về tình huống: Everyday Go Finale.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "customer-support",
+      "title": "Customer Support Arc",
+      "desc": "Tickets, escalation, follow-up — tiếng Anh customer support chuyên nghiệp",
+      "color": "#10B981",
+      "icon": "🎧",
+      "tag": "Công việc",
+      "count": 5,
+      "cover": "images/comics/customer-support/tập-189/customer-support-tap189-look-into-your-ticket.png",
+      "episodes": [
+        {
+          "num": 189,
+          "title": "Look Into Your Ticket",
+          "slug": "look-into-your-ticket",
+          "image": "images/comics/customer-support/tập-189/customer-support-tap189-look-into-your-ticket.png",
+          "englishFocus": [
+            {
+              "phrase": "look into",
+              "meaning": "điều tra ticket / vấn đề khách"
+            },
+            {
+              "phrase": "follow up",
+              "meaning": "theo dõi lại với khách"
+            },
+            {
+              "phrase": "get back to",
+              "meaning": "phản hồi lại khách hàng"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "email_async",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_wallstreet",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "customer-support",
+            "work-meeting"
+          ],
+          "patterns": [
+            "look into",
+            "follow up",
+            "get back to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look into」 để nói về tình huống: Look Into Your Ticket.",
+            "Dùng câu 「follow up」 để nói về tình huống: Look Into Your Ticket.",
+            "Dùng câu 「get back to」 để nói về tình huống: Look Into Your Ticket.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Escalate to Tier Two"
+        },
+        {
+          "num": 190,
+          "title": "Escalate to Tier Two",
+          "slug": "escalate-to-tier-two",
+          "image": "images/comics/customer-support/tập-190/customer-support-tap190-escalate-to-tier-two.png",
+          "englishFocus": [
+            {
+              "phrase": "escalate",
+              "meaning": "chuyển cấp / nâng mức xử lý"
+            },
+            {
+              "phrase": "hand off",
+              "meaning": "bàn giao ticket cho team khác"
+            },
+            {
+              "phrase": "take ownership",
+              "meaning": "nhận trách nhiệm xử lý ticket"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "customer-support",
+            "work-meeting"
+          ],
+          "patterns": [
+            "escalate",
+            "hand off",
+            "take ownership"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「escalate」 để nói về tình huống: Escalate to Tier Two.",
+            "Dùng câu 「hand off」 để nói về tình huống: Escalate to Tier Two.",
+            "Dùng câu 「take ownership」 để nói về tình huống: Escalate to Tier Two.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Walk Through the Fix"
+        },
+        {
+          "num": 191,
+          "title": "Walk Through the Fix",
+          "slug": "walk-through-the-fix",
+          "image": "images/comics/customer-support/tập-191/customer-support-tap191-walk-through-the-fix.png",
+          "englishFocus": [
+            {
+              "phrase": "walk through",
+              "meaning": "hướng dẫn từng bước"
+            },
+            {
+              "phrase": "follow up on",
+              "meaning": "theo dõi sau khi fix"
+            },
+            {
+              "phrase": "put through",
+              "meaning": "chuyển cuộc gọi tới (specialist)"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "customer_support",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "customer-support",
+            "work-meeting"
+          ],
+          "patterns": [
+            "walk through",
+            "follow up on",
+            "put through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「walk through」 để nói về tình huống: Walk Through the Fix.",
+            "Dùng câu 「follow up on」 để nói về tình huống: Walk Through the Fix.",
+            "Dùng câu 「put through」 để nói về tình huống: Walk Through the Fix.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Angry Customer on Call"
+        },
+        {
+          "num": 192,
+          "title": "Angry Customer on Call",
+          "slug": "angry-customer-on-call",
+          "image": "images/comics/customer-support/tập-192/customer-support-tap192-angry-customer-on-call.png",
+          "englishFocus": [
+            {
+              "phrase": "stay calm",
+              "meaning": "giữ bình tĩnh"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "hứa điều tra ngay"
+            },
+            {
+              "phrase": "come back to",
+              "meaning": "quay lại vấn đề sau khi check"
+            }
+          ],
+          "packs": [
+            "come_phrasal_everyday",
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "customer-support",
+            "work-meeting"
+          ],
+          "patterns": [
+            "stay calm",
+            "look into",
+            "come back to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「stay calm」 để nói về tình huống: Angry Customer on Call.",
+            "Dùng câu 「look into」 để nói về tình huống: Angry Customer on Call.",
+            "Dùng câu 「come back to」 để nói về tình huống: Angry Customer on Call.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Customer Support Finale"
+        },
+        {
+          "num": 193,
+          "title": "Customer Support Finale",
+          "slug": "customer-support-finale",
+          "image": "images/comics/customer-support/tập-193/customer-support-tap193-customer-support-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "follow through",
+              "meaning": "làm trọn cam kết với khách"
+            },
+            {
+              "phrase": "wrap up",
+              "meaning": "kết thúc / tổng kết ticket"
+            },
+            {
+              "phrase": "take care of",
+              "meaning": "xử lý xong cho khách"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "customer_support",
+            "health_clinic",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "customer-support",
+            "work-meeting"
+          ],
+          "patterns": [
+            "follow through",
+            "wrap up",
+            "take care of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「follow through」 để nói về tình huống: Customer Support Finale.",
+            "Dùng câu 「wrap up」 để nói về tình huống: Customer Support Finale.",
+            "Dùng câu 「take care of」 để nói về tình huống: Customer Support Finale.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "health-clinic",
+      "title": "Health Clinic Arc",
+      "desc": "Appointments, symptoms, insurance — tiếng Anh khi đi phòng khám Mỹ",
+      "color": "#EC4899",
+      "icon": "🏥",
+      "tag": "Cuộc sống",
+      "count": 5,
+      "cover": "images/comics/health-clinic/tập-194/health-clinic-tap194-make-an-appointment.png",
+      "episodes": [
+        {
+          "num": 194,
+          "title": "Make an Appointment",
+          "slug": "make-an-appointment",
+          "image": "images/comics/health-clinic/tập-194/health-clinic-tap194-make-an-appointment.png",
+          "englishFocus": [
+            {
+              "phrase": "make an appointment",
+              "meaning": "đặt lịch hẹn"
+            },
+            {
+              "phrase": "come in",
+              "meaning": "đến khám (in-person)"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "bác sĩ sẽ kiểm tra thêm"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "health",
+            "clinic",
+            "daily-life"
+          ],
+          "patterns": [
+            "make an appointment",
+            "come in",
+            "look into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「make an appointment」 để nói về tình huống: Make an Appointment.",
+            "Dùng câu 「come in」 để nói về tình huống: Make an Appointment.",
+            "Dùng câu 「look into」 để nói về tình huống: Make an Appointment.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Describing the Symptoms"
+        },
+        {
+          "num": 195,
+          "title": "Describing the Symptoms",
+          "slug": "describing-the-symptoms",
+          "image": "images/comics/health-clinic/tập-195/health-clinic-tap195-describing-the-symptoms.png",
+          "englishFocus": [
+            {
+              "phrase": "come down with",
+              "meaning": "bị bệnh / có triệu chứng"
+            },
+            {
+              "phrase": "go through",
+              "meaning": "trải qua (triệu chứng, điều trị)"
+            },
+            {
+              "phrase": "take care of",
+              "meaning": "tự chăm sóc / điều trị"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "health_clinic",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "health",
+            "clinic",
+            "daily-life"
+          ],
+          "patterns": [
+            "come down with",
+            "go through",
+            "take care of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「come down with」 để nói về tình huống: Describing the Symptoms.",
+            "Dùng câu 「go through」 để nói về tình huống: Describing the Symptoms.",
+            "Dùng câu 「take care of」 để nói về tình huống: Describing the Symptoms.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Filling Out Insurance Forms"
+        },
+        {
+          "num": 196,
+          "title": "Filling Out Insurance Forms",
+          "slug": "filling-out-insurance-forms",
+          "image": "images/comics/health-clinic/tập-196/health-clinic-tap196-filling-out-insurance-forms.png",
+          "englishFocus": [
+            {
+              "phrase": "fill out",
+              "meaning": "điền vào (form)"
+            },
+            {
+              "phrase": "look over",
+              "meaning": "xem lại trước khi nộp"
+            },
+            {
+              "phrase": "put down",
+              "meaning": "ghi xuống thông tin"
+            }
+          ],
+          "packs": [
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "put_phrasal_wallstreet",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "health",
+            "clinic",
+            "daily-life"
+          ],
+          "patterns": [
+            "fill out",
+            "look over",
+            "put down"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「fill out」 để nói về tình huống: Filling Out Insurance Forms.",
+            "Dùng câu 「look over」 để nói về tình huống: Filling Out Insurance Forms.",
+            "Dùng câu 「put down」 để nói về tình huống: Filling Out Insurance Forms.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Follow-Up Visit"
+        },
+        {
+          "num": 197,
+          "title": "Follow-Up Visit",
+          "slug": "follow-up-visit",
+          "image": "images/comics/health-clinic/tập-197/health-clinic-tap197-follow-up-visit.png",
+          "englishFocus": [
+            {
+              "phrase": "follow up",
+              "meaning": "tái khám / theo dõi thêm"
+            },
+            {
+              "phrase": "come back",
+              "meaning": "quay lại phòng khám"
+            },
+            {
+              "phrase": "look into",
+              "meaning": "xét nghiệm thêm nếu cần"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_wallstreet",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "health",
+            "clinic",
+            "daily-life"
+          ],
+          "patterns": [
+            "follow up",
+            "come back",
+            "look into"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「follow up」 để nói về tình huống: Follow-Up Visit.",
+            "Dùng câu 「come back」 để nói về tình huống: Follow-Up Visit.",
+            "Dùng câu 「look into」 để nói về tình huống: Follow-Up Visit.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Health Clinic Finale"
+        },
+        {
+          "num": 198,
+          "title": "Health Clinic Finale",
+          "slug": "health-clinic-finale",
+          "image": "images/comics/health-clinic/tập-198/health-clinic-tap198-health-clinic-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "take it easy",
+              "meaning": "nghỉ ngơi / đừng căng"
+            },
+            {
+              "phrase": "look after yourself",
+              "meaning": "chăm sóc bản thân"
+            },
+            {
+              "phrase": "come around",
+              "meaning": "khỏe lại / ổn trở lại"
+            }
+          ],
+          "packs": [
+            "health_clinic",
+            "look_phrasal_everyday",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "health",
+            "clinic",
+            "daily-life"
+          ],
+          "patterns": [
+            "take it easy",
+            "look after yourself",
+            "come around"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take it easy」 để nói về tình huống: Health Clinic Finale.",
+            "Dùng câu 「look after yourself」 để nói về tình huống: Health Clinic Finale.",
+            "Dùng câu 「come around」 để nói về tình huống: Health Clinic Finale.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "side-project",
+      "title": "Side Project Arc",
+      "desc": "MVP, feedback, launch day — tiếng Anh side project và indie hack",
+      "color": "#F59E0B",
+      "icon": "💡",
+      "tag": "Side project",
+      "count": 5,
+      "cover": "images/comics/side-project/tập-199/side-project-tap199-take-on-a-side-project.png",
+      "episodes": [
+        {
+          "num": 199,
+          "title": "Take On a Side Project",
+          "slug": "take-on-a-side-project",
+          "image": "images/comics/side-project/tập-199/side-project-tap199-take-on-a-side-project.png",
+          "englishFocus": [
+            {
+              "phrase": "take on",
+              "meaning": "nhận thêm dự án cá nhân"
+            },
+            {
+              "phrase": "put together",
+              "meaning": "dựng MVP nhanh"
+            },
+            {
+              "phrase": "go for it",
+              "meaning": "cứ làm thử"
+            }
+          ],
+          "packs": [
+            "go_phrasal_wallstreet",
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "side_project",
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "side-project",
+            "startup",
+            "launch"
+          ],
+          "patterns": [
+            "take on",
+            "put together",
+            "go for it"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take on」 để nói về tình huống: Take On a Side Project.",
+            "Dùng câu 「put together」 để nói về tình huống: Take On a Side Project.",
+            "Dùng câu 「go for it」 để nói về tình huống: Take On a Side Project.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: User Feedback Night"
+        },
+        {
+          "num": 200,
+          "title": "User Feedback Night",
+          "slug": "user-feedback-night",
+          "image": "images/comics/side-project/tập-200/side-project-tap200-user-feedback-night.png",
+          "englishFocus": [
+            {
+              "phrase": "take feedback",
+              "meaning": "tiếp nhận phản hồi người dùng"
+            },
+            {
+              "phrase": "go through",
+              "meaning": "xem xét từng góp ý"
+            },
+            {
+              "phrase": "come up with",
+              "meaning": "nghĩ ra cải tiến"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "come_phrasal_bigtech",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "side-project",
+            "startup",
+            "launch"
+          ],
+          "patterns": [
+            "take feedback",
+            "go through",
+            "come up with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take feedback」 để nói về tình huống: User Feedback Night.",
+            "Dùng câu 「go through」 để nói về tình huống: User Feedback Night.",
+            "Dùng câu 「come up with」 để nói về tình huống: User Feedback Night.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Launch Day Nerves"
+        },
+        {
+          "num": 201,
+          "title": "Launch Day Nerves",
+          "slug": "launch-day-nerves",
+          "image": "images/comics/side-project/tập-201/side-project-tap201-launch-day-nerves.png",
+          "englishFocus": [
+            {
+              "phrase": "go live",
+              "meaning": "ra mắt / lên production"
+            },
+            {
+              "phrase": "go down",
+              "meaning": "sập (site) — lo lắng"
+            },
+            {
+              "phrase": "look out for",
+              "meaning": "theo dõi metrics / lỗi"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "look_phrasal_bigtech",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "side-project",
+            "startup",
+            "launch"
+          ],
+          "patterns": [
+            "go live",
+            "go down",
+            "look out for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go live」 để nói về tình huống: Launch Day Nerves.",
+            "Dùng câu 「go down」 để nói về tình huống: Launch Day Nerves.",
+            "Dùng câu 「look out for」 để nói về tình huống: Launch Day Nerves.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Iterate After Launch"
+        },
+        {
+          "num": 202,
+          "title": "Iterate After Launch",
+          "slug": "iterate-after-launch",
+          "image": "images/comics/side-project/tập-202/side-project-tap202-iterate-after-launch.png",
+          "englishFocus": [
+            {
+              "phrase": "go back to",
+              "meaning": "quay lại sửa / cải tiến"
+            },
+            {
+              "phrase": "put together",
+              "meaning": "lắp bản cập nhật"
+            },
+            {
+              "phrase": "come up with",
+              "meaning": "đưa ra tính năng mới"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "go_phrasal_wallstreet",
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "side-project",
+            "startup",
+            "launch"
+          ],
+          "patterns": [
+            "go back to",
+            "put together",
+            "come up with"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go back to」 để nói về tình huống: Iterate After Launch.",
+            "Dùng câu 「put together」 để nói về tình huống: Iterate After Launch.",
+            "Dùng câu 「come up with」 để nói về tình huống: Iterate After Launch.",
+            "Thử nói master combo của pack 「Put Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Side Project Finale"
+        },
+        {
+          "num": 203,
+          "title": "Side Project Finale",
+          "slug": "side-project-finale",
+          "image": "images/comics/side-project/tập-203/side-project-tap203-side-project-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "take stock",
+              "meaning": "tổng kết hành trình side project"
+            },
+            {
+              "phrase": "go a long way",
+              "meaning": "launch English giúp rất nhiều"
+            },
+            {
+              "phrase": "look forward to",
+              "meaning": "mong chờ phiên bản tiếp theo"
+            }
+          ],
+          "packs": [
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "side-project",
+            "startup",
+            "launch"
+          ],
+          "patterns": [
+            "take stock",
+            "go a long way",
+            "look forward to"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「take stock」 để nói về tình huống: Side Project Finale.",
+            "Dùng câu 「go a long way」 để nói về tình huống: Side Project Finale.",
+            "Dùng câu 「look forward to」 để nói về tình huống: Side Project Finale.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "remote-async",
+      "title": "Remote Async Arc",
+      "desc": "Timezone, RFC, handoff — tiếng Anh async collaboration remote-first",
+      "color": "#6366F1",
+      "icon": "🌐",
+      "tag": "Remote",
+      "count": 4,
+      "cover": "images/comics/remote-async/tập-204/remote-async-tap204-async-standup-across-timezones.png",
+      "episodes": [
+        {
+          "num": 204,
+          "title": "Async Standup Across Timezones",
+          "slug": "async-standup-across-timezones",
+          "image": "images/comics/remote-async/tập-204/remote-async-tap204-async-standup-across-timezones.png",
+          "englishFocus": [
+            {
+              "phrase": "follow up",
+              "meaning": "theo dõi thread async"
+            },
+            {
+              "phrase": "get back to",
+              "meaning": "phản hồi khi awake"
+            },
+            {
+              "phrase": "come through",
+              "meaning": "hoàn thành cam kết async"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "customer_support",
+            "email_async",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "remote work",
+            "async",
+            "work-meeting"
+          ],
+          "patterns": [
+            "follow up",
+            "get back to",
+            "come through"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「follow up」 để nói về tình huống: Async Standup Across Timezones.",
+            "Dùng câu 「get back to」 để nói về tình huống: Async Standup Across Timezones.",
+            "Dùng câu 「come through」 để nói về tình huống: Async Standup Across Timezones.",
+            "Thử nói master combo của pack 「Email & Async English」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Written RFC Decision"
+        },
+        {
+          "num": 205,
+          "title": "Written RFC Decision",
+          "slug": "written-rfc-decision",
+          "image": "images/comics/remote-async/tập-205/remote-async-tap205-written-rfc-decision.png",
+          "englishFocus": [
+            {
+              "phrase": "put in writing",
+              "meaning": "quyết định bằng văn bản"
+            },
+            {
+              "phrase": "go over",
+              "meaning": "team comment async trên doc"
+            },
+            {
+              "phrase": "take note of",
+              "meaning": "ghi nhận ý kiến phản biện"
+            }
+          ],
+          "packs": [
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "remote work",
+            "async",
+            "work-meeting"
+          ],
+          "patterns": [
+            "put in writing",
+            "go over",
+            "take note of"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put in writing」 để nói về tình huống: Written RFC Decision.",
+            "Dùng câu 「go over」 để nói về tình huống: Written RFC Decision.",
+            "Dùng câu 「take note of」 để nói về tình huống: Written RFC Decision.",
+            "Thử nói master combo của pack 「Go Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Missed Handoff"
+        },
+        {
+          "num": 206,
+          "title": "Missed Handoff",
+          "slug": "missed-handoff",
+          "image": "images/comics/remote-async/tập-206/remote-async-tap206-missed-handoff.png",
+          "englishFocus": [
+            {
+              "phrase": "hand off",
+              "meaning": "bàn giao ca on-call"
+            },
+            {
+              "phrase": "pick up",
+              "meaning": "nhận tiếp từ người trước"
+            },
+            {
+              "phrase": "come through for",
+              "meaning": "cứu team khi handoff lỗi"
+            }
+          ],
+          "packs": [
+            "come_phrasal_bigtech",
+            "customer_support",
+            "remote_async",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "remote work",
+            "async",
+            "work-meeting"
+          ],
+          "patterns": [
+            "hand off",
+            "pick up",
+            "come through for"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「hand off」 để nói về tình huống: Missed Handoff.",
+            "Dùng câu 「pick up」 để nói về tình huống: Missed Handoff.",
+            "Dùng câu 「come through for」 để nói về tình huống: Missed Handoff.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Remote Async Finale"
+        },
+        {
+          "num": 207,
+          "title": "Remote Async Finale",
+          "slug": "remote-async-finale",
+          "image": "images/comics/remote-async/tập-207/remote-async-tap207-remote-async-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "go async",
+              "meaning": "làm việc bất đồng bộ"
+            },
+            {
+              "phrase": "take ownership",
+              "meaning": "chủ động trong remote"
+            },
+            {
+              "phrase": "look ahead",
+              "meaning": "nhìn về quy trình tương lai"
+            }
+          ],
+          "packs": [
+            "remote_async",
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "remote work",
+            "async",
+            "work-meeting"
+          ],
+          "patterns": [
+            "go async",
+            "take ownership",
+            "look ahead"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「go async」 để nói về tình huống: Remote Async Finale.",
+            "Dùng câu 「take ownership」 để nói về tình huống: Remote Async Finale.",
+            "Dùng câu 「look ahead」 để nói về tình huống: Remote Async Finale.",
+            "Thử nói master combo của pack 「Take Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": ""
+        }
+      ]
+    },
+    {
+      "id": "phrasal-review",
+      "title": "Phrasal Review Arc",
+      "desc": "Grand recap look/take/put/come/go — ôn tập phrasal verbs toàn bộ",
+      "color": "#7C3AED",
+      "icon": "🎓",
+      "tag": "Review",
+      "count": 3,
+      "cover": "images/comics/phrasal-review/tập-208/phrasal-review-tap208-look-take-mix-up.png",
+      "episodes": [
+        {
+          "num": 208,
+          "title": "Look & Take Mix-Up",
+          "slug": "look-take-mix-up",
+          "image": "images/comics/phrasal-review/tập-208/phrasal-review-tap208-look-take-mix-up.png",
+          "englishFocus": [
+            {
+              "phrase": "look into vs take on",
+              "meaning": "điều tra vs nhận việc"
+            },
+            {
+              "phrase": "look out for vs take care of",
+              "meaning": "cẩn thận vs lo liệu"
+            },
+            {
+              "phrase": "look forward to vs take stock",
+              "meaning": "mong chờ vs tổng kết"
+            }
+          ],
+          "packs": [
+            "customer_support",
+            "health_clinic",
+            "look_phrasal_bigtech",
+            "look_phrasal_everyday",
+            "look_phrasal_wallstreet",
+            "phrasal_review",
+            "take_phrasal_bigtech",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "review",
+            "phrasal-verbs"
+          ],
+          "patterns": [
+            "look into vs take on",
+            "look out for vs take care of",
+            "look forward to vs take stock"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look into vs take on」 để nói về tình huống: Look & Take Mix-Up.",
+            "Dùng câu 「look out for vs take care of」 để nói về tình huống: Look & Take Mix-Up.",
+            "Dùng câu 「look forward to vs take stock」 để nói về tình huống: Look & Take Mix-Up.",
+            "Thử nói master combo của pack 「Look Phrasal Verbs — Big Tech SF」 cho tình huống này."
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I'm looking forward to visit Kyoto.",
+              "correct": "I'm looking forward to visiting Kyoto.",
+              "why": "look forward to + V-ing",
+              "patterns": [
+                "look forward to"
+              ]
+            }
+          ],
+          "hook": "Next: Put, Come & Go Mix-Up"
+        },
+        {
+          "num": 209,
+          "title": "Put, Come & Go Mix-Up",
+          "slug": "put-come-go-mix-up",
+          "image": "images/comics/phrasal-review/tập-209/phrasal-review-tap209-put-come-go-mix-up.png",
+          "englishFocus": [
+            {
+              "phrase": "put off vs come up",
+              "meaning": "hoãn vs phát sinh"
+            },
+            {
+              "phrase": "come through vs go through",
+              "meaning": "hoàn thành giúp vs trải qua"
+            },
+            {
+              "phrase": "go ahead vs put forward",
+              "meaning": "tiến hành vs đề xuất"
+            }
+          ],
+          "packs": [
+            "bug_report_agreement_through",
+            "come_phrasal_bigtech",
+            "go_phrasal_bigtech",
+            "go_phrasal_everyday",
+            "phrasal_review",
+            "put_phrasal_bigtech",
+            "put_phrasal_everyday",
+            "side_project",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "review",
+            "phrasal-verbs"
+          ],
+          "patterns": [
+            "put off vs come up",
+            "come through vs go through",
+            "go ahead vs put forward"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「put off vs come up」 để nói về tình huống: Put, Come & Go Mix-Up.",
+            "Dùng câu 「come through vs go through」 để nói về tình huống: Put, Come & Go Mix-Up.",
+            "Dùng câu 「go ahead vs put forward」 để nói về tình huống: Put, Come & Go Mix-Up.",
+            "Thử nói master combo của pack 「Bug Report + Agreement / Disagreement + Through Verbs」 cho tình huống này."
+          ],
+          "commonMistakes": [],
+          "hook": "Next: Phrasal Review Grand Finale"
+        },
+        {
+          "num": 210,
+          "title": "Phrasal Review Grand Finale",
+          "slug": "phrasal-review-grand-finale",
+          "image": "images/comics/phrasal-review/tập-210/phrasal-review-tap210-phrasal-review-grand-finale.png",
+          "englishFocus": [
+            {
+              "phrase": "look / take / put / come / go",
+              "meaning": "năm động từ lõi — review toàn bộ"
+            },
+            {
+              "phrase": "go a long way",
+              "meaning": "practice mỗi ngày giúp rất nhiều"
+            },
+            {
+              "phrase": "come full circle",
+              "meaning": "hành trình 119–210 hoàn tất"
+            }
+          ],
+          "packs": [
+            "come_phrasal_everyday",
+            "phrasal_review",
+            "universal_communication_v2"
+          ],
+          "contexts": [
+            "learning",
+            "review",
+            "phrasal-verbs"
+          ],
+          "patterns": [
+            "look / take / put / come / go",
+            "go a long way",
+            "come full circle"
+          ],
+          "practicePrompts": [
+            "Dùng câu 「look / take / put / come / go」 để nói về tình huống: Phrasal Review Grand Finale.",
+            "Dùng câu 「go a long way」 để nói về tình huống: Phrasal Review Grand Finale.",
+            "Dùng câu 「come full circle」 để nói về tình huống: Phrasal Review Grand Finale.",
+            "Thử nói master combo của pack 「Come Phrasal Verbs — US Daily Life」 cho tình huống này."
+          ],
+          "commonMistakes": [],
           "hook": ""
         }
       ]

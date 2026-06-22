@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: PM: "Show us the new checkout flow."
-- **Panel 2:** Scene. Dialogue: Nam: "Let me walk you through the happy path first."
-- **Panel 3:** Scene. Dialogue: Nam: "As you can see on this slide, latency dropped after caching."
-- **Panel 4:** Scene. Dialogue: Nam: "I'll run through a test purchase now."
-- **Panel 5:** Scene. Dialogue: Nam: "Checkout completes — team claps"
-- **Panel 6:** Scene. Dialogue: PM: "Clean demo — very easy to follow."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "PM",
-    "text": "Show us the new checkout flow."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "Let me walk you through the happy path first."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "As you can see on this slide, latency dropped after caching."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "I'll run through a test purchase now."
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "Checkout completes — team claps"
-  },
-  {
-    "panel": 6,
-    "speaker": "PM",
-    "text": "Clean demo — very easy to follow."
-  }
-]
-```
+- **Panel 1:** Stakeholder demo begins. Dialogue: PM: "Show us the new checkout flow."
+- **Panel 2:** Nam opens demo. Dialogue: Nam: "Let me walk you through the happy path first."
+- **Panel 3:** Screen share. Dialogue: Nam: "As you can see on this slide, latency dropped after caching."
+- **Panel 4:** Live demo. Dialogue: Nam: "I'll run through a test purchase now."
+- **Panel 5:** Success. Dialogue: Checkout completes — team claps
+- **Panel 6:** PM impressed. Dialogue: PM: "Clean demo — very easy to follow."
+- **Panel 7:** Hook. Dialogue: Next: The Key Takeaway Is...
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: PM: "Show us the new checkout flow."
-Panel 2: Story beat. Speech: Nam: "Let me walk you through the happy path first."
-Panel 3: Story beat. Speech: Nam: "As you can see on this slide, latency dropped after caching."
-Panel 4: Story beat. Speech: Nam: "I'll run through a test purchase now."
-Panel 5: Story beat. Speech: Nam: "Checkout completes — team claps"
-Panel 6: Story beat. Speech: PM: "Clean demo — very easy to follow."
+Panel 1: Stakeholder demo begins.. Speech: PM: "Show us the new checkout flow."
+Panel 2: Nam opens demo.. Speech: Nam: "Let me walk you through the happy path first."
+Panel 3: Screen share.. Speech: Nam: "As you can see on this slide, latency dropped after caching."
+Panel 4: Live demo.. Speech: Nam: "I'll run through a test purchase now."
+Panel 5: Success.. Speech: Checkout completes — team claps
+Panel 6: PM impressed.. Speech: PM: "Clean demo — very easy to follow."
+Panel 7: Hook.. Speech: Next: The Key Takeaway Is...
 
 ENGLISH FOCUS box must list:
 - "Let me walk you through..." with Vietnamese translation

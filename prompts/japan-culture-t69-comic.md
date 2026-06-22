@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Linh: "Where should we do hanami this weekend?"
-- **Panel 2:** Scene. Dialogue: Nam: "I'm torn between Ueno Park and Meguro River."
-- **Panel 3:** Scene. Dialogue: Aoi: "Meguro is prettier at night."
-- **Panel 4:** Scene. Dialogue: Nam: "I'm leaning toward Meguro because the lights look better."
-- **Panel 5:** Scene. Dialogue: Nam: "I think I'll go with Meguro River."
-- **Panel 6:** Scene. Dialogue: Hook: "Next: What Is Omotenashi?"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Linh",
-    "text": "Where should we do hanami this weekend?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "I'm torn between Ueno Park and Meguro River."
-  },
-  {
-    "panel": 3,
-    "speaker": "Aoi",
-    "text": "Meguro is prettier at night."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "I'm leaning toward Meguro because the lights look better."
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "I think I'll go with Meguro River."
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: What Is Omotenashi?"
-  }
-]
-```
+- **Panel 1:** Spring hanami planning on Slack. Dialogue: Linh: "Where should we do hanami this weekend?"
+- **Panel 2:** Two options on screen. Dialogue: Nam: "I'm torn between Ueno Park and Meguro River."
+- **Panel 3:** Crowd vs scenery debate. Dialogue: Aoi: "Meguro is prettier at night."
+- **Panel 4:** Nam decides. Dialogue: Nam: "I'm leaning toward Meguro because the lights look better."
+- **Panel 5:** Final choice. Dialogue: Nam: "I think I'll go with Meguro River."
+- **Panel 6:** Hook. Dialogue: Next: What Is Omotenashi?
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Tokyo cherry blossom season, Meguro River and Ueno Park photos on phone
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Linh: "Where should we do hanami this weekend?"
-Panel 2: Story beat. Speech: Nam: "I'm torn between Ueno Park and Meguro River."
-Panel 3: Story beat. Speech: Aoi: "Meguro is prettier at night."
-Panel 4: Story beat. Speech: Nam: "I'm leaning toward Meguro because the lights look better."
-Panel 5: Story beat. Speech: Nam: "I think I'll go with Meguro River."
-Panel 6: Story beat. Speech: Hook: "Next: What Is Omotenashi?"
+Panel 1: Spring hanami planning on Slack.. Speech: Linh: "Where should we do hanami this weekend?"
+Panel 2: Two options on screen.. Speech: Nam: "I'm torn between Ueno Park and Meguro River."
+Panel 3: Crowd vs scenery debate.. Speech: Aoi: "Meguro is prettier at night."
+Panel 4: Nam decides.. Speech: Nam: "I'm leaning toward Meguro because the lights look better."
+Panel 5: Final choice.. Speech: Nam: "I think I'll go with Meguro River."
+Panel 6: Hook.. Speech: Next: What Is Omotenashi?
 
 ENGLISH FOCUS box must list:
 - "I'm torn between A and B." = Tôi phân vân giữa A và B.

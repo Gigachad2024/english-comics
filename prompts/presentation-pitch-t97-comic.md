@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Investor: "What's the one thing we should remember?"
-- **Panel 2:** Scene. Dialogue: Nam: "The key takeaway is reliability under traffic spikes."
-- **Panel 3:** Scene. Dialogue: Nam: "Here's what changed since last time — we cut errors by half."
-- **Panel 4:** Scene. Dialogue: Nam: "Let me break down the numbers on this chart."
-- **Panel 5:** Scene. Dialogue: Investor: "Clear takeaway — I get the business impact."
-- **Panel 6:** Scene. Dialogue: Kenji: "Strong close — always land the takeaway."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Investor",
-    "text": "What's the one thing we should remember?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "The key takeaway is reliability under traffic spikes."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "Here's what changed since last time — we cut errors by half."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "Let me break down the numbers on this chart."
-  },
-  {
-    "panel": 5,
-    "speaker": "Investor",
-    "text": "Clear takeaway — I get the business impact."
-  },
-  {
-    "panel": 6,
-    "speaker": "Kenji",
-    "text": "Strong close — always land the takeaway."
-  }
-]
-```
+- **Panel 1:** Investor asks for summary. Dialogue: Investor: "What's the one thing we should remember?"
+- **Panel 2:** Nam delivers takeaway. Dialogue: Nam: "The key takeaway is reliability under traffic spikes."
+- **Panel 3:** Progress update. Dialogue: Nam: "Here's what changed since last time — we cut errors by half."
+- **Panel 4:** Break down metrics. Dialogue: Nam: "Let me break down the numbers on this chart."
+- **Panel 5:** Investor satisfied. Dialogue: Investor: "Clear takeaway — I get the business impact."
+- **Panel 6:** Kenji proud. Dialogue: Kenji: "Strong close — always land the takeaway."
+- **Panel 7:** Hook. Dialogue: Next: Handling Tough Questions
 
 ---
 
@@ -97,12 +59,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Investor: "What's the one thing we should remember?"
-Panel 2: Story beat. Speech: Nam: "The key takeaway is reliability under traffic spikes."
-Panel 3: Story beat. Speech: Nam: "Here's what changed since last time — we cut errors by half."
-Panel 4: Story beat. Speech: Nam: "Let me break down the numbers on this chart."
-Panel 5: Story beat. Speech: Investor: "Clear takeaway — I get the business impact."
-Panel 6: Story beat. Speech: Kenji: "Strong close — always land the takeaway."
+Panel 1: Investor asks for summary.. Speech: Investor: "What's the one thing we should remember?"
+Panel 2: Nam delivers takeaway.. Speech: Nam: "The key takeaway is reliability under traffic spikes."
+Panel 3: Progress update.. Speech: Nam: "Here's what changed since last time — we cut errors by half."
+Panel 4: Break down metrics.. Speech: Nam: "Let me break down the numbers on this chart."
+Panel 5: Investor satisfied.. Speech: Investor: "Clear takeaway — I get the business impact."
+Panel 6: Kenji proud.. Speech: Kenji: "Strong close — always land the takeaway."
+Panel 7: Hook.. Speech: Next: Handling Tough Questions
 
 ENGLISH FOCUS box must list:
 - "The key takeaway is..." = Điểm chính cần nhớ là...

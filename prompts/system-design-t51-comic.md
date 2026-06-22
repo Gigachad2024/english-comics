@@ -11,51 +11,12 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Kenji: "Can you walk us through how this would work at 10x traffic?"
-- **Panel 2:** Scene. Dialogue: Nam: "I'm wondering if we should start with the current flow first."
-- **Panel 3:** Scene. Dialogue: Aoi: "Good — let's map the read path vs write path."
-- **Panel 4:** Scene. Dialogue: Linh: "What happens when checkout spikes?"
-- **Panel 5:** Scene. Dialogue: Nam: "Could we start by identifying the single biggest bottleneck?"
-- **Panel 6:** Scene. Dialogue: Hook: "Next: Monolith or Microservices?"
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Kenji",
-    "text": "Can you walk us through how this would work at 10x traffic?"
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "I'm wondering if we should start with the current flow first."
-  },
-  {
-    "panel": 3,
-    "speaker": "Aoi",
-    "text": "Good — let's map the read path vs write path."
-  },
-  {
-    "panel": 4,
-    "speaker": "Linh",
-    "text": "What happens when checkout spikes?"
-  },
-  {
-    "panel": 5,
-    "speaker": "Nam",
-    "text": "Could we start by identifying the single biggest bottleneck?"
-  },
-  {
-    "panel": 6,
-    "speaker": "Hook",
-    "text": "Next: Monolith or Microservices?"
-  }
-]
-```
+- **Panel 1:** Kenji asks Nam to explain a feature at scale in English. Dialogue: Kenji: "Can you walk us through how this would work at 10x traffic?"
+- **Panel 2:** Nam nervous but starts. Dialogue: Nam: "I'm wondering if we should start with the current flow first."
+- **Panel 3:** Whiteboard: User → API → Service → DB. Dialogue: Aoi: "Good — let's map the read path vs write path."
+- **Panel 4:** Team discusses bottlenecks. Dialogue: Linh: "What happens when checkout spikes?"
+- **Panel 5:** Nam gains confidence. Dialogue: Nam: "Could we start by identifying the single biggest bottleneck?"
+- **Panel 6:** Hook. Dialogue: Next: Monolith or Microservices?
 
 ---
 
@@ -97,12 +58,12 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Kenji: "Can you walk us through how this would work at 10x traffic?"
-Panel 2: Story beat. Speech: Nam: "I'm wondering if we should start with the current flow first."
-Panel 3: Story beat. Speech: Aoi: "Good — let's map the read path vs write path."
-Panel 4: Story beat. Speech: Linh: "What happens when checkout spikes?"
-Panel 5: Story beat. Speech: Nam: "Could we start by identifying the single biggest bottleneck?"
-Panel 6: Story beat. Speech: Hook: "Next: Monolith or Microservices?"
+Panel 1: Kenji asks Nam to explain a feature at scale in English.. Speech: Kenji: "Can you walk us through how this would work at 10x traffic?"
+Panel 2: Nam nervous but starts.. Speech: Nam: "I'm wondering if we should start with the current flow first."
+Panel 3: Whiteboard: User → API → Service → DB.. Speech: Aoi: "Good — let's map the read path vs write path."
+Panel 4: Team discusses bottlenecks.. Speech: Linh: "What happens when checkout spikes?"
+Panel 5: Nam gains confidence.. Speech: Nam: "Could we start by identifying the single biggest bottleneck?"
+Panel 6: Hook.. Speech: Next: Monolith or Microservices?
 
 ENGLISH FOCUS box must list:
 - "I'm wondering if..." = Tôi đang tự hỏi liệu...

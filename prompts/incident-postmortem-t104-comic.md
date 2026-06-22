@@ -11,51 +11,13 @@
 
 ## Story beats
 
-- **Panel 1:** Scene. Dialogue: Leadership: "Walk us through the incident briefly."
-- **Panel 2:** Scene. Dialogue: Nam: "What we know so far is covered in the doc — 12% impact, 25-min recovery."
-- **Panel 3:** Scene. Dialogue: Nam: "Root cause appears to be cache config — fixed and tested."
-- **Panel 4:** Scene. Dialogue: Nam: "Action items going forward are assigned with owners and dates."
-- **Panel 5:** Scene. Dialogue: Kenji: "I'll follow up on the game day drill next sprint."
-- **Panel 6:** Scene. Dialogue: Leadership: "Blameless, clear, actionable — well done."
-
----
-
-## Canonical dialogue (synced from image — do not edit by hand)
-
-```json
-[
-  {
-    "panel": 1,
-    "speaker": "Leadership",
-    "text": "Walk us through the incident briefly."
-  },
-  {
-    "panel": 2,
-    "speaker": "Nam",
-    "text": "What we know so far is covered in the doc — 12% impact, 25-min recovery."
-  },
-  {
-    "panel": 3,
-    "speaker": "Nam",
-    "text": "Root cause appears to be cache config — fixed and tested."
-  },
-  {
-    "panel": 4,
-    "speaker": "Nam",
-    "text": "Action items going forward are assigned with owners and dates."
-  },
-  {
-    "panel": 5,
-    "speaker": "Kenji",
-    "text": "I'll follow up on the game day drill next sprint."
-  },
-  {
-    "panel": 6,
-    "speaker": "Leadership",
-    "text": "Blameless, clear, actionable — well done."
-  }
-]
-```
+- **Panel 1:** Postmortem meeting with leadership. Dialogue: Leadership: "Walk us through the incident briefly."
+- **Panel 2:** Nam summary. Dialogue: Nam: "What we know so far is covered in the doc — 12% impact, 25-min recovery."
+- **Panel 3:** Root cause. Dialogue: Nam: "Root cause appears to be cache config — fixed and tested."
+- **Panel 4:** Actions. Dialogue: Nam: "Action items going forward are assigned with owners and dates."
+- **Panel 5:** Follow up. Dialogue: Kenji: "I'll follow up on the game day drill next sprint."
+- **Panel 6:** Leadership praise. Dialogue: Leadership: "Blameless, clear, actionable — well done."
+- **Panel 7:** Nam reflects. Dialogue: Nam: "Incident English — I can handle the war room now."
 
 ---
 
@@ -98,12 +60,13 @@ Setting: Modern Tokyo office at night, Tokyo Tower visible through window
 LAYOUT: Header once at top → 6 numbered panels (2x3 grid) → ENGLISH FOCUS box (beige, full width) → NEXT hook box bottom-right
 
 PANEL STORY:
-Panel 1: Story beat. Speech: Leadership: "Walk us through the incident briefly."
-Panel 2: Story beat. Speech: Nam: "What we know so far is covered in the doc — 12% impact, 25-min recovery."
-Panel 3: Story beat. Speech: Nam: "Root cause appears to be cache config — fixed and tested."
-Panel 4: Story beat. Speech: Nam: "Action items going forward are assigned with owners and dates."
-Panel 5: Story beat. Speech: Kenji: "I'll follow up on the game day drill next sprint."
-Panel 6: Story beat. Speech: Leadership: "Blameless, clear, actionable — well done."
+Panel 1: Postmortem meeting with leadership.. Speech: Leadership: "Walk us through the incident briefly."
+Panel 2: Nam summary.. Speech: Nam: "What we know so far is covered in the doc — 12% impact, 25-min recovery."
+Panel 3: Root cause.. Speech: Nam: "Root cause appears to be cache config — fixed and tested."
+Panel 4: Actions.. Speech: Nam: "Action items going forward are assigned with owners and dates."
+Panel 5: Follow up.. Speech: Kenji: "I'll follow up on the game day drill next sprint."
+Panel 6: Leadership praise.. Speech: Leadership: "Blameless, clear, actionable — well done."
+Panel 7: Nam reflects.. Speech: Nam: "Incident English — I can handle the war room now."
 
 ENGLISH FOCUS box must list:
 - "What we know so far is..." = Những gì chúng ta biết đến giờ là...

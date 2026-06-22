@@ -1,6 +1,11 @@
 """Beginner-friendly vocabulary & phrase notes for dialogue breakdown."""
 
 from get_episode_vocab import GET_GRAMMAR_PATTERNS, GET_PHRASE_NOTES, GET_SENTENCE_VI
+from phrasal_episode_vocab import (
+    PHRASAL_GRAMMAR_PATTERNS,
+    PHRASAL_PHRASE_NOTES,
+    PHRASAL_SENTENCE_VI,
+)
 
 # Multi-word phrases — matched longest first
 PHRASE_NOTES: dict[str, str] = {
@@ -252,7 +257,9 @@ SENTENCE_VI: dict[str, str] = {
     "that makes sense now - thank you": "Giờ tôi hiểu rồi — cảm ơn bạn.",
 }
 SENTENCE_VI.update(GET_SENTENCE_VI)
+SENTENCE_VI.update(PHRASAL_SENTENCE_VI)
 PHRASE_NOTES.update(GET_PHRASE_NOTES)
+PHRASE_NOTES.update(PHRASAL_PHRASE_NOTES)
 
 # Canonical dialogue: data/canonical-dialogues.json (scripts/build-canonical-dialogues.py)
 
@@ -279,3 +286,4 @@ GRAMMAR_PATTERNS = [
     (r"\bgetting used to\b", "**getting used to + N/V-ing** = đang quen dần với."),
 ]
 GRAMMAR_PATTERNS.extend(GET_GRAMMAR_PATTERNS)
+GRAMMAR_PATTERNS.extend(PHRASAL_GRAMMAR_PATTERNS)
